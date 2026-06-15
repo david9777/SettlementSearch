@@ -1,0 +1,29 @@
+# One-click deploy config for Render (https://render.com).
+# In Render: New → Blueprint → connect the repo containing this file.
+#
+# This config gives a PERMANENT site: a 1 GB persistent disk holds the SQLite
+# database, so every refresh (manual or the 6-hourly auto-refresh) is saved
+# forever and survives restarts/redeploys. Persistent disks require a paid
+# instance (Starter ≈ $7/mo). For a free, NON-durable trial, change plan to
+# "free" and delete the whole `disk:` block + the DB_PATH env var — data will
+# then reset to the bundled baseline on each restart.
+services:
+  - type: web
+    name: settlesearch
+    runtime: python
+    plan: starter
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python server.py"
+    disk:
+      name: settlesearch-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: DB_PATH            # durable SQLite on the persistent disk
+        value: "/data/settlements.db"
+      - key: AUTO_REFRESH_HOURS # background auto-pull cadence (0 disables)
+        value: "6"
+      - key: REFRESH_COOLDOWN   # min seconds between real refresh pulls (bot protection)
+        value: "120"

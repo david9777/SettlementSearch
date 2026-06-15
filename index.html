@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Levi &amp; Korsinsky — Settlement Database</title>
+  <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark">§</div>
+      <div class="brand-text">
+        <h1>Levi &amp; Korsinsky</h1>
+        <p>Class Action &amp; Mass Tort Settlement Database</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span id="lastUpdated" class="last-updated"></span>
+      <button id="refreshBtn" class="btn btn-primary" title="Pull the latest settlements from live sources">
+        <span class="btn-spinner" aria-hidden="true"></span>
+        <span class="btn-label">⟳ Refresh data</span>
+      </button>
+      <button id="exportBtn" class="btn btn-ghost" title="Export the current view to CSV">
+        ↓ Export CSV
+      </button>
+    </div>
+  </header>
+
+  <!-- Aggregate metric tiles -->
+  <section class="metrics" id="metrics" aria-label="Database metrics">
+    <div class="metric">
+      <div class="metric-value" id="m-count">—</div>
+      <div class="metric-label">Settlements</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value" id="m-value">—</div>
+      <div class="metric-label">Total Coded Value</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value" id="m-class">—</div>
+      <div class="metric-label">Class Members</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value" id="m-cats">—</div>
+      <div class="metric-label">Practice Areas</div>
+    </div>
+    <div class="metric">
+      <div class="metric-value" id="m-largest">—</div>
+      <div class="metric-label">Largest Settlement</div>
+    </div>
+  </section>
+
+  <main class="layout">
+    <!-- Filter sidebar -->
+    <aside class="sidebar" aria-label="Filters">
+      <div class="search-box">
+        <input
+          type="search"
+          id="search"
+          placeholder="Search case, defendant, court, judge…"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-head">
+          <h3>Record Type</h3>
+          <button class="link-btn" data-clear="rtype">clear</button>
+        </div>
+        <div id="filter-rtype" class="checkbox-list"></div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-head">
+          <h3>Practice Area</h3>
+          <button class="link-btn" data-clear="category">clear</button>
+        </div>
+        <div id="filter-category" class="checkbox-list"></div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-head">
+          <h3>Status</h3>
+          <button class="link-btn" data-clear="status">clear</button>
+        </div>
+        <div id="filter-status" class="checkbox-list"></div>
+      </div>
+
+      <div class="filter-group">
+        <h3>Year</h3>
+        <div class="range-row">
+          <select id="yearMin" class="select"></select>
+          <span class="range-sep">to</span>
+          <select id="yearMax" class="select"></select>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <h3>Minimum Settlement</h3>
+        <select id="amountMin" class="select select-full">
+          <option value="0">Any (incl. no amount)</option>
+          <option value="has">Has dollar amount</option>
+          <option value="none">No amount listed</option>
+          <option value="1000000">$1M+</option>
+          <option value="10000000">$10M+</option>
+          <option value="50000000">$50M+</option>
+          <option value="100000000">$100M+</option>
+          <option value="500000000">$500M+</option>
+          <option value="1000000000">$1B+</option>
+        </select>
+      </div>
+
+      <button id="resetBtn" class="btn btn-block">Reset all filters</button>
+    </aside>
+
+    <!-- Results table -->
+    <section class="results">
+      <div class="results-bar">
+        <span id="resultCount" class="result-count">—</span>
+        <div class="sort-control">
+          <label for="sortSelect">Sort</label>
+          <select id="sortSelect" class="select">
+            <option value="amount:desc">Amount (high → low)</option>
+            <option value="amount:asc">Amount (low → high)</option>
+            <option value="year:desc">Year (newest)</option>
+            <option value="year:asc">Year (oldest)</option>
+            <option value="class_size:desc">Class size (largest)</option>
+            <option value="short_name:asc">Case name (A → Z)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="settlement-table">
+          <thead>
+            <tr>
+              <th class="col-case" data-sort="short_name">Case</th>
+              <th class="col-cat" data-sort="category">Practice Area</th>
+              <th class="col-amt num" data-sort="amount">Amount</th>
+              <th class="col-year num" data-sort="year">Year</th>
+              <th class="col-court">Court</th>
+              <th class="col-class num" data-sort="class_size">Class Size</th>
+              <th class="col-status">Status</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+        <div id="emptyState" class="empty-state" hidden>
+          <p>No settlements match your filters.</p>
+          <button class="btn" onclick="document.getElementById('resetBtn').click()">Reset filters</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Detail drawer -->
+  <div id="overlay" class="overlay" hidden></div>
+  <aside id="detail" class="detail-drawer" hidden aria-label="Settlement detail">
+    <button id="detailClose" class="detail-close" aria-label="Close">×</button>
+    <div id="detailBody"></div>
+  </aside>
+
+  <footer class="site-footer">
+    <p>
+      <strong>SettleSearch</strong> — built from public-record settlement data
+      (court filings, dockets, and public reporting). Figures are headline/aggregate
+      settlement values and are provided for research and benchmarking. Verify against
+      primary sources before relying on any figure.
+    </p>
+  </footer>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="data.js"></script>
+  <script src="app.js?v=4"></script>
+</body>
+</html>

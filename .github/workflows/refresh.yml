@@ -1,0 +1,49 @@
+# Free, durable auto-refresh — no server needed.
+#
+# Every 6 hours (and on demand), GitHub's free runners pull all ~25 sources,
+# merge new records, and commit the updated settlements.json + data.js back to
+# the repo. If the site is on GitHub Pages, it redeploys automatically. The data
+# is stored permanently in git history — $0, forever.
+name: Refresh settlements
+
+on:
+  schedule:
+    - cron: "0 7 * * *"       # once daily at 07:00 UTC (keeps the repo's git
+                              # history lean; change to "0 */6 * * *" for 6-hourly)
+  workflow_dispatch: {}         # adds a manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write               # allow the bot to commit updated data
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull latest settlements and export
+        env:
+          REFRESH_COOLDOWN: "0"
+        run: |
+          python server.py --refresh-once
+          python server.py --export
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "settlesearch-bot"
+          git config user.email "settlesearch-bot@users.noreply.github.com"
+          git add settlements.json data.js
+          if git diff --staged --quiet; then
+            echo "No new settlements this run."
+          else
+            git commit -m "Auto-refresh settlements ($(date -u +%Y-%m-%dT%H:%MZ)) [skip ci]"
+            git push
+          fi

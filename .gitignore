@@ -1,0 +1,22 @@
+# Runtime state — the live DB is created from settlements.json on first boot.
+# (On the host it lives on the persistent disk, not in the repo.)
+settlements.db
+settlements.db-wal
+settlements.db-shm
+meta.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Local scratch / probe scripts
+_*.py
+*.output
+
+# Local-only (not needed in the published site repo)
+standalone/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
