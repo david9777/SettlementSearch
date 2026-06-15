@@ -1071,7 +1071,7 @@ def enrich_missing(limit=1500, workers=6):
             "SELECT id, data FROM settlements "
             "WHERE (amount IS NULL OR year IS NULL) "
             "AND data LIKE '%\"source_url\": \"http%' "
-            "AND data NOT LIKE '%\"enriched_at\"%' "
+            "AND data NOT LIKE '%\"enriched_at\": \"%' "
             "ORDER BY (record_type='Settlement') DESC, rowid LIMIT ?", (limit,)).fetchall()
     todo = [(rid, json.loads(blob)) for rid, blob in rows]
     today = datetime.now(timezone.utc).date().isoformat()
