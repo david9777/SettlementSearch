@@ -300,6 +300,28 @@
     );
   }
 
+  // CourtListener docket search (free federal court database). We link rather
+  // than auto-store a docket number, because automatic name-matching picks the
+  // wrong case too often to trust in a firm's database.
+  function clSearch(query) {
+    return "https://www.courtlistener.com/?type=r&q=" + encodeURIComponent(query);
+  }
+  function docketRow(d) {
+    var find = (d.short_name || d.case_name || "").replace(/^\$[\d.,]+[a-z]*\s+/i, "");
+    if (d.defendant && d.defendant.indexOf("(") < 0) find += " " + d.defendant;
+    var findLink = '<a href="' + esc(clSearch(find)) +
+      '" target="_blank" rel="noopener">Find docket on CourtListener ↗</a>';
+    var v = findLink;
+    if (d.case_number) {
+      var lookup = '<a href="' + esc(clSearch(d.case_number + " " + (d.defendant || ""))) +
+        '" target="_blank" rel="noopener">look up ↗</a>';
+      v = '<span class="mono">' + esc(d.case_number) + "</span> · " + lookup +
+          '<div class="docket-find">' + findLink + "</div>";
+    }
+    return '<div class="detail-row"><div class="k">Court docket</div>' +
+           '<div class="v">' + v + "</div></div>";
+  }
+
   function openDetail(d) {
     const amt = money(d.amount);
     const rt = d.record_type || "Settlement";
@@ -330,7 +352,7 @@
         detailRow("Status", d.status) +
         detailRow("Court", d.court_full || d.court) +
         detailRow("Judge", d.judge) +
-        detailRow("Docket / MDL", d.case_number, true) +
+        docketRow(d) +
         detailRow("Class size", d.class_size != null ? fullNum(d.class_size) + " members" : null) +
         detailRow("Settlement", amt ? amt + " (" + fullNum(d.amount) + ")" : "Non-monetary / N/A") +
         detailRow("Attorneys' fees", d.fee_award != null ? money(d.fee_award) + " (" + fullNum(d.fee_award) + ")" : null) +
