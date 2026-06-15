@@ -38,7 +38,7 @@ SITE_NAME = os.environ.get("SITE_NAME", "")      # optional firm branding
 FIELDS = ["id", "case_name", "short_name", "defendant", "amount", "category",
           "record_type", "year", "status", "court", "court_full", "judge",
           "case_number", "class_size", "fee_award", "description", "source",
-          "source_url", "date_added"]
+          "source_url", "date_added", "enriched_at"]
 
 # Free-text notes connectors can attach to a refresh (e.g. "capped at N").
 REFRESH_NOTES = []
@@ -1011,6 +1011,98 @@ def export_data_js():
 
 
 # ----------------------------------------------------------------------------
+# Enrichment — fetch each settlement page and pull the dollar amount + year out
+# of the page's own summary (meta description / H1), which is case-specific and
+# clean. We never guess: if the figure isn't reliably present, the field stays
+# blank and the source link lets the user see it. Many claims-administrator
+# pages are JavaScript-rendered (no readable amount), so coverage is partial.
+# ----------------------------------------------------------------------------
+import concurrent.futures as _cf
+
+_META_DESC = re.compile(r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']', re.S | re.I)
+_OG_DESC = re.compile(r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\'](.*?)["\']', re.S | re.I)
+_H1 = re.compile(r"<h1[^>]*>(.*?)</h1>", re.S | re.I)
+_TITLE = re.compile(r"<title>(.*?)</title>", re.S | re.I)
+_PUB_YEAR = re.compile(r'(?:article:published_time|og:updated_time)["\'][^>]+content=["\'](\d{4})', re.I)
+_JS_JUNK = re.compile(r"(var |function|=>|H1_MAP|\{)")
+
+
+def _strip(s):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s or "")).strip()
+
+
+def _enrich_one(rec):
+    """Return {amount?, year?} extracted from the record's page, or {}."""
+    url = (rec.get("source_url") or "").strip()
+    if not url.startswith("http") or "cases.html" in url:
+        return {}
+    try:
+        page = http_get(url, timeout=15,
+                        headers={"User-Agent": BROWSER_UA, "Accept": "text/html"}).decode("utf-8", "replace")
+    except Exception:
+        return {}
+    m = _META_DESC.search(page) or _OG_DESC.search(page)
+    desc = html.unescape(_strip(m.group(1) if m else ""))
+    h1 = _strip((_H1.search(page) or [None, ""])[1] if _H1.search(page) else "")
+    title = _strip((_TITLE.search(page) or [None, ""])[1] if _TITLE.search(page) else "")
+    head = h1 if h1 and not _JS_JUNK.search(h1) else ""
+    head = (head + " " + title).strip()
+    out = {}
+    if rec.get("amount") is None:
+        # Description first (it's a clean, case-specific summary), then headline.
+        a = parse_amount(desc) or parse_amount(head)
+        if a is not None:
+            out["amount"] = a
+    if rec.get("year") is None:
+        sy = re.search(r"-(20[0-2]\d)(?:[-/]|$)", url)
+        py = _PUB_YEAR.search(page)
+        y = int(sy.group(1)) if sy else (int(py.group(1)) if py else None)
+        if y and 2005 <= y <= 2026:
+            out["year"] = y
+    return out
+
+
+def enrich_missing(limit=1500, workers=6):
+    """Fill missing amount/year for up to `limit` not-yet-attempted records
+    (Settlement first). Each record is attempted once (marked enriched_at) so
+    un-fillable / JS-rendered pages aren't re-fetched on every run."""
+    with _connect() as c:
+        rows = c.execute(
+            "SELECT id, data FROM settlements "
+            "WHERE (amount IS NULL OR year IS NULL) "
+            "AND data LIKE '%\"source_url\": \"http%' "
+            "AND data NOT LIKE '%\"enriched_at\"%' "
+            "ORDER BY (record_type='Settlement') DESC, rowid LIMIT ?", (limit,)).fetchall()
+    todo = [(rid, json.loads(blob)) for rid, blob in rows]
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    def work(item):
+        rid, rec = item
+        got = _enrich_one(rec)        # {} if nothing reliable found
+        rec.update(got)
+        rec["enriched_at"] = today    # mark attempted either way
+        return (rid, rec, got)
+
+    results = []
+    with _cf.ThreadPoolExecutor(max_workers=workers) as ex:
+        for res in ex.map(work, todo):
+            results.append(res)
+
+    n_amt = n_yr = 0
+    with _DB_LOCK, _connect() as c:
+        for rid, rec, got in results:
+            if "amount" in got:
+                n_amt += 1
+            if "year" in got:
+                n_yr += 1
+            c.execute("UPDATE settlements SET amount=?, year=?, data=? WHERE id=?",
+                      (rec.get("amount"), rec.get("year"),
+                       json.dumps(rec, ensure_ascii=False), rid))
+    _invalidate_cache()
+    return {"scanned": len(todo), "amounts_filled": n_amt, "years_filled": n_yr}
+
+
+# ----------------------------------------------------------------------------
 # Refresh — pull, dedup, merge, persist
 # ----------------------------------------------------------------------------
 _CURATED_STATUSES = {"final approval", "global settlement", "preliminary",
@@ -1216,6 +1308,12 @@ def main():
             json.dump(records, f, indent=2, ensure_ascii=False)
         export_data_js()
         print("Exported %d records to settlements.json and data.js" % len(records))
+        return
+    if "--enrich" in sys.argv:
+        limit = int(os.environ.get("ENRICH_LIMIT", "1500"))
+        if "--limit" in sys.argv:
+            limit = int(sys.argv[sys.argv.index("--limit") + 1])
+        print(json.dumps(enrich_missing(limit), indent=2))
         return
 
     # Hosting platforms (Render, Railway, Fly, etc.) inject the port via $PORT and

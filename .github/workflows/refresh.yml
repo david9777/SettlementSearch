@@ -29,11 +29,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Pull latest settlements and export
+      - name: Pull latest settlements, enrich amounts/years, export
         env:
           REFRESH_COOLDOWN: "0"
+          ENRICH_LIMIT: "2500"   # fetch up to N settlement pages/run to fill $ + year
         run: |
           python server.py --refresh-once
+          python server.py --enrich
           python server.py --export
 
       - name: Commit updated data
