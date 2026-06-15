@@ -303,8 +303,15 @@
   function openDetail(d) {
     const amt = money(d.amount);
     const rt = d.record_type || "Settlement";
+    // Build a useful search (no exact-phrase quotes, which often return nothing).
+    var sq = (d.short_name || d.case_name || "").replace(/^\$[\d.,]+[a-z]*\s+/i, "");
+    if (d.defendant && d.defendant.indexOf("(") < 0) sq += " " + d.defendant;
     const searchUrl = "https://www.google.com/search?q=" +
-      encodeURIComponent('"' + (d.case_name || d.short_name) + '" settlement');
+      encodeURIComponent(sq + " class action settlement");
+    // A few sources only expose a generic case-list page (no per-case URL) —
+    // treat those as "no direct source" and offer the search instead.
+    const GENERIC = ["rg2claims.com/cases.html"];
+    const realSource = d.source_url && GENERIC.every(function (g) { return d.source_url.indexOf(g) < 0; });
     el.detailBody.innerHTML =
       '<div class="detail-eyebrow">' + esc(d.category) +
         (rt !== "Settlement" ? ' · <span class="eyebrow-type">' + esc(rt) + "</span>" : "") +
@@ -329,7 +336,7 @@
         detailRow("Attorneys' fees", d.fee_award != null ? money(d.fee_award) + " (" + fullNum(d.fee_award) + ")" : null) +
         detailRow("Source", d.source) +
         '<div class="detail-row"><div class="k">Link</div><div class="v">' +
-          (d.source_url
+          (realSource
             ? '<a href="' + esc(d.source_url) + '" target="_blank" rel="noopener">View source ↗</a>'
             : '<a href="' + esc(searchUrl) + '" target="_blank" rel="noopener">Search this case ↗</a>') +
         "</div></div>" +
