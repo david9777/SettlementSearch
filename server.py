@@ -131,15 +131,24 @@ def classify(text):
 
 # Record types: everything gets ingested; this tag is what makes the catch-all
 # content easy to filter in the UI.
-RT_SETTLEMENT = "Settlement"
+RT_SETTLEMENT = "Settlement"        # confirmed / claimable / finalized settlements
+RT_ANNOUNCEMENT = "Announcement"    # announced, proposed, or rumored settlements
 RT_LAWSUIT = "Lawsuit Filed"
 RT_INVESTIGATION = "Investigation"
+RT_REGULATORY = "Regulatory"        # govt enforcement actions/orders (non-settlement)
 RT_NEWS = "News & Guides"
 
 _RT_NEWS_PAT = re.compile(
-    r"(you can claim|how to (file|claim|submit)|what you need to know|"
-    r"learn about|deadline[s]? (this|in|for)|^\s*(top\s+)?\d+\s+(open\s+)?class action|"
-    r"settlements? (to watch|roundup)|guide\b|faq\b)", re.I)
+    r"(you can claim|how to (file|claim|submit|get)|what you need to know|"
+    r"everything you need to know|here'?s how|how to get (money|paid)|"
+    r"what happens to|who'?s getting paid|whos getting paid|learn about|"
+    r"deadline[s]? (this|in|for)|^\s*(top\s+)?\d+\s+(open\s+)?class action|"
+    r"settlements? (to watch|roundup)|class action roundup|"
+    r"average .{0,30}(settlement|verdict)|settlements? and verdicts?|"
+    r"guide\b|faq\b)", re.I)
+# News-section URL paths: a page filed under a site's news section reports ON a
+# settlement, it isn't the claimable settlement record itself.
+_NEWS_PATH_RE = re.compile(r"/(news|class-action-in-the-news|lawsuit-news)/", re.I)
 _RT_INVESTIGATION_PAT = re.compile(
     r"(investigat\w+|attorneys? (are )?reviewing|under (review|scrutiny)|probe\b)", re.I)
 _RT_SETTLEMENT_PAT = re.compile(
@@ -149,22 +158,97 @@ _RT_LAWSUIT_PAT = re.compile(
     r"(lawsuit|sues?\b|sued\b|files? (suit|complaint|motion|charges)|hit with|"
     r"faces? (class action|suit|claims)|alleg\w+|accus\w+|complaint filed|seeks comment)", re.I)
 
+# Finalized/claimable signals → a verified Settlement (these OVERRIDE the
+# announcement signals: an approved or claimable deal is a real settlement).
+_RT_FINAL_PAT = re.compile(
+    r"(final approval|finally approved|judge approv\w+|court approv\w+|"
+    r"approved the settlement|settlement approved|preliminary approval|"
+    r"consent (order|decree|judgment)|settled\b|claims? (administrator|deadline|period|process)|"
+    r"file (a )?claim|submit (a )?claim|claim form|payout|distribution|valid claim)", re.I)
+# Not-yet-final signals → an Announcement / Rumor (news that a deal is coming).
+_RT_ANNOUNCE_PAT = re.compile(
+    r"(reach\w* (a |an |the )?settlement|settlement (was |is |has been |to be )?reach\w*|"
+    r"announc\w+|proposed settlement|tentative\w*|in talks|nearing (a )?settlement|"
+    r"rumor\w*|reportedly|may settle|could settle|set to settle|expected to settle|"
+    r"agree\w* to settle|settlement talks|to settle (claims|charges|allegations|lawsuit|suit))",
+    re.I)
+
 
 def derive_record_type(text):
-    t = (text or "").strip()
+    # Normalize curly quotes so patterns like "who's getting paid" match titles
+    # that use Unicode apostrophes (’) from news feeds.
+    t = (text or "").replace("’", "'").replace("‘", "'").strip()
     if _RT_NEWS_PAT.search(t):
         return RT_NEWS
     if _RT_INVESTIGATION_PAT.search(t):
         return RT_INVESTIGATION
     if _RT_SETTLEMENT_PAT.search(t):
+        # Verified settlement if finalized/claimable; otherwise, if the wording is
+        # "reaches/proposed/rumored…", it's an announcement, not a banked settlement.
+        if _RT_FINAL_PAT.search(t):
+            return RT_SETTLEMENT
+        if _RT_ANNOUNCE_PAT.search(t):
+            return RT_ANNOUNCEMENT
         return RT_SETTLEMENT
     if _RT_LAWSUIT_PAT.search(t):
         return RT_LAWSUIT
     return RT_NEWS
 
 
-_RT_STATUS = {RT_SETTLEMENT: "Settlement", RT_LAWSUIT: "Complaint Filed",
-              RT_INVESTIGATION: "Investigation", RT_NEWS: "News"}
+_RT_STATUS = {RT_SETTLEMENT: "Settlement", RT_ANNOUNCEMENT: "Announced / Proposed",
+              RT_LAWSUIT: "Complaint Filed", RT_INVESTIGATION: "Investigation",
+              RT_REGULATORY: "Regulatory Action", RT_NEWS: "News"}
+
+# Legal-news blogs report ON settlements (announcements/rumors) rather than
+# hosting claim portals, so their settlement items are Announcements unless the
+# wording shows the deal is finalized/claimable.
+NEWS_BLOGS = {"AboutLawsuits", "LawyersAndSettlements", "BigClassAction",
+              "Lawsuit Information Center"}
+
+# Government enforcement sources. Their releases are a mix of complaints, orders,
+# merger reviews, comment requests, and (occasionally) actual monetary
+# settlements. Only the last belongs in the Settlement tab; the rest are
+# Regulatory so the Settlement tab stays "confirmed settlements only".
+GOV_SOURCES = {"FTC press release", "SEC", "CFPB", "DOJ", "California AG",
+               "Washington AG", "New York AG", "NAAG (State AGs)"}
+
+_GOV_PROCEDURAL = re.compile(
+    r"(seeks comment|comment period|petition|request for|proposes|proposed (rule|order)|"
+    r"workshop|report|testimony|warns?\b|alert|guidance|acquisition|merger|divestiture|"
+    r"set aside|modify (the )?order|rulemaking)", re.I)
+_GOV_LAWSUIT = re.compile(
+    r"(sues?\b|sued\b|files? (suit|complaint|charges|an action)|charged\b|indict\w+|"
+    r"takes action against|moves to (block|stop)|sue to)", re.I)
+_GOV_MONEY = re.compile(
+    r"(refund|restitution|redress|disgorge\w*|returns? \$|to pay \$|pay \$[\d.,]+|"
+    r"\$[\d.,]+\s*(million|billion|m\b|b\b))", re.I)
+_GOV_SETTLE = re.compile(
+    r"(settl\w+|consent (order|decree|judgment)|agrees? to pay|will pay|agreed to pay)", re.I)
+
+
+def gov_record_type(text, amount):
+    """Classify a government enforcement release. Only a settlement with consumer
+    money attached counts as a confirmed Settlement; everything else is
+    Regulatory (or a complaint/investigation)."""
+    t = text or ""
+    if _RT_INVESTIGATION_PAT.search(t):
+        return RT_INVESTIGATION
+    if _GOV_LAWSUIT.search(t) and not _GOV_SETTLE.search(t):
+        return RT_LAWSUIT
+    confirmed_money = bool(amount) or bool(_GOV_MONEY.search(t))
+    if confirmed_money and _GOV_SETTLE.search(t) and not _GOV_PROCEDURAL.search(t):
+        return RT_SETTLEMENT
+    return RT_REGULATORY
+
+
+def refine_record_type(source, record_type, text, amount=None):
+    """Final say on a record's type, applied to every ingested record."""
+    if source in GOV_SOURCES:
+        return gov_record_type(text, amount)
+    if record_type == RT_SETTLEMENT and source in NEWS_BLOGS \
+            and not _RT_FINAL_PAT.search(text or ""):
+        return RT_ANNOUNCEMENT
+    return record_type
 
 
 def slugify(name):
@@ -426,8 +510,11 @@ def _record_from_slug(url, source_label):
     amount = _amount_from_slug(slug)
     slug_text = slug.replace("-", " ")
     rt = derive_record_type(slug_text)
-    # A page under an /investigations/ path is an investigation regardless of slug.
-    if "/investigations/" in url.lower():
+    low = url.lower()
+    # A page under a news / investigations path reflects the path, not the slug.
+    if _NEWS_PATH_RE.search(low):
+        rt = RT_NEWS
+    elif "/investigations/" in low:
         rt = RT_INVESTIGATION
     return {
         "case_name": title,
@@ -968,6 +1055,14 @@ def refresh():
     added = []
     for c in candidates:
         nm = c.get("short_name") or c.get("case_name")
+        # Final type pass: route govt enforcement → Regulatory, news-blog
+        # "settlement" reports → Announcement, etc.
+        refined = refine_record_type(c.get("source"), c.get("record_type"),
+                                     nm + " " + (c.get("description") or ""),
+                                     c.get("amount"))
+        if refined != c.get("record_type"):
+            c["record_type"] = refined
+            c["status"] = _RT_STATUS[refined]
         slug, dkey = _keys(nm, c.get("record_type"))
         if slug in known or dkey in known:
             continue

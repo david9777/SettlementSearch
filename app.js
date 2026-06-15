@@ -123,7 +123,7 @@
     });
   }
 
-  const RTYPE_ORDER = ["Settlement", "Lawsuit Filed", "Investigation", "News & Guides"];
+  const RTYPE_ORDER = ["Settlement", "Announcement", "Lawsuit Filed", "Investigation", "Regulatory", "News & Guides"];
   function buildFilters() {
     const rtypes = uniqueSorted("record_type")
       .sort((a, b) => RTYPE_ORDER.indexOf(a) - RTYPE_ORDER.indexOf(b));
