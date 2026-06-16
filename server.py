@@ -38,7 +38,7 @@ SITE_NAME = os.environ.get("SITE_NAME", "")      # optional firm branding
 FIELDS = ["id", "case_name", "short_name", "defendant", "amount", "category",
           "record_type", "year", "status", "court", "court_full", "judge",
           "case_number", "class_size", "fee_award", "description", "source",
-          "source_url", "date_added", "enriched_at"]
+          "source_url", "date_added", "enriched_at", "amount_src"]
 
 # Free-text notes connectors can attach to a refresh (e.g. "capped at N").
 REFRESH_NOTES = []
@@ -507,7 +507,10 @@ def _defendant_from_title(title):
 def _record_from_slug(url, source_label):
     slug = url.rstrip("/").split("/")[-1]
     title = _title_from_slug(slug)
-    amount = _amount_from_slug(slug)
+    # ClassActionBuddy encodes amounts in slugs with the decimal point removed
+    # ("107m" can mean $1.07M, not $107M), so its slug amounts are unreliable —
+    # leave it blank and let page enrichment fill the authoritative figure.
+    amount = None if source_label == "ClassActionBuddy" else _amount_from_slug(slug)
     slug_text = slug.replace("-", " ")
     rt = derive_record_type(slug_text)
     low = url.lower()
@@ -521,6 +524,7 @@ def _record_from_slug(url, source_label):
         "short_name": title,
         "defendant": _defendant_from_title(title),
         "amount": amount,
+        "amount_src": "slug" if amount is not None else None,
         "category": classify(slug_text),
         "record_type": rt,
         "year": None,  # sitemaps carry no date
@@ -1080,6 +1084,8 @@ def enrich_missing(limit=1500, workers=6):
         rid, rec = item
         got = _enrich_one(rec)        # {} if nothing reliable found
         rec.update(got)
+        if "amount" in got:
+            rec["amount_src"] = "page"   # authoritative — from the page itself
         rec["enriched_at"] = today    # mark attempted either way
         return (rid, rec, got)
 
@@ -1100,6 +1106,30 @@ def enrich_missing(limit=1500, workers=6):
                        json.dumps(rec, ensure_ascii=False), rid))
     _invalidate_cache()
     return {"scanned": len(todo), "amounts_filled": n_amt, "years_filled": n_yr}
+
+
+def scrub_unreliable_amounts():
+    """Null any ClassActionBuddy amount that wasn't page-verified (its slug
+    amounts drop decimal points and are unreliable), and clear its enrich marker
+    so the next enrich pass re-fills the authoritative figure from the page.
+    Idempotent: once amount_src == 'page', the record is left alone."""
+    with _connect() as c:
+        rows = c.execute(
+            "SELECT id, data FROM settlements WHERE source='ClassActionBuddy' "
+            "AND amount IS NOT NULL "
+            "AND data NOT LIKE '%\"amount_src\": \"page\"%'").fetchall()
+    n = 0
+    with _DB_LOCK, _connect() as c:
+        for rid, blob in rows:
+            rec = json.loads(blob)
+            rec["amount"] = None
+            rec["amount_src"] = None
+            rec["enriched_at"] = None      # force re-enrichment from the page
+            c.execute("UPDATE settlements SET amount=NULL, data=? WHERE id=?",
+                      (json.dumps(rec, ensure_ascii=False), rid))
+            n += 1
+    _invalidate_cache()
+    return {"scrubbed": n}
 
 
 # ----------------------------------------------------------------------------
@@ -1308,6 +1338,9 @@ def main():
             json.dump(records, f, indent=2, ensure_ascii=False)
         export_data_js()
         print("Exported %d records to settlements.json and data.js" % len(records))
+        return
+    if "--scrub" in sys.argv:
+        print(json.dumps(scrub_unreliable_amounts(), indent=2))
         return
     if "--enrich" in sys.argv:
         limit = int(os.environ.get("ENRICH_LIMIT", "1500"))

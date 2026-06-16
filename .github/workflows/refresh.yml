@@ -35,6 +35,7 @@ jobs:
           ENRICH_LIMIT: "2500"   # fetch up to N settlement pages/run to fill $ + year
         run: |
           python server.py --refresh-once
+          python server.py --scrub
           python server.py --enrich
           python server.py --export
 
