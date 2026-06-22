@@ -13,7 +13,7 @@
     yearMin: null,
     yearMax: null,
     amountMin: 0,       // 0 | numeric threshold | "has" | "none"
-    sortKey: "year",    // default: Newest first
+    sortKey: "date_added",  // default: most recently added to the database first
     sortDir: "desc",
     renderCap: 500,     // rows rendered at once; grown by the "Show more" row
     online: false,      // true when the local data server is reachable
@@ -188,10 +188,12 @@
       if (na && nb) return 0;
       if (na) return 1;
       if (nb) return -1;
-      if (typeof va === "string") {
-        return va.localeCompare(vb) * dir;
+      var cmp = (typeof va === "string") ? va.localeCompare(vb) * dir : (va - vb) * dir;
+      // date_added is per-day, so break ties by amount (biggest of the day first).
+      if (cmp === 0 && sortKey === "date_added") {
+        return (b.amount || 0) - (a.amount || 0);
       }
-      return (va - vb) * dir;
+      return cmp;
     });
   }
 
@@ -200,8 +202,25 @@
   }
 
   // ---------- Rendering ----------
+  // Newest date_added in the dataset — the "NEW" badge marks records from the
+  // latest few batches the bot pulled, so it stays meaningful whenever you visit.
+  var newestAdded = null;
+  function computeNewestAdded() {
+    newestAdded = null;
+    for (var i = 0; i < DATA.length; i++) {
+      var da = DATA[i].date_added;
+      if (da && (newestAdded === null || da > newestAdded)) newestAdded = da;
+    }
+  }
+  function isRecentlyAdded(dateStr) {
+    // "NEW" = added in the most recent daily batch the bot pulled. Exact-match
+    // the latest date so the initial bulk import doesn't light up the whole list.
+    return !!dateStr && dateStr === newestAdded;
+  }
+
   function render(keepCap) {
     if (!keepCap) state.renderCap = RENDER_CHUNK;
+    computeNewestAdded();
     const rows = getView();
     renderTable(rows);
     renderMetrics(rows);
@@ -229,9 +248,10 @@
       const typeChip = rt !== "Settlement"
         ? ' <span class="badge badge-type">' + esc(rt) + "</span>"
         : "";
+      const newChip = isRecentlyAdded(d.date_added) ? '<span class="badge badge-new">NEW</span> ' : "";
       tr.innerHTML =
         '<td class="case-cell">' +
-          '<div class="case-name">' + esc(d.short_name) + "</div>" +
+          '<div class="case-name">' + newChip + esc(d.short_name) + "</div>" +
           '<div class="case-def">' + esc(d.defendant) + "</div>" +
         "</td>" +
         '<td><span class="badge badge-cat">' + esc(d.category) + "</span>" + typeChip + "</td>" +

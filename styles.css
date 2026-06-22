@@ -271,6 +271,8 @@ html, body {
 }
 .badge-cat { background: var(--accent-soft); color: var(--accent-ink); }
 .badge-type { background: #f6efdc; color: #8a6d1a; margin-top: 3px; display: inline-block; }
+.badge-new { background: #1a7f43; color: #fff; font-size: 10px; letter-spacing: .03em;
+  padding: 1px 6px; border-radius: 4px; vertical-align: 1px; }
 .eyebrow-type { color: #8a6d1a; }
 .status { font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 20px; white-space: nowrap; }
 .status-final    { background: #e7f6ec; color: #1a7f43; }

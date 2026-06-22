@@ -121,10 +121,11 @@
         <div class="sort-control">
           <label for="sortSelect">Sort</label>
           <select id="sortSelect" class="select">
+            <option value="date_added:desc">Recently added (newest first)</option>
             <option value="amount:desc">Amount (high → low)</option>
             <option value="amount:asc">Amount (low → high)</option>
-            <option value="year:desc">Year (newest)</option>
-            <option value="year:asc">Year (oldest)</option>
+            <option value="year:desc">Settlement year (newest)</option>
+            <option value="year:asc">Settlement year (oldest)</option>
             <option value="class_size:desc">Class size (largest)</option>
             <option value="short_name:asc">Case name (A → Z)</option>
           </select>
@@ -173,6 +174,6 @@
   <div id="toast" class="toast" hidden></div>
 
   <script src="data.js"></script>
-  <script src="app.js?v=8"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>
