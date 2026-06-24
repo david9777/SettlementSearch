@@ -504,17 +504,21 @@
   }
 
   // ---------- Live data ----------
+  function dropDead(list) {
+    // Records whose page turned out to be a 404 / generic page are flagged dead.
+    return (list || []).filter(function (r) { return !r.dead; });
+  }
   async function loadData() {
     try {
       const res = await fetch("api/settlements", { cache: "no-store" });
       if (!res.ok) throw new Error("api unavailable");
       const json = await res.json();
-      DATA = (json.settlements || json || []).slice();
+      DATA = dropDead(json.settlements || json || []);
       state.online = true;
       state.lastUpdated = json.last_updated || null;
     } catch (e) {
       // Opened directly from disk (file://) or no server — use the embedded data.
-      DATA = (window.SETTLEMENTS || []).slice();
+      DATA = dropDead(window.SETTLEMENTS || []);
       state.online = false;
       state.lastUpdated = null;
     }

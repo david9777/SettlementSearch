@@ -38,7 +38,8 @@ SITE_NAME = os.environ.get("SITE_NAME", "")      # optional firm branding
 FIELDS = ["id", "case_name", "short_name", "defendant", "amount", "category",
           "record_type", "year", "status", "court", "court_full", "judge",
           "case_number", "class_size", "fee_award", "description", "source",
-          "source_url", "date_added", "enriched_at", "amount_src"]
+          "source_url", "date_added", "enriched_at", "amount_src",
+          "enrich_ver", "dead"]
 
 # Free-text notes connectors can attach to a refresh (e.g. "capped at N").
 REFRESH_NOTES = []
@@ -1023,89 +1024,172 @@ def export_data_js():
 # ----------------------------------------------------------------------------
 import concurrent.futures as _cf
 
-_META_DESC = re.compile(r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']', re.S | re.I)
-_OG_DESC = re.compile(r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\'](.*?)["\']', re.S | re.I)
-_H1 = re.compile(r"<h1[^>]*>(.*?)</h1>", re.S | re.I)
+# Bump this to force a full re-enrichment of every record with newer extraction.
+ENRICH_VER = "2"
+
+# Sitemap sources carry only a URL slug at ingestion, so for these the PAGE is
+# authoritative for name, summary, amount, year, and type. (RSS/gov sources
+# already arrive with real feed text, so we only top up their amount/year.)
+SITEMAP_SOURCES = {"ClaimDepot", "ClassAction.org", "OpenClassActions",
+                   "ClassActionBuddy", "Dapeer Law", "InjuryClaims", "Catch",
+                   "Settlemate", "ClassActionRebates", "Strategic Claims",
+                   "Verita Global", "Angeion Group"}
+
 _TITLE = re.compile(r"<title>(.*?)</title>", re.S | re.I)
 _PUB_YEAR = re.compile(r'(?:article:published_time|og:updated_time)["\'][^>]+content=["\'](\d{4})', re.I)
-_JS_JUNK = re.compile(r"(var |function|=>|H1_MAP|\{)")
+_SITE_SUFFIX = re.compile(
+    r"\s*[\|—–\-·]\s*(class action buddy|strategic claims service|"
+    r"strategic claims|verita global|dapeer law|claimdepot|catch|settlemate|"
+    r"openclassactions|open class actions|classaction\.org|top class actions|"
+    r"injuryclaims|injury claims)\b.*$", re.I)
+_GENERIC_TITLE = re.compile(
+    r"(settlement not found|page not found|\bnot found\b|^\s*404|find class action"
+    r"|pending class action investigations|coming soon|just a moment|access denied"
+    r"|are you a robot)", re.I)
 
 
 def _strip(s):
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s or "")).strip()
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
 
-def _enrich_one(rec):
-    """Return {amount?, year?} extracted from the record's page, or {}."""
+def _page_meta(page, prop):
+    p = re.escape(prop)
+    m = re.search(r'<meta[^>]+(?:property|name)=["\']' + p + r'["\'][^>]+content=["\'](.*?)["\']', page, re.S | re.I) \
+        or re.search(r'<meta[^>]+content=["\'](.*?)["\'][^>]+(?:property|name)=["\']' + p + r'["\']', page, re.S | re.I)
+    return _strip(m.group(1)) if m else ""
+
+
+def _clean_title(t):
+    t = _strip(t)
+    t = _SITE_SUFFIX.sub("", t)
+    t = re.sub(r"\s*[\|—–\-·]\s*(file your claim|no claim needed|"
+               r"info(rmation)?|settlement details|claim form|details)\s*$", "", t, flags=re.I)
+    t = re.sub(r"\s+Info(rmation)?$", "", t, flags=re.I)
+    return t.strip()
+
+
+def _extract_page(rec):
+    """Pull the real title / summary / amount / year out of the actual page."""
     url = (rec.get("source_url") or "").strip()
     if not url.startswith("http") or "cases.html" in url:
-        return {}
+        return None
     try:
         page = http_get(url, timeout=15,
                         headers={"User-Agent": BROWSER_UA, "Accept": "text/html"}).decode("utf-8", "replace")
     except Exception:
-        return {}
-    m = _META_DESC.search(page) or _OG_DESC.search(page)
-    desc = html.unescape(_strip(m.group(1) if m else ""))
-    h1 = _strip((_H1.search(page) or [None, ""])[1] if _H1.search(page) else "")
-    title = _strip((_TITLE.search(page) or [None, ""])[1] if _TITLE.search(page) else "")
-    head = h1 if h1 and not _JS_JUNK.search(h1) else ""
-    head = (head + " " + title).strip()
-    out = {}
-    if rec.get("amount") is None:
-        # Description first (it's a clean, case-specific summary), then headline.
-        a = parse_amount(desc) or parse_amount(head)
-        if a is not None:
-            out["amount"] = a
-    if rec.get("year") is None:
-        sy = re.search(r"-(20[0-2]\d)(?:[-/]|$)", url)
-        py = _PUB_YEAR.search(page)
-        y = int(sy.group(1)) if sy else (int(py.group(1)) if py else None)
-        if y and 2005 <= y <= 2026:
-            out["year"] = y
-    return out
+        return None
+    tm = _TITLE.search(page)
+    title_tag = _clean_title(tm.group(1)) if tm else ""
+    og_title = _clean_title(_page_meta(page, "og:title") or _page_meta(page, "twitter:title"))
+    raw = (tm.group(1) if tm else "") + " " + (_page_meta(page, "og:title") or "")
+    desc = _page_meta(page, "og:description") or _page_meta(page, "description") \
+        or _page_meta(page, "twitter:description")
+    # <title> is the most consistent "page title"; fall back to og:title.
+    name = title_tag or og_title
+    dead = bool(_GENERIC_TITLE.search(raw)) or len(name) < 4
+    # Year: prefer the article's published date, then a year in the title, then slug.
+    year = None
+    py = _PUB_YEAR.search(page)
+    ty = re.search(r"\b(20[0-2]\d)\b", name + " " + desc)
+    sy = re.search(r"-(20[0-2]\d)(?:[-/]|$)", url)
+    for cand in (py, ty, sy):
+        if cand:
+            y = int(cand.group(1))
+            if 2005 <= y <= 2026:
+                year = y
+                break
+    amount = parse_amount(desc) or parse_amount(name)
+    return {"name": name, "description": desc, "amount": amount, "year": year, "dead": dead}
 
 
-def enrich_missing(limit=1500, workers=6):
-    """Fill missing amount/year for up to `limit` not-yet-attempted records
-    (Settlement first). Each record is attempted once (marked enriched_at) so
-    un-fillable / JS-rendered pages aren't re-fetched on every run."""
+_SETTLE_PATH = re.compile(
+    r"/(settlements?|open-settlements|closed-settlements|settlement-case|settlements-1)/", re.I)
+
+
+def _classify_sitemap_rt(url, source, name, text, amount):
+    """Record type for a sitemap record: trust the URL section first (reliable),
+    fall back to page text only where the section is ambiguous."""
+    low = (url or "").lower()
+    # Claims administrators only ever handle settlements.
+    if source in ("Strategic Claims", "Verita Global", "Angeion Group"):
+        return RT_SETTLEMENT
+    if _NEWS_PATH_RE.search(low) or _RT_NEWS_PAT.search(name):
+        return RT_NEWS
+    if "/investigations/" in low:
+        return RT_INVESTIGATION
+    if "/lawsuits/" in low:
+        return RT_LAWSUIT
+    if _SETTLE_PATH.search(low):
+        return RT_SETTLEMENT
+    # Ambiguous section (/cases/, /r/, /class-action-lawsuits/, /landmark-cases/)
+    # — let the real page title/summary decide.
+    return refine_record_type(source, derive_record_type(text), text, amount)
+
+
+def enrich_missing(limit=2500, workers=6):
+    """Re-derive each record from its actual page content (not the URL slug):
+    name, summary, amount, year, category and type all come from inside the
+    article. Sitemap records are fully re-derived; RSS/gov records (already real
+    text) just get amount/year topped up. Re-runs all records once per ENRICH_VER."""
     with _connect() as c:
         rows = c.execute(
             "SELECT id, data FROM settlements "
-            "WHERE (amount IS NULL OR year IS NULL) "
-            "AND data LIKE '%\"source_url\": \"http%' "
-            "AND data NOT LIKE '%\"enriched_at\": \"%' "
+            "WHERE data LIKE '%\"source_url\": \"http%' "
+            "AND data NOT LIKE '%\"enrich_ver\": \"" + ENRICH_VER + "\"%' "
             "ORDER BY (record_type='Settlement') DESC, rowid LIMIT ?", (limit,)).fetchall()
     todo = [(rid, json.loads(blob)) for rid, blob in rows]
     today = datetime.now(timezone.utc).date().isoformat()
 
     def work(item):
         rid, rec = item
-        got = _enrich_one(rec)        # {} if nothing reliable found
-        rec.update(got)
-        if "amount" in got:
-            rec["amount_src"] = "page"   # authoritative — from the page itself
-        rec["enriched_at"] = today    # mark attempted either way
-        return (rid, rec, got)
+        page = _extract_page(rec)
+        rec["enrich_ver"] = ENRICH_VER
+        rec["enriched_at"] = today
+        if page is None:
+            return (rid, rec, "fetchfail")
+        src = rec.get("source")
+        if src not in SITEMAP_SOURCES:
+            # RSS/gov already have real text — only fill blanks.
+            if rec.get("amount") is None and page["amount"] is not None:
+                rec["amount"] = page["amount"]; rec["amount_src"] = "page"
+            if rec.get("year") is None and page["year"]:
+                rec["year"] = page["year"]
+            return (rid, rec, "filled")
+        if page["dead"]:                      # 404 / generic page — hide it
+            rec["dead"] = True
+            rec["amount"] = None; rec["amount_src"] = None
+            return (rid, rec, "dead")
+        name = page["name"]
+        rec["short_name"] = name[:120]
+        rec["case_name"] = name
+        rec["defendant"] = _tca_defendant(name)
+        if page["description"]:
+            rec["description"] = page["description"][:400]
+        rec["amount"] = page["amount"]
+        rec["amount_src"] = "page" if page["amount"] is not None else None
+        if page["year"]:
+            rec["year"] = page["year"]
+        text = name + " " + (page["description"] or "")
+        rec["category"] = classify(text)
+        rt = _classify_sitemap_rt(rec.get("source_url") or "", src, name, text, page["amount"])
+        rec["record_type"] = rt
+        rec["status"] = _RT_STATUS[rt]
+        return (rid, rec, "full")
 
     results = []
     with _cf.ThreadPoolExecutor(max_workers=workers) as ex:
         for res in ex.map(work, todo):
             results.append(res)
 
-    n_amt = n_yr = 0
+    stats = {"scanned": len(todo), "full": 0, "filled": 0, "dead": 0, "fetchfail": 0}
     with _DB_LOCK, _connect() as c:
-        for rid, rec, got in results:
-            if "amount" in got:
-                n_amt += 1
-            if "year" in got:
-                n_yr += 1
-            c.execute("UPDATE settlements SET amount=?, year=?, data=? WHERE id=?",
-                      (rec.get("amount"), rec.get("year"),
+        for rid, rec, kind in results:
+            stats[kind] = stats.get(kind, 0) + 1
+            c.execute("UPDATE settlements SET amount=?, year=?, record_type=?, data=? WHERE id=?",
+                      (rec.get("amount"), rec.get("year"), rec.get("record_type"),
                        json.dumps(rec, ensure_ascii=False), rid))
     _invalidate_cache()
-    return {"scanned": len(todo), "amounts_filled": n_amt, "years_filled": n_yr}
+    return stats
 
 
 def scrub_unreliable_amounts():
