@@ -173,6 +173,24 @@ _RT_ANNOUNCE_PAT = re.compile(
     r"rumor\w*|reportedly|may settle|could settle|set to settle|expected to settle|"
     r"agree\w* to settle|settlement talks|to settle (claims|charges|allegations|lawsuit|suit))",
     re.I)
+# Product-recall news ("Toyota recalls 82,000 vehicles") — note this matches the
+# VERB "recalls"/"recalled", so a real "X Recall Class Action Settlement" is NOT
+# caught (no -s) and stays a settlement.
+_RT_RECALL_PAT = re.compile(
+    r"(\brecalls\b|\brecalled\b|issues? (a )?(voluntary )?recall|"
+    r"recall (over|due to|because of)|do-?not-?drive)", re.I)
+# Trial / verdict / appeal outcome news — not a claimable settlement.
+_RT_VERDICT_NEWS_PAT = re.compile(
+    r"(wins? (a |the )?(new )?trial|wins? (the )?appeal|loses? (the )?appeal|new trial|"
+    r"jury (verdict|award|finds|orders)|verdict (in|for|favor|upheld|overturned|reinstated))", re.I)
+# A freshly-FILED complaint — news that a suit was just brought, not a settlement,
+# even when the article speculates about a possible future settlement.
+_RT_FILED_PAT = re.compile(
+    r"(class action (claims|alleges|accuses|lawsuit)|consumers? sue\b|\bsues\b|"
+    r"files? (a |an )?(class action|lawsuit|suit|complaint)|"
+    r"hit with (a )?(class action|lawsuit|suit)|lawsuit (claims|alleges|accuses)|"
+    r"new (class action )?lawsuit|faces? (a )?(class action|lawsuit|suit)|"
+    r"plaintiffs? (claim|allege)|complaint (claims|alleges))", re.I)
 
 
 def derive_record_type(text):
@@ -181,8 +199,16 @@ def derive_record_type(text):
     t = (text or "").replace("’", "'").replace("‘", "'").strip()
     if _RT_NEWS_PAT.search(t):
         return RT_NEWS
+    if _RT_RECALL_PAT.search(t):                 # product recall = news
+        return RT_NEWS
+    if _RT_VERDICT_NEWS_PAT.search(t):           # trial/verdict outcome = news
+        return RT_NEWS
     if _RT_INVESTIGATION_PAT.search(t):
         return RT_INVESTIGATION
+    # A just-filed complaint is a lawsuit, not a settlement — unless the wording
+    # also shows the deal is finalized/claimable (then the settlement check wins).
+    if _RT_FILED_PAT.search(t) and not _RT_FINAL_PAT.search(t):
+        return RT_LAWSUIT
     if _RT_SETTLEMENT_PAT.search(t):
         # Verified settlement if finalized/claimable; otherwise, if the wording is
         # "reaches/proposed/rumored…", it's an announcement, not a banked settlement.
@@ -225,6 +251,14 @@ _GOV_MONEY = re.compile(
     r"\$[\d.,]+\s*(million|billion|m\b|b\b))", re.I)
 _GOV_SETTLE = re.compile(
     r"(settl\w+|consent (order|decree|judgment)|agrees? to pay|will pay|agreed to pay)", re.I)
+# Advocacy / amicus / coalition activity — the AG is taking a legal position, not
+# banking a settlement. "Bonta Leads Multistate Amicus Condemning…" lands here,
+# even though it mentions a settlement and a dollar figure.
+_GOV_ADVOCACY = re.compile(
+    r"(amicus|coalition|condemn\w*|opposing|opposes|oppose\b|leads? (a )?multistate|"
+    r"joins? (a )?(multistate )?(coalition|brief|lawsuit|effort)|urges?\b|"
+    r"files? (an |a )?(amicus|brief)|supports?\b|comment letter|testif\w+|"
+    r"calls? on\b|demands?\b|statement on\b|applauds?\b|secures? commitment)", re.I)
 
 
 def gov_record_type(text, amount):
@@ -232,6 +266,10 @@ def gov_record_type(text, amount):
     money attached counts as a confirmed Settlement; everything else is
     Regulatory (or a complaint/investigation)."""
     t = text or ""
+    # Advocacy (amicus briefs, coalitions, position statements) is never a
+    # settlement, even when it references one — check this first.
+    if _GOV_ADVOCACY.search(t):
+        return RT_REGULATORY
     if _RT_INVESTIGATION_PAT.search(t):
         return RT_INVESTIGATION
     if _GOV_LAWSUIT.search(t) and not _GOV_SETTLE.search(t):
@@ -1025,7 +1063,7 @@ def export_data_js():
 import concurrent.futures as _cf
 
 # Bump this to force a full re-enrichment of every record with newer extraction.
-ENRICH_VER = "2"
+ENRICH_VER = "3"
 
 # Sitemap sources carry only a URL slug at ingestion, so for these the PAGE is
 # authoritative for name, summary, amount, year, and type. (RSS/gov sources
@@ -1126,6 +1164,23 @@ def _classify_sitemap_rt(url, source, name, text, amount):
     return refine_record_type(source, derive_record_type(text), text, amount)
 
 
+def reclassify_rss(source, url, name, text, amount):
+    """Re-derive a feed record's type with the improved rules. Government uses its
+    own enforcement logic (amicus briefs, coalitions, complaints all stay out of
+    the settlement bucket); Top Class Actions trusts its "open settlements"
+    section as claimable; everything else is judged from the real headline +
+    summary, so filed lawsuits, recalls and verdict news no longer read as
+    settlements."""
+    if source in GOV_SOURCES:
+        return gov_record_type(text, amount)
+    low = (url or "").lower()
+    base = derive_record_type(text)
+    if source == "Top Class Actions" and "/open-lawsuit-settlements/" in low \
+            and base in (RT_ANNOUNCEMENT, RT_SETTLEMENT):
+        return RT_SETTLEMENT
+    return refine_record_type(source, base, text, amount)
+
+
 def enrich_missing(limit=2500, workers=6):
     """Re-derive each record from its actual page content (not the URL slug):
     name, summary, amount, year, category and type all come from inside the
@@ -1142,19 +1197,37 @@ def enrich_missing(limit=2500, workers=6):
 
     def work(item):
         rid, rec = item
-        page = _extract_page(rec)
         rec["enrich_ver"] = ENRICH_VER
         rec["enriched_at"] = today
-        if page is None:
-            return (rid, rec, "fetchfail")
         src = rec.get("source")
         if src not in SITEMAP_SOURCES:
-            # RSS/gov already have real text — only fill blanks.
-            if rec.get("amount") is None and page["amount"] is not None:
-                rec["amount"] = page["amount"]; rec["amount_src"] = "page"
-            if rec.get("year") is None and page["year"]:
-                rec["year"] = page["year"]
+            # RSS/gov arrive with real feed text. Re-classify with the improved
+            # rules — this is what pulls amicus briefs, freshly-filed lawsuits,
+            # product recalls and verdict news back OUT of the Settlement tab —
+            # then top up a missing amount/year from the page.
+            nm = rec.get("short_name") or rec.get("case_name") or ""
+            text = nm + " " + (rec.get("description") or "")
+            rt = reclassify_rss(src, rec.get("source_url") or "", nm, text, rec.get("amount"))
+            rec["record_type"] = rt
+            rec["status"] = _RT_STATUS[rt]
+            # A non-settlement government item must not carry a settlement figure
+            # (e.g. the bogus $1.78B on an amicus brief) — drop it and don't refill.
+            gov_nonsettle = src in GOV_SOURCES and rt != RT_SETTLEMENT
+            if gov_nonsettle:
+                rec["amount"] = None; rec["amount_src"] = None
+            need_amount = rec.get("amount") is None and not gov_nonsettle
+            if need_amount or rec.get("year") is None:
+                page = _extract_page(rec)
+                if page:
+                    if need_amount and page["amount"] is not None:
+                        rec["amount"] = page["amount"]; rec["amount_src"] = "page"
+                    if rec.get("year") is None and page["year"]:
+                        rec["year"] = page["year"]
             return (rid, rec, "filled")
+        # Sitemap sources — the page is authoritative for everything.
+        page = _extract_page(rec)
+        if page is None:
+            return (rid, rec, "fetchfail")
         if page["dead"]:                      # 404 / generic page — hide it
             rec["dead"] = True
             rec["amount"] = None; rec["amount_src"] = None

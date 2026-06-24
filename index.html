@@ -5,8 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Levi &amp; Korsinsky — Settlement Database</title>
   <link rel="stylesheet" href="styles.css?v=3" />
+  <style>
+    /* Access gate — inline so it covers the page immediately (no content flash). */
+    .auth-gate { position: fixed; inset: 0; z-index: 99999; background: #16202c;
+      display: flex; align-items: center; justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .auth-box { background: #fff; padding: 36px 32px; border-radius: 12px; width: 320px;
+      max-width: 90vw; text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,.4); }
+    .auth-mark { width: 46px; height: 46px; margin: 0 auto 14px; display: grid; place-items: center;
+      background: #1f4e79; color: #fff; font-size: 26px; font-weight: 700; border-radius: 9px;
+      font-family: Georgia, "Times New Roman", serif; }
+    .auth-box h2 { margin: 0 0 4px; font-size: 20px; color: #16202c; }
+    .auth-box p { margin: 0 0 18px; font-size: 13px; color: #64748b; line-height: 1.4; }
+    .auth-box input { width: 100%; box-sizing: border-box; padding: 10px 12px; font-size: 15px;
+      border: 1px solid #e3e7ee; border-radius: 7px; margin-bottom: 10px; }
+    .auth-box input:focus { outline: 2px solid #eaf1f8; border-color: #1f4e79; }
+    .auth-box button { width: 100%; padding: 10px; font-size: 15px; font-weight: 600; color: #fff;
+      background: #1f4e79; border: none; border-radius: 7px; cursor: pointer; }
+    .auth-box button:hover { background: #1a4267; }
+    .auth-error { color: #b3261e; font-size: 13px; margin-top: 10px; }
+  </style>
 </head>
 <body>
+  <!-- ===== Access gate (shared-password deterrent; data is public-record) ===== -->
+  <div id="auth-gate" class="auth-gate">
+    <form id="auth-form" autocomplete="off">
+      <div class="auth-box">
+        <div class="auth-mark">§</div>
+        <h2>Levi &amp; Korsinsky</h2>
+        <p>Settlement Database<br>Enter the access password to continue.</p>
+        <input id="auth-input" type="password" placeholder="Password" autocomplete="current-password" />
+        <button type="submit">Enter</button>
+        <div id="auth-error" class="auth-error" hidden>Incorrect password — try again.</div>
+      </div>
+    </form>
+  </div>
+  <script>
+  (function () {
+    // sha256 of the access password (the password itself is never stored here).
+    var HASH = "f0f6b4a7ad53e6dd2174dbba55da6ad28cfa1c5770d6b1e5dcb185f6e68d14d6";
+    var KEY = "lk-settle-auth";
+    var gate = document.getElementById("auth-gate");
+    function unlock() { if (gate && gate.parentNode) gate.parentNode.removeChild(gate); }
+    async function sha256(s) {
+      var buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+      return Array.from(new Uint8Array(buf)).map(function (b) {
+        return b.toString(16).padStart(2, "0"); }).join("");
+    }
+    try { if (localStorage.getItem(KEY) === HASH) { unlock(); return; } } catch (e) {}
+    var input = document.getElementById("auth-input");
+    if (input) input.focus();
+    document.getElementById("auth-form").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var h = await sha256(input.value);
+      if (h === HASH) {
+        try { localStorage.setItem(KEY, HASH); } catch (e) {}
+        unlock();
+      } else {
+        document.getElementById("auth-error").hidden = false;
+        input.value = ""; input.focus();
+      }
+    });
+  })();
+  </script>
+
   <header class="site-header">
     <div class="brand">
       <div class="brand-mark">§</div>
