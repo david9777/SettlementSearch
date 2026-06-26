@@ -39,7 +39,7 @@ FIELDS = ["id", "case_name", "short_name", "defendant", "amount", "category",
           "record_type", "year", "status", "court", "court_full", "judge",
           "case_number", "class_size", "fee_award", "description", "source",
           "source_url", "date_added", "enriched_at", "amount_src",
-          "enrich_ver", "dead"]
+          "enrich_ver", "dead", "claim_deadline"]
 
 # Free-text notes connectors can attach to a refresh (e.g. "capped at N").
 REFRESH_NOTES = []
@@ -1097,14 +1097,72 @@ def _money(a):
     return "${:,.0f}".format(a)
 
 
+_MONTHS = {m[:3]: i + 1 for i, m in enumerate(
+    "january february march april may june july august september "
+    "october november december".split())}
+_DEADLINE_CUE = re.compile(
+    r"(deadline|claim by|claim form by|file (?:a )?claim|submit (?:a )?claim|"
+    r"claim period|claims? must|postmark|exclud\w+|opt[- ]?out|object\w*)", re.I)
+
+
+def _text_dates(t):
+    """Pull (position, date) for dates like 'March 5, 2025', 'March 2025',
+    '3/5/2025', '2025-03-05'. Month-only dates assume the 28th."""
+    out, low = [], t.lower()
+    for m in re.finditer(r"\b([a-z]{3,9})\.?\s+(?:(\d{1,2})(?:st|nd|rd|th)?,?\s+)?(20\d\d)\b", low):
+        mi = _MONTHS.get(m.group(1)[:3])
+        if mi:
+            day = int(m.group(2)) if m.group(2) else 28
+            try:
+                out.append((m.start(), datetime(int(m.group(3)), mi, min(day, 28)).date()))
+            except ValueError:
+                pass
+    for m in re.finditer(r"\b(\d{1,2})/(\d{1,2})/(20\d\d)\b", low):
+        try:
+            out.append((m.start(), datetime(int(m.group(3)), int(m.group(1)), int(m.group(2))).date()))
+        except ValueError:
+            pass
+    for m in re.finditer(r"\b(20\d\d)-(\d{1,2})-(\d{1,2})\b", low):
+        try:
+            out.append((m.start(), datetime(int(m.group(1)), int(m.group(2)), int(m.group(3))).date()))
+        except ValueError:
+            pass
+    return out
+
+
+def _claim_expired(rec, today):
+    """True only when the text states a claim/exclusion deadline already passed."""
+    text = (rec.get("short_name") or "") + ". " + (rec.get("description") or "")
+    dates = _text_dates(text)
+    if not dates:
+        return False
+    cues = [m.start() for m in _DEADLINE_CUE.finditer(text.lower())]
+    if not cues:
+        return False
+    near = [d for pos, d in dates if any(abs(pos - c) <= 80 for c in cues)]
+    return bool(near) and max(near) < today
+
+
 def _new_settlements(records, cutoff):
+    """Settlements added since `cutoff`, minus any we've CONFIRMED are closed by
+    reading the page (claim deadline already passed). We never drop on a guess —
+    only when the page itself states a deadline that's gone — so nothing worth
+    seeing is hidden. `claim_deadline` is read from the page during enrichment."""
+    today = datetime.now(timezone.utc).date()
+    today_iso = today.isoformat()
     out = []
     for r in records:
         if r.get("record_type") != RT_SETTLEMENT or r.get("dead"):
             continue
         da = r.get("date_added") or ""
-        if da and da > cutoff:
-            out.append(r)
+        if not (da and da > cutoff):
+            continue
+        dl = r.get("claim_deadline")
+        if dl and dl < today_iso:          # page-confirmed: claim window closed
+            continue
+        if not dl and _claim_expired(r, today):   # fallback: deadline in our text
+            continue
+        out.append(r)
     out.sort(key=_digest_score, reverse=True)
     return out
 
@@ -1299,8 +1357,25 @@ def _clean_title(t):
     return t.strip()
 
 
+def _page_deadline(page_html):
+    """Read the claim/exclusion deadline off a settlement page — the LAST date a
+    class member can still act. Returns an ISO date string, or None if the page
+    states no deadline. This is what tells us a settlement is closed vs. open."""
+    text = _strip(page_html)[:24000]
+    dates = _text_dates(text)
+    if not dates:
+        return None
+    cues = [m.start() for m in _DEADLINE_CUE.finditer(text.lower())]
+    if not cues:
+        return None
+    near = [d for pos, d in dates if any(abs(pos - c) <= 80 for c in cues)]
+    if not near:
+        return None
+    return max(near).isoformat()
+
+
 def _extract_page(rec):
-    """Pull the real title / summary / amount / year out of the actual page."""
+    """Pull the real title / summary / amount / year / claim deadline from the page."""
     url = (rec.get("source_url") or "").strip()
     if not url.startswith("http") or "cases.html" in url:
         return None
@@ -1330,7 +1405,9 @@ def _extract_page(rec):
                 year = y
                 break
     amount = parse_amount(desc) or parse_amount(name)
-    return {"name": name, "description": desc, "amount": amount, "year": year, "dead": dead}
+    deadline = _page_deadline(page)
+    return {"name": name, "description": desc, "amount": amount, "year": year,
+            "dead": dead, "deadline": deadline}
 
 
 _SETTLE_PATH = re.compile(
@@ -1409,13 +1486,16 @@ def enrich_missing(limit=2500, workers=6):
             if gov_nonsettle:
                 rec["amount"] = None; rec["amount_src"] = None
             need_amount = rec.get("amount") is None and not gov_nonsettle
-            if need_amount or rec.get("year") is None:
+            need_deadline = rt == RT_SETTLEMENT and "claim_deadline" not in rec
+            if need_amount or rec.get("year") is None or need_deadline:
                 page = _extract_page(rec)
                 if page:
                     if need_amount and page["amount"] is not None:
                         rec["amount"] = page["amount"]; rec["amount_src"] = "page"
                     if rec.get("year") is None and page["year"]:
                         rec["year"] = page["year"]
+                    if rt == RT_SETTLEMENT:
+                        rec["claim_deadline"] = page["deadline"]
             return (rid, rec, "filled")
         # Sitemap sources — the page is authoritative for everything.
         page = _extract_page(rec)
@@ -1435,6 +1515,9 @@ def enrich_missing(limit=2500, workers=6):
         rec["amount_src"] = "page" if page["amount"] is not None else None
         if page["year"]:
             rec["year"] = page["year"]
+        # Claim deadline read off the page — used to retire it from "new"/email
+        # surfacing once it passes. The record itself is always kept.
+        rec["claim_deadline"] = page["deadline"]
         text = name + " " + (page["description"] or "")
         rec["category"] = classify(text)
         rt = _classify_sitemap_rt(rec.get("source_url") or "", src, name, text, page["amount"])
