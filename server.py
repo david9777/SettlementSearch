@@ -19,9 +19,9 @@ Run it:
 
 Pure standard library — no pip install needed.
 """
-import json, os, re, ssl, sys, html, gzip, sqlite3, threading, time
+import json, os, re, ssl, sys, html, gzip, sqlite3, threading, time, math
 import urllib.request, urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -1054,6 +1054,199 @@ def export_data_js():
 
 
 # ----------------------------------------------------------------------------
+# Email digest — a Clareon-style "new settlements this week" briefing, built
+# from the data and sent for free over SMTP from the daily GitHub Actions run.
+# Stdlib only (smtplib + email). State (last run date) lives in digest_state.json
+# so each settlement is reported exactly once, the first digest after it appears.
+# ----------------------------------------------------------------------------
+import smtplib
+import ssl as _ssl
+from email.message import EmailMessage
+
+DIGEST_STATE = os.path.join(ROOT, "digest_state.json")
+SITE_URL = os.environ.get("SITE_URL", "https://david9777.github.io/SettlementSearch/")
+
+# How much each practice area matters to a plaintiffs' securities & class-action
+# firm — drives the "most interesting to us" ranking alongside settlement size.
+_CAT_WEIGHT = {
+    "Securities": 5.0, "Antitrust": 4.6, "Data Breach": 4.0, "Privacy": 3.8,
+    "Product Liability": 3.4, "Pharmaceutical": 3.4, "Consumer Protection": 3.0,
+    "TCPA": 3.0, "Environmental": 2.8, "Employment": 2.4,
+}
+# Categories shown first in the email, in firm-priority order.
+_CAT_ORDER = ["Securities", "Antitrust", "Data Breach", "Privacy",
+              "Product Liability", "Pharmaceutical", "Consumer Protection",
+              "TCPA", "Environmental", "Employment"]
+
+
+def _digest_score(r):
+    score = _CAT_WEIGHT.get(r.get("category"), 2.0)
+    amt = r.get("amount") or 0
+    if amt > 0:
+        score += math.log10(amt)          # $1M -> +6, $100M -> +8, $1B -> +9
+    return score
+
+
+def _money(a):
+    if not a:
+        return ""
+    if a >= 1e9:
+        return "$%.2f billion" % (a / 1e9)
+    if a >= 1e6:
+        return "$%.1f million" % (a / 1e6)
+    return "${:,.0f}".format(a)
+
+
+def _new_settlements(records, cutoff):
+    out = []
+    for r in records:
+        if r.get("record_type") != RT_SETTLEMENT or r.get("dead"):
+            continue
+        da = r.get("date_added") or ""
+        if da and da > cutoff:
+            out.append(r)
+    out.sort(key=_digest_score, reverse=True)
+    return out
+
+
+def _esc(s):
+    return html.escape(str(s or ""))
+
+
+def _digest_card(r, headline=False):
+    name = _esc(r.get("short_name") or r.get("case_name") or "Settlement")
+    url = r.get("source_url") or SITE_URL
+    amt = _money(r.get("amount"))
+    cat = _esc(r.get("category") or "")
+    desc = _esc((r.get("description") or "")[:200])
+    amt_html = (
+        '<span style="display:inline-block;background:#1f4e79;color:#fff;'
+        'font-weight:700;font-size:13px;padding:3px 9px;border-radius:5px;'
+        'margin-left:8px;">%s</span>' % _esc(amt)) if amt else ""
+    border = "#1f4e79" if headline else "#e3e7ee"
+    return (
+        '<tr><td style="padding:0 28px 14px;">'
+        '<table width="100%%" cellpadding="0" cellspacing="0" style="border:1px solid %s;'
+        'border-radius:8px;"><tr><td style="padding:13px 16px;">'
+        '<a href="%s" style="color:#16202c;font-size:16px;font-weight:700;'
+        'text-decoration:none;">%s</a>%s'
+        '<div style="margin:5px 0 0;font-size:12px;color:#1f4e79;font-weight:600;'
+        'text-transform:uppercase;letter-spacing:.3px;">%s</div>'
+        '<div style="margin:7px 0 0;font-size:13px;line-height:1.5;color:#475569;">%s</div>'
+        '<a href="%s" style="display:inline-block;margin-top:9px;font-size:12px;'
+        'font-weight:600;color:#1f4e79;text-decoration:none;">View settlement &rsaquo;</a>'
+        '</td></tr></table></td></tr>'
+        % (border, _esc(url), name, amt_html, cat, desc, _esc(url)))
+
+
+def build_digest_html(new, cutoff, today, top_picks=5, max_items=30):
+    picks = new[:top_picks]
+    rest = new[top_picks:max_items]
+    groups = {}
+    for r in rest:
+        groups.setdefault(r.get("category") or "Other", []).append(r)
+    ordered_cats = [c for c in _CAT_ORDER if c in groups] + \
+                   [c for c in groups if c not in _CAT_ORDER]
+    big = _money(new[0].get("amount")) if new and new[0].get("amount") else ""
+    head = (
+        '<!doctype html><html><body style="margin:0;padding:0;background:#f4f6f9;'
+        'font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">'
+        '<table width="100%%" cellpadding="0" cellspacing="0" style="background:#f4f6f9;">'
+        '<tr><td align="center" style="padding:24px 12px;">'
+        '<table width="600" cellpadding="0" cellspacing="0" style="background:#fff;'
+        'border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);">'
+        '<tr><td style="background:#16202c;padding:22px 28px;">'
+        '<div style="color:#fff;font-size:20px;font-weight:700;">&sect; Levi &amp; Korsinsky</div>'
+        '<div style="color:#9fb3c8;font-size:13px;margin-top:2px;">'
+        'Settlement Intelligence Briefing</div></td></tr>'
+        '<tr><td style="padding:22px 28px 6px;">'
+        '<div style="font-size:15px;color:#16202c;line-height:1.5;">'
+        '<b>%d new settlements</b> entered the database since %s.%s '
+        'Here are the most notable for the firm.</div></td></tr>'
+        % (len(new), _esc(cutoff),
+           (' The largest is <b>%s</b>.' % _esc(big)) if big else ""))
+    body = ['<tr><td style="padding:18px 28px 4px;"><div style="font-size:13px;'
+            'font-weight:700;color:#16202c;text-transform:uppercase;letter-spacing:.5px;">'
+            '&#128293; Top Picks</div></td></tr>']
+    for r in picks:
+        body.append(_digest_card(r, headline=True))
+    for cat in ordered_cats:
+        body.append('<tr><td style="padding:16px 28px 4px;"><div style="font-size:13px;'
+                    'font-weight:700;color:#16202c;text-transform:uppercase;letter-spacing:.5px;">'
+                    '%s</div></td></tr>' % _esc(cat))
+        for r in groups[cat]:
+            body.append(_digest_card(r))
+    more = len(new) - min(len(new), max_items)
+    foot = (
+        '<tr><td style="padding:18px 28px 26px;">'
+        + ('<div style="font-size:13px;color:#64748b;margin-bottom:14px;">'
+           '+ %d more new settlements this period.</div>' % more if more > 0 else "")
+        + '<a href="%s" style="display:inline-block;background:#1f4e79;color:#fff;'
+          'font-size:14px;font-weight:600;text-decoration:none;padding:11px 22px;'
+          'border-radius:7px;">Browse the full database &rsaquo;</a></td></tr>'
+          '<tr><td style="background:#f4f6f9;padding:16px 28px;font-size:11px;color:#94a3b8;">'
+          'Levi &amp; Korsinsky Settlement Database &bull; auto-generated %s</td></tr>'
+          '</table></td></tr></table></body></html>'
+        % (_esc(SITE_URL), _esc(today)))
+    return head + "".join(body) + foot
+
+
+def send_digest(records=None, force_days=None, dry_run=False):
+    """Build and email the 'new settlements' digest. cutoff = last run date
+    (or today-force_days). With dry_run, write digest_preview.html instead of
+    sending. Requires env SMTP_USER, SMTP_PASS (Gmail app password), DIGEST_TO."""
+    if records is None:
+        records = load_store()
+    today = datetime.now(timezone.utc).date().isoformat()
+    state = {}
+    if os.path.exists(DIGEST_STATE):
+        try:
+            state = json.load(open(DIGEST_STATE, encoding="utf-8"))
+        except Exception:
+            state = {}
+    if force_days is not None:
+        cutoff = (datetime.now(timezone.utc).date()
+                  - timedelta(days=force_days)).isoformat()
+    else:
+        # First ever run: look back 7 days so the opening digest isn't empty
+        # and doesn't dump the entire baseline.
+        cutoff = state.get("last_run") or (
+            datetime.now(timezone.utc).date() - timedelta(days=7)).isoformat()
+    new = _new_settlements(records, cutoff)
+    html_doc = build_digest_html(new, cutoff, today)
+    subject = "%d new settlements — Levi & Korsinsky briefing (%s)" % (len(new), today)
+
+    if dry_run:
+        with open(os.path.join(ROOT, "digest_preview.html"), "w", encoding="utf-8") as f:
+            f.write(html_doc)
+        return {"new": len(new), "cutoff": cutoff, "preview": "digest_preview.html"}
+
+    user = os.environ.get("SMTP_USER", "")
+    pw = os.environ.get("SMTP_PASS", "")
+    to = os.environ.get("DIGEST_TO", user)
+    if not (user and pw and to):
+        return {"new": len(new), "sent": False, "error": "missing SMTP_USER/SMTP_PASS/DIGEST_TO"}
+    if not new and not force_days:
+        return {"new": 0, "sent": False, "note": "no new settlements; skipped"}
+    msg = EmailMessage()
+    msg["Subject"] = subject
+    msg["From"] = user
+    msg["To"] = to
+    msg.set_content("Your settlement briefing is in HTML. View in an HTML-capable client.")
+    msg.add_alternative(html_doc, subtype="html")
+    host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
+    port = int(os.environ.get("SMTP_PORT", "465"))
+    ctx = _ssl.create_default_context()
+    with smtplib.SMTP_SSL(host, port, context=ctx) as s:
+        s.login(user, pw)
+        s.send_message(msg)
+    state["last_run"] = today
+    with open(DIGEST_STATE, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+    return {"new": len(new), "sent": True, "to": to, "cutoff": cutoff}
+
+
+# ----------------------------------------------------------------------------
 # Enrichment — fetch each settlement page and pull the dollar amount + year out
 # of the page's own summary (meta description / H1), which is case-specific and
 # clean. We never guess: if the figure isn't reliably present, the field stays
@@ -1504,6 +1697,15 @@ def main():
         if "--limit" in sys.argv:
             limit = int(sys.argv[sys.argv.index("--limit") + 1])
         print(json.dumps(enrich_missing(limit), indent=2))
+        return
+    if "--digest" in sys.argv or "--digest-preview" in sys.argv:
+        days = None
+        if "--days" in sys.argv:
+            days = int(sys.argv[sys.argv.index("--days") + 1])
+        dry = "--digest-preview" in sys.argv
+        # Read the committed dataset directly — no DB needed in the digest job.
+        recs = json.load(open(STORE, encoding="utf-8")) if os.path.exists(STORE) else load_store()
+        print(json.dumps(send_digest(records=recs, force_days=days, dry_run=dry), indent=2))
         return
 
     # Hosting platforms (Render, Railway, Fly, etc.) inject the port via $PORT and
