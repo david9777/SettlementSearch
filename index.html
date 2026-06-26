@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Levi &amp; Korsinsky — Settlement Database</title>
-  <link rel="stylesheet" href="styles.css?v=3" />
+  <link rel="stylesheet" href="styles.css?v=4" />
   <style>
     /* Access gate — inline so it covers the page immediately (no content flash). */
     .auth-gate { position: fixed; inset: 0; z-index: 99999; background: #16202c;
@@ -192,6 +192,10 @@
             <option value="short_name:asc">Case name (A → Z)</option>
           </select>
         </div>
+        <label class="closed-toggle" for="showClosed">
+          <input type="checkbox" id="showClosed" />
+          Show closed (deadline passed)
+        </label>
       </div>
 
       <div class="table-wrap">
@@ -236,6 +240,6 @@
   <div id="toast" class="toast" hidden></div>
 
   <script src="data.js"></script>
-  <script src="app.js?v=10"></script>
+  <script src="app.js?v=11"></script>
 </body>
 </html>

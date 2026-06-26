@@ -13,6 +13,7 @@
     yearMin: null,
     yearMax: null,
     amountMin: 0,       // 0 | numeric threshold | "has" | "none"
+    showClosed: false,  // include settlements whose claim deadline has passed
     sortKey: "date_added",  // default: most recently added to the database first
     sortDir: "desc",
     renderCap: 500,     // rows rendered at once; grown by the "Show more" row
@@ -38,6 +39,7 @@
     amountMin: document.getElementById("amountMin"),
     resetBtn: document.getElementById("resetBtn"),
     sortSelect: document.getElementById("sortSelect"),
+    showClosed: document.getElementById("showClosed"),
     tableBody: document.getElementById("tableBody"),
     resultCount: document.getElementById("resultCount"),
     emptyState: document.getElementById("emptyState"),
@@ -152,7 +154,22 @@
   }
 
   // ---------- Filtering & sorting ----------
+  // A settlement whose claim deadline has passed is "closed": kept in the data
+  // and findable by search, but hidden from the default/newest view so it isn't
+  // presented as a current opportunity.
+  function todayISO() {
+    var n = new Date();
+    return n.getFullYear() + "-" + String(n.getMonth() + 1).padStart(2, "0") +
+           "-" + String(n.getDate()).padStart(2, "0");
+  }
+  var TODAY = todayISO();
+  function isExpired(d) {
+    return !!d.claim_deadline && d.claim_deadline < TODAY;
+  }
+
   function matches(d) {
+    // Hide closed settlements unless the user opts in or is searching for one.
+    if (isExpired(d) && !state.showClosed && !state.search) return false;
     if (state.categories.size && !state.categories.has(d.category)) return false;
     if (state.statuses.size && !state.statuses.has(d.status)) return false;
     if (state.rtypes.size && !state.rtypes.has(d.record_type || "Settlement")) return false;
@@ -248,10 +265,13 @@
       const typeChip = rt !== "Settlement"
         ? ' <span class="badge badge-type">' + esc(rt) + "</span>"
         : "";
-      const newChip = isRecentlyAdded(d.date_added) ? '<span class="badge badge-new">NEW</span> ' : "";
+      const newChip = (isRecentlyAdded(d.date_added) && !isExpired(d))
+        ? '<span class="badge badge-new">NEW</span> ' : "";
+      const closedChip = isExpired(d)
+        ? '<span class="badge badge-closed">CLOSED</span> ' : "";
       tr.innerHTML =
         '<td class="case-cell">' +
-          '<div class="case-name">' + newChip + esc(d.short_name) + "</div>" +
+          '<div class="case-name">' + newChip + closedChip + esc(d.short_name) + "</div>" +
           '<div class="case-def">' + esc(d.defendant) + "</div>" +
         "</td>" +
         '<td><span class="badge badge-cat">' + esc(d.category) + "</span>" + typeChip + "</td>" +
@@ -453,6 +473,13 @@
       state.sortKey = k; state.sortDir = dir;
       render();
     });
+
+    if (el.showClosed) {
+      el.showClosed.addEventListener("change", () => {
+        state.showClosed = el.showClosed.checked;
+        render();
+      });
+    }
 
     el.table.querySelectorAll("th[data-sort]").forEach((th) => {
       th.addEventListener("click", () => {
