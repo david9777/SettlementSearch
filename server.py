@@ -1386,6 +1386,16 @@ def _host(u):
         return ""
 
 
+def _excluded_host(h):
+    """Domain-label-aware exclusion (so 't.co' doesn't wrongly match the '...t.com'
+    tail of real settlement domains like afcusettlement.com)."""
+    labels = h.split(".")
+    for b in _NOT_OFFICIAL:
+        if b in labels or h == b or h.endswith("." + b):
+            return True
+    return False
+
+
 _OFF_STOP = set((
     "the of and a an settlement settlements class action lawsuit data breach "
     "wage hour bank inc llc corp company holdings group services systems incident "
@@ -1398,33 +1408,46 @@ def _case_tokens(name):
     return [t for t in re.findall(r"[a-z0-9]{4,}", (name or "").lower()) if t not in _OFF_STOP]
 
 
+def _case_acronym(name):
+    """Acronym of the defendant words (America First Credit Union -> afcu), which
+    administrator domains often use (afcusettlement.com)."""
+    n = re.sub(r"^\$[\d.,]+[a-z]*\s+", "", (name or ""), flags=re.I)
+    n = re.sub(r"\b(settlement|settlements|class|action|lawsuit|litigation|data|breach|"
+               r"wage|hour|the|of|and|a|an|inc|llc|corp|co|company)\b", " ", n, flags=re.I)
+    words = re.findall(r"[A-Za-z]{2,}", n)
+    ac = "".join(w[0] for w in words).lower()
+    return ac if len(ac) >= 3 else ""
+
+
 def _extract_official(page, base, name=""):
-    """Find the official claims-administrator settlement site the aggregator links
-    out to — the page a class member actually files on. Accept ONLY case-specific
-    links (the hostname names the defendant, e.g. flagstarsettlement.com, or a
-    known administrator backed by 'official settlement' context). This skips our
-    own aggregators, ad networks, social, and generic lawsuit-marketing domains
-    (databreachlawsuit.org) that appear site-wide. Returns a clean URL or None."""
+    """Find the official claims-administrator settlement site — the page a class
+    member actually files on. Scans EVERY url in the raw HTML (not just <a> tags,
+    since aggregators often render the link via JS or place it in text), and
+    accepts only case-specific settlement domains: the hostname contains a case
+    word OR the case acronym (afcusettlement.com), or a known administrator backed
+    by 'official settlement' context. Skips our own aggregators, ad networks,
+    social, and generic lawsuit-marketing domains. Returns a clean URL or None."""
     srchost = _host(base)
     toks = _case_tokens(name)
+    ac = _case_acronym(name)
+    low = page.lower()
     best = None
-    for m in re.finditer(r'href=["\']([^"\']+)["\']', page, re.I):
-        href = urljoin(base, m.group(1))
-        if not href.startswith("http"):
-            continue
+    for m in re.finditer(r'https?://[^\s"\'<>)\]]+', page, re.I):
+        href = m.group(0).rstrip('.,)";\'')
         h = _host(href)
-        if not h or h == srchost or any(b in h for b in _NOT_OFFICIAL):
+        if not h or h == srchost or _excluded_host(h):
             continue
         if not _HOST_KW.search(h):           # must be a settlement/class-action domain
             continue
-        ctx = page[m.end():m.end() + 120].lower()
-        hostslug = h.replace(".", "")
-        case_match = any(t in hostslug for t in toks)
-        official_ctx = bool(_OFFICIAL_TXT.search(ctx))
+        hostslug = h.replace(".", "").replace("-", "")
+        tokmatch = sum(1 for t in toks if t in hostslug)
+        acmatch = bool(ac and ac in hostslug)
         admin = any(a in h for a in _ADMIN_DOMAINS)
-        if not (case_match or (admin and official_ctx)):
+        ctx = low[max(0, m.start() - 80):m.start()] + low[m.end():m.end() + 80]
+        official_ctx = bool(_OFFICIAL_TXT.search(ctx))
+        if not (tokmatch or acmatch or (admin and official_ctx)):
             continue                          # reject generic / site-wide links
-        score = 6 + (5 if case_match else 0) + (3 if official_ctx else 0) + (2 if admin else 0)
+        score = 6 + tokmatch * 4 + (5 if acmatch else 0) + (3 if official_ctx else 0) + (2 if admin else 0)
         if best is None or score > best[0]:
             best = (score, href.split("?")[0].split("#")[0])
     return best[1] if best else None

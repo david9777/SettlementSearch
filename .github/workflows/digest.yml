@@ -12,7 +12,9 @@ name: Email settlement digest
 
 on:
   schedule:
-    - cron: "0 12 * * 1,3,5"     # Mon/Wed/Fri 12:00 UTC (~8am US Eastern)
+    - cron: "23 13 * * 1,3,5"    # Mon/Wed/Fri 13:23 UTC (~9:23am ET). Deliberately
+                                 # OFF the top of the hour — GitHub's free scheduler
+                                 # drops/delays on-the-hour crons under load.
   workflow_dispatch:
     inputs:
       test_days:
