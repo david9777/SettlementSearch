@@ -21,6 +21,7 @@ Pure standard library — no pip install needed.
 """
 import json, os, re, ssl, sys, html, gzip, sqlite3, threading, time, math
 import urllib.request, urllib.error
+from urllib.parse import urljoin, urlparse
 from datetime import datetime, timezone, timedelta
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 
@@ -39,7 +40,7 @@ FIELDS = ["id", "case_name", "short_name", "defendant", "amount", "category",
           "record_type", "year", "status", "court", "court_full", "judge",
           "case_number", "class_size", "fee_award", "description", "source",
           "source_url", "date_added", "enriched_at", "amount_src",
-          "enrich_ver", "dead", "claim_deadline"]
+          "enrich_ver", "dead", "claim_deadline", "official_url", "documents"]
 
 # Free-text notes connectors can attach to a refresh (e.g. "capped at N").
 REFRESH_NOTES = []
@@ -1314,7 +1315,7 @@ def send_digest(records=None, force_days=None, dry_run=False):
 import concurrent.futures as _cf
 
 # Bump this to force a full re-enrichment of every record with newer extraction.
-ENRICH_VER = "3"
+ENRICH_VER = "4"
 
 # Sitemap sources carry only a URL slug at ingestion, so for these the PAGE is
 # authoritative for name, summary, amount, year, and type. (RSS/gov sources
@@ -1355,6 +1356,119 @@ def _clean_title(t):
                r"info(rmation)?|settlement details|claim form|details)\s*$", "", t, flags=re.I)
     t = re.sub(r"\s+Info(rmation)?$", "", t, flags=re.I)
     return t.strip()
+
+
+# Domains that are never the official claims administrator (our own aggregators,
+# ad networks, social, stores) — used to skip junk outbound links.
+_NOT_OFFICIAL = ("openclassactions", "claimdepot", "classactionbuddy", "injuryclaims",
+    "classaction.org", "topclassactions", "dapeer", "settlemate", "classactionrebates",
+    "catch.com", "facebook", "twitter", "x.com", "linkedin", "google", "youtube",
+    "instagram", "gstatic", "gravatar", "bing", "outbrain", "taboola", "reddit",
+    "wikipedia", "apple.com", "play.google", "t.co", "bit.ly")
+# Known claims-administrator domains — a strong signal for the official site.
+_ADMIN_DOMAINS = ("simpluris", "epiqglobal", "epiq11", "angeiongroup", "kccllc",
+    "jndla", "adminclassaction", "cptgroup", "gilardi", "rg2claims", "veritaglobal",
+    "strategicclaims", "atticusadmin", "ilymgroup", "dahladministration", "kroll",
+    "settlementadministrator", "noticeadministrator", "classactionadministrator")
+_HOST_KW = re.compile(r"settlement|classaction|class-action|databreach|data-breach", re.I)
+_OFFICIAL_TXT = re.compile(
+    r"official settlement|file (?:a )?claim|submit (?:a )?claim|settlement website|"
+    r"claim form|case website|visit the (?:settlement|claims)|official website", re.I)
+_DOC_TXT = re.compile(
+    r"complaint|settlement agreement|long.?form|class notice|notice of (?:class|settlement|"
+    r"proposed)|amended complaint|preliminary approval|important doc", re.I)
+
+
+def _host(u):
+    try:
+        return urlparse(u).netloc.lower().replace("www.", "")
+    except Exception:
+        return ""
+
+
+_OFF_STOP = set((
+    "the of and a an settlement settlements class action lawsuit data breach "
+    "wage hour bank inc llc corp company holdings group services systems incident "
+    "privacy security pay transparency job posting consumer national america").split())
+
+
+def _case_tokens(name):
+    """Distinctive words from the case name — used to confirm a candidate domain
+    actually names this case/defendant (vs. a generic marketing link)."""
+    return [t for t in re.findall(r"[a-z0-9]{4,}", (name or "").lower()) if t not in _OFF_STOP]
+
+
+def _extract_official(page, base, name=""):
+    """Find the official claims-administrator settlement site the aggregator links
+    out to — the page a class member actually files on. Accept ONLY case-specific
+    links (the hostname names the defendant, e.g. flagstarsettlement.com, or a
+    known administrator backed by 'official settlement' context). This skips our
+    own aggregators, ad networks, social, and generic lawsuit-marketing domains
+    (databreachlawsuit.org) that appear site-wide. Returns a clean URL or None."""
+    srchost = _host(base)
+    toks = _case_tokens(name)
+    best = None
+    for m in re.finditer(r'href=["\']([^"\']+)["\']', page, re.I):
+        href = urljoin(base, m.group(1))
+        if not href.startswith("http"):
+            continue
+        h = _host(href)
+        if not h or h == srchost or any(b in h for b in _NOT_OFFICIAL):
+            continue
+        if not _HOST_KW.search(h):           # must be a settlement/class-action domain
+            continue
+        ctx = page[m.end():m.end() + 120].lower()
+        hostslug = h.replace(".", "")
+        case_match = any(t in hostslug for t in toks)
+        official_ctx = bool(_OFFICIAL_TXT.search(ctx))
+        admin = any(a in h for a in _ADMIN_DOMAINS)
+        if not (case_match or (admin and official_ctx)):
+            continue                          # reject generic / site-wide links
+        score = 6 + (5 if case_match else 0) + (3 if official_ctx else 0) + (2 if admin else 0)
+        if best is None or score > best[0]:
+            best = (score, href.split("?")[0].split("#")[0])
+    return best[1] if best else None
+
+
+def _extract_docs(admin_url):
+    """Pull complaint / settlement agreement / class-notice document links off the
+    administrator site (homepage, then a documents sub-page if needed). At most two
+    fetches. Returns a list of {'label', 'url'}, PDFs first."""
+    def pull(page, base):
+        found = []
+        for m in re.finditer(r'href=["\']([^"\']+)["\']([^>]*)>(.*?)</a>', page, re.S | re.I):
+            href = urljoin(base, m.group(1))
+            if not href.startswith("http"):
+                continue
+            txt = _strip(m.group(3))
+            is_pdf = href.lower().split("?")[0].endswith(".pdf")
+            if is_pdf or _DOC_TXT.search(txt):
+                found.append({"label": txt[:70] or "Document (PDF)", "url": href, "pdf": is_pdf})
+        return found
+    try:
+        home = http_get(admin_url, timeout=12,
+                        headers={"User-Agent": BROWSER_UA, "Accept": "text/html"}).decode("utf-8", "replace")
+    except Exception:
+        return []
+    docs = pull(home, admin_url)
+    if not any(d["pdf"] for d in docs):     # homepage only links to a documents PAGE
+        dm = re.search(r'href=["\']([^"\']+)["\'][^>]*>[^<]*(?:important|court|case)[^<]*document',
+                       home, re.I)
+        if dm:
+            try:
+                durl = urljoin(admin_url, dm.group(1))
+                sub = http_get(durl, timeout=12,
+                               headers={"User-Agent": BROWSER_UA, "Accept": "text/html"}).decode("utf-8", "replace")
+                docs = pull(sub, durl) or docs
+            except Exception:
+                pass
+    out, seen = [], set()
+    for d in sorted(docs, key=lambda x: not x["pdf"]):
+        if d["url"] in seen:
+            continue
+        seen.add(d["url"])
+        out.append({"label": d["label"], "url": d["url"]})
+    return out[:6]
 
 
 def _page_deadline(page_html):
@@ -1406,8 +1520,9 @@ def _extract_page(rec):
                 break
     amount = parse_amount(desc) or parse_amount(name)
     deadline = _page_deadline(page)
+    official = _extract_official(page, url, name)
     return {"name": name, "description": desc, "amount": amount, "year": year,
-            "dead": dead, "deadline": deadline}
+            "dead": dead, "deadline": deadline, "official": official}
 
 
 _SETTLE_PATH = re.compile(
@@ -1487,7 +1602,8 @@ def enrich_missing(limit=2500, workers=6):
                 rec["amount"] = None; rec["amount_src"] = None
             need_amount = rec.get("amount") is None and not gov_nonsettle
             need_deadline = rt == RT_SETTLEMENT and "claim_deadline" not in rec
-            if need_amount or rec.get("year") is None or need_deadline:
+            need_official = rt == RT_SETTLEMENT and "official_url" not in rec
+            if need_amount or rec.get("year") is None or need_deadline or need_official:
                 page = _extract_page(rec)
                 if page:
                     if need_amount and page["amount"] is not None:
@@ -1496,6 +1612,9 @@ def enrich_missing(limit=2500, workers=6):
                         rec["year"] = page["year"]
                     if rt == RT_SETTLEMENT:
                         rec["claim_deadline"] = page["deadline"]
+                        rec["official_url"] = page.get("official")
+                        if rec["official_url"]:
+                            rec["documents"] = _extract_docs(rec["official_url"])
             return (rid, rec, "filled")
         # Sitemap sources — the page is authoritative for everything.
         page = _extract_page(rec)
@@ -1523,6 +1642,11 @@ def enrich_missing(limit=2500, workers=6):
         rt = _classify_sitemap_rt(rec.get("source_url") or "", src, name, text, page["amount"])
         rec["record_type"] = rt
         rec["status"] = _RT_STATUS[rt]
+        # Direct link to the claims administrator + its complaint/settlement docs,
+        # so the user files at the source instead of hopping through the aggregator.
+        rec["official_url"] = page.get("official")
+        if rt == RT_SETTLEMENT and rec["official_url"]:
+            rec["documents"] = _extract_docs(rec["official_url"])
         return (rid, rec, "full")
 
     results = []

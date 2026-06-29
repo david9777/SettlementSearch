@@ -346,7 +346,33 @@
   function clSearch(query) {
     return "https://www.courtlistener.com/?type=r&q=" + encodeURIComponent(query);
   }
+  // Direct link to the claims administrator — where the user actually files,
+  // instead of hopping through an aggregator.
+  function officialRow(d) {
+    if (!d.official_url) return "";
+    return '<div class="detail-row"><div class="k">Official site</div>' +
+      '<div class="v"><a class="official-link" href="' + esc(d.official_url) +
+      '" target="_blank" rel="noopener">File at the claims administrator ↗</a></div></div>';
+  }
+  // Complaint / settlement-agreement / notice PDFs pulled from the administrator.
+  function docsRow(d) {
+    if (!d.documents || !d.documents.length) return "";
+    var items = d.documents.map(function (doc) {
+      return '<a class="doc-link" href="' + esc(doc.url) +
+        '" target="_blank" rel="noopener">' + esc(doc.label) + " ↗</a>";
+    }).join("");
+    return '<div class="detail-row"><div class="k">Documents</div>' +
+      '<div class="v doc-list">' + items + "</div></div>";
+  }
   function docketRow(d) {
+    // CourtListener is inconsistent, so only fall back to it when we have no
+    // administrator site and no documents to offer.
+    if (d.official_url || (d.documents && d.documents.length)) {
+      return d.case_number
+        ? '<div class="detail-row"><div class="k">Case no.</div><div class="v mono">' +
+            esc(d.case_number) + "</div></div>"
+        : "";
+    }
     var find = (d.short_name || d.case_name || "").replace(/^\$[\d.,]+[a-z]*\s+/i, "");
     if (d.defendant && d.defendant.indexOf("(") < 0) find += " " + d.defendant;
     var findLink = '<a href="' + esc(clSearch(find)) +
@@ -392,15 +418,20 @@
         detailRow("Status", d.status) +
         detailRow("Court", d.court_full || d.court) +
         detailRow("Judge", d.judge) +
+        officialRow(d) +
+        docsRow(d) +
         docketRow(d) +
         detailRow("Class size", d.class_size != null ? fullNum(d.class_size) + " members" : null) +
         detailRow("Settlement", amt ? amt + " (" + fullNum(d.amount) + ")" : "Non-monetary / N/A") +
         detailRow("Attorneys' fees", d.fee_award != null ? money(d.fee_award) + " (" + fullNum(d.fee_award) + ")" : null) +
         detailRow("Source", d.source) +
         '<div class="detail-row"><div class="k">Link</div><div class="v">' +
-          (realSource
-            ? '<a href="' + esc(d.source_url) + '" target="_blank" rel="noopener">View source ↗</a>'
-            : '<a href="' + esc(searchUrl) + '" target="_blank" rel="noopener">Search this case ↗</a>') +
+          (d.official_url
+            ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">Official settlement site ↗</a>' +
+              (realSource ? ' · <a href="' + esc(d.source_url) + '" target="_blank" rel="noopener">via ' + esc(d.source) + " ↗</a>" : "")
+            : realSource
+              ? '<a href="' + esc(d.source_url) + '" target="_blank" rel="noopener">View source ↗</a>'
+              : '<a href="' + esc(searchUrl) + '" target="_blank" rel="noopener">Search this case ↗</a>') +
         "</div></div>" +
         (d.date_added ? detailRow("Added", d.date_added) : "") +
       "</div>";
