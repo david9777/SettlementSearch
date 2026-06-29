@@ -1398,14 +1398,25 @@ def _excluded_host(h):
 
 _OFF_STOP = set((
     "the of and a an settlement settlements class action lawsuit data breach "
-    "wage hour bank inc llc corp company holdings group services systems incident "
-    "privacy security pay transparency job posting consumer national america").split())
+    "wage hour inc llc corp company holdings group services systems incident "
+    "privacy security pay transparency job posting").split())
+# Administrator PLATFORM domains — the case is in the URL path (strategicclaims.net/
+# case/x, cw.simpluris.com/x), so these may not carry a settlement-keyword hostname.
+_ADMIN_HOST = ("strategicclaims.net", "simpluris.com", "kccllc.net", "kccllc.com",
+    "eagclaims.com", "pnclassaction.com", "cptgroup.com", "cptgroupcaseinfo.com",
+    "jndla.com", "epiqglobal.com", "epiq11.com", "angeiongroup.com", "gilardi.com",
+    "rg2claims.com", "dahladministration.com", "atticusadmin.com", "ilymgroup.com",
+    "adminclassaction.com", "classactionadministration.com", "verita.com")
+# Asset/file hosts — a link here is a document, not the case landing page.
+_ASSET_HOST = ("amazonaws.com", "cloudfront.net", "blob.core.windows.net",
+               "storage.googleapis.com", "dropbox.com", "box.com")
 
 
 def _case_tokens(name):
     """Distinctive words from the case name — used to confirm a candidate domain
-    actually names this case/defendant (vs. a generic marketing link)."""
-    return [t for t in re.findall(r"[a-z0-9]{4,}", (name or "").lower()) if t not in _OFF_STOP]
+    actually names this case/defendant (vs. a generic marketing link). 3+ chars to
+    catch initialisms like BHI / FCA."""
+    return [t for t in re.findall(r"[a-z0-9]{3,}", (name or "").lower()) if t not in _OFF_STOP]
 
 
 def _case_acronym(name):
@@ -1430,24 +1441,31 @@ def _extract_official(page, base, name=""):
     srchost = _host(base)
     toks = _case_tokens(name)
     ac = _case_acronym(name)
+    page = page.replace("\\/", "/")           # un-escape JSON-embedded URLs
     low = page.lower()
     best = None
-    for m in re.finditer(r'https?://[^\s"\'<>)\]]+', page, re.I):
+    for m in re.finditer(r'https?://[^\s"\'<>)\]\\]+', page, re.I):
         href = m.group(0).rstrip('.,)";\'')
         h = _host(href)
         if not h or h == srchost or _excluded_host(h):
             continue
-        if not _HOST_KW.search(h):           # must be a settlement/class-action domain
+        if any(a in h for a in _ASSET_HOST):     # document/asset host, not the case site
             continue
-        hostslug = h.replace(".", "").replace("-", "")
-        tokmatch = sum(1 for t in toks if t in hostslug)
-        acmatch = bool(ac and ac in hostslug)
-        admin = any(a in h for a in _ADMIN_DOMAINS)
+        is_admin = any(h == a or h.endswith("." + a) for a in _ADMIN_HOST)
+        if not (_HOST_KW.search(h) or is_admin):  # dedicated settlement domain or admin platform
+            continue
+        # For admin platforms the case lives in the URL PATH; for dedicated
+        # settlement domains it's in the hostname.
+        target = href.lower() if is_admin else h
+        slug = re.sub(r"[^a-z0-9]", "", target)
+        tokmatch = sum(1 for t in toks if t in slug)
+        acmatch = bool(ac and ac in slug)
+        known_admin = any(a in h for a in _ADMIN_DOMAINS) or is_admin
         ctx = low[max(0, m.start() - 80):m.start()] + low[m.end():m.end() + 80]
         official_ctx = bool(_OFFICIAL_TXT.search(ctx))
-        if not (tokmatch or acmatch or (admin and official_ctx)):
+        if not (tokmatch or acmatch or (known_admin and official_ctx)):
             continue                          # reject generic / site-wide links
-        score = 6 + tokmatch * 4 + (5 if acmatch else 0) + (3 if official_ctx else 0) + (2 if admin else 0)
+        score = 6 + tokmatch * 4 + (5 if acmatch else 0) + (3 if official_ctx else 0) + (2 if known_admin else 0)
         if best is None or score > best[0]:
             best = (score, href.split("?")[0].split("#")[0])
     return best[1] if best else None
