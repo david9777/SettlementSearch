@@ -575,8 +575,17 @@
       state.online = true;
       state.lastUpdated = json.last_updated || null;
     } catch (e) {
-      // Opened directly from disk (file://) or no server — use the embedded data.
-      DATA = dropDead(window.SETTLEMENTS || []);
+      // No local server (e.g. GitHub Pages). Fetch the published dataset directly
+      // with a unique cache-buster so a stale browser/CDN copy can't be served —
+      // this is what makes daily updates actually show up. Fall back to the inline
+      // data.js only when even that fails (opened from disk via file://).
+      try {
+        const r2 = await fetch("settlements.json?t=" + Date.now(), { cache: "no-store" });
+        if (!r2.ok) throw new Error("no json");
+        DATA = dropDead(await r2.json());
+      } catch (e2) {
+        DATA = dropDead(window.SETTLEMENTS || []);
+      }
       state.online = false;
       state.lastUpdated = null;
     }
