@@ -1617,7 +1617,11 @@ def enrich_missing(limit=2500, workers=6):
             "SELECT id, data FROM settlements "
             "WHERE data LIKE '%\"source_url\": \"http%' "
             "AND data NOT LIKE '%\"enrich_ver\": \"" + ENRICH_VER + "\"%' "
-            "ORDER BY (record_type='Settlement') DESC, rowid LIMIT ?", (limit,)).fetchall()
+            # Never-enriched records (raw slug name, no amount) go FIRST so newly
+            # pulled cases don't sit broken at the top of "recently added"; then
+            # newest first. Already-good records reprocess last.
+            "ORDER BY (data LIKE '%\"enriched_at\": \"%') ASC, "
+            "(record_type='Settlement') DESC, rowid DESC LIMIT ?", (limit,)).fetchall()
     todo = [(rid, json.loads(blob)) for rid, blob in rows]
     today = datetime.now(timezone.utc).date().isoformat()
 
