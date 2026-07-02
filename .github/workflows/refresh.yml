@@ -37,6 +37,7 @@ jobs:
           python server.py --refresh-once
           python server.py --scrub
           python server.py --enrich
+          python server.py --dedupe
           python server.py --export
 
       - name: Commit updated data

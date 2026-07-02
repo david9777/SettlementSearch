@@ -1334,8 +1334,13 @@ _SITE_SUFFIX = re.compile(
     r"injuryclaims|injury claims)\b.*$", re.I)
 _GENERIC_TITLE = re.compile(
     r"(settlement not found|page not found|\bnot found\b|^\s*404|find class action"
-    r"|pending class action investigations|coming soon|just a moment|access denied"
-    r"|are you a robot)", re.I)
+    r"|pending class action investigations|coming soon)", re.I)
+# Bot-challenge walls (Cloudflare etc.). These are LIVE pages we just can't read —
+# treat as a fetch failure, never as the case name and never as a dead page.
+_CHALLENGE_TITLE = re.compile(
+    r"(just a moment|one moment,? please|attention required|checking your browser|"
+    r"access (denied|to this page)|are you a robot|verify (you are|you're) (a )?human|"
+    r"security check|enable javascript and cookies|captcha)", re.I)
 
 
 def _strip(s):
@@ -1543,6 +1548,9 @@ def _extract_page(rec):
     title_tag = _clean_title(tm.group(1)) if tm else ""
     og_title = _clean_title(_page_meta(page, "og:title") or _page_meta(page, "twitter:title"))
     raw = (tm.group(1) if tm else "") + " " + (_page_meta(page, "og:title") or "")
+    # A bot wall means we couldn't read the real page — fetch failure, not data.
+    if _CHALLENGE_TITLE.search(raw):
+        return None
     desc = _page_meta(page, "og:description") or _page_meta(page, "description") \
         or _page_meta(page, "twitter:description")
     # <title> is the most consistent "page title"; fall back to og:title.
@@ -1708,6 +1716,121 @@ def enrich_missing(limit=2500, workers=6):
                        json.dumps(rec, ensure_ascii=False), rid))
     _invalidate_cache()
     return stats
+
+
+_MERGE_STOP = set((
+    "settlement settlements class action lawsuit litigation data breach the of and "
+    "a an in re inc llc lp corp co company holdings group services incident privacy "
+    "security consumer am i you eligible how to file claim claims deadline when will "
+    "pay out payout who qualifies what know need get money fund up for from your "
+    "million billion january february march april may june july august september "
+    "october november december").split())
+
+
+def _merge_tokens(rec):
+    """Distinctive-word set of the CURRENT (post-enrichment) name. Dollar figures,
+    years, months and guide phrasing are dropped, so '$68M Google Assistant privacy
+    class action settlement', 'Google Assistant Class Action Settlement' and
+    'Google Assistant Privacy Settlement - Up to 68M Fund' all reduce to overlapping
+    sets that the subset rule can collapse."""
+    s = (rec.get("short_name") or rec.get("case_name") or "").lower().replace("-", " ")
+    toks = set()
+    for t in re.findall(r"[a-z][a-z0-9']*", s):
+        t = t.strip("'").replace("'", "")
+        if len(t) < 2 or t in _MERGE_STOP or re.fullmatch(r"\d+[mbk]?", t):
+            continue
+        toks.add(t)
+    return frozenset(toks)
+
+
+def _merge_score(rec):
+    """Which duplicate to keep: prefer page-verified amount, official site, docs,
+    real enrichment, richer description."""
+    return ((3 if rec.get("amount") else 0) +
+            (2 if rec.get("official_url") else 0) +
+            (1 if rec.get("documents") else 0) +
+            (1 if rec.get("enriched_at") else 0) +
+            (1 if rec.get("claim_deadline") else 0) +
+            min(len(rec.get("description") or "") / 400.0, 1.0))
+
+
+def _same_case(ta, tb):
+    """Two names are the same case when one's distinctive words are contained in
+    the other's ('henderson walton' ⊆ 'henderson walton womens center'). A 1-word
+    set may only absorb a small set — never a long, more specific name — so
+    'Amazon' can't swallow 'Amazon Pennsylvania Unpaid Wages'."""
+    if not ta or not tb:
+        return False
+    small, big = (ta, tb) if len(ta) <= len(tb) else (tb, ta)
+    if not small <= big:
+        return False
+    return len(small) >= 2 or len(big) <= 2
+
+
+def dedupe_store():
+    """Merge cross-source duplicates of the same settlement (the same case indexed
+    by ClaimDepot AND ClassActionBuddy AND Dapeer...). Enrichment renames records
+    to the same real page title, so duplicates only become visible AFTER
+    enrichment — this runs post-enrich. Groups by token-subset matching within a
+    category, keeps the best record, absorbs any fields it's missing from the
+    copies, and removes the copies."""
+    records = load_store()
+    # Bucket candidates by (category, one shared token) to bound comparisons.
+    cands = [r for r in records
+             if r.get("record_type") == RT_SETTLEMENT and not r.get("dead")]
+    toks = {r["id"]: _merge_tokens(r) for r in cands}
+    parent = {r["id"]: r["id"] for r in cands}
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[rb] = ra
+
+    buckets = {}
+    for r in cands:
+        for t in toks[r["id"]]:
+            buckets.setdefault((r.get("category"), t), []).append(r)
+    for _, grp in buckets.items():
+        if len(grp) < 2 or len(grp) > 25:    # huge buckets = generic token; skip
+            continue
+        for i in range(len(grp)):
+            for j in range(i + 1, len(grp)):
+                a, b = grp[i], grp[j]
+                if find(a["id"]) == find(b["id"]):
+                    continue
+                if _same_case(toks[a["id"]], toks[b["id"]]):
+                    union(a["id"], b["id"])
+    groups = {}
+    for r in cands:
+        groups.setdefault(find(r["id"]), []).append(r)
+    merged = removed = 0
+    _FILL = ["amount", "amount_src", "official_url", "documents", "claim_deadline",
+             "year", "court", "court_full", "case_number", "class_size", "defendant",
+             "description"]
+    with _DB_LOCK, _connect() as c:
+        for _, grp in groups.items():
+            if len(grp) < 2:
+                continue
+            grp.sort(key=_merge_score, reverse=True)
+            keep, rest = grp[0], grp[1:]
+            for r in rest:
+                for f in _FILL:
+                    if not keep.get(f) and r.get(f):
+                        keep[f] = r[f]
+                c.execute("DELETE FROM settlements WHERE id=?", (r.get("id"),))
+                removed += 1
+            c.execute("UPDATE settlements SET amount=?, year=?, data=? WHERE id=?",
+                      (keep.get("amount"), keep.get("year"),
+                       json.dumps(keep, ensure_ascii=False), keep.get("id")))
+            merged += 1
+    _invalidate_cache()
+    return {"groups_merged": merged, "copies_removed": removed}
 
 
 def scrub_unreliable_amounts():
@@ -1943,6 +2066,9 @@ def main():
         return
     if "--scrub" in sys.argv:
         print(json.dumps(scrub_unreliable_amounts(), indent=2))
+        return
+    if "--dedupe" in sys.argv:
+        print(json.dumps(dedupe_store(), indent=2))
         return
     if "--enrich" in sys.argv:
         limit = int(os.environ.get("ENRICH_LIMIT", "1500"))
