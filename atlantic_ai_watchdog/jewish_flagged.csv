@@ -1,0 +1,34 @@
+query_name,matched_name,creator_id,total_results,count__free-music-archive,count__laion-disco-12m,count__sleeping-disco-9m,count__spotify-tracks-dataset,present_datasets,used_by_datasets,used_by_companies,flag
+Al Jolson,Al Jolson,5611a8e8-1521-4919-a531-2689bbb57ce4,223,12,191,20,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Alan Vega,Alan Vega,dd720ac8-1c68-4484-abb7-0546413a55e3,47,9,3,35,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Alma Gluck,Alma Gluck,c52f7dab-6e10-4b32-9afe-d694e860c95f,1,1,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Amnon Wolman,Amnon Wolman,c39e10d1-1d3b-4231-814d-8c30208cf5f2,1,1,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Ariel Pink,Ariel Pink,5882e375-503f-4bd2-89b1-967e0bfcb199,233,1,133,96,3,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Arthur Fields,Arthur Fields,2ecfa8f1-0354-4eb6-af83-6c29c73017b7,16,6,0,10,0,free-music-archive;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Belle Baker,Belle Baker,a47e41af-6d30-4ba9-8e05-969444a93fe9,1,1,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Benjamin Boretz,Benjamin Boretz,709e42ec-8fcf-4f7f-bf3e-5abe9ce8982c,1,1,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Bob Dylan,Bob Dylan,72c536dc-7137-4477-a521-567eeb840fa8,725,1,245,474,5,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Bruno Walter,Bruno Walter,afa18c9c-85f7-4ecf-a262-c7ce17556212,106,2,97,7,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Charlie Megira,Charlie Megira,dcaa3a76-4aed-4e59-9eab-4504f8aadb50,106,6,100,0,0,free-music-archive;laion-disco-12m,free-music-archive,Google;Stability AI,USED_BY
+David Rovics,David Rovics,4d56eb9f-13b3-4f05-9db7-50195378d49f,243,69,145,29,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Eddie Cantor,Eddie Cantor,0e04e04c-bdfe-4a0e-a311-a2190bd6d72c,181,1,161,19,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Eldad Tsabary,Eldad Tsabary,89b8360b-8967-4835-a79c-7ad541415d13,1,1,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Elliott Sharp,Elliott Sharp,bfa8a730-cabc-443b-b79b-012b63bb1c41,46,11,35,0,0,free-music-archive;laion-disco-12m,free-music-archive,Google;Stability AI,USED_BY
+Fanny Brice,Fanny Brice,b500874c-8c7d-4353-b928-e1affdd4155b,8,2,0,6,0,free-music-archive;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Igor Krutogolov,Igor Krutogolov,ee9c46ea-9499-48c3-a08f-fae1eedb7c37,8,8,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Ilan Volkov,Ilan Volkov,7af3ddf7-a524-453e-babe-c99910b44411,24,1,22,1,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Israel Philharmonic Orchestra,Israel Philharmonic Orchestra,c8a88cc7-c93e-42b5-ba29-68859b5716e3,189,1,188,0,0,free-music-archive;laion-disco-12m,free-music-archive,Google;Stability AI,USED_BY
+Jeff Tweedy,Jeff Tweedy,63287966-6021-474a-ba76-edc37a5f1b7c,162,1,106,55,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Jonathan Biss,Jonathan Biss,630741b0-35bb-4c09-991e-64f98851d18a,12,5,0,7,0,free-music-archive;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Leo Sirota,Leo Sirota,d94fa163-90b0-450d-9abc-de462b63a081,1,1,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Marissa Nadler,Marissa Nadler,06ae569e-0b5b-4cd7-aded-98c3ad743ca3,271,17,144,110,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Maya Dunietz,Maya Dunietz,23688,3,3,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Miriam Fried,Miriam Fried,e94aad58-cc67-4955-b1a0-53bd6ea6ff2f,1,1,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Ned Rothenberg,Ned Rothenberg,f138b9c0-b6b4-48a1-89c5-3b98002c0e49,10,2,8,0,0,free-music-archive;laion-disco-12m,free-music-archive,Google;Stability AI,USED_BY
+Rachel Mason,Rachel Mason,20702,6,6,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Richard M. Sherman,Richard M. Sherman,c47026a1-3300-4cf7-80df-8b9462a884e4,111,1,97,11,2,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Robert B. Sherman,Robert B. Sherman,d378dedb-444f-48f5-a6e6-3e8e31ef6c14,84,1,72,9,2,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Russell Sherman,Russell Sherman,d12fb7f9-5b11-4c4a-81e5-79f9a21f41b7,3,1,2,0,0,free-music-archive;laion-disco-12m,free-music-archive,Google;Stability AI,USED_BY
+Sarah Fimm,Sarah Fimm,e0f1a7e3-e22e-4cb7-9070-ef5c5d507d0c,17,1,0,16,0,free-music-archive;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Scott Fields,Scott Fields,6e8ecad7-f58d-44b5-ade9-c9b342401724,2,2,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Sophie Tucker,Sophie Tucker,1404fcf2-5c92-434b-8d37-7f9b0c8f986f,18,6,4,8,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY

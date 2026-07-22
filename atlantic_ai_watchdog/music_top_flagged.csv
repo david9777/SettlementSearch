@@ -1,0 +1,21 @@
+query_name,matched_name,creator_id,total_results,count__free-music-archive,count__laion-disco-12m,count__sleeping-disco-9m,count__spotify-tracks-dataset,present_datasets,used_by_datasets,used_by_companies,flag
+Bob Dylan,Bob Dylan,72c536dc-7137-4477-a521-567eeb840fa8,725,1,245,474,5,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Louis Armstrong,Louis Armstrong,eea8a864-fcda-4602-9569-38ab446decd6,1180,1,686,473,20,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Eric Clapton,Eric Clapton,618b6900-0618-4f1e-b835-bccb17f84294,622,1,257,353,11,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Yoko Ono,Yoko Ono,b0b33754-a664-43b7-ba00-be0dc4ec2396,227,1,181,44,1,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Charles Manson,Charles Manson,db3d7002-d9e8-4803-82c4-d85dad3f29bb,135,16,116,3,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+The Prodigy,The Prodigy,4a4ee089-93b1-4470-af9a-6ff575d32704,217,1,147,3,66,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Nine Inch Nails,Nine Inch Nails,b7ffd2af-418f-4be2-bdd1-22f8b48613da,306,13,143,128,22,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+XXXTentacion,XXXTentacion,61af87f4-16ee-4431-8504-cc06187079fb,530,1,150,297,82,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+XXXTentacion,XXXTENTACION,61af87f4-16ee-4431-8504-cc06187079fb,530,1,150,297,82,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Scott Joplin,Scott Joplin,aec8a328-d2e8-4780-b2ea-318c7f8d6f75,266,5,245,16,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+River Phoenix,River Phoenix,17489,5,5,0,0,0,free-music-archive,free-music-archive,Google;Stability AI,USED_BY
+Jeff Beck,Jeff Beck,14a4bc78-1c2d-4ca7-8d1b-9b58076a2a17,265,1,153,109,2,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Anton Webern,Anton Webern,7be0b588-030c-4904-836f-71ff43a2dfec,176,3,141,32,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Paul Anka,Paul Anka,420c6768-0885-415a-bb59-d6a275121125,239,1,150,81,7,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+Beastie Boys,Beastie Boys,9beb62b2-88db-4cea-801e-162cd344ee53,272,1,148,123,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Bessie Smith,Bessie Smith,ffa28768-ecda-42c6-ac49-6ce5c7d33043,302,1,257,44,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Jackie Gleason,Jackie Gleason,c6d1f982-ed7a-40a8-bfa2-5a1342376636,417,1,364,52,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Ferruccio Busoni,Ferruccio Busoni,cab67e98-340d-424e-baf1-b127902c200b,99,2,76,21,0,free-music-archive;laion-disco-12m;sleeping-disco-9m,free-music-archive,Google;Stability AI,USED_BY
+Gilberto Gil,Gilberto Gil,cf6b70f6-2616-481c-912c-0263cabfc974,345,1,200,124,20,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY
+David Byrne,David Byrne,d4659efb-b8eb-4f03-95e9-f69ce35967a9,377,1,165,210,1,free-music-archive;laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,free-music-archive,Google;Stability AI,USED_BY

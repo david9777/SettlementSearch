@@ -1,0 +1,9 @@
+query_name,matched_name,creator_id,total_results,count__free-music-archive,count__laion-disco-12m,count__sleeping-disco-9m,count__spotify-tracks-dataset,present_datasets,flag
+Taylor Swift,Taylor Swift,20244d07-534f-4eff-b4d4-930878889970,605,0,165,427,13,laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,PRESENT_UNCLASSIFIED
+Adele,Adele,cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493,187,0,73,70,44,laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,PRESENT_UNCLASSIFIED
+Drake,Drake,9fff2f8a-21e6-47de-a2b8-7f449929d43f,811,0,232,562,17,laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,PRESENT_UNCLASSIFIED
+Beyoncé,Beyoncé,859d0860-d480-4efd-970c-c05d5f1776b8,688,0,184,501,3,laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,PRESENT_UNCLASSIFIED
+Radiohead,Radiohead,a74b1b7f-71a5-4011-9441-d0b5e4122711,293,0,147,135,11,laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,PRESENT_UNCLASSIFIED
+Kendrick Lamar,Kendrick Lamar,381086ea-f511-4aba-bdf9-71c753dc5077,585,0,198,379,8,laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,PRESENT_UNCLASSIFIED
+The Beatles,The Beatles,b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d,759,0,268,341,150,laion-disco-12m;sleeping-disco-9m;spotify-tracks-dataset,PRESENT_UNCLASSIFIED
+Nonexistent Test Artist Zzz,,,0,,,,,,NONE

@@ -1,0 +1,1604 @@
+ 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+GAW | POE LLP 
+Randolph Gaw (S.B. # 223718) 
+rgaw@gawpoe.com 
+One Embarcadero Ctr., Suite 1200 
+San Francisco, CA 94111 
+Tel: (415) 766-7451 
+ 
+SLARSKEY LLC 
+David Slarskey (pro hac vice) 
+dslarskey@slarskey.com 
+Adam Hollander (pro hac vice pending) 
+ahollander@slarskey.com 
+Deepa Devanathan (pro hac vice pending) 
+ddevanathan@slarskey.com 
+Phillip Gasperetti (pro hac vice pending) 
+pgasperetti@slarskey.com  
+767 Third Ave, 14th Floor 
+New York, NY 10017 
+Tel: (212) 658-0661 
+ 
+ARCHSTONE LAW GROUP, P.C.  
+Brenda Ulrich (pro hac vice pending) 
+bulrich@archstonelaw.com 
+Zick Rubin (pro hac vice pending) 
+zrubin@archstonelaw.com 
+Riverside Center 
+275 Grove Street, Suite 2-400 
+Newton, MA 02466 
+Tel: (781) 314-0100 
+Attorneys for Plaintiffs and the Proposed Class 
+ 
+UNITED STATES DISTRICT COURT 
+ 
+NORTHERN DISTRICT OF CALIFORNIA 
+ 
+MICHAEL SULLIVAN, KENNETH S. 
+SALADIN, ZVI BODIE, ALAN J. MARCUS, 
+KEVIN T. PATTON, LION DEN INC., and 
+DANA LOEWY individually and on behalf of 
+all others similarly situated,  
+Plaintiffs, 
+ 
+v. 
+  
+META PLATFORMS, INC. and MARK 
+ZUCKERBERG, 
+ 
+Defendants. 
+ Case No. 26-6793 
+ 
+CLASS ACTION COMPLAINT 
+ 
+Class Action 
+ 
+Demand for Jury Trial 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 1 of 22
+ 
+- 1 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+Plaintiffs Michael Sullivan, Kenneth S. Saladin, Zvi Bodie, Alan J. Marcus, Kevin Patton, Lion 
+Den Inc., and Dana Loewy (“Plaintiffs”), individually and on behalf of all others similarly situated, 
+by and through undersigned counsel, for their Complaint against Defendants Meta Platforms, Inc. 
+(“Meta”) and Mark Zuckerberg (“Zuckerberg,” and together with Meta, “Defendants”), allege as 
+follows: 
+INTRODUCTION 
+1. This is a class action brought by textbook authors  (the “Class”) whose copyrighted 
+textbooks Meta copied, reproduced, distributed, and used without authorization to build and train its 
+generative large language model (“LLM” or “model”) known as Llama. 
+2. Without license, consent, credit, or compensation to the textbook authors, Meta 
+obtained Plaintiffs’ and the Class’s copyrighted textbooks from pirated “shadow library” sources, 
+reproduced them, distributed them to others while  torrenting them, removed copyright -management 
+information from them, and used them to train its Llama models.  
+3. Plaintiffs are textbook authors. Textbook authors occupy a distinct position in the 
+market for written works, as textbooks are created , marketed, and sold for  the specific purpose of 
+teaching academic subjects to students in classroom and course settings at educational institutions. 
+Textbooks are reviewed and selected by instructors and through formal adoption processes, are 
+typically updated, revised, and published in successive editions  on a regular basis , and are 
+commercialized in educational markets that fundamentally differ from the markets for trade books and 
+scholarly works. 
+4. Those distinctions are central to this litigation. The market for textbooks and the risk 
+that AI models trained on textbooks will substitute for and dilute that market turns in part up on 
+evidence of textbook adoption, revision economics, and customer purchasing decisions that are unique 
+to textbook authors as compared to other categories of authors. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 2 of 22
+ 
+- 2 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+5. Each Plaintiff assigned exclusive publication and distribution rights under the 
+Copyright Act to his or her respective publisher, subject to the publisher’s contractual obligation to 
+pay royalties to the Plaintiff based on the publisher’s exploitation of t hose exclusive rights. 
+Accordingly, each Plaintiff is the beneficial owner of copyright in his or her work and is entitled to 
+institute an action for infringement of the copyright, pursuant to 17 U.S.C. § 501(b).  
+6. Plaintiffs assert claims for direct copyright infringement, contributory copyright 
+infringement, and removal  and distribution of copyright-management information under the Digital 
+Millennium Copyright Act, on behalf of themselves and a class of textbook authors. 
+JURISDICTION AND VENUE 
+7. This Court has subject-matter jurisdiction over this action under 28 U.S.C. §§ 1331 and 
+1338 because this action arises under the Copyright Act, 17 U.S.C. §§ 101 et seq., and the Digital 
+Millennium Copyright Act, 17 U.S.C. §§ 501, 1202, and 1203. 
+8. This Court has personal jurisdiction over Defendants.  
+9. Defendant Meta maintains its principal place of business in this District and has 
+purposefully availed itself of this forum, and the conduct giving rise to Plaintiffs’ claims occurred 
+substantially in this District. 
+10. Defendant Mark Zuckerberg resides in and directs Meta’s operations from this District 
+and has purposefully availed himself of this forum, and the conduct giving rise to Plaintiffs’ claims 
+occurred substantially in this District. Zuckerberg oversaw, approved, and/or directed the illegal 
+conduct alleged in this Complaint, and foreseeably caused injury to persons residing in, located in, or 
+doing business in this District. 
+11. Venue is proper in this District under 28 U.S.C. § 1391 because Defendant Meta is 
+headquartered in this District, Defendant Zuckerberg resides in this District, and a substantial part of 
+the events or omissions giving rise to the claims occurred in this District, including alleged copyright 
+infringement. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 3 of 22
+ 
+- 3 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+INTRADISTRICT ASSIGNMENT 
+12. Assignment of this action is governed by the District’s Assignment Plan. Because this 
+is an Intellectual Property Action, it is assigned on a district -wide basis under Civil L.R. 3- 2(c) and 
+General Order No. 44, rather than to a particular division under Civil L.R. 3-2(d). 
+PARTIES 
+13. Plaintiff Michael Sullivan is an individual residing in Florida and is Professor Emeritus 
+of Mathematics at Chicago State University, where he taught for more than 35 years.  
+14. Dr. Sullivan is the author of more than 120 mathematics textbooks and editions 
+published by Pearson Education, Inc., W.H. Freeman & Co. and BFW Publishing Group (subsidiaries 
+of Macmillan Publishers) and John Wiley & Sons, Inc., including the widely adopte d titles College 
+Algebra, Algebra and Trigonometry , Precalculus, Trigonometry: A Unit Circle Approach (12th 
+Edition, Pearson Education) , 3-book Precalculus series, Concepts Through Function (5th Edition, 
+Pearson Education) , 3-book Precalculus Enhanced with Graphing Utilities series (9th Edition, 
+Pearson Education), and Calculus for the AP Course, 4th Edition, BFW Publishers.  
+15. Dr. Sullivan has beneficial interests, copyrights, exclusive rights, royalty interests, 
+contractual rights, or other legally protected interests in these and other works that  give him standing 
+within the class. 
+16. Dr. Sullivan is a past president of the Text book & Academic Authors Association 
+(“TAA”), a member organization whose mission is to advance the interests of textbook and academic 
+authors. TAA’s “Michael Sullivan Lecture on Textbook &  Academic Authoring” is named in his 
+honor. He currently serves as TAA’s Treasurer.  
+17. Plaintiff Kenneth S. Saladin is an individual residing in Georgia and is Distinguished 
+Professor of Biology, Emeritus, at Georgia College & State University.  
+18. Dr. Saladin is the author of 21 titles and editions of English- language textbooks of 
+human anatomy and physiology published by McGraw Hill, LLC. Dr. Saladin’s textbooks  include 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 4 of 22
+ 
+- 4 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+Anatomy & Physiology: The Unity of Form and Function, Human Anatomy, and Essentials of Anatomy 
+& Physiology.  
+19. Dr. Saladin has beneficial interests, copyrights, exclusive rights, royalty interests, 
+contractual rights, or other legally protected interests in these and other works that, give him standing 
+within the class. 
+20. Plaintiff Zvi Bodie is an individual residing in Massachusetts and is Professor Emeritus 
+of Finance at the Questrom School of Business at Boston University, where he taught for more than 
+four decades.  
+21. Dr. Bodie is a co-author of the leading finance textbooks published in multiple editions, 
+including Investments and Essentials of Investments, published by McGraw Hill, LLC, and Financial 
+Economics, published by Cambridge University Press.   
+22. Dr. Bodie has beneficial interests, copyrights, exclusive rights, royalty interests, 
+contractual rights, or other legally protected interests in these and other works that  give him standing 
+within the class. 
+23. Plaintiff Alan J. Marcus is an individual residing in Massachusetts and is the Mario J. 
+Gabelli Endowed Professor of Finance at the Carroll School of Management at Boston College.  
+24. Dr. Marcus is a co-author of leading finance textbooks in multiple editions, including 
+Investments and Essentials of Investments and Fundamentals of Corporate Finance, all published by 
+McGraw Hill, LLC.  
+25. Dr. Marcus has beneficial interests, copyrights, exclusive rights, royalty interests, 
+contractual rights, or other legally protected interests in these and other works that, give him standing 
+within the class. 
+26. Kevin T. Patton is an individual residing in Missouri who worked as an anatomy & 
+physiology (A&P) professor for several decades, teaching at the high school, community college , 
+undergraduate, and graduate levels. Dr. Patton is President Emeritus of the Human Anatomy &  
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 5 of 22
+ 
+- 5 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+Physiology Society and a founder of the HAPS Institute, a continuing education program for A&P 
+professors. He is also a past President of the Textbook & Academic Authors Association. 
+27. Dr. Patton is the author of multiple successive editions of widely adopted anatomy and 
+physiology textbooks published by Elsevier, Inc., including Anatomy & Physiology , Structure & 
+Function of the Body, and The Human Body in Health & Disease . Dr. Patton authored his textbooks 
+as an employee of Lion Den Inc., an S-Corporation of which he is the president and owner.   
+28. Lion Den Inc. is a Missouri S-Corporation solely owned by the Patton Trust dated May 
+13, 2005, of which Dr. Patton and his wife are both grantors and trustees.  
+29. Lion Den Inc., together with Dr. Patton, have beneficial interests, copyrights, exclusive 
+rights, royalty interests, contractual rights, or other legally protected interests in these and other works 
+that give him and his company standing within the class. 
+30. Dana Loewy is an individual residing in California and is Professor Emerita of Business 
+Communication at Cal State Fullerton. 
+31. Dr. Loewy is the co -author of multiple successive editions of leading business 
+communications textbooks published by Cengage Learning, Inc., including Business Communication: 
+Process & Product and Essentials of Business Communication. 
+32. Dr. Loewy has beneficial interests, copyrights, exclusive rights, royalty interests, 
+contractual rights, or other legally protected interests in these and other works that  give her standing 
+within the class. 
+33. Each Plaintiff assigned exclusive publication and distribution rights to his or her 
+respective publisher via a publishing contract with the publisher. The grant of rights is  subject to the 
+publisher’s contractual obligation to pay royalties to the Plaintiff based on the publisher’s exploitation 
+of those exclusive rights. Accordingly, each Plaintiff is the beneficial owner of copyright in his or her 
+work and is entitled to institute an action for infringement of the copyright, pursuant to 17 U.S.C. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 6 of 22
+ 
+- 6 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+§ 501(b). If the publishing contract is terminated, the grant of copyright typically reverts to the Author, 
+who then holds both legal and beneficial copyright.  
+34. A schedule of named Plaintiffs’ representative works is attached hereto as Exhibit A. 
+One or more edition and/or version of each of the representative works has been registered as a literary 
+work in the U.S. Copyright Office. Each of the registrations is valid and subsisting. 
+35. Defendant Meta is a Delaware corporation with its principal place of business in Menlo 
+Park, California. Meta is alleged to have developed and trained the Llama generative AI system using 
+copyrighted works without authorization. 
+36. Defendant Mark Zuckerberg is Meta’s founder, Chairman, and Chief Executive 
+Officer, and resides in this District. On information and belief, Zuckerberg oversaw  Meta’s use of 
+pirated shadow-library datasets to train the Llama models notwithstanding internal warnings that those 
+datasets were known to be pirated. 
+FACTUAL ALLEGATIONS 
+I. General Allegations 
+37. Plaintiffs, individually and on behalf of the Class, allege that Defendants reproduced 
+and distributed their copyrighted works without authorization in connection with sourcing content for, 
+developing, and training Meta’s Large Language Model Meta AI (hereinafter and inclusive of its later 
+iterations, “Llama”) generative AI platform. 
+38. The first version of Llama was initially released by Meta in February 2023.  
+39. At the time of this Complaint, Meta maintains five active versions of Llama (Llama 3, 
+Llama 3.1, Llama 3.2, Llama 3.3, and Llama 4).  
+40. All of these active versions of Llama are available to consumers and businesses for 
+commercial and/or personal usage.  
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 7 of 22
+ 
+- 7 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+41. Like other LLMs, such as ChatGPT  and Claude , Llama is a type of artificial 
+intelligence trained on massive text datasets to understand, summarize, translate, and generate human-
+like language. 
+42. Llama, like other LLMs, functions as the engine behind modern chatbots by predicting 
+probable words in a sequence based on patterns learned from billions of text sources. 
+43. The training of an LLM is critical since the more data an LLM has to train on, the better 
+it is at predicting word patterns. 
+44. Thus, the more data a model is trained on, the more commercial viability it has. 
+45. During initial release of this model, Meta claimed that it used only publicly available 
+material to train Llama.  
+46. To assemble that training data, Meta obtained copyrighted books and other written 
+works through torrenting from pirate “shadow library” sources, including Books3 (a component of 
+“The Pile”), Library Genesis (LibGen), Z -Library, and Sci -Hub, and through una uthorized web -
+scraped datasets, and then copied those works for use in training the Llama models. 
+47. Meta also obtained copyrighted works from additional shadow -library and bulk 
+sources, including Anna’s Archive, Bibliotik, and Common Crawl. 
+48. Meta deployed its own web crawler, known as SpiderMate, to scrape and copy 
+additional copyrighted works, including books, for use as training data.  
+49. Meta first downloaded books from Library Genesis in or about October 2022 and 
+initially withheld LibGen from use as training data because it knew LibGen to be a well -known 
+repository of pirated books.  
+50. Meta’s growing need for high-quality data led it to approve the use of LibGen to train 
+the Llama models. In or about April 2023, Meta downloaded millions of additional pirated books from 
+LibGen through the BitTorrent protocol using software known as LibTorrent. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 8 of 22
+ 
+- 8 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+51. The scale of Meta’s copying and distribution was massive. The Books3 dataset alone 
+comprised approximately 196,640 books. In the spring of 2024, Meta torrented at least 81.7 terabytes 
+of data across multiple shadow libraries through Anna’s Archive (including at least 35.7 terabytes 
+from Z-Library and LibGen) and it had previously torrented at least 80.6 terabytes from LibGen. And 
+during Meta’s 2022 torrenting from Library Genesis, approximately 4,500 other users in the torrent 
+“swarm” obtained files from Meta. The billing records for a single portion of the cloud services Meta 
+used to torrent these works in 2024 reflected hundr eds of thousands of dollars in charges, supplying 
+material support to the very shadow libraries from which Meta took the works. 
+52. Meta uploaded at least 40 terabytes of books via torrenting.  
+53. The Llama models include all versions, iterations, and relatives of Llama in any stage 
+of their development and lifecycle, including Llama 1, Llama 2, Llama 3, and Llama 4, and the 
+development of further versions. 
+54. Meta trained these models on copyrighted works obtained from shadow libraries on a 
+continuing basis throughout the Class Period, including by training Llama 1 between approximately 
+December 2022 and February 2023, Llama 2 between approximately January and July 2023, and 
+Llama 3 for release on or about April 18, 2024, and by continuing to use such works in the development 
+of Llama 4 and subsequent models. This continuing course of conduct spans the period during which 
+Plaintiffs’ works were allegedly copied and distributed. 
+55. Defendants’ copying occurred in multiple stages, including downloading works, 
+copying works into computer memory, converting works into formats usable by AI systems, and 
+copying works into the training materials used to build the Llama models. 
+56. By downloading works via torrenting, Meta also made available, uploaded, and 
+distributed copies of those works to other users worldwide, thereby further facilitating copyright 
+infringement. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 9 of 22
+ 
+- 9 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+57. Separately, Meta developed and used software to remove copyright -management 
+information (“CMI”), including copyright notices, titles, International Standard Book Numbers 
+(“ISBNs”), and similar identifying information, from books it obtained from shadow libraries. Meta 
+did this to facilitate training and to conceal its use of copyrighted works. 
+58. Specifically, Meta developed and deployed a software script that removed CMI from 
+the beginning and end of works obtained from shadow libraries, including ISBNs, copyright notices, 
+the © symbol, statements of “all rights reserved,” and Digital Object Identifiers ( “DOIs”), as well as 
+language indicating that unauthorized copying constituted infringement.  
+59. Beyond stripping CMI, Meta took further steps to conceal its use of copyrighted works, 
+including by addressing instances in which the Llama models, in response to user prompts, generated 
+answers acknowledging that their training data might include pirated, illegal, or copyrighted material; 
+Meta’s personnel introduced curated fine -tuning samples designed to suppress such answers and to 
+reduce the risk that users or the public would learn that Meta had trained Llama on infringing material. 
+60. Defendants’ conduct affected works across a broad range of categories, including 
+fiction, nonfiction, children’s books, poetry, memoirs, dramatic works, scholarly works , as well as 
+textbooks. 
+61. The putative class consists of all textbook authors holding legal or beneficial copyrights 
+in works reproduced, distributed, or otherwise used by Defendants without authorization. 
+62. On information and belief, each copied work is an original work, comprises 
+copyrightable subject matter, is registered with the U.S. Copyright Office, and remains subject to valid 
+copyrights in which class members have a legal or beneficial interest. 
+63. On information and belief, Defendants’ unauthorized use displaced legitimate sales and 
+licenses, deprived authors and publishers of revenues, and usurped the market for licensing 
+copyrighted works for AI training. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 10 of 22
+ 
+- 10 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+64. On information and belief, a market exists for licensing copyrighted works for AI 
+training. AI companies could have tried to negotiate  agreements with publishers, media companies, 
+academic institutions , or individual authors for access to books, articles, and journals for model 
+development and training. Meta did not take these actions with respect to the textbooks it copied and 
+distributed.  
+65. Throughout, Defendants acted willfully and with knowledge that their conduct was 
+unlawful.  
+66. The unlawful acts alleged against Meta were authorized, ordered, approved, or 
+performed by Meta’s officers, directors, employees, agents, and representatives, including Zuckerberg 
+who is ultimately in charge of the management, direction, and control of Meta’s business and affairs, 
+and who made the decision or knew the decision was made to undertake the piracy  by Meta to train 
+its Llama models.  
+67. Indeed, Meta employees internally described the sources Meta used as illegal pirated 
+websites and discussed the risk of being treated as accomplices to piracy. 
+68. Meta cross- referenced pirated titles in its Library Genesis collection against books 
+available for license in order to decide whether to pursue licenses. 
+69. Meta’s own researchers were advised, in discussions concerning the dataset known as 
+The Pile, that the Books3 component contained works under active copyright and would be the 
+principal concern of Meta’s legal department. 
+70. Meta continued to download from shadow libraries that it knew had been repeatedly 
+enjoined or shut down, including as recently as April 2024. 
+71. Meta publicly acknowledged in its securities filings that it would be susceptible to 
+litigation challenging its alleged use of copyright-protected content to train its AI models. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 11 of 22
+ 
+- 11 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+72. Meta’s own representatives have generally stated that books are good data for training 
+LLMs’ memories because they are long, consistent, and maintain a particular style and coherent 
+structure.  
+73. Meta’s own representatives have recognized that books  also provide high-quality 
+training materials in the sense that they generally are well written and use proper grammar (especially 
+compared to text from the internet, which varies widely on these metrics). 
+74. The Llama models can generate outputs that substitute for copyrighted works, 
+including outlines, summaries, low-quality alternative versions, imitations, and derivative works. This 
+impacts the market for textbooks in particular, insofar as textbooks are designed to teach and impart 
+knowledge and structures for learning.  
+75. Using copyrighted textbooks to train an LLM harms  the market for those works by 
+helping to enable the rapid generation of countless works that compete with the originals, even if those 
+works themselves are not necessarily infringing . LLMs can generate massive amounts of text in 
+significantly less time that it would take to write that text, and using a fraction of the creativity. 
+76. Meta has integrated the Llama models into its principal commercial products and 
+services, including Facebook, Instagram, WhatsApp, and its Ray- Ban Meta smart glasses, and has 
+derived substantial commercial benefit from models trained on the copied works.  
+77. At the same time, Meta asserted and enforced its own copyright in the Llama models, 
+including by issuing a takedown notice directed at a tool used to download a leaked version of Llama 
+1 while simultaneously copying and distributing Plaintiffs’ copyrighted works without authorization. 
+II. TEXTBOOKS AND TEXTBOOK AUTHORS 
+78. Textbooks are written works created for the express purpose of teaching academic 
+subjects to primary school, high school, college, graduate, professional , and continuing education  
+students and are marketed, offered, or selected for assignment to students in classroom or course 
+settings.  
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 12 of 22
+ 
+- 12 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+79. The primary goal of textbooks is to teach the content of a field or subfield in a 
+knowledgeable, coherent, and approachable way that serves the purposes of instructors and students 
+in that field or subfield. Over decades of writing these textbooks, each author develops a unique voice 
+that becomes their distinctive style. A particular textbook is selected and adopted not only because of 
+the title or subject matter but because the author has a style that works for the intended learners.  
+80. For example, Plaintiff Michael Sullivan’s Precalculus, now in its 12th Edition, teaches 
+the content of the undergraduate precalculus course, including graphs, functions, and analytic 
+geometry, in a way that is accessible to students and that prepares those students to go on to study 
+calculus.  
+81. Plaintiff Kenneth S. Saladin’s Anatomy and Physiology: The Unity of Form and 
+Function, now in its 10 th Edition, has achieved its large market share mainly on the strength of a 
+unique style and pedagogic organization not seen in competing textbooks on the same subject.  
+82. Plaintiffs Zvi Bodie and Alan J. Marcus’s Essentials of Investments , now in its 13th 
+Edition, presents investment analysis and investment theory to undergraduate business students in a 
+way that is consistent with the approach of the CFA (Chartered Financial Analyst) Institute. 
+83. Plaintiff Kevin Patton’s Anatomy & Physiology  is designed as an accessible course 
+book, especially for teaching nursing students or others entering the biological sciences, and for 
+instructors desiring a more conversational, narrative approach to the subject matter.  
+84. Plaintiff Dana Loewy’s Essentials of Business Communication, now in its 13th edition, 
+teaches best practices in business communication supported by the latest research, with a practical 
+focus on current technology and transferable workplace skills.  
+85. Most textbook authors are experienced classroom instructors, skilled writers, and 
+subject matter experts in their fields. They each bring their unique combination of knowledge, 
+experience, and skills to writing their textbooks.   
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 13 of 22
+ 
+- 13 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+86. Textbooks in any particular  academic area cover the field in a variety of ways, 
+reflecting the unique backgrounds, interests, and styles of their authors, as well as the needs of their 
+intended audience of instructors and students.  
+87. The subject matter that a textbook conveys, whether trigonometric functions, the 
+respiratory system, or the operation of security markets, is not itself protected by copyright. What is 
+protected, and what gives a textbook its value, is the author’s selection, organization, and sequencing 
+of material, the examples and explanations that the author develops to effectively convey the 
+information to the student, and the author’s voice and pedagogical style. 
+88. Unlike trade books, which are seldom revised, textbooks typically have regular revision 
+cycles to keep their treatment of the subject matter up to date with developments in the field, their  
+pedagogy current , and to stay aligned with instructor preferences, student needs, and adoption 
+standards. Each revision requires a substantial investment of time, research , and resources by the 
+author. One result of illegal training on pirated textbooks, and market substitution of students who turn 
+to artificial intelligence alternatives, is that students can receive inferior, incomplete, or out- of-date 
+guidance—but which appears to be authoritative. Searches on Llama for the named Plaintiffs and their 
+publications resulted in exactly such responses, providing feedback to users that purports to be “in the 
+style of” or “taking the approach of” specifically named textbook authors.  
+89. Many textbooks, including those authored by P laintiffs, have lives that extend over 
+many editions and many decades. These textbooks become a central part of the authors’ life work, 
+commitments, reputations, and livelihoods.  
+90. Although different textbooks in any field have different emphases, viewpoints, and 
+styles, successful textbooks share a reputation in their fields, and in particular among the adopters and 
+instructors who select them for use in the classrooms, for accessibility, reliability, and effectiveness. 
+91. Textbooks play an important role in shaping the academic fields and subfields that they 
+cover, and in shaping the education of the students who use them. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 14 of 22
+ 
+- 14 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+92. Because of the importance of textbooks in academia, many textbook authors establish 
+their professional reputation not only on the basis of their teaching and research, but also on the quality, 
+impact, and adoptions of their textbooks.   
+III. THE TEXTBOOK MARKET 
+93. The markets for textbooks, on the one hand, and trade books (both fiction and non-
+fiction), on the other, are fundamentally different. The trade book market consists primarily of people 
+who choose to purchase books for personal reasons, e.g., for their own edification, curiosity, or 
+entertainment. A casual reader looking for a novel by J.K. Rowling or a popular history book by David 
+McCullough will not accept a substitute by another author or generated by an LLM.  
+94. In the textbook market, by contrast, the final purchaser is not  the person who selects 
+the book. The market for textbooks is driven by adoptions, i.e., instructors, schools, or educational 
+systems who consider the textbook options available in a specific subject area and then “adopt” the 
+one they think best suits the needs of their instructors and students. The textbooks  are then assigned 
+to students in specific courses.  
+95. Purchasing decisions are fundamentally different in the textbook market than in the 
+trade book market because the person who chooses the textbook is not the same person who is required 
+to purchase it. The purchaser at the elementary or secondary school level is typically a school system 
+or individual school required to make the purchase and is continually looking for ways to cut costs 
+from its budget. In the higher education space, the purchaser is the student assigned the textbook by 
+their instructor. In either situation, the purchaser has a powerful incentive to avoid the cost of 
+purchasing a textbook if a “free” version of that same book, or a “good enough” substitute,  can be 
+found via an LLM.  
+IV. DEFENDANTS’ USE OF TEXTBOOKS TO TRAIN THEIR LLAMA MODELS 
+THREATENS TO DISPLACE THE TEXTBOOK MARKET. 
+96. Because textbooks cover academic fields and subfields in engaging, effective and up -
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 15 of 22
+ 
+- 15 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+to-date ways, they are uniquely valuable in the training of LLMs. 
+97. On information and belief, textbooks constitute a large proportion of the books that 
+Defendants used to train their Llama models. 
+98. Defendants’ Llama models trained on sets of textbooks in various fields are capable of 
+feeding back to users comprehensive information about those fields, often with detailed references to 
+specific authors and their organization of and approach to the subject matter. 
+99. Textbooks are required purchases by students (in higher education) and schools (in K-
+12 settings). Students, instructors, and schools feel strong pressures to reduce the cost of educational 
+materials. As a result, textbooks are uniquely susceptible to displacement by LLMs trained on 
+textbooks in that field.  
+100. As LLMs become more powerful and widespread, and if they are allowed to 
+continually update their content by ingesting new editions of textbooks as they come out, instructors, 
+schools, and adoption and curriculum committees may consider dropping textbook adoptions 
+altogether in favor of substitutes that rely on the use of LLM models. 
+101. LLMs threaten the textbook market by destroying the incentives for textbook authors 
+to continue writing and revising high quality textbooks, to the detriment of the textbook authors on 
+whose work the LLMs rely and the student learners whose education may be co mpromised by their 
+reliance on outputs. 
+102. Llama and other generative AI agents threaten to displace human -authored textbooks 
+with cheaper AI -generated textbooks or textbook equivalents, at the expense of losing the valuable 
+authorial voice, research, expertise, and perspective provided by textbook authors. 
+103.  On information and belief, licensing markets exist, or could be developed, that would 
+permit Defendants to make use of Plaintiffs’ textbooks in exchange for fair compensation. Defendants 
+bypassed such licensing efforts by obtaining Plaintiffs’ textbooks without license, thus threatening to 
+displace the very sources on which they relied.  
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 16 of 22
+ 
+- 16 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+104. On information and belief, when Defendants used massive numbers of books without 
+permission or compensation to their authors, they were aware that such use would likely displace and 
+dilute the market for the works used in the training. 
+V. Plaintiffs’ Claims Are Timely 
+105. Plaintiffs and the members of the Class did not know, and in the exercise of reasonable 
+diligence could not have known, that Meta had copied their textbooks until the filing of Kadrey v. 
+Meta Platforms, Inc. on July 7, 2023, first publicly disclosed and made identifiable Meta’s copying of 
+copyrighted books to train Llama. 
+106. Meta concealed the conduct at the heart of these claims (the acquisition of works by 
+torrenting the LibGen and Anna’s Archive shadow libraries and the distribution of those works by 
+seeding, and its removal of copyright -management information) until its ow n internal records were 
+produced and unsealed in this District in January 2025. 
+107. This action is therefore brought within three years after Plaintiffs’ claims accrued under 
+17 U.S.C. § 507(b), and Meta’s infringing conduct has in any event continued throughout the Class 
+Period.  
+CLASS ACTION ALLEGATIONS 
+108. Plaintiffs bring this action under Federal Rules of Civil Procedure 23(a), 23(b)(2), and 
+23(b)(3) on behalf of the following Class: All textbook authors who hold legal or beneficial ownership 
+of a United States copyright in a textbook that Meta downloaded, copied, reproduced, uploaded, and/or 
+otherwise distributed via BitTorrent, or otherwise used to train its Llama models between July 7, 2020, 
+and the present (the “Class Period”), and that was registered with the United States Copyright Office 
+(i) within five years of the work’s first publication and before Meta’s copying, or (ii) within three 
+months of the work’s first publication.  
+109. For the purposes of the Class, a textbook is defined as a book in any medium, including 
+printed and digital, created for the express purpose of teaching academic subject matter to primary 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 17 of 22
+ 
+- 17 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+school, secondary school, college, university, graduate, professional, or continuing education students 
+and marketed, offered, or selected for educational instruction in a classroom or course setting.  
+110. Excluded from the Class are Defendants; their officers, directors, employees, parents, 
+subsidiaries, and affiliates; all governmental entities; and the judge and chambers staff assigned to this 
+case and their immediate families. 
+111. The Class is so numerous that joinder of all members is impracticable. On information 
+and belief, textbook authors number in at least the thousands, and textbooks constitute approximately 
+twenty-five percent of the works within the broader population of works Meta copied.   
+112. Questions of law and fact common to the Class predominate over any individual 
+questions, including whether Meta reproduced the Class’s textbooks, whether Meta distributed them 
+by torrenting, whether Meta removed copyright -management information, whether Me ta’s conduct 
+was willful, whether such use infringed the Class’s exclusive rights, whether Meta’s use harmed the 
+market for textbooks through substitution or dilution, and the appropriate relief. 
+113. Plaintiffs’ claims are typical of the Class’s claims because Plaintiffs and the Class are 
+textbook authors whose registered textbook works were copied, distributed, and used by Meta in the 
+same manner and who suffered the same type of harm. 
+114. Plaintiffs will fairly and adequately protect the interests of the Class. They are textbook 
+authors with no conflicts with other Class members, and they have retained counsel experienced in 
+copyright and class -action litigation, including attorneys at Slar skey LLC and Archstone Law P.C. 
+who have represented textbook authors for many years.   
+115. A class action is superior to other available methods for fairly and efficiently 
+adjudicating this controversy, and Defendants have acted on grounds generally applicable to the Class, 
+making final relief appropriate for the Class as a whole. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 18 of 22
+ 
+- 18 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+116. Plaintiffs’ counsel, Slarskey LLC, Archstone Law  P.C., and Gaw  | Poe LLP, are 
+qualified and experienced in representing textbook authors and litigating class actions and should be 
+appointed Class Counsel under Federal Rule of Civil Procedure 23(g). 
+CAUSES OF ACTION 
+COUNT I — Direct Copyright Infringement (17 U.S.C. §§ 106(1), 106(2), 106(3), 501)  
+against all Defendants  
+117. Plaintiffs incorporate by reference each of the foregoing paragraphs. 
+118. Plaintiffs and the Class own or hold beneficial interests in the exclusive rights in their 
+registered textbook works under 17 U.S.C. § 106, including the rights of reproduction and distribution, 
+and preparation of derivative works. 
+119. Meta reproduced Plaintiffs’ and the Class’s textbook works without authorization by 
+downloading them from shadow libraries, copying them into datasets and computer memory, 
+converting them into training- ready formats, and copying them into the materials use d to train the 
+Llama models. 
+120. Meta further distributed Plaintiffs’ and the Class’s authored textbooks without 
+authorization by uploading and making them available to others through the BitTorrent protocol while 
+torrenting them. 
+121. Zuckerberg oversaw and directed Meta to undertake the behavior described in Count I.  
+122. Meta’s infringement was willful. Plaintiffs and the Class are entitled to statutory 
+damages, or at their election actual damages and Meta’s profits, together with injunctive relief, costs, 
+and attorneys’ fees under 17 U.S.C. §§ 504, 505. 
+COUNT II — Contributory Copyright Infringement  
+against all Defendants 
+123. Plaintiffs incorporate by reference each of the foregoing paragraphs. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 19 of 22
+ 
+- 19 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+124. By uploading and making available Plaintiffs’ and the Class’s works to other users in 
+BitTorrent “swarms” as it torrented them, Meta induced, caused, and materially contributed to the 
+reproduction and distribution of those works by thousands of third parties. 
+125. Meta knew or had reason to know that its conduct furthered the infringement of 
+Plaintiffs’ and the Class’s works, and Meta could have avoided distributing the works but chose not 
+to. Meta is liable for contributory copyright infringement, and its conduct was willful. 
+126. Zuckerberg oversaw and directed Meta to undertake the behavior described in Count II.  
+127. Plaintiffs and the Class are entitled to statutory damages, or at their election actual 
+damages and Meta’s profits, together with injunctive relief, costs, and attorneys’ fees. 
+COUNT III — Removal of Copyright -Management Information (17 U.S.C. § 1202(b))  
+against all Defendants  
+128. Plaintiffs incorporate by reference each of the foregoing paragraphs. 
+129. Plaintiffs’ and the Class’s textbook works contained copyright -management 
+information, including copyright notices, the © symbol, titles, ISBNs, and the names of the authors 
+and rights holders. 
+130. Meta developed and deployed software to remove that copyright -management 
+information from the works it obtained from shadow libraries, and did so intentionally, knowing or 
+having reasonable grounds to know that doing so would conceal and facilitate infringement, in 
+violation of 17 U.S.C. § 1202(b). 
+131. Zuckerberg oversaw and directed Meta to undertake the behavior described in 
+Count III.  
+132. Plaintiffs and the Class are entitled to statutory or actual damages under 17 U.S.C. § 
+1203, together with injunctive relief, costs, and attorneys’ fees. 
+COUNT IV — Distribution of Copyright- Management Information (17 U.S.C. § 1202(b)) 
+against all Defendants  
+133. Plaintiffs incorporate by reference each of the foregoing paragraphs. 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 20 of 22
+ 
+- 20 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+134. Plaintiffs’ and Class’s textbook works contained copyright-management information, 
+including copyright notices, the © symbol, titles, ISBNs, and the names of the authors and rights 
+holders. 
+135. Meta distributed copies of the works (via BitTorrent seeding to swarm peers) knowing 
+CMI had been removed from the Plaintiffs’ and Class’s works  without authority of the copyright 
+owner or the law.   
+136. The distributed copies were identical to the originals and were more accessible to other 
+pirates because of Meta’s seeding of Plaintiffs’ and Class’s works. 
+137. Meta knew or had reason to know the distribution would induce, enable, facilitate, or 
+conceal infringement. 
+138. Zuckerberg oversaw and directed Meta to undertake the behavior described in  
+Count IV.  
+139. Plaintiffs and the Class are entitled to statutory or actual damages under 17 U.S.C. § 
+1203, together with injunctive relief, costs, and attorneys’ fees. 
+PRAYER FOR RELIEF 
+WHEREFORE, Plaintiffs, individually and on behalf of the Class, respectfully request that the 
+Court enter judgment and grant relief as follows: 
+a. Certifying this action as a class action, appointing Plaintiffs as Class Representatives, 
+and appointing Slarskey LLC, Archstone Law  P.C., and Gaw  | Poe LLP as Class 
+Counsel; 
+b. Entering judgment that Defendants infringed Plaintiffs’ and the Class’s copyrights and 
+violated 17 U.S.C. § 1202(b); 
+c. Awarding statutory damages, or at Plaintiffs’ and the Class’s election, actual damages 
+and Defendants’ profits, under 17 U.S.C. §§ 504 and 1203; 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 21 of 22
+ 
+- 21 - 
+CLASS ACTION COMPLAINT 
+CASE NO. 26-6793 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+ 
+ 
+d. Awarding declaratory and permanent injunctive relief, including relief restraining 
+further infringement and requiring restoration of copyright -management information 
+under 17 U.S.C. § 1203(b)(1); 
+e. Awarding pre - and post -judgment interest, costs, and reasonable attorneys’ fees as 
+permitted by law; and 
+f. Granting such other and further relief as the Court deems just and proper. 
+Plaintiffs demand a trial by jury on all claims and issues so triable. 
+Date: July 2, 2026  
+  
+SLARSKEY LLC 
+ 
+By:_/s/ David Slarskey 
+David N. Slarskey pro hac vice application pending 
+dslarskey@slarskey.com  
+Adam Hollander (pro hac vice application pending) 
+Deepa Devanathan (pro hac vice application pending) 
+Phillip Gasperetti (pro hac vice application pending) 
+767 Third Ave, 14th Floor 
+New York, NY 10017 
+Tel: (212) 658-0661 
+ 
+ARCHSTONE LAW GROUP, P.C.  
+Brenda Ulrich (pro hac vice pending) 
+Zick Rubin (pro hac vice pending) 
+bulrich@archstonelaw.com 
+zrubin@archstonelaw.com 
+Riverside Center 
+275 Grove Street, Suite 2-400 
+Newton, MA 02466 
+Tel: (781) 314-0100 
+GAW POE LLP 
+ 
+________________________________________ 
+Randolph Gaw (S.B. #223718) 
+rgaw@gawpoe.com 
+One Embarcadero Ctr., Suite 1200 
+SAN FRANCISCO, CA 94111 
+Telephone: (415) 766-7451 
+Facsimile: (415) 737-0642 
+ 
+Counsel for Plaintiffs and the Proposed Class 
+ 
+Case 3:26-cv-06793     Document 1     Filed 07/02/26     Page 22 of 22
+EXHIBIT A-1 
+Registered Works of Plaintiff Michael Sullivan 
+Sullivan, et al. v. Meta Platforms, Inc. & Mark Zuckerberg (N.D. Cal.) 
+ 
+# Application Title Type of 
+Work 
+Description Reg. No. Reg. Date Date of First 
+Pub. 
+Nation of First 
+Pub. 
+Copyright Claimant Authorship on Application ISBN 
+1 Algebra & Trigonometry, 8/E, 
+MyMathLab Edition 
+Text Book, 114 p. TX0006827976 2007-09-21 2007-07-12 United States Pearson Education, Inc. Michael Sullivan; author of new 
+and revised text 
+0-13-233241-8 
+2 Precalculus, 8/E, MyMathLab Edition Text Book TX0006958308 2007-12-31 2007-10-02 United States Pearson Education, Inc. Michael Sullivan; author of new 
+and revised text 
+0-13-612788-6 
+3 Trigonometry: A Unit Circle Approach, 
+9/E 
+Text Book, 522 p. TX0007380919 2011-06-06 2011-03-09 United States Pearson Education, Inc. Michael Sullivan; text 0-321-71657-4 
+4 College Algebra, 10/E Text Book, 711 p. TX0008101136 2015-04-03 2015-01-02 United States Pearson Education Michael Sullivan; text, artwork 0-321-97947-8 
+5 Algebra & Trigonometry, 10/E Text Book, 1011 p. TX0008070559 2015-04-03 2015-01-02 United States Pearson Education Michael Sullivan; text, artwork 0-321-99859-6 
+6 Precalculus, 10/E Text Book TX0008106616 2015-05-22 2015-02-17 United States Pearson Education Michael Sullivan; text, artwork 0-321-97907-9 
+7 Trigonometry: A Unit Circle Approach, 
+10/E 
+Text Book TX0008104726 2015-05-29 2015-03-24 United States Pearson Education Michael Sullivan; text, artwork 0-321-97860-9 
+8 Sullivan College Algebra, 11e Text Book, 725 p. TX0008792094 2019-08-29 2019-05-14 United States Pearson Education, Inc. Michael Sullivan; text 9780135163047 
+9 Sullivan Precalculus, 11e Text Book, 927 p. TX0008792108 2019-08-29 2019-05-21 United States Pearson Education, Inc. Michael Sullivan; text 9780135189405 
+10 Algebra & Trigonometry, 12th Edition Text Book, 1046 p. TX0009397676 2024-03-22 2024-01-01 United States Pearson Education, Inc. Michael Sullivan; text (revised & 
+updated) 
+9780138251406 
+11 College Algebra, 12th Edition Text Book TX0009392306 2024-03-25 2024-01-09 United States Pearson Education, Inc. Michael Sullivan; text (revised & 
+updated) 
+9780138253622 
+12 Trigonometry: A Unit Circle Approach, 
+12th Edition 
+Text Book, 580 p. TX0009538019 2025-08-19 2025-07-03 United States Pearson Education, Inc. Michael Sullivan; text (revised & 
+updated) 
+9780138234720 
+ 
+Case 3:26-cv-06793     Document 1-1     Filed 07/02/26     Page 1 of 1
+EXHIBIT A-2 
+Registered Works of Plaintiff Kenneth S. Saladin 
+Sullivan, et al. v. Meta Platforms, Inc. & Mark Zuckerberg (N.D. Cal.) 
+ 
+# Application Title Type of 
+Work 
+Description Reg. No. Reg. Date Date of First 
+Pub. 
+Nation of First 
+Pub. 
+Copyright Claimant Authorship on Application ISBN(s) 
+1 Anatomy & Physiology: The Unity of 
+Form and Function, Fourth Edition. 
+Text Book, 1 v. TX0006989637 2009-07-07 2007-08-22 United States The McGraw-Hill 
+Companies, Inc. 
+Kenneth S. Saladin 0-07-287506 -2,  
+978-0-07-
+287506 -5 
+2 Anatomy & Physiology: The Unity of 
+Form and Function, Fifth Edition. 
+Text Book. TX0006955544 2009-04-08 2009-02-16 United States The McGraw-Hill 
+Companies, Inc. 
+Kenneth S. Saladin 0-07-352569 -3, 
+978-0-07-
+352569 -3 
+3 Anatomy & Physiology: The Unity of 
+Form and Function, Sixth Edition. 
+Text Book, 1136 p. TX0007409612 2011-07-27 2011-05-04 United States The McGraw-Hill 
+Companies, Inc. 
+Kenneth S. Saladin 0073378259  
+ 
+4 Anatomy & Physiology: The Unity of 
+Form and Function, Seventh Edition. 
+Text Book. TX0007924036 2014-06-20 2014-01-07 United States McGraw-Hill Global 
+Education Holdings, LLC 
+Kenneth S. Saladin 0073403717  
+ 
+5 Anatomy & Physiology: The Unity of 
+Form and Function, Ninth Edition. 
+Text Book, 1108 p. TX0008986360 2020-03-23 2020-01-08 United States McGraw Hill LLC Kenneth S. Saladin 9781260256000  
+ 
+6 Human Anatomy, Fourth Edition. Text Book, 736p. TX0007750344 2013-05-30 2013-05-07 United States McGraw-Hill Global 
+Education Holdings, LLC 
+Kenneth S. Saladin 0073378291  
+ 
+8 Human Anatomy 2024 Release.  Text Book, 761p. TX0009496687 2024-11-12 2024-01-08 United States McGraw Hill LLC Kenneth S. Saladin 9781264125715  
+ 
+ 
+Case 3:26-cv-06793     Document 1-2     Filed 07/02/26     Page 1 of 1
+EXHIBIT A-3 
+Registered Works of Plaintiff Alan J. Marcus 
+Sullivan, et al. v. Meta Platforms, Inc. & Mark Zuckerberg (N.D. Cal.) 
+ 
+# Application Title Type of 
+Work 
+Description Reg. No. Reg. Date Date of First 
+Pub. 
+Nation of First 
+Pub. 
+Copyright Claimant Authorship on Application ISBN 
+1 Investments, Ninth Edition.   Text Book, 994 p. TX0007233993 2010-09-28 2010-07-05 United States McGraw-Hill Companies, 
+Inc. 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+0-07-353070 -0 
+2 Investments, Tenth Edition.   Text Book. TX0008513915 2014-03-25 2014-01-28 United States McGraw-Hill Global 
+Education Holdings, LLC 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+0077861671  
+3 Investments, Eleventh Edition.   Text Book, 968 p. TX0008590281 2018-07-02 2017-05-30 United States McGraw-Hill Global 
+Education Holdings LLC 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+9781259277177  
+4 Investments, Thirteenth Edition.  [ Text Book, 996 p. TX0009270963 2023-03-24 2023-01-12 United States McGraw Hill LLC Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+9781264412662  
+ 
+5 Essentials of Investments, Sixth Edition.  [ Text Book, 728 p. TX0007039034 2009-09-08 2007-09-12 United States The McGraw-Hill 
+Companies, Inc. 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+007304153X  
+6 Essentials of Investments, Eighth Edition.   Text Book, 722 p. TX0007059352 2009-10-05 2009-08-17 United States The McGraw-Hill 
+Companies, Inc. 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+0077339185  
+ 
+7 Essentials of Investments, 9/e.   Text Book. TX0007632286 2012-11-19 2012-09-25 United States McGraw-Hill Companies, 
+Inc. 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+0078034698  
+8 Essentials of Investments, Tenth Edition.   Text Book, 735 p. TX0008279004 2016-11-15 2016-01-06 United States McGraw-Hill Education Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+9780077835422  
+9 Essentials of Investments, 12th Edition.   Text Electronic file 
+(eService)  
+TX0008955791 2021-03-15 2021-01-04 United States McGraw Hill LLC Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+9781260772166  
+10 Fundamentals of Corporate Finance, 
+Seventh Edition. 
+Text Book, 1 v. TX0007668265 2013-01-22 2012-09-11 United States McGraw-Hill Companies, 
+Inc. 
+Richard A. Brealey; Stewart C. 
+Myers; Alan J. Marcus 
+0078034647  
+11 Fundamentals of Corporate Finance, 
+Eighth Edition. 
+Text Book, 720 p. TX0007967206 2014-10-08 2014-08-07 United States McGraw-Hill Global 
+Education Holdings, LLC 
+Richard A. Brealey; Stewart C. 
+Myers; Alan J. Marcus 
+0077861620  
+12 Fundamentals of Corporate Finance, 9th 
+Edition. 
+Text Book. TX0008528424 2017-03-21 2017-02-02 United States McGraw-Hill Education Richard A. Brealey; Stewart C. 
+Myers; Alan J. Marcus 
+9781259722615  
+13 Fundamentals of Corporate Finance, 10th 
+Edition. 
+Text Book. TX0008995304 2020-05-28 2019-03-13 United States McGraw Hill LLC Richard A. Brealey; Stewart C. 
+Myers; Alan J. Marcus 
+9781260013962  
+ 
+Case 3:26-cv-06793     Document 1-3     Filed 07/02/26     Page 1 of 1
+EXHIBIT A-4 
+Registered Works of Plaintiff Zvi Bodie 
+Sullivan, et al. v. Meta Platforms, Inc. & Mark Zuckerberg (N.D. Cal.) 
+ 
+# Application Title Type of 
+Work 
+Description Reg. No. Reg. Date Date of First 
+Pub. 
+Nation of First 
+Pub. 
+Copyright Claimant Authorship on Application ISBN 
+1 Investments, Ninth Edition.   Text Book, 994 p. TX0007233993 2010-09-28 2010-07-05 United States McGraw-Hill Companies, 
+Inc. 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+0-07-353070 -0 
+2 Investments, Tenth Edition.   Text Book. TX0008513915 2014-03-25 2014-01-28 United States McGraw-Hill Global 
+Education Holdings, LLC 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+0077861671  
+3 Investments, Eleventh Edition.   Text Book, 968 p. TX0008590281 2018-07-02 2017-05-30 United States McGraw-Hill Global 
+Education Holdings LLC 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+9781259277177  
+4 Investments, Thirteenth Edition.   Text Book, 996 p. TX0009270963 2023-03-24 2023-01-12 United States McGraw Hill LLC Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+9781264412662  
+5 Essentials of Investments, Sixth Edition.   Text Book, 728 p. TX0007039034 2009-09-08 2007-09-12 United States The McGraw-Hill 
+Companies, Inc. 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+007304153X  
+6 Essentials of Investments, Eighth Edition.   Text Book, 722 p. TX0007059352 2009-10-05 2009-08-17 United States The McGraw-Hill 
+Companies, Inc. 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+0077339185  
+7 Essentials of Investments, 9/e.   Text Book. TX0007632286 2012-11-19 2012-09-25 United States McGraw-Hill Companies, 
+Inc. 
+Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+0078034698  
+8 Essentials of Investments, Tenth Edition.   Text Book, 735 p. TX0008279004 2016-11-15 2016-01-06 United States McGraw-Hill Education Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+9780077835422  
+9 Essentials of Investments, 12th Edition.   Text Electronic file 
+(eService)  
+TX0008955791 2021-03-15 2021-01-04 United States McGraw Hill LLC Zvi Bodie; Alex Kane; Alan J. 
+Marcus 
+9781260772166  
+ 
+Case 3:26-cv-06793     Document 1-4     Filed 07/02/26     Page 1 of 1
+EXHIBIT A-5 
+Registered Works of Plaintiffs Kevin T. Patton and Lion Den Inc. 
+Sullivan, et al. v. Meta Platforms, Inc. & Mark Zuckerberg (N.D. Cal.) 
+# Application Title Type of 
+Work 
+Description Reg. No. Reg. Date Date of First 
+Pub. 
+Nation of First 
+Pub. 
+Copyright Claimant Authorship on Application ISBN 
+1 Anthony's Textbook of Anatomy & 
+Physiology, Twentieth Edition. 
+Text Book, 1154 p. TX0007674847 2012-08-23 2012-02-10 United States Elsevier Inc. Kevin T. Patton; Gary A. 
+Thibodeau 
+9780323096003  
+2 The Human Body in Health & Disease – 
+Hardcover, Sixth Edition. 
+Text Book. TX0007714896 2013-03-28 2013-02-04 United States Elsevier Inc. Kevin T. Patton; Gary A. 
+Thibodeau 
+9780323101233  
+3 Structure & Function of the Body, 15th 
+Edition. 
+Text Book, 510 p. TX0008311430 2016-05-10 2015-11-17 United States Elsevier Inc. Kevin T. Patton; Gary A. 
+Thibodeau 
+9780323341127  
+4 The Human Body in Health & Disease – 
+Softcover, 7th Edition. 
+Text Book, 750 p. TX0008421608 2017-03-01 2017-01-30 United States Elsevier Inc. Kevin T. Patton; Gary A. 
+Thibodeau 
+9780323402118  
+5 Structure & Function of the Body – 
+Softcover, 17th Edition. 
+Text Book, 512 p. TX0008912882 2020-01-07 2019-11-07 United States Elsevier Inc. Kevin T. Patton; Gary A. 
+Thibodeau 
+9780323597791  
+ 
+Case 3:26-cv-06793     Document 1-5     Filed 07/02/26     Page 1 of 1
+EXHIBIT A-6 
+Registered Works of Plaintiff Dana Loewy 
+Sullivan, et al. v. Meta Platforms, Inc. & Mark Zuckerberg (N.D. Cal.) 
+ 
+# Application Title Type of 
+Work 
+Description Reg. No. Reg. Date Date of First 
+Pub. 
+Nation of First 
+Pub. 
+Copyright Claimant Authorship on Application ISBN 
+1 Business Communication: Process & 
+Product, 7e. 
+Text Book, 565 p.  TX0007353968 2011-03-31 2010-09-01 United States  South-Western, a part of 
+Cengage Learning 
+Mary Ellen Guffey; Dana Loewy 053846626X  
+2 Business Communication, 7e.   Text Book, 565 p.  TX0007515742 2012-04-16 2010-08-23 United States  Cengage Learning Inc. Mary Ellen Guffey; Dana Loewy 9780538466257  
+3 Business Communication: Process and 
+Product (with meguffey.com). 
+Text Book. TX0007838999 2014-02-04 2014-01-01 United States  Cengage Learning, Inc. Mary Ellen Guffey; Dana Loewy 9781285094069  
+4 Business Communication: Process & 
+Product, 8e. 
+Text Book, 619 p.  TX0007919141 2014-06-05 2014-01-01 United States  Cengage Learning, Inc. Mary Ellen Guffey; Dana Loewy 9781285094083  
+5 Business Communication: Process & 
+Product, 9e. 
+Text Book, 1 v.  TX0008407496 2017-04-12 2017-01-12 United States  Cengage Learning, Inc. Mary Ellen Guffey; Dana Loewy 9781305957961  
+6 Business Communication: Process & 
+Product, 10th Edition. 
+Text Electronic file 
+(eService)  
+TX0008957984 2021-03-24 2021-01-14 United States  Cengage Learning, Inc. Mary Ellen Guffey; Dana Loewy 9780357129234  
+7 Business Communication: Process & 
+Product, 11e.   
+Text Electronic file 
+(eService)  
+TX0009385984 2024-04-22 2024-03-11 United States  Cengage Learning, Inc. Mary Ellen Guffey; Dana Loewy 9780357984109  
+ 
+8 Essentials of Business Communication, 
+9e. 
+Text Book. TX0007508523 2012-03-21 2012-02-07 United States  Cengage Learning, South-
+Western 
+Mary Ellen Guffey; Dana Loewy 9781111821227  
+9 Essentials of Business Communication, 
+11e. 
+Text Book. TX0008565117 2018-04-04 2018-01-24 United States  Cengage Learning, Inc. Mary Ellen Guffey; Dana Loewy 9781337386494  
+ 
+10 Essentials of Business Communication, 
+12e. 
+Text Electronic file 
+(eService)  
+ 
+TX0009126675 2022-05-13 2022-04-01 United States  Cengage Learning, Inc. Mary Ellen Guffey; Dana Loewy 9780357714973  
+ 
+Case 3:26-cv-06793     Document 1-6     Filed 07/02/26     Page 1 of 1
