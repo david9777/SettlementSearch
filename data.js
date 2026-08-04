@@ -296406,8 +296406,8 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "N.D. Ill.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
+    "judge": "Charles P. Kocoras",
+    "case_number": "1:22-cv-00366",
     "class_size": null,
     "fee_award": null,
     "description": "ERISA settlement — 403(b) excessive fees. Compiled from public reporting (2026 ERISA research sweep).",
@@ -296420,7 +296420,8 @@ window.SETTLEMENTS = [
     "dead": null,
     "claim_deadline": null,
     "official_url": null,
-    "documents": null
+    "documents": null,
+    "counsel": "Miller Shah"
   },
   {
     "id": "buescher-v-chs-community-health-systems-2022",
@@ -296434,8 +296435,8 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "M.D. Tenn.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
+    "judge": "William L. Campbell Jr.",
+    "case_number": "3:19-cv-00689",
     "class_size": null,
     "fee_award": null,
     "description": "ERISA settlement — 401(k) excessive fees / TDF. Compiled from public reporting (2026 ERISA research sweep).",
@@ -296448,7 +296449,8 @@ window.SETTLEMENTS = [
     "dead": null,
     "claim_deadline": null,
     "official_url": null,
-    "documents": null
+    "documents": null,
+    "counsel": "Nichols Kaster"
   },
   {
     "id": "santiago-v-university-of-miami-2022",
@@ -296462,8 +296464,8 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "S.D. Fla.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
+    "judge": "Darrin P. Gayles",
+    "case_number": "1:20-cv-21784",
     "class_size": null,
     "fee_award": null,
     "description": "ERISA settlement — 403(b) excessive fees. Compiled from public reporting (2026 ERISA research sweep).",
@@ -296476,7 +296478,8 @@ window.SETTLEMENTS = [
     "dead": null,
     "claim_deadline": null,
     "official_url": null,
-    "documents": null
+    "documents": null,
+    "counsel": "Wenzel Fenton Cabassa; McKay Law"
   },
   {
     "id": "advocate-aurora-health-403-b-litigation-2022",
@@ -296490,9 +296493,9 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "E.D. Wis.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
+    "judge": "Brett H. Ludwig",
+    "case_number": "2:20-cv-01246",
+    "class_size": 39000,
     "fee_award": null,
     "description": "ERISA settlement — 403(b) excessive fees. Compiled from public reporting (2026 ERISA research sweep).",
     "source": "ERISA Research 2026",
@@ -296504,7 +296507,8 @@ window.SETTLEMENTS = [
     "dead": null,
     "claim_deadline": null,
     "official_url": null,
-    "documents": null
+    "documents": null,
+    "counsel": "Walcheske & Luzi"
   },
   {
     "id": "dol-esop-settlements-six-investigations-aggregate-2022",
@@ -296690,9 +296694,9 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "M.D.N.C.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
+    "judge": "William L. Osteen Jr.",
+    "case_number": "1:21-cv-00454",
+    "class_size": 19000,
     "fee_award": null,
     "description": "ERISA settlement — 403(b) excessive fees. Compiled from public reporting (2026 ERISA research sweep).",
     "source": "ERISA Research 2026",
@@ -296704,7 +296708,8 @@ window.SETTLEMENTS = [
     "dead": null,
     "claim_deadline": null,
     "official_url": null,
-    "documents": null
+    "documents": null,
+    "counsel": "Capozzi Adler"
   },
   {
     "id": "carrigan-v-xerox-corp-2023",
@@ -296718,8 +296723,8 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "D. Conn.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
+    "judge": "Sarala V. Nagala",
+    "case_number": "3:21-cv-01085",
     "class_size": null,
     "fee_award": null,
     "description": "ERISA settlement — 401(k) excessive recordkeeping fees. Compiled from public reporting (2026 ERISA research sweep).",
@@ -296732,7 +296737,8 @@ window.SETTLEMENTS = [
     "dead": null,
     "claim_deadline": null,
     "official_url": null,
-    "documents": null
+    "documents": null,
+    "counsel": "Nichols Kaster; Garrison Levin-Epstein Fitzgerald & Pirrotti"
   },
   {
     "id": "urlaub-v-citgo-petroleum-corp-2024",
@@ -296803,9 +296809,9 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "W.D. Pa.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
+    "judge": "Marilyn J. Horan",
+    "case_number": "2:21-cv-00403",
+    "class_size": 8200,
     "fee_award": null,
     "description": "ERISA settlement — 401(k) excessive fees. Compiled from public reporting (2026 ERISA research sweep).",
     "source": "ERISA Research 2026",
@@ -296860,8 +296866,8 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "N.D. Ill.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
+    "judge": "Steven C. Seeger",
+    "case_number": "1:22-cv-02578",
     "class_size": null,
     "fee_award": null,
     "description": "ERISA settlement — 403(b) excessive fees. Compiled from public reporting (2026 ERISA research sweep).",
@@ -297174,8 +297180,8 @@ window.SETTLEMENTS = [
     "status": "Settlement",
     "court": "S.D. Tex.",
     "court_full": null,
-    "judge": null,
-    "case_number": null,
+    "judge": "Alfred H. Bennett",
+    "case_number": "4:24-cv-02105",
     "class_size": null,
     "fee_award": null,
     "description": "ERISA settlement — Retirement plan excessive fees (amount undisclosed). Compiled from public reporting (2026 ERISA research sweep).",
