@@ -424,6 +424,7 @@
         detailRow("Class size", d.class_size != null ? fullNum(d.class_size) + " members" : null) +
         detailRow("Settlement", amt ? amt + " (" + fullNum(d.amount) + ")" : "Non-monetary / N/A") +
         detailRow("Attorneys' fees", d.fee_award != null ? money(d.fee_award) + " (" + fullNum(d.fee_award) + ")" : null) +
+        detailRow("Class counsel", d.counsel) +
         detailRow("Source", d.source) +
         '<div class="detail-row"><div class="k">Link</div><div class="v">' +
           (d.official_url
@@ -459,7 +460,7 @@
       ["amount", "Settlement Amount (USD)"], ["year", "Year"],
       ["status", "Status"], ["court", "Court"], ["court_full", "Court (full)"],
       ["judge", "Judge"], ["case_number", "Docket/MDL"], ["class_size", "Class Size"],
-      ["fee_award", "Attorneys' Fees (USD)"], ["description", "Description"],
+      ["fee_award", "Attorneys' Fees (USD)"], ["counsel", "Class Counsel"], ["description", "Description"],
       ["source", "Source"], ["source_url", "Source URL"],
     ];
     const lines = [cols.map((c) => csvCell(c[1])).join(",")];

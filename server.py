@@ -38,7 +38,7 @@ SITE_NAME = os.environ.get("SITE_NAME", "")      # optional firm branding
 # Canonical field set every record carries (keeps the front-end happy).
 FIELDS = ["id", "case_name", "short_name", "defendant", "amount", "category",
           "record_type", "year", "status", "court", "court_full", "judge",
-          "case_number", "class_size", "fee_award", "description", "source",
+          "case_number", "class_size", "fee_award", "counsel", "description", "source",
           "source_url", "date_added", "enriched_at", "amount_src",
           "enrich_ver", "dead", "claim_deadline", "official_url", "documents"]
 
@@ -103,6 +103,9 @@ def parse_amount(text):
 
 
 _CATEGORY_RULES = [
+    ("ERISA", ["erisa", "401(k", "401k", "403(b", "403b", "esop", "retirement plan",
+               "pension plan", "fiduciary breach", "excessive recordkeeping fee", "forfeiture reallocation",
+               "target date fund", "plan participants", "actuarial equivalence"]),
     ("Data Breach", ["data breach", "data security", "cyberattack", "cyber attack",
                      "hacked", "breach exposed", "ransomware", "personal information was"]),
     ("Privacy", ["biometric", "bipa", "facial recognition", "privacy", "wiretap",
