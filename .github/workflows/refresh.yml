@@ -33,11 +33,13 @@ jobs:
         env:
           REFRESH_COOLDOWN: "0"
           ENRICH_LIMIT: "2500"   # fetch up to N settlement pages/run to fill $ + year
+          LINKCHECK_LIMIT: "800" # re-verify N records' links per run (each record every ~30 days)
         run: |
           python server.py --refresh-once
           python server.py --scrub
           python server.py --enrich
           python server.py --dedupe
+          python server.py --linkcheck
           python server.py --export
 
       - name: Commit updated data

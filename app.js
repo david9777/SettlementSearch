@@ -465,6 +465,12 @@
   // Direct link to the claims administrator — where the user actually files,
   // instead of hopping through an aggregator.
   function officialRow(d) {
+    if (!d.official_url && d.official_url_dead) {
+      // The claims site was checked and is gone -- say so instead of linking to it.
+      return '<div class="detail-row"><div class="k">Official site</div>' +
+        '<div class="v"><span class="amount-na">Taken down — claims site no longer online' +
+        (d.links_checked ? " (checked " + esc(d.links_checked) + ")" : "") + "</span></div></div>";
+    }
     if (!d.official_url) return "";
     return '<div class="detail-row"><div class="k">Official site</div>' +
       '<div class="v"><a class="official-link" href="' + esc(d.official_url) +

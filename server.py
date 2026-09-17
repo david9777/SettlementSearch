@@ -41,7 +41,8 @@ FIELDS = ["id", "case_name", "short_name", "defendant", "amount", "category",
           "record_type", "year", "status", "court", "court_full", "judge",
           "case_number", "class_size", "fee_award", "counsel", "description", "source",
           "source_url", "date_added", "enriched_at", "amount_src",
-          "enrich_ver", "dead", "claim_deadline", "official_url", "documents"]
+          "enrich_ver", "dead", "claim_deadline", "official_url", "documents",
+          "links_checked", "official_url_dead", "dead_reason"]
 
 # Free-text notes connectors can attach to a refresh (e.g. "capped at N").
 REFRESH_NOTES = []
@@ -2001,6 +2002,80 @@ def dedupe_store():
     return {"groups_merged": merged, "copies_removed": removed}
 
 
+# ----------------------------------------------------------------------------
+# Link check -- every link on the page must go where it says. Claims-admin
+# sites are taken down a few months after payout, so an "official site" link
+# that was right in March is a dead domain by August. Each run re-checks the
+# records that haven't been checked in 30 days (oldest first, up to `limit`):
+# a 404/410 or a domain that no longer resolves drops the official site and
+# its documents (the record stays, linked to its source); a source page that
+# is gone hides the record, as enrichment already does. 403s and 5xx are left
+# alone -- those are bot walls and hiccups, not dead links.
+# ----------------------------------------------------------------------------
+import socket as _socket
+
+def _link_alive(url):
+    """True / False / None (unsure: blocked, timeout, server error)."""
+    host = urlparse(url).netloc
+    try:
+        _socket.gethostbyname(host)
+    except _socket.gaierror:
+        return False
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA, "Accept": "text/html,*/*"})
+        with urllib.request.urlopen(req, timeout=12, context=ssl.create_default_context()):
+            return True
+    except urllib.error.HTTPError as e:
+        return False if e.code in (404, 410) else None
+    except Exception:
+        return None
+
+
+def check_links(limit=1500, workers=8, max_age_days=30):
+    records = load_store()
+    today = datetime.now(timezone.utc).date()
+    cutoff = (today - timedelta(days=max_age_days)).isoformat()
+    todo = [r for r in records
+            if not r.get("dead") and (r.get("official_url") or r.get("source_url"))
+            and (r.get("links_checked") or "") < cutoff]
+    todo.sort(key=lambda r: r.get("links_checked") or "")
+    todo = todo[:limit]
+    stats = {"checked": len(todo), "official_removed": 0, "docs_removed": 0, "hidden": 0}
+
+    def work(r):
+        out = dict(r)
+        if r.get("official_url"):
+            alive = _link_alive(r["official_url"])
+            if alive is False:
+                out["official_url_dead"] = r["official_url"]
+                out["official_url"] = None
+                out["documents"] = []
+                stats["official_removed"] += 1
+            elif alive:
+                keep = []
+                for d in r.get("documents") or []:
+                    if _link_alive(d.get("url", "")) is False:
+                        stats["docs_removed"] += 1
+                    else:
+                        keep.append(d)
+                out["documents"] = keep
+        if r.get("source_url") and _link_alive(r["source_url"]) is False:
+            out["dead"] = True
+            out["dead_reason"] = "source page gone (%s)" % today.isoformat()
+            stats["hidden"] += 1
+        out["links_checked"] = today.isoformat()
+        return out
+
+    with _cf.ThreadPoolExecutor(max_workers=workers) as ex:
+        results = list(ex.map(work, todo))
+    with _DB_LOCK, _connect() as c:
+        for rec in results:
+            c.execute("UPDATE settlements SET data=? WHERE id=?",
+                      (json.dumps(rec, ensure_ascii=False), rec["id"]))
+    _invalidate_cache()
+    return stats
+
+
 def scrub_unreliable_amounts():
     """Null any ClassActionBuddy amount that wasn't page-verified (its slug
     amounts drop decimal points and are unreliable), and clear its enrich marker
@@ -2237,6 +2312,10 @@ def main():
         return
     if "--dedupe" in sys.argv:
         print(json.dumps(dedupe_store(), indent=2))
+        return
+    if "--linkcheck" in sys.argv:
+        limit = int(os.environ.get("LINKCHECK_LIMIT", "1500"))
+        print(json.dumps(check_links(limit=limit), indent=2))
         return
     if "--enrich" in sys.argv:
         limit = int(os.environ.get("ENRICH_LIMIT", "1500"))
