@@ -689,6 +689,17 @@
     el.exportBtn.addEventListener("click", exportCSV);
     el.refreshBtn.addEventListener("click", refreshData);
 
+    // Mobile: filters collapse behind a button (CSS hides them until .open).
+    var toggle = document.getElementById("sidebarToggle");
+    var sidebar = document.querySelector(".sidebar");
+    if (toggle && sidebar) {
+      toggle.addEventListener("click", () => {
+        var open = sidebar.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", String(open));
+        toggle.textContent = open ? "Filters ▴" : "Filters ▾";
+      });
+    }
+
     // Tiles: each one is a filter or opens a record.
     el.tiles.open.addEventListener("click", () => {
       state.showClosed = !state.showClosed;

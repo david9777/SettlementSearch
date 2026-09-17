@@ -44,6 +44,8 @@ html, body {
   white-space: nowrap; overflow: hidden;
 }
 .beta-ribbon strong { font-weight: 600; }
+.beta-ribbon .ribbon-short { display: none; }
+.sidebar-toggle { display: none; }
 .beta-ribbon .ribbon-stamp { opacity: .9; flex-shrink: 0; }
 
 /* ---------- Header ---------- */
@@ -133,7 +135,7 @@ html, body {
 /* ---------- Metric tiles ---------- */
 .metrics {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
   padding: 22px 28px 6px;
 }
@@ -146,6 +148,7 @@ html, body {
   /* tiles are buttons: reset button chrome, keep them left-aligned */
   font: inherit; color: inherit; text-align: left; cursor: pointer;
   transition: border-color .12s, box-shadow .12s;
+  min-width: 0;
 }
 .metric:hover { border-color: var(--accent); }
 .metric:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -172,7 +175,7 @@ html, body {
 /* ---------- Layout ---------- */
 .layout {
   display: grid;
-  grid-template-columns: 248px 1fr;
+  grid-template-columns: 248px minmax(0, 1fr);
   gap: 18px;
   padding: 18px 28px 40px;
   align-items: start;
@@ -235,6 +238,7 @@ html, body {
 
 /* ---------- Results ---------- */
 .results {
+  min-width: 0;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -393,19 +397,50 @@ html, body {
 .site-footer p { font-size: 12px; color: var(--muted); margin: 0; }
 
 /* ---------- Responsive ---------- */
+/* Column visibility by breakpoint. Header cells carry .col-* classes; body
+   cells are matched by position (1 case · 2 area · 3 amount · 4 year · 5 court ·
+   6 class size · 7 status · 8 source · 9 seen). */
 @media (max-width: 1280px) {
-  .col-class { display: none; }
+  .col-class, .settlement-table td:nth-child(6) { display: none; }
 }
 @media (max-width: 900px) {
-  .metrics { grid-template-columns: repeat(3, 1fr); }
-  .layout { grid-template-columns: 1fr; }
-  .sidebar { position: static; }
-  .col-court, .col-class, .col-seen { display: none; }
-  .beta-ribbon { font-size: 10px; padding: 0 12px; }
+  .metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; padding: 16px 16px 4px; }
+  .metrics-note { margin: 6px 16px 0; }
+  .layout { grid-template-columns: minmax(0, 1fr); gap: 12px; padding: 12px 16px; }
+  .sidebar { position: static; max-height: none; }
+  .col-court, .col-class, .col-seen,
+  .settlement-table td:nth-child(5), .settlement-table td:nth-child(6),
+  .settlement-table td:nth-child(9) { display: none; }
+  .beta-ribbon { padding: 0 16px; }
   .beta-ribbon .ribbon-stamp { display: none; }
+  .site-header { padding: 10px 16px; gap: 10px; }
+  .brand-text p { display: none; }
+  .brand-mark { width: 34px; height: 34px; font-size: 19px; }
+  .brand-text h1 { font-size: 16px; }
+  .last-updated { display: none; }
+  .header-actions .btn { padding: 7px 11px; white-space: nowrap; }
+  /* Filters collapse behind a button so the table is one tap away. */
+  .sidebar-toggle { display: block; width: 100%; margin-top: 10px; }
+  .sidebar:not(.open) .filter-group, .sidebar:not(.open) #resetBtn { display: none; }
+  .results-bar { flex-wrap: wrap; gap: 8px 14px; }
+  .closed-toggle { white-space: normal; }
+  .detail-drawer { width: 100%; max-width: 100%; }
+  .detail-row { grid-template-columns: 1fr; gap: 2px; }
 }
-@media (max-width: 560px) {
-  .metrics { grid-template-columns: 1fr 1fr; }
-  .site-header { padding: 12px 16px; }
-  .metrics, .layout { padding-left: 16px; padding-right: 16px; }
+@media (max-width: 600px) {
+  .beta-ribbon .ribbon-long { display: none; }
+  .beta-ribbon .ribbon-short { display: inline; }
+  .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .metric { padding: 12px 12px; }
+  .metric-value { font-size: 21px; }
+  .metric-value-text { font-size: 16px; min-height: 32px; }
+  .col-cat, .col-status, .col-source,
+  .settlement-table td:nth-child(2), .settlement-table td:nth-child(7),
+  .settlement-table td:nth-child(8) { display: none; }
+  .show-more-row td { display: table-cell; }
+  .settlement-table td, .settlement-table thead th { padding: 9px 8px; }
+  .col-case { min-width: 0; }
+  .case-cell .case-name { font-size: 13px; }
+  .site-footer { padding: 16px 16px 32px; }
+  .table-stamp { gap: 10px 14px; }
 }
