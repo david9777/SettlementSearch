@@ -19,7 +19,8 @@ Run it:
 
 Pure standard library — no pip install needed.
 """
-import json, os, re, ssl, sys, html, gzip, sqlite3, threading, time, math
+import json
+import math, os, re, ssl, sys, html, gzip, sqlite3, threading, time, math
 import urllib.request, urllib.error
 from urllib.parse import urljoin, urlparse
 from datetime import datetime, timezone, timedelta
@@ -1070,6 +1071,20 @@ from email.message import EmailMessage
 DIGEST_STATE = os.path.join(ROOT, "digest_state.json")
 SITE_URL = os.environ.get("SITE_URL", "https://david9777.github.io/SettlementSearch/")
 
+# External-facing copy. The same three strings appear in the page ribbon, the
+# CSV header and the email banner/footer, so they are defined once here (and
+# mirrored in index.html / app.js -- keep them in step).
+TAGLINE = "Who's paying, how much, and how often. Built in a day. Verify before you bet on it."
+DISCLAIMER = ("L&K Labs Settlement Tape - BETA. Fully automated and unaudited: records "
+              "are scraped from public sources, may be stale, wrong or duplicated, and "
+              "nobody at Levi & Korsinsky reviews them. Informational only; not legal, "
+              "financial or investment advice; do not rely on any figure without "
+              "checking the docket.")
+REPORT_EMAIL = os.environ.get("REPORT_EMAIL", "dsamson@zlk.com")
+# Reserved for the New York attorney-advertising label if counsel calls for it.
+# Leave empty until then.
+ATTORNEY_AD_LINE = os.environ.get("ATTORNEY_AD_LINE", "")
+
 # How much each practice area matters to a plaintiffs' securities & class-action
 # firm — drives the "most interesting to us" ranking alongside settlement size.
 _CAT_WEIGHT = {
@@ -1217,14 +1232,17 @@ def build_digest_html(new, cutoff, today, top_picks=5, max_items=30):
         '<tr><td align="center" style="padding:24px 12px;">'
         '<table width="600" cellpadding="0" cellspacing="0" style="background:#fff;'
         'border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);">'
+        '<tr><td style="background:#c2410c;padding:6px 28px;font-family:Consolas,Menlo,monospace;'
+        'font-size:11px;letter-spacing:.04em;color:#fff;">'
+        '<b>L&amp;K LABS &middot; BETA</b> &middot; automated &middot; unaudited &middot; '
+        'not advice &middot; verify against the docket</td></tr>'
         '<tr><td style="background:#16202c;padding:22px 28px;">'
-        '<div style="color:#fff;font-size:20px;font-weight:700;">&sect; Levi &amp; Korsinsky</div>'
+        '<div style="color:#fff;font-size:20px;font-weight:700;">&sect; The Settlement Tape</div>'
         '<div style="color:#9fb3c8;font-size:13px;margin-top:2px;">'
-        'Settlement Intelligence Briefing</div></td></tr>'
+        'L&amp;K Labs &middot; ' + _esc(TAGLINE) + '</div></td></tr>'
         '<tr><td style="padding:22px 28px 6px;">'
         '<div style="font-size:15px;color:#16202c;line-height:1.5;">'
-        '<b>%d new settlements</b> entered the database since %s.%s '
-        'Here are the most notable for the firm.</div></td></tr>'
+        '<b>%d new settlements</b> hit the tape since %s.%s</div></td></tr>'
         % (len(new), _esc(cutoff),
            (' The largest is <b>%s</b>.' % _esc(big)) if big else ""))
     body = ['<tr><td style="padding:18px 28px 4px;"><div style="font-size:13px;'
@@ -1239,18 +1257,42 @@ def build_digest_html(new, cutoff, today, top_picks=5, max_items=30):
         for r in groups[cat]:
             body.append(_digest_card(r))
     more = len(new) - min(len(new), max_items)
+    legal = (_esc(DISCLAIMER) + ' Auto-generated %s by a script; 0 humans involved. '
+             '<a href="mailto:%s?subject=Settlement%%20Tape%%20bad%%20record" '
+             'style="color:#1f4e79;">Report a bad record</a>.'
+             % (_esc(today), _esc(REPORT_EMAIL)))
+    if ATTORNEY_AD_LINE:
+        legal += " " + _esc(ATTORNEY_AD_LINE)
     foot = (
         '<tr><td style="padding:18px 28px 26px;">'
         + ('<div style="font-size:13px;color:#64748b;margin-bottom:14px;">'
            '+ %d more new settlements this period.</div>' % more if more > 0 else "")
         + '<a href="%s" style="display:inline-block;background:#1f4e79;color:#fff;'
           'font-size:14px;font-weight:600;text-decoration:none;padding:11px 22px;'
-          'border-radius:7px;">Browse the full database &rsaquo;</a></td></tr>'
-          '<tr><td style="background:#f4f6f9;padding:16px 28px;font-size:11px;color:#94a3b8;">'
-          'Levi &amp; Korsinsky Settlement Database &bull; auto-generated %s</td></tr>'
-          '</table></td></tr></table></body></html>'
-        % (_esc(SITE_URL), _esc(today)))
+          'border-radius:7px;">Open the tape &rsaquo;</a></td></tr>' % _esc(SITE_URL)
+        + '<tr><td style="background:#f4f6f9;padding:16px 28px;font-size:11px;color:#64748b;'
+          'line-height:1.5;">' + legal + '</td></tr>'
+          '</table></td></tr></table></body></html>')
     return head + "".join(body) + foot
+
+
+def _short_money(n):
+    """$1.4B / $95M / $750K -- subject-line compact."""
+    for div, suf in ((1e9, "B"), (1e6, "M"), (1e3, "K")):
+        if n >= div:
+            v = n / div
+            return "$%s%s" % (("%.1f" % v).rstrip("0").rstrip("."), suf)
+    return "$%d" % n
+
+
+def _short_who(r):
+    """First two words of the case name with the leading dollar figure and
+    guide phrasing stripped: 'Kroger data' / 'Pork Antitrust'."""
+    name = r.get("short_name") or r.get("case_name") or ""
+    words = [w for w in re.findall(r"[A-Za-z][A-Za-z0-9'.-]*", name)
+             if w.lower() not in _MERGE_STOP
+             and not re.fullmatch(r"(m|b|k|million|billion)", w, flags=re.I)][:2]
+    return " ".join(words).rstrip(":,-") or "settlement"
 
 
 def send_digest(records=None, force_days=None, dry_run=False):
@@ -1276,7 +1318,12 @@ def send_digest(records=None, force_days=None, dry_run=False):
             datetime.now(timezone.utc).date() - timedelta(days=7)).isoformat()
     new = _new_settlements(records, cutoff)
     html_doc = build_digest_html(new, cutoff, today)
-    subject = "%d new settlements — Levi & Korsinsky briefing (%s)" % (len(new), today)
+    # Readable in a preview pane without opening: "Tape · Wed 17 Sep · 37 new · $1.4B Kroger leads"
+    lead = ""
+    if new and new[0].get("amount"):
+        lead = " · %s %s leads" % (_short_money(new[0]["amount"]), _short_who(new[0]))
+    day = datetime.now(timezone.utc).strftime("%a %d %b")
+    subject = "Tape · %s · %d new%s" % (day, len(new), lead)
 
     if dry_run:
         with open(os.path.join(ROOT, "digest_preview.html"), "w", encoding="utf-8") as f:
@@ -1757,6 +1804,23 @@ def _merge_score(rec):
             min(len(rec.get("description") or "") / 400.0, 1.0))
 
 
+# Headline verbs and boilerplate that two unrelated stories can share.
+_NAME_NOISE = set((
+    "reaches reached announces announced secures secured agrees agreed resolves "
+    "resolved deal attorney general ag states state over largest history alleged "
+    "proposed record transformative faces reaches over with against provides "
+    "payout verdict jury judge court approves approved final preliminary").split())
+
+
+def _shares_name(ta, tb, rare):
+    """True when two names share at least one RARE word of 4+ letters -- a party
+    or product name ('geico', 'brightline'), not a genre word ('securities',
+    'wage', 'capital'). `rare` is the set of words that appear in few enough
+    records to identify a case. Used only together with a matching dollar
+    amount, so one shared rare word is enough."""
+    return any(len(t) >= 4 and t in rare and t not in _NAME_NOISE for t in (ta & tb))
+
+
 def _same_case(ta, tb):
     """Two names are the same case when one's distinctive words are contained in
     the other's ('henderson walton' ⊆ 'henderson walton womens center'). A 1-word
@@ -1809,6 +1873,36 @@ def dedupe_store():
                     continue
                 if _same_case(toks[a["id"]], toks[b["id"]]):
                     union(a["id"], b["id"])
+    # Second pass -- the same settlement reported by different sources under
+    # different headlines ("AG Bonta secures $17B settlement with Meta" vs "Meta
+    # deal resolves states' lawsuit"). Token-subset matching misses these because
+    # neither headline contains the other, so match on the dollar figure instead:
+    # amounts within 1% AND at least one shared distinctive word, across
+    # categories. The word test is what keeps two unrelated $2.8B deals apart.
+    df = {}
+    for ts in toks.values():
+        for t in ts:
+            df[t] = df.get(t, 0) + 1
+    rare = {t for t, n in df.items() if n <= max(15, len(cands) // 400)}
+    by_amt = {}
+    for r in cands:
+        amt = r.get("amount")
+        if amt and amt >= 1_000_000:
+            # Bucket width is 1% of the amount (log scale), so two figures within
+            # 1% always land in the same or the next bucket.
+            by_amt.setdefault(int(math.log(amt) / math.log(1.01)), []).append(r)
+    for key, grp in by_amt.items():
+        near = grp + by_amt.get(key + 1, [])
+        for i in range(len(near)):
+            for j in range(i + 1, len(near)):
+                a, b = near[i], near[j]
+                if a is b or find(a["id"]) == find(b["id"]):
+                    continue
+                hi, lo = max(a["amount"], b["amount"]), min(a["amount"], b["amount"])
+                if (hi - lo) / hi > 0.01:
+                    continue
+                if _shares_name(toks[a["id"]], toks[b["id"]], rare):
+                    union(a["id"], b["id"])
     groups = {}
     for r in cands:
         groups.setdefault(find(r["id"]), []).append(r)
@@ -1822,6 +1916,11 @@ def dedupe_store():
                 continue
             grp.sort(key=_merge_score, reverse=True)
             keep, rest = grp[0], grp[1:]
+            # Audit trail in the Actions log: what got folded into what.
+            print("dedupe: keep [%s] %s  <-  %s" % (
+                keep.get("source"), (keep.get("short_name") or "")[:60],
+                " | ".join("[%s] %s" % (r.get("source"), (r.get("short_name") or "")[:50])
+                           for r in rest)))
             for r in rest:
                 for f in _FILL:
                     if not keep.get(f) and r.get(f):

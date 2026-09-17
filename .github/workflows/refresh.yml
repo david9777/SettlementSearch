@@ -8,8 +8,8 @@ name: Refresh settlements
 
 on:
   schedule:
-    - cron: "0 7 * * *"       # once daily at 07:00 UTC (keeps the repo's git
-                              # history lean; change to "0 */6 * * *" for 6-hourly)
+    - cron: "0 */6 * * *"     # every 6 hours (00/06/12/18 UTC); the page shows
+                              # the stamp of the last run
   workflow_dispatch: {}         # adds a manual "Run workflow" button in the Actions tab
 
 permissions:

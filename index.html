@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Levi &amp; Korsinsky — Settlement Database</title>
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <title>The Settlement Tape — L&amp;K Labs</title>
+  <link rel="stylesheet" href="styles.css?v=6" />
   <style>
     /* Access gate — inline so it covers the page immediately (no content flash). */
     .auth-gate { position: fixed; inset: 0; z-index: 99999; background: #16202c;
@@ -32,11 +32,13 @@
     <form id="auth-form" autocomplete="off">
       <div class="auth-box">
         <div class="auth-mark">§</div>
-        <h2>Levi &amp; Korsinsky</h2>
-        <p>Settlement Database<br>Enter the access password to continue.</p>
-        <input id="auth-input" type="password" placeholder="Password" autocomplete="current-password" />
-        <button type="submit">Enter</button>
-        <div id="auth-error" class="auth-error" hidden>Incorrect password — try again.</div>
+        <h2>The Settlement Tape</h2>
+        <p>L&amp;K Labs · beta<br>
+           This is an automated, unaudited internal tool. Nobody checks the data.
+           Enter the access word to confirm you understand that and won't rely on it.</p>
+        <input id="auth-input" type="password" placeholder="Access word" autocomplete="current-password" />
+        <button type="submit">I understand — open the tape</button>
+        <div id="auth-error" class="auth-error" hidden>Wrong access word — try again.</div>
       </div>
     </form>
   </div>
@@ -69,12 +71,19 @@
   })();
   </script>
 
+  <!-- Beta ribbon: permanent, never dismissible, sticky with the header so every
+       scroll position and screenshot carries it. -->
+  <div class="beta-ribbon" role="note">
+    <span><strong>L&amp;K LABS · BETA</strong> · fully automated · unaudited · not legal, financial or investment advice · verify against the docket</span>
+    <span id="ribbonStamp" class="ribbon-stamp"></span>
+  </div>
+
   <header class="site-header">
     <div class="brand">
       <div class="brand-mark">§</div>
       <div class="brand-text">
-        <h1>Levi &amp; Korsinsky</h1>
-        <p>Class Action &amp; Mass Tort Settlement Database</p>
+        <h1>The Settlement Tape</h1>
+        <p><span class="brand-lab">L&amp;K Labs</span> · Who's paying, how much, and how often. Built in a day. Verify before you bet on it.</p>
       </div>
     </div>
     <div class="header-actions">
@@ -89,29 +98,39 @@
     </div>
   </header>
 
-  <!-- Aggregate metric tiles -->
-  <section class="metrics" id="metrics" aria-label="Database metrics">
-    <div class="metric">
-      <div class="metric-value" id="m-count">—</div>
-      <div class="metric-label">Settlements</div>
-    </div>
-    <div class="metric">
-      <div class="metric-value" id="m-value">—</div>
-      <div class="metric-label">Total Coded Value</div>
-    </div>
-    <div class="metric">
-      <div class="metric-value" id="m-class">—</div>
-      <div class="metric-label">Class Members</div>
-    </div>
-    <div class="metric">
-      <div class="metric-value" id="m-cats">—</div>
-      <div class="metric-label">Practice Areas</div>
-    </div>
-    <div class="metric">
-      <div class="metric-value" id="m-largest">—</div>
-      <div class="metric-label">Largest Settlement</div>
-    </div>
+  <!-- Funder tiles. Every tile is a filter (or opens a record); none is a bare fact. -->
+  <section class="metrics" id="metrics" aria-label="Tape summary">
+    <button class="metric" id="t-open" title="Toggle closed settlements (claim deadline passed) in and out of the view">
+      <div class="metric-value"><span id="m-open">—</span></div>
+      <div class="metric-label">Open settlements</div>
+      <div class="metric-sub"><span id="m-total">—</span> incl. closed →</div>
+    </button>
+    <button class="metric" id="t-new7" title="Show settlements that hit the tape in the last 7 days">
+      <div class="metric-value"><span id="m-new7">—</span></div>
+      <div class="metric-label">New in 7 days</div>
+      <div class="metric-sub"><span id="m-new7v">—</span> coded →</div>
+    </button>
+    <button class="metric" id="t-largest" title="Open the largest settlement added in the last 30 days">
+      <div class="metric-value"><span id="m-largest">—</span></div>
+      <div class="metric-label">Largest this month</div>
+      <div class="metric-sub" id="m-largestn">—</div>
+    </button>
+    <button class="metric" id="t-busiest" title="Filter to the practice area with the most new settlements in 30 days">
+      <div class="metric-value metric-value-text"><span id="m-busiest">—</span></div>
+      <div class="metric-label">Busiest practice area</div>
+      <div class="metric-sub"><span id="m-busiestn">—</span> new in 30 days →</div>
+    </button>
+    <button class="metric" id="t-closing" title="Show settlements whose claim deadline is within 30 days">
+      <div class="metric-value"><span id="m-closing">—</span></div>
+      <div class="metric-label">Closing soon</div>
+      <div class="metric-sub">claim deadline ≤ 30 days →</div>
+    </button>
   </section>
+  <p class="metrics-note">
+    $ coded on <strong id="m-codedpct">—</strong> of settlements — the rest are links, not figures.
+    Tiles are the whole tape; the table is the current view. Same settlement can arrive from more
+    than one source; the nightly job merges what it can.
+  </p>
 
   <main class="layout">
     <!-- Filter sidebar -->
@@ -209,6 +228,8 @@
               <th class="col-court">Court</th>
               <th class="col-class num" data-sort="class_size">Class Size</th>
               <th class="col-status">Status</th>
+              <th class="col-source">Source</th>
+              <th class="col-seen" data-sort="date_added">Seen</th>
             </tr>
           </thead>
           <tbody id="tableBody"></tbody>
@@ -216,6 +237,12 @@
         <div id="emptyState" class="empty-state" hidden>
           <p>No settlements match your filters.</p>
           <button class="btn" onclick="document.getElementById('resetBtn').click()">Reset filters</button>
+        </div>
+        <!-- Inside the table frame so a cropped screenshot still carries the stamp. -->
+        <div class="table-stamp">
+          <span>L&amp;K Labs · Beta · unaudited · as of <span id="stampDate">—</span></span>
+          <a id="reportLink" href="#">⚑ Report a bad record</a>
+          <span id="adSlotTable" class="ad-slot"></span>
         </div>
       </div>
     </section>
@@ -230,16 +257,20 @@
 
   <footer class="site-footer">
     <p>
-      <strong>SettleSearch</strong> — built from public-record settlement data
-      (court filings, dockets, and public reporting). Figures are headline/aggregate
-      settlement values and are provided for research and benchmarking. Verify against
-      primary sources before relying on any figure.
+      <strong>L&amp;K Labs Settlement Tape — BETA.</strong> Fully automated and unaudited:
+      records are scraped from public sources (claims administrators, court dockets, agency
+      press releases, class-action news sites), may be stale, wrong or duplicated, and nobody at
+      Levi &amp; Korsinsky reviews them. Informational only; not legal, financial or investment
+      advice; do not rely on any figure without checking the docket. Every record links to where
+      it came from. Refreshes itself every six hours; 0 humans involved.
+      <a id="reportLinkFooter" href="#">Report a bad record</a>.
+      <span id="adSlotFooter" class="ad-slot"></span>
     </p>
   </footer>
 
   <div id="toast" class="toast" hidden></div>
 
   <script src="data.js"></script>
-  <script src="app.js?v=13"></script>
+  <script src="app.js?v=14"></script>
 </body>
 </html>

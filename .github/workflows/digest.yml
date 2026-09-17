@@ -1,6 +1,6 @@
 # Free email digest — a Clareon-style "new settlements" briefing.
 #
-# Runs Mon/Wed/Fri morning, builds a ranked digest of every settlement added
+# Runs every weekday morning, builds a ranked digest of every settlement added
 # since the last run, and emails it via Gmail SMTP (Python stdlib, no deps).
 # Needs three repo secrets: SMTP_USER (your Gmail), SMTP_PASS (a Gmail app
 # password), DIGEST_TO (recipients — comma-separate for more than one).
@@ -12,7 +12,8 @@ name: Email settlement digest
 
 on:
   schedule:
-    - cron: "23 13 * * 1,3,5"    # Mon/Wed/Fri 13:23 UTC (~9:23am ET). Deliberately
+    - cron: "23 11 * * 1-5"      # weekdays 11:23 UTC (~7:23am ET), after the 06:00 UTC
+                                 # refresh and before the bank opens. Deliberately
                                  # OFF the top of the hour — GitHub's free scheduler
                                  # drops/delays on-the-hour crons under load.
   workflow_dispatch:

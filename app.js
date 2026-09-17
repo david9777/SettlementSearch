@@ -4,6 +4,17 @@
 
   let DATA = [];
 
+  // External-facing copy. Mirrors TAGLINE / DISCLAIMER / REPORT_EMAIL in
+  // server.py -- change both together.
+  const DISCLAIMER =
+    "L&K Labs Settlement Tape - BETA. Fully automated and unaudited: records are " +
+    "scraped from public sources, may be stale, wrong or duplicated, and nobody at " +
+    "Levi & Korsinsky reviews them. Informational only; not legal, financial or " +
+    "investment advice; do not rely on any figure without checking the docket.";
+  const REPORT_EMAIL = "dsamson@zlk.com";
+  // Reserved for the New York attorney-advertising label if counsel calls for it.
+  const ATTORNEY_AD_LINE = "";
+
   // ---------- State ----------
   const state = {
     search: "",
@@ -14,6 +25,7 @@
     yearMax: null,
     amountMin: 0,       // 0 | numeric threshold | "has" | "none"
     showClosed: false,  // include settlements whose claim deadline has passed
+    quick: null,        // tile filter: null | "new7" | "closing"
     sortKey: "date_added",  // default: most recently added to the database first
     sortDir: "desc",
     renderCap: 500,     // rows rendered at once; grown by the "Show more" row
@@ -52,12 +64,28 @@
     detailBody: document.getElementById("detailBody"),
     detailClose: document.getElementById("detailClose"),
     table: document.querySelector(".settlement-table"),
-    metrics: {
-      count: document.getElementById("m-count"),
-      value: document.getElementById("m-value"),
-      class: document.getElementById("m-class"),
-      cats: document.getElementById("m-cats"),
+    ribbonStamp: document.getElementById("ribbonStamp"),
+    stampDate: document.getElementById("stampDate"),
+    reportLinks: [document.getElementById("reportLink"), document.getElementById("reportLinkFooter")],
+    adSlots: [document.getElementById("adSlotTable"), document.getElementById("adSlotFooter")],
+    tiles: {
+      open: document.getElementById("t-open"),
+      new7: document.getElementById("t-new7"),
+      largest: document.getElementById("t-largest"),
+      busiest: document.getElementById("t-busiest"),
+      closing: document.getElementById("t-closing"),
+    },
+    m: {
+      open: document.getElementById("m-open"),
+      total: document.getElementById("m-total"),
+      new7: document.getElementById("m-new7"),
+      new7v: document.getElementById("m-new7v"),
       largest: document.getElementById("m-largest"),
+      largestn: document.getElementById("m-largestn"),
+      busiest: document.getElementById("m-busiest"),
+      busiestn: document.getElementById("m-busiestn"),
+      closing: document.getElementById("m-closing"),
+      codedpct: document.getElementById("m-codedpct"),
     },
   };
 
@@ -163,13 +191,28 @@
            "-" + String(n.getDate()).padStart(2, "0");
   }
   var TODAY = todayISO();
+  function daysAgoISO(n) {
+    var d = new Date(); d.setDate(d.getDate() - n);
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") +
+           "-" + String(d.getDate()).padStart(2, "0");
+  }
+  var WEEK_AGO = daysAgoISO(7), MONTH_AGO = daysAgoISO(30), MONTH_AHEAD = daysAgoISO(-30);
   function isExpired(d) {
     return !!d.claim_deadline && d.claim_deadline < TODAY;
+  }
+  function isClosingSoon(d) {
+    return !!d.claim_deadline && d.claim_deadline >= TODAY && d.claim_deadline <= MONTH_AHEAD;
+  }
+  // When the bot last touched the record: page re-read date, else first-seen date.
+  function lastSeen(d) {
+    return d.enriched_at || d.date_added || null;
   }
 
   function matches(d) {
     // Hide closed settlements unless the user opts in or is searching for one.
     if (isExpired(d) && !state.showClosed && !state.search) return false;
+    if (state.quick === "new7" && !(d.date_added && d.date_added >= WEEK_AGO)) return false;
+    if (state.quick === "closing" && !isClosingSoon(d)) return false;
     if (state.categories.size && !state.categories.has(d.category)) return false;
     if (state.statuses.size && !state.statuses.has(d.status)) return false;
     if (state.rtypes.size && !state.rtypes.has(d.record_type || "Settlement")) return false;
@@ -240,7 +283,7 @@
     computeNewestAdded();
     const rows = getView();
     renderTable(rows);
-    renderMetrics(rows);
+    renderMetrics();
     renderResultCount(rows);
     syncSortHeaders();
   }
@@ -279,9 +322,11 @@
           (amt ? esc(amt) : '<span class="amount-na">N/A</span>') +
         "</td>" +
         '<td class="num">' + (d.year != null ? esc(d.year) : "—") + "</td>" +
-        '<td class="court-cell">' + esc(d.court || "—") + "</td>" +
+        '<td class="court-cell"><span title="' + esc(d.court_full || d.court || "") + '">' + esc(d.court || "—") + "</span></td>" +
         '<td class="num">' + (d.class_size != null ? esc(compact(d.class_size)) : "—") + "</td>" +
-        '<td><span class="status ' + statusClass(d.status) + '">' + esc(d.status) + "</span></td>";
+        '<td><span class="status ' + statusClass(d.status) + '">' + esc(d.status) + "</span></td>" +
+        '<td class="source-cell">' + sourceLink(d) + "</td>" +
+        '<td class="seen-cell">' + esc(lastSeen(d) || "—") + "</td>";
       tr.addEventListener("click", () => openDetail(d));
       tr.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openDetail(d); }
@@ -291,7 +336,7 @@
     if (remaining > 0) {
       const tr = document.createElement("tr");
       tr.className = "show-more-row";
-      tr.innerHTML = '<td colspan="7"><button class="btn btn-block">' +
+      tr.innerHTML = '<td colspan="9"><button class="btn btn-block">' +
         "Show " + Math.min(remaining, RENDER_CHUNK * 2).toLocaleString("en-US") +
         " more (" + remaining.toLocaleString("en-US") + " remaining)</button></td>";
       tr.querySelector("button").addEventListener("click", () => {
@@ -303,22 +348,78 @@
     el.tableBody.appendChild(frag);
   }
 
-  function renderMetrics(rows) {
-    const totalValue = rows.reduce((s, d) => s + (d.amount || 0), 0);
-    const totalClass = rows.reduce((s, d) => s + (d.class_size || 0), 0);
-    const cats = new Set(rows.map((d) => d.category));
-    const largest = rows.reduce((m, d) => (d.amount > (m ? m.amount : 0) ? d : m), null);
+  // Tiles describe the whole tape (all live Settlement records), not the current
+  // view, so they read the same no matter what is filtered. Each is a filter.
+  function renderMetrics() {
+    const all = DATA.filter((d) => (d.record_type || "Settlement") === "Settlement");
+    const open = all.filter((d) => !isExpired(d));
+    const coded = all.filter((d) => d.amount);
+    const new7 = all.filter((d) => d.date_added && d.date_added >= WEEK_AGO);
+    const new30 = all.filter((d) => d.date_added && d.date_added >= MONTH_AGO);
+    const closing = all.filter(isClosingSoon);
+    const largest = new30.reduce((m, d) => ((d.amount || 0) > (m ? m.amount : 0) ? d : m), null);
+    const byCat = {};
+    new30.forEach((d) => { byCat[d.category] = (byCat[d.category] || 0) + 1; });
+    const busiest = Object.keys(byCat).sort((a, b) => byCat[b] - byCat[a])[0] || null;
 
-    el.metrics.count.textContent = rows.length.toLocaleString("en-US");
-    el.metrics.value.textContent = money(totalValue) || "$0";
-    el.metrics.class.textContent = totalClass ? "~" + compact(totalClass) : "—";
-    el.metrics.cats.textContent = cats.size;
-    if (largest && largest.amount) {
-      el.metrics.largest.textContent = money(largest.amount);
-      el.metrics.largest.parentElement.title = largest.short_name;
+    el.m.open.textContent = open.length.toLocaleString("en-US");
+    el.m.total.textContent = all.length.toLocaleString("en-US");
+    el.m.new7.textContent = new7.length.toLocaleString("en-US");
+    el.m.new7v.textContent = money(new7.reduce((s, d) => s + (d.amount || 0), 0)) || "$0";
+    if (largest) {
+      el.m.largest.textContent = money(largest.amount);
+      el.m.largestn.textContent = (largest.short_name || "").slice(0, 40) + " →";
+      el.tiles.largest.dataset.id = largest.id;
     } else {
-      el.metrics.largest.textContent = "—";
+      el.m.largest.textContent = "—";
+      el.m.largestn.textContent = "nothing coded this month";
     }
+    el.m.busiest.textContent = busiest || "—";
+    el.m.busiestn.textContent = busiest ? byCat[busiest].toLocaleString("en-US") : "—";
+    el.tiles.busiest.dataset.cat = busiest || "";
+    el.m.closing.textContent = closing.length.toLocaleString("en-US");
+    el.m.codedpct.textContent = all.length
+      ? Math.round(100 * coded.length / all.length) + "%" : "—";
+
+    el.tiles.open.classList.toggle("active", state.showClosed);
+    el.tiles.new7.classList.toggle("active", state.quick === "new7");
+    el.tiles.closing.classList.toggle("active", state.quick === "closing");
+    el.tiles.busiest.classList.toggle("active",
+      !!busiest && state.categories.size === 1 && state.categories.has(busiest));
+  }
+
+  // "As of" stamps: the newest date the bot wrote anything, shown in the ribbon,
+  // the table footer and the CSV.
+  function asOfDate() {
+    var latest = null;
+    for (var i = 0; i < DATA.length; i++) {
+      var s = lastSeen(DATA[i]);
+      if (s && (latest === null || s > latest)) latest = s;
+    }
+    return latest || TODAY;
+  }
+  function renderStamps() {
+    var asOf = asOfDate();
+    if (el.ribbonStamp) el.ribbonStamp.textContent = "as of " + asOf + " · refreshes every 6h · 0 humans involved";
+    if (el.stampDate) el.stampDate.textContent = asOf;
+    el.reportLinks.forEach(function (a) { if (a) a.href = reportHref(null); });
+    el.adSlots.forEach(function (n) { if (n) n.textContent = ATTORNEY_AD_LINE; });
+  }
+  function reportHref(d) {
+    var subject = "Settlement Tape: bad record" + (d ? " " + d.id : "");
+    var body = d
+      ? "Record: " + d.id + "\nCase: " + (d.short_name || "") + "\nSource: " + (d.source_url || d.source || "") +
+        "\n\nWhat's wrong:\n"
+      : "Record (case name or link):\n\nWhat's wrong:\n";
+    return "mailto:" + REPORT_EMAIL + "?subject=" + encodeURIComponent(subject) +
+           "&body=" + encodeURIComponent(body);
+  }
+  function sourceLink(d) {
+    var GENERIC = ["rg2claims.com/cases.html"];
+    var real = d.source_url && GENERIC.every(function (g) { return d.source_url.indexOf(g) < 0; });
+    if (!real) return esc(d.source || "—");
+    return '<a href="' + esc(d.source_url) + '" target="_blank" rel="noopener" ' +
+      'title="Open the source page" onclick="event.stopPropagation()">' + esc(d.source) + " ↗</a>";
   }
 
   function syncSortHeaders() {
@@ -434,8 +535,10 @@
               ? '<a href="' + esc(d.source_url) + '" target="_blank" rel="noopener">View source ↗</a>'
               : '<a href="' + esc(searchUrl) + '" target="_blank" rel="noopener">Search this case ↗</a>') +
         "</div></div>" +
-        (d.date_added ? detailRow("Added", d.date_added) : "") +
-      "</div>";
+        (d.date_added ? detailRow("First seen", d.date_added) : "") +
+        (d.enriched_at ? detailRow("Last checked", d.enriched_at) : "") +
+      "</div>" +
+      '<a class="report-link" href="' + esc(reportHref(d)) + '">⚑ Report a bad record</a>';
     el.detail.hidden = false;
     el.overlay.hidden = false;
     el.detailClose.focus();
@@ -462,8 +565,17 @@
       ["judge", "Judge"], ["case_number", "Docket/MDL"], ["class_size", "Class Size"],
       ["fee_award", "Attorneys' Fees (USD)"], ["counsel", "Class Counsel"], ["description", "Description"],
       ["source", "Source"], ["source_url", "Source URL"],
+      ["date_added", "First Seen"], ["enriched_at", "Last Checked"], ["claim_deadline", "Claim Deadline"],
     ];
-    const lines = [cols.map((c) => csvCell(c[1])).join(",")];
+    // The file travels without the page around it, so the disclaimer is row 1
+    // (cell A1 in Excel) and the as-of stamp is row 2. Headers start on row 3.
+    const asOf = asOfDate();
+    const lines = [
+      csvCell(DISCLAIMER + (ATTORNEY_AD_LINE ? " " + ATTORNEY_AD_LINE : "")),
+      csvCell("As of " + asOf + " · " + rows.length.toLocaleString("en-US") +
+              " rows (current view) · report errors: " + REPORT_EMAIL),
+      cols.map((c) => csvCell(c[1])).join(","),
+    ];
     rows.forEach((d) => {
       lines.push(cols.map((c) => csvCell(d[c[0]])).join(","));
     });
@@ -471,7 +583,7 @@
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "settlements-export.csv";
+    a.download = "lk-labs-settlement-tape-BETA-" + asOf + ".csv";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -545,7 +657,9 @@
       state.rtypes.clear();
       state.yearMin = state.yearMax = null;
       state.amountMin = 0;
-      state.sortKey = "amount"; state.sortDir = "desc";
+      state.quick = null;
+      state.showClosed = false; if (el.showClosed) el.showClosed.checked = false;
+      state.sortKey = "date_added"; state.sortDir = "desc";
       el.search.value = "";
       el.yearMin.value = ""; el.yearMax.value = "";
       el.amountMin.value = "0";
@@ -555,6 +669,37 @@
 
     el.exportBtn.addEventListener("click", exportCSV);
     el.refreshBtn.addEventListener("click", refreshData);
+
+    // Tiles: each one is a filter or opens a record.
+    el.tiles.open.addEventListener("click", () => {
+      state.showClosed = !state.showClosed;
+      if (el.showClosed) el.showClosed.checked = state.showClosed;
+      render();
+    });
+    el.tiles.new7.addEventListener("click", () => {
+      state.quick = state.quick === "new7" ? null : "new7";
+      if (state.quick) { state.sortKey = "date_added"; state.sortDir = "desc"; }
+      render();
+    });
+    el.tiles.closing.addEventListener("click", () => {
+      state.quick = state.quick === "closing" ? null : "closing";
+      if (state.quick) { state.showClosed = false; if (el.showClosed) el.showClosed.checked = false; }
+      render();
+    });
+    el.tiles.busiest.addEventListener("click", () => {
+      const cat = el.tiles.busiest.dataset.cat;
+      if (!cat) return;
+      const on = state.categories.size === 1 && state.categories.has(cat);
+      state.categories.clear();
+      if (!on) state.categories.add(cat);
+      el.filterCategory.querySelectorAll("input").forEach((i) => { i.checked = !on && i.value === cat; });
+      render();
+    });
+    el.tiles.largest.addEventListener("click", () => {
+      const id = el.tiles.largest.dataset.id;
+      const d = id && DATA.find((x) => x.id === id);
+      if (d) openDetail(d);
+    });
     el.detailClose.addEventListener("click", closeDetail);
     el.overlay.addEventListener("click", closeDetail);
     document.addEventListener("keydown", (e) => {
@@ -598,10 +743,13 @@
     if (!state.online) {
       el.lastUpdated.textContent = isLocalFile
         ? "Offline · run server.py for live refresh"
-        : "Updates automatically every few hours";
-      el.lastUpdated.classList.add("offline");
+        : "Refreshed " + asOfDate() + " · auto every 6h";
+      el.lastUpdated.classList.toggle("offline", isLocalFile);
+      // On the static site the button can't do anything; don't show a dead control.
+      el.refreshBtn.hidden = !isLocalFile;
       return;
     }
+    el.refreshBtn.hidden = false;
     el.lastUpdated.classList.remove("offline");
     if (state.lastUpdated) {
       const d = new Date(state.lastUpdated);
@@ -681,6 +829,7 @@
     buildFilters();
     bindEvents();
     render();
+    renderStamps();
     updateLastUpdated();
   }
 
