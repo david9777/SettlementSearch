@@ -45,6 +45,7 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          SITE_URL: ${{ vars.SITE_URL }}      # repo variable; set to https://tape.zlk.com/ after the DNS cut-over
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.test_days }}" ]; then
             echo "Manual test send — looking back ${{ github.event.inputs.test_days }} days"

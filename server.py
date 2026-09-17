@@ -1069,7 +1069,7 @@ import ssl as _ssl
 from email.message import EmailMessage
 
 DIGEST_STATE = os.path.join(ROOT, "digest_state.json")
-SITE_URL = os.environ.get("SITE_URL", "https://david9777.github.io/SettlementSearch/")
+SITE_URL = os.environ.get("SITE_URL") or "https://david9777.github.io/SettlementSearch/"
 
 # External-facing copy. The same three strings appear in the page ribbon, the
 # CSV header and the email banner/footer, so they are defined once here (and
@@ -1809,7 +1809,44 @@ _NAME_NOISE = set((
     "reaches reached announces announced secures secured agrees agreed resolves "
     "resolved deal attorney general ag states state over largest history alleged "
     "proposed record transformative faces reaches over with against provides "
-    "payout verdict jury judge court approves approved final preliminary").split())
+    "payout verdict jury judge court approves approved final preliminary "
+    # places and industries: shared by unrelated cases with the same figure
+    "alabama alaska arizona arkansas california colorado connecticut delaware "
+    "florida georgia hawaii idaho illinois indiana iowa kansas kentucky louisiana "
+    "maine maryland massachusetts michigan minnesota mississippi missouri montana "
+    "nebraska nevada hampshire jersey mexico york carolina dakota ohio oklahoma "
+    "oregon pennsylvania rhode island tennessee texas utah vermont virginia "
+    "washington wisconsin wyoming county city dental medical health hospital "
+    "clinic bank credit union insurance financial finance loan lending mortgage "
+    "college university school district transport trucking logistics staffing "
+    "restaurant casino hotel details key update updates refund refunds payment "
+    "payments checks check deadline extended reminder").split())
+
+
+# Known same-settlement groups the automatic rules can't see (different years
+# of the same deal, or headlines that share no word). Keep the first id; the
+# rest are folded into it on every dedupe run. Add a line when a report comes in.
+MANUAL_MERGES = [
+    # Facebook / Cambridge Analytica, $725M (N.D. Cal. 2022; payouts 2024-26)
+    ["facebook-cambridge-2022",
+     "classaction.org-when-is-the-facebook-settlement",
+     "top-surprise-bonus-payment-in-725m-facebook-privacy-class-action"],
+    # Abbott / Similac NEC, $670M (2026)
+    ["top-abbott-laboratories-agrees-to-670m-settlement-over-premature",
+     "aboutlawsuits-similac-settlement-provides-670m-payout-to-resolve-2-000-n"],
+    # Meta teen social-media harms, $17B multistate (2026)
+    ["california-attorney-general-bonta-secures-transformative-17-billion-set",
+     "washington-ag-brown-announces-largest-big-tech-settlement-in-history"],
+]
+
+
+def _amounts_agree(a, b):
+    """Two records with different dollar figures are different deals, however
+    alike the names ('700Credit $17.5M' is not 'Credit Control $1.6M')."""
+    x, y = a.get("amount"), b.get("amount")
+    if not x or not y:
+        return True
+    return abs(x - y) / max(x, y) <= 0.05
 
 
 def _shares_name(ta, tb, rare):
@@ -1846,7 +1883,9 @@ def dedupe_store():
     cands = [r for r in records
              if r.get("record_type") == RT_SETTLEMENT and not r.get("dead")]
     toks = {r["id"]: _merge_tokens(r) for r in cands}
+    byid = {r["id"]: r for r in cands}
     parent = {r["id"]: r["id"] for r in cands}
+    members = {r["id"]: [r["id"]] for r in cands}
 
     def find(x):
         while parent[x] != x:
@@ -1854,10 +1893,21 @@ def dedupe_store():
             x = parent[x]
         return x
 
-    def union(a, b):
+    def union(a, b, ok=None):
+        """Merge a's and b's groups. With `ok`, every record in one group must
+        match every record in the other -- no chaining A~B, B~C into A~C when
+        A and C are different deals (that is how GameStop ended up inside
+        Sportsman's Warehouse)."""
         ra, rb = find(a), find(b)
-        if ra != rb:
-            parent[rb] = ra
+        if ra == rb:
+            return
+        if ok is not None:
+            for x in members[ra]:
+                for y in members[rb]:
+                    if not ok(byid[x], byid[y]):
+                        return
+        parent[rb] = ra
+        members[ra].extend(members.pop(rb))
 
     buckets = {}
     for r in cands:
@@ -1871,8 +1921,9 @@ def dedupe_store():
                 a, b = grp[i], grp[j]
                 if find(a["id"]) == find(b["id"]):
                     continue
-                if _same_case(toks[a["id"]], toks[b["id"]]):
-                    union(a["id"], b["id"])
+                if _same_case(toks[a["id"]], toks[b["id"]]) and _amounts_agree(a, b):
+                    union(a["id"], b["id"], lambda x, y: _same_case(toks[x["id"]], toks[y["id"]])
+                          and _amounts_agree(x, y))
     # Second pass -- the same settlement reported by different sources under
     # different headlines ("AG Bonta secures $17B settlement with Meta" vs "Meta
     # deal resolves states' lawsuit"). Token-subset matching misses these because
@@ -1901,8 +1952,22 @@ def dedupe_store():
                 hi, lo = max(a["amount"], b["amount"]), min(a["amount"], b["amount"])
                 if (hi - lo) / hi > 0.01:
                     continue
+                def close(x, y):
+                    hx, hy = x.get("amount") or 0, y.get("amount") or 0
+                    return hx and hy and abs(hx - hy) / max(hx, hy) <= 0.01
                 if _shares_name(toks[a["id"]], toks[b["id"]], rare):
-                    union(a["id"], b["id"])
+                    union(a["id"], b["id"], lambda x, y: close(x, y)
+                          and _shares_name(toks[x["id"]], toks[y["id"]], rare))
+                # Eleven-figure settlements are rare enough that the same figure
+                # in the same year is the same deal even when the headlines share
+                # no word ("AG Brown announces largest Big Tech settlement" vs
+                # "Meta deal resolves states' lawsuit").
+                elif (lo >= 10_000_000_000 and a.get("year") and a.get("year") == b.get("year")):
+                    union(a["id"], b["id"], close)
+    for ids in MANUAL_MERGES:
+        present = [i for i in ids if i in parent]
+        for i in present[1:]:
+            union(present[0], i)
     groups = {}
     for r in cands:
         groups.setdefault(find(r["id"]), []).append(r)
@@ -1914,7 +1979,8 @@ def dedupe_store():
         for _, grp in groups.items():
             if len(grp) < 2:
                 continue
-            grp.sort(key=_merge_score, reverse=True)
+            manual_keep = {ids[0] for ids in MANUAL_MERGES}
+            grp.sort(key=lambda r: (r["id"] in manual_keep, _merge_score(r)), reverse=True)
             keep, rest = grp[0], grp[1:]
             # Audit trail in the Actions log: what got folded into what.
             print("dedupe: keep [%s] %s  <-  %s" % (

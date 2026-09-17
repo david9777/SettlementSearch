@@ -447,6 +447,21 @@
   function clSearch(query) {
     return "https://www.courtlistener.com/?type=r&q=" + encodeURIComponent(query);
   }
+  // Aggregator headlines are guide copy ("$117M Pork Price-Fixing Settlement —
+  // No Receipt Needed"). A docket search wants the parties, so strip the dollar
+  // figure and the how-to words and keep the first few distinctive ones.
+  var QUERY_NOISE = /^(settlement|settlements|class|action|lawsuit|litigation|claim|claims|file|filed|now|needed|receipt|no|up|to|for|the|a|an|of|and|in|re|payout|payouts|payment|payments|deadline|closed|update|updates|details|key|million|billion|new|your|you|are|eligible|how|what|who|when|is|it|get|money|refund|refunds|automatic|proof|form|by|with|over|announces|announced|reaches|reached|agrees|agreed|secures|resolves|deal|inc|llc|corp|co)$/i;
+  function caseQuery(d) {
+    var name = (d.short_name || d.case_name || "").replace(/\$[\d.,]+\s*(m|b|k|million|billion)?/ig, " ");
+    var words = name.split(/[^A-Za-z0-9'&.-]+/).filter(function (w) {
+      return w && !QUERY_NOISE.test(w) && !/^\d/.test(w);
+    });
+    var q = words.slice(0, 4).join(" ");
+    if (d.defendant && d.defendant.indexOf("(") < 0 && q.toLowerCase().indexOf(d.defendant.split(" ")[0].toLowerCase()) < 0) {
+      q = d.defendant.split(" ").slice(0, 2).join(" ") + " " + q;
+    }
+    return q.trim();
+  }
   // Direct link to the claims administrator — where the user actually files,
   // instead of hopping through an aggregator.
   function officialRow(d) {
@@ -474,10 +489,8 @@
             esc(d.case_number) + "</div></div>"
         : "";
     }
-    var find = (d.short_name || d.case_name || "").replace(/^\$[\d.,]+[a-z]*\s+/i, "");
-    if (d.defendant && d.defendant.indexOf("(") < 0) find += " " + d.defendant;
-    var findLink = '<a href="' + esc(clSearch(find)) +
-      '" target="_blank" rel="noopener">Find docket on CourtListener ↗</a>';
+    var findLink = '<a href="' + esc(clSearch(caseQuery(d))) +
+      '" target="_blank" rel="noopener">Search CourtListener dockets for this case ↗</a>';
     var v = findLink;
     if (d.case_number) {
       var lookup = '<a href="' + esc(clSearch(d.case_number + " " + (d.defendant || ""))) +
@@ -493,10 +506,8 @@
     const amt = money(d.amount);
     const rt = d.record_type || "Settlement";
     // Build a useful search (no exact-phrase quotes, which often return nothing).
-    var sq = (d.short_name || d.case_name || "").replace(/^\$[\d.,]+[a-z]*\s+/i, "");
-    if (d.defendant && d.defendant.indexOf("(") < 0) sq += " " + d.defendant;
     const searchUrl = "https://www.google.com/search?q=" +
-      encodeURIComponent(sq + " class action settlement");
+      encodeURIComponent(caseQuery(d) + " class action settlement");
     // A few sources only expose a generic case-list page (no per-case URL) —
     // treat those as "no direct source" and offer the search instead.
     const GENERIC = ["rg2claims.com/cases.html"];
@@ -528,12 +539,14 @@
         detailRow("Class counsel", d.counsel) +
         detailRow("Source", d.source) +
         '<div class="detail-row"><div class="k">Link</div><div class="v">' +
+          // The administrator link already appears above as "Official site";
+          // here we show where the record itself came from.
           (d.official_url
-            ? '<a href="' + esc(d.official_url) + '" target="_blank" rel="noopener">Official settlement site ↗</a>' +
-              (realSource ? ' · <a href="' + esc(d.source_url) + '" target="_blank" rel="noopener">via ' + esc(d.source) + " ↗</a>" : "")
+            ? (realSource ? '<a href="' + esc(d.source_url) + '" target="_blank" rel="noopener">Record via ' + esc(d.source) + " ↗</a>"
+                          : esc(d.source || "—"))
             : realSource
               ? '<a href="' + esc(d.source_url) + '" target="_blank" rel="noopener">View source ↗</a>'
-              : '<a href="' + esc(searchUrl) + '" target="_blank" rel="noopener">Search this case ↗</a>') +
+              : '<a href="' + esc(searchUrl) + '" target="_blank" rel="noopener">No source page — search the web for this case ↗</a>') +
         "</div></div>" +
         (d.date_added ? detailRow("First seen", d.date_added) : "") +
         (d.enriched_at ? detailRow("Last checked", d.enriched_at) : "") +

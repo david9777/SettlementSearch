@@ -147,6 +147,37 @@ That's it — a free, firm-branded, self-updating settlement database at a publi
 
 ---
 
+## 2D. Custom domain — tape.zlk.com (waiting on IT)
+
+The site stays on GitHub Pages; only the address changes. zlk.com's DNS is on
+Cloudflare (`mario.ns.cloudflare.com` / `sreeni.ns.cloudflare.com`) and a
+wildcard already points `*.zlk.com` at the firm's web host (403), so whoever
+runs that zone has to add two records. Send IT exactly this:
+
+```
+Type   Name    Target / value                                    Proxy
+CNAME  tape    david9777.github.io                               DNS only (grey cloud)
+TXT    _github-pages-challenge-david9777   <code from step 2>    —
+```
+
+Then, in order — do NOT skip step 1, and do NOT commit the `CNAME` file first:
+
+1. Wait until `nslookup tape.zlk.com` returns `david9777.github.io` (not
+   104.26.x.x). Until then, a `CNAME` file in the repo makes GitHub redirect the
+   github.io link to a domain that 403s, which breaks the link the bank has.
+2. GitHub → repo → Settings → Pages → "Custom domain": enter `tape.zlk.com`.
+   GitHub shows the `_github-pages-challenge-…` TXT value; give it to IT (optional
+   but stops anyone else from claiming the subdomain).
+3. Saving the custom domain commits a one-line `CNAME` file to `main`
+   automatically. Tick "Enforce HTTPS" once the certificate shows (≈10 min).
+4. Set the repo **variable** (Settings → Secrets and variables → Actions → Variables) `SITE_URL=https://tape.zlk.com/` so the email digest's
+   "Open the tape" button and links use the new address.
+5. The old `david9777.github.io/SettlementSearch/` link keeps working — GitHub
+   301-redirects it to the custom domain.
+
+Cloudflare's orange-cloud proxy can be turned on afterwards if IT wants it;
+leave it grey until the GitHub certificate is issued.
+
 ## 2B. Host the *engine* live — Refresh button works for everyone ✅
 
 This hosts `server.py` itself, so the live site serves the page **and** runs the pulls.
