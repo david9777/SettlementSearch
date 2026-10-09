@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Settlement Tape — L&amp;K Labs</title>
-  <link rel="stylesheet" href="styles.css?v=8" />
+  <link rel="stylesheet" href="styles.css?v=10" />
   <style>
     /* Access gate — inline so it covers the page immediately (no content flash). */
     .auth-gate { position: fixed; inset: 0; z-index: 99999; background: #16202c;
@@ -99,6 +99,12 @@
     </div>
   </header>
 
+  <nav class="view-tabs" role="tablist" aria-label="Views">
+    <button class="view-tab active" role="tab" aria-selected="true" data-view="tape">Settlement Tape</button>
+    <button class="view-tab" role="tab" aria-selected="false" data-view="comps">Privacy Wiretap Comps <span id="compsTabCount" class="tab-count"></span></button>
+  </nav>
+
+  <div id="view-tape">
   <!-- Funder tiles. Every tile is a filter (or opens a record); none is a bare fact. -->
   <section class="metrics" id="metrics" aria-label="Tape summary">
     <button class="metric" id="t-open" title="Toggle closed settlements (claim deadline passed) in and out of the view">
@@ -249,6 +255,73 @@
       </div>
     </section>
   </main>
+  </div>
+
+  <!-- Privacy wiretap comps: researched settlements, filled by comps.js from privacy_comps.js -->
+  <div id="view-comps" class="comps-view" hidden>
+    <section class="comps-intro">
+      <h2>Privacy wiretap settlements</h2>
+      <p>
+        Class settlements whose complaint pleads CIPA § 631 or § 632, the federal Wiretap Act
+        (18 U.S.C. § 2511), or Florida's Security of Communications Act (Fla. Stat. § 934.10), with
+        preliminary or final approval in the window below (pending preliminary-approval motions
+        included). Each case was researched from the docket, settlement website and complaint, then
+        cross-checked twice: once on the claims pled, once on dates and dollars. Not attorney-reviewed;
+        confirm against the docket before citing. "Gross per member" is the fund divided by class size.
+      </p>
+      <p class="comps-stamp">Researched <span id="compsAsOf">—</span> · approval window <span id="compsWindow">—</span></p>
+    </section>
+
+    <section class="metrics comps-metrics" id="compsTiles" aria-label="Comps summary"></section>
+
+    <section class="results comps-results">
+      <div class="results-bar comps-bar">
+        <input type="search" id="compsSearch" class="comps-search" placeholder="Search case, defendant, court, technology…" autocomplete="off" />
+        <div class="chip-row" id="compsChips" aria-label="Statute pled"></div>
+        <select id="compsPen" class="select" aria-label="§ 638.51">
+          <option value="any">§ 638.51: any</option>
+          <option value="not">§ 638.51 not pled</option>
+          <option value="pled">§ 638.51 also pled</option>
+        </select>
+        <select id="compsStatus" class="select" aria-label="Status">
+          <option value="">All stages</option>
+          <option value="Final approval">Final approval</option>
+          <option value="Preliminary approval">Preliminary approval</option>
+          <option value="Prelim motion pending">Prelim motion pending</option>
+        </select>
+        <button id="compsExport" class="btn btn-ghost" type="button">↓ Export CSV</button>
+      </div>
+      <div class="comps-count"><span id="compsCount" class="result-count">—</span></div>
+      <div class="table-wrap">
+        <table class="settlement-table comps-table">
+          <thead>
+            <tr>
+              <th class="col-case" data-sort="short_name">Case</th>
+              <th>Claims pled</th>
+              <th class="num" data-sort="fund_amount">Fund</th>
+              <th class="num" data-sort="class_size">Class</th>
+              <th class="num" data-sort="per_member">Per member</th>
+              <th>Payment</th>
+              <th>Fees</th>
+              <th data-sort="key_date">Stage</th>
+              <th>Technology</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody id="compsBody"></tbody>
+        </table>
+        <div id="compsEmpty" class="empty-state" hidden><p>No settlements match these filters.</p></div>
+        <div class="table-stamp">
+          <span>L&amp;K Labs · researched, not attorney-reviewed · verify against the docket</span>
+        </div>
+      </div>
+    </section>
+
+    <details id="compsScreened" class="comps-screened">
+      <summary>Considered and screened out (<span id="compsScreenedCount">0</span>)</summary>
+      <ul id="compsScreenedList"></ul>
+    </details>
+  </div>
 
   <!-- Detail drawer -->
   <div id="overlay" class="overlay" hidden></div>
@@ -273,6 +346,8 @@
   <div id="toast" class="toast" hidden></div>
 
   <script src="data.js"></script>
+  <script src="privacy_comps.js?v=2"></script>
   <script src="app.js?v=17"></script>
+  <script src="comps.js?v=2"></script>
 </body>
 </html>

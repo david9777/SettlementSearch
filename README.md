@@ -36,6 +36,18 @@ Everything works except the live Refresh button.
 - **CSV export** of the current view (includes the source URL column).
 - Handles 10,000+ records: the table renders in chunks with a **Show more** control.
 
+## Privacy Wiretap Comps tab
+
+A second tab (`index.html#privacy-comps`) lists class settlements whose complaint pleads
+CIPA § 631 or § 632, the federal Wiretap Act / ECPA, or Florida's FSCA, with preliminary or
+final approval in a stated window. Unlike the tape, these rows are **researched, not
+scraped**: each was checked against the docket, settlement website and complaint, then
+cross-checked on the claims pled and on dates/dollars. Statute chips and a separate
+§ 638.51 filter narrow the table; the tab has its own CSV export.
+
+The data lives in `privacy_comps.json`, apart from `settlements.json`, so the 6-hourly
+refresh bot never touches it. After editing it, run `python build_privacy_comps.py`.
+
 ## Where the live data comes from
 
 Everything is public and needs no API key. Sources are grouped by role:
@@ -111,6 +123,9 @@ Add one to the `SOURCES` list to enable it. Generic helpers cover the common cas
 | `settlements.json` | Live data store (read + updated by the server) |
 | `settlements.seed.json` | Curated baseline of ~79 verified marquee settlements (for reset) |
 | `data.js` | Offline fallback copy of the data |
+| `privacy_comps.json` | **Privacy Wiretap Comps** tab source: researched settlements (edit this) |
+| `privacy_comps.js` / `comps.js` | Generated data file for the tab / the tab's code |
+| `build_privacy_comps.py` | Validates `privacy_comps.json` and writes `privacy_comps.js` |
 | `.claude/launch.json` | Preview-server config |
 
 **Reset to the curated baseline:** `Copy-Item settlements.seed.json settlements.json -Force`
