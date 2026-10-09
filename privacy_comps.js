@@ -5,401 +5,6 @@ window.PRIVACY_COMPS = {
  "window_end": "2026-10-09",
  "rows": [
   {
-   "short_name": "Genesys (DV Hotline)",
-   "caption": "A.B., C.D., and E.F., individually and on behalf of all others similarly situated v. Genesys Cloud Services, Inc.",
-   "defendant": "Genesys Cloud Services, Inc.",
-   "court": "U.S. District Court, N.D. Cal. (San Francisco)",
-   "docket": "3:25-cv-03276-EMC",
-   "judge": "Edward M. Chen",
-   "industry": "Contact-center / CX software vendor (SaaS). The communications were with a nonprofit crisis hotline, the National Domestic Violence Hotline, which is not a party.",
-   "technology": "The Genesys Cloud CX contact-center platform, used by the Hotline to handle phone calls, texts, and web chats. Plaintiffs allege real-time interception, recording, transcription and AI analytics, including an AI chatbot for intake that summarized chats for live agents. They also allege Genesys used the communications to improve its own products and services.",
-   "cipa_631": "pled",
-   "cipa_632": "pled",
-   "cipa_632_7": "pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "None. The complaint has exactly four counts:\n- Count 1: ECPA, 18 U.S.C. § 2510 et seq.\n- Count 2: CIPA § 631(a).\n- Count 3: CIPA § 632.\n- Count 4: CIPA § 637.2, based on a § 632.7 violation.\nThere are no UCL, CMIA, intrusion-upon-seclusion, negligence, SCA or unjust-enrichment counts, and no amended complaint was filed. The motion to dismiss (ECF 23) was pending when the case was stayed for settlement.",
-   "statute_evidence": "The operative complaint, ECF 1 (filed 2025-04-11, RECAP doc 436170473), has four causes of action: ECPA §§ 2510 et seq. (§ 2511 interception; damages under § 2520), CIPA § 631(a), CIPA § 632, and CIPA § 637.2/§ 632.7. A text search of the complaint found no § 638.51 and no Florida statute. The preliminary approval motion (ECF 67, filed 2026-07-17, pp. 1-4) confirms the ECPA, § 631, § 632 and § 632.7 claims. Sources: https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/ and https://www.courtlistener.com/docket/69880223/67/b-v-genesys-cloud-services-inc/",
-   "class_definition": "Settlement class: all natural persons who, while residents of and present in California, communicated with the National Domestic Violence Hotline through any channel from 2023-04-11 to final judgment. This is narrower than the complaint, which proposed Nationwide, California and Hotline classes covering anyone who communicated through Genesys Cloud CX.",
-   "class_size": 100000,
-   "class_size_note": "Approximate. Plaintiffs estimate about 100,000 unique California visitors communicated with the Hotline since 2023-04-11 (Weir Decl. ¶ 13). The parties say an exact count would require extensive third-party discovery.",
-   "settlement_structure": "Non-reversionary common fund with a claims process and pro rata payments. A fixed $500,000 cy pres award to the Hotline is paid before class distribution, and residual funds go to the Hotline. The amended agreement (ECF 79, Ex. 1) earmarks the cy pres money for a California high school and college awareness campaign plus two California-focused advocates.",
-   "fund_amount": 2500000,
-   "payment_terms": "- **Pro rata cash per valid claim**, capped at $1,250 per claimant.\n- **Estimated payment:** $392.68 per claimant at an assumed 3% claims rate (prelim motion). The updated notice states an average of about $390 (ECF 79).\n- **Per class member:** about $14.74 gross.\n- **Order of payments from the fund:** administration costs (about $96,954), then fees, expenses and service awards, then the $500K cy pres. The remainder goes pro rata to claimants.\n- **Payment methods:** PayPal, Venmo, Zelle, ACH (online only), prepaid digital Mastercard, or check.\n- **Claim form:** for privacy, it asks only for street name and ZIP code, not a full address.",
-   "fees_requested": "Up to 25% of the $2.5M fund ($625,000). Genesys agreed not to oppose this (SA §8.1). Expenses were about $85,000 at filing. The lodestar was about $360,000 on roughly 500 hours, a multiplier of about 1.8. Service awards are up to $5,000 per class representative. Under amended SA §5.5 (ECF 79), the fee motion is due 35 days before the objection deadline; the original agreement said 21 days.",
-   "service_award": "Up to $5,000 for each of the three class representatives (A.B., C.D., E.F.), which Genesys will not oppose.",
-   "injunctive_relief": "None described in the prelim motion or the 2026-09-17 supplemental brief; relief is monetary plus cy pres only. This was not confirmed against the full settlement agreement, which is not on RECAP.",
-   "motion_prelim_filed": "2026-07-17",
-   "prelim_approval_date": "",
-   "final_hearing_date": "",
-   "final_approval_date": "",
-   "status": "Prelim motion pending",
-   "window_basis": "The unopposed motion for preliminary approval (ECF 67) was filed on 2026-07-17, inside the window. It was heard on 2026-08-27 and is still pending: the last docket entry, ECF 85 (a stipulation filed 2026-10-08), comes after supplemental-briefing orders, and no preliminary approval order has been entered.",
-   "plaintiff_counsel": "Consovoy McCarthy PLLC (Bryan Weir, Brandon Haase; proposed class counsel) and Benbrook Law Group, PC (Bradley Benbrook, Steve Duvernay). Defense counsel: Morrison & Foerster (Tiffany Cheung).",
-   "settlement_website": "None live yet. EisnerAmper, the proposed administrator, will set up a settlement website after preliminary approval, with notice by a banner on thehotline.org and publication in 12 California newspapers.",
-   "sources": [
-    {
-     "label": "CourtListener docket 3:25-cv-03276-EMC (entries 1-85)",
-     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
-    },
-    {
-     "label": "ECF 1 Complaint (2025-04-11) - causes of action",
-     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
-    },
-    {
-     "label": "ECF 67 Unopposed Motion for Preliminary Approval (2026-07-17)",
-     "url": "https://www.courtlistener.com/docket/69880223/67/b-v-genesys-cloud-services-inc/"
-    },
-    {
-     "label": "ECF 70 Order for supplemental briefing (2026-08-18)",
-     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
-    },
-    {
-     "label": "ECF 78 Civil minutes of prelim approval hearing (2026-08-27)",
-     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
-    },
-    {
-     "label": "ECF 79 Joint supplemental brief and amended settlement agreement (2026-09-17)",
-     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
-    },
-    {
-     "label": "ECF 81 Order for supplemental statement (2026-09-23)",
-     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
-    },
-    {
-     "label": "ECF 83 Order re objection/exclusion procedure (2026-10-05)",
-     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
-    },
-    {
-     "label": "Bloomberg Law news report on $2.5M settlement",
-     "url": "https://news.bloomberglaw.com/privacy-and-data-security/genesys-settles-abuse-hotline-privacy-lawsuit-for-2-5-million"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's findings; they hold up. I pulled the full docket (CourtListener docket 69880223, entries 1-85) and read the text of the complaint, ECF 1 (RECAP doc 436170473, filed 2025-04-11). It is the operative complaint. The docket has no amended complaint, and the motion to dismiss (ECF 23) was never decided because the case settled (notice of settlement at ECF 55, 2025-12-17). So no count was dropped.\n\nThe complaint has four causes of action:\n(1) ECPA, 18 U.S.C. § 2510 et seq., on behalf of the nationwide class (§ 2511 appears 3 times in the text);\n(2) CIPA § 631(a), wiretapping, on behalf of the California class;\n(3) CIPA § 632, recording, on behalf of the Hotline class;\n(4) CIPA § 637.2 on behalf of the California class. This count's text says § 632.7 is the statute violated, so 632.7 = pled.\n\nA text search of the complaint found 0 hits for '638.5', '934.' or 'Florida', so 638.51 and FSCA are not pled.\n\nThe preliminary approval motion (ECF 67, RECAP doc 486713799, filed 2026-07-17) agrees. Its table of contents has sections on the ECPA/Wiretap Act, § 631(a), § 632 and § 632.7, and it has no § 638 references. The motion hearing was reset and the court has asked for supplemental briefing (ECF 70, 79, 81, 83), so preliminary approval may still be pending as of Oct 2026. I did not check the Bloomberg article. | fees_requested: Up to 25% of the fund (about $625,000), which Genesys will not oppose, plus expenses of about $85,000 to date. The lodestar is about $360,000 on roughly 500 hours, a multiplier of about 1.8. The fee motion is due 35 days before the objection deadline under the amended agreement.→Up to 25% of the $2.5M fund ($625,000). Genesys agreed not to oppose this (SA §8.1). Expenses were about $85,000 at filing. The lodestar was about $360,000 on roughly 500 hours, a multiplier of about 1.8. Service awards are up to $5,000 per class representative. Under amended SA §5.5 (ECF 79), the fee motion is due 35 days before the objection deadline; the original agreement said 21 days. | Timing/money check (confirmed): Checked against the CourtListener RECAP docket (API, entries through ECF 85 on 2026-10-08). I read ECF 67, 70, 71, 78, 79, 81 and 83.\n\nThe qualifying in-window event is confirmed. ECF 67, Plaintiffs' Unopposed Motion for Preliminary Approval, was filed 2026-07-17 before Judge Edward M. Chen in N.D. Cal. It was heard 2026-08-27 (ECF 78 minutes), and the court did not rule from the bench. Instead it ordered supplemental briefing on these points:\n- adding the LA Times and SF Chronicle to the notice plan\n- a notice estimating the average payment\n- confirming the Hotline is not a Released Party\n- loosening the mailing-address requirement on the claim form\n- additional payment methods\n- California-specific cy pres\n- a 35-day objection window after the fee motion\n\nThe parties filed a Joint Supplemental Brief with an Amended Settlement Agreement on 2026-09-17 (ECF 79). The court issued two further orders for supplemental statements. ECF 81 (2026-09-23) asked why both email and phone are required on the claim form. ECF 83 (2026-10-05) asked about the information required to object or opt out, with a response due 10/8. ECF 85, a stipulation and proposed order, was filed 2026-10-08. As of 2026-10-09 there is no preliminary approval order, so the prelim approval date, final hearing and final approval stay blank and the status stays Prelim motion pending.\n\nProposed schedule (ECF 67): final approval motion 119 days after the prelim order, and final approval hearing 133 days after it.\n\nMoney facts confirmed from ECF 67:\n- $2,500,000 non-reversionary fund\n- Pro rata claims capped at $1,250, with an estimated $392.68 per claimant at a 3% claims rate. The amended notice says an average of about $390 (ECF 79).\n- $500,000 cy pres to the National Domestic Violence Hotline, now restricted to benefit California survivors\n\nClass size: about 100,000 unique California visitors who communicated with the Hotline from 2023-04-11 to the present (Weir Decl. ¶13). This is the plaintiffs' estimate, not a precise count.\n\nFees: ECF 67 says \"25% of the Settlement Fund after expenses ($625,000)\". $625,000 is exactly 25% of the gross $2.5M, so the \"after expenses\" wording is internally inconsistent. No fee motion has been filed yet.\n\nClaims: ECPA/Wiretap Act (18 U.S.C. §2511) and CIPA §§631(a), 632 and 632.7. The case concerns Genesys capturing the Hotline's web chats, so it is a good fit for the 631/632/ECPA comparison set.\n\nI found no corrections to the researcher's values.",
-   "open_questions": "1. **Ruling pending.** Preliminary approval has not been ruled on. The court keeps requiring changes that protect class-member privacy: required contact information on the claim, objection and exclusion forms, and whether parties will contact objectors. ECF 82 (2026-09-25 supplemental statement) and ECF 85 (2026-10-08 stipulation) are not on RECAP, so their contents are unknown. A prelim order may follow soon; recheck the docket.\n2. **Dates not set.** The proposed schedule puts the final approval hearing about 133 days after the prelim order.\n3. **Injunctive relief not confirmed.** The full settlement agreement (ECF 67-1 Ex. A and ECF 79 Ex. 1) was not reviewed for injunctive or business-practice terms; the prelim brief describes none.\n4. **Useful comparison exhibit.** Weir Decl. Ex. F (ECF 67-1) is plaintiffs' comparison chart of other CIPA/ECPA privacy settlements, which may help the user's comparison table. It is not available on RECAP and would need to be purchased from PACER.\n5. **Damages framing.** The motion puts theoretical exposure at about $1B under ECPA ($10K x 100K) or $500M under CIPA ($5K x 100K).",
-   "id": "genesys-dv-hotline"
-  },
-  {
-   "short_name": "Lugo v. Inova (E.D. Va.)",
-   "caption": "Pedro Lugo, individually and on behalf of similarly situated individuals v. INOVA Health Care Services",
-   "defendant": "INOVA Health Care Services",
-   "court": "U.S. District Court, Eastern District of Virginia (Alexandria Division)",
-   "docket": "1:24-cv-00700-PTG-WEF",
-   "judge": "Hon. Patricia Tolliver Giles (Magistrate Judge William E. Fitzpatrick)",
-   "industry": "Healthcare - hospital/health system (patient portal / MyChart users)",
-   "technology": "Meta (Facebook) Pixel and Google pixel/tracking technology on Inova's public-facing websites, allegedly transmitting patients' PII/PHI to Meta and Google",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Count I breach of implied contract and Count II unjust enrichment (both dismissed on Dkt. 34, 2025-03-25, with leave to amend; no amended complaint was filed before the stay for mediation). Count III, ECPA 18 U.S.C. 2510 et seq. (2511(1)(a), (c), (d); 2520), survived the motion to dismiss under the crime-tort exception (HIPAA / Virginia health records privacy). No CIPA, state wiretap, or other state statutory claims.",
-   "statute_evidence": "The Class Action Complaint (Dkt. 1, filed 2024-04-29) pleads only three counts: I implied contract, II unjust enrichment, III ECPA 18 U.S.C. 2510 et seq. RECAP PDF: https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.1.0.pdf. The MTD opinion (Dkt. 34, 2025-03-25) dismissed Counts I-II and denied the motion as to Count III ECPA: https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.34.0.pdf. The settlement agreement's injunctive term (Dkt. 48-2, para. 37) references ECPA/HIPAA compliance. The task hint says ConsentPixel lists this as a \"Doe v. Inova Health System\" $3.1M CIPA 631 settlement. It is the same $3.1M Inova pixel settlement, but the CIPA 631 tag is wrong: the complaint pleads no CIPA claim.",
-   "class_definition": "All individuals who may have visited an Inova public-facing website from 2022-04-29 through 2024-04-29, had an Inova MyChart account, and whose Private Information could have been disclosed to third parties through the Facebook or Google pixel or related tracking technology without authorization. Excludes opt-outs, the court and its staff, and individuals who had already filed arbitration claims before preliminary approval. Certified for settlement only (nationwide).",
-   "class_size": 817199,
-   "class_size_note": "Exact count of deduplicated class-list records reported by Epiq (Azari Decl., cited in the final approval memorandum, Dkt. 60). The settlement agreement (Dkt. 48-2) had represented about 817,504. Email notice was delivered to 758,720 people (about 92.8%), more than 32,000 claim forms were filed, and 17 people opted out.",
-   "settlement_structure": "Non-reversionary common fund that pays claims, notice and administration costs, fees and expenses, and the service award. Each valid claimant receives a pro rata share of the net fund. Uncashed checks are redistributed if practical, and any remainder goes to a court-approved cy pres recipient. Paid in two installments, the first of $100,000 within 21 days of preliminary approval.",
-   "fund_amount": 3147390.04,
-   "payment_terms": "Equal pro rata share of the net settlement fund for each class member who submits a valid claim form (claims deadline 2026-04-06), paid digitally or by paper check. Plaintiff estimated a net payment of about $55-$65 per claimant, based on more than 32,000 claims (Dkt. 60). Checks are valid for 120 days. Uncashed amounts go to a second distribution, then to cy pres.",
-   "fees_requested": "The fee motion (Dkt. 57/58, filed 2026-02-06) asked for $1,038,638.71 in attorneys' fees, which is 33% of the $3,147,390.04 fund, plus $19,986.51 in costs and a $5,000 service award. The Final Approval Order (Dkt. 63, paras. 16-17) granted all three in full.",
-   "service_award": "$5,000 to class representative Pedro Lugo (approved in Dkt. 63, para. 17)",
-   "injunctive_relief": "Without admitting liability, Inova agrees to implement remedial measures so that its use of tracking pixels materially complies with ECPA and HIPAA. Inova may still use these technologies when consistent with guidance, when patients authorize it, under a valid business associate agreement, or as otherwise permitted (Settlement Agreement para. 37, Dkt. 48-2).",
-   "motion_prelim_filed": "2025-10-16",
-   "prelim_approval_date": "2025-12-12",
-   "final_hearing_date": "2026-04-17",
-   "final_approval_date": "2026-04-17",
-   "status": "Final approval",
-   "window_basis": "Final Approval Order and Judgment (Dkt. 63) entered 2026-04-17, within the 2026-04-09 to 2026-10-09 window. Preliminary approval (2025-12-12, amended 2025-12-17) predates the window.",
-   "plaintiff_counsel": "Eugene Y. Turin, Jordan R. Frysinger and William Kingston of McGuire Law, P.C. (Chicago), and E. Kyle McNew of MichieHamlett PLLC (Charlottesville), appointed class counsel. Donald S. Cuba II was admitted pro hac vice in December 2025.",
-   "settlement_website": "https://www.healthpixelsettlement.com/",
-   "sources": [
-    {
-     "label": "CourtListener docket, Lugo v. INOVA Health Care Services, 1:24-cv-00700 (E.D. Va.)",
-     "url": "https://www.courtlistener.com/docket/68502044/lugo-v-inova-health-care-services/"
-    },
-    {
-     "label": "Complaint, Dkt. 1 (counts: implied contract, unjust enrichment, ECPA)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.1.0.pdf"
-    },
-    {
-     "label": "Memorandum opinion on MTD, Dkt. 34 (2025-03-25), ECPA count survives",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.34.0.pdf"
-    },
-    {
-     "label": "Memo ISO preliminary approval, Dkt. 48 (2025-10-16)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.48.0.pdf"
-    },
-    {
-     "label": "Settlement Agreement, Dkt. 48-2 (fund, non-reversion, pro rata, injunctive relief, class size of about 817,504)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.48.2.pdf"
-    },
-    {
-     "label": "Amended preliminary approval order, Dkt. 56 (2025-12-17), with deadlines",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.56.0.pdf"
-    },
-    {
-     "label": "Memo ISO final approval, Dkt. 60 (2026-04-06): 817,199 members, more than 32,000 claims, $55-$65 estimate, 17 opt-outs",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.60.0.pdf"
-    },
-    {
-     "label": "Final Approval Order and Judgment, Dkt. 63 (2026-04-17): fees, costs, service award",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.63.0.pdf"
-    },
-    {
-     "label": "Bloomberg Law news report on the $3.1M settlement",
-     "url": "https://news.bloomberglaw.com/litigation/inova-health-patients-get-3-1-million-online-privacy-settlement"
-    },
-    {
-     "label": "ConsentPixel listing (reports CIPA 631, but the complaint pleads only ECPA)",
-     "url": "https://consentpixel.com/blogs/inova-health-tracking-pixel-litigation/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute this. I downloaded the RECAP PDFs myself and pulled the full docket (entries 1 through 63) through the CourtListener API. The operative complaint is the original Class Action Complaint (Dkt. 1, filed 2024-04-29, 34 pages). It pleads exactly three counts: I, breach of implied contract; II, unjust enrichment; III, violation of the ECPA, 18 U.S.C. 2510 et seq. The complaint cites 2511(1) in its introduction and in its federal-question jurisdiction paragraph. A text search of the complaint finds no hits for CIPA, Invasion of Privacy Act, Penal Code, California, 631, 632, 638, Fla., or 934. No amended complaint was filed. The MTD order (Dkt. 34, 2025-03-25) dismissed Counts I and II with 21 days' leave to amend and denied the motion on Count III (ECPA). The next filing is the joint stay motion (Dkt. 35), so ECPA was the only surviving claim when the case settled. The settlement documents match. The prelim-approval memorandum (Dkt. 48) cites 18 U.S.C. 2510 et seq. and 2511(2)(d). The Settlement Agreement (Dkt. 48-2) describes the case as an ECPA action and mentions no other statute. In Dkt. 48, '632' appears only as Manual for Complex Litigation section 21.632, not CIPA. Timeline: prelim approval Dkt. 55 and amended Dkt. 56 (Dec. 12 and 17, 2025); final approval and judgment Dkt. 63 (2026-04-17). I agree with the researcher that the ConsentPixel 'CIPA 631' tag for 'Doe v. Inova Health System' is wrong. This $3.1M Inova settlement rests only on the federal Wiretap Act/ECPA. For the tracker, list it as ECPA-only, not as a CIPA 631 comparable. | fees_requested: $1,038,638.71 in attorneys' fees (33% of the fund) plus $19,986.51 in costs were requested (Dkt. 57/58, filed 2026-02-06) and awarded in full in the Final Approval Order (Dkt. 63, para. 16). No objections were filed.→The fee motion (Dkt. 57/58, filed 2026-02-06) asked for $1,038,638.71 in attorneys' fees, which is 33% of the $3,147,390.04 fund, plus $19,986.51 in costs and a $5,000 service award. The Final Approval Order (Dkt. 63, paras. 16-17) granted all three in full. | Timing/money check (confirmed): CONFIRMED. The qualifying in-window event is final approval. The Final Approval Order and Judgment (Dkt. 63) was filed 2026-04-17, which falls inside the 2026-04-09 to 2026-10-09 window. I checked this against the CourtListener docket entries and the order PDF. No substantive corrections were needed. Details:\n(1) Preliminary approval motion: the consent motion (Dkt. 47) and supporting memo (Dkt. 48) were both filed 2025-10-16.\n(2) Preliminary approval: the first order (Dkt. 55) was entered 2025-12-12 after a hearing that day (Dkt. 54). An AMENDED preliminary approval order (Dkt. 56) followed on 2025-12-17. The final order cites Dkt. 56 as the preliminary approval order, and the final-approval brief says preliminary approval came on 2025-12-17. Either date works; 2025-12-12 is the first order.\n(3) Final hearing: originally set for 2026-04-16 (Dkt. 56). It was reset to 2026-04-17 (Dkt. 61, 2026-04-10) and held by telephone that day (Dkt. 62).\n(4) Fund: $3,147,390.04, non-reversionary, paid pro rata to claimants (Dkt. 48, Settlement Agreement para. 20(a)).\n(5) Class size: the Settlement Agreement (Dkt. 48-2) estimated about 817,504 people. After the administrator removed duplicates there were 817,199 unique class member records (final-approval memo Dkt. 60, citing Azari Decl. para. 22). Email notice reached 758,720 of them, about 92.8%. More than 32,000 claim forms had been filed as of 2026-04-06.\n(6) Fees: $1,038,638.71 is exactly 33% of the fund. The court also approved $19,986.51 in costs and the $5,000 service award. No objections were filed (Dkt. 63 paras. 3, 14).\n(7) Claims: federal ECPA / Wiretap Act (18 U.S.C. 2510 et seq.) only, with no CIPA or FSCA counts. The motion to dismiss was denied in part on 2025-03-25 (Dkt. 34), which let the ECPA claim proceed. The case concerns Meta and Google pixels on Inova's public website, affecting MyChart users, with a class period of 2022-04-29 to 2024-04-29.\n(8) Settlement website: www.HealthPixelSettlement.com. Administrator: Epiq. Class counsel: McGuire Law, P.C. and Michie Hamlett.\n(9) Minor quirk: the final order cites Rule 23(b)(2) in para. 4 but makes 23(b)(3) findings in para. 6.\n(10) Docket 63 is the last numbered entry; I found no post-judgment entries.",
-   "open_questions": "1) The ConsentPixel entry calls this \"Doe v. Inova Health System\", a CIPA 631 settlement dated 2026-04-01. The amount and facts match this case, but the complaint pleads no CIPA claim, so the 631 tag looks wrong. The dates and caption may also be wrong. No separate Inova matter was found. 2) The settlement website returned HTTP 403 and was not read directly. Its URL was confirmed from the settlement agreement. 3) The final approval hearing was set for 2026-04-16 and reset to 2026-04-17 (Dkt. 61), when it was held by phone. 4) The final order certifies under Rule 23(b)(2) in para. 4 and recites (b)(3) findings in para. 6, an internal inconsistency in the order. 5) The final per-claimant payment amount and the date of distribution have not been announced.",
-   "id": "lugo-v-inova-e-d-va"
-  },
-  {
-   "short_name": "Choose Your Horizon (chooseketamine.com)",
-   "caption": "Karen Martinez and Eli Silva, individually and on behalf of all others similarly situated v. Choose Your Horizon, Inc.",
-   "defendant": "Choose Your Horizon, Inc. (operator of chooseketamine.com)",
-   "court": "U.S. District Court, N.D. Cal. (San Francisco)",
-   "docket": "3:24-cv-02798-LB",
-   "judge": "Magistrate Judge Laurel Beeler (presiding by consent)",
-   "industry": "Telehealth (at-home ketamine therapy)",
-   "technology": "Meta (Facebook) Pixel, Google Analytics, and Twilio Segment API on the chooseketamine.com website, allegedly sending patients' PII/PHI to third parties",
-   "cipa_631": "pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "not_pled",
-   "fsca": "not_pled",
-   "other_claims": "CMIA, Cal. Civ. Code § 56.10 (Count II); invasion of privacy under the California Constitution / intrusion upon seclusion (Count III). No UCL, no ECPA, no § 632 or § 638.51.",
-   "statute_evidence": "First Amended Class Action Complaint, ECF 35 (filed 2025-01-29; RECAP PDF https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.35.0.pdf). It has only three counts: Count I, CIPA Cal. Penal Code § 631 (aiding Meta, Google and Twilio interception); Count II, CMIA § 56.10; Count III, Cal. Const. / intrusion upon seclusion. A text search of the FAC found no reference to § 632, § 632.7, § 638.51, pen register/trap-and-trace, 18 U.S.C. § 2511 or the federal Wiretap Act. The original complaint (ECF 1) has the same three counts.",
-   "class_definition": "All California residents who, from May 9, 2023 through July 11, 2024, had their PII or PHI disclosed to third-party entities as a result of using the CYH Websites while located in California (standard exclusions apply).",
-   "class_size": 760,
-   "class_size_note": "Approximate figure the court used in the preliminary approval order (ECF 66: \"approximately 761 people\"). It matches the 761-record class list Simpluris received (ECF 70). Direct notice went to 394 class members by postcard and 366 by email. There were zero opt-outs and zero objections.",
-   "settlement_structure": "Non-reversionary common fund. No claim form needed: the net fund is paid automatically and pro rata to all class members on the class list. Uncashed funds are redistributed pro rata (if at least $5 per person), and any remainder goes cy pres to the California Access to Justice Commission.",
-   "fund_amount": 400000,
-   "payment_terms": "Automatic pro rata share of the net settlement fund. Class Counsel estimated about $337 per class member (ECF 61; repeated in the final approval motion, ECF 68, and on the settlement website).",
-   "fees_requested": "The prelim motion (ECF 61, 10/31/2025) said counsel would seek up to 25% of the fund ($100,000) plus up to $10,000 in expenses, with lodestar of about $100,500 as of Oct. 2025. The court-approved notice (settlement website FAQ 12) instead caps the fee petition at 25% of the fund including costs and expenses. The fee motion itself (ECF 69, 3/9/2026) is not available as text on RECAP. The award was $100,000 total for fees, costs and expenses, plus $5,000 service awards to each of the 2 plaintiffs (ECF 74 ¶ 7).",
-   "service_award": "$5,000 each to plaintiffs Karen Martinez and Eli Silva (awarded, ECF 74 ¶ 7)",
-   "injunctive_relief": "No court-ordered injunctive relief found. The settlement website says CYH represents it has already changed its websites and disclosures to address the alleged conduct. This is a representation, not an injunction.",
-   "motion_prelim_filed": "2025-10-31",
-   "prelim_approval_date": "2026-01-29",
-   "final_hearing_date": "2026-04-23",
-   "final_approval_date": "2026-04-23",
-   "status": "Final approval",
-   "window_basis": "Final approval order (ECF 74) was entered on 2026-04-23, inside the 2026-04-09 to 2026-10-09 window. Preliminary approval (2026-01-29) falls before the window.",
-   "plaintiff_counsel": "Bursor & Fisher, P.A. (Philip L. Fraietta, L. Timothy Fisher, Joshua R. Wilner) and Drury Legal, LLC (Scott R. Drury). Class Counsel appointed: Fraietta and Drury.",
-   "settlement_website": "https://cyhsettlement.com/",
-   "sources": [
-    {
-     "label": "CourtListener docket 68517513 (via REST API v4; entries 1-74)",
-     "url": "https://www.courtlistener.com/docket/68517513/martinez-v-choose-your-horizon-inc/"
-    },
-    {
-     "label": "First Amended Class Action Complaint, ECF 35 (claims list)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.35.0.pdf"
-    },
-    {
-     "label": "Original Complaint, ECF 1",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.1.0.pdf"
-    },
-    {
-     "label": "Motion for Preliminary Approval, ECF 61 (fund, structure, $337 estimate, fees, service awards, 761 class size, $4.75M max exposure)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.61.0.pdf"
-    },
-    {
-     "label": "Order Granting Preliminary Approval, ECF 66 (2026-01-29)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.66.0.pdf"
-    },
-    {
-     "label": "Motion for Final Approval, ECF 68 (2026-03-09)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.68.0.pdf"
-    },
-    {
-     "label": "Simpluris notice declaration, ECF 70 (761 records; 0 opt-outs/objections)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.70.0.pdf"
-    },
-    {
-     "label": "Order Granting Final Approval and Fee/Service Awards, ECF 74 (2026-04-23)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.74.0.pdf"
-    },
-    {
-     "label": "Official settlement website",
-     "url": "https://cyhsettlement.com/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute it, and my findings match the researcher's. I pulled the docket through the CourtListener API (docket 68517513). The First Amended Class Action Complaint (ECF 35, filed 2025-01-29) is the operative complaint, and nothing amended it later. I downloaded the PDF and extracted all of its text. It has exactly three counts: Count I, CIPA Cal. Penal Code § 631 (para. 140 onward, a theory that the defendant aided Meta, Google and Twilio in intercepting communications on chooseketamine.com); Count II, CMIA Cal. Civ. Code § 56.10; Count III, invasion of privacy under the California Constitution / intrusion upon seclusion. Text searches of the FAC found nothing for 632, 2511, ECPA, Electronic Communications Privacy, 934., pen register, trap and trace, or Florida. The only '638' hit is the general statement that CIPA is codified at §§ 630 to 638, which is not a § 638.51 claim. The 'wiretap' hits are factual headings ('Overview of the Wiretaps'), not a federal Wiretap Act count. No count was dropped: the preliminary approval order (ECF 66, 2026-01-29) says the original complaint (ECF 1, 2024-05-09) also pled § 631, CMIA § 56.10 and the California Constitution. The preliminary approval motion (ECF 61) says the release covers the CMIA, CIPA and California Constitutional claims. Its only '632' hit is a cite to the Manual for Complex Litigation § 21.632, not CIPA § 632. The court preliminarily approved the settlement on 2026-01-29 (ECF 66). Plaintiffs moved for final approval on 2026-03-09 (ECF 68), with a hearing on 2026-04-23, and ECF 74 was entered on 2026-04-23. Earlier, on 2025-09-01, the court compelled arbitration of Martinez's individual claims (ECF 56), before the classwide settlement. | fees_requested: Requested up to 25% of the fund ($100,000) plus expenses of no more than $10,000; lodestar was about $100,500 as of October 2025. The court awarded $100,000 total for fees, costs and expenses (ECF 74 ¶ 7).→The prelim motion (ECF 61, 10/31/2025) said counsel would seek up to 25% of the fund ($100,000) plus up to $10,000 in expenses, with lodestar of about $100,500 as of Oct. 2025. The court-approved notice (settlement website FAQ 12) instead caps the fee petition at 25% of the fund including costs and expenses. The fee motion itself (ECF 69, 3/9/2026) is not available as text on RECAP. The award was $100,000 total for fees, costs and expenses, plus $5,000 service awards to each of the 2 plaintiffs (ECF 74 ¶ 7). | class_size: 761→760 | Timing/money check (confirmed): CONFIRMED: there is an in-window event. ECF 74 is the order granting final approval of the class settlement and the fee award. It was signed by Mag. Judge Laurel Beeler on April 23, 2026 (\"Date: April 23, 2026\") and filed 04/23/26. The order says the final approval hearing was held the same day. That date falls inside the 2026-04-09 to 2026-10-09 window.\n\nI could not refute any timing fact. Each one checked against the CourtListener docket API (docket 68517513):\n- Prelim approval motion: ECF 61, filed 2025-10-31.\n- Prelim approval: granted at the hearing on 2026-01-29 (minute entry ECF 65) and by written order ECF 66 the same day. ECF 66 set the final approval hearing for 4/23/2026 at 9:30 a.m.\n- Final approval and fee motions: ECF 68 and ECF 69, both filed 2026-03-09.\n- Final approval order: ECF 74, 2026-04-23.\nThe prelim and filing dates are before the window. Only the final approval date is inside it.\n\nFund: $400,000 non-reversionary common fund (ECF 61; website FAQ 6). Confirmed. The estimated payment is about $337 per class member, paid automatically with no claim form.\n\nCorrection to class size: ECF 61 says the class is 'approximately 761' Choose website users. The Simpluris declaration (ECF 70 ¶ 6) says defendant's data file had 761 records, and after removing duplicate and incomplete records the final class list was 760. I used 760. There were 0 opt-outs and 0 objections (ECF 70 ¶ 17), and administration costs are estimated at $14,024.\n\nNote on fees: the researcher's 'plus expenses of no more than $10,000' comes from ECF 61. The notice and website say the cap of 25% includes costs. The final award matches the inclusive version: $100,000 total.\n\nClaims, relevant to the user's filter: the First Amended Complaint (ECF 35) pleads CIPA Cal. Penal Code § 631(a) and CMIA Cal. Civ. Code § 56.10. My searches found no § 632, federal Wiretap Act/ECPA (18 U.S.C. § 2511) or FSCA count. The case concerns a ketamine telehealth provider's websites (chooseketamine.com and chooseyourhorizon.com) disclosing information to Meta. The class is California-only, covering May 9, 2023 to July 11, 2024. The 9/1/2025 order compelled Martinez's individual claims to arbitration before the settlement.",
-   "open_questions": "1) The $100,000 award covers fees, costs and expenses combined (ECF 74 ¶ 7). The motion had asked for 25% in fees plus up to $10K in expenses, so the court gave less than requested in total. The split between fees and costs is not stated. 2) The Settlement Agreement (ECF 61-1) is not on RECAP, so the injunctive and remedial terms come only from the settlement website's description. 3) In 2025-09 the court compelled named plaintiff Martinez's individual claims to arbitration (ECF 56) because of CYH's arbitration clause; the class settlement was reached anyway (notice of settlement ECF 57, 2025-09-02). This could be a useful comparison point. 4) The final order calls the class \"nationwide,\" but the definition is limited to California residents. 5) Plaintiffs estimated maximum statutory exposure under CIPA and CMIA at about $4.75M, so the $400K settlement is about 8.4% of that maximum. 6) CourtListener's docket metadata still lists no termination date, but the docket shows a \"Terminate Civil Case\" entry on 2026-04-23.",
-   "id": "choose-your-horizon-chooseketamine-com"
-  },
-  {
-   "short_name": "Wellstar Health (pixel / MyChart)",
-   "caption": "Jane Doe, Jane Doe #2, Jane Doe #3, and John Doe v. Wellstar Health System, Inc.",
-   "defendant": "Wellstar Health System, Inc.",
-   "court": "U.S. District Court, Northern District of Georgia (Atlanta Division)",
-   "docket": "1:24-cv-01748-JPB",
-   "judge": "J. P. Boulee",
-   "industry": "Healthcare - hospital/health system (Georgia)",
-   "technology": "Meta Pixel, Google Analytics, and Google Tag Manager (the complaint also lists Meta SDK, DoubleClick, and other tools) on the public website wellstar.org and the Wellstar MyChart patient portal (mychart.wellstar.org), sending PII/PHI to Meta and Google",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Intrusion upon seclusion (Count I); breach of fiduciary duty/confidence (II); negligence (III); negligence per se (IV); breach of implied contract (V); breach of express contract (VI); unjust enrichment (VII). The Aug. 21, 2025 MTD order (ECF 34) granted the motion in part. Only the ECPA claim (Count VIII, 18 U.S.C. § 2511(1)) and unjust enrichment went forward.",
-   "statute_evidence": "Amended Class Action Complaint (ECF 20, filed 2024-08-02; the operative complaint). Its 8 count headings were reviewed in full: Count VIII is the ECPA, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure). There is no CIPA, FSCA, or § 638.51 count. The prelim approval brief (ECF 55-1 at 4) lists the same 8 claims and says the ECPA and unjust enrichment claims survived the MTD. RECAP: https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.20.0.pdf ; https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.55.1.pdf",
-   "class_definition": "All persons residing in the U.S. whose information was disclosed to a third party between 2020-02-19 and 2026-07-22 through Tracking Technologies on Wellstar's Web Properties (website and MyChart). Standard exclusions apply (judges, officers/directors, opt-outs, Class Counsel).",
-   "class_size": 870000,
-   "class_size_note": "Approximate. The prelim brief says the class is estimated at approximately 870,000 individuals (S.A. ¶ 1.33). Brief: $4.89 per class member gross.",
-   "settlement_structure": "Non-reversionary common fund ($4.25M). Claims-made pro rata cash distribution to valid claimants, with any remainder going to a cy pres recipient. Notice/admin costs, fees, expenses and service awards come out of the fund. Administrator: Epiq. Mediator: Bennett G. Picker (mediation 2026-06-17).",
-   "fund_amount": 4250000,
-   "payment_terms": "Pro rata cash payment to each class member who files a valid claim, from the net fund after admin costs, fees, expenses and service awards. The amount depends on the claims rate (about $4.89 per class member gross). Claims are due 2026-11-10 and the opt-out deadline is 2026-10-26 (per ClaimDepot/TCA). Electronic payment options are available.",
-   "fees_requested": "Up to one-third of the fund (about $1,416,667) plus reasonable litigation expenses (S.A. ¶ 11.1), and service awards of up to $2,500 per class representative (S.A. ¶ 11.2). No fees awarded yet.",
-   "service_award": "Up to $2,500 per class representative; 4 representatives, $10,000 total (S.A. ¶ 11.2)",
-   "injunctive_relief": "None identified. The prelim brief describes only monetary relief, and secondary sources mention no practice changes. The Settlement Agreement (ECF 55-2) itself was not reviewed.",
-   "motion_prelim_filed": "2026-07-22",
-   "prelim_approval_date": "2026-07-28",
-   "final_hearing_date": "2026-12-01",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "Preliminary approval was granted on 2026-07-28 (per ClassAction.org; the order is not on RECAP), after the unopposed motion filed 2026-07-22 (ECF 55). Both dates fall inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "David S. Almeida and Britany A. Wessan (Kabakov), Almeida Law Group LLC; Brandon M. Wise and Andrew Tate, Peiffer Wolf Carr Kane Conway & Wise LLP; Carolyn (C.J.) Cuneo, Milberg PLLC. Gary M. Klinger also appeared pro hac vice earlier.",
-   "settlement_website": "https://wellstardataprivacysettlement.com/",
-   "sources": [
-    {
-     "label": "CourtListener docket 1:24-cv-01748 (N.D. Ga.)",
-     "url": "https://www.courtlistener.com/docket/68466940/doe-v-wellstar-health-system-inc/"
-    },
-    {
-     "label": "Amended Class Action Complaint, ECF 20 (operative; counts I-VIII)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.20.0.pdf"
-    },
-    {
-     "label": "Unopposed Motion for Preliminary Approval, ECF 55 (filed 2026-07-22)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.55.0.pdf"
-    },
-    {
-     "label": "Brief ISO Preliminary Approval, ECF 55-1 (class def., size, fund, fees, service awards, MTD outcome)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.55.1.pdf"
-    },
-    {
-     "label": "ClassAction.org - preliminary approval date 2026-07-28, FAH, claims deadline",
-     "url": "https://www.classaction.org/news/mychart-settlement-4.25m-wellstar-pact-wraps-up-class-action-lawsuit-over-alleged-patient-data-disclosures"
-    },
-    {
-     "label": "ClaimDepot - opt-out deadline, fee dollar cap, admin cost cap",
-     "url": "https://www.claimdepot.com/settlements/wellstar-data-privacy-settlement"
-    },
-    {
-     "label": "Top Class Actions - deadlines and FAH",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-25m-wellstar-health-tracking-pixel-class-action-settlement/"
-    },
-    {
-     "label": "Official settlement website (Cloudflare bot check blocked automated access)",
-     "url": "https://wellstardataprivacysettlement.com/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I downloaded and text-searched the Amended Class Action Complaint (ECF 20, filed 2024-08-02, 146 pages). It has 8 counts: I intrusion upon seclusion; II breach of fiduciary duty; III negligence; IV negligence per se; V breach of implied contract; VI breach of express contract; VII unjust enrichment; VIII \"Violations of Electronic Communications Privacy Act, 18 U.S.C. § 2511(1), et seq. - Unauthorized Interception, Use and Disclosure.\" The complaint does not mention California, CIPA or the Penal Code anywhere. It also has no Florida or Fla. Stat. 934 references, and no 638.51.\n\nThe docket (CourtListener API, docket 68466940) shows no later amended complaint. ECF 23 was the MTD aimed at ECF 20. ECF 34 (2025-08-21) granted it in part. ECF 42 (2025-09-19) is Wellstar's answer to ECF 20. ECF 55 (2026-07-22) is the unopposed motion for preliminary approval. So ECF 20 is the operative pleading, and no count was dropped by amendment.\n\nThe prelim approval brief (ECF 55-1 at 4-5) lists the same 8 claims and says the unjust enrichment and ECPA claims survived the MTD. Minor discrepancy: that brief calls claim (ii) \"breach of confidence,\" but the complaint heads Count II \"Breach of Fiduciary Duty.\" Neither is a target statute, so this does not affect the verdict. One caveat: ECF 55 is a motion. I did not confirm from the docket whether preliminary approval has actually been granted. | fees_requested: Up to one-third of the fund (about $1,416,667) plus reasonable litigation expenses (S.A. ¶ 11.1). Not yet awarded.→Up to one-third of the fund (about $1,416,667) plus reasonable litigation expenses (S.A. ¶ 11.1), and service awards of up to $2,500 per class representative (S.A. ¶ 11.2). No fees awarded yet. | Timing/money check (confirmed): I could not refute any of the researcher's facts. Both qualifying events fall inside the 2026-04-09 to 2026-10-09 window, and each is confirmed by a primary source.\n\n(1) Prelim motion: the CourtListener RECAP docket (68466940) shows Doc 55 on 2026-07-22. It is the plaintiffs' unopposed motion for preliminary approval with brief, and it was submitted to Judge Boulee on 2026-07-24.\n\n(2) Prelim approval: I read the file-stamped court copy of the order (Doc 56, Filed 07/28/26, 13 pages, titled \"PRELIMINARY APPROVAL ORDER\"). The signature page reads \"IT IS SO ORDERED this 28th day of July, 2026,\" signed by J.P. Boulee. The copy is hosted on classaction.org. CourtListener's RECAP docket has not been updated past 2026-07-24 and does not list Doc 56, so the docket alone cannot confirm the approval date. The order PDF is the evidence.\n\n(3) Fund and class size: the brief (Doc 55-1) describes a non-reversionary $4,250,000 common fund for about 870,000 class members (about $4.89 per member).\n\n(4) Fees: the brief says fees will not exceed one-third of the fund, plus expenses (S.A. ¶ 11.1), and service awards will not exceed $2,500 per representative (¶ 11.2). Claimdepot lists fees of up to $1,416,667, $250K in admin costs and $10K in service awards. That last figure is a secondary source.\n\n(5) Final hearing: the official settlement website (Epiq) says 2026-12-01 at 10:00 a.m. ET. The site calls itself the court-approved notice and says notices went out beginning 2026-08-24. Opt-out and objection deadline is 2026-10-26; claim deadline is 2026-11-10. Final approval has not happened yet.\n\n(6) Claims relevant to the user's filter: the amended complaint included federal ECPA/Wiretap Act claims (18 U.S.C. § 2511). The 2025-08-21 motion-to-dismiss order kept the ECPA and unjust enrichment claims alive. There are no CIPA or FSCA claims; the case qualifies on the federal wiretap/ECPA claim. The class covers 2020-02-19 to 2026-07-22, and the tracking pixels involved were Meta and Google on wellstar.org and MyChart.\n\nThe settlement website's subpages were blocked by Cloudflare after the first page load, so I could not view its documents list.",
-   "open_questions": "1) The preliminary approval order is not on RECAP, and Cloudflare blocked automated access to the settlement website. The 2026-07-28 date comes only from ClassAction.org (and the TCA/Sounder hint), so it should be checked against the PACER docket or the website's Court Documents. 2) The Settlement Agreement (ECF 55-2) and the Joint Declaration (ECF 55-3) are not on RECAP. Not confirmed: whether any injunctive or practice-change terms exist, the cy pres recipient, and the exact objection deadline (assumed to be 2026-10-26 along with opt-outs). 3) The fund is $4,250,000 per the ECF 55-1 brief. The '$4.5M' figure in some reports is not supported by the filing. 4) Fees are only requested (up to 1/3); the award is pending the final approval hearing on 2026-12-01. 5) This is a non-CIPA comparator (ECPA 2511 only, Georgia healthcare). Useful as ECPA-wiretap support; the ECPA claim survived a MTD before the settlement.",
-   "id": "wellstar-health-pixel-mychart"
-  },
-  {
-   "short_name": "LifeStance Health (Strong v. LifeStance) - mental-health pixel",
-   "caption": "Montana Strong and Debra Yick, individually and on behalf of all others similarly situated v. LifeStance Health Group, Inc. d/b/a LifeStance",
-   "defendant": "LifeStance Health Group, Inc.",
-   "court": "U.S. District Court for the District of Arizona (Phoenix Division)",
-   "docket": "2:23-cv-00682-KML (CV-23-00682-PHX-KML)",
-   "judge": "Krissa M. Lanham",
-   "industry": "Healthcare - outpatient mental/behavioral health provider (patient website and online booking tool)",
-   "technology": "Meta Pixel (Pixel ID 182326009171632) and Meta Conversions API (CAPI) on lifestance.com, including the online appointment-booking tool. The complaint also alleges Google Tag Manager/Google, Invoca, Heap Analytics and Pardot. The release covers the Meta Pixel, Google Analytics and other tracking technologies.",
-   "cipa_631": "pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Operative Third Amended Complaint (ECF 92) counts: Count I CIPA (Cal. Penal Code 630 et seq., pled under 631(a), second clause plus aiding-and-abetting) for the California Class; Count II CMIA (Cal. Civ. Code 56 et seq.) for the California Class; Count III ECPA 18 U.S.C. 2511(1) for the Nationwide Class; Count IV UCL unlawful prong; Count V UCL unfair prong; Count VI Arizona Consumer Fraud Act, A.R.S. 44-1521 (Nationwide Class); Count VII NY GBL 349 (New York subclass); Count VIII common-law intrusion upon seclusion. At the FAC stage the MTD order (ECF 56, 2025-01-28) dismissed only intrusion upon seclusion. ECPA, CIPA, UCL, AZCFA, NY GBL 349 and CMIA survived. The court applied the crime-tort exception to the ECPA one-party-consent defense.",
-   "statute_evidence": "Third Amended Class Action Complaint (ECF 92, filed 2025-12-03), posted on the settlement website at https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/Third_Amended_Class_Action_Complaint.pdf. I read its count headings: Count I is CIPA and quotes Cal. Penal Code 631(a). Count III is ECPA 18 U.S.C. 2511(1). Neither 632 nor 638.51 appears in any count; the only \"632\" hits are inside a Pixel ID, and the only \"638\" hit is the phrase \"codified at Penal Code 630 to 638\". There is no Fla. Stat. 934. Corroborating documents: the MTD order (ECF 56, https://www.courtlistener.com/docket/67257853/strong-v-lifestance-health-group-incorporated/) analyzes CIPA 631(a) clause 2 and the aiding-and-abetting prong. The prelim approval motion (ECF 94) lists the surviving claims as ECPA, CIPA, UCL, AZCFA, NYGBL and CMIA.",
-   "class_definition": "Settlement Class = all natural persons in Subclass 1 or Subclass 2. Subclass 1: members of LifeStance's total patient population who booked at least one session through the online booking tool on lifestance.com between 2020-03-01 and 2023-04-30. Subclass 2: all other LifeStance patients during 2020-03-01 to 2023-04-30 who are not in Subclass 1. The class is nationwide.",
-   "class_size": 1139652,
-   "class_size_note": "This is the sum of two figures in the prelim approval motion (ECF 94 at 2): approximately 171,915 Subclass 1 patients (booked online) and 967,737 Subclass 2 patients. Subclass 1 is described as \"approximately\", so treat the total as approximate.",
-   "settlement_structure": "Non-reversionary common fund split into two subclass funds; payments are claims-based and pro rata within each fund. Residual and uncashed funds go cy pres in equal shares to Privacy Rights Clearinghouse and the Center for Democracy and Technology. Fees, costs, service awards and administration costs are paid from the funds. An earlier settlement was denied preliminary approval (ECF 85) because of a reversionary $750K fee fund and Bluetooth collusion concerns.",
-   "fund_amount": 3027874.44,
-   "payment_terms": "Subclass 1 fund is $1,203,405.00, about $7 per class member before pro rata adjustment. Subclass 2 fund is $1,824,469.44, about $1.885 per member before adjustment. Each claimant with an approved claim gets a pro rata share of their own subclass fund, net of fees, costs, service awards and administration costs. Shares are per claimant, not per visit or appointment. Claims were due 2026-09-29; opt-outs and objections were due 2026-08-31.",
-   "fees_requested": "Requested in ECF 101 (filed 2026-08-17): one-third of the fund, $1,009,291.48, plus $18,844.90 in costs and $2,500 service awards for each of the two class representatives ($5,000 total). The lodestar is $917,009.45, a multiplier of about 1.10. Fees have not been awarded; they will be decided at or after the 10/16/2026 hearing.",
-   "service_award": "$2,500 each for Montana Strong and Debra Yick ($5,000 total), requested; not yet awarded.",
-   "injunctive_relief": "LifeStance has discontinued, or will discontinue, all third-party tracking pixels other than HIPAA-compliant ones for 5 years from the Effective Date (Settlement Agreement section 1.22).",
-   "motion_prelim_filed": "2025-12-03",
-   "prelim_approval_date": "2026-05-12",
-   "final_hearing_date": "2026-10-16",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The court granted preliminary approval of the revised settlement on 2026-05-12 (ECF 99, Judge Lanham), which falls inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Zimmerman Reed LLP (Hart L. Robinovitch, Ryan J. Ellersick) and Almeida Law Group LLC (David S. Almeida, Britany A. Kabakov), appointed Class Counsel. Elena Belov of Almeida Law Group appeared earlier in the case.",
-   "settlement_website": "https://www.lifestancepixelsettlement.com/",
-   "sources": [
-    {
-     "label": "Preliminary Approval Order, ECF 99 (2026-05-12), RECAP",
-     "url": "https://www.courtlistener.com/docket/67257853/99/strong-v-lifestance-health-group-incorporated/"
-    },
-    {
-     "label": "CourtListener docket 2:23-cv-00682 (D. Ariz.)",
-     "url": "https://www.courtlistener.com/docket/67257853/strong-v-lifestance-health-group-incorporated/"
-    },
-    {
-     "label": "Third Amended Class Action Complaint (ECF 92), settlement website",
-     "url": "https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/Third_Amended_Class_Action_Complaint.pdf"
-    },
-    {
-     "label": "Revised Settlement Agreement (ECF 95-1), settlement website",
-     "url": "https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/LifeStance_Settlement_Agreement.pdf"
-    },
-    {
-     "label": "Motion for Attorneys' Fees, Expenses and Service Awards (ECF 101, 2026-08-17)",
-     "url": "https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/Dist.Ariz._2-23-cv-00682_101.pdf"
-    },
-    {
-     "label": "Unopposed Motion for Preliminary Approval of Revised Settlement (ECF 94, 2025-12-03), RECAP",
-     "url": "https://www.courtlistener.com/docket/67257853/94/strong-v-lifestance-health-group-incorporated/"
-    },
-    {
-     "label": "Order on Motion to Dismiss (ECF 56, 2025-01-28), RECAP",
-     "url": "https://www.courtlistener.com/docket/67257853/56/strong-v-lifestance-health-group-incorporated/"
-    },
-    {
-     "label": "Official settlement website (deadlines, FAH time change)",
-     "url": "https://www.lifestancepixelsettlement.com/"
-    },
-    {
-     "label": "Long Form Notice",
-     "url": "https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/LifeStance_Long_Form_Notice.pdf"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I tried to refute this and could not. I downloaded the Third Amended Class Action Complaint myself and read it: ECF 92, filed 12/03/25, 96 pages, Zimmerman Reed and Almeida Law Group for plaintiffs. It has eight counts.\n\n- **Count I (CIPA, Cal. Penal Code 630 et seq.):** brought by Yick for the California Class. Para. 348 quotes Penal Code 631(a). The count also invokes 637.2 for $5,000 per violation. Para. 353 says the defendant \"recorded and transmitted their confidential communications.\" That wording sounds like 632, but the complaint never cites 632. So 632 = not_pled.\n- **Count II:** CMIA.\n- **Count III (ECPA, 18 U.S.C. 2511(1) et seq.):** brought for the Nationwide Class. It pleads 2511(1)(a), (c) and (d), and argues the 2511(2)(d) party exception does not apply.\n- **Counts IV and V:** UCL.\n- **Count VI:** Arizona Consumer Fraud Act.\n- **Count VII:** NY GBL 349.\n- **Count VIII:** intrusion upon seclusion.\n\nText searches of the complaint found nothing for 632.7, pen register, trap and trace, 638.51, Fla. Stat. 934 or the Florida Security of Communications Act. The only \"638\" is the phrase \"Penal Code 630 to 638\". The only \"632\" is inside a Meta Pixel ID number.\n\n**Settlement agreement (ECF 95-1, filed 12/03/25):**\n- The original complaint asserted CIPA, CMIA, ECPA, UCL, ACFA, GBL, intrusion upon seclusion, and breach of confidence.\n- The first amended complaint dropped breach of confidence.\n- Judge Lanham's 1/28/2025 order dismissed only intrusion upon seclusion and denied the motion to dismiss on everything else, including ECPA. So no count under any of the target statutes was ever dropped. Intrusion still shows up as Count VIII in the third amended complaint, but that does not affect any of the target statutes.\n\nThe long-form notice describes the case only generally, as pixel tracking. The researcher's \"Dist.Ariz._2-23-cv-00682_101.pdf\" is actually ECF 101, the motion for attorneys' fees filed 08/17/26. It is not a preliminary approval order. I did not separately verify the preliminary approval order. The settlement agreement's caption has a typo in the judge's initials (\"KNL\" instead of KML).\n\nI agree with all of the researcher's statute findings: 631 and ECPA pled; 632, 632.7, 638.51 and FSCA not pled. | fees_requested: Requested (ECF 101, filed 2026-08-17): one-third of the fund, $1,009,291.48, plus $18,844.90 in costs and expenses. The lodestar is $917,009.45, a multiplier of about 1.1. The agreement caps fees at one-third, and the defendant may object. Fees have not been awarded yet.→Requested in ECF 101 (filed 2026-08-17): one-third of the fund, $1,009,291.48, plus $18,844.90 in costs and $2,500 service awards for each of the two class representatives ($5,000 total). The lodestar is $917,009.45, a multiplier of about 1.10. Fees have not been awarded; they will be decided at or after the 10/16/2026 hearing. | Timing/money check (confirmed): I checked the CourtListener RECAP docket (API, docket 67257853) and found the qualifying event inside the window, so the claim is confirmed. ECF 99, signed and entered 2026-05-12 by Judge Krissa M. Lanham, grants the preliminary approval motion (ECF 94), which falls in the 2026-04-09 to 2026-10-09 window.\n- The preliminary approval motion (ECF 94) was filed on 2025-12-03, which is before the window. It was a revised motion after the court rejected an earlier fee structure (Doc. 85).\n- Fund: ECF 99 ¶4 and ECF 94 confirm two non-reversionary common funds totaling $3,027,874.44. Subclass 1 gets $1,203,405.00 and Subclass 2 gets $1,824,469.44.\n- Class size: 1,139,652 is the sum of about 171,915 Subclass 1 members (booked appointments online) and 967,737 Subclass 2 members, as stated on p.2 of ECF 94. The same motion's numerosity section says 907,737 for Subclass 2, which is an internal inconsistency. The 967,737 figure matches the stated $1.885 per person, so I kept 1,139,652.\n- Final hearing: ECF 99 set it for 2026-10-16 at 10:30 a.m. ECF 100 (2026-08-12) moved only the time, to 2:00 p.m. on the same date. The settlement website shows the same date and time and says the court has not yet decided final approval.\n- No final approval yet. The docket's last filings are ECF 103 and 104, both dated 2026-10-02 and labeled \"Ruling\" and \"Declaration,\" with no description and no PDF available. That date matches the deadline to move for final approval, so they are probably the final approval motion papers, but I could not confirm this.\n- Fees: I confirmed the researcher's figures from the ECF 101 PDF on the Angeion site and added the service awards. The preliminary approval order notes a discrepancy over whether fees are capped at 25% or 33%, says either would be reasonable, and says the defendant may object to fees.\n- Website deadlines: exclusions and objections were due 2026-08-31 and claims 2026-09-29.",
-   "open_questions": "(1) CIPA 631 and CMIA are pled only for a California Class with one California plaintiff (Yick). The settlement class is nationwide with no separate California subclass, so the settlement value is not allocated by statute. (2) RECAP shows ECF 103 (\"Ruling\") and ECF 104 (\"Declaration\") filed 2026-10-02. 2026-10-02 was the deadline for the final approval motion, so ECF 103 may be that motion mislabeled; neither document is on RECAP, so I could not confirm. (3) The final approval hearing is 2026-10-16 at 2:00 p.m. MT (moved from 10:30 a.m. by ECF 100), so there is no final approval order or fee award yet. (4) Claims-rate data and actual per-claimant amounts are not yet public. (5) The FAC (ECF 32) originally also named Google, Invoca, Heap and Pardot, but the case centers on the Meta Pixel and CAPI.",
-   "id": "lifestance-health-strong-v-lifestance-mental-health-pixel"
-  },
-  {
    "short_name": "Kaiser Permanente (Doe v. KFHP)",
    "caption": "John Doe, John Doe II, John Doe III, Jane Doe, Jane Doe II, Jane Doe III, Jane Doe IV, Jane Doe V, and Alexis Sutter v. Kaiser Foundation Health Plan, Inc., Kaiser Foundation Hospitals, and Kaiser Foundation Health Plan of Washington (In re Kaiser consolidated tracking-pixel action)",
    "defendant": "Kaiser Foundation Health Plan, Inc. (the settling defendant); Kaiser Foundation Hospitals and Kaiser Foundation Health Plan of Washington were named in the consolidated complaint and voluntarily dismissed under the settlement",
@@ -477,693 +82,6 @@ window.PRIVACY_COMPS = {
    "xcheck_notes": "Claims check (confirmed): I tried to refute the claim and could not. I downloaded ECF 271, the Consolidated Master Class Action Complaint filed 2024-12-06 (182 pp.), and ran my own text extraction on it.\n\nConfirmed in the primary document:\n- First Claim for Relief (p.120): ECPA, 18 U.S.C. 2510 et seq., on behalf of the Kaiser Operating States Class, against all defendants. It cites 2511(1)(a), (c)-(d) and 2511(3)(a) at paras. ~447-448 (p.121).\n- Second Claim (p.125): CIPA, Cal. Penal Code 630 et seq., paras. 471 onward. It is brought against KFHP and KFH on behalf of the Operating States Class, or alternatively the California Sub-Class. The theory is 631(a), including aiding and abetting under 631(a)[iv] at para. 485 (p.127), with damages under 637.2.\n\nNot found anywhere in ECF 271: 632.7, 638.51, \"pen register\", \"trap and trace\", \"Florida\", \"Fla.\" and Fla. Stat. 934. The only three \"632\" hits are inside Bing URL strings (pp.88, 91) and a street address on the signature page (p.182). None is a statute cite. The phrase \"confidential communication\" appears 29 times, but no claim is pled under 632.\n\nThe other 20 claims are not relevant to this check. They include the Maryland Wiretap Act (13th) and the Washington Privacy Act ch. 9.73 (18th), plus CMIA, intrusion upon seclusion and others.\n\nECF 271 is still the operative complaint. The CourtListener docket-entries API shows no later amended complaint after ECF 271. Kaiser's motion to dismiss (ECF 303) was pending when the parties gave notice of settlement (ECF 342, 2025-05-14), and the hearing was vacated. So no count was dropped by a later amendment.\n\nSettlement timeline: prelim approval motion ECF 345 (2025-08-19); amended stipulation ECF 390 (2025-12-01); preliminary approval ECF 393 (2025-12-05); final approval order ECF 454 (2026-07-14); final judgment ECF 459 (2026-07-22).\n\nI have no disagreement with the researcher's statute findings. | fees_requested: Requested: 33% of the gross fund (about $15.68M of $47.5M) plus $598,431 in expenses (reduced from $605,103.06). Awarded: $13,000,000 (about 27.4%, roughly equal to counsel's claimed lodestar of about $13M) plus the full $598,431 in expenses (ECF 454; fee order ECF 460 dated 2026-07-22). Objector counsel Labaton asked for a share of about $1.03M, which was denied.→Requested: 33% of the gross fund (about $15.68M of $47.5M) plus $598,431 in litigation expenses (reduced from $605,103.06 because hearing travel costs were never incurred), plus $5,000 service awards for each of 8 named plaintiffs ($40,000 total). Awarded (ECF 454, 2026-07-14): $13,000,000 in fees, about 27-28% of the $47.5M fund and equal to class counsel's claimed lodestar of about $13M through May 2026. Expenses and service awards were granted in full. The formal fee order is ECF 460, dated 2026-07-22. The Objectors' (Labaton) request for about $1.03M (6.8% of a hypothetical $15.18M) was denied. | Timing/money check (confirmed): I checked these against the CourtListener RECAP docket (N.D. Cal. 3:23-cv-02865-EMC), using the docket entries and the full text of ECF 384, 393 and 454. The qualifying event falls inside the 2026-04-09 to 2026-10-09 window: Judge Chen's order granting final approval is ECF 454, dated 2026-07-14. The Final Order and Judgment dismissing the case with prejudice is ECF 459, signed 2026-07-22. Neither one could be refuted.\n\nEarlier events:\n- The preliminary approval motion is ECF 345, filed 2025-08-19.\n- ECF 384 (2025-10-24) did NOT grant preliminary approval. It said the court was \"inclined to grant\" and continued the hearing to 2025-11-25.\n- ECF 389 (2025-11-25) told the parties to file updated papers.\n- The actual preliminary approval is ECF 393, the Order As Modified signed 2025-12-05. Both preliminary-stage dates fall before the window, which does not matter because final approval is inside it.\n\nFinal hearing: the fairness hearing was originally set for and held on 2026-05-07 (the transcript is ECF 452). It was then continued, and the continued hearing took place on 2026-07-02 (ECF 445 reset it from 6/25 to 7/2; ECF 453 is the minute entry). The 2026-07-02 date is correct as the last hearing, but the first hearing was 2026-05-07.\n\nMoney and class size, all confirmed in ECF 454:\n- The gross settlement started at $46M and could rise to $47.5M depending on opt-outs. Once opt-outs were final it was set at $47.5M.\n- The class is 13,134,307 members (about 13.1 million).\n- 755,551 claims were filed, a claims rate of about 5.7%.\n\nFees, confirmed in ECF 454:\n- Requested: 33%, or $15.68M.\n- Awarded: $13M, which the order describes as 27-28%.\n- Expenses of $598,431 (reduced from $605,103.06) and $5,000 service awards for each of 8 plaintiffs were granted in full.\n- The Labaton objectors' fee application (about $1.03M) was denied.\n\nFields I could not check:\n- The ECF 460 fee order PDF is not on RECAP. Its date of 2026-07-22 comes from the docket entry.\n- I did not open the settlement website, because the court record was enough.\n\nI made no corrections to the researcher's facts. The only addition is the fee/expense detail above.",
    "open_questions": "(1) Claim deadline conflict: the tracker hint says 2026-06-28, but the settlement website and ECF 454 both say the claims deadline was 2026-03-12. (2) Final per-claimant payment is not yet known. Post-distribution accounting is due by 2027-04-30 (ECF 472). (3) The Bryson opt-outs' motion to amend the final approval order (ECF 463) was heard on 2026-09-11. No ruling appears on the docket as of 2026-10-09. (4) The fee order (ECF 460) is not on RECAP; the fee figures come from ECF 454. (5) For the 638.51 comparison, the class claims never included pen-register or 632 theories; only the parallel mass-arbitration and state-court papers pled 638.51. The release's scope over those theories was not separately reviewed. (6) The first fairness hearing was held 2026-05-07 and continued to 2026-07-02. ECF 459 misstates the first hearing as \"May 7, 2025.\"",
    "id": "kaiser-permanente-doe-v-kfhp"
-  },
-  {
-   "short_name": "Cone Health (MyChart pixel)",
-   "caption": "Singh v. The Moses H. Cone Memorial Hospital Operating Corp., et al.",
-   "defendant": "The Moses H. Cone Memorial Hospital Operating Corporation d/b/a Cone Health and The Moses H. Cone Memorial Hospital d/b/a Cone Health",
-   "court": "U.S. District Court, Middle District of North Carolina (Greensboro)",
-   "docket": "1:24-cv-00558-LAF-JGM",
-   "judge": "District Judge Lindsey A. Freeman (reassigned 2025-12-29 from Judge William L. Osteen, Jr.); Magistrate Judge Joanna Gibson McFadden",
-   "industry": "Healthcare - hospital system / patient portal",
-   "technology": "Meta (Facebook) Pixel and Google Analytics on Cone Health websites and the MyChart patient portal, sending patient data to Facebook and Google",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Breach of express contract; breach of implied duty of good faith and fair dealing; breach of implied contract; negligence; breach of fiduciary duty; unjust enrichment. All counts were brought for a nationwide class. The NC Electronic Surveillance Act was not pled, even though one outlet said it was.",
-   "statute_evidence": "The Class Action Complaint (ECF 1, filed 2024-07-08), downloaded from the settlement website's Court Documents page (https://cw.simpluris.com/docs/public/downloads/CHS/COMPLAINT), pleads seven counts. Count One is \"Violation of the Electronic Communications Privacy Act 18 U.S.C. § 2511(1), et seq. — Unauthorized Interception, Use and Disclosure,\" which cites §§ 2510, 2511(1)(a), (c), (d), 2511(2)(d) and 2520. Counts Two through Seven are common-law claims. There is no CIPA, FSCA or NC state wiretap count. The docket shows no amended complaint. The settlement agreement recitals in the preliminary-approval motion (ECF 26-1/26-2) list the same seven claims, starting with the ECPA claim.",
-   "class_definition": "All living individuals who from 2016-09-01 to 2022-11-03 accessed the MyChart patient portal on Defendants' website or completed a submission form on Defendants' website. Excluded: judges and staff, Defendants' employees and affiliates, opt-outs, and Class Counsel.",
-   "class_size": 375027,
-   "class_size_note": "Approximate. Class counsel's estimate, based on Defendants' representations about the size of their MyChart and website user base (Joint Decl. ¶31, ECF 26-1). The settlement agreement overview lists \"Number of Class Members: 375,027.\"",
-   "settlement_structure": "Non-reversionary common fund with a claims-made, pro rata distribution. Fees, costs, the service award and administration costs come out of the fund. If residual funds would allow a payment of $5 or more, there is a second distribution to claimants who cashed their first payment. Otherwise the residue goes to a cy pres charity agreed by the parties and approved by the court. Administrator: Simpluris.",
-   "fund_amount": 1765000,
-   "payment_terms": "The net fund is split equally (pro rata) among valid claimants. The claim requires only an attestation that the person accessed MyChart or submitted a form between 2016-09-01 and 2022-11-03, with no proof needed. No fixed per-claimant amount is stated, so the payment depends on the number of claims. Claim, opt-out and objection deadline: 2026-10-05.",
-   "fees_requested": "Up to one-third of the fund for fees, plus up to $25,000 in costs, with a combined cap of $613,333.33 (Settlement Agreement §9.1; Long Form Notice §14). There is also a $5,000 service award. The fee motion was filed 2026-09-21 (ECF 34, with memorandum at ECF 35) and has not been ruled on. The fee award will be decided at the final approval hearing.",
-   "service_award": "Up to $5,000 for the class representative, Ashika Singh",
-   "injunctive_relief": "None identified. The agreement provides monetary relief only; the only mentions of injunctive relief are in the release definition.",
-   "motion_prelim_filed": "2025-02-14",
-   "prelim_approval_date": "2026-07-07",
-   "final_hearing_date": "2026-11-05",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "Judge Freeman granted preliminary approval on 2026-07-07 (ECF 33), which falls inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Class Counsel: David S. Almeida (Almeida Law Group LLC) and Brandon M. Wise (Peiffer Wolf Carr Kane Conway & Wise, LLP). Local counsel: David M. Wilkerson (The Van Winkle Law Firm). Craig D. Justus appeared for plaintiff in 2026. Defense counsel: Patrick M. Kane (Fox Rothschild LLP).",
-   "settlement_website": "https://conepixelsettlement.com/",
-   "sources": [
-    {
-     "label": "Official settlement website (deadlines, documents page)",
-     "url": "https://conepixelsettlement.com/"
-    },
-    {
-     "label": "Class Action Complaint, ECF 1 (counts list; ECPA Count One)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/COMPLAINT"
-    },
-    {
-     "label": "Unopposed Motion for Preliminary Approval with Joint Decl. and Settlement Agreement, ECF 26/26-1/26-2 (class size, non-reversionary fund, fee cap, service award, cy pres)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/MOTION_FOR_PRELIMINARY_APPROVAL_ORDER"
-    },
-    {
-     "label": "Preliminary Approval Order, ECF 33 (filed 2026-07-07; scanned image)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/PRELIMINARY_APPROVAL_ORDER"
-    },
-    {
-     "label": "Settlement Agreement (scanned)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/SETTLEMENT_AGREEMENT"
-    },
-    {
-     "label": "Long Form Notice ($1,765,000 fund; fees up to $613,333.33; $5,000 service award; FAH 2026-11-05; Class Counsel)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/LONG_FORM_NOTICE"
-    },
-    {
-     "label": "CourtListener docket (ECF 33 prelim approval 2026-07-07; FAH set 2026-11-05; fee motion ECF 34 filed 2026-09-21; judge reassignment)",
-     "url": "https://www.courtlistener.com/docket/68921042/singh-v-the-moses-h-cone-memorial-hospital-operating-corporation/"
-    },
-    {
-     "label": "ClassAction.org news article (secondary)",
-     "url": "https://www.classaction.org/news/mychart-settlement-1.7m+-cone-health-deal-ends-lawsuit-over-alleged-patient-data-tracking"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute this. I downloaded the complaint myself from the Simpluris settlement-site link: a 131-page PDF stamped \"Case 1:24-cv-00558 Document 1 Filed 07/08/24\", in the Middle District of North Carolina, Singh v. The Moses H. Cone Memorial Hospital Operating Corp. d/b/a Cone Health. Count One is headed \"Violation of the Electronic Communications Privacy Act 18 U.S.C. § 2511(1), et seq.\" and pleads violations of § 2511(1)(a), (c) and (d), and also invokes § 2511(2)(d). Paragraph 35 lists the seven causes of action: (i) ECPA; (ii) breach of express contract; (iii) breach of the implied duty of good faith and fair dealing; (iv) breach of implied contract; (v) negligence; (vi) breach of fiduciary duty; (vii) unjust enrichment. Counts Two through Seven are those common-law claims, all brought for the nationwide class. A text search found no reference to California, Cal. Penal Code, CIPA § 631, § 632, § 632.7, § 638.51, Florida, Fla. Stat. § 934, or the NC wiretap statute (N.C.G.S. 15A-287). I pulled the docket through the CourtListener API (docket 68921042). It shows ECF 1 (complaint), ECF 3 (sealed unredacted complaint), ECF 26 (unopposed motion for preliminary approval, with the settlement agreement as Ex. 1, filed 2/14/2025) and ECF 33 (preliminary approval order, Judge Lindsey A. Freeman, 7/7/2026). Final approval hearing is set for 11/5/2026. There is no amended complaint anywhere in entries 1-36, so ECF 1 is the operative complaint and no count was dropped. One minor point: entry 19 did not appear in the API listing; it is probably a text-only or sealed entry. The settlement agreement PDF I downloaded is a scan with no text layer, so I could not check its recitals myself. That does not matter, because the complaint itself is the primary document. I agree with every statute value the researcher gave. The ECPA claim is the only qualifying statute pled; preliminary approval was granted 7/7/2026, which falls within the 6-month window. | fees_requested: Up to one-third of the fund for fees, plus up to $25,000 in costs, with a combined cap of $613,333.33 (Settlement Agreement; Long Form Notice §14). The fee motion was filed 2026-09-21 (ECF 34-35) and has not been ruled on. The fee award will be decided at the 2026-11-05 final approval hearing.→Up to one-third of the fund for fees, plus up to $25,000 in costs, with a combined cap of $613,333.33 (Settlement Agreement §9.1; Long Form Notice §14). There is also a $5,000 service award. The fee motion was filed 2026-09-21 (ECF 34, with memorandum at ECF 35) and has not been ruled on. The fee award will be decided at the final approval hearing. | Timing/money check (confirmed): Confirmed: the preliminary approval date is inside the 2026-04-09 to 2026-10-09 window. I tried to refute each fact against the CourtListener RECAP docket (pulled through the API) and the documents on the Simpluris settlement site. Nothing needed correcting.\n\nDocket:\n- ECF 26-27: Unopposed Motion for Preliminary Approval and memorandum, filed 2025-02-14. This is outside the window, but the qualifying event is the approval itself.\n- 2025-12-29: case reassigned from Judge Osteen to Judge Lindsey A. Freeman.\n- 2026-06-18: preliminary approval hearing held. The court asked for a supplemental filing and a recusal process. ECF 32, a status report filed 2026-07-02, followed up on this.\n- ECF 33: Preliminary Approval Order signed by Judge Freeman on 2026-07-07. The header of the PDF on the settlement site also reads \"Document 33 Filed 07/07/26\".\n- 2026-07-07 docket text: final approval hearing set for 2026-11-05 at 2:00 PM, Greensboro Courtroom #2.\n- ECF 34-35: fee motion and memorandum, filed 2026-09-21. No ruling yet.\n- ECF 36 (2026-10-07): notice of withdrawal of counsel. This does not affect the settlement.\n- There is no final approval order. The final approval date stays blank.\n\nMoney and class:\n- Fund: $1,765,000.00 (Long Form Notice §7; Settlement Agreement ¶3).\n- Class size: 375,027 individuals (Settlement Agreement §1.28; prelim approval motion).\n- Fees: fees capped at one-third of the fund, costs capped at $25,000, combined cap $613,333.33 (Settlement Agreement §9.1; Long Form Notice §14). There is also a $5,000 service award.\n- Deadline for claims, opt-outs and objections: 2026-10-05.\n\nClaims: the complaint and the motion both assert a federal ECPA/Wiretap Act count for unauthorized interception, use and disclosure, so the case qualifies for the federal wiretap criterion.\n\nOnly discrepancy: the settlement website's home page does not list the fund or fee figures. The official notice PDFs do.",
-   "open_questions": "1. The preliminary approval order (ECF 33) and settlement agreement PDFs are scanned images, so I could not text-search them. The terms come from the text-searchable motion exhibits (ECF 26-1/26-2) and the current long-form notice, which match: $1,765,000 fund, $613,333.33 fee and cost cap, $5,000 service award. I could not confirm whether the order changed any terms. 2. The fee motion (ECF 34-35, filed 2026-09-21) is not on RECAP, so I don't know the exact amount requested. 3. Claims rate, number of claims and estimated per-claimant payment are not yet public; they will likely appear in the final approval papers due before the 2026-11-05 hearing. 4. The cy pres recipient is not named in the materials I reviewed. 5. ECPA is the only qualifying statute; there are no CIPA counts (631/632/632.7/638.51) and no FSCA count.",
-   "id": "cone-health-mychart-pixel"
-  },
-  {
-   "short_name": "Allina Health (Pixel)",
-   "caption": "Ahlers, et al. v. Allina Health System, No. 0:24-cv-03674-SRN-ECW (D. Minn.)",
-   "defendant": "Allina Health System",
-   "court": "U.S. District Court, District of Minnesota",
-   "docket": "0:24-cv-03674-SRN-ECW",
-   "judge": "Hon. Susan Richard Nelson (Magistrate Judge Elizabeth Cowan Wright)",
-   "industry": "Healthcare - hospital/health system",
-   "technology": "Meta Pixel, Google Analytics and Google Tag Manager on Allina's public websites, patient portal, online bill pay and scheduling pages",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Minnesota Health Records Act (Minn. Stat. § 144.291 et seq.); invasion of privacy; breach of implied contract; unjust enrichment; breach of fiduciary duty; breach of confidence; negligence; Minnesota Uniform Deceptive Trade Practices Act (Minn. Stat. § 325D.43-48). No California or Florida statutory claims.",
-   "statute_evidence": "I read the Amended Class Action Complaint (ECF 30, filed 2025-02-13; RECAP PDF https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.30.0.pdf). It has 9 counts. Count VIII is the ECPA claim, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure; § 2520 damages), and Counts I-VII and IX are listed in other_claims. The complaint pleads no Cal. Penal Code §§ 631, 632, 632.7 or 638.51 claim and no Fla. Stat. ch. 934 claim. The docket's cause of action is \"18:2510 Wire or Oral Communications\".",
-   "class_definition": "Settlement class with two groups, covering 2018-09-16 through 2026-05-11 (the preliminary approval date). Group 1 is Allina patient portal users, non-portal bill pay users and non-portal scheduling users. Group 2 is non-portal, non-bill-pay, non-scheduling patients. Excluded are Defendant and its officers and directors, opt-outs, and the assigned judges.",
-   "class_size": 2531323,
-   "class_size_note": "This is approximate. It adds the parties' estimates stated in the preliminary and final approval orders: about 1,585,092 Group 1 members and about 946,231 Group 2 members, for about 2,531,323 total.",
-   "settlement_structure": "Non-reversionary common fund, paid pro rata on a claims basis, split into two sub-funds: Group 1 gets $10,303,098 and Group 2 gets $2,196,902. Notice and administration costs, attorneys' fees and expenses, and service awards all come out of the fund.",
-   "fund_amount": 12500000,
-   "payment_terms": "Class members who file a valid claim get a pro rata cash share of their group's net sub-fund. Group 1 claimants are paid from the $10.30M fund and Group 2 claimants from the $2.20M fund. Claims could be filed online or by mail, and the claims deadline was 2026-09-08 (90 days after notice). No fixed or estimated per-claimant amount was found.",
-   "fees_requested": "Requested $4,166,666.67 (one-third of the $12.5M fund, including litigation expenses; ECF 59/60, filed 2026-07-27). On 2026-09-24 the court awarded the full $4,166,666.67, plus a $3,500 service award to each class representative (ECF 68).",
-   "service_award": "$3,500 to each of the 3 class representatives (Ahlers, Gebhardt-Lally, Witt), as requested and awarded (ECF 68 ¶ 25)",
-   "injunctive_relief": "None identified. The preliminary approval memorandum (ECF 56) and the final approval order (ECF 68) describe only monetary relief. The settlement agreement itself (ECF 56-2) was not available on RECAP.",
-   "motion_prelim_filed": "2026-05-08",
-   "prelim_approval_date": "2026-05-11",
-   "final_hearing_date": "2026-09-24",
-   "final_approval_date": "2026-09-24",
-   "status": "Final approval",
-   "window_basis": "Preliminary approval was granted 2026-05-11 (ECF 58), and final approval with the fee award was granted 2026-09-24 (ECF 68, with judgment as ECF 70). Both dates fall inside 2026-04-09 to 2026-10-09.",
-   "plaintiff_counsel": "Class Counsel: David S. Almeida and Britany Wessan (Almeida Law Group LLC); Brandon Wise and Andrew Tate (Peiffer Wolf Carr Kane Conway & Wise, LLP); J. Gerard Stranch IV and Grayson Wells (Stranch, Jennings & Garvey, PLLC). Also of record: Raina Borrelli and Brittany Resch (Strauss Borrelli PLLC); Timothy Becker and Zackary Kaylor (Johnson Becker PLLC); Jacob Rusch (Sommers Schwartz P.C.). Defense counsel: Fredrikson & Byron (Nicole Moen).",
-   "settlement_website": "https://www.allinapixelsettlement.com/ (administrator: Atticus Administration, LLC)",
-   "sources": [
-    {
-     "label": "CourtListener docket (metadata + entries)",
-     "url": "https://www.courtlistener.com/docket/69172209/ahlers-v-allina-health-systems/"
-    },
-    {
-     "label": "Amended Class Action Complaint, ECF 30 (2025-02-13)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.30.0.pdf"
-    },
-    {
-     "label": "Memo ISO Unopposed Motion for Preliminary Approval, ECF 56 (2026-05-08)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.56.0.pdf"
-    },
-    {
-     "label": "Preliminary Approval Order, ECF 58 (2026-05-11)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.58.0.pdf"
-    },
-    {
-     "label": "Memo ISO Motion for Attorneys' Fees and Service Awards, ECF 60 (2026-07-27)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.60.0.pdf"
-    },
-    {
-     "label": "Order Granting Final Approval and Fees, ECF 68 (2026-09-24)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.68.0.pdf"
-    },
-    {
-     "label": "HIPAA Journal summary (claims deadline 2026-09-08; opt-out/objection deadline 2026-08-10)",
-     "url": "https://www.hipaajournal.com/allina-health-system-pixel-settlement/"
-    },
-    {
-     "label": "Mealey's report of final approval",
-     "url": "https://www.law360.com/mealeys/mealeys-data-privacy/articles/2535013/-12-5m-settlement-gets-final-approval-in-dispute-over-health-system-s-data-tracking"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim; I agree with the researcher on every statute. I downloaded and read the Amended Class Action Complaint myself (ECF 30, filed 2025-02-13, 99 pages). It has 9 counts. Count VIII is headed as violations of the Electronic Communications Privacy Act, 18 U.S.C. § 2511(1) et seq., for unauthorized interception, use and disclosure. It cites § 2511(1)(a), (c) and (d), argues that the § 2511(2)(d) crime-tort exception applies, and seeks § 2520 damages. The jurisdiction section also relies on ECPA (18 U.S.C. § 2511). The other counts are: I Minnesota Health Records Act (Minn. Stat. § 144.291), II invasion of privacy, III breach of implied contract, IV unjust enrichment, V breach of fiduciary duty, VI breach of confidence, VII negligence, and IX Minnesota UDTPA (Minn. Stat. § 325D.43-48). A text search found no Cal. Penal Code § 631, § 632, § 632.7 or § 638.51 claim and no Fla. Stat. ch. 934 claim; the only '632' hits in the settlement memo are citations to Manual for Complex Litigation § 21.632. I pulled the full docket through the CourtListener API. ECF 30 is the only amended complaint, and no later amendment dropped Count VIII. Allina's motion to dismiss (ECF 34) was never decided: the hearings were cancelled for mediation. The preliminary-approval memorandum (ECF 56, filed 2026-05-08) lists the claims, including '(8) violation of the Electronic Communications Privacy Act.' Preliminary approval was granted 2026-05-11 (ECF 58) and final approval 2026-09-24 (ECF 68). Because the motion to dismiss was never ruled on, this is a case where an ECPA claim was pled and settled, not one where it survived a ruling. This is a Minnesota hospital pixel case with a nationwide class and a Minnesota subclass, and it has no California or Florida statutory hook. | fees_requested: Requested $4,166,666.67, which is one-third of the $12.5M fund and includes litigation expenses (ECF 59/60). The court awarded the full $4,166,666.67 on 2026-09-24 (ECF 68).→Requested $4,166,666.67 (one-third of the $12.5M fund, including litigation expenses; ECF 59/60, filed 2026-07-27). On 2026-09-24 the court awarded the full $4,166,666.67, plus a $3,500 service award to each class representative (ECF 68). | Timing/money check (confirmed): I tried to refute these facts and could not. Every field matches the primary docket sources, which I checked through the CourtListener API (docket 69172209) and the RECAP PDFs. Prelim motion: ECF 55, filed 2026-05-08, with memo ECF 56 and joint declaration ECF 57. Prelim approval: ECF 58, entered 2026-05-11. That order set an in-person final approval hearing for 2026-09-24 at 9:30 a.m. before Judge Susan Richard Nelson. Final approval: ECF 68, signed 2026-09-24, granting both the final approval motion (ECF 62) and the fee motion (ECF 59). Judgment was entered as ECF 70 the same day. Both qualifying events (prelim approval on 2026-05-11 and final approval on 2026-09-24) fall inside the 2026-04-09 to 2026-10-09 window. Fund: $12,500,000 per ECF 56 and ECF 60. Class size: ECF 68 gives Group 1 as about 1,585,092 and Group 2 as about 946,231, which adds up to 2,531,323. ECF 60 cites the same figure, approximately 2,531,323. Fees: ECF 68 paragraph 24 awards $4,166,666.67 in fees and expenses, and paragraph 25 awards $3,500 per class representative. The service awards are the only new detail added. Claims check: ECF 56 lists the amended complaint's counts, and count (8) is a violation of the Electronic Communications Privacy Act (federal wiretap). The other counts are Minnesota statutory and common-law claims. There is no CIPA or Florida claim; this is a Minnesota pixel-tracking case brought by a health system's patients. I made no corrections.",
-   "open_questions": "1. Cloudflare blocked the official settlement website (403), so its documents page and FAQ were not reviewed. The claims deadline (2026-09-08) and the opt-out/objection deadline (2026-08-10) come from secondary sources (HIPAA Journal and web search summaries), not the official site. 2. The settlement agreement (ECF 56-2) and the final approval motion (ECF 62) were not available on RECAP. Because of that, injunctive and remedial terms, the claim rate, the number of claims and the estimated per-claimant payment are unconfirmed. 3. ECF 68 says the claims validation process was still ongoing when final approval was granted, and no claims count was found. 4. This is a pure ECPA plus Minnesota-law case with no CIPA or FSCA claims. It works as an ECPA-only comparator, but not as support for § 631, § 632 or § 638.51.",
-   "id": "allina-health-pixel"
-  },
-  {
-   "short_name": "Howard v. Labcorp (website search tracking)",
-   "caption": "Connie Howard, Yadira Yazmin Hernandez, and Deborah Reynolds v. Laboratory Corporation of America and Laboratory Corporation of America Holdings",
-   "defendant": "Laboratory Corporation of America; Laboratory Corporation of America Holdings (Labcorp)",
-   "court": "U.S. District Court, M.D.N.C. (transferred from N.D. Cal. No. 3:23-cv-02773 on 2023-09-05)",
-   "docket": "1:23-cv-00758-WO-JEP",
-   "judge": "William L. Osteen Jr. (Magistrate Judge Joi Elizabeth Peake)",
-   "industry": "Healthcare / clinical laboratory diagnostics",
-   "technology": "Meta Pixel, Google Analytics / Google source code and other third-party tracking code on labcorp.com. It allegedly sent users' search-bar queries about medical conditions and tests, the resulting pages, and test names/codes to Meta, Google and others, together with identifying information.",
-   "cipa_631": "pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "not_pled",
-   "fsca": "not_pled",
-   "other_claims": "Pennsylvania Wiretapping and Electronic Surveillance Control Act (WESCA), 18 Pa. C.S. § 5701 et seq. (§§ 5703, 5725), for the PA class. The original N.D. Cal. complaint (ECF 1) also had an unjust enrichment count against Meta. Meta was severed and is no longer a defendant.",
-   "statute_evidence": "The operative Amended Class Action Complaint (ECF 67, filed 2023-09-13, RECAP PDF https://storage.courtlistener.com/recap/gov.uscourts.ncmd.96515/gov.uscourts.ncmd.96515.67.0.pdf) has exactly two counts. Count 1 is CIPA, headed \"Cal. Penal Code §§ 630-638\", but it quotes and relies only on § 631(a), including the aiding/conspiring clause, with damages under § 637.2. Count 2 is PA WESCA. The text never mentions § 632, § 632.7, § 638.51, the federal Wiretap Act/ECPA, or Fla. Stat. ch. 934. Its introduction describes the claims as \"Cal. Penal Code § 631\" and WESCA § 5703. The original complaint (ECF 1) also cites no 632 or 638.51. The hint that 632 and 638.51 were pled is wrong: the only \"638\" in the text is the §§ 630-638 range in the heading.",
-   "class_definition": "Rule 23(b)(2) injunctive settlement classes, with no opt-out. California class: all persons in California who ran Search Queries on Labcorp's website from 2021-05-01 to the date of the Settlement Agreement (the notice says 2026-04-01). Pennsylvania class: the same definition for persons in Pennsylvania. Labcorp's employees and affiliates, plaintiffs' counsel, and the court are excluded.",
-   "class_size": null,
-   "class_size_note": "Unknown. The preliminary-approval order and notice give no class-size estimate; the order says only that the class is numerous. The amended complaint says \"at least hundreds.\" No claims process because relief is injunctive only.",
-   "settlement_structure": "Injunctive-relief-only Rule 23(b)(2) settlement with no opt-out. There is no common fund and no cash to class members. Absent class members release only injunctive and equitable claims, not damages claims; only the named plaintiffs release their individual damages claims.",
-   "fund_amount": 0,
-   "payment_terms": "None. Class members get no money and file no claim forms; the notice says the settlement provides no monetary compensation.",
-   "fees_requested": "Fee motion due on or before 2026-11-14, seeking fees plus expenses capped at $4,875,000 in total. Up to $2,500 service award for each of the 3 class representatives. Nothing awarded yet. There is no common fund, so Labcorp necessarily pays any award. The class notice does not literally say \"paid separately.\"",
-   "service_award": "Up to $2,500 for each of 3 class representatives ($7,500 total), requested and not yet awarded.",
-   "injunctive_relief": "Labcorp represents that the Tracking Technologies are already disabled. For at least 2 years after the Effective Date, Labcorp must:\n(1) not use or enable the Tracking Technologies on its website;\n(2) not use technology that, to its knowledge, sends Search Query contents to third parties, except Exempt Technology;\n(3) review the website every year and give a compliance report to class counsel;\n(4) keep a written policy on third-party tracking technologies and give it to class counsel;\n(5) name a senior employee to oversee compliance.\nPlaintiffs can ask the court to enforce these terms by injunction.",
-   "motion_prelim_filed": "2026-04-16",
-   "prelim_approval_date": "2026-08-21",
-   "final_hearing_date": "2026-12-14",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The court granted preliminary approval on 2026-08-21 (ECF 155, Judge Osteen), which is inside the 2026-04-09 to 2026-10-09 window. The unopposed preliminary-approval motion (ECF 149) was also filed in the window, on 2026-04-16.",
-   "plaintiff_counsel": "Lieff Cabraser Heimann & Bernstein (Douglas I. Cuthbertson, Michael W. Sobol; Michael K. Sheen substituted for Margaret Mattes); Meyer Wilson Werning Co., LPA (Matthew R. Wilson); Levin Law, P.A. (Brian Levin). Cuthbertson, Wilson and Levin are appointed Settlement Class Counsel. Local counsel on the complaint: Elliot Morgan Parsonage (Daniel C. Lyon).",
-   "settlement_website": "https://www.laboratorycorporationwebsitesettlement.com/",
-   "sources": [
-    {
-     "label": "Preliminary approval order, ECF 155 (2026-08-21), primary document",
-     "url": "https://www.classaction.org/media/labcorp-settlement-prelim-approval-order.pdf"
-    },
-    {
-     "label": "Operative Amended Class Action Complaint, ECF 67 (2023-09-13), RECAP",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncmd.96515/gov.uscourts.ncmd.96515.67.0.pdf"
-    },
-    {
-     "label": "Original complaint, ECF 1 (N.D. Cal.), RECAP",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncmd.96515/gov.uscourts.ncmd.96515.1.0.pdf"
-    },
-    {
-     "label": "CourtListener docket (entries 148-156; prelim motion ECF 149 filed 2026-04-16; objection ECF 156 filed 2026-10-05)",
-     "url": "https://www.courtlistener.com/docket/67760471/howard-v-laboratory-corporation-of-america/"
-    },
-    {
-     "label": "Long-form notice (fees cap $4.875M, service awards, objection deadline 2026-11-23, no opt-out)",
-     "url": "https://www.classaction.org/media/labcorp-settlement-notice.pdf"
-    },
-    {
-     "label": "Top Class Actions summary",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/labcorp-web-tracking-class-action-settlement/"
-    },
-    {
-     "label": "Official settlement website (blocked automated access with HTTP 403 and timeouts)",
-     "url": "https://www.laboratorycorporationwebsitesettlement.com/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I tried to refute the researcher's statute findings and could not. I downloaded and text-searched the operative Amended Complaint (ECF 67, filed 9/13/2023, 41 pages).\n\nWhat ECF 67 contains:\n- It has exactly two counts.\n- First Cause of Action: CIPA, headed \"Cal. Penal Code §§ 630-638\". It quotes § 631(a) and § 631's aiding/conspiring language, and seeks damages under § 637.2 (para. 121).\n- Second Cause of Action: Pennsylvania WESCA, 18 Pa.C.S. § 5701 et seq. / § 5703, with § 5725(a) damages.\n\nWhat it does not contain:\n- No hits for \"632\", \"2510\", \"2511\", \"ECPA\", \"Electronic Communications Privacy\" or \"934.\".\n- The two \"638\" hits are only the §§ 630-638 range (in the heading and in para. 112).\n- Every \"Wiretap\" hit refers to Pennsylvania's WESCA, not the federal Act.\n- The one \"Florida\" hit is co-counsel Levin Law's Miami address.\n- The original complaint (ECF 1, N.D. Cal.) shows the same pattern: § 631 only, with no 632, 638.51 or federal Wiretap Act.\n\nIs ECF 67 still the operative complaint? Yes. I checked the CourtListener docket (213 entries):\n- The motion to dismiss the Amended Complaint (ECF 78) was denied by order on 9/27/2024 (ECF 114).\n- Labcorp answered the Amended Complaint on 10/10/2024 (ECF 116).\n- No later amended complaint appears.\n- On 8/13/2025, plaintiff Hernandez moved under Rule 41(a)(2) to dismiss her claim (ECF 133). This did not drop the § 631 count.\n- A joint notice of settlement was filed 1/15/2026 (ECF 145).\n\nSettlement details useful for the comparison table:\n- Preliminary approval order is ECF 155, filed 8/21/2026, within the 6-month window.\n- The final approval hearing is set for 12/14/2026.\n- This appears to be an injunctive-relief-only settlement class (the order cites Rule 23(b)(2)-type findings). The notice says class members do not release claims for damages or other monetary relief.\n- Fees and expenses are capped at $4.875M, with service awards of $2,500 each for three representatives.\n- The class covers California and Pennsylvania residents who searched labcorp.com from 5/1/2021 to 4/1/2026.\n- The order and notice describe the claims only as \"California and Pennsylvania wiretapping laws\" and cite no section numbers.\n\nBecause there is no cash fund, this is weak as a damages comparator for settlement demands. Verdict: confirmed, since § 631 is pled in a primary document. | fees_requested: Up to $4.875 million in combined attorneys' fees and expenses, to be paid separately by Labcorp. The fee motion is due on or before 2026-11-14. Not yet awarded.→Fee motion due on or before 2026-11-14, seeking fees plus expenses capped at $4,875,000 in total. Up to $2,500 service award for each of the 3 class representatives. Nothing awarded yet. There is no common fund, so Labcorp necessarily pays any award. The class notice does not literally say \"paid separately.\" | Timing/money check (confirmed): I could not refute this one. Both qualifying events fall inside the window (2026-04-09 to 2026-10-09).\n\nSources: the CourtListener REST docket (docket id 67760471, M.D.N.C. 1:23-cv-00758-WO-JEP) and the text of the preliminary approval order (Doc. 155, filed 08/21/26).\n\nKey dates from the docket:\n- 2026-01-15: Joint Notice of Settlement (Doc. 145). The court set an April 15, 2026 deadline for the preliminary approval motion.\n- 2026-04-15: motion for extension of time to file (Doc. 148).\n- 2026-04-16: Plaintiffs' Unopposed Motion for Preliminary Approval filed (Doc. 149), with memorandum (Doc. 150) and declarations (Docs. 151-153).\n- 2026-04-30: Doc. 154, an order on the extension motion and on the motion to approve. The document text is not available on RECAP. It did not dispose of the motion, because Doc. 155 later grants Doc. 149.\n- 2026-08-11: motions submitted.\n- 2026-08-21: order granting preliminary approval (Doc. 155), signed \"This the 21st day of August, 2026\" by the district judge.\n- 2026-10-05: an objection was filed (Doc. 156).\n\nThe settlement agreement is dated 2026-04-02.\n\nFund: there is no fund, so $0 is correct. The court certified classes under Rule 23(b)(1)/(b)(2) for injunctive relief only. The notice says class members get no money and release no damages claims; only the named plaintiffs release damages. The injunctive terms run for at least 2 years: no Tracking Technologies on the website, no transmitting search-query contents to third parties, annual compliance review and report, a written tracking-technology policy, and a designated senior compliance employee.\n\nClasses: all persons in California and in Pennsylvania who ran Search Queries on Labcorp's website from 2021-05-01 to the date of the settlement agreement. The order and notice give no class size.\n\nClaims: the notice describes the claims as California and Pennsylvania wiretapping laws (CIPA, presumably including section 631, and Pennsylvania WESCA). I did not see a federal ECPA or Florida FSCA claim.\n\nClass counsel: Lieff Cabraser (Cuthbertson), Meyer Wilson (Wilson) and Levin Law (Levin). Administrator: Epiq.\n\nDeadlines: fee motion by 2026-11-14; objections postmarked by 2026-11-23. Final approval hearing is 2026-12-14 at 10:00 a.m. in Greensboro, Courtroom 1, so there is no final approval yet.\n\nThe settlement website (laboratorycorporationwebsitesettlement.com) and the CourtListener HTML docket page both returned 403.\n\nNo corrections are needed to the researcher's dates. Fees are clarified as fees plus expenses capped at $4.875M in total, plus service awards.",
-   "open_questions": "1. Settlement date conflict: the hint gives 2026-04-16, but the preliminary-approval order calls it the agreement \"dated April 2, 2026.\" 2026-04-16 is actually when the preliminary-approval motion (ECF 149) was filed. The notice ends the class period on 2026-04-01.\n2. ECF 154 (2026-04-30) is an order on the extension motion and the motion to approve; its contents were not read.\n3. ECF 156 (2026-10-05) is an objection; it was not read.\n4. Class size has not been disclosed.\n5. Fees are only a requested cap so far; the fee motion is due 2026-11-14.\n6. A plaintiff Hernandez Rule 41(a)(2) motion to dismiss a claim (ECF 133) was mooted by the settlement stay. It does not change which statutes were pled.\n7. Usefulness for the 638.51 question: this case pleads only CIPA § 631 (aiding/abetting a third-party tracker) plus PA WESCA. It is not 638.51 support, and it is a $0-cash injunctive-only comparator, so it is a weak data point for monetary settlement demands.\n8. The official settlement website could not be scraped (HTTP 403, Playwright timeout), so the settlement agreement itself was not read; its terms come from the order and the notice.",
-   "id": "howard-v-labcorp-website-search-tracking"
-  },
-  {
-   "short_name": "Fertility Centers of Illinois (pixel)",
-   "caption": "L.C., individually and on behalf of all others similarly situated v. Fertility Centers of Illinois, PLLC",
-   "defendant": "Fertility Centers of Illinois, PLLC",
-   "court": "U.S. District Court, N.D. Illinois (Eastern Division)",
-   "docket": "1:25-cv-02049",
-   "judge": "Mag. Judge Gabriel A. Fuentes (presiding on consent, D.E. 46; originally assigned to Chief Judge Rebecca R. Pallmeyer, who denied the MTD)",
-   "industry": "Healthcare / fertility clinic (IVF provider)",
-   "technology": "Meta (Facebook) Pixel plus Google tracking (Google Analytics, Google Ads) embedded on www.fcionline.com",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Negligence (Count II); Unjust Enrichment (Count III, in the alternative); Illinois Eavesdropping Statute, 720 ILCS 5/14-1 et seq. (Count IV, Illinois subclass). The prelim motion also refers to Illinois contract and tort law.",
-   "statute_evidence": "Original complaint (ECF 1, filed 2025-02-27) is the operative pleading. No amended complaint was filed, and the MTD was denied on it (ECF 24, 2025-12-08). It has four counts: Count I ECPA, 18 U.S.C. § 2511(1) et seq.; Count II Negligence; Count III Unjust Enrichment; Count IV Illinois Eavesdropping Statute. A text search of the complaint found no hits for 631, 632, 638, 934, 2701, California or Florida. The prelim motion (ECF 56 at 1-2) confirms the claims are ECPA, IES, and Illinois contract/tort law. Complaint: https://www.courtlistener.com/docket/69685836/1/lc-v-fertility-centers-of-illinois-pllc/",
-   "class_definition": "Nationwide settlement class: all persons in the United States who accessed and used the Defendant's website (www.fcionline.com) from 2020-09-01 through 2024-12-31. Standard exclusions apply: judges and staff, Defendant and its affiliates, opt-outs, and their successors.",
-   "class_size": null,
-   "class_size_note": "No number is disclosed. The prelim motion says only that Defendant \"identified thousands of potential individuals\" in the class and that class members can be identified from Defendant's records. Direct notice and a reminder go out by email.",
-   "settlement_structure": "Non-reversionary common fund, paid pro rata to claimants who file a claim form. Notice, administration, fees, costs and the service award all come out of the fund. Uncashed checks and failed e-payments (after 180 days) are redistributed pro rata if practicable, otherwise as the court directs.",
-   "fund_amount": 375000,
-   "payment_terms": "Pro rata share of the net fund for each valid claim. Class Counsel estimate about $30-$60 per claimant (Leslie Decl. ¶ 15). Claimants can be paid by Venmo, Zelle, PayPal or check. Claims deadline is 2026-12-03, the same as the opt-out/objection deadline.",
-   "fees_requested": "Class Counsel (Bursor & Fisher) agreed to cap its request at 35% of the fund ($131,250), plus up to $10,000 in costs. There is a separate $10,000 service award for the plaintiff. The fee petition is due 2026-11-19 and has not been filed or ruled on.",
-   "service_award": "$10,000 to the class representative L.C. (requested; subject to court approval)",
-   "injunctive_relief": "None described. The prelim motion and order describe monetary relief only. The Settlement Agreement itself (Ex. 1 to ECF 56) is not on RECAP, so any practice-change term cannot be confirmed.",
-   "motion_prelim_filed": "2026-08-25",
-   "prelim_approval_date": "2026-09-14",
-   "final_hearing_date": "2027-01-13",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "Preliminary approval came inside the window. The motion was granted orally at the telephonic hearing on 2026-09-11 (ECF 60), and the written Order Preliminarily Approving Class Action Settlement was entered 2026-09-14 (ECF 62).",
-   "plaintiff_counsel": "Bursor & Fisher, P.A. (Alec M. Leslie, Stephen A. Beck, Sarah N. Westcot)",
-   "settlement_website": "Not located. Kroll Settlement Administration LLC is the administrator, and a settlement website is required but no URL was found online as of 2026-10-09. Web searches return only the unrelated 2022 FCI data-breach settlement (Monegato, $450K).",
-   "sources": [
-    {
-     "label": "CourtListener docket 1:25-cv-02049 (N.D. Ill.)",
-     "url": "https://www.courtlistener.com/docket/69685836/lc-v-fertility-centers-of-illinois-pllc/"
-    },
-    {
-     "label": "ECF 1 - Class Action Complaint (2025-02-27): counts, class definitions, counsel",
-     "url": "https://www.courtlistener.com/docket/69685836/1/lc-v-fertility-centers-of-illinois-pllc/"
-    },
-    {
-     "label": "ECF 24 - Memorandum Opinion and Order denying MTD (2025-12-08)",
-     "url": "https://www.courtlistener.com/docket/69685836/24/lc-v-fertility-centers-of-illinois-pllc/"
-    },
-    {
-     "label": "ECF 56 - Plaintiff's Uncontested Motion for Preliminary Approval (2026-08-25): fund, per-claimant estimate, fees cap, service award, class def",
-     "url": "https://www.courtlistener.com/docket/69685836/56/lc-v-fertility-centers-of-illinois-pllc/"
-    },
-    {
-     "label": "ECF 60 - Minute entry: telephonic hearing, prelim approval motion granted (2026-09-11)",
-     "url": "https://www.courtlistener.com/docket/69685836/60/lc-v-fertility-centers-of-illinois-pllc/"
-    },
-    {
-     "label": "ECF 62 - Order Preliminarily Approving Class Action Settlement (2026-09-14): class cert, Kroll, deadlines, final hearing 2027-01-13",
-     "url": "https://www.courtlistener.com/docket/69685836/62/lc-v-fertility-centers-of-illinois-pllc/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I downloaded the RECAP PDFs for ECF 1 (the 60-page complaint filed 2025-02-27), ECF 24, ECF 56 and ECF 62, and checked them myself. ECF 1 has four counts. Count I is \"Violations of Electronic Communications Privacy Act, 18 U.S.C. § 2511(1), et seq.\" (¶¶ 197-233). The complaint cites 2511 twelve times and 2520 twice. Count II is negligence, Count III is unjust enrichment, and Count IV is the Illinois Eavesdropping Statute (Illinois Subclass). A regex search of ECF 1 found no hits for 631, 632, 632.7, 638.5, 934, California, Florida, \"Invasion of Privacy\" or \"Security of Communications\", so none of CIPA §§ 631, 632, 632.7, 638.51 or FSCA is pled.\n\nOperative pleading: the RECAP docket shows no amended complaint, and no count was dropped. In ECF 24 (2025-12-08) the court denied the motion to dismiss outright and listed the same four counts, with ECPA § 2511(1) first. The preliminary approval motion (ECF 56, 2026-08-25) cites \"Compl.\" as Dkt. 1, which confirms that ECF 1 is still the operative pleading at settlement. ECF 56 describes the claims as ECPA, the IES and Illinois contract and tort law. ECF 62 (2026-09-14) is Magistrate Judge Fuentes's order preliminarily approving the settlement, decided on consent.\n\nCaveat: RECAP has no entries for ECF 28-55. ECF 56 still cites Dkt. 1 as the complaint, so an amended complaint in that gap is very unlikely.\n\nI agree with every one of the researcher's statute findings. One small point: ECF 24 cites the IES as 740 ILCS, while the complaint cites 720 ILCS. This does not affect the result. | fees_requested: Capped at 35% of the fund ($131,250), plus no more than $10,000 in costs and expenses. The fee petition is due 2026-11-19 and has not been ruled on.→Class Counsel (Bursor & Fisher) agreed to cap its request at 35% of the fund ($131,250), plus up to $10,000 in costs. There is a separate $10,000 service award for the plaintiff. The fee petition is due 2026-11-19 and has not been filed or ruled on. | Timing/money check (confirmed): I could not refute this. The primary-source docket on CourtListener (RECAP, N.D. Ill. 1:25-cv-02049) confirms in-window events.\n(1) D.E. 56: the uncontested motion for preliminary approval was filed 2026-08-25. The motion's signature block is dated August 25, 2026.\n(2) D.E. 60 (2026-09-11): Magistrate Judge Gabriel A. Fuentes held a telephonic hearing and granted the motion from the bench, on consent per D.E. 46.\n(3) D.E. 62 (2026-09-14): the written Order Preliminarily Approving Class Action Settlement, which certifies the settlement class.\nThe prelim approval date of 2026-09-14 is the date of the formal order. The oral grant on 2026-09-11 is also inside the window. Both the motion and the approval fall within 2026-04-09 to 2026-10-09.\nFinal approval hearing: 2027-01-13 at 10:30 a.m., Courtroom 2266 (Order para. 18), confirmed. The case is not terminated; the last filing is 2026-09-14. No final approval yet.\nFund: a $375,000 non-reversionary common fund, paid pro rata to claimants net of costs, fees, and the service award. Counsel estimate $30-60 per claimant. Confirmed in D.E. 56.\nFees: confirmed from D.E. 56 (Settlement Agreement para. 8.1). The $10,000 service award is in addition to the fee and cost caps.\nClass size: not stated. The motion says only that defendant identified \"thousands\" of potential class members, so I left it null.\nClass definition: all persons in the U.S. who accessed and used fcionline.com from 2020-09-01 through 2024-12-31.\nOther dates: settlement administrator is Kroll. Opt-out, objection, and claims deadline is 2026-12-03. Fee petition due 2026-11-19. Final approval papers due 2026-12-30.\nClaims (Compl. D.E. 1): Count I federal ECPA/Wiretap Act (Meta/Google pixel on a fertility-provider website, health data); Count II negligence; Count III unjust enrichment; Count IV Illinois Eavesdropping Statute (Illinois subclass). There are no CIPA 631/632 or Florida FSCA claims; the ECPA count is what qualifies it. The MTD was denied 2025-12-08 (D.E. 24).\nNo official settlement website was found by web search. The order directs Kroll to post one by the Notice Date.",
-   "open_questions": "1. The Settlement Agreement (Ex. 1 to ECF 56) and the Leslie Declaration (Ex. 2) are not on RECAP. That leaves three gaps: the exact class size or visitor count, whether there is any injunctive or practice-change term, and the exact wording of the release. 2. The settlement website URL was not found; Kroll may not have launched it yet. 3. Class size is described only as \"thousands,\" so it stays null. 4. Dates conflict for the settlement conference: the motion says 2025-05-27 and a mediator's proposal accepted 2025-06-18, while the prelim order says 2026-05-26 (D.E. 38). The motion's year is likely a typo. 5. Objection ¶ 14 of the prelim order asks objectors to show Facebook membership, which looks like template carryover. 6. Fee and service awards are requested amounts only; nothing is awarded until the 2027-01-13 final hearing. 7. This is an ECPA-only qualifier, with no CIPA, FSCA or 638.51 claim; its companion state claim is the Illinois Eavesdropping Statute.",
-   "id": "fertility-centers-of-illinois-pixel"
-  },
-  {
-   "short_name": "Venetian Las Vegas (Vasquez)",
-   "caption": "Max Vasquez, individually and on behalf of all others similarly situated v. Venetian Las Vegas Gaming, LLC",
-   "defendant": "Venetian Las Vegas Gaming, LLC",
-   "court": "U.S. District Court, N.D. Cal. (San Jose Division)",
-   "docket": "5:25-cv-07934-PCP",
-   "judge": "Hon. P. Casey Pitts",
-   "industry": "Hospitality / hotel-casino (online hotel booking website)",
-   "technology": "Third-party trackers on venetianlasvegas.com: Heap analytics, Google Analytics/Google trackers, and Meta Pixel (with advanced matching). The complaint says they captured booking details such as hotel, suite, stay dates and party size, and that the trackers fired on page load before any consent.",
-   "cipa_631": "pled",
-   "cipa_632": "pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "not_pled",
-   "fsca": "not_pled",
-   "other_claims": "None pled as separate counts. The complaint has only two counts: CIPA § 631(a), including aiding/abetting, and CIPA § 632, with § 637.2 statutory damages of $5,000 per violation. Cal. Civ. Code § 53.5 (confidentiality of hotel guest records) is not its own count; the complaint uses it to argue that guest-record data is confidential. The release covers CIPA §§ 631-632 claims and claims that could have been asserted.",
-   "statute_evidence": "Class Action Complaint, ECF 1 (filed 2025-09-17), is still the operative complaint: no amended complaint was filed, and the motion to dismiss (ECF 14) was argued 2026-01-15 and never decided before settlement. Its causes of action are Count I, Cal. Penal Code § 631(a), and Count II, Cal. Penal Code § 632. The complaint does not mention § 638.51, § 632.7, the federal Wiretap Act/ECPA or the Florida FSCA. https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.1.0.pdf. The PA motion (ECF 36 at 1, 3) confirms the claims are §§ 631-632. Its only mention of § 638.51 is at p. 10, comparing this deal to Shah v. Fandom (a § 638.51 case). That is a comparison, not a claim here, which settles the hint's \"one sweep lists 638.51\" point. https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.36.0.pdf",
-   "class_definition": "There are two settlement classes, both limited to California residents who were in California between 2024-09-18 and 2026-03-16. (1) Booking Settlement Class: those who provided personal information needed to make a Venetian hotel reservation through venetianlasvegas.com. (2) Browsing Settlement Class: those who accessed and/or navigated venetianlasvegas.com.",
-   "class_size": 1031864,
-   "class_size_note": "Estimated from Defendant's records: about 35,159 in the Booking class plus about 996,705 in the Browsing class, for 1,031,864 combined (ECF 36 at 1, 9, 13; Settlement n.1). The two classes may overlap, so the combined figure may count some people twice.",
-   "settlement_structure": "Non-reversionary common fund paid on claims: $1.6M split into two separate non-reversionary funds, each paid out pro rata to approved claimants. Notice and administration costs, attorneys' fees and the service award come out of the two funds in proportion. Uncashed checks go to a second distribution if each payment would be at least $5; otherwise the money goes to a court-approved nonprofit (cy pres). The settlement has no injunctive component.",
-   "fund_amount": 1600000,
-   "payment_terms": "Pro rata share of the fund for the claimant's class, paid by Venmo, PayPal or check. Booking Fund is $931,713.50, estimated at about $71.39 per claimant assuming a 20% claims rate. Browsing Fund is $668,286.50, estimated at about $3.60 per claimant assuming a 10% claims rate. The court required these claims-rate assumptions in ECF 43. The original motion had estimated $475.93 per Booking claim and $12.02 per Browsing claim at a 3% claims rate, before costs. Claim, opt-out and objection deadline is 2026-11-24. Checks become void after 180 days.",
-   "fees_requested": "Cap is no more than one-third of the $1.6M fund (about $533,333), covering fees, costs and expenses (Settlement Agreement section 8.1; long-form notice Q13). The class representative may also get a $5,000 service award. The fee motion was due 2026-10-20 (25 days after the 2026-09-25 Notice Date). As of 2026-10-09 the CourtListener docket shows no fee motion, so no actual amount had been requested yet.",
-   "service_award": "Up to $5,000 for class representative Max Vasquez",
-   "injunctive_relief": "None. The Settlement Agreement provides only monetary relief (§ 2.1) and has no commitment to change business practices or tracking.",
-   "motion_prelim_filed": "2026-06-24",
-   "prelim_approval_date": "2026-08-26",
-   "final_hearing_date": "2026-12-03",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "Judge Pitts granted preliminary approval of the settlement, as modified by the parties' addendum, on 2026-08-26 (ECF 45), which falls inside the 2026-04-09 to 2026-10-09 window. The motion for preliminary approval was also filed in the window, on 2026-06-24 (ECF 36).",
-   "plaintiff_counsel": "Bursor & Fisher, P.A.: Philip L. Fraietta, Stefan Bogdanovich, and Kyle D. Gordon (pro hac vice). Bursor & Fisher is the appointed Class Counsel.",
-   "settlement_website": "https://www.venetianlasvegassettlement.com/",
-   "sources": [
-    {
-     "label": "CourtListener docket 5:25-cv-07934 (entries 1-45)",
-     "url": "https://www.courtlistener.com/docket/71374828/vasquez-v-venetian-las-vegas-gaming-llc/"
-    },
-    {
-     "label": "ECF 1 Complaint (Counts I § 631(a), II § 632; class definition; counsel)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.1.0.pdf"
-    },
-    {
-     "label": "ECF 36 Motion for Preliminary Approval (fund split, class sizes, § 638.51 mention only as Shah v. Fandom comparison)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.36.0.pdf"
-    },
-    {
-     "label": "ECF 43 Order re PA motion, 2026-08-14 (required modifications; set FAH 12/3/2026)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.43.0.pdf"
-    },
-    {
-     "label": "ECF 45 Order Granting Preliminary Approval as Modified, signed 2026-08-26 (class definitions, $1.6M non-reversionary fund, FAH)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.45.0.pdf"
-    },
-    {
-     "label": "Settlement Agreement (ECF 36-2) - payment terms, fee cap, service award, residual",
-     "url": "https://www.classaction.org/media/venetian-settlement.pdf"
-    },
-    {
-     "label": "Long-form notice (estimated payments, deadlines 11/24/2026, fee/service award caps)",
-     "url": "https://www.classaction.org/media/venetian-long-notice.pdf"
-    },
-    {
-     "label": "ClassAction.org news summary",
-     "url": "https://www.classaction.org/news/1.6m-venetian-las-vegas-gaming-settlement-ends-data-sharing-class-action-lawsuit"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I tried to refute the researcher's findings and could not. I read the primary documents myself. The Class Action Complaint (ECF 1, filed 2025-09-17, 49 pp.) has exactly two counts: Count I under Cal. Penal Code § 631(a) and Count II under Cal. Penal Code § 632(a). Each seeks $5,000 in statutory damages per violation. The theory is that Venetian's website let Heap, Google Analytics and the Meta Pixel intercept users' communications. I searched the full complaint text and found no reference to § 638.51, § 632.7, pen registers or trap-and-trace devices, 18 U.S.C. § 2511, ECPA, the federal Wiretap Act, Florida, or Fla. Stat. § 934. I pulled the full docket (entries 1-45) through the CourtListener API. There is no amended complaint. The motion to dismiss (ECF 14) was argued and taken under submission on 2026-01-15 (ECF 28) and was never ruled on. A notice of settlement followed (ECF 35, 2026-04-15), so no count was ever dismissed or dropped. The preliminary approval motion (ECF 36, filed 2026-06-24) describes the claims as §§ 631-632 of CIPA, and its table of authorities lists only §§ 631 and 632 as statutes at issue. Its one mention of § 638.51 cites Shah v. Fandom as a comparable settlement; it is not a claim in this case. The preliminary approval order (ECF 45, docketed 2026-08-26) states the motion is granted. I agree with the researcher on every statute. | fees_requested: Up to one-third of the $1.6M fund (about $533,333) plus costs and expenses (Settlement Agreement; long-form notice Q13). The fee motion was due by 2026-10-20, so the actual amount requested was not yet on file as of 2026-10-09.→Cap is no more than one-third of the $1.6M fund (about $533,333), covering fees, costs and expenses (Settlement Agreement section 8.1; long-form notice Q13). The class representative may also get a $5,000 service award. The fee motion was due 2026-10-20 (25 days after the 2026-09-25 Notice Date). As of 2026-10-09 the CourtListener docket shows no fee motion, so no actual amount had been requested yet. | Timing/money check (confirmed): CONFIRMED from the primary docket (CourtListener RECAP, N.D. Cal. 5:25-cv-07934-PCP, Judge P. Casey Pitts). I could not refute any of the researcher's facts.\n\n(1) Motion for preliminary approval: Dkt 36, filed 2026-06-24. It is inside the 2026-04-09 to 2026-10-09 window. The notice of settlement (Dkt 35) was filed 2026-04-15.\n\n(2) Preliminary approval: Dkt 45, filed 2026-08-26. The order says \"The Motion is GRANTED\", is signed August 26, 2026, and is titled \"as modified\".\n- The earlier Dkt 43 order (2026-08-14) did NOT grant approval. It told the parties to change the settlement first: claims-rate estimates of 10% for browsing and 20% for booking, edits to the objection and opt-out terms, and the final-approval motion due 25 days after the Notice Date.\n- The official settlement website (venetianlasvegassettlement.com, run by Epiq) and openclassactions.com both wrongly give \"August 14, 2026\" as the preliminary approval date. Use 2026-08-26, the date of the actual granting order. Both dates fall inside the window either way.\n\n(3) Final approval hearing: 2026-12-03 at 10:00 a.m. (Dkt 45 para. 25; Dkt 43). There is no final approval yet. CourtListener's last docket filing is 2026-08-26.\n\n(4) Fund: $1,600,000, non-reversionary. It is split into a $931,713.50 Booking Settlement Fund and a $668,286.50 Browsing Settlement Fund.\n\n(5) Class size: 1,031,864 confirmed. It is 35,159 booking class members plus 996,705 browsing class members (Dkt 36 at 2).\n\n(6) Fees: the settlement agreement (section 8.1) caps the request at one-third of the \"value of the Total Settlement Fund, to be paid after Settlement Administration Expenses and incentive awards are deducted\". That wording could be read as one-third of the net fund. The long-form notice says one-third of the $1.6M total. So about $533,333 is the ceiling.\n\nOther dates:\n- Notice Date: 2026-09-25 (30 days after preliminary approval).\n- Claims, opt-out and objection deadline: 2026-11-24.\n- Responses due 2026-11-12; replies due 2026-11-19.\n\nClaims are CIPA sections 631 and 632 only (no ECPA, no FSCA). Defendants are alleged to have shared data with Heap, Google and Meta. Class counsel is Bursor & Fisher. The preliminary approval motion cites a $1.2M CIPA 638.51 settlement with Fandom, Inc. that Judge Rita Lin finally approved, which may be useful for the 638.51 comparison.",
-   "open_questions": "(1) The fee motion was due 2026-10-20 and is not yet on the docket, so the actual fee and expense request is unknown; only the one-third cap is confirmed. (2) The 8/14 date one source gives is ECF 43, an order requiring changes before approval. The actual approval order is ECF 45, signed 2026-08-26. (3) The settlement website returned 403 to automated fetch, so the deadlines come from the long-form notice and ECF 45 rather than the live site. (4) The amended settlement addendum (ECF 44, filed 2026-08-25) is a scanned image with no text layer and was not read. It reportedly only revises the objection and opt-out terms and the claims-rate estimates, per ECF 43. (5) The PA motion says the mediation was \"April 9, 2025,\" which is likely a typo for 2026: the notice of settlement was filed 2026-04-15.",
-   "id": "venetian-las-vegas-vasquez"
-  },
-  {
-   "short_name": "SportsEdTV (Meta Pixel / VPPA + CIPA 631)",
-   "caption": "Balestrieri v. SportsEdTV, Inc.",
-   "defendant": "SportsEdTV, Inc.",
-   "court": "U.S. District Court, N.D. Cal. (San Francisco)",
-   "docket": "3:25-cv-04046-SK",
-   "judge": "Magistrate Judge Sallie Kim (parties consented to magistrate jurisdiction)",
-   "industry": "Online sports instructional video / streaming subscription website (media)",
-   "technology": "Meta (Facebook) Pixel on SportsEdTV.com video pages sent the subscriber's Facebook ID (c_user cookie) plus the titles of videos watched to Meta",
-   "cipa_631": "pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "not_pled",
-   "fsca": "not_pled",
-   "other_claims": "VPPA, 18 U.S.C. § 2710 (Count 1, nationwide class). Only two counts are pled; there are no UCL, CMIA, negligence, or other state-law claims. The CIPA claim is Count 2, under Cal. Penal Code § 631(a) with § 637.2 statutory damages, brought for the California subclass on an aiding-and-abetting theory (defendant enabled Facebook to wiretap). Section 638.51 is not pled.",
-   "statute_evidence": "Operative complaint is the original Class Action Complaint (ECF 1, filed 2025-05-09). No amended complaint appears on the docket, and the settlement agreement calls it the \"Operative Complaint.\" It pleads exactly two claims: (1) VPPA § 2710 and (2) Cal. Penal Code § 631(a), plus § 637.2 damages, for the CA subclass (¶¶ 36-43). The text has no § 632, § 632.7, § 638.51, 18 U.S.C. § 2511/2520, or Fla. Stat. § 934. These sources confirm it: the preliminary approval order (ECF 53, p.1: \"VPPA ... and ... CIPA, Cal. Penal Code § 631\"), the settlement agreement recitals (VPPA and CIPA § 631; a text search for 632/638/2511/Wiretap found nothing), the settlement website FAQ #3, and the cy pres stipulation (ECF 57/60). The motion to dismiss on the VPPA and CIPA claims was denied in full (ECF 27, 2025-09-16), which is useful support that a § 631 pixel claim survived Rule 12. Complaint: https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.1.0.pdf",
-   "class_definition": "Defendant's 1,264 U.S.-resident subscribers whom Defendant's records identify as having watched videos on SportsEdTV.com from 2023-05-09 to 2025-05-16. Of these, 265 are California residents and get a double share.",
-   "class_size": 1090,
-   "class_size_note": "Exact count from defendant's records, stated in the class definition (ECF 53; SA § 1.31). It includes 265 California residents (Wynne Decl. ¶ 22, cited in ECF 53).",
-   "settlement_structure": "Non-reversionary common fund, claims-made with pro rata distribution. Fees, costs, service award and administration (Simpluris, fee capped at $15,200) are paid from the fund. Any fees the court does not award go back to the class. Uncashed or failed payments are redistributed if each member would get at least $10; otherwise they go to cy pres (Privacy Rights Clearinghouse, approved by ECF 60 on 2026-08-25). There is no clear-sailing clause.",
-   "fund_amount": 500000,
-   "payment_terms": "Valid claimants share the net fund pro rata, and California members get twice the pro rata share because of the additional CIPA claim. The net fund is estimated at about $349,800. Split into pools of about $228,548.19 for non-CA members and $121,251.79 for CA members. At 100% participation that is $457.55 per CA member and $228.77 per non-CA member (ECF 53 p.11-12). Actual payments will be higher because not everyone will claim. Payment is by check, Venmo, Zelle or PayPal about 15 days after the Effective Date, and checks go void after 90 days. For context, ECF 53 puts defendant's exposure at $3,497,000 for non-CA members and $1,325,000 for CA members.",
-   "fees_requested": "ECF 56 (filed 2026-08-19) asks for $125,000 in fees, which is 25% of the $500,000 fund, plus $10,000 in litigation costs and a $10,000 service award. These are the maximums SA § 7.1 and § 7.3 allow. Nothing has been awarded yet. The fee motion will be heard with final approval on 2027-02-08.",
-   "service_award": "Up to $10,000 for class representative Nick Balestrieri (SA § 7.3; ECF 53 p.10), requested in ECF 56. Not yet awarded.",
-   "injunctive_relief": "Defendant has deactivated the Meta Pixel on its website, so no user information (PII or not) goes to Facebook. It also will not knowingly share video-viewing PII with third parties except as the VPPA permits. This lasts until the VPPA is amended, repealed or invalidated. For customers with California addresses, it also lasts until Cal. Civ. Code § 1799.3 and/or CIPA are amended, repealed or invalidated (SA § 2.2).",
-   "motion_prelim_filed": "2026-04-01",
-   "prelim_approval_date": "2026-06-26",
-   "final_hearing_date": "2027-02-08",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The order granting class certification and preliminary approval (ECF 53) was entered 2026-06-26, inside the 2026-04-09 to 2026-10-09 window. The prelim motion itself was filed 2026-04-01, just before the window.",
-   "plaintiff_counsel": "Edward J. Wynne and George R. Nemiroff (Wynne Law Firm, Larkspur CA); James F. Clapp and Jamie Herrick (Clapp Legal APC, Carlsbad CA). Defense counsel: Peter Chu, Jura C. Zibas and Margo A. Crawford (Wilson Elser).",
-   "settlement_website": "https://sportsedtvsettlement.com/",
-   "sources": [
-    {
-     "label": "CourtListener docket (RECAP) - Balestrieri v. SportsEdTV, 3:25-cv-04046",
-     "url": "https://www.courtlistener.com/docket/70238631/balestrieri-v-sportsedtv-inc/"
-    },
-    {
-     "label": "Complaint, ECF 1 (VPPA + CIPA § 631(a))",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.1.0.pdf"
-    },
-    {
-     "label": "Order denying MTD and transfer, ECF 27 (2025-09-16)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.27.0.pdf"
-    },
-    {
-     "label": "Notice of motion for preliminary approval, ECF 45 (2026-04-01)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.45.0.pdf"
-    },
-    {
-     "label": "Order granting class cert and preliminary approval, ECF 53 (2026-06-26)",
-     "url": "https://www.courtlistener.com/docket/70238631/53/balestrieri-v-sportsedtv-inc/"
-    },
-    {
-     "label": "Stipulated settlement timeline, ECF 54 (approved ECF 55, 2026-07-13)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.54.0.pdf"
-    },
-    {
-     "label": "Order designating cy pres recipient, ECF 60 (2026-08-25)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.60.0.pdf"
-    },
-    {
-     "label": "Settlement Agreement (Simpluris)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/SBC4/SETTLEMENT_AGREEMENT"
-    },
-    {
-     "label": "Official settlement website - FAQ and dates",
-     "url": "https://sportsedtvsettlement.com/faq/"
-    },
-    {
-     "label": "ClassAction.org news item",
-     "url": "https://www.classaction.org/news/500k-sportsedtv-settlement-resolves-class-action-lawsuit-over-alleged-video-privacy-violations"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's finding. I downloaded the complaint (ECF 1, 10 pp., filed 5/9/2025) and extracted its text myself. It pleads exactly two claims. The First Claim for Relief is VPPA, 18 U.S.C. § 2710, for the nationwide Class. The Second Claim for Relief is CIPA for the CA Subclass (¶¶ 36-43). It quotes § 631(a), alleges the Facebook pixel was used to \"wiretap\" Subclass members, and ¶ 43 seeks $5,000 per violation under § 637.2 for violations of \"section 631(a)\". A text search of the complaint found no 632, 632.7, 638, 2511, 2520, \"Wiretap Act\", ECPA, or Fla. Stat. 934. The only federal statute is the VPPA, which is not the Wiretap Act.\n\nI pulled the full docket (ECF 1-60) through the CourtListener v4 API. There is no amended complaint. Defendant filed an \"ANSWER to Complaint\" (ECF 31, 10/9/2025) after the MTD denial (ECF 27, 9/16/2025), so ECF 1 is the operative complaint and no count was dropped.\n\nThe preliminary approval order (ECF 53, filed 6/26/2026, p.1) independently describes the claims as VPPA § 2710 and CIPA, Cal. Penal Code § 631, citing Dkt. No. 1.\n\nOne small correction to the researcher: the ECF 54 PDF is the stipulation regarding settlement timeline (filed 7/10/2026), not a document listing the claims. This does not affect the result. I agree with every statute value: 631 pled; 632, 632.7, 638.51, ECPA/Wiretap and FSCA not pled. | fees_requested: SA § 7.1 allows class counsel up to 25% of the fund ($125,000) plus up to $10,000 in costs, and ECF 53 says counsel requests 25%. The fee, cost and service-award motion was filed 2026-08-19 (ECF 56). That PDF is not on RECAP, so the exact amount requested was not seen. Nothing has been awarded yet; the motion is set for hearing 2027-02-08.→ECF 56 (filed 2026-08-19) asks for $125,000 in fees, which is 25% of the $500,000 fund, plus $10,000 in litigation costs and a $10,000 service award. These are the maximums SA § 7.1 and § 7.3 allow. Nothing has been awarded yet. The fee motion will be heard with final approval on 2027-02-08. | class_size: 1264→1090 | Timing/money check (confirmed): CONFIRMED. Two qualifying events fall inside the 2026-04-09 to 2026-10-09 window. I checked both against the CourtListener docket (70238631; N.D. Cal. 3:25-cv-04046-SK, Mag. J. Sallie Kim).\n(1) The preliminary approval motion, ECF 45, was filed 2026-04-01. That is 8 days before the window opens, so it does not qualify on its own.\n(2) The order granting class certification and preliminary approval, ECF 53, was signed and entered 2026-06-26. This is the in-window event.\nThe motion was heard on 2026-05-11 (ECF 50). The court posted questions beforehand (ECF 47). The case settled at mediation with Michael Sweet on 2026-02-16 (ECF 42).\nFINAL HEARING: 2027-02-08 at 9:30 a.m. by Zoom. ECF 53 set it. The 2026-07-10 timeline stipulation (ECF 54) and the 2026-07-13 order granting it (ECF 55) kept the date. The settlement website agrees: opt-out and objection deadlines 2026-09-25, claim deadline 2027-02-08. There is no final approval yet. The court also appointed a cy pres recipient by order on 2026-08-25 (ECF 60).\nFUND: ECF 53 and the SA confirm a $500,000 non-reversionary fund (SA § 1.33). The estimated net fund is about $349,800. Defendant sent the fund to Simpluris on 2026-05-18 (ECF 56 at 9). Simpluris's fee is capped at $15,200.\nCORRECTION, class size: changed from 1,264 to 1,090. The 1,264 figure (ECF 53, of which 265 were California residents) was the preliminary estimate. The fee motion (ECF 56 at 9, n.1) says defense counsel found that estimate too high: it was run on 2025-10-25, but the pixel came off the site on 2025-05-16. The revised count is 1,090: 73 known California residents, 761 known non-California, and 256 of unknown residence.\nCORRECTION, fees: the researcher said ECF 56 was not available, but the settlement website posts it (https://cw.simpluris.com/docs/public/downloads/SBC4/PLAINTIFFS_MOTION_FOR_ATTORNEYS_FEES_COSTS_AND_SERVICE_AWARD). It confirms the request is $125,000 (25%) in fees, $10,000 in costs and a $10,000 service award.\nCLAIMS: VPPA (18 U.S.C. § 2710) for the nationwide class, plus CIPA Penal Code § 631(a) for a California subclass (Meta pixel). There is no ECPA, CIPA § 632 or FSCA count. The § 631(a) claim meets the user's CIPA 631 filter.\nPer-person figures at 100% participation, from ECF 56: about $601.54 per California member and about $300.77 per non-California member. ECF 56 puts the recovery at about 12% of statutory exposure ($5,000 per person under CIPA, $2,500 under VPPA).",
-   "open_questions": "(1) Claims deadline conflict: the stipulated timeline (ECF 54/55) gives the claims deadline as 2026-09-10, but the settlement website now lists 2027-02-08 (same day as the final approval hearing). The deadline may have been extended; nothing on the RECAP docket through ECF 60 confirms it. (2) The exact amounts requested in the fee motion (ECF 56, filed 2026-08-19) were not seen because the PDF is not on RECAP. The settlement agreement caps fees at 25% ($125K) plus $10K costs and the service award at $10K. (3) No claims rate or final per-claimant payment yet; the $457.55 / $228.77 figures assume 100% participation. (4) No final approval yet; the hearing is 2027-02-08.",
-   "id": "sportsedtv-meta-pixel-vppa-cipa-631"
-  },
-  {
-   "short_name": "Dental Intelligence (LocalMed)",
-   "caption": "Victoria Grivetti, Julie Bell, and Equila Jackson v. Dental Intelligence, Inc. (originally captioned Allison Theys et al. v. Dental Intelligence, Inc., et al.)",
-   "defendant": "Dental Intelligence, Inc. (LocalMed scheduling portal). The earlier pleadings also named clinic defendants: Dental Dreams, Familia Dental, and Familia Dental West Green Bay. The operative SAC names only Dental Intelligence.",
-   "court": "U.S. District Court, Northern District of Illinois (Eastern Division)",
-   "docket": "1:25-cv-02464",
-   "judge": "Hon. Lindsay C. Jenkins (Magistrate Judge Beth W. Jantz)",
-   "industry": "Healthcare / dental: practice-management SaaS and an online appointment-scheduling portal embedded on dental clinic websites",
-   "technology": "Google tracking and analytics tools (\"Pixels\") on the LocalMed appointment-scheduling portal. The complaint alleges they sent patients' names, phone numbers, provider names, appointment reasons, and insurance carriers to Google.",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "The operative SAC (ECF 90) has three counts: common-law invasion of privacy (Count I), negligence (Count II), and ECPA (Count III). Earlier pleadings were superseded. The original complaint (ECF 1) also pled breach of confidence, breach of fiduciary duty, breach of implied contract, unjust enrichment, the Illinois Eavesdropping Statute (720 ILCS 5/14-1), the Wisconsin Wiretap Act (Wis. Stat. 968.31), and the Maryland Wiretapping and Electronic Surveillance Act. The FAC (ECF 53) pled invasion of privacy, negligence, implied contract, unjust enrichment, ECPA (Count V), and the Wisconsin and Maryland wiretap acts. In the 2026-03-06 MTD ruling (ECF 84/85), the court dismissed the Wisconsin and Maryland plaintiffs' claims against Dental Intelligence for lack of personal jurisdiction. The ECPA claims of the Illinois plaintiffs survived against Dental Intelligence. The release expressly covers ECPA and HIPAA-based claims.",
-   "statute_evidence": "I read the Second Amended Class Action Complaint (ECF 90, filed 2026-03-27). The settlement agreement (para. 10(i)) defines it as the operative complaint. Its counts are: Count I, common-law invasion of privacy; Count II, negligence; Count III, ECPA, 18 U.S.C. § 2511(1)(a), (c), (d), with § 2520. A text search found no Cal. Penal Code 631/632/632.7/638.51 and no Fla. Stat. 934 anywhere in the SAC. The RECAP text is at https://www.courtlistener.com/docket/69718056/90/allison-theys-v-dental-intelligence-inc/. The settlement agreement release (ECF 102-2) separately names ECPA, negligence, and invasion of privacy as the asserted claims.",
-   "class_definition": "All natural persons in the U.S. who used the LocalMed Portal to schedule, modify, or re-schedule an appointment between March 2022 and June 2025 and whose Personal/Private Dental Information was allegedly disclosed or transmitted to Google or another unauthorized third party. Only users of specific portal configurations are included. Released Parties and court personnel are excluded.",
-   "class_size": 1079483,
-   "class_size_note": "Exact figure. Settlement Agreement para. 10(ii) says Dental Intelligence provided documentation showing 1,079,483 Settlement Class Members.",
-   "settlement_structure": "Non-reversionary common fund, claims-made, pro rata. Defendant pays $400,000 for notice and administration within 30 days of preliminary approval and the remaining $5,350,000 within 14 days of the Effective Date. Uncashed funds go cy pres to a 501(c)(3) the parties agree on and the court approves.",
-   "fund_amount": 5750000,
-   "payment_terms": "Each valid claimant gets an equal pro rata share of the net fund after notice and administration costs, litigation expenses, service awards, and court-awarded fees. Payment is by check or electronic payment (Venmo, PayPal, prepaid card). Checks expire after 120 days. Claims are due 2027-01-25. Opt-outs and objections are due 2026-12-28. No per-claimant estimate appears in the documents reviewed.",
-   "fees_requested": "Not yet filed. Settlement Agreement para. 59 caps the request at one-third of the Net Settlement Fund plus reasonable expenses and costs. The Net Settlement Fund is the fund after notice and administration costs, litigation expenses, and service awards. The court set the fee and final-approval motion deadline at 2027-02-08 (ECF 103/104).",
-   "service_award": "Up to $5,000 for each of the 3 class representatives (Grivetti, Bell, Jackson), $15,000 total maximum. Not yet requested or awarded.",
-   "injunctive_relief": "Business-practice changes (Agreement para. 21): Dental Intelligence removed the Google tracking technology from the LocalMed Portal, then decommissioned the portal and took it offline. Class counsel must verify this before the final-approval motion.",
-   "motion_prelim_filed": "2026-09-23",
-   "prelim_approval_date": "2026-09-24",
-   "final_hearing_date": "2027-03-25",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "Judge Jenkins granted preliminary approval on 2026-09-24 by minute entry ECF 103 and Preliminary Approval Order ECF 104. That date is inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Siri & Glimstad LLP (Tyler J. Bean, Sonjay C. Singh), appointed Settlement Class Counsel. Defense counsel: Weil, Gotshal & Manges LLP (David Yohai, David Singh, Blake Steinberg).",
-   "settlement_website": "Not yet live. The administrator, Simpluris, must launch it by the 2026-10-27 Notice Commencement Date. The URL is not stated in the agreement or the order.",
-   "sources": [
-    {
-     "label": "Preliminary Approval Order, ECF 104 (2026-09-24)",
-     "url": "https://www.courtlistener.com/docket/69718056/104/allison-theys-v-dental-intelligence-inc/"
-    },
-    {
-     "label": "Minute entry granting prelim approval and setting FAH 2027-03-25, ECF 103",
-     "url": "https://www.courtlistener.com/docket/69718056/103/allison-theys-v-dental-intelligence-inc/"
-    },
-    {
-     "label": "Settlement Agreement, ECF 102-2 (2026-09-23)",
-     "url": "https://www.courtlistener.com/docket/69718056/102/2/allison-theys-v-dental-intelligence-inc/"
-    },
-    {
-     "label": "Second Amended Class Action Complaint (operative), ECF 90 (2026-03-27)",
-     "url": "https://www.courtlistener.com/docket/69718056/90/allison-theys-v-dental-intelligence-inc/"
-    },
-    {
-     "label": "MTD minute order ECF 84 / Mem. Op. ECF 85 (2026-03-06)",
-     "url": "https://www.courtlistener.com/docket/69718056/85/allison-theys-v-dental-intelligence-inc/"
-    },
-    {
-     "label": "First Amended Complaint ECF 53 (Wisconsin/Maryland wiretap counts)",
-     "url": "https://www.courtlistener.com/docket/69718056/53/allison-theys-v-dental-intelligence-inc/"
-    },
-    {
-     "label": "Original Complaint ECF 1",
-     "url": "https://www.courtlistener.com/docket/69718056/1/allison-theys-v-dental-intelligence-inc/"
-    },
-    {
-     "label": "CourtListener docket",
-     "url": "https://www.courtlistener.com/docket/69718056/allison-theys-v-dental-intelligence-inc/"
-    },
-    {
-     "label": "Open Class Actions summary",
-     "url": "https://openclassactions.com/settlements/pixel-tracking/dental-intelligence-localmed-privacy-class-action-settlement.php"
-    },
-    {
-     "label": "Becker's Dental report",
-     "url": "https://www.beckersdental.com/dental-technology/dental-intelligence-agrees-to-settle-class-action-privacy-lawsuit-for-5-75m/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): My review agrees with the researcher on every statute. I could not refute the claim.\n\nOperative complaint: the Second Amended Complaint (ECF 90, filed 3/27/2026; RECAP doc 473887800). Count III is ECPA, 18 U.S.C. § 2511(1), et seq. It pleads § 2511(1)(a), (c) and (d), raises the crime-tort exception under § 2511(2)(d), and seeks damages under § 2520 on behalf of a nationwide class or, alternatively, an Illinois subclass. The other two counts are common-law invasion of privacy and negligence.\n\nWhat text searches of the SAC found:\n- \"Penal\" appears only in a HIPAA sentence.\n- \"California\", \"Florida\" and \"934\" have no matches.\n- So CIPA §§ 631, 632, 632.7 and 638.51 and Fla. Stat. § 934 are absent.\n\nSettlement agreement (ECF 102-2, RECAP 494958790):\n- Para. (i) defines the \"Complaint\" as the operative SAC at Dkt. 90.\n- The release names ECPA, common-law negligence and invasion of privacy as the claims asserted.\n- It does not mention \"Penal\" or \"934\".\n\nAmendment history:\n- The First Amended Complaint (ECF 53) had ECPA as Count V. It also pled the Wisconsin Wiretap Act (Wis. Stat. 968.31), the Maryland wiretap act (MWESA), breach of implied contract and unjust enrichment, against several dental-provider defendants. None of those are target statutes. The SAC dropped them and named only Dental Intelligence as the defendant.\n- The MTD opinion (ECF 85, 3/6/2026) let the ECPA claim of Grivetti, Bell and Jackson proceed against Dental Intelligence. It relied on the crime-tort exception because a HIPAA disclosure was plausibly alleged. So ECPA was a live, surviving claim at the time of settlement.\n- The FAC also had no California or Florida references.\n\nECPA is the only target statute pled. There are no CIPA or FSCA claims. | fees_requested: Not yet filed. Under Settlement Agreement para. 59, counsel will seek no more than one-third of the Net Settlement Fund plus reasonable expenses. The Net Settlement Fund is defined as the fund after administration costs, litigation expenses, and service awards. The fee and final-approval motion is due 2027-02-08 under ECF 103/104.→Not yet filed. Settlement Agreement para. 59 caps the request at one-third of the Net Settlement Fund plus reasonable expenses and costs. The Net Settlement Fund is the fund after notice and administration costs, litigation expenses, and service awards. The court set the fee and final-approval motion deadline at 2027-02-08 (ECF 103/104). | Timing/money check (confirmed): I tried to refute this and could not. Every in-window event is confirmed by primary docket documents (N.D. Ill. 1:25-cv-02464, Judge Lindsay C. Jenkins).\n\n(1) Prelim approval motion filed 2026-09-23 (ECF 102). The attached Settlement Agreement (ECF 102-2) is stamped \"Filed: 09/23/26\". The day before, ECF 99 (filed 2026-09-22) asked for extra pages for this motion, and ECF 100 (2026-09-23) granted it.\n\n(2) Prelim approval granted 2026-09-24 in two filings:\n- Minute entry ECF 103, which grants ECF 102 and sets the final approval hearing for 2027-03-25 at 9:15 am in Courtroom 2119.\n- Separate Preliminary Approval Order ECF 104, \"so ordered this 24th day of September 2026\".\nParagraph 5 of ECF 104 still leaves the hearing date blank (\"____, 2026\"). Paragraph 20 and ECF 103 both fill it in as 2027-03-25.\n\n(3) Other deadlines in ECF 104 para. 20:\n- Notice starts: 2026-10-27\n- Opt-out and objection deadline: 2026-12-28\n- Claim form deadline: 2027-01-25\n- Final approval and fee motion due: 2027-02-08\n- Replies due: 2027-03-10\nNo final approval yet. The case is not terminated; the last filing is 2026-09-24.\n\n(4) Money:\n- The Settlement Agreement defines a non-reversionary $5,750,000 Settlement Fund. Defendant pays $400,000 after preliminary approval and the remaining $5,350,000 within 14 days after the Effective Date.\n- The agreement states that defendant documented 1,079,483 Settlement Class Members.\n- Payments are pro rata to valid claimants.\n- Service awards are capped at $5,000 per class representative.\n- Administrator: Simpluris. Class counsel: Tyler J. Bean and Sonjay C. Singh of Siri & Glimstad.\n\n(5) Inconsistency in the papers: SA para. 59 says the fee application is due 14 days before the Objection Deadline, which would be about 2026-12-14. The court's order instead sets 2027-02-08, after the 2026-12-28 objection deadline. The court order controls, but the timing could matter if anyone objects.\n\n(6) Claim fit for the user's criteria: the operative Second Amended Complaint (ECF 90, filed 2026-03-27) pleads three counts:\n- Count I: common-law invasion of privacy\n- Count II: negligence\n- Count III: ECPA, 18 U.S.C. § 2511(1)\nSo it qualifies under federal wiretap/ECPA. It has no CIPA 631/632 or Florida FSCA count. Earlier versions included Wisconsin and Maryland wiretap claims against clinic defendants. The ECF 85 order dismissed the Wisconsin and Maryland plaintiffs' claims against Dental Intelligence for lack of personal jurisdiction, and the clinic defendants were later dropped.\n\nThe settlement class covers people nationwide who used the LocalMed Portal to book appointments between March 2022 and June 2025 and whose dental information was allegedly disclosed to Google or other third parties. I found no corrections to the researcher's fields; every value matches the primary sources.",
-   "open_questions": "(1) The settlement website URL is not yet known; it is due 2026-10-27. (2) The agreement's timing and the order's timing for the fee and service-award application conflict. Agreement paras. 57 and 59 say 14 days before the objection deadline, which is about 2026-12-14. The order sets 2027-02-08, after the 2026-12-28 objection deadline. This could draw an objection about timing the fee motion before objections. (3) No per-claimant estimate is available yet; it depends on the claims rate. (4) The prelim approval brief (ECF 102 main document) and the Singh declaration were not available on RECAP, so the damages analysis and any valuation of ECPA statutory damages were not reviewed. (5) No CIPA, 638.51, or FSCA claims were pled. The case supports the ECPA-only comparison set, a healthcare pixel/Google Analytics case at about $5.33 per class member.",
-   "id": "dental-intelligence-localmed"
-  },
-  {
-   "short_name": "Q.J. v. PowerSchool (Naviance / Heap)",
-   "caption": "Q.J., individually and on behalf of all others similarly situated v. PowerSchool Holdings LLC; Hobsons, Inc. (a/k/a Hobsons Educational Services, Inc.); Heap Inc.; Board of Education of the City of Chicago (Chicago Public Schools); et al.",
-   "defendant": "PowerSchool Holdings LLC; Hobsons, Inc.; Heap Inc. (Contentsquare); Board of Education of the City of Chicago",
-   "court": "U.S. District Court, Northern District of Illinois (Eastern Division)",
-   "docket": "1:23-cv-05689",
-   "judge": "Hon. Jorge L. Alonso (Magistrate Judge Daniel P. McLaughlin)",
-   "industry": "EdTech / K-12 education (college and career planning platform used by schools)",
-   "technology": "Heap session analytics (keystrokes, clicks, mouse movements, counselor messages) embedded in Naviance student platform; also Google, Microsoft, Hotjar and Gainsight analytics code",
-   "cipa_631": "pled",
-   "cipa_632": "pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Stored Communications Act 18 U.S.C. 2702(a)(1) (Count 9, pled in the alternative); Illinois Eavesdropping Act 720 ILCS 5/14-1 (Count 10); Illinois School Student Records Act (ISSRA) (Count 14); 42 U.S.C. 1983 Fourth/Fourteenth Amendment, conspiracy and Monell policy-and-practice claims (Counts 2-6, dismissed 8/20/2025); intrusion upon seclusion (Count 11); breach of contract, third-party beneficiary (Counts 12-13); unjust enrichment; respondeat superior (Counts 16-19). FERPA is cited as a confidentiality predicate but is not a standalone count.",
-   "statute_evidence": "First Amended Class Action Complaint (redacted), ECF 119, filed 2025-01-13 (RECAP: https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.119.0.pdf). Count One is ECPA 18 U.S.C. 2511(1)(a),(d) with 2520 remedies, against PowerSchool, Hobsons, Heap and CPS. Count Seven is CIPA Cal. Penal Code 631, against PowerSchool, Heap and CPS. Count Eight is CIPA 632, against Heap. I reviewed all counts, and none cites 632.7, 638.51 or FSCA. The 8/20/2025 MTD order (ECF 178) dismissed Heap for lack of personal jurisdiction (Heap later rejoined for settlement purposes) and dismissed the 1983 claims. It denied dismissal of the ECPA, CIPA, IEA and ISSRA claims against PowerSchool and CPS.",
-   "class_definition": "All persons in the U.S. who, while a student, logged into Naviance (Hobsons, later PowerSchool) at least once from 2021-08-18 through 2026-01-23, including periods when Heap or other third-party analytics were embedded. Nationwide Rule 23(b)(3) settlement class.",
-   "class_size": 10342745,
-   "class_size_note": "Approximate. The figure comes from the per-class-member comparison table in the preliminary approval motion (ECF 212). The motion also says PowerSchool \"identified over 10 million potential individuals\" (Drury Decl. para. 16). It counts identified potential class members, not claimants.",
-   "settlement_structure": "Non-reversionary common fund (claims-made pro rata distribution) plus injunctive relief. PowerSchool pre-funded $5M, and Defendants pay the remaining $12.25M later. Residual from uncashed checks is redistributed if each class member would get at least $5; otherwise it goes cy pres to the Electronic Frontier Foundation.",
-   "fund_amount": 17250000,
-   "payment_terms": "Each approved claimant gets an equal pro rata share of the net fund after administration expenses, the fee award and the service award. Payment is by check, PayPal, Venmo or Zelle, within 45 days after the Effective Date, and checks are void after 180 days. The preliminary approval motion estimated about $1.67 per class member and per-claimant payouts of about $49.43 at a 2% claims rate, $24.71 at 4% and $14.12 at 7%. The claims deadline was 2026-07-27 and the opt-out/objection deadline was 2026-07-13. Actual per-claimant amounts have not been published.",
-   "fees_requested": "Fees requested: $5,318,767. That is 37% of the net fund (after administration expenses and the service award), or about 30.8% of the $17.25M gross fund (ECF 243 at 8-9, 29). No litigation costs were sought. Plaintiff also asked for a $5,000 service award. The fee motion (ECF 237, filed 2026-06-29) was granted on 2026-08-19 (ECF 244). Because ECF 243 says the request was fixed at $5,318,767, the award is presumably that amount. The separate Final Judgment Order was not reviewed to confirm the exact figure.",
-   "service_award": "Up to $5,000 to class representative Q.J. (Agreement para. 8.3). Reported granted 2026-08-19; the amount awarded was not verified.",
-   "injunctive_relief": "PowerSchool creates a Web Governance Committee within 30 days of final judgment. For 2 years it will not use third-party code in Naviance (Heap, Google, Microsoft, Hotjar, Gainsight, etc.) unless the committee finds it lawful; data subprocessors such as AWS, Azure and Snowflake are excepted. PowerSchool supplements the Naviance privacy statement to disclose third-party analytics and ad tech, and posts a privacy banner on student.naviance.com and powerschool.com for 9 months. PowerSchool instructs Heap, Google, Microsoft and Hotjar to delete class members' data within 10 days of final judgment. Heap deletes primary data within 10 days and backups within 30 days. CPS revises its third-party student-data contract terms for up to 4 years and requires annual vendor compliance attestations under penalty of perjury (ISSRA, FERPA, PPRA, SOPPA, ECPA, Illinois Eavesdropping Act).",
-   "motion_prelim_filed": "2026-02-23",
-   "prelim_approval_date": "2026-03-26",
-   "final_hearing_date": "2026-08-19",
-   "final_approval_date": "2026-08-19",
-   "status": "Final approval",
-   "window_basis": "Final approval was granted on 2026-08-19 at the final approval hearing. The source is ECF 244, a minute entry the RECAP docket titles \"Order on Motion for Attorney Fees AND Order on Motion for Miscellaneous Relief,\" which secondary sources describe as granting final approval, fees and the service award. That date is inside the 2026-04-09 to 2026-10-09 window. All preliminary approvals came before the window: 2/25/2026 (ECF 218), amended 2/27/2026 (ECF 219), and the amended agreement on 3/26/2026 (ECF 227).",
-   "plaintiff_counsel": "Scott R. Drury, Drury Legal, LLC (Highwood, IL), appointed Class Counsel",
-   "settlement_website": "https://powerschoolnaviancesettlement.com (Kroll Settlement Administration LLC)",
-   "sources": [
-    {
-     "label": "First Amended Class Action Complaint, ECF 119 (RECAP PDF)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.119.0.pdf"
-    },
-    {
-     "label": "Order Preliminarily Approving Amended Settlement, ECF 227 (class definition, Class Counsel, FAH 8/19/2026)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.227.0.pdf"
-    },
-    {
-     "label": "Amended Settlement Agreement and notices, ECF 222-1 (fund, payment terms, injunctive relief, fee cap, service award)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.222.1_1.pdf"
-    },
-    {
-     "label": "Preliminary approval motion, ECF 212 (class size 10,342,595; per-claimant estimates)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.212.0.pdf"
-    },
-    {
-     "label": "MTD Memorandum Opinion and Order, ECF 178 (8/20/2025)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.178.0.pdf"
-    },
-    {
-     "label": "CourtListener docket (ECF 237 fee motion 6/29/26; ECF 243 motion 8/12/26; ECF 244 order 8/19/26)",
-     "url": "https://www.courtlistener.com/docket/67706871/qj-v-powerschool-holdings-llc/"
-    },
-    {
-     "label": "Official settlement website FAQ (deadlines; FAH held 8/19/2026)",
-     "url": "https://powerschoolnaviancesettlement.com/faq"
-    },
-    {
-     "label": "Settlement Insight (reports FA granted 8/19/2026; fee request up to $6,382,500)",
-     "url": "https://settlementinsight.com/powerschool-naviance-lawsuit"
-    },
-    {
-     "label": "Harm Report (administrator lists minute order granting FA, fees, service award)",
-     "url": "https://www.harmreport.com/news/powerschool-naviance-settlement-final-approval/"
-    },
-    {
-     "label": "ClassAction.org news article",
-     "url": "https://www.classaction.org/news/17.25m-powerschool-settlement-resolves-class-action-over-alleged-interception-of-confidential-student-communications"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's findings. I downloaded and text-searched the First Amended Class Action Complaint (ECF 119, the redacted version, filed 1/13/2025). Its headings match the researcher's account. Count One is ECPA, 18 U.S.C. 2511(1)(a) and (d), against PowerSchool, Hobsons, Heap and CPS for the Nationwide Class and the Naviance Subclass. Count Seven is CIPA Cal. Penal Code 631 against PowerSchool, Heap and CPS. Count Eight is CIPA 632 against Heap only. A full-text search found no mention of 632.7, 638.51/638.5, pen register, trap and trace, Fla. Stat. 934 or Florida.\n\nThe FAC is still the operative complaint. I pulled the docket entries through the CourtListener API. There is no second amended complaint, and PowerSchool, Hobsons and CPS answered the amended complaint on 9/3/2025 (ECF 179 and 180).\n\nThe Amended Settlement Agreement (ECF 222-1, filed 3/23/2026) supports this. Its recitals say the FAC alleged ECPA 2511(a) and CIPA claims, and its release and notice language names ECPA 2511(a) and CIPA 631-632. It also refers to a related case, I.J. v. Heap (S.D.N.Y., filed 9/11/2025), which pleads ECPA, CIPA and IEA and is being settled individually.\n\nMinor points:\n- The settlement agreement cites the FAC as Dkt. 118. That is the sealed version; 119 is the public redacted copy of the same complaint.\n- Heap was dismissed for lack of personal jurisdiction on 8/20/2025 (ECF 178), so after that date the 632 count stood only against a dismissed defendant. Heap's dismissal was vacated for settlement on 1/27/2026 (ECF 206). That does not change what was pled.\n- Preliminary approval of the amended settlement was granted on 3/26/2026 (ECF 227). An earlier preliminary approval order was entered 2/25/2026 (ECF 218) and amended 2/27/2026 (ECF 219). | fees_requested: The fee motion was filed 2026-06-29 (ECF 237). The settlement caps the request at 37% of the fund net of administration expenses, litigation expenses and the service award, plus litigation costs. A secondary source reports up to $6,382,500 requested (37% of the gross fund). The court ruled on the fee motion 2026-08-19 (ECF 244); the amount awarded was not verified.→Fees requested: $5,318,767. That is 37% of the net fund (after administration expenses and the service award), or about 30.8% of the $17.25M gross fund (ECF 243 at 8-9, 29). No litigation costs were sought. Plaintiff also asked for a $5,000 service award. The fee motion (ECF 237, filed 2026-06-29) was granted on 2026-08-19 (ECF 244). Because ECF 243 says the request was fixed at $5,318,767, the award is presumably that amount. The separate Final Judgment Order was not reviewed to confirm the exact figure. | class_size: 10342595→10342745 | Timing/money check (confirmed): CONFIRMED: the in-window event is final approval. ECF 244 is a minute entry by Judge Alonso dated 2026-08-19, downloaded from the official Kroll settlement site. It records that the in-court settlement approval hearing was held, the final approval motion (ECF 243, filed 2026-08-12) was granted, the fee and service award motion (ECF 237) was granted, the Final Judgment Order was entered and the case was terminated. The CourtListener docket (67706871) also lists ECF 244 on 2026-08-19 as an order on the fee motion and the misc-relief motion.\n\nThe preliminary-approval steps all fall BEFORE the 2026-04-09 window:\n- Original prelim motion: ECF 212, filed 2026-02-23. Researcher's date is correct for the original motion.\n- Original prelim approval: granted 2026-02-25 (ECF 217 minute entry, ECF 218 order). An amended order followed on 2026-02-27 (ECF 219). That first round set the final hearing for 2026-06-10.\n- Amended settlement: prelim motion ECF 222, filed 2026-03-23. Granted 2026-03-26 (ECF 226 and the ECF 227 order), and the final hearing was moved to 2026-08-19 at 11:00 a.m.\nSo the researcher's prelim approval date of 2026-03-26 is the operative one for the amended settlement. The record should still note the earlier 2026-02-25 approval and that the amended motion was filed 2026-03-23.\n\nCORRECTIONS:\n(1) Class size: the final approval motion (ECF 243, citing Peak Decl. ¶9) says the class list had 10,342,745 unique members, plus 9,003,420 parents/guardians. The researcher's 10,342,595 comes from the original prelim motion (ECF 212, comparison table). I used the later administrator figure.\n(2) Fees: the secondary-source figure of \"$6,382,500 (37% of gross)\" is wrong. The actual request was $5,318,767 (37% of net, about 30.8% of gross), with no costs sought, and the court granted the fee motion.\n\nOther verified facts:\n- Fund: $17,250,000, non-reversionary (ECF 243; settlement site).\n- Claims rate: about 7.55% (780,853 claims). The notice plan reached about 90% of the class. There were 56 opt-outs and 5 objectors. The estimated payment per claimant is about $11.62.\n- Administration cost cap was cut from $2,874,953.60 to $2,849,953.60.\n- Claims released include ECPA 18 USC 2511, CIPA 631-632, the Illinois Eavesdropping Act, the SCA, ISSRA and common law, so the case fits the user's CIPA 631/632 and ECPA criteria.\n- Key deadlines: exclusion and objection 2026-07-13, claims 2026-07-27.\n\nHow I checked: the official site is behind Cloudflare, so I read it with Playwright. The FAQ and Documents pages list the \"Minute Order - Granting FA and Fees and Service Award\" and show that the hearing was held 2026-08-19. Dates came from CourtListener docket entries 200-244. The Final Judgment Order itself is not yet on RECAP.",
-   "open_questions": "1) I did not see the text of ECF 244 (the 8/19/2026 minute order). Final approval on 8/19/2026 rests on the RECAP entry title (it rules on the fee motion and the 8/12 motion ECF 243, likely the final approval motion) plus several secondary sources. Whether a separate final judgment was entered, and on what date, is unverified, and entries 238, 239 and 241 are missing from RECAP. 2) The fee and service award amounts actually awarded are unverified, and the $6,382,500 request figure comes only from a secondary source. Buying ECF 237 and 244 on PACER would confirm both. 3) The number of claims filed and the final per-claimant payment are unknown. 4) The case hints mentioned 632.7, but the operative complaint (ECF 119) has no 632.7 count; I set it to not_pled. 5) Heap was dismissed for lack of personal jurisdiction (8/20/2025) and rejoined only by consent for settlement. 6) The settlement website's documents page was blocked by Cloudflare, so I relied on the RECAP copies of the agreement and orders.",
-   "id": "q-j-v-powerschool-naviance-heap"
-  },
-  {
-   "short_name": "Polk v. American Well (LiveHealth Online)",
-   "caption": "Virginia Polk, individually and on behalf of all others similarly situated v. American Well Corp.",
-   "defendant": "American Well Corp. (Amwell), operator of the LiveHealth Online telehealth platform",
-   "court": "Superior Court of California, County of Sacramento (Dept. 8A, Tani G. Cantil-Sakauye Courthouse)",
-   "docket": "25CV026746",
-   "judge": "Hon. Jill H. Talley (Dept. 8A, which issued the 2026-07-31 ruling; the May 2026 supplemental declaration is captioned to her). The agreement and the class notice still name Hon. Richard K. Sueyoshi as the presiding judge.",
-   "industry": "Telehealth / healthcare",
-   "technology": "Heap Inc. analytics (the \"Heap API\") plus other tracking, analytics and advertising tech on the LiveHealth Online appointment booking tool. It ran on the website (livehealthonline.com) and the iOS and Android apps. Plaintiff alleges Amwell helped Heap intercept communications containing PII/PHI (an aiding/abetting interception theory).",
-   "cipa_631": "pled",
-   "cipa_632": "pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "CMIA (Cal. Civ. Code § 56.10); invasion of privacy under the California Constitution; common-law intrusion upon seclusion. There are six causes of action in total.",
-   "statute_evidence": "The 2026-07-31 Sacramento Superior Court ruling granting preliminary approval (Dept. 8A, now the order of the court) lists all six causes of action in the complaint: (1) Federal Wiretap Act, 18 U.S.C. § 2510 et seq.; (2) CIPA § 631; (3) CIPA § 632; (4) CMIA § 56.10; (5) Cal. Const. privacy; (6) intrusion upon seclusion. No § 632.7, § 638.51 or FSCA count appears. The Amended Settlement Agreement recitals and the long-form notice confirm the Wiretap Act, \"Cal. Penal Code §§ 631-632\", CMIA, Cal. Const. and common law. Sources: https://cw.simpluris.com/docs/public/downloads/APC3/PRELIMINARY_APPROVAL_ORDER (same document as https://www.classaction.org/media/livehealth-online-pao.pdf), and https://cw.simpluris.com/docs/public/downloads/APC3/SETTLEMENT__AGREEMENT. The complaint itself was not obtained.",
-   "class_definition": "All persons in the U.S. who used the appointment booking tool on the LiveHealth Online website, iOS app or Android app between October 2024 and August 2025. The usual exclusions apply (judges, the defendant and its affiliates, and people who opt out).",
-   "class_size": 252478,
-   "class_size_note": "Approximate. The order and the agreement both say \"approximately 252,478 persons\" based on Defendant's records.",
-   "settlement_structure": "Non-reversionary common fund with opt-outs and a claim form. Class members who file valid claims get equal pro rata shares after admin costs, fees and the service award are deducted. Uncashed checks are redistributed if each share would be at least $5; otherwise they go to a court-approved nonprofit cy pres recipient.",
-   "fund_amount": 2037751.46,
-   "payment_terms": "Each claimant gets an equal pro rata share of the net fund. The notice estimates about $51.14 to $102.29 per claimant. No proof is required beyond attesting to use of the booking tool. Payment is by check, PayPal or Venmo, within 45 days after the Effective Date. Checks void after 180 days. Claims, opt-out and objection deadline: 2026-10-30.",
-   "fees_requested": "Up to 33.33% of the fund ($679,250.48). Under Amended Agreement ¶8.1, Defendant will not oppose a request at or below that cap. No fee request had been filed or awarded as of 2026-10-09. The court ordered that the fee request go in the final approval motion, and the class notice says Class Counsel will file it by 2026-10-16.",
-   "service_award": "Up to $5,000 for plaintiff Virginia Polk (requested, not yet awarded).",
-   "injunctive_relief": "None. The settlement-relief section of the Amended Agreement covers only monetary payments. The court made the parties remove an \"enjoined\" bar on parallel suits from the agreement and proposed order; this was a litigation stay, not business-practice relief.",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "2026-07-31",
-   "final_hearing_date": "2027-01-15",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The court granted preliminary approval on 2026-07-31 (Dept. 8A ruling, no appearance required), which falls inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Philip L. Fraietta (Bursor & Fisher, P.A.); Scott R. Drury (Drury Legal, LLC). Defense counsel: Jon Hawk and David P. Saunders (McDermott Will & Schulte LLP).",
-   "settlement_website": "https://livehealthonlinesettlement.com/",
-   "sources": [
-    {
-     "label": "Official settlement website (Simpluris) - home, dates, documents",
-     "url": "https://livehealthonlinesettlement.com/"
-    },
-    {
-     "label": "Preliminary approval ruling, 2026-07-31 (Sacramento Super. Ct. Dept. 8A) - claims list, class, fund, fees, counsel, FAH",
-     "url": "https://cw.simpluris.com/docs/public/downloads/APC3/PRELIMINARY_APPROVAL_ORDER"
-    },
-    {
-     "label": "Same preliminary approval ruling hosted by ClassAction.org",
-     "url": "https://www.classaction.org/media/livehealth-online-pao.pdf"
-    },
-    {
-     "label": "Supplemental Fraietta Decl. (2026-05-22) attaching Amended Class Action Settlement Agreement - recitals, relief, fees, service award",
-     "url": "https://cw.simpluris.com/docs/public/downloads/APC3/SETTLEMENT__AGREEMENT"
-    },
-    {
-     "label": "Long-form notice - per-claimant estimate $51.14-$102.29, deadlines, FAH Dept. 8A",
-     "url": "https://cw.simpluris.com/docs/public/downloads/APC3/NOTICE"
-    },
-    {
-     "label": "ClassAction.org news article - filing date 2025-11-05, overview",
-     "url": "https://www.classaction.org/news/2m+-livehealth-online-settlement-wraps-up-lawsuit-over-alleged-disclosure-of-patient-info"
-    },
-    {
-     "label": "OpenClassActions summary (secondary; it wrongly gives May 2026 as the prelim approval date)",
-     "url": "https://openclassactions.com/settlements/privacy/livehealth-online-privacy-class-action-settlement.php"
-    },
-    {
-     "label": "Daily Journal profile - Judge Jill H. Talley (Dept. 8A)",
-     "url": "https://www.dailyjournal.com/people/167994-jill-h-talley"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's findings; my results match on every statute. I downloaded and text-searched three documents from the claims administrator: the preliminary approval order, the Settlement Agreement and the Notice. The order is the Sacramento Superior Court tentative ruling for 25CV026746, Polk v. American Well Corp., heard 7/31/2026 in Dept. 8A. It is marked \"no appearance required\" and becomes the order of the court under Local Rule 1.06 if no one requests oral argument. It says the complaint was filed 11/5/2025, cites \"(See Compl.)\" and lists exactly six causes of action: (1) Federal Wiretap Act, 18 U.S.C. 2510 et seq.; (2) CIPA Pen. Code 631; (3) CIPA Pen. Code 632; (4) CMIA Civ. Code 56.10; (5) California Constitution privacy; (6) intrusion upon seclusion. The theory is that Amwell let Heap Inc. intercept communications on its LiveHealth Online website and apps. The Settlement Agreement recitals, the long-form Notice and the Released Claims definition all match this: 18 U.S.C. 2510 et seq., \"Cal. Penal Code §§ 631-632\", CMIA, the California Constitution and common law. None of the three documents mentions 632.7, 638.51, pen registers or trap-and-trace devices, Florida, or Fla. Stat. 934. The only \"Amended\" document is an Amended Settlement Agreement filed 5/22/2026 to address the court's 4/23/2026 concerns; I found no reference to an amended complaint, so no count appears to have been dropped. The timeline (mediation 10/29/2025, complaint 11/5/2025, agreement signed 12/16/2025) suggests the complaint was filed to carry out the settlement. One limit: I did not get the complaint itself. It is a California state-court filing, not on CourtListener/RECAP, and a web search found no public copy. The court's own order is still a primary document listing the pled counts, so the verdict is confirmed. Settlement details: about 252,478 class members, $2,037,751.46 fund, final approval hearing 1/15/2027. | fees_requested: Up to 33.33% of the fund ($679,250.48), and Defendant has agreed not to oppose that amount. No award yet; the request must be included in the final approval motion. Settlement administration (Simpluris) is capped at $62,138 absent good cause.→Up to 33.33% of the fund ($679,250.48). Under Amended Agreement ¶8.1, Defendant will not oppose a request at or below that cap. No fee request had been filed or awarded as of 2026-10-09. The court ordered that the fee request go in the final approval motion, and the class notice says Class Counsel will file it by 2026-10-16. | Timing/money check (confirmed): I could not refute this one. The primary sources confirm a qualifying event inside the window. The administrator's \"PRELIMINARY_APPROVAL_ORDER\" file (also posted as classaction.org's livehealth-online-pao.pdf) is the Sacramento Superior Court Dept. 8A tentative ruling (Judge Jill H. Talley) for the 07/31/2026 hearing. It GRANTS the unopposed motion for preliminary approval, certifies the class for settlement, and sets the final approval hearing for 2027-01-15 at 9:00 a.m. in Dept. 8A, Tani G. Cantil-Sakauye Courthouse. The court said it would sign the Amended Proposed Order. Under Local Rule 1.06 the tentative became the order unless someone requested oral argument. The notice was then sent with an Oct. 30, 2026 claim, opt-out and objection deadline, and the settlement site and classaction.org both give July 31, 2026 as the approval date, so the order took effect. Fund ($2,037,751.46, non-reversionary), class size (about 252,478), the 33.33% fee cap ($679,250.48) and the $62,138 administration cap (absent good cause) all match the order. The no-opposition clause is confirmed at Amended Agreement ¶8.1 (supplemental Fraietta declaration, classaction.org/media/livehealth-online-settlement.pdf). Claims confirmed for the comparison table: Federal Wiretap Act (18 U.S.C. §2510), CIPA §631, CIPA §632, CMIA §56.10, Cal. Const. privacy, and intrusion upon seclusion. The theory is that the Heap analytics tool intercepted data from the appointment-booking tool. Procedural history: the complaint was filed 2025-11-05, mediation (Jill R. Sperber) was held 2025-10-29, and the agreement was signed 2025-12-16. The first prelim hearing was continued on 2026-04-24 (4/23/26 tentative) because of a blanket injunction and an overbroad §1542 release (Amaro). The amended agreement was filed with the supplemental declaration on 2026-05-22. I could not find the original filing date of the prelim motion. Sacramento's public case portal did not return the docket. It was filed before the original April 2026 hearing, probably in Q1 2026 and likely before the window, so I left that field blank. Class Counsel are Philip L. Fraietta (Bursor & Fisher) and Scott R. Drury (Drury Legal). The administrator is Simpluris. No final approval yet.",
-   "open_questions": "(1) The filing date of the motion for preliminary approval was not found. The first hearing was 2026-04-24, when the court continued it and ordered an amended agreement fixing the bar on parallel suits and the overbroad release / § 1542 waiver. The original agreement was signed 2025-12-16, so the motion was probably filed in early 2026. That is before the window, which does not matter because the 2026-07-31 approval controls. (2) The judge is inconsistent: the agreement and notice name Hon. Richard K. Sueyoshi, but the ruling came from Dept. 8A (Judge Jill H. Talley), apparently after reassignment. (3) The complaint itself was not reviewed. The statute list comes from the court's ruling, which enumerates all six causes of action. (4) Unusual timeline: mediation (2025-10-29) came before the complaint was filed (2025-11-05), so this was a pre-filing settlement. (5) The fee award and service award are still pending until the 2027-01-15 final approval hearing.",
-   "id": "polk-v-american-well-livehealth-online"
   },
   {
    "short_name": "Frasco v. Flo Health (Google/Flo/Flurry)",
@@ -1260,9 +178,88 @@ window.PRIVACY_COMPS = {
    "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I tried to refute the researcher's findings and could not. I read two primary documents myself.\n\n1. The operative complaint. The PDF on the settlement site is Dkt. 64, filed 09/02/21 (93 pages); the court header stamp is on the page itself.\n   - The Twelfth Claim is the Federal Wiretap Act, 18 U.S.C. § 2510 et seq., against Facebook, Google and Flurry, on behalf of the Class and Subclass.\n   - The Thirteenth Claim is CIPA, Cal. Penal Code § 630 et seq., against the same three defendants.\n     - ¶409 describes § 632.\n     - ¶410 alleges eavesdropping and recording \"in violation of § 631(a).\"\n     - ¶412 seeks § 637.2 statutory damages.\n   - The complaint has 14 claims in all. None mentions § 632.7, § 638.51, pen registers or trap-and-trace devices, Fla. Stat. § 934, or Florida.\n\n2. The Google Settlement Agreement (ECF 784-2, filed 09/29/25).\n   - Its recitals call Dkt. 64 \"the Complaint\" and list the Federal Wiretap Act and CIPA among the claims against Google.\n   - They state that the summary-judgment order (Dkt. 485, 9/23/24) denied Google's motion on the Wiretap Act, CIPA and CDAFA claims.\n   - They state that the class order (Dkt. 605) certified a California subclass for CIPA § 632 claims against Meta and Google.\n   - The agreement does not mention any amended complaint. Neither document mentions 632.7, 638.51 or the Florida statute (FSCA).\n\nNo count was dropped by amendment, as far as I could check. My search of CourtListener's docket index found no amended-complaint filing after Dkt. 64. The only hit was Dkt. 38, the 2021 motion to consolidate. My full docket-entries pull timed out, so that check is not exhaustive. However, the settlement agreement's recitals were filed in September 2025 and still identify Dkt. 64 as the complaint.\n\nWhere I differ from the researcher: nowhere on substance. The only caveat is that 631 rests on a single \"§ 631(a)\" reference in ¶410 inside a count that mostly tracks § 632. The case was certified and litigated as § 632, so 631 is pled only nominally. 632 and the Wiretap Act are clearly pled and survived both dismissal and summary judgment. | fees_requested: Requested (ECF 843, 2026-08-20): $19,366,666.67, about 32.5% blended (20% of the Flurry settlement and one-third of the Google and Flo settlements). Litigation expenses of $2,091,517.74 are also requested; the notice capped expenses at $3.6M. The court has not yet ruled.→Requested (ECF 843, filed 2026-08-20): $19,366,666.67 in fees, about 32.5% blended (one-third of the $56M Google+Flo funds plus 20% of the $3.5M Flurry fund). Also requested: $2,091,517.74 in litigation expenses (the notice capped expenses at $3.6M) and $155,000 in service awards. Not yet ruled on. Lodestar is $42,595,383, so the multiplier is about 0.45. | class_size: None→9961995 | Timing/money check (confirmed): I could not refute the in-window event; the docket confirms it. ECF 834, \"Order re Preliminary Approval re Google LLC and Flo Health, Inc.,\" was signed by Judge Donato on 2026-04-22. That falls inside the 2026-04-09 to 2026-10-09 window. The order sets the final approval hearing for 2026-10-29 at 11:00 a.m. The settlement website (checked 2026-10-09) still shows that date, and no continuance appears on the docket through ECF 856 (2026-10-05). Other deadlines: claims due 2026-10-15, objections due 2026-10-08, notice started 2026-06-12. The motion for final approval (ECF 842) and the fee motion (ECF 843) were both filed 2026-08-20. No final approval yet.\n\nCaveats and corrections for the table:\n(1) The 2025-09-29 prelim motion date is accurate for the initial motion (ECF 784). However, the court denied that motion without prejudice at the 2025-12-04 hearing. The operative motion is the Renewed Motion for Preliminary Approval (ECF 820), filed 2026-02-27, which is also outside the window.\n(2) The $59.5M fund combines three settlements. Google pays $48,000,000 and Flo pays $8,000,000 (ECF 820), and both of those were preliminarily approved 2026-04-22. Flurry pays $3,500,000, and that settlement was preliminarily approved much earlier, on 2025-05-15 (ECF 597). That is outside the window, though Flurry goes to the same final hearing. If the table should count only money approved in the window, use $56,000,000. The fee motion itself calls the total $59,500,000.\n(3) Class size was blank. ECF 820 estimates 9,961,995 unique class members based on Covalynt's analysis; the earlier estimate was 12 to 13 million. The class is nationwide U.S. Flo app users who entered menstruation or pregnancy data between 2016-11-01 and 2019-02-28. Estimated average recovery is $31.94 per class member at a 10% claims rate and $12.69 at 25%.\n(4) Meta did not settle. A jury found against Meta under CIPA in August 2025 (ECF 756), and post-trial and judgment motions against Meta are set for the same 2026-10-29 hearing. Meta has also filed an emergency motion to retract the class notice (ECF 844), which is pending.\n\nFee figures verified from the ECF 843 PDF on the settlement site. Docket and orders read via the CourtListener RECAP docket (ECF 784, 820, 834, 842, 843).",
+   "xcheck_notes": "Claims check (confirmed): I tried to refute the researcher's findings and could not. I read two primary documents myself.\n\n1. The operative complaint. The PDF on the settlement site is Dkt. 64, filed 09/02/21 (93 pages); the court header stamp is on the page itself.\n   - The Twelfth Claim is the Federal Wiretap Act, 18 U.S.C. § 2510 et seq., against Facebook, Google and Flurry, on behalf of the Class and Subclass.\n   - The Thirteenth Claim is CIPA, Cal. Penal Code § 630 et seq., against the same three defendants.\n     - ¶409 describes § 632.\n     - ¶410 alleges eavesdropping and recording \"in violation of § 631(a).\"\n     - ¶412 seeks § 637.2 statutory damages.\n   - The complaint has 14 claims in all. None mentions § 632.7, § 638.51, pen registers or trap-and-trace devices, Fla. Stat. § 934, or Florida.\n\n2. The Google Settlement Agreement (ECF 784-2, filed 09/29/25).\n   - Its recitals call Dkt. 64 \"the Complaint\" and list the Federal Wiretap Act and CIPA among the claims against Google.\n   - They state that the summary-judgment order (Dkt. 485, 9/23/24) denied Google's motion on the Wiretap Act, CIPA and CDAFA claims.\n   - They state that the class order (Dkt. 605) certified a California subclass for CIPA § 632 claims against Meta and Google.\n   - The agreement does not mention any amended complaint. Neither document mentions 632.7, 638.51 or the Florida statute (FSCA).\n\nNo count was dropped by amendment, as far as I could check. My search of CourtListener's docket index found no amended-complaint filing after Dkt. 64. The only hit was Dkt. 38, the 2021 motion to consolidate. My full docket-entries pull timed out, so that check is not exhaustive. However, the settlement agreement's recitals were filed in September 2025 and still identify Dkt. 64 as the complaint.\n\nWhere I differ from the researcher: nowhere on substance. The only caveat is that 631 rests on a single \"§ 631(a)\" reference in ¶410 inside a count that mostly tracks § 632. The case was certified and litigated as § 632, so 631 is pled only nominally. 632 and the Wiretap Act are clearly pled and survived both dismissal and summary judgment. | fees_requested: Requested (ECF 843, 2026-08-20): $19,366,666.67, about 32.5% blended (20% of the Flurry settlement and one-third of the Google and Flo settlements). Litigation expenses of $2,091,517.74 are also requested; the notice capped expenses at $3.6M. The court has not yet ruled.→Requested (ECF 843, filed 2026-08-20): $19,366,666.67 in fees, about 32.5% blended (one-third of the $56M Google+Flo funds plus 20% of the $3.5M Flurry fund). Also requested: $2,091,517.74 in litigation expenses (the notice capped expenses at $3.6M) and $155,000 in service awards. Not yet ruled on. Lodestar is $42,595,383, so the multiplier is about 0.45. | class_size: —→9961995 | Timing/money check (confirmed): I could not refute the in-window event; the docket confirms it. ECF 834, \"Order re Preliminary Approval re Google LLC and Flo Health, Inc.,\" was signed by Judge Donato on 2026-04-22. That falls inside the 2026-04-09 to 2026-10-09 window. The order sets the final approval hearing for 2026-10-29 at 11:00 a.m. The settlement website (checked 2026-10-09) still shows that date, and no continuance appears on the docket through ECF 856 (2026-10-05). Other deadlines: claims due 2026-10-15, objections due 2026-10-08, notice started 2026-06-12. The motion for final approval (ECF 842) and the fee motion (ECF 843) were both filed 2026-08-20. No final approval yet.\n\nCaveats and corrections for the table:\n(1) The 2025-09-29 prelim motion date is accurate for the initial motion (ECF 784). However, the court denied that motion without prejudice at the 2025-12-04 hearing. The operative motion is the Renewed Motion for Preliminary Approval (ECF 820), filed 2026-02-27, which is also outside the window.\n(2) The $59.5M fund combines three settlements. Google pays $48,000,000 and Flo pays $8,000,000 (ECF 820), and both of those were preliminarily approved 2026-04-22. Flurry pays $3,500,000, and that settlement was preliminarily approved much earlier, on 2025-05-15 (ECF 597). That is outside the window, though Flurry goes to the same final hearing. If the table should count only money approved in the window, use $56,000,000. The fee motion itself calls the total $59,500,000.\n(3) Class size was blank. ECF 820 estimates 9,961,995 unique class members based on Covalynt's analysis; the earlier estimate was 12 to 13 million. The class is nationwide U.S. Flo app users who entered menstruation or pregnancy data between 2016-11-01 and 2019-02-28. Estimated average recovery is $31.94 per class member at a 10% claims rate and $12.69 at 25%.\n(4) Meta did not settle. A jury found against Meta under CIPA in August 2025 (ECF 756), and post-trial and judgment motions against Meta are set for the same 2026-10-29 hearing. Meta has also filed an emergency motion to retract the class notice (ECF 844), which is pending.\n\nFee figures verified from the ECF 843 PDF on the settlement site. Docket and orders read via the CourtListener RECAP docket (ECF 784, 820, 834, 842, 843).",
    "open_questions": "1. Class size: no exact number was found (see class_size_note). The ECF 820-12 Parks declaration may state one.\n2. Final approval: the hearing is 2026-10-29, after the window. Fees, expenses and service awards are not yet ruled on, and the claims count is not yet reported (A.B. Data's compliance filing is due 2026-10-22).\n3. Fund timing: the Flurry $3.5M portion was preliminarily approved 2025-05-15 (ECF 597), before the window. Only the Google and Flo $56M deals were approved in the window, but all three are combined into the $59.5M fund for final approval.\n4. Pending Meta motions: Meta's emergency motion to terminate or retract an \"unauthorized class notice\" (ECF 844), the motion to enter claims administration (ECF 845) and the motion for entry of judgment (ECF 846) are set for the same day. They concern the Meta verdict, not the settlements, but could affect timing.\n5. § 631: the label rests only on the complaint's ¶ 410 reference. The certified and settled claims against Google were § 632 only. The Wiretap Act claim against Google survived dismissal and summary judgment but was never certified.",
    "id": "frasco-v-flo-health-google-flo-flurry"
+  },
+  {
+   "short_name": "Genesys (DV Hotline)",
+   "caption": "A.B., C.D., and E.F., individually and on behalf of all others similarly situated v. Genesys Cloud Services, Inc.",
+   "defendant": "Genesys Cloud Services, Inc.",
+   "court": "U.S. District Court, N.D. Cal. (San Francisco)",
+   "docket": "3:25-cv-03276-EMC",
+   "judge": "Edward M. Chen",
+   "industry": "Contact-center / CX software vendor (SaaS). The communications were with a nonprofit crisis hotline, the National Domestic Violence Hotline, which is not a party.",
+   "technology": "The Genesys Cloud CX contact-center platform, used by the Hotline to handle phone calls, texts, and web chats. Plaintiffs allege real-time interception, recording, transcription and AI analytics, including an AI chatbot for intake that summarized chats for live agents. They also allege Genesys used the communications to improve its own products and services.",
+   "cipa_631": "pled",
+   "cipa_632": "pled",
+   "cipa_632_7": "pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "None. The complaint has exactly four counts:\n- Count 1: ECPA, 18 U.S.C. § 2510 et seq.\n- Count 2: CIPA § 631(a).\n- Count 3: CIPA § 632.\n- Count 4: CIPA § 637.2, based on a § 632.7 violation.\nThere are no UCL, CMIA, intrusion-upon-seclusion, negligence, SCA or unjust-enrichment counts, and no amended complaint was filed. The motion to dismiss (ECF 23) was pending when the case was stayed for settlement.",
+   "statute_evidence": "The operative complaint, ECF 1 (filed 2025-04-11, RECAP doc 436170473), has four causes of action: ECPA §§ 2510 et seq. (§ 2511 interception; damages under § 2520), CIPA § 631(a), CIPA § 632, and CIPA § 637.2/§ 632.7. A text search of the complaint found no § 638.51 and no Florida statute. The preliminary approval motion (ECF 67, filed 2026-07-17, pp. 1-4) confirms the ECPA, § 631, § 632 and § 632.7 claims. Sources: https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/ and https://www.courtlistener.com/docket/69880223/67/b-v-genesys-cloud-services-inc/",
+   "class_definition": "Settlement class: all natural persons who, while residents of and present in California, communicated with the National Domestic Violence Hotline through any channel from 2023-04-11 to final judgment. This is narrower than the complaint, which proposed Nationwide, California and Hotline classes covering anyone who communicated through Genesys Cloud CX.",
+   "class_size": 100000,
+   "class_size_note": "Approximate. Plaintiffs estimate about 100,000 unique California visitors communicated with the Hotline since 2023-04-11 (Weir Decl. ¶ 13). The parties say an exact count would require extensive third-party discovery.",
+   "settlement_structure": "Non-reversionary common fund with a claims process and pro rata payments. A fixed $500,000 cy pres award to the Hotline is paid before class distribution, and residual funds go to the Hotline. The amended agreement (ECF 79, Ex. 1) earmarks the cy pres money for a California high school and college awareness campaign plus two California-focused advocates.",
+   "fund_amount": 2500000,
+   "payment_terms": "- **Pro rata cash per valid claim**, capped at $1,250 per claimant.\n- **Estimated payment:** $392.68 per claimant at an assumed 3% claims rate (prelim motion). The updated notice states an average of about $390 (ECF 79).\n- **Per class member:** about $14.74 gross.\n- **Order of payments from the fund:** administration costs (about $96,954), then fees, expenses and service awards, then the $500K cy pres. The remainder goes pro rata to claimants.\n- **Payment methods:** PayPal, Venmo, Zelle, ACH (online only), prepaid digital Mastercard, or check.\n- **Claim form:** for privacy, it asks only for street name and ZIP code, not a full address.",
+   "fees_requested": "Up to 25% of the $2.5M fund ($625,000). Genesys agreed not to oppose this (SA §8.1). Expenses were about $85,000 at filing. The lodestar was about $360,000 on roughly 500 hours, a multiplier of about 1.8. Service awards are up to $5,000 per class representative. Under amended SA §5.5 (ECF 79), the fee motion is due 35 days before the objection deadline; the original agreement said 21 days.",
+   "service_award": "Up to $5,000 for each of the three class representatives (A.B., C.D., E.F.), which Genesys will not oppose.",
+   "injunctive_relief": "None described in the prelim motion or the 2026-09-17 supplemental brief; relief is monetary plus cy pres only. This was not confirmed against the full settlement agreement, which is not on RECAP.",
+   "motion_prelim_filed": "2026-07-17",
+   "prelim_approval_date": "",
+   "final_hearing_date": "",
+   "final_approval_date": "",
+   "status": "Prelim motion pending",
+   "window_basis": "The unopposed motion for preliminary approval (ECF 67) was filed on 2026-07-17, inside the window. It was heard on 2026-08-27 and is still pending: the last docket entry, ECF 85 (a stipulation filed 2026-10-08), comes after supplemental-briefing orders, and no preliminary approval order has been entered.",
+   "plaintiff_counsel": "Consovoy McCarthy PLLC (Bryan Weir, Brandon Haase; proposed class counsel) and Benbrook Law Group, PC (Bradley Benbrook, Steve Duvernay). Defense counsel: Morrison & Foerster (Tiffany Cheung).",
+   "settlement_website": "None live yet. EisnerAmper, the proposed administrator, will set up a settlement website after preliminary approval, with notice by a banner on thehotline.org and publication in 12 California newspapers.",
+   "sources": [
+    {
+     "label": "CourtListener docket 3:25-cv-03276-EMC (entries 1-85)",
+     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
+    },
+    {
+     "label": "ECF 1 Complaint (2025-04-11) - causes of action",
+     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
+    },
+    {
+     "label": "ECF 67 Unopposed Motion for Preliminary Approval (2026-07-17)",
+     "url": "https://www.courtlistener.com/docket/69880223/67/b-v-genesys-cloud-services-inc/"
+    },
+    {
+     "label": "ECF 70 Order for supplemental briefing (2026-08-18)",
+     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
+    },
+    {
+     "label": "ECF 78 Civil minutes of prelim approval hearing (2026-08-27)",
+     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
+    },
+    {
+     "label": "ECF 79 Joint supplemental brief and amended settlement agreement (2026-09-17)",
+     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
+    },
+    {
+     "label": "ECF 81 Order for supplemental statement (2026-09-23)",
+     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
+    },
+    {
+     "label": "ECF 83 Order re objection/exclusion procedure (2026-10-05)",
+     "url": "https://www.courtlistener.com/docket/69880223/b-v-genesys-cloud-services-inc/"
+    },
+    {
+     "label": "Bloomberg Law news report on $2.5M settlement",
+     "url": "https://news.bloomberglaw.com/privacy-and-data-security/genesys-settles-abuse-hotline-privacy-lawsuit-for-2-5-million"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's findings; they hold up. I pulled the full docket (CourtListener docket 69880223, entries 1-85) and read the text of the complaint, ECF 1 (RECAP doc 436170473, filed 2025-04-11). It is the operative complaint. The docket has no amended complaint, and the motion to dismiss (ECF 23) was never decided because the case settled (notice of settlement at ECF 55, 2025-12-17). So no count was dropped.\n\nThe complaint has four causes of action:\n(1) ECPA, 18 U.S.C. § 2510 et seq., on behalf of the nationwide class (§ 2511 appears 3 times in the text);\n(2) CIPA § 631(a), wiretapping, on behalf of the California class;\n(3) CIPA § 632, recording, on behalf of the Hotline class;\n(4) CIPA § 637.2 on behalf of the California class. This count's text says § 632.7 is the statute violated, so 632.7 = pled.\n\nA text search of the complaint found 0 hits for '638.5', '934.' or 'Florida', so 638.51 and FSCA are not pled.\n\nThe preliminary approval motion (ECF 67, RECAP doc 486713799, filed 2026-07-17) agrees. Its table of contents has sections on the ECPA/Wiretap Act, § 631(a), § 632 and § 632.7, and it has no § 638 references. The motion hearing was reset and the court has asked for supplemental briefing (ECF 70, 79, 81, 83), so preliminary approval may still be pending as of Oct 2026. I did not check the Bloomberg article. | fees_requested: Up to 25% of the fund (about $625,000), which Genesys will not oppose, plus expenses of about $85,000 to date. The lodestar is about $360,000 on roughly 500 hours, a multiplier of about 1.8. The fee motion is due 35 days before the objection deadline under the amended agreement.→Up to 25% of the $2.5M fund ($625,000). Genesys agreed not to oppose this (SA §8.1). Expenses were about $85,000 at filing. The lodestar was about $360,000 on roughly 500 hours, a multiplier of about 1.8. Service awards are up to $5,000 per class representative. Under amended SA §5.5 (ECF 79), the fee motion is due 35 days before the objection deadline; the original agreement said 21 days. | Timing/money check (confirmed): Checked against the CourtListener RECAP docket (API, entries through ECF 85 on 2026-10-08). I read ECF 67, 70, 71, 78, 79, 81 and 83.\n\nThe qualifying in-window event is confirmed. ECF 67, Plaintiffs' Unopposed Motion for Preliminary Approval, was filed 2026-07-17 before Judge Edward M. Chen in N.D. Cal. It was heard 2026-08-27 (ECF 78 minutes), and the court did not rule from the bench. Instead it ordered supplemental briefing on these points:\n- adding the LA Times and SF Chronicle to the notice plan\n- a notice estimating the average payment\n- confirming the Hotline is not a Released Party\n- loosening the mailing-address requirement on the claim form\n- additional payment methods\n- California-specific cy pres\n- a 35-day objection window after the fee motion\n\nThe parties filed a Joint Supplemental Brief with an Amended Settlement Agreement on 2026-09-17 (ECF 79). The court issued two further orders for supplemental statements. ECF 81 (2026-09-23) asked why both email and phone are required on the claim form. ECF 83 (2026-10-05) asked about the information required to object or opt out, with a response due 10/8. ECF 85, a stipulation and proposed order, was filed 2026-10-08. As of 2026-10-09 there is no preliminary approval order, so the prelim approval date, final hearing and final approval stay blank and the status stays Prelim motion pending.\n\nProposed schedule (ECF 67): final approval motion 119 days after the prelim order, and final approval hearing 133 days after it.\n\nMoney facts confirmed from ECF 67:\n- $2,500,000 non-reversionary fund\n- Pro rata claims capped at $1,250, with an estimated $392.68 per claimant at a 3% claims rate. The amended notice says an average of about $390 (ECF 79).\n- $500,000 cy pres to the National Domestic Violence Hotline, now restricted to benefit California survivors\n\nClass size: about 100,000 unique California visitors who communicated with the Hotline from 2023-04-11 to the present (Weir Decl. ¶13). This is the plaintiffs' estimate, not a precise count.\n\nFees: ECF 67 says \"25% of the Settlement Fund after expenses ($625,000)\". $625,000 is exactly 25% of the gross $2.5M, so the \"after expenses\" wording is internally inconsistent. No fee motion has been filed yet.\n\nClaims: ECPA/Wiretap Act (18 U.S.C. §2511) and CIPA §§631(a), 632 and 632.7. The case concerns Genesys capturing the Hotline's web chats, so it is a good fit for the 631/632/ECPA comparison set.\n\nI found no corrections to the researcher's values.",
+   "open_questions": "1. **Ruling pending.** Preliminary approval has not been ruled on. The court keeps requiring changes that protect class-member privacy: required contact information on the claim, objection and exclusion forms, and whether parties will contact objectors. ECF 82 (2026-09-25 supplemental statement) and ECF 85 (2026-10-08 stipulation) are not on RECAP, so their contents are unknown. A prelim order may follow soon; recheck the docket.\n2. **Dates not set.** The proposed schedule puts the final approval hearing about 133 days after the prelim order.\n3. **Injunctive relief not confirmed.** The full settlement agreement (ECF 67-1 Ex. A and ECF 79 Ex. 1) was not reviewed for injunctive or business-practice terms; the prelim brief describes none.\n4. **Useful comparison exhibit.** Weir Decl. Ex. F (ECF 67-1) is plaintiffs' comparison chart of other CIPA/ECPA privacy settlements, which may help the user's comparison table. It is not available on RECAP and would need to be purchased from PACER.\n5. **Damages framing.** The motion puts theoretical exposure at about $1B under ECPA ($10K x 100K) or $500M under CIPA ($5K x 100K).",
+   "id": "genesys-dv-hotline"
   },
   {
    "short_name": "GoodRx / Criteo (Doe v. GoodRx)",
@@ -1344,154 +341,632 @@ window.PRIVACY_COMPS = {
    "id": "goodrx-criteo-doe-v-goodrx"
   },
   {
-   "short_name": "Williams v. TMC Health (Tucson Medical Center pixel)",
-   "caption": "George Williams, Sean Daughtery, and Margaret Milford, individually and on behalf of those similarly situated v. TMC Health",
-   "defendant": "TMC Health (Arizona nonprofit; operates Tucson Medical Center, TMCOne clinics, and regional hospitals)",
-   "court": "U.S. District Court, District of Arizona (Tucson Division)",
-   "docket": "4:23-cv-00434-SHR (CV-23-00434-TUC-SHR)",
-   "judge": "Hon. Scott H. Rash",
-   "industry": "Healthcare - hospital / health system",
-   "technology": "Tracking code on the public website tmcaz.com, including searches, the find-a-provider tool, class/event sign-ups, bill pay, and access to the patient portal: Meta Pixel, LinkedIn Insight Tag, Snap Pixel, and Google tracking tools. The earlier First Amended Complaint also named CallRail.",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
+   "short_name": "Venetian Las Vegas (Vasquez)",
+   "caption": "Max Vasquez, individually and on behalf of all others similarly situated v. Venetian Las Vegas Gaming, LLC",
+   "defendant": "Venetian Las Vegas Gaming, LLC",
+   "court": "U.S. District Court, N.D. Cal. (San Jose Division)",
+   "docket": "5:25-cv-07934-PCP",
+   "judge": "Hon. P. Casey Pitts",
+   "industry": "Hospitality / hotel-casino (online hotel booking website)",
+   "technology": "Third-party trackers on venetianlasvegas.com: Heap analytics, Google Analytics/Google trackers, and Meta Pixel (with advanced matching). The complaint says they captured booking details such as hotel, suite, stay dates and party size, and that the trackers fired on page load before any consent.",
+   "cipa_631": "pled",
+   "cipa_632": "pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "not_pled",
+   "fsca": "not_pled",
+   "other_claims": "None pled as separate counts. The complaint has only two counts: CIPA § 631(a), including aiding/abetting, and CIPA § 632, with § 637.2 statutory damages of $5,000 per violation. Cal. Civ. Code § 53.5 (confidentiality of hotel guest records) is not its own count; the complaint uses it to argue that guest-record data is confidential. The release covers CIPA §§ 631-632 claims and claims that could have been asserted.",
+   "statute_evidence": "Class Action Complaint, ECF 1 (filed 2025-09-17), is still the operative complaint: no amended complaint was filed, and the motion to dismiss (ECF 14) was argued 2026-01-15 and never decided before settlement. Its causes of action are Count I, Cal. Penal Code § 631(a), and Count II, Cal. Penal Code § 632. The complaint does not mention § 638.51, § 632.7, the federal Wiretap Act/ECPA or the Florida FSCA. https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.1.0.pdf. The PA motion (ECF 36 at 1, 3) confirms the claims are §§ 631-632. Its only mention of § 638.51 is at p. 10, comparing this deal to Shah v. Fandom (a § 638.51 case). That is a comparison, not a claim here, which settles the hint's \"one sweep lists 638.51\" point. https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.36.0.pdf",
+   "class_definition": "There are two settlement classes, both limited to California residents who were in California between 2024-09-18 and 2026-03-16. (1) Booking Settlement Class: those who provided personal information needed to make a Venetian hotel reservation through venetianlasvegas.com. (2) Browsing Settlement Class: those who accessed and/or navigated venetianlasvegas.com.",
+   "class_size": 1031864,
+   "class_size_note": "Estimated from Defendant's records: about 35,159 in the Booking class plus about 996,705 in the Browsing class, for 1,031,864 combined (ECF 36 at 1, 9, 13; Settlement n.1). The two classes may overlap, so the combined figure may count some people twice.",
+   "settlement_structure": "Non-reversionary common fund paid on claims: $1.6M split into two separate non-reversionary funds, each paid out pro rata to approved claimants. Notice and administration costs, attorneys' fees and the service award come out of the two funds in proportion. Uncashed checks go to a second distribution if each payment would be at least $5; otherwise the money goes to a court-approved nonprofit (cy pres). The settlement has no injunctive component.",
+   "fund_amount": 1600000,
+   "payment_terms": "Pro rata share of the fund for the claimant's class, paid by Venmo, PayPal or check. Booking Fund is $931,713.50, estimated at about $71.39 per claimant assuming a 20% claims rate. Browsing Fund is $668,286.50, estimated at about $3.60 per claimant assuming a 10% claims rate. The court required these claims-rate assumptions in ECF 43. The original motion had estimated $475.93 per Booking claim and $12.02 per Browsing claim at a 3% claims rate, before costs. Claim, opt-out and objection deadline is 2026-11-24. Checks become void after 180 days.",
+   "fees_requested": "Cap is no more than one-third of the $1.6M fund (about $533,333), covering fees, costs and expenses (Settlement Agreement section 8.1; long-form notice Q13). The class representative may also get a $5,000 service award. The fee motion was due 2026-10-20 (25 days after the 2026-09-25 Notice Date). As of 2026-10-09 the CourtListener docket shows no fee motion, so no actual amount had been requested yet.",
+   "service_award": "Up to $5,000 for class representative Max Vasquez",
+   "injunctive_relief": "None. The Settlement Agreement provides only monetary relief (§ 2.1) and has no commitment to change business practices or tracking.",
+   "motion_prelim_filed": "2026-06-24",
+   "prelim_approval_date": "2026-08-26",
+   "final_hearing_date": "2026-12-03",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Judge Pitts granted preliminary approval of the settlement, as modified by the parties' addendum, on 2026-08-26 (ECF 45), which falls inside the 2026-04-09 to 2026-10-09 window. The motion for preliminary approval was also filed in the window, on 2026-06-24 (ECF 36).",
+   "plaintiff_counsel": "Bursor & Fisher, P.A.: Philip L. Fraietta, Stefan Bogdanovich, and Kyle D. Gordon (pro hac vice). Bursor & Fisher is the appointed Class Counsel.",
+   "settlement_website": "https://www.venetianlasvegassettlement.com/",
+   "sources": [
+    {
+     "label": "CourtListener docket 5:25-cv-07934 (entries 1-45)",
+     "url": "https://www.courtlistener.com/docket/71374828/vasquez-v-venetian-las-vegas-gaming-llc/"
+    },
+    {
+     "label": "ECF 1 Complaint (Counts I § 631(a), II § 632; class definition; counsel)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.1.0.pdf"
+    },
+    {
+     "label": "ECF 36 Motion for Preliminary Approval (fund split, class sizes, § 638.51 mention only as Shah v. Fandom comparison)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.36.0.pdf"
+    },
+    {
+     "label": "ECF 43 Order re PA motion, 2026-08-14 (required modifications; set FAH 12/3/2026)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.43.0.pdf"
+    },
+    {
+     "label": "ECF 45 Order Granting Preliminary Approval as Modified, signed 2026-08-26 (class definitions, $1.6M non-reversionary fund, FAH)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.456490/gov.uscourts.cand.456490.45.0.pdf"
+    },
+    {
+     "label": "Settlement Agreement (ECF 36-2) - payment terms, fee cap, service award, residual",
+     "url": "https://www.classaction.org/media/venetian-settlement.pdf"
+    },
+    {
+     "label": "Long-form notice (estimated payments, deadlines 11/24/2026, fee/service award caps)",
+     "url": "https://www.classaction.org/media/venetian-long-notice.pdf"
+    },
+    {
+     "label": "ClassAction.org news summary",
+     "url": "https://www.classaction.org/news/1.6m-venetian-las-vegas-gaming-settlement-ends-data-sharing-class-action-lawsuit"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I tried to refute the researcher's findings and could not. I read the primary documents myself. The Class Action Complaint (ECF 1, filed 2025-09-17, 49 pp.) has exactly two counts: Count I under Cal. Penal Code § 631(a) and Count II under Cal. Penal Code § 632(a). Each seeks $5,000 in statutory damages per violation. The theory is that Venetian's website let Heap, Google Analytics and the Meta Pixel intercept users' communications. I searched the full complaint text and found no reference to § 638.51, § 632.7, pen registers or trap-and-trace devices, 18 U.S.C. § 2511, ECPA, the federal Wiretap Act, Florida, or Fla. Stat. § 934. I pulled the full docket (entries 1-45) through the CourtListener API. There is no amended complaint. The motion to dismiss (ECF 14) was argued and taken under submission on 2026-01-15 (ECF 28) and was never ruled on. A notice of settlement followed (ECF 35, 2026-04-15), so no count was ever dismissed or dropped. The preliminary approval motion (ECF 36, filed 2026-06-24) describes the claims as §§ 631-632 of CIPA, and its table of authorities lists only §§ 631 and 632 as statutes at issue. Its one mention of § 638.51 cites Shah v. Fandom as a comparable settlement; it is not a claim in this case. The preliminary approval order (ECF 45, docketed 2026-08-26) states the motion is granted. I agree with the researcher on every statute. | fees_requested: Up to one-third of the $1.6M fund (about $533,333) plus costs and expenses (Settlement Agreement; long-form notice Q13). The fee motion was due by 2026-10-20, so the actual amount requested was not yet on file as of 2026-10-09.→Cap is no more than one-third of the $1.6M fund (about $533,333), covering fees, costs and expenses (Settlement Agreement section 8.1; long-form notice Q13). The class representative may also get a $5,000 service award. The fee motion was due 2026-10-20 (25 days after the 2026-09-25 Notice Date). As of 2026-10-09 the CourtListener docket shows no fee motion, so no actual amount had been requested yet. | Timing/money check (confirmed): CONFIRMED from the primary docket (CourtListener RECAP, N.D. Cal. 5:25-cv-07934-PCP, Judge P. Casey Pitts). I could not refute any of the researcher's facts.\n\n(1) Motion for preliminary approval: Dkt 36, filed 2026-06-24. It is inside the 2026-04-09 to 2026-10-09 window. The notice of settlement (Dkt 35) was filed 2026-04-15.\n\n(2) Preliminary approval: Dkt 45, filed 2026-08-26. The order says \"The Motion is GRANTED\", is signed August 26, 2026, and is titled \"as modified\".\n- The earlier Dkt 43 order (2026-08-14) did NOT grant approval. It told the parties to change the settlement first: claims-rate estimates of 10% for browsing and 20% for booking, edits to the objection and opt-out terms, and the final-approval motion due 25 days after the Notice Date.\n- The official settlement website (venetianlasvegassettlement.com, run by Epiq) and openclassactions.com both wrongly give \"August 14, 2026\" as the preliminary approval date. Use 2026-08-26, the date of the actual granting order. Both dates fall inside the window either way.\n\n(3) Final approval hearing: 2026-12-03 at 10:00 a.m. (Dkt 45 para. 25; Dkt 43). There is no final approval yet. CourtListener's last docket filing is 2026-08-26.\n\n(4) Fund: $1,600,000, non-reversionary. It is split into a $931,713.50 Booking Settlement Fund and a $668,286.50 Browsing Settlement Fund.\n\n(5) Class size: 1,031,864 confirmed. It is 35,159 booking class members plus 996,705 browsing class members (Dkt 36 at 2).\n\n(6) Fees: the settlement agreement (section 8.1) caps the request at one-third of the \"value of the Total Settlement Fund, to be paid after Settlement Administration Expenses and incentive awards are deducted\". That wording could be read as one-third of the net fund. The long-form notice says one-third of the $1.6M total. So about $533,333 is the ceiling.\n\nOther dates:\n- Notice Date: 2026-09-25 (30 days after preliminary approval).\n- Claims, opt-out and objection deadline: 2026-11-24.\n- Responses due 2026-11-12; replies due 2026-11-19.\n\nClaims are CIPA sections 631 and 632 only (no ECPA, no FSCA). Defendants are alleged to have shared data with Heap, Google and Meta. Class counsel is Bursor & Fisher. The preliminary approval motion cites a $1.2M CIPA 638.51 settlement with Fandom, Inc. that Judge Rita Lin finally approved, which may be useful for the 638.51 comparison.",
+   "open_questions": "(1) The fee motion was due 2026-10-20 and is not yet on the docket, so the actual fee and expense request is unknown; only the one-third cap is confirmed. (2) The 8/14 date one source gives is ECF 43, an order requiring changes before approval. The actual approval order is ECF 45, signed 2026-08-26. (3) The settlement website returned 403 to automated fetch, so the deadlines come from the long-form notice and ECF 45 rather than the live site. (4) The amended settlement addendum (ECF 44, filed 2026-08-25) is a scanned image with no text layer and was not read. It reportedly only revises the objection and opt-out terms and the claims-rate estimates, per ECF 43. (5) The PA motion says the mediation was \"April 9, 2025,\" which is likely a typo for 2026: the notice of settlement was filed 2026-04-15.",
+   "id": "venetian-las-vegas-vasquez"
+  },
+  {
+   "short_name": "Q.J. v. PowerSchool (Naviance / Heap)",
+   "caption": "Q.J., individually and on behalf of all others similarly situated v. PowerSchool Holdings LLC; Hobsons, Inc. (a/k/a Hobsons Educational Services, Inc.); Heap Inc.; Board of Education of the City of Chicago (Chicago Public Schools); et al.",
+   "defendant": "PowerSchool Holdings LLC; Hobsons, Inc.; Heap Inc. (Contentsquare); Board of Education of the City of Chicago",
+   "court": "U.S. District Court, Northern District of Illinois (Eastern Division)",
+   "docket": "1:23-cv-05689",
+   "judge": "Hon. Jorge L. Alonso (Magistrate Judge Daniel P. McLaughlin)",
+   "industry": "EdTech / K-12 education (college and career planning platform used by schools)",
+   "technology": "Heap session analytics (keystrokes, clicks, mouse movements, counselor messages) embedded in Naviance student platform; also Google, Microsoft, Hotjar and Gainsight analytics code",
+   "cipa_631": "pled",
+   "cipa_632": "pled",
    "cipa_632_7": "not_pled",
    "cipa_638_51": "not_pled",
    "ecpa_wiretap": "pled",
    "fsca": "not_pled",
-   "other_claims": "None in the operative complaint. The Second Amended Complaint (ECF 40) pleads one claim only: ECPA, 18 U.S.C. § 2511(1)(a) / § 2520, using the crime-tort exception (the alleged crime is a HIPAA violation, 42 U.S.C. § 1320d-6). The First Amended Complaint (ECF 13) had six counts: ECPA, Arizona Consumer Fraud Act, negligence, intrusion upon seclusion, breach of implied contract, and unjust enrichment. The court dismissed all six without prejudice on 2024-09-30 (ECF 39). On 2025-08-19 it denied the motion to dismiss the ECPA-only SAC (ECF 56), and on 2025-11-20 it denied defendant's motion for leave to file an interlocutory appeal (ECF 64). The named plaintiffs are all Arizona residents. No CIPA, FSCA, or § 638.51 claims are pled.",
-   "statute_evidence": "Second Amended Class Action Complaint, ECF 40 (filed 2024-10-29), the operative complaint. Its only cause of action is captioned as ECPA, 18 U.S.C. § 2511(1)(a) et seq., and invokes § 2520(a) statutory damages ($10,000 per person). I read the full claims section and prayer for relief: https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.40.0_1.pdf . The prior six-count complaint is described in Order ECF 39: https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.39.0.pdf",
-   "class_definition": "Proposed litigation class from the SAC: all patients of TMC Health whose Sensitive Information was disclosed to a third party through Defendant's website without authorization or consent during the Class Period (September 2021 to class certification). The settlement class definition is unknown because the 2026-09-25 motion is not on RECAP.",
-   "class_size": null,
-   "class_size_note": "Unknown. The SAC says only that TMC Health serves a population of about one million residents. That is a general allegation, not a class count. The settlement class size will be in the 2026-09-25 motion papers or the administrator's declaration, which are not publicly available on RECAP.",
-   "settlement_structure": "Unknown (class settlement confirmed by ECF 71; terms not public)",
-   "fund_amount": null,
-   "payment_terms": "Unknown. The settlement agreement and preliminary approval motion (ECF 75) are not available on RECAP.",
-   "fees_requested": "Unknown",
-   "service_award": "Unknown",
-   "injunctive_relief": "Unknown. The SAC prayer requests injunctive relief barring the tracking practices.",
-   "motion_prelim_filed": "2026-09-25",
-   "prelim_approval_date": "",
-   "final_hearing_date": "",
-   "final_approval_date": "",
-   "status": "Prelim motion pending",
-   "window_basis": "The parties filed a Notice of Class Settlement on 2026-06-08 (ECF 71), and on 2026-09-25 plaintiffs filed a motion docketed as \"Certify Class\" with three declarations (ECF 75-78). That motion is almost certainly the Rule 23(e) motion for preliminary approval and certification of a settlement class. It was filed inside the 2026-04-09 to 2026-10-09 window, and no ruling has been docketed yet.",
-   "plaintiff_counsel": "Zimmerman Reed LLP (Hart L. Robinovitch, Ryan J. Ellersick; Scottsdale, AZ). Defense counsel: Baker & Hostetler LLP (Paul Karlsgodt, Casie Collignon, Alexander Vitruk, Jonathan Maddalone, David Carney) and Farhang & Medcoff PLLC (Ali Farhang, Tyler Bugden).",
-   "settlement_website": "None found (no settlement website located as of 2026-10-09)",
+   "other_claims": "Stored Communications Act 18 U.S.C. 2702(a)(1) (Count 9, pled in the alternative); Illinois Eavesdropping Act 720 ILCS 5/14-1 (Count 10); Illinois School Student Records Act (ISSRA) (Count 14); 42 U.S.C. 1983 Fourth/Fourteenth Amendment, conspiracy and Monell policy-and-practice claims (Counts 2-6, dismissed 8/20/2025); intrusion upon seclusion (Count 11); breach of contract, third-party beneficiary (Counts 12-13); unjust enrichment; respondeat superior (Counts 16-19). FERPA is cited as a confidentiality predicate but is not a standalone count.",
+   "statute_evidence": "First Amended Class Action Complaint (redacted), ECF 119, filed 2025-01-13 (RECAP: https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.119.0.pdf). Count One is ECPA 18 U.S.C. 2511(1)(a),(d) with 2520 remedies, against PowerSchool, Hobsons, Heap and CPS. Count Seven is CIPA Cal. Penal Code 631, against PowerSchool, Heap and CPS. Count Eight is CIPA 632, against Heap. I reviewed all counts, and none cites 632.7, 638.51 or FSCA. The 8/20/2025 MTD order (ECF 178) dismissed Heap for lack of personal jurisdiction (Heap later rejoined for settlement purposes) and dismissed the 1983 claims. It denied dismissal of the ECPA, CIPA, IEA and ISSRA claims against PowerSchool and CPS.",
+   "class_definition": "All persons in the U.S. who, while a student, logged into Naviance (Hobsons, later PowerSchool) at least once from 2021-08-18 through 2026-01-23, including periods when Heap or other third-party analytics were embedded. Nationwide Rule 23(b)(3) settlement class.",
+   "class_size": 10342745,
+   "class_size_note": "Approximate. The figure comes from the per-class-member comparison table in the preliminary approval motion (ECF 212). The motion also says PowerSchool \"identified over 10 million potential individuals\" (Drury Decl. para. 16). It counts identified potential class members, not claimants.",
+   "settlement_structure": "Non-reversionary common fund (claims-made pro rata distribution) plus injunctive relief. PowerSchool pre-funded $5M, and Defendants pay the remaining $12.25M later. Residual from uncashed checks is redistributed if each class member would get at least $5; otherwise it goes cy pres to the Electronic Frontier Foundation.",
+   "fund_amount": 17250000,
+   "payment_terms": "Each approved claimant gets an equal pro rata share of the net fund after administration expenses, the fee award and the service award. Payment is by check, PayPal, Venmo or Zelle, within 45 days after the Effective Date, and checks are void after 180 days. The preliminary approval motion estimated about $1.67 per class member and per-claimant payouts of about $49.43 at a 2% claims rate, $24.71 at 4% and $14.12 at 7%. The claims deadline was 2026-07-27 and the opt-out/objection deadline was 2026-07-13. Actual per-claimant amounts have not been published.",
+   "fees_requested": "Fees requested: $5,318,767. That is 37% of the net fund (after administration expenses and the service award), or about 30.8% of the $17.25M gross fund (ECF 243 at 8-9, 29). No litigation costs were sought. Plaintiff also asked for a $5,000 service award. The fee motion (ECF 237, filed 2026-06-29) was granted on 2026-08-19 (ECF 244). Because ECF 243 says the request was fixed at $5,318,767, the award is presumably that amount. The separate Final Judgment Order was not reviewed to confirm the exact figure.",
+   "service_award": "Up to $5,000 to class representative Q.J. (Agreement para. 8.3). Reported granted 2026-08-19; the amount awarded was not verified.",
+   "injunctive_relief": "PowerSchool creates a Web Governance Committee within 30 days of final judgment. For 2 years it will not use third-party code in Naviance (Heap, Google, Microsoft, Hotjar, Gainsight, etc.) unless the committee finds it lawful; data subprocessors such as AWS, Azure and Snowflake are excepted. PowerSchool supplements the Naviance privacy statement to disclose third-party analytics and ad tech, and posts a privacy banner on student.naviance.com and powerschool.com for 9 months. PowerSchool instructs Heap, Google, Microsoft and Hotjar to delete class members' data within 10 days of final judgment. Heap deletes primary data within 10 days and backups within 30 days. CPS revises its third-party student-data contract terms for up to 4 years and requires annual vendor compliance attestations under penalty of perjury (ISSRA, FERPA, PPRA, SOPPA, ECPA, Illinois Eavesdropping Act).",
+   "motion_prelim_filed": "2026-02-23",
+   "prelim_approval_date": "2026-03-26",
+   "final_hearing_date": "2026-08-19",
+   "final_approval_date": "2026-08-19",
+   "status": "Final approval",
+   "window_basis": "Final approval was granted on 2026-08-19 at the final approval hearing. The source is ECF 244, a minute entry the RECAP docket titles \"Order on Motion for Attorney Fees AND Order on Motion for Miscellaneous Relief,\" which secondary sources describe as granting final approval, fees and the service award. That date is inside the 2026-04-09 to 2026-10-09 window. All preliminary approvals came before the window: 2/25/2026 (ECF 218), amended 2/27/2026 (ECF 219), and the amended agreement on 3/26/2026 (ECF 227).",
+   "plaintiff_counsel": "Scott R. Drury, Drury Legal, LLC (Highwood, IL), appointed Class Counsel",
+   "settlement_website": "https://powerschoolnaviancesettlement.com (Kroll Settlement Administration LLC)",
    "sources": [
     {
-     "label": "CourtListener docket, Williams v. TMC Health, 4:23-cv-00434 (D. Ariz.)",
-     "url": "https://www.courtlistener.com/docket/67808198/williams-v-tmc-health/"
+     "label": "First Amended Class Action Complaint, ECF 119 (RECAP PDF)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.119.0.pdf"
     },
     {
-     "label": "ECF 40 - Second Amended Class Action Complaint (operative; ECPA-only claim, trackers, class definition, counsel)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.40.0_1.pdf"
+     "label": "Order Preliminarily Approving Amended Settlement, ECF 227 (class definition, Class Counsel, FAH 8/19/2026)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.227.0.pdf"
     },
     {
-     "label": "ECF 71 - Notice of Class Settlement (2026-06-08; Rule 23(e) prelim motion anticipated)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.71.0.pdf"
+     "label": "Amended Settlement Agreement and notices, ECF 222-1 (fund, payment terms, injunctive relief, fee cap, service award)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.222.1_1.pdf"
     },
     {
-     "label": "ECF 39 - Order granting MTD of First Amended Complaint (2024-09-30; lists prior six counts and trackers incl. CallRail)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.39.0.pdf"
+     "label": "Preliminary approval motion, ECF 212 (class size 10,342,595; per-claimant estimates)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.212.0.pdf"
     },
     {
-     "label": "ECF 1 - Original Class Action Complaint (2023-09-18)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.1.0.pdf"
+     "label": "MTD Memorandum Opinion and Order, ECF 178 (8/20/2025)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.437069/gov.uscourts.ilnd.437069.178.0.pdf"
     },
     {
-     "label": "CourtListener API docket entries (ECF 72-78 metadata: renewed settlement notices; 2026-09-25 'Certify Class' motion + 3 declarations)",
-     "url": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=67808198"
+     "label": "CourtListener docket (ECF 237 fee motion 6/29/26; ECF 243 motion 8/12/26; ECF 244 order 8/19/26)",
+     "url": "https://www.courtlistener.com/docket/67706871/qj-v-powerschool-holdings-llc/"
+    },
+    {
+     "label": "Official settlement website FAQ (deadlines; FAH held 8/19/2026)",
+     "url": "https://powerschoolnaviancesettlement.com/faq"
+    },
+    {
+     "label": "Settlement Insight (reports FA granted 8/19/2026; fee request up to $6,382,500)",
+     "url": "https://settlementinsight.com/powerschool-naviance-lawsuit"
+    },
+    {
+     "label": "Harm Report (administrator lists minute order granting FA, fees, service award)",
+     "url": "https://www.harmreport.com/news/powerschool-naviance-settlement-final-approval/"
+    },
+    {
+     "label": "ClassAction.org news article",
+     "url": "https://www.classaction.org/news/17.25m-powerschool-settlement-resolves-class-action-over-alleged-interception-of-confidential-student-communications"
     }
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's finding; I agree with it on every statute. I pulled the full docket from the CourtListener API myself (entries 1-78). The operative complaint is the Second Amended Class Action Complaint, ECF 40, filed 2024-10-29; an unredacted copy is sealed at ECF 45. I downloaded ECF 40 and searched its text. It has a single claim, captioned as a violation of the ECPA, 18 U.S.C. § 2511(1) et seq., and it invokes the private right of action in § 2520(a) and $10,000 statutory damages per person for violating § 2511(1)(a). It never mentions California, Florida, the Penal Code, CIPA, or Fla. Stat. 934. The defendant's second motion to dismiss was DENIED (ECF 56, 2025-08-19), and the defendant answered ECF 40 on 2025-09-19 (ECF 59), so the ECPA claim was live when the case settled. Settlement was noticed at ECF 71 (2026-06-08) and renewed at ECF 72 (2026-07-22). Entries 73-78 (2026-08-14 to 2026-09-25) have no description or document on CourtListener, so I could not confirm any preliminary-approval motion or order. Count history: the original complaint (ECF 1) pled six counts: ECPA, the Arizona Consumer Fraud Act, negligence, intrusion upon seclusion, breach of implied contract and unjust enrichment. The court dismissed the first amended complaint (ECF 13) in full without prejudice (Order ECF 39, 2024-09-30). The second amended complaint dropped every count except ECPA. None of the complaints in this Arizona case ever pled CIPA §§ 631, 632, 632.7 or 638.51, or the Florida FSCA. | Timing/money check (confirmed): I found nothing that refutes the 2026-09-25 date. The docket shows Doc 75 filed 2026-09-25 under the CM/ECF event \"Certify Class,\" along with three declarations (Docs 76-78) filed the same day. That fits a settlement-class certification and preliminary approval motion, but I could not confirm it from the document itself.\n\nWhy I read Doc 75 as the preliminary approval motion:\n- Doc 71 is a joint Notice of Class Settlement filed 2026-06-08 (defense counsel Farhang & Medcoff and BakerHostetler; plaintiffs' counsel Zimmerman Reed). It says the parties reached a class settlement and expected to file a Rule 23(e) preliminary approval motion by July 26, 2026.\n- Renewed notices of settlement followed on 2026-07-22 (Doc 72), 2026-08-14 (Doc 73) and 2026-09-04 (Doc 74).\n- A contested class certification motion is unlikely at this point. The 2026-01-15 scheduling order (Doc 69) set class-certification discovery to close 2026-11-13 and a class-cert hearing for 2026-12-09.\n\nRemaining gaps:\n- The PDFs of Docs 72-78 are not on RECAP, and the CourtListener entry for Doc 75 has no long description. The exact motion title, settlement fund, class size and fee request therefore could not be verified. Fund and class size stay null; fees stay Unknown.\n- CourtListener's last entry is 2026-09-25 and shows no order on the motion. So there is no preliminary approval date, final hearing date or final approval date yet.\n- Web searches (Perplexity, WebSearch, Sparrow, Sounder) found no settlement website and no published amount. Sparrow still lists the case as pending and not open for claims.\n\nClaims check: the Second Amended Complaint (Doc 40, filed 2024-10-29) has a single count under the federal ECPA/Wiretap Act, 18 U.S.C. § 2511(1). That fits the user's federal wiretap/ECPA criterion. There are no CIPA 631/632 or Florida FSCA counts. The earlier amended complaint was dismissed without prejudice (Doc 39, after oral argument on 2024-08-14). The case concerns Meta, Google, LinkedIn, Snapchat and CallRail trackers on tmcaz.com.\n\nCorrections: none to the researcher's dates. Status \"Prelim motion pending\" is accurate as of 2026-10-09.",
-   "open_questions": "1) ECF 75 (2026-09-25) has the PACER short description \"Certify Class\", and RECAP has no docket text or PDF for it. Its timing makes it almost certainly the motion for preliminary approval and settlement-class certification. It follows the 2026-06-08 Notice of Class Settlement, which anticipated a Rule 23(e) motion, and several renewed settlement notices (ECF 72-74). Class-certification discovery was not due to close until 2026-11-13, so a contested class-cert motion this early is unlikely. Still, this should be confirmed on PACER. 2) Fund amount, settlement structure, per-claimant payments, fee request, service awards, injunctive terms, settlement class definition and size, and the settlement administrator/website are all unknown until ECF 75-78 are pulled from PACER. 3) No order on preliminary approval had been docketed as of 2026-10-09. The CourtListener docket's last filing is 2026-09-25. 4) This is an ECPA-only case from Arizona with no CIPA, FSCA, or § 638.51 claims. It supports the federal-Wiretap-Act (hospital pixel) part of the table.",
-   "id": "williams-v-tmc-health-tucson-medical-center-pixel"
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's findings. I downloaded and text-searched the First Amended Class Action Complaint (ECF 119, the redacted version, filed 1/13/2025). Its headings match the researcher's account. Count One is ECPA, 18 U.S.C. 2511(1)(a) and (d), against PowerSchool, Hobsons, Heap and CPS for the Nationwide Class and the Naviance Subclass. Count Seven is CIPA Cal. Penal Code 631 against PowerSchool, Heap and CPS. Count Eight is CIPA 632 against Heap only. A full-text search found no mention of 632.7, 638.51/638.5, pen register, trap and trace, Fla. Stat. 934 or Florida.\n\nThe FAC is still the operative complaint. I pulled the docket entries through the CourtListener API. There is no second amended complaint, and PowerSchool, Hobsons and CPS answered the amended complaint on 9/3/2025 (ECF 179 and 180).\n\nThe Amended Settlement Agreement (ECF 222-1, filed 3/23/2026) supports this. Its recitals say the FAC alleged ECPA 2511(a) and CIPA claims, and its release and notice language names ECPA 2511(a) and CIPA 631-632. It also refers to a related case, I.J. v. Heap (S.D.N.Y., filed 9/11/2025), which pleads ECPA, CIPA and IEA and is being settled individually.\n\nMinor points:\n- The settlement agreement cites the FAC as Dkt. 118. That is the sealed version; 119 is the public redacted copy of the same complaint.\n- Heap was dismissed for lack of personal jurisdiction on 8/20/2025 (ECF 178), so after that date the 632 count stood only against a dismissed defendant. Heap's dismissal was vacated for settlement on 1/27/2026 (ECF 206). That does not change what was pled.\n- Preliminary approval of the amended settlement was granted on 3/26/2026 (ECF 227). An earlier preliminary approval order was entered 2/25/2026 (ECF 218) and amended 2/27/2026 (ECF 219). | fees_requested: The fee motion was filed 2026-06-29 (ECF 237). The settlement caps the request at 37% of the fund net of administration expenses, litigation expenses and the service award, plus litigation costs. A secondary source reports up to $6,382,500 requested (37% of the gross fund). The court ruled on the fee motion 2026-08-19 (ECF 244); the amount awarded was not verified.→Fees requested: $5,318,767. That is 37% of the net fund (after administration expenses and the service award), or about 30.8% of the $17.25M gross fund (ECF 243 at 8-9, 29). No litigation costs were sought. Plaintiff also asked for a $5,000 service award. The fee motion (ECF 237, filed 2026-06-29) was granted on 2026-08-19 (ECF 244). Because ECF 243 says the request was fixed at $5,318,767, the award is presumably that amount. The separate Final Judgment Order was not reviewed to confirm the exact figure. | class_size: 10342595→10342745 | Timing/money check (confirmed): CONFIRMED: the in-window event is final approval. ECF 244 is a minute entry by Judge Alonso dated 2026-08-19, downloaded from the official Kroll settlement site. It records that the in-court settlement approval hearing was held, the final approval motion (ECF 243, filed 2026-08-12) was granted, the fee and service award motion (ECF 237) was granted, the Final Judgment Order was entered and the case was terminated. The CourtListener docket (67706871) also lists ECF 244 on 2026-08-19 as an order on the fee motion and the misc-relief motion.\n\nThe preliminary-approval steps all fall BEFORE the 2026-04-09 window:\n- Original prelim motion: ECF 212, filed 2026-02-23. Researcher's date is correct for the original motion.\n- Original prelim approval: granted 2026-02-25 (ECF 217 minute entry, ECF 218 order). An amended order followed on 2026-02-27 (ECF 219). That first round set the final hearing for 2026-06-10.\n- Amended settlement: prelim motion ECF 222, filed 2026-03-23. Granted 2026-03-26 (ECF 226 and the ECF 227 order), and the final hearing was moved to 2026-08-19 at 11:00 a.m.\nSo the researcher's prelim approval date of 2026-03-26 is the operative one for the amended settlement. The record should still note the earlier 2026-02-25 approval and that the amended motion was filed 2026-03-23.\n\nCORRECTIONS:\n(1) Class size: the final approval motion (ECF 243, citing Peak Decl. ¶9) says the class list had 10,342,745 unique members, plus 9,003,420 parents/guardians. The researcher's 10,342,595 comes from the original prelim motion (ECF 212, comparison table). I used the later administrator figure.\n(2) Fees: the secondary-source figure of \"$6,382,500 (37% of gross)\" is wrong. The actual request was $5,318,767 (37% of net, about 30.8% of gross), with no costs sought, and the court granted the fee motion.\n\nOther verified facts:\n- Fund: $17,250,000, non-reversionary (ECF 243; settlement site).\n- Claims rate: about 7.55% (780,853 claims). The notice plan reached about 90% of the class. There were 56 opt-outs and 5 objectors. The estimated payment per claimant is about $11.62.\n- Administration cost cap was cut from $2,874,953.60 to $2,849,953.60.\n- Claims released include ECPA 18 USC 2511, CIPA 631-632, the Illinois Eavesdropping Act, the SCA, ISSRA and common law, so the case fits the user's CIPA 631/632 and ECPA criteria.\n- Key deadlines: exclusion and objection 2026-07-13, claims 2026-07-27.\n\nHow I checked: the official site is behind Cloudflare, so I read it with Playwright. The FAQ and Documents pages list the \"Minute Order - Granting FA and Fees and Service Award\" and show that the hearing was held 2026-08-19. Dates came from CourtListener docket entries 200-244. The Final Judgment Order itself is not yet on RECAP.",
+   "open_questions": "1) I did not see the text of ECF 244 (the 8/19/2026 minute order). Final approval on 8/19/2026 rests on the RECAP entry title (it rules on the fee motion and the 8/12 motion ECF 243, likely the final approval motion) plus several secondary sources. Whether a separate final judgment was entered, and on what date, is unverified, and entries 238, 239 and 241 are missing from RECAP. 2) The fee and service award amounts actually awarded are unverified, and the $6,382,500 request figure comes only from a secondary source. Buying ECF 237 and 244 on PACER would confirm both. 3) The number of claims filed and the final per-claimant payment are unknown. 4) The case hints mentioned 632.7, but the operative complaint (ECF 119) has no 632.7 count; I set it to not_pled. 5) Heap was dismissed for lack of personal jurisdiction (8/20/2025) and rejoined only by consent for settlement. 6) The settlement website's documents page was blocked by Cloudflare, so I relied on the RECAP copies of the agreement and orders.",
+   "id": "q-j-v-powerschool-naviance-heap"
   },
   {
-   "short_name": "Emanate Health (Ortega)",
-   "caption": "Ortega, et al. v. Emanate Health Medical Center (and Doe Defendants 1-10), Lead Case No. 22STCV28142 (consolidated with 23STCV29848)",
-   "defendant": "Emanate Health Medical Center",
-   "court": "Superior Court of California, County of Los Angeles (Spring Street Courthouse, Dept. 12, Complex)",
-   "docket": "22STCV28142 (lead); consolidated 23STCV29848",
-   "judge": "Hon. Carolyn B. Kuhl",
-   "industry": "Healthcare / hospital system",
-   "technology": "Meta (Facebook) Pixel on emanatehealth.org (patient portal login, online forms, appointment scheduling); settlement release and injunctive terms also cover Google Analytics",
+   "short_name": "Howard v. Labcorp (website search tracking)",
+   "caption": "Connie Howard, Yadira Yazmin Hernandez, and Deborah Reynolds v. Laboratory Corporation of America and Laboratory Corporation of America Holdings",
+   "defendant": "Laboratory Corporation of America; Laboratory Corporation of America Holdings (Labcorp)",
+   "court": "U.S. District Court, M.D.N.C. (transferred from N.D. Cal. No. 3:23-cv-02773 on 2023-09-05)",
+   "docket": "1:23-cv-00758-WO-JEP",
+   "judge": "William L. Osteen Jr. (Magistrate Judge Joi Elizabeth Peake)",
+   "industry": "Healthcare / clinical laboratory diagnostics",
+   "technology": "Meta Pixel, Google Analytics / Google source code and other third-party tracking code on labcorp.com. It allegedly sent users' search-bar queries about medical conditions and tests, the resulting pages, and test names/codes to Meta, Google and others, together with identifying information.",
    "cipa_631": "pled",
    "cipa_632": "not_pled",
    "cipa_632_7": "not_pled",
    "cipa_638_51": "not_pled",
    "ecpa_wiretap": "not_pled",
    "fsca": "not_pled",
-   "other_claims": "CMIA, Cal. Civ. Code § 56 et seq.; invasion of privacy under Cal. Const. art. I, § 1; common-law intrusion upon seclusion",
-   "statute_evidence": "Consolidated Class Action Complaint (filed 2024-07-15), from the settlement website's Court Documents page: https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Consolidated_Class_Action_Complaint.pdf. It has four causes of action. Count 1 is \"CIPA, Cal. Penal Code § 630 et seq.\" and quotes and relies only on § 631(a), alleging that Emanate aided, agreed with and conspired with Facebook to intercept communications, with § 637.2 damages. Counts 2-4 are CMIA, the Cal. Const. privacy claim and intrusion upon seclusion. A full-text search of the complaint found no § 632, § 632.7, § 638.51/pen-register, 18 U.S.C. § 2511/ECPA or Fla. Stat. § 934 claims. The prelim-approval memo (filed 2026-03-04) states the same four causes of action.",
-   "class_definition": "All identifiable individuals who logged into the Emanate patient portal, submitted an online form and/or scheduled an appointment on emanatehealth.org from 2019-08-30 to 2024-04-30. Excluded: Emanate and its affiliates, officers and directors, plus the judges and court clerks.",
-   "class_size": 38850,
-   "class_size_note": "Approximate. The settlement agreement and prelim memo say \"approximately 38,850\" Settlement Class members, an estimate based on Emanate's confidential declaration. The memo puts the gross recovery at about $20 per class member.",
-   "settlement_structure": "Non-reversionary common fund with claims-made pro rata distribution. Notice and administration costs, fees, costs and service awards all come out of the fund. Any residue goes cy pres to the Electronic Frontier Foundation.",
-   "fund_amount": 777000,
-   "payment_terms": "Every class member who files a valid claim gets a pro rata share of the Net Settlement Fund, and no proof is required. The notice estimates the net fund at $433,709 and the payment at about $11 per claimant if 100% of the class claims, or about $55 at a 20% claim rate. Payment options are electronic (PayPal/Venmo/Zelle per secondary source) or check. Deadlines: claims 2026-09-29; opt-out and objection 2026-08-31.",
-   "fees_requested": "Up to $259,000 in attorneys' fees (stated as 33% of the $777,000 fund), plus up to $20,000 in costs and expenses (Settlement Agreement ¶¶57-58). Service awards are $2,500 each for 4 plaintiffs ($10,000). Administration (EisnerAmper) is estimated at $54,291, leaving an estimated net fund of $433,709. Fees have not been awarded yet. The fee motion is due 16 court days before the 2026-11-19 hearing.",
-   "service_award": "$2,500 each to four class representatives (Shively, Sutton, Perez, Diamond), $10,000 total; requested, not yet awarded",
-   "injunctive_relief": "Emanate will create and maintain a Web Governance Committee to review the analytics and ad technologies on its website. For 2 years after final approval, Emanate will not use the Meta Pixel or Google Analytics on its website unless (1) the committee makes the 45 C.F.R. § 164.514(b)(1) de-identification determination and (2) Emanate posts an affirmative disclosure naming the tool on the page.",
-   "motion_prelim_filed": "2026-03-04",
-   "prelim_approval_date": "2026-06-01",
-   "final_hearing_date": "2026-11-19",
+   "other_claims": "Pennsylvania Wiretapping and Electronic Surveillance Control Act (WESCA), 18 Pa. C.S. § 5701 et seq. (§§ 5703, 5725), for the PA class. The original N.D. Cal. complaint (ECF 1) also had an unjust enrichment count against Meta. Meta was severed and is no longer a defendant.",
+   "statute_evidence": "The operative Amended Class Action Complaint (ECF 67, filed 2023-09-13, RECAP PDF https://storage.courtlistener.com/recap/gov.uscourts.ncmd.96515/gov.uscourts.ncmd.96515.67.0.pdf) has exactly two counts. Count 1 is CIPA, headed \"Cal. Penal Code §§ 630-638\", but it quotes and relies only on § 631(a), including the aiding/conspiring clause, with damages under § 637.2. Count 2 is PA WESCA. The text never mentions § 632, § 632.7, § 638.51, the federal Wiretap Act/ECPA, or Fla. Stat. ch. 934. Its introduction describes the claims as \"Cal. Penal Code § 631\" and WESCA § 5703. The original complaint (ECF 1) also cites no 632 or 638.51. The hint that 632 and 638.51 were pled is wrong: the only \"638\" in the text is the §§ 630-638 range in the heading.",
+   "class_definition": "Rule 23(b)(2) injunctive settlement classes, with no opt-out. California class: all persons in California who ran Search Queries on Labcorp's website from 2021-05-01 to the date of the Settlement Agreement (the notice says 2026-04-01). Pennsylvania class: the same definition for persons in Pennsylvania. Labcorp's employees and affiliates, plaintiffs' counsel, and the court are excluded.",
+   "class_size": null,
+   "class_size_note": "Unknown. The preliminary-approval order and notice give no class-size estimate; the order says only that the class is numerous. The amended complaint says \"at least hundreds.\" No claims process because relief is injunctive only.",
+   "settlement_structure": "Injunctive-relief-only Rule 23(b)(2) settlement with no opt-out. There is no common fund and no cash to class members. Absent class members release only injunctive and equitable claims, not damages claims; only the named plaintiffs release their individual damages claims.",
+   "fund_amount": 0,
+   "payment_terms": "None. Class members get no money and file no claim forms; the notice says the settlement provides no monetary compensation.",
+   "fees_requested": "Fee motion due on or before 2026-11-14, seeking fees plus expenses capped at $4,875,000 in total. Up to $2,500 service award for each of the 3 class representatives. Nothing awarded yet. There is no common fund, so Labcorp necessarily pays any award. The class notice does not literally say \"paid separately.\"",
+   "service_award": "Up to $2,500 for each of 3 class representatives ($7,500 total), requested and not yet awarded.",
+   "injunctive_relief": "Labcorp represents that the Tracking Technologies are already disabled. For at least 2 years after the Effective Date, Labcorp must:\n(1) not use or enable the Tracking Technologies on its website;\n(2) not use technology that, to its knowledge, sends Search Query contents to third parties, except Exempt Technology;\n(3) review the website every year and give a compliance report to class counsel;\n(4) keep a written policy on third-party tracking technologies and give it to class counsel;\n(5) name a senior employee to oversee compliance.\nPlaintiffs can ask the court to enforce these terms by injunction.",
+   "motion_prelim_filed": "2026-04-16",
+   "prelim_approval_date": "2026-08-21",
+   "final_hearing_date": "2026-12-14",
    "final_approval_date": "",
    "status": "Preliminary approval",
-   "window_basis": "Judge Kuhl signed and filed the order granting preliminary approval on 2026-06-01, inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Milberg Coleman Bryson Phillips Grossman, PLLC (John J. Nelson) and Zimmerman Reed LLP (Ryan J. Ellersick; Jeff S. Westerman), both proposed Settlement Class Counsel. Jennings PLLC (Christopher D. Jennings, Tyler B. Ewigleben) also appears on the complaint.",
-   "settlement_website": "https://www.emanateprivacysettlement.com/",
+   "window_basis": "The court granted preliminary approval on 2026-08-21 (ECF 155, Judge Osteen), which is inside the 2026-04-09 to 2026-10-09 window. The unopposed preliminary-approval motion (ECF 149) was also filed in the window, on 2026-04-16.",
+   "plaintiff_counsel": "Lieff Cabraser Heimann & Bernstein (Douglas I. Cuthbertson, Michael W. Sobol; Michael K. Sheen substituted for Margaret Mattes); Meyer Wilson Werning Co., LPA (Matthew R. Wilson); Levin Law, P.A. (Brian Levin). Cuthbertson, Wilson and Levin are appointed Settlement Class Counsel. Local counsel on the complaint: Elliot Morgan Parsonage (Daniel C. Lyon).",
+   "settlement_website": "https://www.laboratorycorporationwebsitesettlement.com/",
    "sources": [
     {
-     "label": "Official settlement website (dates, class definition)",
-     "url": "https://www.emanateprivacysettlement.com/"
+     "label": "Preliminary approval order, ECF 155 (2026-08-21), primary document",
+     "url": "https://www.classaction.org/media/labcorp-settlement-prelim-approval-order.pdf"
     },
     {
-     "label": "Settlement website - Court Documents index",
-     "url": "https://www.emanateprivacysettlement.com/court-documents/"
+     "label": "Operative Amended Class Action Complaint, ECF 67 (2023-09-13), RECAP",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncmd.96515/gov.uscourts.ncmd.96515.67.0.pdf"
     },
     {
-     "label": "Consolidated Class Action Complaint (2024-07-15) - claims list",
-     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Consolidated_Class_Action_Complaint.pdf"
+     "label": "Original complaint, ECF 1 (N.D. Cal.), RECAP",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ncmd.96515/gov.uscourts.ncmd.96515.1.0.pdf"
     },
     {
-     "label": "Order Granting Preliminary Approval (filed/signed 2026-06-01, Judge Kuhl; FAH 2026-11-19)",
-     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Order-Granting-Motion-for-Preliminary-Approval.pdf"
+     "label": "CourtListener docket (entries 148-156; prelim motion ECF 149 filed 2026-04-16; objection ECF 156 filed 2026-10-05)",
+     "url": "https://www.courtlistener.com/docket/67760471/howard-v-laboratory-corporation-of-america/"
     },
     {
-     "label": "Settlement Agreement (fund, injunctive relief, fees cap, service awards, cy pres)",
-     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Emanate-Health-Settlement-Agreement.pdf"
+     "label": "Long-form notice (fees cap $4.875M, service awards, objection deadline 2026-11-23, no opt-out)",
+     "url": "https://www.classaction.org/media/labcorp-settlement-notice.pdf"
     },
     {
-     "label": "Plaintiffs' Memo ISO Preliminary Approval (e-filed 2026-03-04; class size, procedural history)",
-     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Plaintiffs_Memorandum_in_Support_of_Unopposed_Moti.pdf"
+     "label": "Top Class Actions summary",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/labcorp-web-tracking-class-action-settlement/"
     },
     {
-     "label": "Notice of Motion for Preliminary Approval",
-     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Plaintiff_s_Notice_of_Motion_and_Unopposed_Motion.pdf"
-    },
-    {
-     "label": "Long Form Notice (estimated payments, deadlines)",
-     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Exhibit-C_Emanate_LongForm-Notice_Website.pdf"
-    },
-    {
-     "label": "ClassAction.org news summary (secondary)",
-     "url": "https://www.classaction.org/news/777k-emanate-health-medical-center-settlement-ends-class-action-over-alleged-use-of-third-party-tracking-pixels"
-    },
-    {
-     "label": "ClaimDepot summary (secondary)",
-     "url": "https://www.claimdepot.com/settlements/emanate-privacy-settlement"
+     "label": "Official settlement website (blocked automated access with HTTP 403 and timeouts)",
+     "url": "https://www.laboratorycorporationwebsitesettlement.com/"
     }
    ],
    "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher; I agree on every statute. I downloaded the Consolidated Class Action Complaint myself (41 pages, Case No. 22STCV28142, Milberg / Zimmerman Reed) and pulled the text out on my own. The caption lists four claims: (1) Cal. Penal Code § 630 et seq.; (2) CMIA, Civ. Code § 56; (3) Cal. Const. art. I § 1; (4) intrusion upon seclusion. The First Cause of Action (paras. 106-118) quotes only § 631(a). It alleges Emanate \"aided, agreed with, and conspired with Facebook\" to intercept website communications through the Meta Pixel, and it seeks § 637.2 damages, so § 631 is pled. A full-text search of the complaint found no § 632, § 632.7, § 638.51, pen register / trap and trace, 18 U.S.C. § 2511 / ECPA, or Fla. Stat. § 934 references. The word \"wiretaps\" appears in the constitutional privacy count as a description of the conduct, not as a Wiretap Act claim. The Settlement Agreement recitals name this July 15, 2024 Consolidated Complaint as the operative complaint. The preliminary-approval memo says the same: same four causes of action, Emanate's demurrer to all claims overruled on Dec. 4, 2024, and no amended complaint, so no count was dropped. The memo's only \"632\" hit is a citation to Manual for Complex Litigation § 21.632, not a CIPA reference. I did not review the two original pre-consolidation complaints (22STCV28142 and 23STCV29848), which the consolidated complaint supersedes. For the user's goal, this is a § 631-only Meta Pixel hospital settlement with no § 638.51 claim, so it backs the § 631 theory without § 638.51 in the mix. | fees_requested: Up to $259,000 in fees (33% of the fund), plus up to $20,000 in costs. Not yet awarded; the fee motion is due before the 2026-11-19 final approval hearing. Administration costs are estimated at $54,291.→Up to $259,000 in attorneys' fees (stated as 33% of the $777,000 fund), plus up to $20,000 in costs and expenses (Settlement Agreement ¶¶57-58). Service awards are $2,500 each for 4 plaintiffs ($10,000). Administration (EisnerAmper) is estimated at $54,291, leaving an estimated net fund of $433,709. Fees have not been awarded yet. The fee motion is due 16 court days before the 2026-11-19 hearing. | Timing/money check (confirmed): CONFIRMED. The in-window event is preliminary approval on 2026-06-01, which falls inside the 2026-04-09 to 2026-10-09 window. I could not refute it.\n\nPrimary source: the signed Preliminary Approval Order posted on the official settlement site. It is e-signed by Judge Carolyn B. Kuhl and dated 06/01/2026. The hearing date \"June 1, 2026\" is filled in at the top of page 1, and the Final Approval Hearing is set for \"Nov. 19, 2026 at 10:30 am\" in Dept. 12, Spring Street. The order conditionally certifies a class covering 2019-08-30 to 2024-04-30, appoints EisnerAmper as administrator, and sets the fee/final approval motion deadline at 16 court days before the final hearing.\n\nPrelim motion: the Notice of Motion and the supporting Memorandum are both dated and signed 2026-03-04. That date falls before the window, but it is not the qualifying event. The motion originally noticed a 2026-05-12 hearing in Dept. 12; the order was entered on 2026-06-01. The posted copies carry no court file stamp, so 2026-03-04 is the signature date and is treated as the filing date. I did not check the LASC online docket (it is behind a CAPTCHA).\n\nMoney: these are all confirmed in the Settlement Agreement (dated 2026-01-29), the prelim memorandum and the Long-Form Notice:\n- $777,000 non-reversionary fund\n- about 38,850 class members (Emanate's estimate in the SA and the memo)\n- fees capped at $259,000 (stated as 33%), plus up to $20,000 in costs\n- $2,500 service award each for 4 plaintiffs\n- $54,291 administration estimate\n- estimated net fund of $433,709\n\nNote that 33% of $777,000 is $256,410, so the $259,000 cap is actually about one-third. The settlement site lists the exclusion/objection deadline as 2026-08-31 and the claims deadline as 2026-09-29.\n\nFinal approval: not yet granted. The hearing is 2026-11-19, after today's date of 2026-10-09.\n\nClaims: the Consolidated Complaint pleads CIPA (Cal. Penal Code 630 et seq.) and specifically quotes and relies on section 631(a). It also pleads CMIA (Civ. Code 56 et seq.), the Cal. Const. art. I, sec. 1 privacy right, and intrusion upon seclusion. It contains no section 632, no federal ECPA/Wiretap Act and no FSCA count. The memo confirms the two related LASC cases were related (2024-03-27) and consolidated by stipulation. I did not find the companion number 23STCV29848 in the documents I read, but the consolidation itself is confirmed.\n\nNo corrections to the researcher's facts were needed.",
-   "open_questions": "1. Final approval has not been ruled on; the hearing is set for 2026-11-19, and the fee and service-award amounts are requests only. 2. The final claims rate and actual per-claimant payment are unknown. 3. ClassAction.org gives a 2025-07-15 filing date, but the complaint is dated 2024-07-15 and the original action was filed 2022-08-30, so the secondary source appears wrong. 4. The motion's hearing was noticed for 2026-05-12, but the order was signed 2026-06-01, probably because the hearing was continued; a Supplemental Ellersick Decl. was filed 2026-05-26. 5. Original named plaintiffs Ortega and Vergara are not proposed class representatives; only four representatives are named. 6. The CIPA count is captioned \"§ 630 et seq.\" but its theory is § 631(a) aiding and abetting only; there is no § 632 or § 638.51 theory.",
-   "id": "emanate-health-ortega"
+   "xcheck_notes": "Claims check (confirmed): I tried to refute the researcher's statute findings and could not. I downloaded and text-searched the operative Amended Complaint (ECF 67, filed 9/13/2023, 41 pages).\n\nWhat ECF 67 contains:\n- It has exactly two counts.\n- First Cause of Action: CIPA, headed \"Cal. Penal Code §§ 630-638\". It quotes § 631(a) and § 631's aiding/conspiring language, and seeks damages under § 637.2 (para. 121).\n- Second Cause of Action: Pennsylvania WESCA, 18 Pa.C.S. § 5701 et seq. / § 5703, with § 5725(a) damages.\n\nWhat it does not contain:\n- No hits for \"632\", \"2510\", \"2511\", \"ECPA\", \"Electronic Communications Privacy\" or \"934.\".\n- The two \"638\" hits are only the §§ 630-638 range (in the heading and in para. 112).\n- Every \"Wiretap\" hit refers to Pennsylvania's WESCA, not the federal Act.\n- The one \"Florida\" hit is co-counsel Levin Law's Miami address.\n- The original complaint (ECF 1, N.D. Cal.) shows the same pattern: § 631 only, with no 632, 638.51 or federal Wiretap Act.\n\nIs ECF 67 still the operative complaint? Yes. I checked the CourtListener docket (213 entries):\n- The motion to dismiss the Amended Complaint (ECF 78) was denied by order on 9/27/2024 (ECF 114).\n- Labcorp answered the Amended Complaint on 10/10/2024 (ECF 116).\n- No later amended complaint appears.\n- On 8/13/2025, plaintiff Hernandez moved under Rule 41(a)(2) to dismiss her claim (ECF 133). This did not drop the § 631 count.\n- A joint notice of settlement was filed 1/15/2026 (ECF 145).\n\nSettlement details useful for the comparison table:\n- Preliminary approval order is ECF 155, filed 8/21/2026, within the 6-month window.\n- The final approval hearing is set for 12/14/2026.\n- This appears to be an injunctive-relief-only settlement class (the order cites Rule 23(b)(2)-type findings). The notice says class members do not release claims for damages or other monetary relief.\n- Fees and expenses are capped at $4.875M, with service awards of $2,500 each for three representatives.\n- The class covers California and Pennsylvania residents who searched labcorp.com from 5/1/2021 to 4/1/2026.\n- The order and notice describe the claims only as \"California and Pennsylvania wiretapping laws\" and cite no section numbers.\n\nBecause there is no cash fund, this is weak as a damages comparator for settlement demands. Verdict: confirmed, since § 631 is pled in a primary document. | fees_requested: Up to $4.875 million in combined attorneys' fees and expenses, to be paid separately by Labcorp. The fee motion is due on or before 2026-11-14. Not yet awarded.→Fee motion due on or before 2026-11-14, seeking fees plus expenses capped at $4,875,000 in total. Up to $2,500 service award for each of the 3 class representatives. Nothing awarded yet. There is no common fund, so Labcorp necessarily pays any award. The class notice does not literally say \"paid separately.\" | Timing/money check (confirmed): I could not refute this one. Both qualifying events fall inside the window (2026-04-09 to 2026-10-09).\n\nSources: the CourtListener REST docket (docket id 67760471, M.D.N.C. 1:23-cv-00758-WO-JEP) and the text of the preliminary approval order (Doc. 155, filed 08/21/26).\n\nKey dates from the docket:\n- 2026-01-15: Joint Notice of Settlement (Doc. 145). The court set an April 15, 2026 deadline for the preliminary approval motion.\n- 2026-04-15: motion for extension of time to file (Doc. 148).\n- 2026-04-16: Plaintiffs' Unopposed Motion for Preliminary Approval filed (Doc. 149), with memorandum (Doc. 150) and declarations (Docs. 151-153).\n- 2026-04-30: Doc. 154, an order on the extension motion and on the motion to approve. The document text is not available on RECAP. It did not dispose of the motion, because Doc. 155 later grants Doc. 149.\n- 2026-08-11: motions submitted.\n- 2026-08-21: order granting preliminary approval (Doc. 155), signed \"This the 21st day of August, 2026\" by the district judge.\n- 2026-10-05: an objection was filed (Doc. 156).\n\nThe settlement agreement is dated 2026-04-02.\n\nFund: there is no fund, so $0 is correct. The court certified classes under Rule 23(b)(1)/(b)(2) for injunctive relief only. The notice says class members get no money and release no damages claims; only the named plaintiffs release damages. The injunctive terms run for at least 2 years: no Tracking Technologies on the website, no transmitting search-query contents to third parties, annual compliance review and report, a written tracking-technology policy, and a designated senior compliance employee.\n\nClasses: all persons in California and in Pennsylvania who ran Search Queries on Labcorp's website from 2021-05-01 to the date of the settlement agreement. The order and notice give no class size.\n\nClaims: the notice describes the claims as California and Pennsylvania wiretapping laws (CIPA, presumably including section 631, and Pennsylvania WESCA). I did not see a federal ECPA or Florida FSCA claim.\n\nClass counsel: Lieff Cabraser (Cuthbertson), Meyer Wilson (Wilson) and Levin Law (Levin). Administrator: Epiq.\n\nDeadlines: fee motion by 2026-11-14; objections postmarked by 2026-11-23. Final approval hearing is 2026-12-14 at 10:00 a.m. in Greensboro, Courtroom 1, so there is no final approval yet.\n\nThe settlement website (laboratorycorporationwebsitesettlement.com) and the CourtListener HTML docket page both returned 403.\n\nNo corrections are needed to the researcher's dates. Fees are clarified as fees plus expenses capped at $4.875M in total, plus service awards.",
+   "open_questions": "1. Settlement date conflict: the hint gives 2026-04-16, but the preliminary-approval order calls it the agreement \"dated April 2, 2026.\" 2026-04-16 is actually when the preliminary-approval motion (ECF 149) was filed. The notice ends the class period on 2026-04-01.\n2. ECF 154 (2026-04-30) is an order on the extension motion and the motion to approve; its contents were not read.\n3. ECF 156 (2026-10-05) is an objection; it was not read.\n4. Class size has not been disclosed.\n5. Fees are only a requested cap so far; the fee motion is due 2026-11-14.\n6. A plaintiff Hernandez Rule 41(a)(2) motion to dismiss a claim (ECF 133) was mooted by the settlement stay. It does not change which statutes were pled.\n7. Usefulness for the 638.51 question: this case pleads only CIPA § 631 (aiding/abetting a third-party tracker) plus PA WESCA. It is not 638.51 support, and it is a $0-cash injunctive-only comparator, so it is a weak data point for monetary settlement demands.\n8. The official settlement website could not be scraped (HTTP 403, Playwright timeout), so the settlement agreement itself was not read; its terms come from the order and the notice.",
+   "id": "howard-v-labcorp-website-search-tracking"
+  },
+  {
+   "short_name": "Choose Your Horizon (chooseketamine.com)",
+   "caption": "Karen Martinez and Eli Silva, individually and on behalf of all others similarly situated v. Choose Your Horizon, Inc.",
+   "defendant": "Choose Your Horizon, Inc. (operator of chooseketamine.com)",
+   "court": "U.S. District Court, N.D. Cal. (San Francisco)",
+   "docket": "3:24-cv-02798-LB",
+   "judge": "Magistrate Judge Laurel Beeler (presiding by consent)",
+   "industry": "Telehealth (at-home ketamine therapy)",
+   "technology": "Meta (Facebook) Pixel, Google Analytics, and Twilio Segment API on the chooseketamine.com website, allegedly sending patients' PII/PHI to third parties",
+   "cipa_631": "pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "not_pled",
+   "fsca": "not_pled",
+   "other_claims": "CMIA, Cal. Civ. Code § 56.10 (Count II); invasion of privacy under the California Constitution / intrusion upon seclusion (Count III). No UCL, no ECPA, no § 632 or § 638.51.",
+   "statute_evidence": "First Amended Class Action Complaint, ECF 35 (filed 2025-01-29; RECAP PDF https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.35.0.pdf). It has only three counts: Count I, CIPA Cal. Penal Code § 631 (aiding Meta, Google and Twilio interception); Count II, CMIA § 56.10; Count III, Cal. Const. / intrusion upon seclusion. A text search of the FAC found no reference to § 632, § 632.7, § 638.51, pen register/trap-and-trace, 18 U.S.C. § 2511 or the federal Wiretap Act. The original complaint (ECF 1) has the same three counts.",
+   "class_definition": "All California residents who, from May 9, 2023 through July 11, 2024, had their PII or PHI disclosed to third-party entities as a result of using the CYH Websites while located in California (standard exclusions apply).",
+   "class_size": 760,
+   "class_size_note": "Approximate figure the court used in the preliminary approval order (ECF 66: \"approximately 761 people\"). It matches the 761-record class list Simpluris received (ECF 70). Direct notice went to 394 class members by postcard and 366 by email. There were zero opt-outs and zero objections.",
+   "settlement_structure": "Non-reversionary common fund. No claim form needed: the net fund is paid automatically and pro rata to all class members on the class list. Uncashed funds are redistributed pro rata (if at least $5 per person), and any remainder goes cy pres to the California Access to Justice Commission.",
+   "fund_amount": 400000,
+   "payment_terms": "Automatic pro rata share of the net settlement fund. Class Counsel estimated about $337 per class member (ECF 61; repeated in the final approval motion, ECF 68, and on the settlement website).",
+   "fees_requested": "The prelim motion (ECF 61, 10/31/2025) said counsel would seek up to 25% of the fund ($100,000) plus up to $10,000 in expenses, with lodestar of about $100,500 as of Oct. 2025. The court-approved notice (settlement website FAQ 12) instead caps the fee petition at 25% of the fund including costs and expenses. The fee motion itself (ECF 69, 3/9/2026) is not available as text on RECAP. The award was $100,000 total for fees, costs and expenses, plus $5,000 service awards to each of the 2 plaintiffs (ECF 74 ¶ 7).",
+   "service_award": "$5,000 each to plaintiffs Karen Martinez and Eli Silva (awarded, ECF 74 ¶ 7)",
+   "injunctive_relief": "No court-ordered injunctive relief found. The settlement website says CYH represents it has already changed its websites and disclosures to address the alleged conduct. This is a representation, not an injunction.",
+   "motion_prelim_filed": "2025-10-31",
+   "prelim_approval_date": "2026-01-29",
+   "final_hearing_date": "2026-04-23",
+   "final_approval_date": "2026-04-23",
+   "status": "Final approval",
+   "window_basis": "Final approval order (ECF 74) was entered on 2026-04-23, inside the 2026-04-09 to 2026-10-09 window. Preliminary approval (2026-01-29) falls before the window.",
+   "plaintiff_counsel": "Bursor & Fisher, P.A. (Philip L. Fraietta, L. Timothy Fisher, Joshua R. Wilner) and Drury Legal, LLC (Scott R. Drury). Class Counsel appointed: Fraietta and Drury.",
+   "settlement_website": "https://cyhsettlement.com/",
+   "sources": [
+    {
+     "label": "CourtListener docket 68517513 (via REST API v4; entries 1-74)",
+     "url": "https://www.courtlistener.com/docket/68517513/martinez-v-choose-your-horizon-inc/"
+    },
+    {
+     "label": "First Amended Class Action Complaint, ECF 35 (claims list)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.35.0.pdf"
+    },
+    {
+     "label": "Original Complaint, ECF 1",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.1.0.pdf"
+    },
+    {
+     "label": "Motion for Preliminary Approval, ECF 61 (fund, structure, $337 estimate, fees, service awards, 761 class size, $4.75M max exposure)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.61.0.pdf"
+    },
+    {
+     "label": "Order Granting Preliminary Approval, ECF 66 (2026-01-29)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.66.0.pdf"
+    },
+    {
+     "label": "Motion for Final Approval, ECF 68 (2026-03-09)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.68.0.pdf"
+    },
+    {
+     "label": "Simpluris notice declaration, ECF 70 (761 records; 0 opt-outs/objections)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.70.0.pdf"
+    },
+    {
+     "label": "Order Granting Final Approval and Fee/Service Awards, ECF 74 (2026-04-23)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.429322/gov.uscourts.cand.429322.74.0.pdf"
+    },
+    {
+     "label": "Official settlement website",
+     "url": "https://cyhsettlement.com/"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute it, and my findings match the researcher's. I pulled the docket through the CourtListener API (docket 68517513). The First Amended Class Action Complaint (ECF 35, filed 2025-01-29) is the operative complaint, and nothing amended it later. I downloaded the PDF and extracted all of its text. It has exactly three counts: Count I, CIPA Cal. Penal Code § 631 (para. 140 onward, a theory that the defendant aided Meta, Google and Twilio in intercepting communications on chooseketamine.com); Count II, CMIA Cal. Civ. Code § 56.10; Count III, invasion of privacy under the California Constitution / intrusion upon seclusion. Text searches of the FAC found nothing for 632, 2511, ECPA, Electronic Communications Privacy, 934., pen register, trap and trace, or Florida. The only '638' hit is the general statement that CIPA is codified at §§ 630 to 638, which is not a § 638.51 claim. The 'wiretap' hits are factual headings ('Overview of the Wiretaps'), not a federal Wiretap Act count. No count was dropped: the preliminary approval order (ECF 66, 2026-01-29) says the original complaint (ECF 1, 2024-05-09) also pled § 631, CMIA § 56.10 and the California Constitution. The preliminary approval motion (ECF 61) says the release covers the CMIA, CIPA and California Constitutional claims. Its only '632' hit is a cite to the Manual for Complex Litigation § 21.632, not CIPA § 632. The court preliminarily approved the settlement on 2026-01-29 (ECF 66). Plaintiffs moved for final approval on 2026-03-09 (ECF 68), with a hearing on 2026-04-23, and ECF 74 was entered on 2026-04-23. Earlier, on 2025-09-01, the court compelled arbitration of Martinez's individual claims (ECF 56), before the classwide settlement. | fees_requested: Requested up to 25% of the fund ($100,000) plus expenses of no more than $10,000; lodestar was about $100,500 as of October 2025. The court awarded $100,000 total for fees, costs and expenses (ECF 74 ¶ 7).→The prelim motion (ECF 61, 10/31/2025) said counsel would seek up to 25% of the fund ($100,000) plus up to $10,000 in expenses, with lodestar of about $100,500 as of Oct. 2025. The court-approved notice (settlement website FAQ 12) instead caps the fee petition at 25% of the fund including costs and expenses. The fee motion itself (ECF 69, 3/9/2026) is not available as text on RECAP. The award was $100,000 total for fees, costs and expenses, plus $5,000 service awards to each of the 2 plaintiffs (ECF 74 ¶ 7). | class_size: 761→760 | Timing/money check (confirmed): CONFIRMED: there is an in-window event. ECF 74 is the order granting final approval of the class settlement and the fee award. It was signed by Mag. Judge Laurel Beeler on April 23, 2026 (\"Date: April 23, 2026\") and filed 04/23/26. The order says the final approval hearing was held the same day. That date falls inside the 2026-04-09 to 2026-10-09 window.\n\nI could not refute any timing fact. Each one checked against the CourtListener docket API (docket 68517513):\n- Prelim approval motion: ECF 61, filed 2025-10-31.\n- Prelim approval: granted at the hearing on 2026-01-29 (minute entry ECF 65) and by written order ECF 66 the same day. ECF 66 set the final approval hearing for 4/23/2026 at 9:30 a.m.\n- Final approval and fee motions: ECF 68 and ECF 69, both filed 2026-03-09.\n- Final approval order: ECF 74, 2026-04-23.\nThe prelim and filing dates are before the window. Only the final approval date is inside it.\n\nFund: $400,000 non-reversionary common fund (ECF 61; website FAQ 6). Confirmed. The estimated payment is about $337 per class member, paid automatically with no claim form.\n\nCorrection to class size: ECF 61 says the class is 'approximately 761' Choose website users. The Simpluris declaration (ECF 70 ¶ 6) says defendant's data file had 761 records, and after removing duplicate and incomplete records the final class list was 760. I used 760. There were 0 opt-outs and 0 objections (ECF 70 ¶ 17), and administration costs are estimated at $14,024.\n\nNote on fees: the researcher's 'plus expenses of no more than $10,000' comes from ECF 61. The notice and website say the cap of 25% includes costs. The final award matches the inclusive version: $100,000 total.\n\nClaims, relevant to the user's filter: the First Amended Complaint (ECF 35) pleads CIPA Cal. Penal Code § 631(a) and CMIA Cal. Civ. Code § 56.10. My searches found no § 632, federal Wiretap Act/ECPA (18 U.S.C. § 2511) or FSCA count. The case concerns a ketamine telehealth provider's websites (chooseketamine.com and chooseyourhorizon.com) disclosing information to Meta. The class is California-only, covering May 9, 2023 to July 11, 2024. The 9/1/2025 order compelled Martinez's individual claims to arbitration before the settlement.",
+   "open_questions": "1) The $100,000 award covers fees, costs and expenses combined (ECF 74 ¶ 7). The motion had asked for 25% in fees plus up to $10K in expenses, so the court gave less than requested in total. The split between fees and costs is not stated. 2) The Settlement Agreement (ECF 61-1) is not on RECAP, so the injunctive and remedial terms come only from the settlement website's description. 3) In 2025-09 the court compelled named plaintiff Martinez's individual claims to arbitration (ECF 56) because of CYH's arbitration clause; the class settlement was reached anyway (notice of settlement ECF 57, 2025-09-02). This could be a useful comparison point. 4) The final order calls the class \"nationwide,\" but the definition is limited to California residents. 5) Plaintiffs estimated maximum statutory exposure under CIPA and CMIA at about $4.75M, so the $400K settlement is about 8.4% of that maximum. 6) CourtListener's docket metadata still lists no termination date, but the docket shows a \"Terminate Civil Case\" entry on 2026-04-23.",
+   "id": "choose-your-horizon-chooseketamine-com"
+  },
+  {
+   "short_name": "SportsEdTV (Meta Pixel / VPPA + CIPA 631)",
+   "caption": "Balestrieri v. SportsEdTV, Inc.",
+   "defendant": "SportsEdTV, Inc.",
+   "court": "U.S. District Court, N.D. Cal. (San Francisco)",
+   "docket": "3:25-cv-04046-SK",
+   "judge": "Magistrate Judge Sallie Kim (parties consented to magistrate jurisdiction)",
+   "industry": "Online sports instructional video / streaming subscription website (media)",
+   "technology": "Meta (Facebook) Pixel on SportsEdTV.com video pages sent the subscriber's Facebook ID (c_user cookie) plus the titles of videos watched to Meta",
+   "cipa_631": "pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "not_pled",
+   "fsca": "not_pled",
+   "other_claims": "VPPA, 18 U.S.C. § 2710 (Count 1, nationwide class). Only two counts are pled; there are no UCL, CMIA, negligence, or other state-law claims. The CIPA claim is Count 2, under Cal. Penal Code § 631(a) with § 637.2 statutory damages, brought for the California subclass on an aiding-and-abetting theory (defendant enabled Facebook to wiretap). Section 638.51 is not pled.",
+   "statute_evidence": "Operative complaint is the original Class Action Complaint (ECF 1, filed 2025-05-09). No amended complaint appears on the docket, and the settlement agreement calls it the \"Operative Complaint.\" It pleads exactly two claims: (1) VPPA § 2710 and (2) Cal. Penal Code § 631(a), plus § 637.2 damages, for the CA subclass (¶¶ 36-43). The text has no § 632, § 632.7, § 638.51, 18 U.S.C. § 2511/2520, or Fla. Stat. § 934. These sources confirm it: the preliminary approval order (ECF 53, p.1: \"VPPA ... and ... CIPA, Cal. Penal Code § 631\"), the settlement agreement recitals (VPPA and CIPA § 631; a text search for 632/638/2511/Wiretap found nothing), the settlement website FAQ #3, and the cy pres stipulation (ECF 57/60). The motion to dismiss on the VPPA and CIPA claims was denied in full (ECF 27, 2025-09-16), which is useful support that a § 631 pixel claim survived Rule 12. Complaint: https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.1.0.pdf",
+   "class_definition": "Defendant's 1,264 U.S.-resident subscribers whom Defendant's records identify as having watched videos on SportsEdTV.com from 2023-05-09 to 2025-05-16. Of these, 265 are California residents and get a double share.",
+   "class_size": 1090,
+   "class_size_note": "Exact count from defendant's records, stated in the class definition (ECF 53; SA § 1.31). It includes 265 California residents (Wynne Decl. ¶ 22, cited in ECF 53).",
+   "settlement_structure": "Non-reversionary common fund, claims-made with pro rata distribution. Fees, costs, service award and administration (Simpluris, fee capped at $15,200) are paid from the fund. Any fees the court does not award go back to the class. Uncashed or failed payments are redistributed if each member would get at least $10; otherwise they go to cy pres (Privacy Rights Clearinghouse, approved by ECF 60 on 2026-08-25). There is no clear-sailing clause.",
+   "fund_amount": 500000,
+   "payment_terms": "Valid claimants share the net fund pro rata, and California members get twice the pro rata share because of the additional CIPA claim. The net fund is estimated at about $349,800. Split into pools of about $228,548.19 for non-CA members and $121,251.79 for CA members. At 100% participation that is $457.55 per CA member and $228.77 per non-CA member (ECF 53 p.11-12). Actual payments will be higher because not everyone will claim. Payment is by check, Venmo, Zelle or PayPal about 15 days after the Effective Date, and checks go void after 90 days. For context, ECF 53 puts defendant's exposure at $3,497,000 for non-CA members and $1,325,000 for CA members.",
+   "fees_requested": "ECF 56 (filed 2026-08-19) asks for $125,000 in fees, which is 25% of the $500,000 fund, plus $10,000 in litigation costs and a $10,000 service award. These are the maximums SA § 7.1 and § 7.3 allow. Nothing has been awarded yet. The fee motion will be heard with final approval on 2027-02-08.",
+   "service_award": "Up to $10,000 for class representative Nick Balestrieri (SA § 7.3; ECF 53 p.10), requested in ECF 56. Not yet awarded.",
+   "injunctive_relief": "Defendant has deactivated the Meta Pixel on its website, so no user information (PII or not) goes to Facebook. It also will not knowingly share video-viewing PII with third parties except as the VPPA permits. This lasts until the VPPA is amended, repealed or invalidated. For customers with California addresses, it also lasts until Cal. Civ. Code § 1799.3 and/or CIPA are amended, repealed or invalidated (SA § 2.2).",
+   "motion_prelim_filed": "2026-04-01",
+   "prelim_approval_date": "2026-06-26",
+   "final_hearing_date": "2027-02-08",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "The order granting class certification and preliminary approval (ECF 53) was entered 2026-06-26, inside the 2026-04-09 to 2026-10-09 window. The prelim motion itself was filed 2026-04-01, just before the window.",
+   "plaintiff_counsel": "Edward J. Wynne and George R. Nemiroff (Wynne Law Firm, Larkspur CA); James F. Clapp and Jamie Herrick (Clapp Legal APC, Carlsbad CA). Defense counsel: Peter Chu, Jura C. Zibas and Margo A. Crawford (Wilson Elser).",
+   "settlement_website": "https://sportsedtvsettlement.com/",
+   "sources": [
+    {
+     "label": "CourtListener docket (RECAP) - Balestrieri v. SportsEdTV, 3:25-cv-04046",
+     "url": "https://www.courtlistener.com/docket/70238631/balestrieri-v-sportsedtv-inc/"
+    },
+    {
+     "label": "Complaint, ECF 1 (VPPA + CIPA § 631(a))",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.1.0.pdf"
+    },
+    {
+     "label": "Order denying MTD and transfer, ECF 27 (2025-09-16)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.27.0.pdf"
+    },
+    {
+     "label": "Notice of motion for preliminary approval, ECF 45 (2026-04-01)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.45.0.pdf"
+    },
+    {
+     "label": "Order granting class cert and preliminary approval, ECF 53 (2026-06-26)",
+     "url": "https://www.courtlistener.com/docket/70238631/53/balestrieri-v-sportsedtv-inc/"
+    },
+    {
+     "label": "Stipulated settlement timeline, ECF 54 (approved ECF 55, 2026-07-13)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.54.0.pdf"
+    },
+    {
+     "label": "Order designating cy pres recipient, ECF 60 (2026-08-25)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.449325/gov.uscourts.cand.449325.60.0.pdf"
+    },
+    {
+     "label": "Settlement Agreement (Simpluris)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/SBC4/SETTLEMENT_AGREEMENT"
+    },
+    {
+     "label": "Official settlement website - FAQ and dates",
+     "url": "https://sportsedtvsettlement.com/faq/"
+    },
+    {
+     "label": "ClassAction.org news item",
+     "url": "https://www.classaction.org/news/500k-sportsedtv-settlement-resolves-class-action-lawsuit-over-alleged-video-privacy-violations"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's finding. I downloaded the complaint (ECF 1, 10 pp., filed 5/9/2025) and extracted its text myself. It pleads exactly two claims. The First Claim for Relief is VPPA, 18 U.S.C. § 2710, for the nationwide Class. The Second Claim for Relief is CIPA for the CA Subclass (¶¶ 36-43). It quotes § 631(a), alleges the Facebook pixel was used to \"wiretap\" Subclass members, and ¶ 43 seeks $5,000 per violation under § 637.2 for violations of \"section 631(a)\". A text search of the complaint found no 632, 632.7, 638, 2511, 2520, \"Wiretap Act\", ECPA, or Fla. Stat. 934. The only federal statute is the VPPA, which is not the Wiretap Act.\n\nI pulled the full docket (ECF 1-60) through the CourtListener v4 API. There is no amended complaint. Defendant filed an \"ANSWER to Complaint\" (ECF 31, 10/9/2025) after the MTD denial (ECF 27, 9/16/2025), so ECF 1 is the operative complaint and no count was dropped.\n\nThe preliminary approval order (ECF 53, filed 6/26/2026, p.1) independently describes the claims as VPPA § 2710 and CIPA, Cal. Penal Code § 631, citing Dkt. No. 1.\n\nOne small correction to the researcher: the ECF 54 PDF is the stipulation regarding settlement timeline (filed 7/10/2026), not a document listing the claims. This does not affect the result. I agree with every statute value: 631 pled; 632, 632.7, 638.51, ECPA/Wiretap and FSCA not pled. | fees_requested: SA § 7.1 allows class counsel up to 25% of the fund ($125,000) plus up to $10,000 in costs, and ECF 53 says counsel requests 25%. The fee, cost and service-award motion was filed 2026-08-19 (ECF 56). That PDF is not on RECAP, so the exact amount requested was not seen. Nothing has been awarded yet; the motion is set for hearing 2027-02-08.→ECF 56 (filed 2026-08-19) asks for $125,000 in fees, which is 25% of the $500,000 fund, plus $10,000 in litigation costs and a $10,000 service award. These are the maximums SA § 7.1 and § 7.3 allow. Nothing has been awarded yet. The fee motion will be heard with final approval on 2027-02-08. | class_size: 1264→1090 | Timing/money check (confirmed): CONFIRMED. Two qualifying events fall inside the 2026-04-09 to 2026-10-09 window. I checked both against the CourtListener docket (70238631; N.D. Cal. 3:25-cv-04046-SK, Mag. J. Sallie Kim).\n(1) The preliminary approval motion, ECF 45, was filed 2026-04-01. That is 8 days before the window opens, so it does not qualify on its own.\n(2) The order granting class certification and preliminary approval, ECF 53, was signed and entered 2026-06-26. This is the in-window event.\nThe motion was heard on 2026-05-11 (ECF 50). The court posted questions beforehand (ECF 47). The case settled at mediation with Michael Sweet on 2026-02-16 (ECF 42).\nFINAL HEARING: 2027-02-08 at 9:30 a.m. by Zoom. ECF 53 set it. The 2026-07-10 timeline stipulation (ECF 54) and the 2026-07-13 order granting it (ECF 55) kept the date. The settlement website agrees: opt-out and objection deadlines 2026-09-25, claim deadline 2027-02-08. There is no final approval yet. The court also appointed a cy pres recipient by order on 2026-08-25 (ECF 60).\nFUND: ECF 53 and the SA confirm a $500,000 non-reversionary fund (SA § 1.33). The estimated net fund is about $349,800. Defendant sent the fund to Simpluris on 2026-05-18 (ECF 56 at 9). Simpluris's fee is capped at $15,200.\nCORRECTION, class size: changed from 1,264 to 1,090. The 1,264 figure (ECF 53, of which 265 were California residents) was the preliminary estimate. The fee motion (ECF 56 at 9, n.1) says defense counsel found that estimate too high: it was run on 2025-10-25, but the pixel came off the site on 2025-05-16. The revised count is 1,090: 73 known California residents, 761 known non-California, and 256 of unknown residence.\nCORRECTION, fees: the researcher said ECF 56 was not available, but the settlement website posts it (https://cw.simpluris.com/docs/public/downloads/SBC4/PLAINTIFFS_MOTION_FOR_ATTORNEYS_FEES_COSTS_AND_SERVICE_AWARD). It confirms the request is $125,000 (25%) in fees, $10,000 in costs and a $10,000 service award.\nCLAIMS: VPPA (18 U.S.C. § 2710) for the nationwide class, plus CIPA Penal Code § 631(a) for a California subclass (Meta pixel). There is no ECPA, CIPA § 632 or FSCA count. The § 631(a) claim meets the user's CIPA 631 filter.\nPer-person figures at 100% participation, from ECF 56: about $601.54 per California member and about $300.77 per non-California member. ECF 56 puts the recovery at about 12% of statutory exposure ($5,000 per person under CIPA, $2,500 under VPPA).",
+   "open_questions": "(1) Claims deadline conflict: the stipulated timeline (ECF 54/55) gives the claims deadline as 2026-09-10, but the settlement website now lists 2027-02-08 (same day as the final approval hearing). The deadline may have been extended; nothing on the RECAP docket through ECF 60 confirms it. (2) The exact amounts requested in the fee motion (ECF 56, filed 2026-08-19) were not seen because the PDF is not on RECAP. The settlement agreement caps fees at 25% ($125K) plus $10K costs and the service award at $10K. (3) No claims rate or final per-claimant payment yet; the $457.55 / $228.77 figures assume 100% participation. (4) No final approval yet; the hearing is 2027-02-08.",
+   "id": "sportsedtv-meta-pixel-vppa-cipa-631"
+  },
+  {
+   "short_name": "Allina Health (Pixel)",
+   "caption": "Ahlers, et al. v. Allina Health System, No. 0:24-cv-03674-SRN-ECW (D. Minn.)",
+   "defendant": "Allina Health System",
+   "court": "U.S. District Court, District of Minnesota",
+   "docket": "0:24-cv-03674-SRN-ECW",
+   "judge": "Hon. Susan Richard Nelson (Magistrate Judge Elizabeth Cowan Wright)",
+   "industry": "Healthcare - hospital/health system",
+   "technology": "Meta Pixel, Google Analytics and Google Tag Manager on Allina's public websites, patient portal, online bill pay and scheduling pages",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Minnesota Health Records Act (Minn. Stat. § 144.291 et seq.); invasion of privacy; breach of implied contract; unjust enrichment; breach of fiduciary duty; breach of confidence; negligence; Minnesota Uniform Deceptive Trade Practices Act (Minn. Stat. § 325D.43-48). No California or Florida statutory claims.",
+   "statute_evidence": "I read the Amended Class Action Complaint (ECF 30, filed 2025-02-13; RECAP PDF https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.30.0.pdf). It has 9 counts. Count VIII is the ECPA claim, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure; § 2520 damages), and Counts I-VII and IX are listed in other_claims. The complaint pleads no Cal. Penal Code §§ 631, 632, 632.7 or 638.51 claim and no Fla. Stat. ch. 934 claim. The docket's cause of action is \"18:2510 Wire or Oral Communications\".",
+   "class_definition": "Settlement class with two groups, covering 2018-09-16 through 2026-05-11 (the preliminary approval date). Group 1 is Allina patient portal users, non-portal bill pay users and non-portal scheduling users. Group 2 is non-portal, non-bill-pay, non-scheduling patients. Excluded are Defendant and its officers and directors, opt-outs, and the assigned judges.",
+   "class_size": 2531323,
+   "class_size_note": "This is approximate. It adds the parties' estimates stated in the preliminary and final approval orders: about 1,585,092 Group 1 members and about 946,231 Group 2 members, for about 2,531,323 total.",
+   "settlement_structure": "Non-reversionary common fund, paid pro rata on a claims basis, split into two sub-funds: Group 1 gets $10,303,098 and Group 2 gets $2,196,902. Notice and administration costs, attorneys' fees and expenses, and service awards all come out of the fund.",
+   "fund_amount": 12500000,
+   "payment_terms": "Class members who file a valid claim get a pro rata cash share of their group's net sub-fund. Group 1 claimants are paid from the $10.30M fund and Group 2 claimants from the $2.20M fund. Claims could be filed online or by mail, and the claims deadline was 2026-09-08 (90 days after notice). No fixed or estimated per-claimant amount was found.",
+   "fees_requested": "Requested $4,166,666.67 (one-third of the $12.5M fund, including litigation expenses; ECF 59/60, filed 2026-07-27). On 2026-09-24 the court awarded the full $4,166,666.67, plus a $3,500 service award to each class representative (ECF 68).",
+   "service_award": "$3,500 to each of the 3 class representatives (Ahlers, Gebhardt-Lally, Witt), as requested and awarded (ECF 68 ¶ 25)",
+   "injunctive_relief": "None identified. The preliminary approval memorandum (ECF 56) and the final approval order (ECF 68) describe only monetary relief. The settlement agreement itself (ECF 56-2) was not available on RECAP.",
+   "motion_prelim_filed": "2026-05-08",
+   "prelim_approval_date": "2026-05-11",
+   "final_hearing_date": "2026-09-24",
+   "final_approval_date": "2026-09-24",
+   "status": "Final approval",
+   "window_basis": "Preliminary approval was granted 2026-05-11 (ECF 58), and final approval with the fee award was granted 2026-09-24 (ECF 68, with judgment as ECF 70). Both dates fall inside 2026-04-09 to 2026-10-09.",
+   "plaintiff_counsel": "Class Counsel: David S. Almeida and Britany Wessan (Almeida Law Group LLC); Brandon Wise and Andrew Tate (Peiffer Wolf Carr Kane Conway & Wise, LLP); J. Gerard Stranch IV and Grayson Wells (Stranch, Jennings & Garvey, PLLC). Also of record: Raina Borrelli and Brittany Resch (Strauss Borrelli PLLC); Timothy Becker and Zackary Kaylor (Johnson Becker PLLC); Jacob Rusch (Sommers Schwartz P.C.). Defense counsel: Fredrikson & Byron (Nicole Moen).",
+   "settlement_website": "https://www.allinapixelsettlement.com/ (administrator: Atticus Administration, LLC)",
+   "sources": [
+    {
+     "label": "CourtListener docket (metadata + entries)",
+     "url": "https://www.courtlistener.com/docket/69172209/ahlers-v-allina-health-systems/"
+    },
+    {
+     "label": "Amended Class Action Complaint, ECF 30 (2025-02-13)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.30.0.pdf"
+    },
+    {
+     "label": "Memo ISO Unopposed Motion for Preliminary Approval, ECF 56 (2026-05-08)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.56.0.pdf"
+    },
+    {
+     "label": "Preliminary Approval Order, ECF 58 (2026-05-11)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.58.0.pdf"
+    },
+    {
+     "label": "Memo ISO Motion for Attorneys' Fees and Service Awards, ECF 60 (2026-07-27)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.60.0.pdf"
+    },
+    {
+     "label": "Order Granting Final Approval and Fees, ECF 68 (2026-09-24)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.mnd.220147/gov.uscourts.mnd.220147.68.0.pdf"
+    },
+    {
+     "label": "HIPAA Journal summary (claims deadline 2026-09-08; opt-out/objection deadline 2026-08-10)",
+     "url": "https://www.hipaajournal.com/allina-health-system-pixel-settlement/"
+    },
+    {
+     "label": "Mealey's report of final approval",
+     "url": "https://www.law360.com/mealeys/mealeys-data-privacy/articles/2535013/-12-5m-settlement-gets-final-approval-in-dispute-over-health-system-s-data-tracking"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim; I agree with the researcher on every statute. I downloaded and read the Amended Class Action Complaint myself (ECF 30, filed 2025-02-13, 99 pages). It has 9 counts. Count VIII is headed as violations of the Electronic Communications Privacy Act, 18 U.S.C. § 2511(1) et seq., for unauthorized interception, use and disclosure. It cites § 2511(1)(a), (c) and (d), argues that the § 2511(2)(d) crime-tort exception applies, and seeks § 2520 damages. The jurisdiction section also relies on ECPA (18 U.S.C. § 2511). The other counts are: I Minnesota Health Records Act (Minn. Stat. § 144.291), II invasion of privacy, III breach of implied contract, IV unjust enrichment, V breach of fiduciary duty, VI breach of confidence, VII negligence, and IX Minnesota UDTPA (Minn. Stat. § 325D.43-48). A text search found no Cal. Penal Code § 631, § 632, § 632.7 or § 638.51 claim and no Fla. Stat. ch. 934 claim; the only '632' hits in the settlement memo are citations to Manual for Complex Litigation § 21.632. I pulled the full docket through the CourtListener API. ECF 30 is the only amended complaint, and no later amendment dropped Count VIII. Allina's motion to dismiss (ECF 34) was never decided: the hearings were cancelled for mediation. The preliminary-approval memorandum (ECF 56, filed 2026-05-08) lists the claims, including '(8) violation of the Electronic Communications Privacy Act.' Preliminary approval was granted 2026-05-11 (ECF 58) and final approval 2026-09-24 (ECF 68). Because the motion to dismiss was never ruled on, this is a case where an ECPA claim was pled and settled, not one where it survived a ruling. This is a Minnesota hospital pixel case with a nationwide class and a Minnesota subclass, and it has no California or Florida statutory hook. | fees_requested: Requested $4,166,666.67, which is one-third of the $12.5M fund and includes litigation expenses (ECF 59/60). The court awarded the full $4,166,666.67 on 2026-09-24 (ECF 68).→Requested $4,166,666.67 (one-third of the $12.5M fund, including litigation expenses; ECF 59/60, filed 2026-07-27). On 2026-09-24 the court awarded the full $4,166,666.67, plus a $3,500 service award to each class representative (ECF 68). | Timing/money check (confirmed): I tried to refute these facts and could not. Every field matches the primary docket sources, which I checked through the CourtListener API (docket 69172209) and the RECAP PDFs. Prelim motion: ECF 55, filed 2026-05-08, with memo ECF 56 and joint declaration ECF 57. Prelim approval: ECF 58, entered 2026-05-11. That order set an in-person final approval hearing for 2026-09-24 at 9:30 a.m. before Judge Susan Richard Nelson. Final approval: ECF 68, signed 2026-09-24, granting both the final approval motion (ECF 62) and the fee motion (ECF 59). Judgment was entered as ECF 70 the same day. Both qualifying events (prelim approval on 2026-05-11 and final approval on 2026-09-24) fall inside the 2026-04-09 to 2026-10-09 window. Fund: $12,500,000 per ECF 56 and ECF 60. Class size: ECF 68 gives Group 1 as about 1,585,092 and Group 2 as about 946,231, which adds up to 2,531,323. ECF 60 cites the same figure, approximately 2,531,323. Fees: ECF 68 paragraph 24 awards $4,166,666.67 in fees and expenses, and paragraph 25 awards $3,500 per class representative. The service awards are the only new detail added. Claims check: ECF 56 lists the amended complaint's counts, and count (8) is a violation of the Electronic Communications Privacy Act (federal wiretap). The other counts are Minnesota statutory and common-law claims. There is no CIPA or Florida claim; this is a Minnesota pixel-tracking case brought by a health system's patients. I made no corrections.",
+   "open_questions": "1. Cloudflare blocked the official settlement website (403), so its documents page and FAQ were not reviewed. The claims deadline (2026-09-08) and the opt-out/objection deadline (2026-08-10) come from secondary sources (HIPAA Journal and web search summaries), not the official site. 2. The settlement agreement (ECF 56-2) and the final approval motion (ECF 62) were not available on RECAP. Because of that, injunctive and remedial terms, the claim rate, the number of claims and the estimated per-claimant payment are unconfirmed. 3. ECF 68 says the claims validation process was still ongoing when final approval was granted, and no claims count was found. 4. This is a pure ECPA plus Minnesota-law case with no CIPA or FSCA claims. It works as an ECPA-only comparator, but not as support for § 631, § 632 or § 638.51.",
+   "id": "allina-health-pixel"
+  },
+  {
+   "short_name": "LifeStance Health (Strong v. LifeStance) - mental-health pixel",
+   "caption": "Montana Strong and Debra Yick, individually and on behalf of all others similarly situated v. LifeStance Health Group, Inc. d/b/a LifeStance",
+   "defendant": "LifeStance Health Group, Inc.",
+   "court": "U.S. District Court for the District of Arizona (Phoenix Division)",
+   "docket": "2:23-cv-00682-KML (CV-23-00682-PHX-KML)",
+   "judge": "Krissa M. Lanham",
+   "industry": "Healthcare - outpatient mental/behavioral health provider (patient website and online booking tool)",
+   "technology": "Meta Pixel (Pixel ID 182326009171632) and Meta Conversions API (CAPI) on lifestance.com, including the online appointment-booking tool. The complaint also alleges Google Tag Manager/Google, Invoca, Heap Analytics and Pardot. The release covers the Meta Pixel, Google Analytics and other tracking technologies.",
+   "cipa_631": "pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Operative Third Amended Complaint (ECF 92) counts: Count I CIPA (Cal. Penal Code 630 et seq., pled under 631(a), second clause plus aiding-and-abetting) for the California Class; Count II CMIA (Cal. Civ. Code 56 et seq.) for the California Class; Count III ECPA 18 U.S.C. 2511(1) for the Nationwide Class; Count IV UCL unlawful prong; Count V UCL unfair prong; Count VI Arizona Consumer Fraud Act, A.R.S. 44-1521 (Nationwide Class); Count VII NY GBL 349 (New York subclass); Count VIII common-law intrusion upon seclusion. At the FAC stage the MTD order (ECF 56, 2025-01-28) dismissed only intrusion upon seclusion. ECPA, CIPA, UCL, AZCFA, NY GBL 349 and CMIA survived. The court applied the crime-tort exception to the ECPA one-party-consent defense.",
+   "statute_evidence": "Third Amended Class Action Complaint (ECF 92, filed 2025-12-03), posted on the settlement website at https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/Third_Amended_Class_Action_Complaint.pdf. I read its count headings: Count I is CIPA and quotes Cal. Penal Code 631(a). Count III is ECPA 18 U.S.C. 2511(1). Neither 632 nor 638.51 appears in any count; the only \"632\" hits are inside a Pixel ID, and the only \"638\" hit is the phrase \"codified at Penal Code 630 to 638\". There is no Fla. Stat. 934. Corroborating documents: the MTD order (ECF 56, https://www.courtlistener.com/docket/67257853/strong-v-lifestance-health-group-incorporated/) analyzes CIPA 631(a) clause 2 and the aiding-and-abetting prong. The prelim approval motion (ECF 94) lists the surviving claims as ECPA, CIPA, UCL, AZCFA, NYGBL and CMIA.",
+   "class_definition": "Settlement Class = all natural persons in Subclass 1 or Subclass 2. Subclass 1: members of LifeStance's total patient population who booked at least one session through the online booking tool on lifestance.com between 2020-03-01 and 2023-04-30. Subclass 2: all other LifeStance patients during 2020-03-01 to 2023-04-30 who are not in Subclass 1. The class is nationwide.",
+   "class_size": 1139652,
+   "class_size_note": "This is the sum of two figures in the prelim approval motion (ECF 94 at 2): approximately 171,915 Subclass 1 patients (booked online) and 967,737 Subclass 2 patients. Subclass 1 is described as \"approximately\", so treat the total as approximate.",
+   "settlement_structure": "Non-reversionary common fund split into two subclass funds; payments are claims-based and pro rata within each fund. Residual and uncashed funds go cy pres in equal shares to Privacy Rights Clearinghouse and the Center for Democracy and Technology. Fees, costs, service awards and administration costs are paid from the funds. An earlier settlement was denied preliminary approval (ECF 85) because of a reversionary $750K fee fund and Bluetooth collusion concerns.",
+   "fund_amount": 3027874.44,
+   "payment_terms": "Subclass 1 fund is $1,203,405.00, about $7 per class member before pro rata adjustment. Subclass 2 fund is $1,824,469.44, about $1.885 per member before adjustment. Each claimant with an approved claim gets a pro rata share of their own subclass fund, net of fees, costs, service awards and administration costs. Shares are per claimant, not per visit or appointment. Claims were due 2026-09-29; opt-outs and objections were due 2026-08-31.",
+   "fees_requested": "Requested in ECF 101 (filed 2026-08-17): one-third of the fund, $1,009,291.48, plus $18,844.90 in costs and $2,500 service awards for each of the two class representatives ($5,000 total). The lodestar is $917,009.45, a multiplier of about 1.10. Fees have not been awarded; they will be decided at or after the 10/16/2026 hearing.",
+   "service_award": "$2,500 each for Montana Strong and Debra Yick ($5,000 total), requested; not yet awarded.",
+   "injunctive_relief": "LifeStance has discontinued, or will discontinue, all third-party tracking pixels other than HIPAA-compliant ones for 5 years from the Effective Date (Settlement Agreement section 1.22).",
+   "motion_prelim_filed": "2025-12-03",
+   "prelim_approval_date": "2026-05-12",
+   "final_hearing_date": "2026-10-16",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "The court granted preliminary approval of the revised settlement on 2026-05-12 (ECF 99, Judge Lanham), which falls inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Zimmerman Reed LLP (Hart L. Robinovitch, Ryan J. Ellersick) and Almeida Law Group LLC (David S. Almeida, Britany A. Kabakov), appointed Class Counsel. Elena Belov of Almeida Law Group appeared earlier in the case.",
+   "settlement_website": "https://www.lifestancepixelsettlement.com/",
+   "sources": [
+    {
+     "label": "Preliminary Approval Order, ECF 99 (2026-05-12), RECAP",
+     "url": "https://www.courtlistener.com/docket/67257853/99/strong-v-lifestance-health-group-incorporated/"
+    },
+    {
+     "label": "CourtListener docket 2:23-cv-00682 (D. Ariz.)",
+     "url": "https://www.courtlistener.com/docket/67257853/strong-v-lifestance-health-group-incorporated/"
+    },
+    {
+     "label": "Third Amended Class Action Complaint (ECF 92), settlement website",
+     "url": "https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/Third_Amended_Class_Action_Complaint.pdf"
+    },
+    {
+     "label": "Revised Settlement Agreement (ECF 95-1), settlement website",
+     "url": "https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/LifeStance_Settlement_Agreement.pdf"
+    },
+    {
+     "label": "Motion for Attorneys' Fees, Expenses and Service Awards (ECF 101, 2026-08-17)",
+     "url": "https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/Dist.Ariz._2-23-cv-00682_101.pdf"
+    },
+    {
+     "label": "Unopposed Motion for Preliminary Approval of Revised Settlement (ECF 94, 2025-12-03), RECAP",
+     "url": "https://www.courtlistener.com/docket/67257853/94/strong-v-lifestance-health-group-incorporated/"
+    },
+    {
+     "label": "Order on Motion to Dismiss (ECF 56, 2025-01-28), RECAP",
+     "url": "https://www.courtlistener.com/docket/67257853/56/strong-v-lifestance-health-group-incorporated/"
+    },
+    {
+     "label": "Official settlement website (deadlines, FAH time change)",
+     "url": "https://www.lifestancepixelsettlement.com/"
+    },
+    {
+     "label": "Long Form Notice",
+     "url": "https://angeion-public.s3.amazonaws.com/www.lifestancepixelsettlement.com/docs/LifeStance_Long_Form_Notice.pdf"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I tried to refute this and could not. I downloaded the Third Amended Class Action Complaint myself and read it: ECF 92, filed 12/03/25, 96 pages, Zimmerman Reed and Almeida Law Group for plaintiffs. It has eight counts.\n\n- **Count I (CIPA, Cal. Penal Code 630 et seq.):** brought by Yick for the California Class. Para. 348 quotes Penal Code 631(a). The count also invokes 637.2 for $5,000 per violation. Para. 353 says the defendant \"recorded and transmitted their confidential communications.\" That wording sounds like 632, but the complaint never cites 632. So 632 = not_pled.\n- **Count II:** CMIA.\n- **Count III (ECPA, 18 U.S.C. 2511(1) et seq.):** brought for the Nationwide Class. It pleads 2511(1)(a), (c) and (d), and argues the 2511(2)(d) party exception does not apply.\n- **Counts IV and V:** UCL.\n- **Count VI:** Arizona Consumer Fraud Act.\n- **Count VII:** NY GBL 349.\n- **Count VIII:** intrusion upon seclusion.\n\nText searches of the complaint found nothing for 632.7, pen register, trap and trace, 638.51, Fla. Stat. 934 or the Florida Security of Communications Act. The only \"638\" is the phrase \"Penal Code 630 to 638\". The only \"632\" is inside a Meta Pixel ID number.\n\n**Settlement agreement (ECF 95-1, filed 12/03/25):**\n- The original complaint asserted CIPA, CMIA, ECPA, UCL, ACFA, GBL, intrusion upon seclusion, and breach of confidence.\n- The first amended complaint dropped breach of confidence.\n- Judge Lanham's 1/28/2025 order dismissed only intrusion upon seclusion and denied the motion to dismiss on everything else, including ECPA. So no count under any of the target statutes was ever dropped. Intrusion still shows up as Count VIII in the third amended complaint, but that does not affect any of the target statutes.\n\nThe long-form notice describes the case only generally, as pixel tracking. The researcher's \"Dist.Ariz._2-23-cv-00682_101.pdf\" is actually ECF 101, the motion for attorneys' fees filed 08/17/26. It is not a preliminary approval order. I did not separately verify the preliminary approval order. The settlement agreement's caption has a typo in the judge's initials (\"KNL\" instead of KML).\n\nI agree with all of the researcher's statute findings: 631 and ECPA pled; 632, 632.7, 638.51 and FSCA not pled. | fees_requested: Requested (ECF 101, filed 2026-08-17): one-third of the fund, $1,009,291.48, plus $18,844.90 in costs and expenses. The lodestar is $917,009.45, a multiplier of about 1.1. The agreement caps fees at one-third, and the defendant may object. Fees have not been awarded yet.→Requested in ECF 101 (filed 2026-08-17): one-third of the fund, $1,009,291.48, plus $18,844.90 in costs and $2,500 service awards for each of the two class representatives ($5,000 total). The lodestar is $917,009.45, a multiplier of about 1.10. Fees have not been awarded; they will be decided at or after the 10/16/2026 hearing. | Timing/money check (confirmed): I checked the CourtListener RECAP docket (API, docket 67257853) and found the qualifying event inside the window, so the claim is confirmed. ECF 99, signed and entered 2026-05-12 by Judge Krissa M. Lanham, grants the preliminary approval motion (ECF 94), which falls in the 2026-04-09 to 2026-10-09 window.\n- The preliminary approval motion (ECF 94) was filed on 2025-12-03, which is before the window. It was a revised motion after the court rejected an earlier fee structure (Doc. 85).\n- Fund: ECF 99 ¶4 and ECF 94 confirm two non-reversionary common funds totaling $3,027,874.44. Subclass 1 gets $1,203,405.00 and Subclass 2 gets $1,824,469.44.\n- Class size: 1,139,652 is the sum of about 171,915 Subclass 1 members (booked appointments online) and 967,737 Subclass 2 members, as stated on p.2 of ECF 94. The same motion's numerosity section says 907,737 for Subclass 2, which is an internal inconsistency. The 967,737 figure matches the stated $1.885 per person, so I kept 1,139,652.\n- Final hearing: ECF 99 set it for 2026-10-16 at 10:30 a.m. ECF 100 (2026-08-12) moved only the time, to 2:00 p.m. on the same date. The settlement website shows the same date and time and says the court has not yet decided final approval.\n- No final approval yet. The docket's last filings are ECF 103 and 104, both dated 2026-10-02 and labeled \"Ruling\" and \"Declaration,\" with no description and no PDF available. That date matches the deadline to move for final approval, so they are probably the final approval motion papers, but I could not confirm this.\n- Fees: I confirmed the researcher's figures from the ECF 101 PDF on the Angeion site and added the service awards. The preliminary approval order notes a discrepancy over whether fees are capped at 25% or 33%, says either would be reasonable, and says the defendant may object to fees.\n- Website deadlines: exclusions and objections were due 2026-08-31 and claims 2026-09-29.",
+   "open_questions": "(1) CIPA 631 and CMIA are pled only for a California Class with one California plaintiff (Yick). The settlement class is nationwide with no separate California subclass, so the settlement value is not allocated by statute. (2) RECAP shows ECF 103 (\"Ruling\") and ECF 104 (\"Declaration\") filed 2026-10-02. 2026-10-02 was the deadline for the final approval motion, so ECF 103 may be that motion mislabeled; neither document is on RECAP, so I could not confirm. (3) The final approval hearing is 2026-10-16 at 2:00 p.m. MT (moved from 10:30 a.m. by ECF 100), so there is no final approval order or fee award yet. (4) Claims-rate data and actual per-claimant amounts are not yet public. (5) The FAC (ECF 32) originally also named Google, Invoca, Heap and Pardot, but the case centers on the Meta Pixel and CAPI.",
+   "id": "lifestance-health-strong-v-lifestance-mental-health-pixel"
+  },
+  {
+   "short_name": "Lugo v. Inova (E.D. Va.)",
+   "caption": "Pedro Lugo, individually and on behalf of similarly situated individuals v. INOVA Health Care Services",
+   "defendant": "INOVA Health Care Services",
+   "court": "U.S. District Court, Eastern District of Virginia (Alexandria Division)",
+   "docket": "1:24-cv-00700-PTG-WEF",
+   "judge": "Hon. Patricia Tolliver Giles (Magistrate Judge William E. Fitzpatrick)",
+   "industry": "Healthcare - hospital/health system (patient portal / MyChart users)",
+   "technology": "Meta (Facebook) Pixel and Google pixel/tracking technology on Inova's public-facing websites, allegedly transmitting patients' PII/PHI to Meta and Google",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Count I breach of implied contract and Count II unjust enrichment (both dismissed on Dkt. 34, 2025-03-25, with leave to amend; no amended complaint was filed before the stay for mediation). Count III, ECPA 18 U.S.C. 2510 et seq. (2511(1)(a), (c), (d); 2520), survived the motion to dismiss under the crime-tort exception (HIPAA / Virginia health records privacy). No CIPA, state wiretap, or other state statutory claims.",
+   "statute_evidence": "The Class Action Complaint (Dkt. 1, filed 2024-04-29) pleads only three counts: I implied contract, II unjust enrichment, III ECPA 18 U.S.C. 2510 et seq. RECAP PDF: https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.1.0.pdf. The MTD opinion (Dkt. 34, 2025-03-25) dismissed Counts I-II and denied the motion as to Count III ECPA: https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.34.0.pdf. The settlement agreement's injunctive term (Dkt. 48-2, para. 37) references ECPA/HIPAA compliance. The task hint says ConsentPixel lists this as a \"Doe v. Inova Health System\" $3.1M CIPA 631 settlement. It is the same $3.1M Inova pixel settlement, but the CIPA 631 tag is wrong: the complaint pleads no CIPA claim.",
+   "class_definition": "All individuals who may have visited an Inova public-facing website from 2022-04-29 through 2024-04-29, had an Inova MyChart account, and whose Private Information could have been disclosed to third parties through the Facebook or Google pixel or related tracking technology without authorization. Excludes opt-outs, the court and its staff, and individuals who had already filed arbitration claims before preliminary approval. Certified for settlement only (nationwide).",
+   "class_size": 817199,
+   "class_size_note": "Exact count of deduplicated class-list records reported by Epiq (Azari Decl., cited in the final approval memorandum, Dkt. 60). The settlement agreement (Dkt. 48-2) had represented about 817,504. Email notice was delivered to 758,720 people (about 92.8%), more than 32,000 claim forms were filed, and 17 people opted out.",
+   "settlement_structure": "Non-reversionary common fund that pays claims, notice and administration costs, fees and expenses, and the service award. Each valid claimant receives a pro rata share of the net fund. Uncashed checks are redistributed if practical, and any remainder goes to a court-approved cy pres recipient. Paid in two installments, the first of $100,000 within 21 days of preliminary approval.",
+   "fund_amount": 3147390.04,
+   "payment_terms": "Equal pro rata share of the net settlement fund for each class member who submits a valid claim form (claims deadline 2026-04-06), paid digitally or by paper check. Plaintiff estimated a net payment of about $55-$65 per claimant, based on more than 32,000 claims (Dkt. 60). Checks are valid for 120 days. Uncashed amounts go to a second distribution, then to cy pres.",
+   "fees_requested": "The fee motion (Dkt. 57/58, filed 2026-02-06) asked for $1,038,638.71 in attorneys' fees, which is 33% of the $3,147,390.04 fund, plus $19,986.51 in costs and a $5,000 service award. The Final Approval Order (Dkt. 63, paras. 16-17) granted all three in full.",
+   "service_award": "$5,000 to class representative Pedro Lugo (approved in Dkt. 63, para. 17)",
+   "injunctive_relief": "Without admitting liability, Inova agrees to implement remedial measures so that its use of tracking pixels materially complies with ECPA and HIPAA. Inova may still use these technologies when consistent with guidance, when patients authorize it, under a valid business associate agreement, or as otherwise permitted (Settlement Agreement para. 37, Dkt. 48-2).",
+   "motion_prelim_filed": "2025-10-16",
+   "prelim_approval_date": "2025-12-12",
+   "final_hearing_date": "2026-04-17",
+   "final_approval_date": "2026-04-17",
+   "status": "Final approval",
+   "window_basis": "Final Approval Order and Judgment (Dkt. 63) entered 2026-04-17, within the 2026-04-09 to 2026-10-09 window. Preliminary approval (2025-12-12, amended 2025-12-17) predates the window.",
+   "plaintiff_counsel": "Eugene Y. Turin, Jordan R. Frysinger and William Kingston of McGuire Law, P.C. (Chicago), and E. Kyle McNew of MichieHamlett PLLC (Charlottesville), appointed class counsel. Donald S. Cuba II was admitted pro hac vice in December 2025.",
+   "settlement_website": "https://www.healthpixelsettlement.com/",
+   "sources": [
+    {
+     "label": "CourtListener docket, Lugo v. INOVA Health Care Services, 1:24-cv-00700 (E.D. Va.)",
+     "url": "https://www.courtlistener.com/docket/68502044/lugo-v-inova-health-care-services/"
+    },
+    {
+     "label": "Complaint, Dkt. 1 (counts: implied contract, unjust enrichment, ECPA)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.1.0.pdf"
+    },
+    {
+     "label": "Memorandum opinion on MTD, Dkt. 34 (2025-03-25), ECPA count survives",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.34.0.pdf"
+    },
+    {
+     "label": "Memo ISO preliminary approval, Dkt. 48 (2025-10-16)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.48.0.pdf"
+    },
+    {
+     "label": "Settlement Agreement, Dkt. 48-2 (fund, non-reversion, pro rata, injunctive relief, class size of about 817,504)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.48.2.pdf"
+    },
+    {
+     "label": "Amended preliminary approval order, Dkt. 56 (2025-12-17), with deadlines",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.56.0.pdf"
+    },
+    {
+     "label": "Memo ISO final approval, Dkt. 60 (2026-04-06): 817,199 members, more than 32,000 claims, $55-$65 estimate, 17 opt-outs",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.60.0.pdf"
+    },
+    {
+     "label": "Final Approval Order and Judgment, Dkt. 63 (2026-04-17): fees, costs, service award",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.vaed.553026/gov.uscourts.vaed.553026.63.0.pdf"
+    },
+    {
+     "label": "Bloomberg Law news report on the $3.1M settlement",
+     "url": "https://news.bloomberglaw.com/litigation/inova-health-patients-get-3-1-million-online-privacy-settlement"
+    },
+    {
+     "label": "ConsentPixel listing (reports CIPA 631, but the complaint pleads only ECPA)",
+     "url": "https://consentpixel.com/blogs/inova-health-tracking-pixel-litigation/"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute this. I downloaded the RECAP PDFs myself and pulled the full docket (entries 1 through 63) through the CourtListener API. The operative complaint is the original Class Action Complaint (Dkt. 1, filed 2024-04-29, 34 pages). It pleads exactly three counts: I, breach of implied contract; II, unjust enrichment; III, violation of the ECPA, 18 U.S.C. 2510 et seq. The complaint cites 2511(1) in its introduction and in its federal-question jurisdiction paragraph. A text search of the complaint finds no hits for CIPA, Invasion of Privacy Act, Penal Code, California, 631, 632, 638, Fla., or 934. No amended complaint was filed. The MTD order (Dkt. 34, 2025-03-25) dismissed Counts I and II with 21 days' leave to amend and denied the motion on Count III (ECPA). The next filing is the joint stay motion (Dkt. 35), so ECPA was the only surviving claim when the case settled. The settlement documents match. The prelim-approval memorandum (Dkt. 48) cites 18 U.S.C. 2510 et seq. and 2511(2)(d). The Settlement Agreement (Dkt. 48-2) describes the case as an ECPA action and mentions no other statute. In Dkt. 48, '632' appears only as Manual for Complex Litigation section 21.632, not CIPA. Timeline: prelim approval Dkt. 55 and amended Dkt. 56 (Dec. 12 and 17, 2025); final approval and judgment Dkt. 63 (2026-04-17). I agree with the researcher that the ConsentPixel 'CIPA 631' tag for 'Doe v. Inova Health System' is wrong. This $3.1M Inova settlement rests only on the federal Wiretap Act/ECPA. For the tracker, list it as ECPA-only, not as a CIPA 631 comparable. | fees_requested: $1,038,638.71 in attorneys' fees (33% of the fund) plus $19,986.51 in costs were requested (Dkt. 57/58, filed 2026-02-06) and awarded in full in the Final Approval Order (Dkt. 63, para. 16). No objections were filed.→The fee motion (Dkt. 57/58, filed 2026-02-06) asked for $1,038,638.71 in attorneys' fees, which is 33% of the $3,147,390.04 fund, plus $19,986.51 in costs and a $5,000 service award. The Final Approval Order (Dkt. 63, paras. 16-17) granted all three in full. | Timing/money check (confirmed): CONFIRMED. The qualifying in-window event is final approval. The Final Approval Order and Judgment (Dkt. 63) was filed 2026-04-17, which falls inside the 2026-04-09 to 2026-10-09 window. I checked this against the CourtListener docket entries and the order PDF. No substantive corrections were needed. Details:\n(1) Preliminary approval motion: the consent motion (Dkt. 47) and supporting memo (Dkt. 48) were both filed 2025-10-16.\n(2) Preliminary approval: the first order (Dkt. 55) was entered 2025-12-12 after a hearing that day (Dkt. 54). An AMENDED preliminary approval order (Dkt. 56) followed on 2025-12-17. The final order cites Dkt. 56 as the preliminary approval order, and the final-approval brief says preliminary approval came on 2025-12-17. Either date works; 2025-12-12 is the first order.\n(3) Final hearing: originally set for 2026-04-16 (Dkt. 56). It was reset to 2026-04-17 (Dkt. 61, 2026-04-10) and held by telephone that day (Dkt. 62).\n(4) Fund: $3,147,390.04, non-reversionary, paid pro rata to claimants (Dkt. 48, Settlement Agreement para. 20(a)).\n(5) Class size: the Settlement Agreement (Dkt. 48-2) estimated about 817,504 people. After the administrator removed duplicates there were 817,199 unique class member records (final-approval memo Dkt. 60, citing Azari Decl. para. 22). Email notice reached 758,720 of them, about 92.8%. More than 32,000 claim forms had been filed as of 2026-04-06.\n(6) Fees: $1,038,638.71 is exactly 33% of the fund. The court also approved $19,986.51 in costs and the $5,000 service award. No objections were filed (Dkt. 63 paras. 3, 14).\n(7) Claims: federal ECPA / Wiretap Act (18 U.S.C. 2510 et seq.) only, with no CIPA or FSCA counts. The motion to dismiss was denied in part on 2025-03-25 (Dkt. 34), which let the ECPA claim proceed. The case concerns Meta and Google pixels on Inova's public website, affecting MyChart users, with a class period of 2022-04-29 to 2024-04-29.\n(8) Settlement website: www.HealthPixelSettlement.com. Administrator: Epiq. Class counsel: McGuire Law, P.C. and Michie Hamlett.\n(9) Minor quirk: the final order cites Rule 23(b)(2) in para. 4 but makes 23(b)(3) findings in para. 6.\n(10) Docket 63 is the last numbered entry; I found no post-judgment entries.",
+   "open_questions": "1) The ConsentPixel entry calls this \"Doe v. Inova Health System\", a CIPA 631 settlement dated 2026-04-01. The amount and facts match this case, but the complaint pleads no CIPA claim, so the 631 tag looks wrong. The dates and caption may also be wrong. No separate Inova matter was found. 2) The settlement website returned HTTP 403 and was not read directly. Its URL was confirmed from the settlement agreement. 3) The final approval hearing was set for 2026-04-16 and reset to 2026-04-17 (Dkt. 61), when it was held by phone. 4) The final order certifies under Rule 23(b)(2) in para. 4 and recites (b)(3) findings in para. 6, an internal inconsistency in the order. 5) The final per-claimant payment amount and the date of distribution have not been announced.",
+   "id": "lugo-v-inova-e-d-va"
   },
   {
    "short_name": "Duke Health (MyChart Meta Pixel)",
@@ -1581,6 +1056,689 @@ window.PRIVACY_COMPS = {
    "id": "duke-health-mychart-meta-pixel"
   },
   {
+   "short_name": "Wellstar Health (pixel / MyChart)",
+   "caption": "Jane Doe, Jane Doe #2, Jane Doe #3, and John Doe v. Wellstar Health System, Inc.",
+   "defendant": "Wellstar Health System, Inc.",
+   "court": "U.S. District Court, Northern District of Georgia (Atlanta Division)",
+   "docket": "1:24-cv-01748-JPB",
+   "judge": "J. P. Boulee",
+   "industry": "Healthcare - hospital/health system (Georgia)",
+   "technology": "Meta Pixel, Google Analytics, and Google Tag Manager (the complaint also lists Meta SDK, DoubleClick, and other tools) on the public website wellstar.org and the Wellstar MyChart patient portal (mychart.wellstar.org), sending PII/PHI to Meta and Google",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Intrusion upon seclusion (Count I); breach of fiduciary duty/confidence (II); negligence (III); negligence per se (IV); breach of implied contract (V); breach of express contract (VI); unjust enrichment (VII). The Aug. 21, 2025 MTD order (ECF 34) granted the motion in part. Only the ECPA claim (Count VIII, 18 U.S.C. § 2511(1)) and unjust enrichment went forward.",
+   "statute_evidence": "Amended Class Action Complaint (ECF 20, filed 2024-08-02; the operative complaint). Its 8 count headings were reviewed in full: Count VIII is the ECPA, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure). There is no CIPA, FSCA, or § 638.51 count. The prelim approval brief (ECF 55-1 at 4) lists the same 8 claims and says the ECPA and unjust enrichment claims survived the MTD. RECAP: https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.20.0.pdf ; https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.55.1.pdf",
+   "class_definition": "All persons residing in the U.S. whose information was disclosed to a third party between 2020-02-19 and 2026-07-22 through Tracking Technologies on Wellstar's Web Properties (website and MyChart). Standard exclusions apply (judges, officers/directors, opt-outs, Class Counsel).",
+   "class_size": 870000,
+   "class_size_note": "Approximate. The prelim brief says the class is estimated at approximately 870,000 individuals (S.A. ¶ 1.33). Brief: $4.89 per class member gross.",
+   "settlement_structure": "Non-reversionary common fund ($4.25M). Claims-made pro rata cash distribution to valid claimants, with any remainder going to a cy pres recipient. Notice/admin costs, fees, expenses and service awards come out of the fund. Administrator: Epiq. Mediator: Bennett G. Picker (mediation 2026-06-17).",
+   "fund_amount": 4250000,
+   "payment_terms": "Pro rata cash payment to each class member who files a valid claim, from the net fund after admin costs, fees, expenses and service awards. The amount depends on the claims rate (about $4.89 per class member gross). Claims are due 2026-11-10 and the opt-out deadline is 2026-10-26 (per ClaimDepot/TCA). Electronic payment options are available.",
+   "fees_requested": "Up to one-third of the fund (about $1,416,667) plus reasonable litigation expenses (S.A. ¶ 11.1), and service awards of up to $2,500 per class representative (S.A. ¶ 11.2). No fees awarded yet.",
+   "service_award": "Up to $2,500 per class representative; 4 representatives, $10,000 total (S.A. ¶ 11.2)",
+   "injunctive_relief": "None identified. The prelim brief describes only monetary relief, and secondary sources mention no practice changes. The Settlement Agreement (ECF 55-2) itself was not reviewed.",
+   "motion_prelim_filed": "2026-07-22",
+   "prelim_approval_date": "2026-07-28",
+   "final_hearing_date": "2026-12-01",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Preliminary approval was granted on 2026-07-28 (per ClassAction.org; the order is not on RECAP), after the unopposed motion filed 2026-07-22 (ECF 55). Both dates fall inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "David S. Almeida and Britany A. Wessan (Kabakov), Almeida Law Group LLC; Brandon M. Wise and Andrew Tate, Peiffer Wolf Carr Kane Conway & Wise LLP; Carolyn (C.J.) Cuneo, Milberg PLLC. Gary M. Klinger also appeared pro hac vice earlier.",
+   "settlement_website": "https://wellstardataprivacysettlement.com/",
+   "sources": [
+    {
+     "label": "CourtListener docket 1:24-cv-01748 (N.D. Ga.)",
+     "url": "https://www.courtlistener.com/docket/68466940/doe-v-wellstar-health-system-inc/"
+    },
+    {
+     "label": "Amended Class Action Complaint, ECF 20 (operative; counts I-VIII)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.20.0.pdf"
+    },
+    {
+     "label": "Unopposed Motion for Preliminary Approval, ECF 55 (filed 2026-07-22)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.55.0.pdf"
+    },
+    {
+     "label": "Brief ISO Preliminary Approval, ECF 55-1 (class def., size, fund, fees, service awards, MTD outcome)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.gand.328505/gov.uscourts.gand.328505.55.1.pdf"
+    },
+    {
+     "label": "ClassAction.org - preliminary approval date 2026-07-28, FAH, claims deadline",
+     "url": "https://www.classaction.org/news/mychart-settlement-4.25m-wellstar-pact-wraps-up-class-action-lawsuit-over-alleged-patient-data-disclosures"
+    },
+    {
+     "label": "ClaimDepot - opt-out deadline, fee dollar cap, admin cost cap",
+     "url": "https://www.claimdepot.com/settlements/wellstar-data-privacy-settlement"
+    },
+    {
+     "label": "Top Class Actions - deadlines and FAH",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-25m-wellstar-health-tracking-pixel-class-action-settlement/"
+    },
+    {
+     "label": "Official settlement website (Cloudflare bot check blocked automated access)",
+     "url": "https://wellstardataprivacysettlement.com/"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I downloaded and text-searched the Amended Class Action Complaint (ECF 20, filed 2024-08-02, 146 pages). It has 8 counts: I intrusion upon seclusion; II breach of fiduciary duty; III negligence; IV negligence per se; V breach of implied contract; VI breach of express contract; VII unjust enrichment; VIII \"Violations of Electronic Communications Privacy Act, 18 U.S.C. § 2511(1), et seq. - Unauthorized Interception, Use and Disclosure.\" The complaint does not mention California, CIPA or the Penal Code anywhere. It also has no Florida or Fla. Stat. 934 references, and no 638.51.\n\nThe docket (CourtListener API, docket 68466940) shows no later amended complaint. ECF 23 was the MTD aimed at ECF 20. ECF 34 (2025-08-21) granted it in part. ECF 42 (2025-09-19) is Wellstar's answer to ECF 20. ECF 55 (2026-07-22) is the unopposed motion for preliminary approval. So ECF 20 is the operative pleading, and no count was dropped by amendment.\n\nThe prelim approval brief (ECF 55-1 at 4-5) lists the same 8 claims and says the unjust enrichment and ECPA claims survived the MTD. Minor discrepancy: that brief calls claim (ii) \"breach of confidence,\" but the complaint heads Count II \"Breach of Fiduciary Duty.\" Neither is a target statute, so this does not affect the verdict. One caveat: ECF 55 is a motion. I did not confirm from the docket whether preliminary approval has actually been granted. | fees_requested: Up to one-third of the fund (about $1,416,667) plus reasonable litigation expenses (S.A. ¶ 11.1). Not yet awarded.→Up to one-third of the fund (about $1,416,667) plus reasonable litigation expenses (S.A. ¶ 11.1), and service awards of up to $2,500 per class representative (S.A. ¶ 11.2). No fees awarded yet. | Timing/money check (confirmed): I could not refute any of the researcher's facts. Both qualifying events fall inside the 2026-04-09 to 2026-10-09 window, and each is confirmed by a primary source.\n\n(1) Prelim motion: the CourtListener RECAP docket (68466940) shows Doc 55 on 2026-07-22. It is the plaintiffs' unopposed motion for preliminary approval with brief, and it was submitted to Judge Boulee on 2026-07-24.\n\n(2) Prelim approval: I read the file-stamped court copy of the order (Doc 56, Filed 07/28/26, 13 pages, titled \"PRELIMINARY APPROVAL ORDER\"). The signature page reads \"IT IS SO ORDERED this 28th day of July, 2026,\" signed by J.P. Boulee. The copy is hosted on classaction.org. CourtListener's RECAP docket has not been updated past 2026-07-24 and does not list Doc 56, so the docket alone cannot confirm the approval date. The order PDF is the evidence.\n\n(3) Fund and class size: the brief (Doc 55-1) describes a non-reversionary $4,250,000 common fund for about 870,000 class members (about $4.89 per member).\n\n(4) Fees: the brief says fees will not exceed one-third of the fund, plus expenses (S.A. ¶ 11.1), and service awards will not exceed $2,500 per representative (¶ 11.2). Claimdepot lists fees of up to $1,416,667, $250K in admin costs and $10K in service awards. That last figure is a secondary source.\n\n(5) Final hearing: the official settlement website (Epiq) says 2026-12-01 at 10:00 a.m. ET. The site calls itself the court-approved notice and says notices went out beginning 2026-08-24. Opt-out and objection deadline is 2026-10-26; claim deadline is 2026-11-10. Final approval has not happened yet.\n\n(6) Claims relevant to the user's filter: the amended complaint included federal ECPA/Wiretap Act claims (18 U.S.C. § 2511). The 2025-08-21 motion-to-dismiss order kept the ECPA and unjust enrichment claims alive. There are no CIPA or FSCA claims; the case qualifies on the federal wiretap/ECPA claim. The class covers 2020-02-19 to 2026-07-22, and the tracking pixels involved were Meta and Google on wellstar.org and MyChart.\n\nThe settlement website's subpages were blocked by Cloudflare after the first page load, so I could not view its documents list.",
+   "open_questions": "1) The preliminary approval order is not on RECAP, and Cloudflare blocked automated access to the settlement website. The 2026-07-28 date comes only from ClassAction.org (and the TCA/Sounder hint), so it should be checked against the PACER docket or the website's Court Documents. 2) The Settlement Agreement (ECF 55-2) and the Joint Declaration (ECF 55-3) are not on RECAP. Not confirmed: whether any injunctive or practice-change terms exist, the cy pres recipient, and the exact objection deadline (assumed to be 2026-10-26 along with opt-outs). 3) The fund is $4,250,000 per the ECF 55-1 brief. The '$4.5M' figure in some reports is not supported by the filing. 4) Fees are only requested (up to 1/3); the award is pending the final approval hearing on 2026-12-01. 5) This is a non-CIPA comparator (ECPA 2511 only, Georgia healthcare). Useful as ECPA-wiretap support; the ECPA claim survived a MTD before the settlement.",
+   "id": "wellstar-health-pixel-mychart"
+  },
+  {
+   "short_name": "Cone Health (MyChart pixel)",
+   "caption": "Singh v. The Moses H. Cone Memorial Hospital Operating Corp., et al.",
+   "defendant": "The Moses H. Cone Memorial Hospital Operating Corporation d/b/a Cone Health and The Moses H. Cone Memorial Hospital d/b/a Cone Health",
+   "court": "U.S. District Court, Middle District of North Carolina (Greensboro)",
+   "docket": "1:24-cv-00558-LAF-JGM",
+   "judge": "District Judge Lindsey A. Freeman (reassigned 2025-12-29 from Judge William L. Osteen, Jr.); Magistrate Judge Joanna Gibson McFadden",
+   "industry": "Healthcare - hospital system / patient portal",
+   "technology": "Meta (Facebook) Pixel and Google Analytics on Cone Health websites and the MyChart patient portal, sending patient data to Facebook and Google",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Breach of express contract; breach of implied duty of good faith and fair dealing; breach of implied contract; negligence; breach of fiduciary duty; unjust enrichment. All counts were brought for a nationwide class. The NC Electronic Surveillance Act was not pled, even though one outlet said it was.",
+   "statute_evidence": "The Class Action Complaint (ECF 1, filed 2024-07-08), downloaded from the settlement website's Court Documents page (https://cw.simpluris.com/docs/public/downloads/CHS/COMPLAINT), pleads seven counts. Count One is \"Violation of the Electronic Communications Privacy Act 18 U.S.C. § 2511(1), et seq. — Unauthorized Interception, Use and Disclosure,\" which cites §§ 2510, 2511(1)(a), (c), (d), 2511(2)(d) and 2520. Counts Two through Seven are common-law claims. There is no CIPA, FSCA or NC state wiretap count. The docket shows no amended complaint. The settlement agreement recitals in the preliminary-approval motion (ECF 26-1/26-2) list the same seven claims, starting with the ECPA claim.",
+   "class_definition": "All living individuals who from 2016-09-01 to 2022-11-03 accessed the MyChart patient portal on Defendants' website or completed a submission form on Defendants' website. Excluded: judges and staff, Defendants' employees and affiliates, opt-outs, and Class Counsel.",
+   "class_size": 375027,
+   "class_size_note": "Approximate. Class counsel's estimate, based on Defendants' representations about the size of their MyChart and website user base (Joint Decl. ¶31, ECF 26-1). The settlement agreement overview lists \"Number of Class Members: 375,027.\"",
+   "settlement_structure": "Non-reversionary common fund with a claims-made, pro rata distribution. Fees, costs, the service award and administration costs come out of the fund. If residual funds would allow a payment of $5 or more, there is a second distribution to claimants who cashed their first payment. Otherwise the residue goes to a cy pres charity agreed by the parties and approved by the court. Administrator: Simpluris.",
+   "fund_amount": 1765000,
+   "payment_terms": "The net fund is split equally (pro rata) among valid claimants. The claim requires only an attestation that the person accessed MyChart or submitted a form between 2016-09-01 and 2022-11-03, with no proof needed. No fixed per-claimant amount is stated, so the payment depends on the number of claims. Claim, opt-out and objection deadline: 2026-10-05.",
+   "fees_requested": "Up to one-third of the fund for fees, plus up to $25,000 in costs, with a combined cap of $613,333.33 (Settlement Agreement §9.1; Long Form Notice §14). There is also a $5,000 service award. The fee motion was filed 2026-09-21 (ECF 34, with memorandum at ECF 35) and has not been ruled on. The fee award will be decided at the final approval hearing.",
+   "service_award": "Up to $5,000 for the class representative, Ashika Singh",
+   "injunctive_relief": "None identified. The agreement provides monetary relief only; the only mentions of injunctive relief are in the release definition.",
+   "motion_prelim_filed": "2025-02-14",
+   "prelim_approval_date": "2026-07-07",
+   "final_hearing_date": "2026-11-05",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Judge Freeman granted preliminary approval on 2026-07-07 (ECF 33), which falls inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Class Counsel: David S. Almeida (Almeida Law Group LLC) and Brandon M. Wise (Peiffer Wolf Carr Kane Conway & Wise, LLP). Local counsel: David M. Wilkerson (The Van Winkle Law Firm). Craig D. Justus appeared for plaintiff in 2026. Defense counsel: Patrick M. Kane (Fox Rothschild LLP).",
+   "settlement_website": "https://conepixelsettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (deadlines, documents page)",
+     "url": "https://conepixelsettlement.com/"
+    },
+    {
+     "label": "Class Action Complaint, ECF 1 (counts list; ECPA Count One)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/COMPLAINT"
+    },
+    {
+     "label": "Unopposed Motion for Preliminary Approval with Joint Decl. and Settlement Agreement, ECF 26/26-1/26-2 (class size, non-reversionary fund, fee cap, service award, cy pres)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/MOTION_FOR_PRELIMINARY_APPROVAL_ORDER"
+    },
+    {
+     "label": "Preliminary Approval Order, ECF 33 (filed 2026-07-07; scanned image)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/PRELIMINARY_APPROVAL_ORDER"
+    },
+    {
+     "label": "Settlement Agreement (scanned)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/SETTLEMENT_AGREEMENT"
+    },
+    {
+     "label": "Long Form Notice ($1,765,000 fund; fees up to $613,333.33; $5,000 service award; FAH 2026-11-05; Class Counsel)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CHS/LONG_FORM_NOTICE"
+    },
+    {
+     "label": "CourtListener docket (ECF 33 prelim approval 2026-07-07; FAH set 2026-11-05; fee motion ECF 34 filed 2026-09-21; judge reassignment)",
+     "url": "https://www.courtlistener.com/docket/68921042/singh-v-the-moses-h-cone-memorial-hospital-operating-corporation/"
+    },
+    {
+     "label": "ClassAction.org news article (secondary)",
+     "url": "https://www.classaction.org/news/mychart-settlement-1.7m+-cone-health-deal-ends-lawsuit-over-alleged-patient-data-tracking"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute this. I downloaded the complaint myself from the Simpluris settlement-site link: a 131-page PDF stamped \"Case 1:24-cv-00558 Document 1 Filed 07/08/24\", in the Middle District of North Carolina, Singh v. The Moses H. Cone Memorial Hospital Operating Corp. d/b/a Cone Health. Count One is headed \"Violation of the Electronic Communications Privacy Act 18 U.S.C. § 2511(1), et seq.\" and pleads violations of § 2511(1)(a), (c) and (d), and also invokes § 2511(2)(d). Paragraph 35 lists the seven causes of action: (i) ECPA; (ii) breach of express contract; (iii) breach of the implied duty of good faith and fair dealing; (iv) breach of implied contract; (v) negligence; (vi) breach of fiduciary duty; (vii) unjust enrichment. Counts Two through Seven are those common-law claims, all brought for the nationwide class. A text search found no reference to California, Cal. Penal Code, CIPA § 631, § 632, § 632.7, § 638.51, Florida, Fla. Stat. § 934, or the NC wiretap statute (N.C.G.S. 15A-287). I pulled the docket through the CourtListener API (docket 68921042). It shows ECF 1 (complaint), ECF 3 (sealed unredacted complaint), ECF 26 (unopposed motion for preliminary approval, with the settlement agreement as Ex. 1, filed 2/14/2025) and ECF 33 (preliminary approval order, Judge Lindsey A. Freeman, 7/7/2026). Final approval hearing is set for 11/5/2026. There is no amended complaint anywhere in entries 1-36, so ECF 1 is the operative complaint and no count was dropped. One minor point: entry 19 did not appear in the API listing; it is probably a text-only or sealed entry. The settlement agreement PDF I downloaded is a scan with no text layer, so I could not check its recitals myself. That does not matter, because the complaint itself is the primary document. I agree with every statute value the researcher gave. The ECPA claim is the only qualifying statute pled; preliminary approval was granted 7/7/2026, which falls within the 6-month window. | fees_requested: Up to one-third of the fund for fees, plus up to $25,000 in costs, with a combined cap of $613,333.33 (Settlement Agreement; Long Form Notice §14). The fee motion was filed 2026-09-21 (ECF 34-35) and has not been ruled on. The fee award will be decided at the 2026-11-05 final approval hearing.→Up to one-third of the fund for fees, plus up to $25,000 in costs, with a combined cap of $613,333.33 (Settlement Agreement §9.1; Long Form Notice §14). There is also a $5,000 service award. The fee motion was filed 2026-09-21 (ECF 34, with memorandum at ECF 35) and has not been ruled on. The fee award will be decided at the final approval hearing. | Timing/money check (confirmed): Confirmed: the preliminary approval date is inside the 2026-04-09 to 2026-10-09 window. I tried to refute each fact against the CourtListener RECAP docket (pulled through the API) and the documents on the Simpluris settlement site. Nothing needed correcting.\n\nDocket:\n- ECF 26-27: Unopposed Motion for Preliminary Approval and memorandum, filed 2025-02-14. This is outside the window, but the qualifying event is the approval itself.\n- 2025-12-29: case reassigned from Judge Osteen to Judge Lindsey A. Freeman.\n- 2026-06-18: preliminary approval hearing held. The court asked for a supplemental filing and a recusal process. ECF 32, a status report filed 2026-07-02, followed up on this.\n- ECF 33: Preliminary Approval Order signed by Judge Freeman on 2026-07-07. The header of the PDF on the settlement site also reads \"Document 33 Filed 07/07/26\".\n- 2026-07-07 docket text: final approval hearing set for 2026-11-05 at 2:00 PM, Greensboro Courtroom #2.\n- ECF 34-35: fee motion and memorandum, filed 2026-09-21. No ruling yet.\n- ECF 36 (2026-10-07): notice of withdrawal of counsel. This does not affect the settlement.\n- There is no final approval order. The final approval date stays blank.\n\nMoney and class:\n- Fund: $1,765,000.00 (Long Form Notice §7; Settlement Agreement ¶3).\n- Class size: 375,027 individuals (Settlement Agreement §1.28; prelim approval motion).\n- Fees: fees capped at one-third of the fund, costs capped at $25,000, combined cap $613,333.33 (Settlement Agreement §9.1; Long Form Notice §14). There is also a $5,000 service award.\n- Deadline for claims, opt-outs and objections: 2026-10-05.\n\nClaims: the complaint and the motion both assert a federal ECPA/Wiretap Act count for unauthorized interception, use and disclosure, so the case qualifies for the federal wiretap criterion.\n\nOnly discrepancy: the settlement website's home page does not list the fund or fee figures. The official notice PDFs do.",
+   "open_questions": "1. The preliminary approval order (ECF 33) and settlement agreement PDFs are scanned images, so I could not text-search them. The terms come from the text-searchable motion exhibits (ECF 26-1/26-2) and the current long-form notice, which match: $1,765,000 fund, $613,333.33 fee and cost cap, $5,000 service award. I could not confirm whether the order changed any terms. 2. The fee motion (ECF 34-35, filed 2026-09-21) is not on RECAP, so I don't know the exact amount requested. 3. Claims rate, number of claims and estimated per-claimant payment are not yet public; they will likely appear in the final approval papers due before the 2026-11-05 hearing. 4. The cy pres recipient is not named in the materials I reviewed. 5. ECPA is the only qualifying statute; there are no CIPA counts (631/632/632.7/638.51) and no FSCA count.",
+   "id": "cone-health-mychart-pixel"
+  },
+  {
+   "short_name": "Dental Intelligence (LocalMed)",
+   "caption": "Victoria Grivetti, Julie Bell, and Equila Jackson v. Dental Intelligence, Inc. (originally captioned Allison Theys et al. v. Dental Intelligence, Inc., et al.)",
+   "defendant": "Dental Intelligence, Inc. (LocalMed scheduling portal). The earlier pleadings also named clinic defendants: Dental Dreams, Familia Dental, and Familia Dental West Green Bay. The operative SAC names only Dental Intelligence.",
+   "court": "U.S. District Court, Northern District of Illinois (Eastern Division)",
+   "docket": "1:25-cv-02464",
+   "judge": "Hon. Lindsay C. Jenkins (Magistrate Judge Beth W. Jantz)",
+   "industry": "Healthcare / dental: practice-management SaaS and an online appointment-scheduling portal embedded on dental clinic websites",
+   "technology": "Google tracking and analytics tools (\"Pixels\") on the LocalMed appointment-scheduling portal. The complaint alleges they sent patients' names, phone numbers, provider names, appointment reasons, and insurance carriers to Google.",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "The operative SAC (ECF 90) has three counts: common-law invasion of privacy (Count I), negligence (Count II), and ECPA (Count III). Earlier pleadings were superseded. The original complaint (ECF 1) also pled breach of confidence, breach of fiduciary duty, breach of implied contract, unjust enrichment, the Illinois Eavesdropping Statute (720 ILCS 5/14-1), the Wisconsin Wiretap Act (Wis. Stat. 968.31), and the Maryland Wiretapping and Electronic Surveillance Act. The FAC (ECF 53) pled invasion of privacy, negligence, implied contract, unjust enrichment, ECPA (Count V), and the Wisconsin and Maryland wiretap acts. In the 2026-03-06 MTD ruling (ECF 84/85), the court dismissed the Wisconsin and Maryland plaintiffs' claims against Dental Intelligence for lack of personal jurisdiction. The ECPA claims of the Illinois plaintiffs survived against Dental Intelligence. The release expressly covers ECPA and HIPAA-based claims.",
+   "statute_evidence": "I read the Second Amended Class Action Complaint (ECF 90, filed 2026-03-27). The settlement agreement (para. 10(i)) defines it as the operative complaint. Its counts are: Count I, common-law invasion of privacy; Count II, negligence; Count III, ECPA, 18 U.S.C. § 2511(1)(a), (c), (d), with § 2520. A text search found no Cal. Penal Code 631/632/632.7/638.51 and no Fla. Stat. 934 anywhere in the SAC. The RECAP text is at https://www.courtlistener.com/docket/69718056/90/allison-theys-v-dental-intelligence-inc/. The settlement agreement release (ECF 102-2) separately names ECPA, negligence, and invasion of privacy as the asserted claims.",
+   "class_definition": "All natural persons in the U.S. who used the LocalMed Portal to schedule, modify, or re-schedule an appointment between March 2022 and June 2025 and whose Personal/Private Dental Information was allegedly disclosed or transmitted to Google or another unauthorized third party. Only users of specific portal configurations are included. Released Parties and court personnel are excluded.",
+   "class_size": 1079483,
+   "class_size_note": "Exact figure. Settlement Agreement para. 10(ii) says Dental Intelligence provided documentation showing 1,079,483 Settlement Class Members.",
+   "settlement_structure": "Non-reversionary common fund, claims-made, pro rata. Defendant pays $400,000 for notice and administration within 30 days of preliminary approval and the remaining $5,350,000 within 14 days of the Effective Date. Uncashed funds go cy pres to a 501(c)(3) the parties agree on and the court approves.",
+   "fund_amount": 5750000,
+   "payment_terms": "Each valid claimant gets an equal pro rata share of the net fund after notice and administration costs, litigation expenses, service awards, and court-awarded fees. Payment is by check or electronic payment (Venmo, PayPal, prepaid card). Checks expire after 120 days. Claims are due 2027-01-25. Opt-outs and objections are due 2026-12-28. No per-claimant estimate appears in the documents reviewed.",
+   "fees_requested": "Not yet filed. Settlement Agreement para. 59 caps the request at one-third of the Net Settlement Fund plus reasonable expenses and costs. The Net Settlement Fund is the fund after notice and administration costs, litigation expenses, and service awards. The court set the fee and final-approval motion deadline at 2027-02-08 (ECF 103/104).",
+   "service_award": "Up to $5,000 for each of the 3 class representatives (Grivetti, Bell, Jackson), $15,000 total maximum. Not yet requested or awarded.",
+   "injunctive_relief": "Business-practice changes (Agreement para. 21): Dental Intelligence removed the Google tracking technology from the LocalMed Portal, then decommissioned the portal and took it offline. Class counsel must verify this before the final-approval motion.",
+   "motion_prelim_filed": "2026-09-23",
+   "prelim_approval_date": "2026-09-24",
+   "final_hearing_date": "2027-03-25",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Judge Jenkins granted preliminary approval on 2026-09-24 by minute entry ECF 103 and Preliminary Approval Order ECF 104. That date is inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Siri & Glimstad LLP (Tyler J. Bean, Sonjay C. Singh), appointed Settlement Class Counsel. Defense counsel: Weil, Gotshal & Manges LLP (David Yohai, David Singh, Blake Steinberg).",
+   "settlement_website": "Not yet live. The administrator, Simpluris, must launch it by the 2026-10-27 Notice Commencement Date. The URL is not stated in the agreement or the order.",
+   "sources": [
+    {
+     "label": "Preliminary Approval Order, ECF 104 (2026-09-24)",
+     "url": "https://www.courtlistener.com/docket/69718056/104/allison-theys-v-dental-intelligence-inc/"
+    },
+    {
+     "label": "Minute entry granting prelim approval and setting FAH 2027-03-25, ECF 103",
+     "url": "https://www.courtlistener.com/docket/69718056/103/allison-theys-v-dental-intelligence-inc/"
+    },
+    {
+     "label": "Settlement Agreement, ECF 102-2 (2026-09-23)",
+     "url": "https://www.courtlistener.com/docket/69718056/102/2/allison-theys-v-dental-intelligence-inc/"
+    },
+    {
+     "label": "Second Amended Class Action Complaint (operative), ECF 90 (2026-03-27)",
+     "url": "https://www.courtlistener.com/docket/69718056/90/allison-theys-v-dental-intelligence-inc/"
+    },
+    {
+     "label": "MTD minute order ECF 84 / Mem. Op. ECF 85 (2026-03-06)",
+     "url": "https://www.courtlistener.com/docket/69718056/85/allison-theys-v-dental-intelligence-inc/"
+    },
+    {
+     "label": "First Amended Complaint ECF 53 (Wisconsin/Maryland wiretap counts)",
+     "url": "https://www.courtlistener.com/docket/69718056/53/allison-theys-v-dental-intelligence-inc/"
+    },
+    {
+     "label": "Original Complaint ECF 1",
+     "url": "https://www.courtlistener.com/docket/69718056/1/allison-theys-v-dental-intelligence-inc/"
+    },
+    {
+     "label": "CourtListener docket",
+     "url": "https://www.courtlistener.com/docket/69718056/allison-theys-v-dental-intelligence-inc/"
+    },
+    {
+     "label": "Open Class Actions summary",
+     "url": "https://openclassactions.com/settlements/pixel-tracking/dental-intelligence-localmed-privacy-class-action-settlement.php"
+    },
+    {
+     "label": "Becker's Dental report",
+     "url": "https://www.beckersdental.com/dental-technology/dental-intelligence-agrees-to-settle-class-action-privacy-lawsuit-for-5-75m/"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): My review agrees with the researcher on every statute. I could not refute the claim.\n\nOperative complaint: the Second Amended Complaint (ECF 90, filed 3/27/2026; RECAP doc 473887800). Count III is ECPA, 18 U.S.C. § 2511(1), et seq. It pleads § 2511(1)(a), (c) and (d), raises the crime-tort exception under § 2511(2)(d), and seeks damages under § 2520 on behalf of a nationwide class or, alternatively, an Illinois subclass. The other two counts are common-law invasion of privacy and negligence.\n\nWhat text searches of the SAC found:\n- \"Penal\" appears only in a HIPAA sentence.\n- \"California\", \"Florida\" and \"934\" have no matches.\n- So CIPA §§ 631, 632, 632.7 and 638.51 and Fla. Stat. § 934 are absent.\n\nSettlement agreement (ECF 102-2, RECAP 494958790):\n- Para. (i) defines the \"Complaint\" as the operative SAC at Dkt. 90.\n- The release names ECPA, common-law negligence and invasion of privacy as the claims asserted.\n- It does not mention \"Penal\" or \"934\".\n\nAmendment history:\n- The First Amended Complaint (ECF 53) had ECPA as Count V. It also pled the Wisconsin Wiretap Act (Wis. Stat. 968.31), the Maryland wiretap act (MWESA), breach of implied contract and unjust enrichment, against several dental-provider defendants. None of those are target statutes. The SAC dropped them and named only Dental Intelligence as the defendant.\n- The MTD opinion (ECF 85, 3/6/2026) let the ECPA claim of Grivetti, Bell and Jackson proceed against Dental Intelligence. It relied on the crime-tort exception because a HIPAA disclosure was plausibly alleged. So ECPA was a live, surviving claim at the time of settlement.\n- The FAC also had no California or Florida references.\n\nECPA is the only target statute pled. There are no CIPA or FSCA claims. | fees_requested: Not yet filed. Under Settlement Agreement para. 59, counsel will seek no more than one-third of the Net Settlement Fund plus reasonable expenses. The Net Settlement Fund is defined as the fund after administration costs, litigation expenses, and service awards. The fee and final-approval motion is due 2027-02-08 under ECF 103/104.→Not yet filed. Settlement Agreement para. 59 caps the request at one-third of the Net Settlement Fund plus reasonable expenses and costs. The Net Settlement Fund is the fund after notice and administration costs, litigation expenses, and service awards. The court set the fee and final-approval motion deadline at 2027-02-08 (ECF 103/104). | Timing/money check (confirmed): I tried to refute this and could not. Every in-window event is confirmed by primary docket documents (N.D. Ill. 1:25-cv-02464, Judge Lindsay C. Jenkins).\n\n(1) Prelim approval motion filed 2026-09-23 (ECF 102). The attached Settlement Agreement (ECF 102-2) is stamped \"Filed: 09/23/26\". The day before, ECF 99 (filed 2026-09-22) asked for extra pages for this motion, and ECF 100 (2026-09-23) granted it.\n\n(2) Prelim approval granted 2026-09-24 in two filings:\n- Minute entry ECF 103, which grants ECF 102 and sets the final approval hearing for 2027-03-25 at 9:15 am in Courtroom 2119.\n- Separate Preliminary Approval Order ECF 104, \"so ordered this 24th day of September 2026\".\nParagraph 5 of ECF 104 still leaves the hearing date blank (\"____, 2026\"). Paragraph 20 and ECF 103 both fill it in as 2027-03-25.\n\n(3) Other deadlines in ECF 104 para. 20:\n- Notice starts: 2026-10-27\n- Opt-out and objection deadline: 2026-12-28\n- Claim form deadline: 2027-01-25\n- Final approval and fee motion due: 2027-02-08\n- Replies due: 2027-03-10\nNo final approval yet. The case is not terminated; the last filing is 2026-09-24.\n\n(4) Money:\n- The Settlement Agreement defines a non-reversionary $5,750,000 Settlement Fund. Defendant pays $400,000 after preliminary approval and the remaining $5,350,000 within 14 days after the Effective Date.\n- The agreement states that defendant documented 1,079,483 Settlement Class Members.\n- Payments are pro rata to valid claimants.\n- Service awards are capped at $5,000 per class representative.\n- Administrator: Simpluris. Class counsel: Tyler J. Bean and Sonjay C. Singh of Siri & Glimstad.\n\n(5) Inconsistency in the papers: SA para. 59 says the fee application is due 14 days before the Objection Deadline, which would be about 2026-12-14. The court's order instead sets 2027-02-08, after the 2026-12-28 objection deadline. The court order controls, but the timing could matter if anyone objects.\n\n(6) Claim fit for the user's criteria: the operative Second Amended Complaint (ECF 90, filed 2026-03-27) pleads three counts:\n- Count I: common-law invasion of privacy\n- Count II: negligence\n- Count III: ECPA, 18 U.S.C. § 2511(1)\nSo it qualifies under federal wiretap/ECPA. It has no CIPA 631/632 or Florida FSCA count. Earlier versions included Wisconsin and Maryland wiretap claims against clinic defendants. The ECF 85 order dismissed the Wisconsin and Maryland plaintiffs' claims against Dental Intelligence for lack of personal jurisdiction, and the clinic defendants were later dropped.\n\nThe settlement class covers people nationwide who used the LocalMed Portal to book appointments between March 2022 and June 2025 and whose dental information was allegedly disclosed to Google or other third parties. I found no corrections to the researcher's fields; every value matches the primary sources.",
+   "open_questions": "(1) The settlement website URL is not yet known; it is due 2026-10-27. (2) The agreement's timing and the order's timing for the fee and service-award application conflict. Agreement paras. 57 and 59 say 14 days before the objection deadline, which is about 2026-12-14. The order sets 2027-02-08, after the 2026-12-28 objection deadline. This could draw an objection about timing the fee motion before objections. (3) No per-claimant estimate is available yet; it depends on the claims rate. (4) The prelim approval brief (ECF 102 main document) and the Singh declaration were not available on RECAP, so the damages analysis and any valuation of ECPA statutory damages were not reviewed. (5) No CIPA, 638.51, or FSCA claims were pled. The case supports the ECPA-only comparison set, a healthcare pixel/Google Analytics case at about $5.33 per class member.",
+   "id": "dental-intelligence-localmed"
+  },
+  {
+   "short_name": "Fertility Centers of Illinois (pixel)",
+   "caption": "L.C., individually and on behalf of all others similarly situated v. Fertility Centers of Illinois, PLLC",
+   "defendant": "Fertility Centers of Illinois, PLLC",
+   "court": "U.S. District Court, N.D. Illinois (Eastern Division)",
+   "docket": "1:25-cv-02049",
+   "judge": "Mag. Judge Gabriel A. Fuentes (presiding on consent, D.E. 46; originally assigned to Chief Judge Rebecca R. Pallmeyer, who denied the MTD)",
+   "industry": "Healthcare / fertility clinic (IVF provider)",
+   "technology": "Meta (Facebook) Pixel plus Google tracking (Google Analytics, Google Ads) embedded on www.fcionline.com",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Negligence (Count II); Unjust Enrichment (Count III, in the alternative); Illinois Eavesdropping Statute, 720 ILCS 5/14-1 et seq. (Count IV, Illinois subclass). The prelim motion also refers to Illinois contract and tort law.",
+   "statute_evidence": "Original complaint (ECF 1, filed 2025-02-27) is the operative pleading. No amended complaint was filed, and the MTD was denied on it (ECF 24, 2025-12-08). It has four counts: Count I ECPA, 18 U.S.C. § 2511(1) et seq.; Count II Negligence; Count III Unjust Enrichment; Count IV Illinois Eavesdropping Statute. A text search of the complaint found no hits for 631, 632, 638, 934, 2701, California or Florida. The prelim motion (ECF 56 at 1-2) confirms the claims are ECPA, IES, and Illinois contract/tort law. Complaint: https://www.courtlistener.com/docket/69685836/1/lc-v-fertility-centers-of-illinois-pllc/",
+   "class_definition": "Nationwide settlement class: all persons in the United States who accessed and used the Defendant's website (www.fcionline.com) from 2020-09-01 through 2024-12-31. Standard exclusions apply: judges and staff, Defendant and its affiliates, opt-outs, and their successors.",
+   "class_size": null,
+   "class_size_note": "No number is disclosed. The prelim motion says only that Defendant \"identified thousands of potential individuals\" in the class and that class members can be identified from Defendant's records. Direct notice and a reminder go out by email.",
+   "settlement_structure": "Non-reversionary common fund, paid pro rata to claimants who file a claim form. Notice, administration, fees, costs and the service award all come out of the fund. Uncashed checks and failed e-payments (after 180 days) are redistributed pro rata if practicable, otherwise as the court directs.",
+   "fund_amount": 375000,
+   "payment_terms": "Pro rata share of the net fund for each valid claim. Class Counsel estimate about $30-$60 per claimant (Leslie Decl. ¶ 15). Claimants can be paid by Venmo, Zelle, PayPal or check. Claims deadline is 2026-12-03, the same as the opt-out/objection deadline.",
+   "fees_requested": "Class Counsel (Bursor & Fisher) agreed to cap its request at 35% of the fund ($131,250), plus up to $10,000 in costs. There is a separate $10,000 service award for the plaintiff. The fee petition is due 2026-11-19 and has not been filed or ruled on.",
+   "service_award": "$10,000 to the class representative L.C. (requested; subject to court approval)",
+   "injunctive_relief": "None described. The prelim motion and order describe monetary relief only. The Settlement Agreement itself (Ex. 1 to ECF 56) is not on RECAP, so any practice-change term cannot be confirmed.",
+   "motion_prelim_filed": "2026-08-25",
+   "prelim_approval_date": "2026-09-14",
+   "final_hearing_date": "2027-01-13",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Preliminary approval came inside the window. The motion was granted orally at the telephonic hearing on 2026-09-11 (ECF 60), and the written Order Preliminarily Approving Class Action Settlement was entered 2026-09-14 (ECF 62).",
+   "plaintiff_counsel": "Bursor & Fisher, P.A. (Alec M. Leslie, Stephen A. Beck, Sarah N. Westcot)",
+   "settlement_website": "Not located. Kroll Settlement Administration LLC is the administrator, and a settlement website is required but no URL was found online as of 2026-10-09. Web searches return only the unrelated 2022 FCI data-breach settlement (Monegato, $450K).",
+   "sources": [
+    {
+     "label": "CourtListener docket 1:25-cv-02049 (N.D. Ill.)",
+     "url": "https://www.courtlistener.com/docket/69685836/lc-v-fertility-centers-of-illinois-pllc/"
+    },
+    {
+     "label": "ECF 1 - Class Action Complaint (2025-02-27): counts, class definitions, counsel",
+     "url": "https://www.courtlistener.com/docket/69685836/1/lc-v-fertility-centers-of-illinois-pllc/"
+    },
+    {
+     "label": "ECF 24 - Memorandum Opinion and Order denying MTD (2025-12-08)",
+     "url": "https://www.courtlistener.com/docket/69685836/24/lc-v-fertility-centers-of-illinois-pllc/"
+    },
+    {
+     "label": "ECF 56 - Plaintiff's Uncontested Motion for Preliminary Approval (2026-08-25): fund, per-claimant estimate, fees cap, service award, class def",
+     "url": "https://www.courtlistener.com/docket/69685836/56/lc-v-fertility-centers-of-illinois-pllc/"
+    },
+    {
+     "label": "ECF 60 - Minute entry: telephonic hearing, prelim approval motion granted (2026-09-11)",
+     "url": "https://www.courtlistener.com/docket/69685836/60/lc-v-fertility-centers-of-illinois-pllc/"
+    },
+    {
+     "label": "ECF 62 - Order Preliminarily Approving Class Action Settlement (2026-09-14): class cert, Kroll, deadlines, final hearing 2027-01-13",
+     "url": "https://www.courtlistener.com/docket/69685836/62/lc-v-fertility-centers-of-illinois-pllc/"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I downloaded the RECAP PDFs for ECF 1 (the 60-page complaint filed 2025-02-27), ECF 24, ECF 56 and ECF 62, and checked them myself. ECF 1 has four counts. Count I is \"Violations of Electronic Communications Privacy Act, 18 U.S.C. § 2511(1), et seq.\" (¶¶ 197-233). The complaint cites 2511 twelve times and 2520 twice. Count II is negligence, Count III is unjust enrichment, and Count IV is the Illinois Eavesdropping Statute (Illinois Subclass). A regex search of ECF 1 found no hits for 631, 632, 632.7, 638.5, 934, California, Florida, \"Invasion of Privacy\" or \"Security of Communications\", so none of CIPA §§ 631, 632, 632.7, 638.51 or FSCA is pled.\n\nOperative pleading: the RECAP docket shows no amended complaint, and no count was dropped. In ECF 24 (2025-12-08) the court denied the motion to dismiss outright and listed the same four counts, with ECPA § 2511(1) first. The preliminary approval motion (ECF 56, 2026-08-25) cites \"Compl.\" as Dkt. 1, which confirms that ECF 1 is still the operative pleading at settlement. ECF 56 describes the claims as ECPA, the IES and Illinois contract and tort law. ECF 62 (2026-09-14) is Magistrate Judge Fuentes's order preliminarily approving the settlement, decided on consent.\n\nCaveat: RECAP has no entries for ECF 28-55. ECF 56 still cites Dkt. 1 as the complaint, so an amended complaint in that gap is very unlikely.\n\nI agree with every one of the researcher's statute findings. One small point: ECF 24 cites the IES as 740 ILCS, while the complaint cites 720 ILCS. This does not affect the result. | fees_requested: Capped at 35% of the fund ($131,250), plus no more than $10,000 in costs and expenses. The fee petition is due 2026-11-19 and has not been ruled on.→Class Counsel (Bursor & Fisher) agreed to cap its request at 35% of the fund ($131,250), plus up to $10,000 in costs. There is a separate $10,000 service award for the plaintiff. The fee petition is due 2026-11-19 and has not been filed or ruled on. | Timing/money check (confirmed): I could not refute this. The primary-source docket on CourtListener (RECAP, N.D. Ill. 1:25-cv-02049) confirms in-window events.\n(1) D.E. 56: the uncontested motion for preliminary approval was filed 2026-08-25. The motion's signature block is dated August 25, 2026.\n(2) D.E. 60 (2026-09-11): Magistrate Judge Gabriel A. Fuentes held a telephonic hearing and granted the motion from the bench, on consent per D.E. 46.\n(3) D.E. 62 (2026-09-14): the written Order Preliminarily Approving Class Action Settlement, which certifies the settlement class.\nThe prelim approval date of 2026-09-14 is the date of the formal order. The oral grant on 2026-09-11 is also inside the window. Both the motion and the approval fall within 2026-04-09 to 2026-10-09.\nFinal approval hearing: 2027-01-13 at 10:30 a.m., Courtroom 2266 (Order para. 18), confirmed. The case is not terminated; the last filing is 2026-09-14. No final approval yet.\nFund: a $375,000 non-reversionary common fund, paid pro rata to claimants net of costs, fees, and the service award. Counsel estimate $30-60 per claimant. Confirmed in D.E. 56.\nFees: confirmed from D.E. 56 (Settlement Agreement para. 8.1). The $10,000 service award is in addition to the fee and cost caps.\nClass size: not stated. The motion says only that defendant identified \"thousands\" of potential class members, so I left it null.\nClass definition: all persons in the U.S. who accessed and used fcionline.com from 2020-09-01 through 2024-12-31.\nOther dates: settlement administrator is Kroll. Opt-out, objection, and claims deadline is 2026-12-03. Fee petition due 2026-11-19. Final approval papers due 2026-12-30.\nClaims (Compl. D.E. 1): Count I federal ECPA/Wiretap Act (Meta/Google pixel on a fertility-provider website, health data); Count II negligence; Count III unjust enrichment; Count IV Illinois Eavesdropping Statute (Illinois subclass). There are no CIPA 631/632 or Florida FSCA claims; the ECPA count is what qualifies it. The MTD was denied 2025-12-08 (D.E. 24).\nNo official settlement website was found by web search. The order directs Kroll to post one by the Notice Date.",
+   "open_questions": "1. The Settlement Agreement (Ex. 1 to ECF 56) and the Leslie Declaration (Ex. 2) are not on RECAP. That leaves three gaps: the exact class size or visitor count, whether there is any injunctive or practice-change term, and the exact wording of the release. 2. The settlement website URL was not found; Kroll may not have launched it yet. 3. Class size is described only as \"thousands,\" so it stays null. 4. Dates conflict for the settlement conference: the motion says 2025-05-27 and a mediator's proposal accepted 2025-06-18, while the prelim order says 2026-05-26 (D.E. 38). The motion's year is likely a typo. 5. Objection ¶ 14 of the prelim order asks objectors to show Facebook membership, which looks like template carryover. 6. Fee and service awards are requested amounts only; nothing is awarded until the 2027-01-13 final hearing. 7. This is an ECPA-only qualifier, with no CIPA, FSCA or 638.51 claim; its companion state claim is the Illinois Eavesdropping Statute.",
+   "id": "fertility-centers-of-illinois-pixel"
+  },
+  {
+   "short_name": "Williams v. TMC Health (Tucson Medical Center pixel)",
+   "caption": "George Williams, Sean Daughtery, and Margaret Milford, individually and on behalf of those similarly situated v. TMC Health",
+   "defendant": "TMC Health (Arizona nonprofit; operates Tucson Medical Center, TMCOne clinics, and regional hospitals)",
+   "court": "U.S. District Court, District of Arizona (Tucson Division)",
+   "docket": "4:23-cv-00434-SHR (CV-23-00434-TUC-SHR)",
+   "judge": "Hon. Scott H. Rash",
+   "industry": "Healthcare - hospital / health system",
+   "technology": "Tracking code on the public website tmcaz.com, including searches, the find-a-provider tool, class/event sign-ups, bill pay, and access to the patient portal: Meta Pixel, LinkedIn Insight Tag, Snap Pixel, and Google tracking tools. The earlier First Amended Complaint also named CallRail.",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "None in the operative complaint. The Second Amended Complaint (ECF 40) pleads one claim only: ECPA, 18 U.S.C. § 2511(1)(a) / § 2520, using the crime-tort exception (the alleged crime is a HIPAA violation, 42 U.S.C. § 1320d-6). The First Amended Complaint (ECF 13) had six counts: ECPA, Arizona Consumer Fraud Act, negligence, intrusion upon seclusion, breach of implied contract, and unjust enrichment. The court dismissed all six without prejudice on 2024-09-30 (ECF 39). On 2025-08-19 it denied the motion to dismiss the ECPA-only SAC (ECF 56), and on 2025-11-20 it denied defendant's motion for leave to file an interlocutory appeal (ECF 64). The named plaintiffs are all Arizona residents. No CIPA, FSCA, or § 638.51 claims are pled.",
+   "statute_evidence": "Second Amended Class Action Complaint, ECF 40 (filed 2024-10-29), the operative complaint. Its only cause of action is captioned as ECPA, 18 U.S.C. § 2511(1)(a) et seq., and invokes § 2520(a) statutory damages ($10,000 per person). I read the full claims section and prayer for relief: https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.40.0_1.pdf . The prior six-count complaint is described in Order ECF 39: https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.39.0.pdf",
+   "class_definition": "Proposed litigation class from the SAC: all patients of TMC Health whose Sensitive Information was disclosed to a third party through Defendant's website without authorization or consent during the Class Period (September 2021 to class certification). The settlement class definition is unknown because the 2026-09-25 motion is not on RECAP.",
+   "class_size": null,
+   "class_size_note": "Unknown. The SAC says only that TMC Health serves a population of about one million residents. That is a general allegation, not a class count. The settlement class size will be in the 2026-09-25 motion papers or the administrator's declaration, which are not publicly available on RECAP.",
+   "settlement_structure": "Unknown (class settlement confirmed by ECF 71; terms not public)",
+   "fund_amount": null,
+   "payment_terms": "Unknown. The settlement agreement and preliminary approval motion (ECF 75) are not available on RECAP.",
+   "fees_requested": "Unknown",
+   "service_award": "Unknown",
+   "injunctive_relief": "Unknown. The SAC prayer requests injunctive relief barring the tracking practices.",
+   "motion_prelim_filed": "2026-09-25",
+   "prelim_approval_date": "",
+   "final_hearing_date": "",
+   "final_approval_date": "",
+   "status": "Prelim motion pending",
+   "window_basis": "The parties filed a Notice of Class Settlement on 2026-06-08 (ECF 71), and on 2026-09-25 plaintiffs filed a motion docketed as \"Certify Class\" with three declarations (ECF 75-78). That motion is almost certainly the Rule 23(e) motion for preliminary approval and certification of a settlement class. It was filed inside the 2026-04-09 to 2026-10-09 window, and no ruling has been docketed yet.",
+   "plaintiff_counsel": "Zimmerman Reed LLP (Hart L. Robinovitch, Ryan J. Ellersick; Scottsdale, AZ). Defense counsel: Baker & Hostetler LLP (Paul Karlsgodt, Casie Collignon, Alexander Vitruk, Jonathan Maddalone, David Carney) and Farhang & Medcoff PLLC (Ali Farhang, Tyler Bugden).",
+   "settlement_website": "None found (no settlement website located as of 2026-10-09)",
+   "sources": [
+    {
+     "label": "CourtListener docket, Williams v. TMC Health, 4:23-cv-00434 (D. Ariz.)",
+     "url": "https://www.courtlistener.com/docket/67808198/williams-v-tmc-health/"
+    },
+    {
+     "label": "ECF 40 - Second Amended Class Action Complaint (operative; ECPA-only claim, trackers, class definition, counsel)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.40.0_1.pdf"
+    },
+    {
+     "label": "ECF 71 - Notice of Class Settlement (2026-06-08; Rule 23(e) prelim motion anticipated)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.71.0.pdf"
+    },
+    {
+     "label": "ECF 39 - Order granting MTD of First Amended Complaint (2024-09-30; lists prior six counts and trackers incl. CallRail)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.39.0.pdf"
+    },
+    {
+     "label": "ECF 1 - Original Class Action Complaint (2023-09-18)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1346396/gov.uscourts.azd.1346396.1.0.pdf"
+    },
+    {
+     "label": "CourtListener API docket entries (ECF 72-78 metadata: renewed settlement notices; 2026-09-25 'Certify Class' motion + 3 declarations)",
+     "url": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=67808198"
+    }
+   ],
+   "confidence": "medium",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's finding; I agree with it on every statute. I pulled the full docket from the CourtListener API myself (entries 1-78). The operative complaint is the Second Amended Class Action Complaint, ECF 40, filed 2024-10-29; an unredacted copy is sealed at ECF 45. I downloaded ECF 40 and searched its text. It has a single claim, captioned as a violation of the ECPA, 18 U.S.C. § 2511(1) et seq., and it invokes the private right of action in § 2520(a) and $10,000 statutory damages per person for violating § 2511(1)(a). It never mentions California, Florida, the Penal Code, CIPA, or Fla. Stat. 934. The defendant's second motion to dismiss was DENIED (ECF 56, 2025-08-19), and the defendant answered ECF 40 on 2025-09-19 (ECF 59), so the ECPA claim was live when the case settled. Settlement was noticed at ECF 71 (2026-06-08) and renewed at ECF 72 (2026-07-22). Entries 73-78 (2026-08-14 to 2026-09-25) have no description or document on CourtListener, so I could not confirm any preliminary-approval motion or order. Count history: the original complaint (ECF 1) pled six counts: ECPA, the Arizona Consumer Fraud Act, negligence, intrusion upon seclusion, breach of implied contract and unjust enrichment. The court dismissed the first amended complaint (ECF 13) in full without prejudice (Order ECF 39, 2024-09-30). The second amended complaint dropped every count except ECPA. None of the complaints in this Arizona case ever pled CIPA §§ 631, 632, 632.7 or 638.51, or the Florida FSCA. | Timing/money check (confirmed): I found nothing that refutes the 2026-09-25 date. The docket shows Doc 75 filed 2026-09-25 under the CM/ECF event \"Certify Class,\" along with three declarations (Docs 76-78) filed the same day. That fits a settlement-class certification and preliminary approval motion, but I could not confirm it from the document itself.\n\nWhy I read Doc 75 as the preliminary approval motion:\n- Doc 71 is a joint Notice of Class Settlement filed 2026-06-08 (defense counsel Farhang & Medcoff and BakerHostetler; plaintiffs' counsel Zimmerman Reed). It says the parties reached a class settlement and expected to file a Rule 23(e) preliminary approval motion by July 26, 2026.\n- Renewed notices of settlement followed on 2026-07-22 (Doc 72), 2026-08-14 (Doc 73) and 2026-09-04 (Doc 74).\n- A contested class certification motion is unlikely at this point. The 2026-01-15 scheduling order (Doc 69) set class-certification discovery to close 2026-11-13 and a class-cert hearing for 2026-12-09.\n\nRemaining gaps:\n- The PDFs of Docs 72-78 are not on RECAP, and the CourtListener entry for Doc 75 has no long description. The exact motion title, settlement fund, class size and fee request therefore could not be verified. Fund and class size stay null; fees stay Unknown.\n- CourtListener's last entry is 2026-09-25 and shows no order on the motion. So there is no preliminary approval date, final hearing date or final approval date yet.\n- Web searches (Perplexity, WebSearch, Sparrow, Sounder) found no settlement website and no published amount. Sparrow still lists the case as pending and not open for claims.\n\nClaims check: the Second Amended Complaint (Doc 40, filed 2024-10-29) has a single count under the federal ECPA/Wiretap Act, 18 U.S.C. § 2511(1). That fits the user's federal wiretap/ECPA criterion. There are no CIPA 631/632 or Florida FSCA counts. The earlier amended complaint was dismissed without prejudice (Doc 39, after oral argument on 2024-08-14). The case concerns Meta, Google, LinkedIn, Snapchat and CallRail trackers on tmcaz.com.\n\nCorrections: none to the researcher's dates. Status \"Prelim motion pending\" is accurate as of 2026-10-09.",
+   "open_questions": "1) ECF 75 (2026-09-25) has the PACER short description \"Certify Class\", and RECAP has no docket text or PDF for it. Its timing makes it almost certainly the motion for preliminary approval and settlement-class certification. It follows the 2026-06-08 Notice of Class Settlement, which anticipated a Rule 23(e) motion, and several renewed settlement notices (ECF 72-74). Class-certification discovery was not due to close until 2026-11-13, so a contested class-cert motion this early is unlikely. Still, this should be confirmed on PACER. 2) Fund amount, settlement structure, per-claimant payments, fee request, service awards, injunctive terms, settlement class definition and size, and the settlement administrator/website are all unknown until ECF 75-78 are pulled from PACER. 3) No order on preliminary approval had been docketed as of 2026-10-09. The CourtListener docket's last filing is 2026-09-25. 4) This is an ECPA-only case from Arizona with no CIPA, FSCA, or § 638.51 claims. It supports the federal-Wiretap-Act (hospital pixel) part of the table.",
+   "id": "williams-v-tmc-health-tucson-medical-center-pixel"
+  },
+  {
+   "short_name": "Polk v. American Well (LiveHealth Online)",
+   "caption": "Virginia Polk, individually and on behalf of all others similarly situated v. American Well Corp.",
+   "defendant": "American Well Corp. (Amwell), operator of the LiveHealth Online telehealth platform",
+   "court": "Superior Court of California, County of Sacramento (Dept. 8A, Tani G. Cantil-Sakauye Courthouse)",
+   "docket": "25CV026746",
+   "judge": "Hon. Jill H. Talley (Dept. 8A, which issued the 2026-07-31 ruling; the May 2026 supplemental declaration is captioned to her). The agreement and the class notice still name Hon. Richard K. Sueyoshi as the presiding judge.",
+   "industry": "Telehealth / healthcare",
+   "technology": "Heap Inc. analytics (the \"Heap API\") plus other tracking, analytics and advertising tech on the LiveHealth Online appointment booking tool. It ran on the website (livehealthonline.com) and the iOS and Android apps. Plaintiff alleges Amwell helped Heap intercept communications containing PII/PHI (an aiding/abetting interception theory).",
+   "cipa_631": "pled",
+   "cipa_632": "pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "CMIA (Cal. Civ. Code § 56.10); invasion of privacy under the California Constitution; common-law intrusion upon seclusion. There are six causes of action in total.",
+   "statute_evidence": "The 2026-07-31 Sacramento Superior Court ruling granting preliminary approval (Dept. 8A, now the order of the court) lists all six causes of action in the complaint: (1) Federal Wiretap Act, 18 U.S.C. § 2510 et seq.; (2) CIPA § 631; (3) CIPA § 632; (4) CMIA § 56.10; (5) Cal. Const. privacy; (6) intrusion upon seclusion. No § 632.7, § 638.51 or FSCA count appears. The Amended Settlement Agreement recitals and the long-form notice confirm the Wiretap Act, \"Cal. Penal Code §§ 631-632\", CMIA, Cal. Const. and common law. Sources: https://cw.simpluris.com/docs/public/downloads/APC3/PRELIMINARY_APPROVAL_ORDER (same document as https://www.classaction.org/media/livehealth-online-pao.pdf), and https://cw.simpluris.com/docs/public/downloads/APC3/SETTLEMENT__AGREEMENT. The complaint itself was not obtained.",
+   "class_definition": "All persons in the U.S. who used the appointment booking tool on the LiveHealth Online website, iOS app or Android app between October 2024 and August 2025. The usual exclusions apply (judges, the defendant and its affiliates, and people who opt out).",
+   "class_size": 252478,
+   "class_size_note": "Approximate. The order and the agreement both say \"approximately 252,478 persons\" based on Defendant's records.",
+   "settlement_structure": "Non-reversionary common fund with opt-outs and a claim form. Class members who file valid claims get equal pro rata shares after admin costs, fees and the service award are deducted. Uncashed checks are redistributed if each share would be at least $5; otherwise they go to a court-approved nonprofit cy pres recipient.",
+   "fund_amount": 2037751.46,
+   "payment_terms": "Each claimant gets an equal pro rata share of the net fund. The notice estimates about $51.14 to $102.29 per claimant. No proof is required beyond attesting to use of the booking tool. Payment is by check, PayPal or Venmo, within 45 days after the Effective Date. Checks void after 180 days. Claims, opt-out and objection deadline: 2026-10-30.",
+   "fees_requested": "Up to 33.33% of the fund ($679,250.48). Under Amended Agreement ¶8.1, Defendant will not oppose a request at or below that cap. No fee request had been filed or awarded as of 2026-10-09. The court ordered that the fee request go in the final approval motion, and the class notice says Class Counsel will file it by 2026-10-16.",
+   "service_award": "Up to $5,000 for plaintiff Virginia Polk (requested, not yet awarded).",
+   "injunctive_relief": "None. The settlement-relief section of the Amended Agreement covers only monetary payments. The court made the parties remove an \"enjoined\" bar on parallel suits from the agreement and proposed order; this was a litigation stay, not business-practice relief.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2026-07-31",
+   "final_hearing_date": "2027-01-15",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "The court granted preliminary approval on 2026-07-31 (Dept. 8A ruling, no appearance required), which falls inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Philip L. Fraietta (Bursor & Fisher, P.A.); Scott R. Drury (Drury Legal, LLC). Defense counsel: Jon Hawk and David P. Saunders (McDermott Will & Schulte LLP).",
+   "settlement_website": "https://livehealthonlinesettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (Simpluris) - home, dates, documents",
+     "url": "https://livehealthonlinesettlement.com/"
+    },
+    {
+     "label": "Preliminary approval ruling, 2026-07-31 (Sacramento Super. Ct. Dept. 8A) - claims list, class, fund, fees, counsel, FAH",
+     "url": "https://cw.simpluris.com/docs/public/downloads/APC3/PRELIMINARY_APPROVAL_ORDER"
+    },
+    {
+     "label": "Same preliminary approval ruling hosted by ClassAction.org",
+     "url": "https://www.classaction.org/media/livehealth-online-pao.pdf"
+    },
+    {
+     "label": "Supplemental Fraietta Decl. (2026-05-22) attaching Amended Class Action Settlement Agreement - recitals, relief, fees, service award",
+     "url": "https://cw.simpluris.com/docs/public/downloads/APC3/SETTLEMENT__AGREEMENT"
+    },
+    {
+     "label": "Long-form notice - per-claimant estimate $51.14-$102.29, deadlines, FAH Dept. 8A",
+     "url": "https://cw.simpluris.com/docs/public/downloads/APC3/NOTICE"
+    },
+    {
+     "label": "ClassAction.org news article - filing date 2025-11-05, overview",
+     "url": "https://www.classaction.org/news/2m+-livehealth-online-settlement-wraps-up-lawsuit-over-alleged-disclosure-of-patient-info"
+    },
+    {
+     "label": "OpenClassActions summary (secondary; it wrongly gives May 2026 as the prelim approval date)",
+     "url": "https://openclassactions.com/settlements/privacy/livehealth-online-privacy-class-action-settlement.php"
+    },
+    {
+     "label": "Daily Journal profile - Judge Jill H. Talley (Dept. 8A)",
+     "url": "https://www.dailyjournal.com/people/167994-jill-h-talley"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's findings; my results match on every statute. I downloaded and text-searched three documents from the claims administrator: the preliminary approval order, the Settlement Agreement and the Notice. The order is the Sacramento Superior Court tentative ruling for 25CV026746, Polk v. American Well Corp., heard 7/31/2026 in Dept. 8A. It is marked \"no appearance required\" and becomes the order of the court under Local Rule 1.06 if no one requests oral argument. It says the complaint was filed 11/5/2025, cites \"(See Compl.)\" and lists exactly six causes of action: (1) Federal Wiretap Act, 18 U.S.C. 2510 et seq.; (2) CIPA Pen. Code 631; (3) CIPA Pen. Code 632; (4) CMIA Civ. Code 56.10; (5) California Constitution privacy; (6) intrusion upon seclusion. The theory is that Amwell let Heap Inc. intercept communications on its LiveHealth Online website and apps. The Settlement Agreement recitals, the long-form Notice and the Released Claims definition all match this: 18 U.S.C. 2510 et seq., \"Cal. Penal Code §§ 631-632\", CMIA, the California Constitution and common law. None of the three documents mentions 632.7, 638.51, pen registers or trap-and-trace devices, Florida, or Fla. Stat. 934. The only \"Amended\" document is an Amended Settlement Agreement filed 5/22/2026 to address the court's 4/23/2026 concerns; I found no reference to an amended complaint, so no count appears to have been dropped. The timeline (mediation 10/29/2025, complaint 11/5/2025, agreement signed 12/16/2025) suggests the complaint was filed to carry out the settlement. One limit: I did not get the complaint itself. It is a California state-court filing, not on CourtListener/RECAP, and a web search found no public copy. The court's own order is still a primary document listing the pled counts, so the verdict is confirmed. Settlement details: about 252,478 class members, $2,037,751.46 fund, final approval hearing 1/15/2027. | fees_requested: Up to 33.33% of the fund ($679,250.48), and Defendant has agreed not to oppose that amount. No award yet; the request must be included in the final approval motion. Settlement administration (Simpluris) is capped at $62,138 absent good cause.→Up to 33.33% of the fund ($679,250.48). Under Amended Agreement ¶8.1, Defendant will not oppose a request at or below that cap. No fee request had been filed or awarded as of 2026-10-09. The court ordered that the fee request go in the final approval motion, and the class notice says Class Counsel will file it by 2026-10-16. | Timing/money check (confirmed): I could not refute this one. The primary sources confirm a qualifying event inside the window. The administrator's \"PRELIMINARY_APPROVAL_ORDER\" file (also posted as classaction.org's livehealth-online-pao.pdf) is the Sacramento Superior Court Dept. 8A tentative ruling (Judge Jill H. Talley) for the 07/31/2026 hearing. It GRANTS the unopposed motion for preliminary approval, certifies the class for settlement, and sets the final approval hearing for 2027-01-15 at 9:00 a.m. in Dept. 8A, Tani G. Cantil-Sakauye Courthouse. The court said it would sign the Amended Proposed Order. Under Local Rule 1.06 the tentative became the order unless someone requested oral argument. The notice was then sent with an Oct. 30, 2026 claim, opt-out and objection deadline, and the settlement site and classaction.org both give July 31, 2026 as the approval date, so the order took effect. Fund ($2,037,751.46, non-reversionary), class size (about 252,478), the 33.33% fee cap ($679,250.48) and the $62,138 administration cap (absent good cause) all match the order. The no-opposition clause is confirmed at Amended Agreement ¶8.1 (supplemental Fraietta declaration, classaction.org/media/livehealth-online-settlement.pdf). Claims confirmed for the comparison table: Federal Wiretap Act (18 U.S.C. §2510), CIPA §631, CIPA §632, CMIA §56.10, Cal. Const. privacy, and intrusion upon seclusion. The theory is that the Heap analytics tool intercepted data from the appointment-booking tool. Procedural history: the complaint was filed 2025-11-05, mediation (Jill R. Sperber) was held 2025-10-29, and the agreement was signed 2025-12-16. The first prelim hearing was continued on 2026-04-24 (4/23/26 tentative) because of a blanket injunction and an overbroad §1542 release (Amaro). The amended agreement was filed with the supplemental declaration on 2026-05-22. I could not find the original filing date of the prelim motion. Sacramento's public case portal did not return the docket. It was filed before the original April 2026 hearing, probably in Q1 2026 and likely before the window, so I left that field blank. Class Counsel are Philip L. Fraietta (Bursor & Fisher) and Scott R. Drury (Drury Legal). The administrator is Simpluris. No final approval yet.",
+   "open_questions": "(1) The filing date of the motion for preliminary approval was not found. The first hearing was 2026-04-24, when the court continued it and ordered an amended agreement fixing the bar on parallel suits and the overbroad release / § 1542 waiver. The original agreement was signed 2025-12-16, so the motion was probably filed in early 2026. That is before the window, which does not matter because the 2026-07-31 approval controls. (2) The judge is inconsistent: the agreement and notice name Hon. Richard K. Sueyoshi, but the ruling came from Dept. 8A (Judge Jill H. Talley), apparently after reassignment. (3) The complaint itself was not reviewed. The statute list comes from the court's ruling, which enumerates all six causes of action. (4) Unusual timeline: mediation (2025-10-29) came before the complaint was filed (2025-11-05), so this was a pre-filing settlement. (5) The fee award and service award are still pending until the 2027-01-15 final approval hearing.",
+   "id": "polk-v-american-well-livehealth-online"
+  },
+  {
+   "short_name": "Carrero v. AMN Healthcare (interpretation-session recording)",
+   "caption": "Bertha Carrero and Angelina Lara De Carrero, individually and on behalf of all others similarly situated v. AMN Healthcare, Inc.; AMN Healthcare Language Services, Inc.; and Does 1-10",
+   "defendant": "AMN Healthcare, Inc.; AMN Healthcare Language Services, Inc.",
+   "court": "Superior Court of California, County of San Diego (Hall of Justice), Dept. C-63",
+   "docket": "37-2023-00052448-CU-NP-CTL",
+   "judge": "Hon. Katherine Bacal",
+   "industry": "Healthcare: medical language-interpretation services (healthcare staffing company and its interpretation subsidiary)",
+   "technology": "AMN recorded and monitored (supervisors listening live) phone and video medical interpretation sessions between patients and providers without notice or consent. This is a first-party call recording and monitoring case, not a third-party pixel or tracker case. AMN says it stopped recording in January 2024 and stopped all monitoring in November 2024.",
+   "cipa_631": "unknown",
+   "cipa_632": "pled",
+   "cipa_632_7": "unknown",
+   "cipa_638_51": "unknown",
+   "ecpa_wiretap": "unknown",
+   "fsca": "not_pled",
+   "other_claims": "Cal. Penal Code § 637.2 (the CIPA private right of action and statutory damages) is pled with § 632. No non-CIPA claims are identified in the notice, the agreement or the PAO. The release covers \"CIPA claims alleged in the operative complaint,\" and secondary sources list only CIPA as the law at issue. The full count list was not seen.",
+   "statute_evidence": "Settlement Agreement § 1.2 (recital) says the First Amended Complaint, filed 2024-04-08, alleges \"among other things\" that AMN violated CIPA §§ 632 and 637.2 by recording and/or monitoring telephone or video calls. Source: https://www.classaction.org/media/amn-healthcare-settlement.pdf (identical copy at https://www.classaction.org/media/amn-healthcare-settlement_1.pdf). The long-form notice (https://www.classaction.org/media/amn-long-notice.pdf) describes the claims only as CIPA monitoring/recording. The FAC itself was not available: the settlement site is behind a Cloudflare bot check, the San Diego court records search returned 403, and classaction.org's \"Read Complaint\" link only embeds the settlement. Because \"among other things\" is not a full claims list, §§ 631, 632.7, 638.51, ECPA and FSCA are marked unknown, not not_pled. ECPA and FSCA are very unlikely given a California-only class in state court with CIPA-only release language.",
+   "class_definition": "All persons physically present in California whose communications were monitored or listened to and/or recorded by AMN (or its employees, contractors or agents) without prior consent. Class period is 2022-12-04 through the preliminary approval order date, 2026-08-07. The PAO's wording: persons physically present in California whose communications \"may have been monitored and/or recorded by AMN during the Class Period.\"",
+   "class_size": null,
+   "class_size_note": "Unknown. None of the documents reviewed (agreement, PAO, long-form notice) or the press coverage gives a class-size or session-count estimate. Notice is publication-only (geotargeted internet ads, PR Newswire press release, website), which suggests no class list exists.",
+   "settlement_structure": "Non-reversionary common fund ($4.5M) paid out on claims: pro rata to claimants, with a per-member cap. No portion reverts to AMN (Agreement § 4.10). Anything left over goes to the Electronic Frontier Foundation as residual recipient under CCP § 384. Also includes confirmation that AMN stopped recording and monitoring.",
+   "fund_amount": 4500000,
+   "payment_terms": "Each claimant gets an equal pro rata share of the net fund: $4.5M minus fees and costs, administration costs, taxes and service awards. Cap is $10,000 per class member across all distributions. Payment is by PayPal/Venmo-type digital methods or by mailed check; checks must be cashed within 180 days. Claim, opt-out and objection deadline is 2026-10-27; objectors must also file a motion to intervene. Claim forms are available in 12 languages.",
+   "fees_requested": "Up to 35% of the $4.5M gross fund ($1,575,000) plus actual litigation costs capped at $75,000 (Settlement Agreement section 11.1). Service awards are up to $10,000 per named plaintiff. The fee and final approval motions are due 2026-11-18 under PAO para. 12. No fee award has been made yet.",
+   "service_award": "Up to $10,000 each for the 2 class representatives (Bertha Carrero, Angelina Lara De Carrero), $20,000 total. Not yet awarded.",
+   "injunctive_relief": "This is a written confirmation, not an ongoing injunction. AMN certifies it told relevant employees to stop recording interpretation sessions in January 2024 and to stop all monitoring in November 2024 (Agreement §§ 3.2, 4.1). Employee non-compliance is not a breach. AMN may still record or monitor in compliance with law going forward.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2026-08-07",
+   "final_hearing_date": "2026-12-18",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "The preliminary approval order was filed and entered 2026-08-07, after a 2026-07-31 hearing, which falls inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Beligan Law Group, LLP (Jerusalem F. Beligan, Leah M. Beligan) and Shub Johns & Holbrook LLP (Jonathan Shub, Benjamin F. Johns, Samantha E. Holbrook). Defense counsel: Sheppard Mullin (Wynter L. Deagle).",
+   "settlement_website": "https://www.amncipasettlement.com/ (Kroll Settlement Administration LLC, administrator)",
+   "sources": [
+    {
+     "label": "Settlement Agreement with exhibits (claims recital § 1.2, fund, cap, fees, service awards, notice plan, cy pres)",
+     "url": "https://www.classaction.org/media/amn-healthcare-settlement.pdf"
+    },
+    {
+     "label": "Settlement Agreement (duplicate copy)",
+     "url": "https://www.classaction.org/media/amn-healthcare-settlement_1.pdf"
+    },
+    {
+     "label": "Order granting preliminary approval (filed 2026-08-07; hearing 2026-07-31; FAH 2026-12-18; fee motion due 2026-11-18)",
+     "url": "https://www.classaction.org/media/amn-pao.pdf"
+    },
+    {
+     "label": "Long-form notice (deadlines 2026-10-27; FAH Dept. C-63)",
+     "url": "https://www.classaction.org/media/amn-long-notice.pdf"
+    },
+    {
+     "label": "ClassAction.org settlement news",
+     "url": "https://www.classaction.org/news/4.5m-amn-healthcare-settlement-ends-lawsuit-over-alleged-monitoring-recording-of-language-interpretation-sessions"
+    },
+    {
+     "label": "Top Class Actions settlement listing",
+     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-5m-amn-healthcare-privacy-violations-class-action-settlement/"
+    },
+    {
+     "label": "Shub Johns & Holbrook announcement of preliminary approval",
+     "url": "https://shublawyers.com/news/breaking-news/amn-class-action-court-grants-preliminary-approval-of-4-5-million-settlement/"
+    },
+    {
+     "label": "ClaimDepot listing (fee figure of $1,575,000)",
+     "url": "https://www.claimdepot.com/settlements/amncip-settlement"
+    },
+    {
+     "label": "Official settlement website (behind Cloudflare bot check; not reviewed directly)",
+     "url": "https://www.amncipasettlement.com/"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "fsca: unknown→not_pled | Claims check (confirmed): I could not refute the § 632 finding. I downloaded the 65-page signed Class Action Settlement Agreement with exhibits from classaction.org and extracted its text. This is a primary document, filed with the court as an exhibit to the preliminary-approval motion. Recital 1.2 says the First Amended Complaint (filed 2024-04-08) alleges, \"among other things,\" violations of CIPA §§ 632 and 637.2 for recording and/or monitoring telephone or video calls with California participants. That is enough to mark § 632 as pled. The original complaint was filed 2023-12-04. No document I found shows that a count was dropped by the amendment.\n\nI searched the full text of the agreement for every Penal Code 63x section. Only 632 and 637.2 appear. There are no mentions of 631, 632.7, 638.51, 2511, Wiretap, ECPA, 934 or Florida. The release (§ 2.36) covers \"the CIPA claims alleged in the operative complaint or previously filed complaint,\" plus claims that could have been asserted based on the same allegations. The signed preliminary-approval order (amn-pao.pdf, signed Aug. 7, 2026, hearing July 31, 2026, Dept. C-63, Judge Bacal) and the long-form notice describe the claims only as CIPA monitoring/recording and name no sections.\n\nThe complaint and FAC themselves are not publicly reachable. Using a headless browser, I got past the settlement site's bot check to its Documents page (amncipasettlement.com/documents). It lists only the settlement agreement, the preliminary-approval order, the long-form notice and the claim form. There is no complaint, and direct PDF downloads returned 403. I did not try the San Diego register of actions, because it is CAPTCHA-gated.\n\nBecause recital 1.2 says \"among other things,\" §§ 631, 632.7 and 638.51 stay unknown. § 631 is plausible on a third-party monitoring theory but unconfirmed. ECPA is left unknown but is very likely not pled. A CourtListener RECAP search found no federal docket for Carrero v. AMN, so the case was never removed, which a federal Wiretap Act count would normally prompt. The case has been in state court since Dec. 2023, and the release refers only to CIPA claims. I marked FSCA not_pled because the class is limited to people physically present in California, the release is scoped to CIPA, and no Florida reference appears anywhere.\n\nI agree with the researcher on everything except FSCA: the researcher had it unknown, I have it not_pled. Minor point: the agreement's caption lists Dept. C-69, but the preliminary-approval order and the notice say Dept. C-63. Key terms: $4.5M fund, class period Dec. 4, 2022 to Aug. 7, 2026, final approval hearing Dec. 18, 2026. | fees_requested: Up to 35% of the gross fund ($1,575,000), plus actual litigation costs of no more than $75,000. The fee/final approval motion is due 2026-11-18 under the PAO. No award yet.→Up to 35% of the $4.5M gross fund ($1,575,000) plus actual litigation costs capped at $75,000 (Settlement Agreement section 11.1). Service awards are up to $10,000 per named plaintiff. The fee and final approval motions are due 2026-11-18 under PAO para. 12. No fee award has been made yet. | Timing/money check (confirmed): CONFIRMED in-window. The primary source is the signed Preliminary Approval Order (classaction.org/media/amn-pao.pdf). Its clerk stamp reads \"FILED AUG 07 2026\" (San Diego Superior Court, Deputy V. Secaur), and Judge Katherine A. Bacal signed and dated it 8/7/26 by hand. The page also carries a stamp showing the proposed order was received 7/30/2026. The motion was heard July 31, 2026 at 1:30 p.m. in Dept. C-63. Shub Johns & Holbrook's 8/28/26 post calls the July 31 hearing the grant; the written order is dated and filed 2026-08-07, so the researcher's prelim_approval_date of 2026-08-07 is correct. Either date falls inside the 2026-04-09 to 2026-10-09 window.\n\nFinal hearing: PAO para. 11 sets December 18, 2026 at 1:30 p.m. The long notice and the Kroll PR Newswire release of 8/28/26 match. The draft agreement exhibits show October 16, 2026; that was the pre-continuance date and has been superseded.\n\nFund: $4.5M gross non-reversionary fund, confirmed by the long notice and the agreement. Payments are pro rata with a cap of $10,000 per class member.\n\nDeadlines: claims, opt-outs and objections are due 2026-10-27. Class period runs 12/4/2022 to 8/7/2026. Settlement Administrator is Kroll.\n\nClaims: the agreement recitals say the FAC (filed 4/8/2024) alleges violations of CIPA sections 632 and 637.2, covering recording and monitoring of interpreted calls and video sessions. No section 631 claim is recited. This fits the user's 632 filter.\n\nMotion for prelim filing date: NOT verified, so left blank. The draft proposed PAO attached to the agreement noticed an original hearing of June 26, 2026. The draft final order recites that the agreement and exhibits were \"filed with the Court on June 12, 2026\". The agreement signature blocks are dated \"June __, 2026\". The PAO also references a supplemental brief and an amended claim form. Taken together, the motion was most likely filed around early to mid June 2026 (in-window) and the hearing was continued to 7/31 after supplemental briefing. I could not confirm this from a file-stamped motion or the register of actions. The San Diego ROA rate-limited the request, and amncipasettlement.com is behind a Cloudflare challenge, which I did not bypass.\n\nClass size: not stated in the PAO, notice, agreement or press release, so left null.\n\nMediation history: Judge Diane Welsh (Ret.) on 8/13/2025, then 1/6/2026; term sheet signed 1/14/2026. Final approval has not happened yet.",
+   "open_questions": "1) The FAC (filed 2024-04-08) was not seen. The agreement confirms § 632 and § 637.2 but says \"among other things,\" so whether § 631 (supervisor live monitoring could support it), § 632.7 (cellular calls), § 638.51 or any non-CIPA count was pled is unconfirmed. Copies can be requested from class counsel per the notice, or pulled from the San Diego court records, which returned 403 to automated access. 2) The date the preliminary approval motion was filed is unknown. The agreement is dated June 2026; the PAO references a supplemental brief and an amended claim form, so the court asked for more briefing before ruling. 3) Department mismatch: the agreement caption says Dept. C-69, but the PAO and notice say Dept. C-63. 4) The agreement originally targeted a 2026-10-16 fairness hearing; the court set 2026-12-18. 5) There is no class-size or session-count estimate, and no claims rate yet.",
+   "id": "carrero-v-amn-healthcare-interpretation-session-recording"
+  },
+  {
+   "short_name": "Gliadkovsky v. Walgreen Co. (CA Call Recording)",
+   "caption": "Ekaterina Gliadkovsky, on Behalf of Herself and All Others Similarly Situated v. Walgreen Co., and Does 1 through 100",
+   "defendant": "Walgreen Co.",
+   "court": "Cal. Super. Ct., San Diego County (North County, Dept. N-28). Original 2024 action was removed to S.D. Cal., No. 3:24-cv-00418-AGS-MSB (Judge Andrew G. Schopler), where the motion to dismiss was denied 2025-02-26. That case was dismissed without prejudice by stipulation on 2025-10-21 and refiled in state court for settlement.",
+   "docket": "26CU009819N (original state case no. 37-2024-00004816-CU-BT-CTL; federal no. 3:24-cv-00418)",
+   "judge": "Hon. Daniel Segura",
+   "industry": "Retail pharmacy / drugstore chain",
+   "technology": "Recording of inbound calls to Walgreens' toll-free customer-service line (877-250-5823, an IVR system) without a recording warning or disclosure at the start of the call. The case is about call recording only; no web tracking is involved.",
+   "cipa_631": "not_pled",
+   "cipa_632": "pled",
+   "cipa_632_7": "pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "not_pled",
+   "fsca": "not_pled",
+   "other_claims": "None. The operative complaint has only two counts: (1) Cal. Penal Code § 632 and (2) Cal. Penal Code § 632.7, seeking § 637.2(a)(1) statutory damages of $5,000 per violation and § 637.2(b) injunctive relief. The original 2024 complaint, before removal, pled § 632.7 only; § 632 was added in the 2026 refiled complaint.",
+   "statute_evidence": "Operative class action complaint, Case No. 26CU009819N, e-filed 2026-02-13 (posted on the settlement website as COMPLAINT). Its First Cause of Action is under Penal Code § 632 and its Second is under § 632.7. Confirmed by Settlement Agreement Recital C and the preliminary-approval fee memo, which both describe the claims as §§ 632 and 632.7. Walgreens' Notice of Removal in the original federal case (ECF 1, S.D. Cal. 3:24-cv-00418) shows the original 2024 complaint pled § 632.7 only.",
+   "class_definition": "All persons who, while in California from 2023-01-31 through 2024-01-13 inclusive, called Walgreens' customer-service number 877-250-5823 from a phone with a California area code and whose call was recorded.",
+   "class_size": 23830,
+   "class_size_note": "Approximate. Class counsel's fee memo puts identifiable potential class members at about 23,830 (and uses 23,826 in its $75.55-per-member math). For context from the administrator's declaration: the class list had 33,865 phone numbers, 25,102 after removing duplicates, and postcard notices went to 24,056.",
+   "settlement_structure": "Non-reversionary common fund with a claims-made distribution: equal pro rata shares go to class members who file valid claims, one claim per person. Uncashed or leftover funds go to cy pres recipient EPIC under CCP § 384. The settlement also includes a non-monetary practice commitment.",
+   "fund_amount": 1800000,
+   "payment_terms": "After fees, costs, the service award and administration costs come out of the $1.8M, the net fund is split equally among valid claimants and paid by check, one claim per person regardless of how many calls they made. Admin costs are $54,949. If the requested amounts are approved, the net fund is about $1.08M. The administrator reported 1,947 claims as of 2026-08-03, before the 2026-08-18 claim deadline; at that count the payment would be roughly $555 per claimant. This is my own estimate, not a figure from the settlement documents, and the final claim count is unknown. Class counsel cites a gross figure of about $75.55 per potential class member.",
+   "fees_requested": "$630,000 (35% of the $1.8M fund) plus $24,875 in costs (cap $25,000) and a $10,000 incentive award. Lodestar is $651,375 (868.5 hours at $750/hr), so the fee is a negative multiplier. The fee motion was dated 2026-08-03. Fees have not been awarded yet; the court decides them at the 2026-10-16 hearing.",
+   "service_award": "$10,000 requested for plaintiff Ekaterina Gliadkovsky (not yet awarded)",
+   "injunctive_relief": "Walgreens agrees to keep in place its automated message, or a similar automated message or other disclosure, that calls may be recorded. The agreement says this creates no ongoing monitoring obligation and is not an admission of liability.",
+   "motion_prelim_filed": "2026-04-07",
+   "prelim_approval_date": "2026-05-05",
+   "final_hearing_date": "2026-10-16",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "The court granted preliminary approval after a hearing on 2026-05-01 and signed the order on 2026-05-05, both inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Law Offices of Zev B. Zysman, APC (Zev B. Zysman), Encino, CA, appointed Class Counsel. Defense counsel is Sidley Austin LLP (Amy P. Lally). Mediator: Hon. Lisa H. Cole (Ret.), Signature Resolution; the mediation was held 2025-09-16 and both sides accepted the mediator's proposal 2025-09-17.",
+   "settlement_website": "https://www.californiacallrecordingsettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (home, FAQ, dates, documents)",
+     "url": "https://www.californiacallrecordingsettlement.com/"
+    },
+    {
+     "label": "Operative Class Action Complaint (26CU009819N, e-filed 2026-02-13), §§ 632 and 632.7 counts",
+     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/COMPLAINT"
+    },
+    {
+     "label": "Settlement Agreement and Release (dated 2026-02-26)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/SETTLEMENT_AGREEMENT"
+    },
+    {
+     "label": "Order Granting Preliminary Approval (hearing 2026-05-01, Judge Segura, Dept. N-28)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/TENTATIVE_PRELIMINARY_APPROVAL_ORDER"
+    },
+    {
+     "label": "Long-form Notice of Class Action Settlement",
+     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/NOTICE_OF_CLASS_ACTION_SETTLEMENT"
+    },
+    {
+     "label": "Fee memo (35% / $630,000; costs $24,875; lodestar $651,375; about 23,830 class members; prelim order dated 2026-05-05)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/MEMORANDUM_OF_POINTS_AND_AUTHORITIES_IN_SUPPORT_OF_PLAINTIFFS_MOTION_FOR_AWARD_OF_ATTORNEYS_FEES_REIMBURSEMENT_OF_EXPENSES_CLAIMS_ADMINISTRATION_COSTS_AND_INCENTIVE_AWARD"
+    },
+    {
+     "label": "Simpluris (Kamenir) declaration on notice, claims and admin costs ($54,949; 1,947 claims as of 2026-08-03)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/DECLARATION_OF_JACOB_J_KAMENIR_OF_SIMPLURIS_RE_CLASS_NOTICE_PROCEDURES_AND_CLAIMS_ADMINISTRATION_COSTS"
+    },
+    {
+     "label": "Walgreens Notice of Removal, S.D. Cal. 3:24-cv-00418 ECF 1 (original complaint pled § 632.7 only)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.casd.779487/gov.uscourts.casd.779487.1.0.pdf"
+    },
+    {
+     "label": "CourtListener docket, S.D. Cal. 3:24-cv-00418",
+     "url": "https://www.courtlistener.com/docket/68303906/gliadkovsky-v-walgreen-co/"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute this. I downloaded the operative complaint from the settlement administrator myself. It is the San Diego Superior Court complaint, Case No. 26CU009819N, 16 pages. Its e-file stamp is 2/13/2026 3:51 PM, and it was filed by the Law Offices of Zev B. Zysman. It has exactly two causes of action. The First is under Penal Code § 632, covering intentional recording of confidential communications, and pleads confidentiality under § 632(c). The Second is under § 632.7, covering recording of cellular or cordless calls. A text search of the whole complaint found no § 631, 18 U.S.C. § 2511, Wiretap Act/ECPA, Fla. Stat. § 934, or § 638.51. Recital C of the Settlement Agreement says the same: it describes the Action as alleging violations of §§ 632 and 632.7. One minor difference: Recital C gives the filing date as 'on or about February 17, 2026', but the file stamp says 2/13/2026. Recital A says the original 2024 action pled only § 632.7, so § 632 was added in the 2026 state-court refiling, not dropped. The release covers CIPA §§ 630 et seq. generally, 'including' §§ 632 and/or 632.7, but no § 631 count is pled. The settlement site's Documents page, which I rendered with Playwright, lists no amended complaint, so the 2/13/2026 complaint is the operative one. The researcher's findings match mine on every statute. § 632 is pled, which meets the 'at least one of' test, so the verdict is confirmed. For the user's 638.51 goal: this is a call-recording case under §§ 632 and 632.7 with no § 631 or § 638.51 claim. It supports § 632 but is not a web-tracking case. | fees_requested: $630,000 requested, which is 35% of the fund, plus $24,875 in costs (cap $25,000). Counsel reports a lodestar of $651,375, so this is a negative multiplier. Not yet awarded; to be decided at the 2026-10-16 final approval hearing.→$630,000 (35% of the $1.8M fund) plus $24,875 in costs (cap $25,000) and a $10,000 incentive award. Lodestar is $651,375 (868.5 hours at $750/hr), so the fee is a negative multiplier. The fee motion was dated 2026-08-03. Fees have not been awarded yet; the court decides them at the 2026-10-16 hearing. | Timing/money check (confirmed): CONFIRMED in window. Primary source: the signed preliminary approval order on the Simpluris settlement site. Its URL slug says \"TENTATIVE\", but the document is the executed order. The hearing was held 2026-05-01 in Dept. N-28 before Hon. Daniel Segura. The judge signed and dated it \"5-5-26\", and the e-file stamp reads 5/5/2026 3:15:23 PM. The handwritten final approval hearing is 10/16/2026 at 1:30 p.m. The fee motion and Simpluris declaration also say the order was \"entered on May 5, 2026\". The settlement site's dates page still shows the 10/16/2026 1:30 p.m. hearing, with no continuance posted as of 2026-10-09. No final approval yet, because the hearing is after today. Prelim motion filing date (2026-04-07) is NOT confirmed from a docket. The only support is fee memo fn.1, which says the Settlement Agreement was \"filed with the Court on or about April 7, 2026\". That date is consistent with the 05-01 hearing. It falls 2 days before the window, but the qualifying event (prelim approval on 05-05) is inside the window. I could not check the San Diego Superior Court register of actions (CAPTCHA). CLASS SIZE: the memo says counsel estimates \"approximately 23,830\" class members but divides by 23,826 to get $75.55 per head. The researcher's 23,830 is kept. Simpluris figures: the class list had 33,865 phone numbers, 25,102 after scrubbing, and 25,052 located records. Of those, 24,056 had valid mail addresses and got the postcard notice on 2026-06-18. Email notice went out 2026-06-17. Claim, opt-out and objection deadlines were all 2026-08-18. Zero opt-outs and zero objections as of the 2026-08-03 declaration. CLAIMS: CIPA Penal Code 632 and 632.7 (call recording to Walgreens 877-250-5823, 1/31/2023 to 1/13/2024). There is NO 631, ECPA or FSCA claim; this is relevant to the 631/632 filter. Minor corrections to the case history: the state complaint 26CU009819N was e-filed 2026-02-13 per the court stamp. The agreement says \"on or about February 17, 2026\". The Settlement Agreement is dated 2026-02-26. The mediator's proposal (Hon. Lisa H. Cole, Ret.) was accepted 2025-09-17. The fund is non-reversionary. The federal docket (3:24-cv-00418, CourtListener 68303906) has entry 28 on 2025-10-21, consistent with the stipulated dismissal. Removal was 2024-03-01. The motion to dismiss was denied 2025-02-26. Class counsel: Law Offices of Zev B. Zysman, APC.",
+   "open_questions": "1) The motion for preliminary approval filing date is approximate. The fee memo says the Settlement Agreement was filed with the court \"on or about April 7, 2026\"; the motion itself was not seen. 2) The file stamp on the prelim order reads like 9/5/2026 in the scan, but the fee memo says the order is dated May 5, 2026, and the 105-day claim deadline (2026-08-18) and 90-day fee motion deadline (2026-08-03) both count back to 2026-05-05. 3) Fees, costs and the service award are requested, not yet awarded; final approval is set for 2026-10-16, after the window ends. 4) The final claim count and actual per-claimant payment are unknown; only the interim figure of 1,947 claims as of 2026-08-03 is available. 5) The complaint's e-file stamp says 2026-02-13, while the Settlement Agreement says the complaint was filed \"on or about February 17, 2026.\"",
+   "id": "gliadkovsky-v-walgreen-co-ca-call-recording"
+  },
+  {
+   "short_name": "Emanate Health (Ortega)",
+   "caption": "Ortega, et al. v. Emanate Health Medical Center (and Doe Defendants 1-10), Lead Case No. 22STCV28142 (consolidated with 23STCV29848)",
+   "defendant": "Emanate Health Medical Center",
+   "court": "Superior Court of California, County of Los Angeles (Spring Street Courthouse, Dept. 12, Complex)",
+   "docket": "22STCV28142 (lead); consolidated 23STCV29848",
+   "judge": "Hon. Carolyn B. Kuhl",
+   "industry": "Healthcare / hospital system",
+   "technology": "Meta (Facebook) Pixel on emanatehealth.org (patient portal login, online forms, appointment scheduling); settlement release and injunctive terms also cover Google Analytics",
+   "cipa_631": "pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "not_pled",
+   "fsca": "not_pled",
+   "other_claims": "CMIA, Cal. Civ. Code § 56 et seq.; invasion of privacy under Cal. Const. art. I, § 1; common-law intrusion upon seclusion",
+   "statute_evidence": "Consolidated Class Action Complaint (filed 2024-07-15), from the settlement website's Court Documents page: https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Consolidated_Class_Action_Complaint.pdf. It has four causes of action. Count 1 is \"CIPA, Cal. Penal Code § 630 et seq.\" and quotes and relies only on § 631(a), alleging that Emanate aided, agreed with and conspired with Facebook to intercept communications, with § 637.2 damages. Counts 2-4 are CMIA, the Cal. Const. privacy claim and intrusion upon seclusion. A full-text search of the complaint found no § 632, § 632.7, § 638.51/pen-register, 18 U.S.C. § 2511/ECPA or Fla. Stat. § 934 claims. The prelim-approval memo (filed 2026-03-04) states the same four causes of action.",
+   "class_definition": "All identifiable individuals who logged into the Emanate patient portal, submitted an online form and/or scheduled an appointment on emanatehealth.org from 2019-08-30 to 2024-04-30. Excluded: Emanate and its affiliates, officers and directors, plus the judges and court clerks.",
+   "class_size": 38850,
+   "class_size_note": "Approximate. The settlement agreement and prelim memo say \"approximately 38,850\" Settlement Class members, an estimate based on Emanate's confidential declaration. The memo puts the gross recovery at about $20 per class member.",
+   "settlement_structure": "Non-reversionary common fund with claims-made pro rata distribution. Notice and administration costs, fees, costs and service awards all come out of the fund. Any residue goes cy pres to the Electronic Frontier Foundation.",
+   "fund_amount": 777000,
+   "payment_terms": "Every class member who files a valid claim gets a pro rata share of the Net Settlement Fund, and no proof is required. The notice estimates the net fund at $433,709 and the payment at about $11 per claimant if 100% of the class claims, or about $55 at a 20% claim rate. Payment options are electronic (PayPal/Venmo/Zelle per secondary source) or check. Deadlines: claims 2026-09-29; opt-out and objection 2026-08-31.",
+   "fees_requested": "Up to $259,000 in attorneys' fees (stated as 33% of the $777,000 fund), plus up to $20,000 in costs and expenses (Settlement Agreement ¶¶57-58). Service awards are $2,500 each for 4 plaintiffs ($10,000). Administration (EisnerAmper) is estimated at $54,291, leaving an estimated net fund of $433,709. Fees have not been awarded yet. The fee motion is due 16 court days before the 2026-11-19 hearing.",
+   "service_award": "$2,500 each to four class representatives (Shively, Sutton, Perez, Diamond), $10,000 total; requested, not yet awarded",
+   "injunctive_relief": "Emanate will create and maintain a Web Governance Committee to review the analytics and ad technologies on its website. For 2 years after final approval, Emanate will not use the Meta Pixel or Google Analytics on its website unless (1) the committee makes the 45 C.F.R. § 164.514(b)(1) de-identification determination and (2) Emanate posts an affirmative disclosure naming the tool on the page.",
+   "motion_prelim_filed": "2026-03-04",
+   "prelim_approval_date": "2026-06-01",
+   "final_hearing_date": "2026-11-19",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Judge Kuhl signed and filed the order granting preliminary approval on 2026-06-01, inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Milberg Coleman Bryson Phillips Grossman, PLLC (John J. Nelson) and Zimmerman Reed LLP (Ryan J. Ellersick; Jeff S. Westerman), both proposed Settlement Class Counsel. Jennings PLLC (Christopher D. Jennings, Tyler B. Ewigleben) also appears on the complaint.",
+   "settlement_website": "https://www.emanateprivacysettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (dates, class definition)",
+     "url": "https://www.emanateprivacysettlement.com/"
+    },
+    {
+     "label": "Settlement website - Court Documents index",
+     "url": "https://www.emanateprivacysettlement.com/court-documents/"
+    },
+    {
+     "label": "Consolidated Class Action Complaint (2024-07-15) - claims list",
+     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Consolidated_Class_Action_Complaint.pdf"
+    },
+    {
+     "label": "Order Granting Preliminary Approval (filed/signed 2026-06-01, Judge Kuhl; FAH 2026-11-19)",
+     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Order-Granting-Motion-for-Preliminary-Approval.pdf"
+    },
+    {
+     "label": "Settlement Agreement (fund, injunctive relief, fees cap, service awards, cy pres)",
+     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Emanate-Health-Settlement-Agreement.pdf"
+    },
+    {
+     "label": "Plaintiffs' Memo ISO Preliminary Approval (e-filed 2026-03-04; class size, procedural history)",
+     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Plaintiffs_Memorandum_in_Support_of_Unopposed_Moti.pdf"
+    },
+    {
+     "label": "Notice of Motion for Preliminary Approval",
+     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Plaintiff_s_Notice_of_Motion_and_Unopposed_Motion.pdf"
+    },
+    {
+     "label": "Long Form Notice (estimated payments, deadlines)",
+     "url": "https://www.emanateprivacysettlement.com/wp-content/uploads/2026/06/Exhibit-C_Emanate_LongForm-Notice_Website.pdf"
+    },
+    {
+     "label": "ClassAction.org news summary (secondary)",
+     "url": "https://www.classaction.org/news/777k-emanate-health-medical-center-settlement-ends-class-action-over-alleged-use-of-third-party-tracking-pixels"
+    },
+    {
+     "label": "ClaimDepot summary (secondary)",
+     "url": "https://www.claimdepot.com/settlements/emanate-privacy-settlement"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher; I agree on every statute. I downloaded the Consolidated Class Action Complaint myself (41 pages, Case No. 22STCV28142, Milberg / Zimmerman Reed) and pulled the text out on my own. The caption lists four claims: (1) Cal. Penal Code § 630 et seq.; (2) CMIA, Civ. Code § 56; (3) Cal. Const. art. I § 1; (4) intrusion upon seclusion. The First Cause of Action (paras. 106-118) quotes only § 631(a). It alleges Emanate \"aided, agreed with, and conspired with Facebook\" to intercept website communications through the Meta Pixel, and it seeks § 637.2 damages, so § 631 is pled. A full-text search of the complaint found no § 632, § 632.7, § 638.51, pen register / trap and trace, 18 U.S.C. § 2511 / ECPA, or Fla. Stat. § 934 references. The word \"wiretaps\" appears in the constitutional privacy count as a description of the conduct, not as a Wiretap Act claim. The Settlement Agreement recitals name this July 15, 2024 Consolidated Complaint as the operative complaint. The preliminary-approval memo says the same: same four causes of action, Emanate's demurrer to all claims overruled on Dec. 4, 2024, and no amended complaint, so no count was dropped. The memo's only \"632\" hit is a citation to Manual for Complex Litigation § 21.632, not a CIPA reference. I did not review the two original pre-consolidation complaints (22STCV28142 and 23STCV29848), which the consolidated complaint supersedes. For the user's goal, this is a § 631-only Meta Pixel hospital settlement with no § 638.51 claim, so it backs the § 631 theory without § 638.51 in the mix. | fees_requested: Up to $259,000 in fees (33% of the fund), plus up to $20,000 in costs. Not yet awarded; the fee motion is due before the 2026-11-19 final approval hearing. Administration costs are estimated at $54,291.→Up to $259,000 in attorneys' fees (stated as 33% of the $777,000 fund), plus up to $20,000 in costs and expenses (Settlement Agreement ¶¶57-58). Service awards are $2,500 each for 4 plaintiffs ($10,000). Administration (EisnerAmper) is estimated at $54,291, leaving an estimated net fund of $433,709. Fees have not been awarded yet. The fee motion is due 16 court days before the 2026-11-19 hearing. | Timing/money check (confirmed): CONFIRMED. The in-window event is preliminary approval on 2026-06-01, which falls inside the 2026-04-09 to 2026-10-09 window. I could not refute it.\n\nPrimary source: the signed Preliminary Approval Order posted on the official settlement site. It is e-signed by Judge Carolyn B. Kuhl and dated 06/01/2026. The hearing date \"June 1, 2026\" is filled in at the top of page 1, and the Final Approval Hearing is set for \"Nov. 19, 2026 at 10:30 am\" in Dept. 12, Spring Street. The order conditionally certifies a class covering 2019-08-30 to 2024-04-30, appoints EisnerAmper as administrator, and sets the fee/final approval motion deadline at 16 court days before the final hearing.\n\nPrelim motion: the Notice of Motion and the supporting Memorandum are both dated and signed 2026-03-04. That date falls before the window, but it is not the qualifying event. The motion originally noticed a 2026-05-12 hearing in Dept. 12; the order was entered on 2026-06-01. The posted copies carry no court file stamp, so 2026-03-04 is the signature date and is treated as the filing date. I did not check the LASC online docket (it is behind a CAPTCHA).\n\nMoney: these are all confirmed in the Settlement Agreement (dated 2026-01-29), the prelim memorandum and the Long-Form Notice:\n- $777,000 non-reversionary fund\n- about 38,850 class members (Emanate's estimate in the SA and the memo)\n- fees capped at $259,000 (stated as 33%), plus up to $20,000 in costs\n- $2,500 service award each for 4 plaintiffs\n- $54,291 administration estimate\n- estimated net fund of $433,709\n\nNote that 33% of $777,000 is $256,410, so the $259,000 cap is actually about one-third. The settlement site lists the exclusion/objection deadline as 2026-08-31 and the claims deadline as 2026-09-29.\n\nFinal approval: not yet granted. The hearing is 2026-11-19, after today's date of 2026-10-09.\n\nClaims: the Consolidated Complaint pleads CIPA (Cal. Penal Code 630 et seq.) and specifically quotes and relies on section 631(a). It also pleads CMIA (Civ. Code 56 et seq.), the Cal. Const. art. I, sec. 1 privacy right, and intrusion upon seclusion. It contains no section 632, no federal ECPA/Wiretap Act and no FSCA count. The memo confirms the two related LASC cases were related (2024-03-27) and consolidated by stipulation. I did not find the companion number 23STCV29848 in the documents I read, but the consolidation itself is confirmed.\n\nNo corrections to the researcher's facts were needed.",
+   "open_questions": "1. Final approval has not been ruled on; the hearing is set for 2026-11-19, and the fee and service-award amounts are requests only. 2. The final claims rate and actual per-claimant payment are unknown. 3. ClassAction.org gives a 2025-07-15 filing date, but the complaint is dated 2024-07-15 and the original action was filed 2022-08-30, so the secondary source appears wrong. 4. The motion's hearing was noticed for 2026-05-12, but the order was signed 2026-06-01, probably because the hearing was continued; a Supplemental Ellersick Decl. was filed 2026-05-26. 5. Original named plaintiffs Ortega and Vergara are not proposed class representatives; only four representatives are named. 6. The CIPA count is captioned \"§ 630 et seq.\" but its theory is § 631(a) aiding and abetting only; there is no § 632 or § 638.51 theory.",
+   "id": "emanate-health-ortega"
+  },
+  {
    "short_name": "Valladolid v. Memorial Health Services (MemorialCare MyChart)",
    "caption": "Michelle Valladolid, individually and on behalf of all others similarly situated v. Memorial Health Services",
    "defendant": "Memorial Health Services (MemorialCare), a nonprofit healthcare system in Southern California",
@@ -1668,403 +1826,253 @@ window.PRIVACY_COMPS = {
    "id": "valladolid-v-memorial-health-services-memorialcare-mychart"
   },
   {
-   "short_name": "Gliadkovsky v. Walgreen Co. (CA Call Recording)",
-   "caption": "Ekaterina Gliadkovsky, on Behalf of Herself and All Others Similarly Situated v. Walgreen Co., and Does 1 through 100",
-   "defendant": "Walgreen Co.",
-   "court": "Cal. Super. Ct., San Diego County (North County, Dept. N-28). Original 2024 action was removed to S.D. Cal., No. 3:24-cv-00418-AGS-MSB (Judge Andrew G. Schopler), where the motion to dismiss was denied 2025-02-26. That case was dismissed without prejudice by stipulation on 2025-10-21 and refiled in state court for settlement.",
-   "docket": "26CU009819N (original state case no. 37-2024-00004816-CU-BT-CTL; federal no. 3:24-cv-00418)",
-   "judge": "Hon. Daniel Segura",
-   "industry": "Retail pharmacy / drugstore chain",
-   "technology": "Recording of inbound calls to Walgreens' toll-free customer-service line (877-250-5823, an IVR system) without a recording warning or disclosure at the start of the call. The case is about call recording only; no web tracking is involved.",
-   "cipa_631": "not_pled",
-   "cipa_632": "pled",
-   "cipa_632_7": "pled",
+   "short_name": "Call-On-Doc (telehealth pixel, CIPA 631)",
+   "caption": "Charlie Lucas, individually and on behalf of all others similarly situated v. Call-On-Doc, Inc. (Defendant is properly Call-On-Doc.Com, Inc., erroneously sued as Call-On-Doc, Inc.)",
+   "defendant": "Call-On-Doc.Com, Inc. (sued as Call-On-Doc, Inc.)",
+   "court": "Circuit Court of Will County, Illinois (12th Judicial Circuit)",
+   "docket": "2026LA000403",
+   "judge": "Hon. Brian E. Barrett",
+   "industry": "Telehealth / online medical appointment booking",
+   "technology": "TikTok Pixel, Google Analytics, and other tracking, analytics and advertising technologies on Call-On-Doc's website. The release also covers its app. Alleged disclosure of PII and PHI to third parties.",
+   "cipa_631": "pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
    "cipa_638_51": "not_pled",
    "ecpa_wiretap": "not_pled",
    "fsca": "not_pled",
-   "other_claims": "None. The operative complaint has only two counts: (1) Cal. Penal Code § 632 and (2) Cal. Penal Code § 632.7, seeking § 637.2(a)(1) statutory damages of $5,000 per violation and § 637.2(b) injunctive relief. The original 2024 complaint, before removal, pled § 632.7 only; § 632 was added in the 2026 refiled complaint.",
-   "statute_evidence": "Operative class action complaint, Case No. 26CU009819N, e-filed 2026-02-13 (posted on the settlement website as COMPLAINT). Its First Cause of Action is under Penal Code § 632 and its Second is under § 632.7. Confirmed by Settlement Agreement Recital C and the preliminary-approval fee memo, which both describe the claims as §§ 632 and 632.7. Walgreens' Notice of Removal in the original federal case (ECF 1, S.D. Cal. 3:24-cv-00418) shows the original 2024 complaint pled § 632.7 only.",
-   "class_definition": "All persons who, while in California from 2023-01-31 through 2024-01-13 inclusive, called Walgreens' customer-service number 877-250-5823 from a phone with a California area code and whose call was recorded.",
-   "class_size": 23830,
-   "class_size_note": "Approximate. Class counsel's fee memo puts identifiable potential class members at about 23,830 (and uses 23,826 in its $75.55-per-member math). For context from the administrator's declaration: the class list had 33,865 phone numbers, 25,102 after removing duplicates, and postcard notices went to 24,056.",
-   "settlement_structure": "Non-reversionary common fund with a claims-made distribution: equal pro rata shares go to class members who file valid claims, one claim per person. Uncashed or leftover funds go to cy pres recipient EPIC under CCP § 384. The settlement also includes a non-monetary practice commitment.",
+   "other_claims": "California Confidentiality of Medical Information Act (CMIA), Cal. Civ. Code § 56.10; invasion of privacy under the California Constitution; unspecified \"common law\" claims (named in the preliminary approval order).",
+   "statute_evidence": "The complaint (filed 2026-04-23) is not posted on the settlement site, and no public copy turned up. Statutes come from: (1) Preliminary Approval Order ¶10, signed 2026-05-19. Its common questions are whether defendant let third parties intercept communications in violation of CIPA, Cal. Pen. Code § 631(a), the CMIA (Cal. Civ. Code § 56.10) and the common law. (2) Fee motion memorandum, 2026-07-27. It says plaintiff alleges violation of CIPA § 631(a), and its table of authorities lists only § 631(a) and §§ 630-638. (3) Email notice (Ex. D to the Marra Decl., filed with the final approval motion). It summarizes the claims as CIPA, CMIA and invasion of privacy under the California Constitution. No document mentions § 632, § 632.7, § 638.51, pen registers, the federal Wiretap Act/ECPA or the Florida FSCA. The class is California-only and the case is in state court. ECPA and FSCA are marked not_pled from these claim summaries, not from the complaint itself. § 632 and § 638.51 stay unknown because the summaries cite \"CIPA\" generally. Docs: https://cw.simpluris.com/docs/public/downloads/CLC2/PRELIMINARY_APPROVAL_ORDER ; https://cw.simpluris.com/docs/public/downloads/CLC2/MOTION_FOR_ATTORNEY_FEES_AND_COSTS ; https://cw.simpluris.com/docs/public/downloads/CLC2/PLAINTIFFS_UNOPPOSED_MOTION_FOR_FINAL_APPROVAL",
+   "class_definition": "Everyone who (a) created a Call-On-Doc account while in California from 2023-11-07 to Final Judgment, and/or (b) was a registered user and started booking a medical appointment in California, completed or not, from 2021-11-07 to Final Judgment.",
+   "class_size": 121478,
+   "class_size_note": "Exact count of unique class members from the administrator. The Simpluris (Marra) declaration of 2026-08-17 says defendant's class list had 124,987 names; after removing 3,509 duplicates, 121,478 unique members remained. The fee motion rounds this to \"approximately 126,000.\" As of 2026-08-17: 1,740 claim forms received, 1,398 valid (1.15% of the class), 0 opt-outs, 0 objections. The claims deadline was 2026-08-29, so the final claims count is not posted.",
+   "settlement_structure": "Claims-made, not a funded common fund. Agreement ¶2.1 sets a \"Total Gross Settlement\" of up to $1,800,000 \"to be distributed on a claims-made basis.\" It covers approved claims, notice and administration, the fee award and the service award. ¶2.1 also says $1.8M is the most defendant would pay if 100% of class members filed claims, so unclaimed amounts are never paid out and in effect stay with defendant. Payments come in installments: 50% within 60 days of Final Judgment, 25% within 90 days of the first payment, and the last 25% within 90 days of the second. Checks not cashed within 180 days are void.",
    "fund_amount": 1800000,
-   "payment_terms": "After fees, costs, the service award and administration costs come out of the $1.8M, the net fund is split equally among valid claimants and paid by check, one claim per person regardless of how many calls they made. Admin costs are $54,949. If the requested amounts are approved, the net fund is about $1.08M. The administrator reported 1,947 claims as of 2026-08-03, before the 2026-08-18 claim deadline; at that count the payment would be roughly $555 per claimant. This is my own estimate, not a figure from the settlement documents, and the final claim count is unknown. Class counsel cites a gross figure of about $75.55 per potential class member.",
-   "fees_requested": "$630,000 (35% of the $1.8M fund) plus $24,875 in costs (cap $25,000) and a $10,000 incentive award. Lodestar is $651,375 (868.5 hours at $750/hr), so the fee is a negative multiplier. The fee motion was dated 2026-08-03. Fees have not been awarded yet; the court decides them at the 2026-10-16 hearing.",
-   "service_award": "$10,000 requested for plaintiff Ekaterina Gliadkovsky (not yet awarded)",
-   "injunctive_relief": "Walgreens agrees to keep in place its automated message, or a similar automated message or other disclosure, that calls may be recorded. The agreement says this creates no ongoing monitoring obligation and is not an admission of liability.",
-   "motion_prelim_filed": "2026-04-07",
+   "payment_terms": "Each valid claimant gets an equal share of the Net Settlement Fund, capped at $20.00. No proof is required, and there is one claim per member. Payment is by check (the default), Venmo, PayPal or Zelle. The Net Settlement Fund is the $1.8M less administration, the fee award and the service award. Administration costs are expected to be $44,904. Payment is due 120 days after Final Judgment or within 30 days of funding, whichever is later.",
+   "fees_requested": "Requested $600,000 (one-third of the $1.8M cap, costs and expenses included). Fee petition dated and filed 2026-07-27. The Final Judgment (para. 16) awarded $600,000, paid from the Settlement Fund. Service award: the notices said $5,000 would be sought, the motion asked for $2,500, and the court awarded $2,500 (para. 17).",
+   "service_award": "$2,500 requested and awarded to plaintiff Charlie Lucas (Final Judgment, 2026-08-31). The long-form notice had said up to $5,000.",
+   "injunctive_relief": "None. Section 2 (Settlement Relief) of the agreement provides only cash payments; there are no business-practice changes.",
+   "motion_prelim_filed": "2026-05-11",
+   "prelim_approval_date": "2026-05-19",
+   "final_hearing_date": "2026-08-31",
+   "final_approval_date": "2026-08-31",
+   "status": "Final approval",
+   "window_basis": "Preliminary approval was granted 2026-05-19 and the Final Judgment and Order of Dismissal with Prejudice was entered 2026-08-31. Both fall inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Philip L. Fraietta and Alec M. Leslie (Bursor & Fisher, P.A.); Scott R. Drury (Drury Legal, LLC). Defense counsel: Usama Kahf, Darcey M. Groden and Xuan Zhou (Fisher & Phillips LLP). Mediator: Hon. Wayne R. Andersen (Ret.), JAMS.",
+   "settlement_website": "https://www.callondoccipasettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (Simpluris) - home and Important Documents page",
+     "url": "https://callondoccipasettlement.com/documents"
+    },
+    {
+     "label": "Preliminary Approval Order (signed and file-stamped 2026-05-19; class def; CIPA 631(a)/CMIA common questions; Judge Barrett; FAH 2026-08-31)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/PRELIMINARY_APPROVAL_ORDER"
+    },
+    {
+     "label": "Final Judgment and Order of Dismissal with Prejudice (entered 2026-08-31; $600,000 fees; $2,500 service award)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/FINAL_APPROVAL_ORDER"
+    },
+    {
+     "label": "Class Action Settlement Agreement (claims-made $1.8M Total Gross Settlement; $20 cap; TikTok Pixel/Google Analytics release; no injunctive relief)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/SETTLEMENT_AGREEMENT"
+    },
+    {
+     "label": "Plaintiff's Unopposed Motion for Final Approval with Fraietta and Marra (Simpluris) Decls. (filing dates; class list 121,478; claims stats; email notice claims summary)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/PLAINTIFFS_UNOPPOSED_MOTION_FOR_FINAL_APPROVAL"
+    },
+    {
+     "label": "Plaintiff's Unopposed Motion for Attorneys' Fees, Costs, Expenses and Service Award (filed 2026-07-27; CIPA 631(a); ~126,000 class)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/MOTION_FOR_ATTORNEY_FEES_AND_COSTS"
+    },
+    {
+     "label": "Long Form Notice (class counsel; fee and incentive caps; deadlines)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/LONG_FORM_NOTICE"
+    },
+    {
+     "label": "ClassAction.org news article ($1.8M; up to $20)",
+     "url": "https://www.classaction.org/news/1.8m-call-on-doc-settlement-ends-class-action-over-alleged-use-of-third-party-tracking-pixels"
+    },
+    {
+     "label": "ClassAction.org copy of preliminary approval order",
+     "url": "https://www.classaction.org/media/call-on-doc-prelim-approval.pdf"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "cipa_632: unknown→not_pled | cipa_632_7: unknown→not_pled | cipa_638_51: unknown→not_pled | Claims check (confirmed): I could not refute the § 631 finding. I did not reach the Will County complaint (2026LA000403); there is no public copy on the settlement site or CourtListener. But I found the federal case that came before it: Lucas (originally \"Jane Doe\") v. Call-On-Doc, Inc., S.D. Cal. No. 3:24-cv-02095-GPC-KSC. It has the same plaintiff, the same class counsel (Bursor & Fisher and Drury Legal) and the same defense counsel (Fisher & Phillips). The parties mediated before Judge Andersen at JAMS on 11/18/2025 (Joint Status Report, ECF 26). Plaintiff voluntarily dismissed without prejudice on 4/23/2026 (ECF 28), the same day the Will County action was filed, which is the usual move of refiling in state court to settle there.\n\nPleadings in that federal case: the original complaint (ECF 1, 11/7/2024) and the First Amended Complaint (ECF 20, 6/27/2025) each have exactly three counts. Count I is CIPA, Cal. Penal Code § 631. Count II is the CMIA, Cal. Civ. Code § 56.10. Count III is invasion of privacy under the California Constitution / intrusion upon seclusion. The theory is the TikTok Pixel and Google Analytics on callondoc.com. Neither pleading has a count under § 632, § 632.7, § 638.51 or pen registers, 18 U.S.C. § 2511 / ECPA, or Fla. Stat. § 934.10. The word \"wiretap\" appears only in factual headings and allegations, never as a federal claim.\n\nThe MTD order (ECF 19, 6/13/2025) granted the motion in part with leave to amend. It dismissed the § 631(a) first-clause theory (conceded) and the second-clause theory under the party exception, and found personal jurisdiction lacking because she did not allege she was in California. It upheld the contents and intrusion arguments in her favor. The FAC replead the same three counts. Nothing dropped any count beyond these.\n\nWill County documents I checked myself:\n- Preliminary Approval Order ¶10 lists CIPA § 631(a), CMIA § 56.10 and the common law, with uniform statutory damages under \"CIPA and CMIA.\"\n- The fee memo says the plaintiff alleges CIPA § 631(a). Its table of authorities lists only § 631(a) and §§ 630-638.\n- The email notice summarizes the claims as CIPA, CMIA and the California Constitution.\n- The Settlement Agreement is a scanned PDF, which I read as page images. The \"Action\" is defined as Lucas v. Call-on-Doc, No. 2026LA000403. Released Claims are tied to the TikTok Pixel and Google Analytics and name only the California Invasion of Privacy Act. No section numbers appear.\n\nThe words \"Wiretap,\" \"Florida,\" \"pen register\" and \"934\" show up in the fee and final-approval filings only inside counsel's firm resumes, for example \"Deivaprakash ... pen register\" and the case number \"15-cv-03934\". They are not claims in this case.\n\nWhere I differ from the researcher: I mark 632, 632.7 and 638.51 as not_pled instead of unknown. Two things support that. The predecessor FAC pleads only § 631, and every Will County filing names only § 631(a). This is still an inference, because I did not see the Will County complaint itself. ECPA and FSCA are not_pled, which agrees with the researcher. They are also absent from the FAC, and the class is California-only. | fees_requested: Requested $600,000, one-third of the $1.8M, including costs (fee motion filed 2026-07-27). The court awarded $600,000 in the Final Judgment of 2026-08-31, paid from the Settlement Fund. The long-form notice had said up to $600,000 in fees plus up to $25,000 in costs; the motion folded costs into the $600,000.→Requested $600,000 (one-third of the $1.8M cap, costs and expenses included). Fee petition dated and filed 2026-07-27. The Final Judgment (para. 16) awarded $600,000, paid from the Settlement Fund. Service award: the notices said $5,000 would be sought, the motion asked for $2,500, and the court awarded $2,500 (para. 17). | Timing/money check (confirmed): I could not refute the researcher's facts. Every in-window event is confirmed by file-stamped primary documents from the administrator site (Simpluris CLC2). The callondoccipasettlement.com/documents page loads its list with JavaScript, so I downloaded the PDFs directly.\n\n(1) Final approval. The signed Final Judgment and Order of Dismissal with Prejudice (Hon. Brian E. Barrett) carries the clerk stamp \"Filed Date: 8/31/2026 11:05 AM\", envelope 39765507. It recites that the final approval hearing was held on 2026-08-31. Both dates fall inside the window.\n\n(2) Preliminary approval. The prelim order's clerk stamp, once its font encoding is decoded, reads \"Filed Date: 5/19/2026 4:03 PM\", envelope 38210410. The Final Judgment and the final approval motion both say the court granted preliminary approval on May 19, 2026. One inconsistency: the fee memo and the Fraietta declaration attached to it say \"May 26, 2026\". That is counsel's error, because the stamped order and the court's own judgment say May 19.\n\n(3) Prelim motion filed 2026-05-11. This comes from the Fraietta declaration attached to the final approval motion (filed 8/17/2026 5:58 PM). That is counsel's statement, not a docket entry. Other dates: complaint filed 2026-04-23 in Will County; settlement agreement executed 2026-05-07; pre-suit JAMS mediation (Judge Andersen) on 2025-11-18.\n\n(4) Fund caveat, important for the comparison table. The $1.8M is not a common fund. Settlement Agreement section 2.1 calls it a claims-made \"Total Gross Settlement\". It includes the fees, administration costs and incentive award, and it is the most the defendant would pay if 100% of class members filed claims. Each valid claimant gets a flat $20. As of 2026-08-17 there were 1,740 claims, 1,398 of them valid (about 1.15% of the class), with the deadline on 2026-08-29. Administration costs were estimated at $44,904. The actual payout is therefore likely about $0.68M (about $28K or more in claims, $600K in fees, $2.5K service award and $45K administration), not $1.8M. The table should flag this.\n\n(5) Class size. The administrator's declaration (Marra) gives 121,478 unique class members after removing 3,509 duplicates, with 118,124 valid emails. The fee memo's \"approximately 126,000\" was an estimate made before the duplicates were removed. There were zero objections and zero opt-outs (deadline 2026-08-10).\n\n(6) Claims. The prelim order recites CIPA section 631(a), CMIA section 56.10 and common law, based on pixel/tracker interception on a telehealth booking site. The class is California users: account creators from 2023-11-07 and appointment bookers from 2021-11-07. This is relevant for CIPA 631 support. Class counsel were Bursor & Fisher (Fraietta) and Drury Legal.\n\n(7) Smaller points. The long-form notice's deadline dates misprint the year as 2025 (August 10 and August 29); other documents show 2026. The final judgment caption has a typo, \"20206LA000403\"; the correct number is 2026LA000403.",
+   "open_questions": "1. The operative complaint (filed 2026-04-23 in Will County) is not public online. Whether it also pleads § 632, § 632.7 or § 638.51 cannot be confirmed; every settlement filing cites only § 631(a). Pulling the complaint from the Will County Circuit Clerk would settle this. 2. Date conflict: the fee memorandum says preliminary approval came 2026-05-26, but the signed order is file-stamped 2026-05-19 and the Fraietta declaration and Final Judgment both say May 19. 2026-05-19 is used here. 3. The final number of valid claims and the actual payout per claimant after the 2026-08-29 claims deadline are not posted. As of 2026-08-17 there were 1,398 valid claims, so claimants should receive the full $20 cap and the defendant's actual outlay will be far below $1.8M. 4. Recital B says the parties signed a term sheet on 2026-01-14, before suit was filed, so the case was filed already settled; that may matter when using it as a comparator. 5. Judgment case-caption typo (\"20206LA000403\") is a clerical error.",
+   "id": "call-on-doc-telehealth-pixel-cipa-631"
+  },
+  {
+   "short_name": "McCulley v. Banner Health",
+   "caption": "Cheryl McCulley, Rebecca Blount, Cindy Freriks, Jill Schreidl, Demetria Ann Santiago-Laboy, Oscar Irazaba, Faith Robeson, and Tami Carroll, individually and on behalf of all others similarly situated v. Banner Health",
+   "defendant": "Banner Health",
+   "court": "District Court, Weld County, Colorado (Div. 3). Refiled there 2026-02-11 for settlement. The predecessor case was D. Ariz. No. 2:23-cv-00985-SPL, consolidated with 2:23-cv-01054 and 2:23-cv-01228, and dismissed without prejudice by stipulation on 2026-02-12.",
+   "docket": "2026CV30182 (Weld County). Predecessor: D. Ariz. 2:23-cv-00985-SPL.",
+   "judge": "Weld County Dist. Ct., Div. 3. The judge's name is not printed on the signed preliminary approval order and the signature is illegible. Predecessor D. Ariz. judge: Hon. Steven P. Logan.",
+   "industry": "Healthcare (large integrated nonprofit health system; patient portal)",
+   "technology": "Meta (Facebook) Pixel and Google tracking (Google Analytics) on Banner's website, webpages and the MyBanner / Banner Health Patient Account portal (including Cerner). Alleged to send PII/PHI to Meta and Google. In the settlement Banner represents there was no Meta Pixel inside the patient portal itself.",
+   "cipa_631": "pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Breach of confidence; invasion of privacy (intrusion upon seclusion); breach of implied contract; unjust enrichment; negligence; Arizona Consumer Fraud Act (A.R.S. § 44-1521); California CMIA (Civ. Code § 56 et seq.); California UCL, unlawful and unfair prongs (the unlawful-prong predicates also cite 18 U.S.C. § 2511(3)(a) and CFAA 18 U.S.C. § 1030); Colorado Consumer Protection Act (C.R.S. § 6-1-101). In D. Ariz., the May 10, 2024 order (Doc. 35) dismissed negligence, implied contract and the CCPA damages theory with leave to amend. The ECPA and CIPA counts survived the motion to dismiss, and reconsideration was denied as to the ECPA count (Doc. 43).",
+   "statute_evidence": "Primary source: D. Ariz. Consolidated Class Action Complaint, Doc. 23, filed 2023-11-22, 12 counts (RECAP: https://storage.courtlistener.com/recap/gov.uscourts.azd.1336139/gov.uscourts.azd.1336139.23.0.pdf). Count II is ECPA, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure). Count VIII is CIPA, Cal. Penal Code § 630 et seq. Its only section quoted and relied on is § 631(a), on an aiding/conspiring-with-Facebook theory; damages are under § 637.2. A full-text search of the complaint found no \"632\", no \"638.51\" (only the phrase \"§§ 630 to 638\") and no \"934.\" (no FSCA); the classes are AZ, CA and CO. I could NOT see the Weld County complaint (2026CV30182). It is not posted on the settlement site's documents list, and that page is behind a Cloudflare bot check. ClassAction.org (news article, 2026-07-14), HIPAA Journal (2026-07-29) and CaptainCompliance describe the Colorado complaint as pleading the same set: ECPA, CIPA, CMIA, UCL, ACFA, CO CPA, plus the common-law counts. The settlement agreement recitals say the Colorado action continues the D. Ariz. litigation.",
+   "class_definition": "All individuals who had a Banner Health Patient Account (formerly MyBanner patient portal) and logged into it using one of Banner's web properties or applications from 2020-06-01 through 2023-11-22. Standard exclusions apply (defendant and affiliates, judicial officers, opt-outs).",
+   "class_size": 1028000,
+   "class_size_note": "Approximate. The settlement agreement, long-form notice and settlement site FAQ say the class is \"estimated to consist of approximately 1,028,000 natural persons.\"",
+   "settlement_structure": "Claims-made, uncapped, with no common fund. Banner separately pays $20 for each approved claim, plus notice and administration costs, the fee award and service awards. Every class member also gets a 1-year CyEx Privacy Shield Pro code automatically. Nothing reverts to Banner after the Effective Date; uncashed checks go to the Colorado Lawyer Trust Account Foundation (COLTAF) as cy pres.",
+   "fund_amount": null,
+   "payment_terms": "$20 flat cash payment per approved claim, by check, Venmo, PayPal or Zelle, with no pro-rata reduction. Every class member who does not opt out also gets an automatic code for 1 year of CyEx Privacy Shield Pro (stated retail value $24.99/month): dark web monitoring, VPN, password tools, data-broker opt-out. Deadline for claims, opt-outs and objections was 2026-09-05. Checks expire after 120 days.",
+   "fees_requested": "$3,750,000 requested for fees and costs combined, and $3,750,000 awarded on 2026-09-10. The award includes $41,813.66 in litigation costs. The court called it about 18.2% of the cash benefit and about 1.1% of total settlement value. Service awards were $2,500 for each of 8 class reps, $20,000 in total. Banner pays fees, administration and service awards separately, so they do not reduce class benefits.",
+   "service_award": "$2,500 to each of 8 class representatives ($20,000 total), subject to court approval.",
+   "injunctive_relief": "Representations and business-practice changes (Settlement Agreement §2.8): (a) Banner represents there was no Meta Pixel tracking in the patient account portal, including Cerner; (b) Banner has removed Google Analytics tracking from the portal; (c) for at least 2 years Banner will not place the Meta Pixel or Google Analytics in the portal without appropriate informed consent and/or an opt-out.",
+   "motion_prelim_filed": "2026-05-01",
    "prelim_approval_date": "2026-05-05",
-   "final_hearing_date": "2026-10-16",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The court granted preliminary approval after a hearing on 2026-05-01 and signed the order on 2026-05-05, both inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Law Offices of Zev B. Zysman, APC (Zev B. Zysman), Encino, CA, appointed Class Counsel. Defense counsel is Sidley Austin LLP (Amy P. Lally). Mediator: Hon. Lisa H. Cole (Ret.), Signature Resolution; the mediation was held 2025-09-16 and both sides accepted the mediator's proposal 2025-09-17.",
-   "settlement_website": "https://www.californiacallrecordingsettlement.com/",
+   "final_hearing_date": "2026-09-10",
+   "final_approval_date": "2026-09-10",
+   "status": "Final approval",
+   "window_basis": "The Weld County District Court signed and filed the preliminary approval order on 2026-05-05 (filed 10:04 AM, signed \"5th day of May 2026\"). ClaimDepot reports final approval was granted at the 2026-09-10 hearing. Both dates fall within 2026-04-09 to 2026-10-09.",
+   "plaintiff_counsel": "Class Counsel: Carolyn Cuneo and Gary M. Klinger (Milberg PLLC); Hart L. Robinovitch (Zimmerman Reed LLP); David S. Almeida (Almeida Law Group LLC); Joseph M. Lyon (The Lyon Firm). The D. Ariz. plaintiffs' signature block also listed Levi & Korsinsky (Mark S. Reich), Gallagher & Kennedy, Chestnut Cambronne, Markovits Stock & DeMarco, and Perez Law Group. Defense counsel: Baker & Hostetler (David Carney) and Lang Thal King & Hanson.",
+   "settlement_website": "https://bannerhealthdatasettlement.com/",
    "sources": [
     {
-     "label": "Official settlement website (home, FAQ, dates, documents)",
-     "url": "https://www.californiacallrecordingsettlement.com/"
+     "label": "Settlement website FAQ (official; Kroll) - case no., class size ~1,028,000, benefits, fees up to $3.75M, $2,500 service awards, FAH 2026-09-10, Class Counsel",
+     "url": "https://bannerhealthdatasettlement.com/faq"
     },
     {
-     "label": "Operative Class Action Complaint (26CU009819N, e-filed 2026-02-13), §§ 632 and 632.7 counts",
-     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/COMPLAINT"
+     "label": "Class Action Settlement Agreement and Release, Weld County 2026CV30182 (signed Apr. 22-30, 2026) - recitals, benefits, §2.8 injunctive terms, §8 fees/service awards",
+     "url": "https://www.classaction.org/media/banner-health-settlement_1.pdf"
     },
     {
-     "label": "Settlement Agreement and Release (dated 2026-02-26)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/SETTLEMENT_AGREEMENT"
+     "label": "Preliminary Approval Order, Weld County Dist. Ct. Div. 3, signed/filed May 5, 2026",
+     "url": "https://www.classaction.org/media/banner-health-pao.pdf"
     },
     {
-     "label": "Order Granting Preliminary Approval (hearing 2026-05-01, Judge Segura, Dept. N-28)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/TENTATIVE_PRELIMINARY_APPROVAL_ORDER"
+     "label": "Long-form notice (Weld County)",
+     "url": "https://www.classaction.org/media/banner-health-long-notice.pdf"
     },
     {
-     "label": "Long-form Notice of Class Action Settlement",
-     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/NOTICE_OF_CLASS_ACTION_SETTLEMENT"
+     "label": "D. Ariz. 2:23-cv-00985 Consolidated Class Action Complaint, Doc. 23 (ECPA Count II; CIPA § 631(a) Count VIII)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1336139/gov.uscourts.azd.1336139.23.0.pdf"
     },
     {
-     "label": "Fee memo (35% / $630,000; costs $24,875; lodestar $651,375; about 23,830 class members; prelim order dated 2026-05-05)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/MEMORANDUM_OF_POINTS_AND_AUTHORITIES_IN_SUPPORT_OF_PLAINTIFFS_MOTION_FOR_AWARD_OF_ATTORNEYS_FEES_REIMBURSEMENT_OF_EXPENSES_CLAIMS_ADMINISTRATION_COSTS_AND_INCENTIVE_AWARD"
+     "label": "D. Ariz. docket (CourtListener) - MTD order Doc. 35, reconsideration order Doc. 43, notice of settlement Doc. 64, dismissal order Doc. 67",
+     "url": "https://www.courtlistener.com/docket/67467517/mcculley-v-banner-health/"
     },
     {
-     "label": "Simpluris (Kamenir) declaration on notice, claims and admin costs ($54,949; 1,947 claims as of 2026-08-03)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/WGC1/DECLARATION_OF_JACOB_J_KAMENIR_OF_SIMPLURIS_RE_CLASS_NOTICE_PROCEDURES_AND_CLAIMS_ADMINISTRATION_COSTS"
+     "label": "D. Ariz. Notice of Settlement, Doc. 64 (Feb. 4, 2026; JAMS mediator Bruce Friedman)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1336139/gov.uscourts.azd.1336139.64.0.pdf"
     },
     {
-     "label": "Walgreens Notice of Removal, S.D. Cal. 3:24-cv-00418 ECF 1 (original complaint pled § 632.7 only)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.casd.779487/gov.uscourts.casd.779487.1.0.pdf"
+     "label": "D. Ariz. Order dismissing consolidated case without prejudice, Doc. 67 (Feb. 12, 2026)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1336139/gov.uscourts.azd.1336139.67.0.pdf"
     },
     {
-     "label": "CourtListener docket, S.D. Cal. 3:24-cv-00418",
-     "url": "https://www.courtlistener.com/docket/68303906/gliadkovsky-v-walgreen-co/"
+     "label": "ClaimDepot - reports final approval granted Sept. 10, 2026",
+     "url": "https://www.claimdepot.com/settlements/banner-health-data-settlement"
+    },
+    {
+     "label": "ClassAction.org news - lists ECPA, CIPA, UCL, CMIA, AZ CFA, CO CPA; prelim approval May 5, 2026",
+     "url": "https://www.classaction.org/news/banner-health-settlement-resolves-class-action-lawsuit-over-alleged-disclosure-of-patient-info"
+    },
+    {
+     "label": "HIPAA Journal - claim list for consolidated action; fees/service awards",
+     "url": "https://www.hipaajournal.com/banner-health-lifestance-health-group-pixel-settlements/"
+    },
+    {
+     "label": "Sounder case page - filed Feb. 11, 2026; prelim approval May 5, 2026",
+     "url": "https://sounderdata.com/healthcare-tracking-lawsuits/mcculley-v-banner-health/"
     }
    ],
-   "confidence": "high",
+   "confidence": "medium",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute this. I downloaded the operative complaint from the settlement administrator myself. It is the San Diego Superior Court complaint, Case No. 26CU009819N, 16 pages. Its e-file stamp is 2/13/2026 3:51 PM, and it was filed by the Law Offices of Zev B. Zysman. It has exactly two causes of action. The First is under Penal Code § 632, covering intentional recording of confidential communications, and pleads confidentiality under § 632(c). The Second is under § 632.7, covering recording of cellular or cordless calls. A text search of the whole complaint found no § 631, 18 U.S.C. § 2511, Wiretap Act/ECPA, Fla. Stat. § 934, or § 638.51. Recital C of the Settlement Agreement says the same: it describes the Action as alleging violations of §§ 632 and 632.7. One minor difference: Recital C gives the filing date as 'on or about February 17, 2026', but the file stamp says 2/13/2026. Recital A says the original 2024 action pled only § 632.7, so § 632 was added in the 2026 state-court refiling, not dropped. The release covers CIPA §§ 630 et seq. generally, 'including' §§ 632 and/or 632.7, but no § 631 count is pled. The settlement site's Documents page, which I rendered with Playwright, lists no amended complaint, so the 2/13/2026 complaint is the operative one. The researcher's findings match mine on every statute. § 632 is pled, which meets the 'at least one of' test, so the verdict is confirmed. For the user's 638.51 goal: this is a call-recording case under §§ 632 and 632.7 with no § 631 or § 638.51 claim. It supports § 632 but is not a web-tracking case. | fees_requested: $630,000 requested, which is 35% of the fund, plus $24,875 in costs (cap $25,000). Counsel reports a lodestar of $651,375, so this is a negative multiplier. Not yet awarded; to be decided at the 2026-10-16 final approval hearing.→$630,000 (35% of the $1.8M fund) plus $24,875 in costs (cap $25,000) and a $10,000 incentive award. Lodestar is $651,375 (868.5 hours at $750/hr), so the fee is a negative multiplier. The fee motion was dated 2026-08-03. Fees have not been awarded yet; the court decides them at the 2026-10-16 hearing. | Timing/money check (confirmed): CONFIRMED in window. Primary source: the signed preliminary approval order on the Simpluris settlement site. Its URL slug says \"TENTATIVE\", but the document is the executed order. The hearing was held 2026-05-01 in Dept. N-28 before Hon. Daniel Segura. The judge signed and dated it \"5-5-26\", and the e-file stamp reads 5/5/2026 3:15:23 PM. The handwritten final approval hearing is 10/16/2026 at 1:30 p.m. The fee motion and Simpluris declaration also say the order was \"entered on May 5, 2026\". The settlement site's dates page still shows the 10/16/2026 1:30 p.m. hearing, with no continuance posted as of 2026-10-09. No final approval yet, because the hearing is after today. Prelim motion filing date (2026-04-07) is NOT confirmed from a docket. The only support is fee memo fn.1, which says the Settlement Agreement was \"filed with the Court on or about April 7, 2026\". That date is consistent with the 05-01 hearing. It falls 2 days before the window, but the qualifying event (prelim approval on 05-05) is inside the window. I could not check the San Diego Superior Court register of actions (CAPTCHA). CLASS SIZE: the memo says counsel estimates \"approximately 23,830\" class members but divides by 23,826 to get $75.55 per head. The researcher's 23,830 is kept. Simpluris figures: the class list had 33,865 phone numbers, 25,102 after scrubbing, and 25,052 located records. Of those, 24,056 had valid mail addresses and got the postcard notice on 2026-06-18. Email notice went out 2026-06-17. Claim, opt-out and objection deadlines were all 2026-08-18. Zero opt-outs and zero objections as of the 2026-08-03 declaration. CLAIMS: CIPA Penal Code 632 and 632.7 (call recording to Walgreens 877-250-5823, 1/31/2023 to 1/13/2024). There is NO 631, ECPA or FSCA claim; this is relevant to the 631/632 filter. Minor corrections to the case history: the state complaint 26CU009819N was e-filed 2026-02-13 per the court stamp. The agreement says \"on or about February 17, 2026\". The Settlement Agreement is dated 2026-02-26. The mediator's proposal (Hon. Lisa H. Cole, Ret.) was accepted 2025-09-17. The fund is non-reversionary. The federal docket (3:24-cv-00418, CourtListener 68303906) has entry 28 on 2025-10-21, consistent with the stipulated dismissal. Removal was 2024-03-01. The motion to dismiss was denied 2025-02-26. Class counsel: Law Offices of Zev B. Zysman, APC.",
-   "open_questions": "1) The motion for preliminary approval filing date is approximate. The fee memo says the Settlement Agreement was filed with the court \"on or about April 7, 2026\"; the motion itself was not seen. 2) The file stamp on the prelim order reads like 9/5/2026 in the scan, but the fee memo says the order is dated May 5, 2026, and the 105-day claim deadline (2026-08-18) and 90-day fee motion deadline (2026-08-03) both count back to 2026-05-05. 3) Fees, costs and the service award are requested, not yet awarded; final approval is set for 2026-10-16, after the window ends. 4) The final claim count and actual per-claimant payment are unknown; only the interim figure of 1,947 claims as of 2026-08-03 is available. 5) The complaint's e-file stamp says 2026-02-13, while the Settlement Agreement says the complaint was filed \"on or about February 17, 2026.\"",
-   "id": "gliadkovsky-v-walgreen-co-ca-call-recording"
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher. Primary source: D. Ariz. 2:23-cv-00985-SPL, Doc. 23, the Consolidated Class Action Complaint filed 2023-11-22 (RECAP doc id 378941215). I checked it directly.\n\nECPA is pled:\n- Count II is captioned \"Violation of ECPA, 18 U.S.C. § 2511(1) et seq. – unauthorized interception, use, and disclosure.\"\n- It cites § 2511(1)(a), (c) and (d), and argues that the § 2511(2)(d) party exception is defeated by the crime-tort exception.\n\nCIPA § 631 is pled:\n- The CIPA count (Cal. Penal Code § 630 et seq.) quotes § 631(a) at ¶393.\n- At ¶¶395-396 it alleges Banner aided, agreed with and conspired with Facebook to intercept the communications.\n\nNo other target statute appears:\n- Full-text searches returned zero hits for \"632\" and zero for \"934\".\n- So there is no § 632, § 632.7 or FSCA count, and no § 638.51 count.\n- Plaintiff Cindy Freriks lives in Florida (¶22), but no Florida statute is pled.\n\nDoc. 23 stayed the operative complaint and both counts survived:\n- The docket shows no later amended complaint. Banner answered Doc. 23 (Doc. 44, 2024-06-24).\n- The motion to dismiss order (Doc. 35, 2024-05-10) dismissed only the negligence count (VI) and the breach-of-implied-contract count (IV), with leave to amend.\n- Banner's motion for reconsideration (Doc. 37) is titled as attacking the court's order denying dismissal of the ECPA and CIPA claims. Doc. 43 (2024-06-20) denied reconsideration as to Count II (ECPA).\n\nFederal case end and refiling:\n- Doc. 64 (Notice of Settlement, 2026-02-04) says the parties agreed to resolve all claims asserted in that action. Levi & Korsinsky (Mark Reich) is listed as plaintiffs' co-counsel.\n- Doc. 67 dismissed the consolidated case without prejudice on 2026-02-12.\n\nCaveat: I could not reach the Weld County complaint (2026CV30182). The settlement site's documents page lists a 1.30 MB \"Class Action Complaint\" PDF, but both WebFetch and headless Playwright were stopped by Cloudflare (HTTP 403 / \"Just a moment\"). ClassAction.org's \"Read Complaint\" link actually opens the settlement agreement, not the complaint.\n\nWhat the other settlement papers say:\n- I rendered the image-only pages of the signed settlement agreement. The recitals say only \"common law and statutory violations\" and that the first suit was in D. Ariz. No statutes are listed.\n- The proposed preliminary approval order and the notices also name no statutes.\n\nSecondary sources (not primary) list the Colorado complaint's laws as ECPA, CIPA, UCL, CMIA, Arizona CFA and Colorado CPA: ClassAction.org's law tags and the consentpixel.com CIPA tracker.\n\nSo the 632, 632.7, 638.51 and FSCA \"not pled\" values come from the D. Ariz. operative complaint. They are not verified against the Colorado refiling. I found no disagreement with the researcher on any statute. | motion_prelim_filed: —→2026-05-01 | fees_requested: Up to $3,750,000 in attorneys' fees, costs and expenses (Settlement Agreement §8.1). Banner pays this separately, on top of class benefits, and it was negotiated only after the other terms (§8.4). The amount actually awarded was not confirmed.→$3,750,000 requested for fees and costs combined, and $3,750,000 awarded on 2026-09-10. The award includes $41,813.66 in litigation costs. The court called it about 18.2% of the cash benefit and about 1.1% of total settlement value. Service awards were $2,500 for each of 8 class reps, $20,000 in total. Banner pays fees, administration and service awards separately, so they do not reduce class benefits. | Timing/money check (confirmed): I could not refute it. All three qualifying events fall inside the 2026-04-09 to 2026-10-09 window.\n\nSource: the official Kroll settlement site, bannerhealthdatasettlement.com/documents. Plain curl and WebFetch got HTTP 403, so I used a headless browser. These signed or stamped court filings were downloaded and read:\n(1) Preliminary Approval Order, court e-file stamp \"DATE FILED May 5, 2026 10:04 AM\", Case No. 2026CV30182, Div. 3, Weld County District Court. This confirms prelim approval on 2026-05-05.\n(2) Final Approval Order, e-file stamp \"September 10, 2026 2:42 PM\", signed and dated the 10th of September. Its recitals confirm the PAO date of May 5, 2026 and the final approval hearing on September 10, 2026. It finally approves the settlement, certifies the class and dismisses with prejudice. Final approval = 2026-09-10.\n(3) Order granting fees, expenses and service awards, e-file stamp \"September 10, 2026 2:44 PM\".\n(4) Plaintiffs' Unopposed Motion for Attorneys' Fees, e-filed 2026-08-21.\n\nCorrections and additions:\n- Prelim motion filed: was \"?\", now 2026-05-01. The fee motion (Sec. II) incorporates \"Plaintiffs' Motion for Preliminary Approval ... filed on May 1, 2026.\"\n- Fees: the researcher could not confirm the actual award. It is confirmed as $3,750,000.00 total, inclusive of $41,813.66 in costs, per FAO para. 14 and the separate fee order. Service awards: $2,500 x 8 = $20,000 (FAO para. 15).\n- Fund amount: left null on purpose. There is no common fund. This is an uncapped claims-made settlement: $20 cash to each valid claimant, plus 1 year of CyEx Privacy Shield Pro sent automatically to every class member, plus business-practice changes. Fees, administration and service awards are paid separately. The fee motion puts the maximum cash exposure at $20,560,000 (about 1,028,000 members x $20) and the total settlement value at over $300M, mostly the stated value of CyEx. The $20.56M is a ceiling only if every class member claims. Do not show it as a fund in the comparison table.\n- Class size: 1,028,000 is confirmed by the fee motion's \"approximately 1,028,000 Settlement Class Members\". Class definition: Banner Health Patient Account (formerly MyBanner) users who logged in between 2020-06-01 and 2023-11-22.\n- Other dates and facts: claims, opt-out and objection deadlines were all 2026-09-05. There were 13 valid exclusions. One late objection was considered and overruled. The FAO reports notice reached about 96.14% of the class. Uncashed checks go to COLTAF cy pres, with no reversion to Banner. Mediator: Bruce Friedman (JAMS), followed by a mediator's proposal. Class counsel: Milberg, Zimmerman Reed, Almeida Law Group and The Lyon Firm. Defense counsel: Baker & Hostetler (David Carney).\n\nCaveat for the user's CIPA, ECPA and FSCA screen: the documents I reviewed describe Meta and Google pixel tracking on the patient portal with \"common law and statutory\" claims. I did not confirm the specific statutory counts (for example ECPA section 2511) because the complaint download timed out. Check the complaint before tagging this case as an ECPA, CIPA or FSCA settlement.",
+   "open_questions": "1) Final approval rests only on ClaimDepot (\"granted final approval on Sept. 10, 2026\", page updated 2026-09-24). I did not see the order. Settlement Insight (as of 2026-09-11) and Sounder (as of 2026-10-08) still showed the outcome as not recorded. Verify on the Colorado docket. 2) I did not see the Weld County complaint. Statute marks come from the D. Ariz. consolidated complaint plus secondary reports that the Colorado complaint carries the same claims. Confirm that the Colorado complaint's CIPA count still rests only on § 631(a), with no § 632 or § 638.51 added. 3) The date the unopposed motion for preliminary approval was filed is unknown. It falls between the last agreement signatures (about 2026-04-30) and the order (2026-05-05). 4) The judge's name is not printed on the order and the signature is illegible. 5) The fee and service awards actually granted at final approval were not confirmed. 6) There is no common fund, so no fund amount is reported. Total payout depends on the claims rate (1,028,000 × $20 is the theoretical maximum, about $20.56M in cash, not a figure the parties stated). 7) Levi & Korsinsky (Mark S. Reich) is listed as plaintiffs' counsel in the D. Ariz. case but is not among the appointed Class Counsel in Colorado.",
+   "id": "mcculley-v-banner-health"
   },
   {
-   "short_name": "Carrero v. AMN Healthcare (interpretation-session recording)",
-   "caption": "Bertha Carrero and Angelina Lara De Carrero, individually and on behalf of all others similarly situated v. AMN Healthcare, Inc.; AMN Healthcare Language Services, Inc.; and Does 1-10",
-   "defendant": "AMN Healthcare, Inc.; AMN Healthcare Language Services, Inc.",
-   "court": "Superior Court of California, County of San Diego (Hall of Justice), Dept. C-63",
-   "docket": "37-2023-00052448-CU-NP-CTL",
-   "judge": "Hon. Katherine Bacal",
-   "industry": "Healthcare: medical language-interpretation services (healthcare staffing company and its interpretation subsidiary)",
-   "technology": "AMN recorded and monitored (supervisors listening live) phone and video medical interpretation sessions between patients and providers without notice or consent. This is a first-party call recording and monitoring case, not a third-party pixel or tracker case. AMN says it stopped recording in January 2024 and stopped all monitoring in November 2024.",
-   "cipa_631": "unknown",
-   "cipa_632": "pled",
-   "cipa_632_7": "unknown",
-   "cipa_638_51": "unknown",
-   "ecpa_wiretap": "unknown",
-   "fsca": "not_pled",
-   "other_claims": "Cal. Penal Code § 637.2 (the CIPA private right of action and statutory damages) is pled with § 632. No non-CIPA claims are identified in the notice, the agreement or the PAO. The release covers \"CIPA claims alleged in the operative complaint,\" and secondary sources list only CIPA as the law at issue. The full count list was not seen.",
-   "statute_evidence": "Settlement Agreement § 1.2 (recital) says the First Amended Complaint, filed 2024-04-08, alleges \"among other things\" that AMN violated CIPA §§ 632 and 637.2 by recording and/or monitoring telephone or video calls. Source: https://www.classaction.org/media/amn-healthcare-settlement.pdf (identical copy at https://www.classaction.org/media/amn-healthcare-settlement_1.pdf). The long-form notice (https://www.classaction.org/media/amn-long-notice.pdf) describes the claims only as CIPA monitoring/recording. The FAC itself was not available: the settlement site is behind a Cloudflare bot check, the San Diego court records search returned 403, and classaction.org's \"Read Complaint\" link only embeds the settlement. Because \"among other things\" is not a full claims list, §§ 631, 632.7, 638.51, ECPA and FSCA are marked unknown, not not_pled. ECPA and FSCA are very unlikely given a California-only class in state court with CIPA-only release language.",
-   "class_definition": "All persons physically present in California whose communications were monitored or listened to and/or recorded by AMN (or its employees, contractors or agents) without prior consent. Class period is 2022-12-04 through the preliminary approval order date, 2026-08-07. The PAO's wording: persons physically present in California whose communications \"may have been monitored and/or recorded by AMN during the Class Period.\"",
-   "class_size": null,
-   "class_size_note": "Unknown. None of the documents reviewed (agreement, PAO, long-form notice) or the press coverage gives a class-size or session-count estimate. Notice is publication-only (geotargeted internet ads, PR Newswire press release, website), which suggests no class list exists.",
-   "settlement_structure": "Non-reversionary common fund ($4.5M) paid out on claims: pro rata to claimants, with a per-member cap. No portion reverts to AMN (Agreement § 4.10). Anything left over goes to the Electronic Frontier Foundation as residual recipient under CCP § 384. Also includes confirmation that AMN stopped recording and monitoring.",
-   "fund_amount": 4500000,
-   "payment_terms": "Each claimant gets an equal pro rata share of the net fund: $4.5M minus fees and costs, administration costs, taxes and service awards. Cap is $10,000 per class member across all distributions. Payment is by PayPal/Venmo-type digital methods or by mailed check; checks must be cashed within 180 days. Claim, opt-out and objection deadline is 2026-10-27; objectors must also file a motion to intervene. Claim forms are available in 12 languages.",
-   "fees_requested": "Up to 35% of the $4.5M gross fund ($1,575,000) plus actual litigation costs capped at $75,000 (Settlement Agreement section 11.1). Service awards are up to $10,000 per named plaintiff. The fee and final approval motions are due 2026-11-18 under PAO para. 12. No fee award has been made yet.",
-   "service_award": "Up to $10,000 each for the 2 class representatives (Bertha Carrero, Angelina Lara De Carrero), $20,000 total. Not yet awarded.",
-   "injunctive_relief": "This is a written confirmation, not an ongoing injunction. AMN certifies it told relevant employees to stop recording interpretation sessions in January 2024 and to stop all monitoring in November 2024 (Agreement §§ 3.2, 4.1). Employee non-compliance is not a breach. AMN may still record or monitor in compliance with law going forward.",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "2026-08-07",
-   "final_hearing_date": "2026-12-18",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The preliminary approval order was filed and entered 2026-08-07, after a 2026-07-31 hearing, which falls inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Beligan Law Group, LLP (Jerusalem F. Beligan, Leah M. Beligan) and Shub Johns & Holbrook LLP (Jonathan Shub, Benjamin F. Johns, Samantha E. Holbrook). Defense counsel: Sheppard Mullin (Wynter L. Deagle).",
-   "settlement_website": "https://www.amncipasettlement.com/ (Kroll Settlement Administration LLC, administrator)",
-   "sources": [
-    {
-     "label": "Settlement Agreement with exhibits (claims recital § 1.2, fund, cap, fees, service awards, notice plan, cy pres)",
-     "url": "https://www.classaction.org/media/amn-healthcare-settlement.pdf"
-    },
-    {
-     "label": "Settlement Agreement (duplicate copy)",
-     "url": "https://www.classaction.org/media/amn-healthcare-settlement_1.pdf"
-    },
-    {
-     "label": "Order granting preliminary approval (filed 2026-08-07; hearing 2026-07-31; FAH 2026-12-18; fee motion due 2026-11-18)",
-     "url": "https://www.classaction.org/media/amn-pao.pdf"
-    },
-    {
-     "label": "Long-form notice (deadlines 2026-10-27; FAH Dept. C-63)",
-     "url": "https://www.classaction.org/media/amn-long-notice.pdf"
-    },
-    {
-     "label": "ClassAction.org settlement news",
-     "url": "https://www.classaction.org/news/4.5m-amn-healthcare-settlement-ends-lawsuit-over-alleged-monitoring-recording-of-language-interpretation-sessions"
-    },
-    {
-     "label": "Top Class Actions settlement listing",
-     "url": "https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/4-5m-amn-healthcare-privacy-violations-class-action-settlement/"
-    },
-    {
-     "label": "Shub Johns & Holbrook announcement of preliminary approval",
-     "url": "https://shublawyers.com/news/breaking-news/amn-class-action-court-grants-preliminary-approval-of-4-5-million-settlement/"
-    },
-    {
-     "label": "ClaimDepot listing (fee figure of $1,575,000)",
-     "url": "https://www.claimdepot.com/settlements/amncip-settlement"
-    },
-    {
-     "label": "Official settlement website (behind Cloudflare bot check; not reviewed directly)",
-     "url": "https://www.amncipasettlement.com/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "fsca: unknown→not_pled | Claims check (confirmed): I could not refute the § 632 finding. I downloaded the 65-page signed Class Action Settlement Agreement with exhibits from classaction.org and extracted its text. This is a primary document, filed with the court as an exhibit to the preliminary-approval motion. Recital 1.2 says the First Amended Complaint (filed 2024-04-08) alleges, \"among other things,\" violations of CIPA §§ 632 and 637.2 for recording and/or monitoring telephone or video calls with California participants. That is enough to mark § 632 as pled. The original complaint was filed 2023-12-04. No document I found shows that a count was dropped by the amendment.\n\nI searched the full text of the agreement for every Penal Code 63x section. Only 632 and 637.2 appear. There are no mentions of 631, 632.7, 638.51, 2511, Wiretap, ECPA, 934 or Florida. The release (§ 2.36) covers \"the CIPA claims alleged in the operative complaint or previously filed complaint,\" plus claims that could have been asserted based on the same allegations. The signed preliminary-approval order (amn-pao.pdf, signed Aug. 7, 2026, hearing July 31, 2026, Dept. C-63, Judge Bacal) and the long-form notice describe the claims only as CIPA monitoring/recording and name no sections.\n\nThe complaint and FAC themselves are not publicly reachable. Using a headless browser, I got past the settlement site's bot check to its Documents page (amncipasettlement.com/documents). It lists only the settlement agreement, the preliminary-approval order, the long-form notice and the claim form. There is no complaint, and direct PDF downloads returned 403. I did not try the San Diego register of actions, because it is CAPTCHA-gated.\n\nBecause recital 1.2 says \"among other things,\" §§ 631, 632.7 and 638.51 stay unknown. § 631 is plausible on a third-party monitoring theory but unconfirmed. ECPA is left unknown but is very likely not pled. A CourtListener RECAP search found no federal docket for Carrero v. AMN, so the case was never removed, which a federal Wiretap Act count would normally prompt. The case has been in state court since Dec. 2023, and the release refers only to CIPA claims. I marked FSCA not_pled because the class is limited to people physically present in California, the release is scoped to CIPA, and no Florida reference appears anywhere.\n\nI agree with the researcher on everything except FSCA: the researcher had it unknown, I have it not_pled. Minor point: the agreement's caption lists Dept. C-69, but the preliminary-approval order and the notice say Dept. C-63. Key terms: $4.5M fund, class period Dec. 4, 2022 to Aug. 7, 2026, final approval hearing Dec. 18, 2026. | fees_requested: Up to 35% of the gross fund ($1,575,000), plus actual litigation costs of no more than $75,000. The fee/final approval motion is due 2026-11-18 under the PAO. No award yet.→Up to 35% of the $4.5M gross fund ($1,575,000) plus actual litigation costs capped at $75,000 (Settlement Agreement section 11.1). Service awards are up to $10,000 per named plaintiff. The fee and final approval motions are due 2026-11-18 under PAO para. 12. No fee award has been made yet. | Timing/money check (confirmed): CONFIRMED in-window. The primary source is the signed Preliminary Approval Order (classaction.org/media/amn-pao.pdf). Its clerk stamp reads \"FILED AUG 07 2026\" (San Diego Superior Court, Deputy V. Secaur), and Judge Katherine A. Bacal signed and dated it 8/7/26 by hand. The page also carries a stamp showing the proposed order was received 7/30/2026. The motion was heard July 31, 2026 at 1:30 p.m. in Dept. C-63. Shub Johns & Holbrook's 8/28/26 post calls the July 31 hearing the grant; the written order is dated and filed 2026-08-07, so the researcher's prelim_approval_date of 2026-08-07 is correct. Either date falls inside the 2026-04-09 to 2026-10-09 window.\n\nFinal hearing: PAO para. 11 sets December 18, 2026 at 1:30 p.m. The long notice and the Kroll PR Newswire release of 8/28/26 match. The draft agreement exhibits show October 16, 2026; that was the pre-continuance date and has been superseded.\n\nFund: $4.5M gross non-reversionary fund, confirmed by the long notice and the agreement. Payments are pro rata with a cap of $10,000 per class member.\n\nDeadlines: claims, opt-outs and objections are due 2026-10-27. Class period runs 12/4/2022 to 8/7/2026. Settlement Administrator is Kroll.\n\nClaims: the agreement recitals say the FAC (filed 4/8/2024) alleges violations of CIPA sections 632 and 637.2, covering recording and monitoring of interpreted calls and video sessions. No section 631 claim is recited. This fits the user's 632 filter.\n\nMotion for prelim filing date: NOT verified, so left blank. The draft proposed PAO attached to the agreement noticed an original hearing of June 26, 2026. The draft final order recites that the agreement and exhibits were \"filed with the Court on June 12, 2026\". The agreement signature blocks are dated \"June __, 2026\". The PAO also references a supplemental brief and an amended claim form. Taken together, the motion was most likely filed around early to mid June 2026 (in-window) and the hearing was continued to 7/31 after supplemental briefing. I could not confirm this from a file-stamped motion or the register of actions. The San Diego ROA rate-limited the request, and amncipasettlement.com is behind a Cloudflare challenge, which I did not bypass.\n\nClass size: not stated in the PAO, notice, agreement or press release, so left null.\n\nMediation history: Judge Diane Welsh (Ret.) on 8/13/2025, then 1/6/2026; term sheet signed 1/14/2026. Final approval has not happened yet.",
-   "open_questions": "1) The FAC (filed 2024-04-08) was not seen. The agreement confirms § 632 and § 637.2 but says \"among other things,\" so whether § 631 (supervisor live monitoring could support it), § 632.7 (cellular calls), § 638.51 or any non-CIPA count was pled is unconfirmed. Copies can be requested from class counsel per the notice, or pulled from the San Diego court records, which returned 403 to automated access. 2) The date the preliminary approval motion was filed is unknown. The agreement is dated June 2026; the PAO references a supplemental brief and an amended claim form, so the court asked for more briefing before ruling. 3) Department mismatch: the agreement caption says Dept. C-69, but the PAO and notice say Dept. C-63. 4) The agreement originally targeted a 2026-10-16 fairness hearing; the court set 2026-12-18. 5) There is no class-size or session-count estimate, and no claims rate yet.",
-   "id": "carrero-v-amn-healthcare-interpretation-session-recording"
-  },
-  {
-   "short_name": "Mount Sinai Medical Center of Florida (FSCA pixel)",
-   "caption": "Luis Boggiano and Barbara McGrath, individually and on behalf of all others similarly situated v. Mount Sinai Medical Center of Florida, Inc. a/k/a Mount Sinai Medical Center",
-   "defendant": "Mount Sinai Medical Center of Florida, Inc. a/k/a Mount Sinai Medical Center",
-   "court": "Circuit Court of the 17th Judicial Circuit in and for Broward County, Florida",
-   "docket": "CACE-26-006904-09 (Div. 09)",
-   "judge": "Hon. Jeffrey R. Levenson",
-   "industry": "Healthcare: hospital system (Miami Beach teaching hospital, website msmc.com and patient portal)",
-   "technology": "Third-party tracking, analytics and advertising technologies (pixels) on the public website and patient portal; the Joint Declaration of Class Counsel (para. 3) says PHI and communications were disclosed to Google. Meta is not named in any document I reviewed.",
-   "cipa_631": "not_pled",
+   "short_name": "Sophin v. WISP (HelloWISP)",
+   "caption": "Sophin v. WISP, Inc., Case No. CACE26001543 (Fla. Cir. Ct., 17th Jud. Cir., Broward Cnty.)",
+   "defendant": "WISP, Inc. (hellowisp.com)",
+   "court": "Circuit Court of the Seventeenth Judicial Circuit in and for Broward County, Florida",
+   "docket": "CACE26001543",
+   "judge": "Fabienne Fahnestock",
+   "industry": "Telehealth / online pharmacy (sexual and reproductive health products)",
+   "technology": "Meta Pixel plus other tracking, analytics and advertising technologies on hellowisp.com. Secondary reporting on the complaint (allaboutlawyer.com) also names Google, Microsoft and TikTok tools; the official notice names only the Meta Pixel.",
+   "cipa_631": "pled",
    "cipa_632": "not_pled",
    "cipa_632_7": "not_pled",
    "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "not_pled",
+   "ecpa_wiretap": "pled",
    "fsca": "pled",
-   "other_claims": "Invasion of privacy (Florida common law); unjust enrichment. No Stored Communications Act, VPPA, or other state wiretap claims are listed.",
-   "statute_evidence": "The Settlement Agreement (para. 3 recital), the Motion for Final Approval (pp. 2-3), and the Joint Declaration of Class Counsel (para. 8) all list the April 27, 2026 Complaint's claims as FSCA ch. 934.03, invasion of privacy, and unjust enrichment, and nothing else. All three come from the official settlement site (https://www.mountsinaidatasettlement.com/settlement-documents/). I did not get the Complaint PDF itself because it is on the Broward Clerk's docket and not posted on the settlement site. CIPA and ECPA are marked not_pled on the strength of these party-filed claims lists. That fits a Florida state-court case brought by Florida patients.",
-   "class_definition": "All living individuals who accessed Defendant's Website or Patient Portal between June 10, 2021 and September 18, 2025. Excluded: Defendant's officers, directors and employees; judicial officers and their families and staff; governmental entities; and opt-outs.",
-   "class_size": 325108,
-   "class_size_note": "Exact count of KNOWN class members on the Class List that Defendant gave Atticus on 2026-06-23 (Admin. Decl. para. 4, cited in the Motion for Final Approval). 250,208 received email notice and 74,736 received postcard notice. The class definition covers everyone who accessed the site, so the true class may be larger. As of 2026-08-24: 4,311 claims submitted, 4,168 valid (the motion calls this 1.23% of the class). 9 opt-outs, 0 objections.",
-   "settlement_structure": "Claims-made settlement with a fixed $220,000 'Total Cash Payment' pool. Payments are pro rata, and anything left after proration goes to a court-approved cy pres recipient, so nothing reverts. Defendant pays separately for: 1-year medical data monitoring for every class member with no claim needed, settlement administration, court-awarded fees and costs, and service awards.",
-   "fund_amount": 220000,
-   "payment_terms": "Estimated $20 cash payment per valid claim, no documentation required. The amount adjusts pro rata both ways on an equal-percentage basis, with any increase capped at $250 per claimant. Every class member also automatically gets 1 year of CyEx Medical Shield medical data monitoring (activation code in the notice), with no claim form needed. Claims were due 2026-09-28; opt-out and objection deadline was 2026-09-14.",
-   "fees_requested": "Agreement para. 89 caps fees plus costs at $500,000, paid by Defendant separately from class benefits. The Motion for Final Approval (e-filed 2026-08-28, Filing # 255950751) asks for $492,750 total, which includes $33,542.23 in costs, so the net fee is $459,207.77. Lodestar through 2026-08-25 is $297,836.50 (Joint Dec. para. 34). The motion's \"~1.65 multiplier\" comes from dividing the gross $492,750 (costs included) by the lodestar. Net of costs the multiplier is about 1.54. Service awards are capped at $2,500 per named plaintiff (2 plaintiffs). Nothing has been awarded yet.",
-   "service_award": "Up to $2,500 each for 2 class representatives (Luis Boggiano, Barbara McGrath), paid by Defendant on top of the class benefits. Requested, not yet awarded.",
-   "injunctive_relief": "None. The Agreement and motions I reviewed contain no business-practice changes or tracking-removal commitments. The only non-cash relief is the 1-year medical data monitoring.",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "2026-06-12",
-   "final_hearing_date": "2026-10-13",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "Judge Levenson granted preliminary approval on 2026-06-12 (order e-filed that day), which falls inside the 2026-04-09 to 2026-10-09 window. The final approval hearing is set for 2026-10-13.",
-   "plaintiff_counsel": "Jeff Ostrow (and Kristen Lake Cardoso, Steven Sukert) of Kopelowitz Ostrow P.A.; Katrina Carroll of Carroll Shamberg LLC; Mariya Weekes of Milberg, PLLC. Defense counsel: Alfred J. Saikali and Melissa Madsen of Shook, Hardy & Bacon L.L.P.",
-   "settlement_website": "https://www.mountsinaidatasettlement.com/",
+   "other_claims": "Negligence",
+   "statute_evidence": "The court-authorized Long-Form Notice (Q3, \"What is this Action about?\") and the official settlement website homepage (Wayback capture of 2026-06-08) list the claims as: FSCA, Fla. Stat. § 934.03 et seq.; CIPA, Cal. Penal Code § 631(a); negligence; and ECPA, 18 U.S.C. § 2511(1). §§ 632, 632.7 and 638.51 are not in that list. I could not open the complaint PDF itself (wispclasssettlement.com/uploads/Complaint_E_Filed_1_28_26_*.pdf, e-filed 2026-01-28) because the site sits behind a Cloudflare bot check, so \"not_pled\" for 632/632.7/638.51 rests on the notice's claims list. Sources: https://www.classaction.org/media/sophin-v-wisp-inc-notice.pdf and https://web.archive.org/web/20260608082136/https://wispclasssettlement.com/",
+   "class_definition": "All living U.S. citizens who purchased a product on hellowisp.com from Feb. 1, 2018 through Sept. 9, 2025. The usual exclusions apply (judges, the defendant and its affiliates, and opt-outs).",
+   "class_size": 1638282,
+   "class_size_note": "Not disclosed in the notice, the archived settlement site, or secondary coverage. Notice went by email with a unique Class Member ID, so the defendant has a customer list. The settlement agreement or the final approval papers would likely give the number, but I could not get them (Cloudflare-blocked).",
+   "settlement_structure": "Claims-made with no common fund. Each valid claim gets a fixed $18.00, not a pro rata share. The defendant separately pays notice and administration costs, the court-awarded fees and costs, and the service award. I found no aggregate cap in the notice; the agreement itself was not reviewed.",
+   "fund_amount": null,
+   "payment_terms": "$18.00 flat cash payment per valid claim, paid by PayPal, Venmo or Zelle, or by check that voids after 180 days. Claims had to include the Class Member ID from the emailed notice. Claim, opt-out and objection deadline was 2026-07-13. Payments reportedly went out around 2026-09-05.",
+   "fees_requested": "$1,500,000 in attorneys' fees and costs was requested and awarded in full (FAO ¶17), paid by the defendant separately from class payments. A $5,000 service award was also requested and awarded. Counsel's lodestar was $365,853.66 and costs were $3,492.92.",
+   "service_award": "Up to $5,000 for class representative Annette Sophin, paid by the defendant. Amount awarded unknown.",
+   "injunctive_relief": "None described in the notice or on the settlement website; the settlement agreement was not reviewed.",
+   "motion_prelim_filed": "2026-04-04",
+   "prelim_approval_date": "2026-04-14",
+   "final_hearing_date": "2026-08-05",
+   "final_approval_date": "2026-08-05",
+   "status": "Final approval",
+   "window_basis": "The court granted preliminary approval on 2026-04-14 (the official site lists a \"Preliminary Approval Order Signed 4-14-26\") and granted final approval at or after the 2026-08-05 hearing; both dates fall within 2026-04-09 to 2026-10-09.",
+   "plaintiff_counsel": "Jeff Ostrow, Kopelowitz Ostrow P.A. (Kopelowitz Ostrow Ferguson Weiselberg Gilbert), Fort Lauderdale. Defense counsel: Jay L. Pomerantz, Fenwick & West LLP.",
+   "settlement_website": "https://www.wispclasssettlement.com/ (administrator: Kroll Settlement Administration, case code 83399)",
    "sources": [
     {
-     "label": "Official settlement website (home: caption, court, case no., class, benefits, deadlines)",
-     "url": "https://www.mountsinaidatasettlement.com/"
+     "label": "Court-authorized Long-Form Notice (claims list, class definition, $18 payment, fee cap $1.5M, service award $5K, judge, counsel, dates)",
+     "url": "https://www.classaction.org/media/sophin-v-wisp-inc-notice.pdf"
     },
     {
-     "label": "Official settlement website - Important Documents page",
-     "url": "https://www.mountsinaidatasettlement.com/settlement-documents/"
+     "label": "Official settlement website, Wayback capture 2026-06-08 (claims list, deadlines, FAH 8/5/26; document list incl. Preliminary Approval Order signed 4-14-26, Settlement Agreement signed 3-24-2026, Complaint e-filed 1-28-26)",
+     "url": "https://web.archive.org/web/20260608082136/https://wispclasssettlement.com/"
     },
     {
-     "label": "Order Granting Preliminary Approval (Judge Levenson, e-filed 06/12/2026): class, class counsel, schedule",
-     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/06/002-Mount-Sinai-Preliminary-Approval-Order.pdf"
+     "label": "Official settlement website, Wayback capture 2026-06-30 (FAQ text, document metadata)",
+     "url": "https://web.archive.org/web/20260630084352/https://wispclasssettlement.com/"
     },
     {
-     "label": "Settlement Agreement (claims recital para. 3, benefits para. 60, service awards para. 88, fees para. 89)",
-     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/06/001-Mount-Sinai-Settlement-Agreement.pdf"
+     "label": "ClassAction.org news (statutes, prelim approval 4/14/26, FAH 8/5/26)",
+     "url": "https://www.classaction.org/news/wisp-settlement-resolves-class-action-lawsuit-over-alleged-data-disclosure-to-meta-other-third-parties"
     },
     {
-     "label": "Notice of Hearing (FAH Oct. 13, 2026, 9:30 AM, filed 06/15/2026)",
-     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/06/003-Mount-Sinai-Notice-of-Final-Hearing.pdf"
+     "label": "ClaimDepot (final approval 8/5/26, payments from 9/5/26; mislabels $1.5M as total)",
+     "url": "https://www.claimdepot.com/settlements/wisp-class-settlement"
     },
     {
-     "label": "Plaintiffs' Unopposed Motion for Final Approval and Fee Application (e-filed 08/28/2026), incl. Joint Decl. and Admin. Decl.: claims list, class list size, claims rate, fees/lodestar",
-     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/08/Mount-Sinai-Motion-for-Final-Approval-filed-8.28.26.pdf"
+     "label": "OpenClassActions (payment of $18 dated 9/5/26)",
+     "url": "https://openclassactions.com/news/wisp-settlement-payments-september-2026.php"
     },
     {
-     "label": "Long Form Notice (deadlines, FAH date)",
-     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/07/Mount-Sinai-Ex.-4-LFN_FINAL.pdf"
+     "label": "Sounder (complaint filed 1/28/26; SA executed 3/24/26; final approval order posted after 8/5/26 hearing; claims-made)",
+     "url": "https://sounderdata.com/lawsuits/sophin-v-wisp-inc/"
     },
     {
-     "label": "ClassAction.org news summary (FSCA, patient-portal tracking pixels)",
-     "url": "https://www.classaction.org/news/mount-sinai-medical-center-of-florida-settlement-resolves-class-action-over-patient-portal-tracking-pixels"
+     "label": "AllAboutLawyer (complaint reportedly alleges Meta, Google, Microsoft, TikTok pixels)",
+     "url": "https://allaboutlawyer.com/wisp-hellowisp-privacy-class-action-settlement/"
     },
     {
-     "label": "ClassAction.org copy of Settlement Agreement",
-     "url": "https://www.classaction.org/media/001-mount-sinai-settlement-agreement.pdf"
-    },
-    {
-     "label": "ClaimDepot summary (fees up to $500K, service awards up to $2,500)",
-     "url": "https://www.claimdepot.com/settlements/mount-sinai-data-settlement"
+     "label": "TopClassActions (counsel, administrator)",
+     "url": "https://topclassactions.com/lawsuit-settlements/closed-settlements/wisp-data-privacy-class-action-settlement/"
     }
    ],
    "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the FSCA claim. I downloaded and text-searched the filed Settlement Agreement (74 pp.) and the Motion for Final Approval filed 8/28/26 (196 pp. with exhibits). The Agreement's recitals say the April 27, 2026 Class Action Complaint (defined in Agreement para. 16) alleges three claims: violation of the Florida Security of Communications Act, ch. 934.03, plus invasion of privacy and unjust enrichment. The same three-claim list appears twice in the Final Approval motion, once in its background section citing \"Complaint generally\" and once in Joint Class Counsel Decl. para. 8. The motion also discusses risk under \"Florida's FSCA statute as applied to Internet privacy.\" None of these documents mention Cal. Penal Code 631, 632, 632.7 or 638.51, 18 U.S.C. 2511, the Wiretap Act, ECPA or CIPA. The only \"631\" hits are reporter page cites (631 F. Supp.), not statutes. So the other five statutes are not_pled based on the claims lists the parties filed. I did not see the Complaint PDF itself. It sits on the Broward Clerk docket (CACE-26-006904-09) and is not posted on the settlement site, so a stray ECPA reference inside the FSCA count can't be ruled out, but there is no standalone count. On amendments: no amended complaint is mentioned, and the Agreement defines the operative pleading as the 4/27/26 Complaint. Decl. para. 8 says plaintiffs \"dismissed their respective actions\" before refiling in Broward as a consolidated settlement vehicle. Those earlier actions were not identified, and a CourtListener RECAP search found no related federal dockets for Boggiano/McGrath v. Mount Sinai Medical Center of Florida. Any counts in those earlier suits are irrelevant to the operative complaint anyway. Alleged conduct: disclosure to Google through website/patient-portal tracking, 6/10/2021 to 9/18/2025. Preliminary approval was granted 6/12/2026. The researcher's findings match mine on every statute. Supporting doc: https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/08/Mount-Sinai-Motion-for-Final-Approval-filed-8.28.26.pdf | fees_requested: The Agreement (para. 89) caps fees plus expenses at $500,000, paid by Defendant on top of the class benefits. In the Motion for Final Approval (filed 2026-08-28), Class Counsel asks for $492,750 in fees 'including $33,542.23 in litigation costs.' Lodestar through 2026-08-25 is $297,836.50, which the motion describes as a ~1.65 multiplier. The figures do not reconcile; see open_questions. Not yet awarded.→Agreement para. 89 caps fees plus costs at $500,000, paid by Defendant separately from class benefits. The Motion for Final Approval (e-filed 2026-08-28, Filing # 255950751) asks for $492,750 total, which includes $33,542.23 in costs, so the net fee is $459,207.77. Lodestar through 2026-08-25 is $297,836.50 (Joint Dec. para. 34). The motion's \"~1.65 multiplier\" comes from dividing the gross $492,750 (costs included) by the lodestar. Net of costs the multiplier is about 1.54. Service awards are capped at $2,500 per named plaintiff (2 plaintiffs). Nothing has been awarded yet. | Timing/money check (confirmed): CONFIRMED in window. The preliminary approval order is a primary source. It was signed by Judge Jeffrey R. Levenson, Broward 17th Cir., Case No. CACE26006904, Div. 09, and e-filed 06/12/2026 as Filing # 250257884. It grants the unopposed motion for preliminary approval, and 2026-06-12 falls inside the 2026-04-09 to 2026-10-09 window. I could not refute it. The 8/28/26 Motion for Final Approval and the Joint Declaration (para. 12) independently restate the June 12, 2026 grant.\n\nFinal hearing: the Notice of Hearing (e-filed 06/15/2026, Filing # 250365941) sets the in-person hearing on the final approval motion for 2026-10-13 at 9:30 AM before Judge Levenson. The Long Form Notice gives the same date. As of today (2026-10-09) the hearing has not happened and no final approval order exists, so final_approval_date stays blank.\n\nPrelim motion filing date: unverified, left blank. No source gives the date. The Broward Clerk docket is behind reCAPTCHA/Turnstile and was not accessed. The motion must fall between the complaint filing (2026-04-27, per the Agreement and the motion) and 2026-06-12, so it is in-window either way. ClaimDepot and Sounder list \"Apr 27, 2026\", but that is the complaint filing date, not the motion date. An automated summary of the classaction.org page initially called it a \"motion filed\" date. Re-checking the page shows it is the case filing date.\n\nFund: $220,000 is the \"Total Cash Payment\" pool only (Agreement definitions; para. 60.b). Each claimant gets an estimated $20, with pro rata adjustment capped at $250. Unclaimed money goes to cy pres. Defendant pays separately for 1 year of CyEx Medical Data Monitoring for every class member (automatic, no claim needed), for administration costs, for fees and costs (up to $500k), and for service awards. The all-in value is therefore well above $220k.\n\nClass size: 325,108 is the number of known class members in the data file Defendant gave Atticus on 2026-06-23 (Admin. Dec. para. 4). Email notice went to 250,208 and postcards to 74,736 on 2026-07-10.\n\nClaims response as of 2026-08-24: 4,311 claim forms, of which 4,168 were valid (1.23% of the class). Nine opt-outs and zero objections; the opt-out and objection deadline was 2026-09-14. The claim deadline was 2026-09-28.\n\nClaims pleaded: Florida Security of Communications Act (Fla. Stat. 934.03), invasion of privacy, and unjust enrichment. The case concerns tracking tech on the website and patient portal that sent data to Google. The class period is 2021-06-10 to 2025-09-18. FSCA meets the user's criteria. The named plaintiffs dismissed earlier separate actions and refiled together in state court after mediation (Joint Dec. paras. 4-8).\n\nClass counsel: Kopelowitz Ostrow, Carroll Shamberg, and Milberg. Defense counsel: Shook Hardy & Bacon. Administrator: Atticus.",
-   "open_questions": "(1) The filing date of the motion for preliminary approval is unknown. It falls between the complaint (2026-04-27) and the PA order (2026-06-12), but the motion is not posted on the settlement site; the Broward Clerk docket would show it. (2) The fee figures conflict. The Agreement caps fees plus costs at $500,000. The motion asks for '$492,750.00 in attorneys' fees including $33,542.23 in litigation costs.' But $492,750 divided by the $297,836.50 lodestar is the stated ~1.65 multiplier, which suggests $492,750 is fees alone; adding costs would put the total over the cap. Check the final approval order for the actual award. (3) Final approval hearing is 2026-10-13, after the window closes. Re-check for a final approval order and the final valid-claim count and per-claimant payout. (4) Only Google is named as a recipient (Joint Decl. para. 3); Meta involvement is unconfirmed. (5) The Joint Decl. (para. 8) says plaintiffs 'dismissed their respective actions' before filing this consolidated state-court action. The earlier cases may have pled different statutes, but they are not the operative complaint. (6) I relied on the parties' description of the Complaint's claims, not the Complaint PDF itself. (7) The fund figure is the $220,000 cash pool only. Monitoring, administration, fees (up to $500K) and service awards are paid by Defendant on top, so total settlement value is higher. Some secondary sources (Top Class Actions) list other deadlines (claims Oct. 5, FAH Oct. 29); the official site, notice and Notice of Hearing all say claims 2026-09-28 and FAH 2026-10-13.",
-   "id": "mount-sinai-medical-center-of-florida-fsca-pixel"
-  },
-  {
-   "short_name": "Derick Dermatology (pixel)",
-   "caption": "Jennifer Jeffries v. Derick Dermatology, PLLC",
-   "defendant": "Derick Dermatology, PLLC",
-   "court": "Circuit Court of the 17th Judicial Circuit in and for Broward County, Florida (Division 08)",
-   "docket": "CACE-26-003864",
-   "judge": "Hon. Carlos Augusto Rodriguez",
-   "industry": "Healthcare: dermatology medical practice",
-   "technology": "Unnamed pixels, cookies, code and tracking/analytics tools on the website's appointment-booking flow, alleged to send browsing and appointment information to third parties. The claim form requires an attestation that the claimant did not use the Google Analytics Opt-out Browser Add-on, which suggests Google Analytics was involved.",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Breach of fiduciary duty/confidentiality; invasion of privacy; breach of implied contract; unjust enrichment; negligence. No CIPA, FSCA or other state wiretap statute appears in the enumerated claims list.",
-   "statute_evidence": "Settlement Agreement, Recital A (pp. 1-2): the complaint asserts claims for violation of the Federal Wiretap Act, 18 U.S.C. § 2510 et seq., plus breach of fiduciary duty/confidentiality, invasion of privacy, breach of implied contract, unjust enrichment and negligence. The Released Claims definition (§1.25) and Long-Form Notice Q3 repeat the same list. Sources: https://cw.simpluris.com/docs/public/downloads/DJC/SETTLEMENT_AGREEMENT and https://www.classaction.org/media/long-form-notice_1.pdf. The complaint itself was not available: ClassAction.org's \"Read Complaint\" link points to the settlement agreement. FSCA and CIPA are marked not_pled because the agreement's full enumerated claims list leaves them out, not because I reviewed the complaint.",
-   "class_definition": "All persons who made an appointment on www.derickdermatology.com or a subdomain between 2023-11-21 and 2025-11-27. The usual exclusions apply (judges, defendant affiliates, opt-outs).",
-   "class_size": null,
-   "class_size_note": "Not stated in the settlement agreement, preliminary approval order, long-form notice or settlement website. Notice went directly by email or postcard from the defendant's class list, so the administrator (Simpluris) has a count, but it has not been published.",
-   "settlement_structure": "Claims-made with a $1,000,000 all-in Settlement Cap (§1.31). Claims, administration, fees, service award and the cost of Privacy Shield Pro all come out of the cap. There is no common fund. Uncashed checks and unredeemed digital payments go back to the defendant or its insurers (§3.5), so the settlement is effectively reversionary. Cash is reduced pro rata only if approved claims exceed the funds left under the cap.",
-   "fund_amount": 1000000,
-   "payment_terms": "Up to $12.50 per claimant with an approved claim. No documentation is required, but the claimant must attest that they did not use the GA opt-out add-on, cookie blocking or private browsing. Payment is by check, Venmo or PayPal, subject to pro rata reduction. Every class member also gets 1 year of CyEx Privacy Shield Pro automatically, with no claim needed (stated retail value $24.99/month). Claims deadline 2026-07-21; opt-out/objection deadline 2026-06-22; notice mailed 2026-06-01.",
-   "fees_requested": "Up to $350,000 in combined attorneys' fees, costs and expenses (Settlement Agreement 1.13). Paid by the defendant or its insurers inside the $1M all-inclusive Settlement Cap, and the defendant agreed not to object. Separate $1,500 service award request. No fee motion or fee award is posted on the settlement site.",
-   "service_award": "Up to $1,500 for the class representative, Jennifer Jeffries. Not yet awarded or confirmed.",
-   "injunctive_relief": "None in the agreement: no commitment to remove the pixels or change business practices. The only non-cash benefit is the 1-year Privacy Shield Pro identity/privacy protection subscription.",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "2026-04-22",
-   "final_hearing_date": "2026-08-17",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The preliminary approval order was signed and e-filed on 2026-04-22 (Filing #246578914), which falls inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Class Counsel: Mariya Weekes (Milberg, PLLC, Miami) and Albert Plawinski (Plawinski, PLLC). Defense counsel: Joel Griswold and Bonnie Keane DelGobbo (Baker & Hostetler LLP).",
-   "settlement_website": "https://dermatologypixelsettlement.com/",
-   "sources": [
-    {
-     "label": "Official settlement website (home, documents, dates pages; Simpluris)",
-     "url": "https://dermatologypixelsettlement.com/"
-    },
-    {
-     "label": "Settlement Agreement (claims list in Recital A, $1M cap, $350K fee cap, $1,500 service award, reversion)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/DJC/SETTLEMENT_AGREEMENT"
-    },
-    {
-     "label": "Preliminary Approval Order, signed 2026-04-22 by Judge Carlos A. Rodriguez",
-     "url": "https://cw.simpluris.com/docs/public/downloads/DJC/PRELIMINARY_APPROVAL_ORDER"
-    },
-    {
-     "label": "Plaintiff's Notice of Final Approval Hearing (filed 2026-04-29; hearing 2026-08-17 via Zoom)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/DJC/NOTICE_OF_FINAL_APPROVAL_HEARING"
-    },
-    {
-     "label": "Long-Form Notice (claims list, fees, service award, class counsel, judge)",
-     "url": "https://www.classaction.org/media/long-form-notice_1.pdf"
-    },
-    {
-     "label": "ClassAction.org article (filed 2026-03-05, prelim approval 2026-04-22)",
-     "url": "https://www.classaction.org/news/up-to-1m-derick-dermatology-settlement-ends-class-action-lawsuit-over-alleged-disclosure-of-patient-info"
-    },
-    {
-     "label": "ClaimDepot settlement summary",
-     "url": "https://www.claimdepot.com/settlements/dermatology-pixel-settlement"
-    },
-    {
-     "label": "Sounder healthcare tracking tracker (as of 2026-09-08, final approval outcome not recorded)",
-     "url": "https://sounderdata.com/lawsuits/jeffries-v-derick-dermatology-pllc/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's finding. I downloaded the Settlement Agreement PDF (49 pp.) myself and checked it. Recital A (pp. 1-2) says the putative class action was filed March 5, 2026 in Broward County, Case No. CACE-26-003864. It says plaintiff asserts claims for violation of the Federal Wiretap Act, 18 U.S.C. § 2510 et seq., plus breach of fiduciary duty/confidentiality, invasion of privacy, breach of implied contract, unjust enrichment and negligence. The Released Claims definition (§1.25, p. 7) and the attached notices (around text lines 1183, 1272, 1343 and 1685) repeat the same list.\n\nI found no mention anywhere in the agreement, the 7-page Preliminary Approval Order or the Notice of Final Approval Hearing of: § 934 / the Florida Security of Communications Act, CIPA, § 631, § 632, § 632.7 or § 638.51. I also found no mention of an amended complaint. The agreement refers only to \"the complaint\" filed March 5, 2026.\n\nTimeline: preliminary approval was granted about April 22, 2026, per SounderData. The Final Approval Hearing was noticed for August 17, 2026 before Judge Carlos Agusto Rodriguez, in a notice dated April 29, 2026 and filed by Mariya Weekes of Milberg, PLLC for plaintiff.\n\nI could not get the complaint itself. It sits on the Broward Clerk's portal, which needs a login. SounderData has no complaint link, and it is a state case, so it is not on CourtListener/RECAP.\n\nThe not_pled values for FSCA and CIPA are inferred from the agreement's enumerated claims list, not from reading the complaint. CIPA would be unusual anyway for a Florida state-court case against a Florida/Illinois practice. The ECPA/Wiretap value is pled on the strength of the filed Settlement Agreement, which is a primary case document.\n\nI agree with the researcher on every statute. | fees_requested: Up to $350,000 in combined fees, costs and expenses (35% of the $1M cap), paid by the defendant or its insurers within the cap. The defendant agreed not to oppose this amount. No fee award has been confirmed.→Up to $350,000 in combined attorneys' fees, costs and expenses (Settlement Agreement 1.13). Paid by the defendant or its insurers inside the $1M all-inclusive Settlement Cap, and the defendant agreed not to object. Separate $1,500 service award request. No fee motion or fee award is posted on the settlement site. | Timing/money check (confirmed): CONFIRMED in window. The primary source is the Preliminary Approval Order (Judge Carlos A. Rodriguez, Broward 17th Cir., Div. 08, CACE26003864). It was electronically signed 04-22-2026 at 10:37 AM and e-filed 04/22/2026 at 12:32 PM (Filing #246578914). That date falls inside the 2026-04-09 to 2026-10-09 window. The order grants Plaintiff's Unopposed Motion for Preliminary Approval after a hearing.\n\nFinal hearing: Plaintiffs' Notice of Final Approval Hearing (e-filed 04/29/2026, Filing #247114544) sets it for 2026-08-17 at 10:30 a.m. by Zoom. The settlement website's dates page matches: notice 6/1/2026, opt-out and objection 6/22/2026, claims 7/21/2026, hearing 8/17/2026.\n\nFinal approval: not verified. As of 2026-10-09 the Simpluris document API for case DJC lists only 6 documents: Preliminary Approval Order, Settlement Agreement, Notice of Final Approval Hearing, Long Form Notice, Email Notice and Claim Form. There is no final approval order, final judgment or fee motion. Sounder still showed \"outcome not yet recorded\" on pages dated 2026-09-08 and 2026-10-08. The Broward Clerk docket was not checked because it sits behind a CAPTCHA. Leave final_approval_date blank and status as Preliminary approval until the docket is checked.\n\nPrelim motion filing date: exact date not found. The Settlement Agreement was fully executed 4/16/2026 (plaintiff signed 3/31 and 4/3; Amy Derick, M.D. and defense counsel signed 4/16/2026). So the motion was filed between 2026-04-16 and 2026-04-22, inside the window either way.\n\nFund: $1,000,000 is a claims-made \"Settlement Cap\" (SA 1.31). It covers approved claims, admin costs, the fee award, the service award and the Privacy Shield Pro subscriptions. It is not a non-reversionary common fund. Benefits are up to $12.50 cash per claim (pro rata reduction possible) plus 1 year of Privacy Shield Pro, retail value $24.99/month, sent automatically. Class size is not stated in the SA, the order or the notices. The class is all persons who made an appointment on www.derickdermatology.com from 11/21/2023 through 11/27/2025.\n\nClaims: the SA recitals list the Federal Wiretap Act (18 U.S.C. 2510 et seq.), so the case fits the fed wiretap/ECPA criterion. They also list breach of fiduciary duty/confidentiality, invasion of privacy, breach of implied contract, unjust enrichment and negligence. No FSCA or CIPA claim is listed.\n\nMinor discrepancy: the SA says the action was filed 2026-03-05, while the prelim order says November 2025. Class counsel is Milberg PLLC (Mariya Weekes) and Plawinski PLLC; defense counsel is Baker & Hostetler.",
-   "open_questions": "(1) I could not confirm final approval. The hearing was set for 2026-08-17, and as of 2026-09-08 Sounder still had no recorded outcome. The settlement website's documents page lists no final order. Checking the Broward Clerk docket would settle it; I did not try, because that site is behind a CAPTCHA. (2) Filing date conflict: the settlement agreement and ClassAction.org say the complaint was filed 2026-03-05, but the preliminary approval order says the action was brought in November 2025. The class period ends 2025-11-27, so there may have been an earlier filing or a pre-suit demand. (3) The complaint itself was not obtainable, so FSCA and CIPA are marked not_pled based on the settlement agreement's enumerated claims list. A Florida case with federal Wiretap Act claims and no FSCA claim is a bit unusual, so it is worth confirming against the complaint. (4) The filing date of the preliminary approval motion is unknown. It falls between the plaintiff signing on 2026-04-03 and the order on 2026-04-22. (5) Class size has not been disclosed. (6) The tracking vendors are not named; Google Analytics is inferred from the claim-form attestation.",
-   "id": "derick-dermatology-pixel"
-  },
-  {
-   "short_name": "University of Phoenix (Pixel / VPPA-ECPA)",
-   "caption": "Lauren Brand and Janielle Dawson, individually and on behalf of all others similarly situated v. The University of Phoenix, Inc.",
-   "defendant": "The University of Phoenix, Inc.",
-   "court": "Circuit Court of Sangamon County, Illinois, Seventh Judicial Circuit (related federal action: Dawson v. The University of Phoenix, Inc., N.D. Ill. No. 1:25-cv-03497, Judge Mary M. Rowland)",
-   "docket": "2026LA000170",
-   "judge": "Hon. Gail L. Noll",
-   "industry": "Higher education (for-profit online university)",
-   "technology": "Meta (Facebook) Pixel, plus Google Analytics, LinkedIn Insight Tag, TikTok, Microsoft, and Amazon tracking on phoenix.edu course and degree-program pages, including students' prerecorded course-video viewing",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Video Privacy Protection Act (18 U.S.C. § 2710); Illinois Eavesdropping Act (720 ILCS 5/14-1 et seq.). No California or Florida claims.",
-   "statute_evidence": "Settlement Agreement Recital A (Brand state complaint, filed 2026-07-21) and the Long Form Notice both list the claims as VPPA, ECPA 18 U.S.C. § 2510 et seq., and the Illinois Eavesdropping Act. The related federal Dawson complaint (N.D. Ill. 1:25-cv-03497, ECF 1, RECAP) has three counts. Count I is VPPA. Count II is ECPA, alleging that Defendant procured third-party trackers to intercept communications under § 2511(1)(a), used the intercepted contents under § 2511(1)(d), and seeking § 2520 civil remedies. Count III is the Illinois Eavesdropping Act. The Dawson motion-to-dismiss order (ECF 52, 2026-01-13) let the ECPA procurement claim and part of the Eavesdropping Act claim proceed. It limited the VPPA claim to disclosures to Facebook. URLs: https://cw.simpluris.com/docs/public/downloads/TBC2/SETTLEMENT_AGREEMENT ; https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.1.0.pdf ; https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.52.0.pdf",
-   "class_definition": "All individuals in the U.S. enrolled at the University of Phoenix from 2023-04-01 through the notice date (2026-10-06). For Illinois residents the period starts 2020-04-01. Defendant's controlled entities, officers and directors, and the judge are excluded.",
-   "class_size": 350000,
-   "class_size_note": "Approximate. The Settlement Agreement's Gross Maximum Funding clause (¶ 1.17) uses 350,000 persons as the baseline class size. The cap rises by $25 for each member above 350,000 if the class reaches 385,000 or more. No exact count is published.",
-   "settlement_structure": "Claims-made settlement with a cap, not a common fund. Defendant pays $25 per approved claim plus notice and administration costs, the fee award, and service awards. All of these together are capped at a Gross Maximum Funding of $8,750,000, and claims are reduced pro rata only if the cap is reached. Funds from uncashed checks revert to Defendant (¶ 2.6).",
-   "fund_amount": 8750000,
-   "payment_terms": "Flat $25 per approved claim, reduced pro rata only if the $8.75M cap is reached. One claim per member. Claimants log in with the Login ID and PIN from the email notice. Paid by check, Zelle, Venmo or PayPal. Claims, opt-outs and objections are all due 2026-11-05.",
-   "fees_requested": "Up to 35% of Gross Maximum Funding ($3,062,500) for fees, costs and expenses, paid by Defendant; Defendant agrees not to object (clear sailing). Service awards up to $5,000 per class rep (2 reps).",
-   "service_award": "Up to $5,000 each for 2 class representatives (Lauren Brand, Janielle Dawson), $10,000 total, paid by Defendant.",
-   "injunctive_relief": "Defendant will tell U.S. individuals who enroll through phoenix.edu that the website uses cookies and similar tracking tools. It will do this through a website banner and its privacy policy (¶ 2.7).",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "2026-09-22",
-   "final_hearing_date": "2026-11-20",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The Sangamon County court granted preliminary approval on 2026-09-22, which is inside the 2026-04-09 to 2026-10-09 window. Notice went out 2026-10-06 and the final approval hearing is set for 2026-11-20.",
-   "plaintiff_counsel": "Joshua D. Arisohn (Arisohn LLC); Scott R. Drury (Drury Legal, LLC). Defense counsel: Joel C. Griswold and Bonnie Keane DelGobbo (Baker & Hostetler LLP).",
-   "settlement_website": "https://www.uoppixelsettlement.com/",
-   "sources": [
-    {
-     "label": "Official settlement website (Simpluris)",
-     "url": "https://uoppixelsettlement.com/"
-    },
-    {
-     "label": "Settlement Agreement (claims, fund cap, 350k class baseline, fees, service awards, reversion, injunctive relief)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/TBC2/SETTLEMENT_AGREEMENT"
-    },
-    {
-     "label": "Long Form Notice (judge, statutes, deadlines, final approval hearing 2026-11-20, class counsel)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/TBC2/LONG_FORM_NOTICE"
-    },
-    {
-     "label": "Dawson v. Univ. of Phoenix, N.D. Ill. 1:25-cv-03497 docket (CourtListener)",
-     "url": "https://www.courtlistener.com/docket/69832522/dawson-v-the-university-of-phoenix-inc/"
-    },
-    {
-     "label": "Dawson complaint, ECF 1 (Counts I VPPA, II ECPA § 2511(1)(a),(d), III Illinois Eavesdropping Act)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.1.0.pdf"
-    },
-    {
-     "label": "Dawson MTD Memorandum Opinion and Order, ECF 52 (2026-01-13), upholding the ECPA procurement theory",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.52.0.pdf"
-    },
-    {
-     "label": "Dawson stay pending 2026-06-03 mediation, ECF 61",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.61.0_1.pdf"
-    },
-    {
-     "label": "SettlementInsight (secondary source: preliminary approval 2026-09-22)",
-     "url": "https://settlementinsight.com/university-of-phoenix-lawsuit"
-    },
-    {
-     "label": "ClaimDepot summary (secondary source)",
-     "url": "https://www.claimdepot.com/settlements/uop-pixel-settlement"
-    },
-    {
-     "label": "OpenClassActions summary (secondary source)",
-     "url": "https://openclassactions.com/settlements/vppa/university-of-phoenix-pixel-privacy-class-action-settlement.php"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher, and I agree on every statute. Settlement Agreement Recital A covers the Brand complaint, Sangamon County No. 2026LA000170, filed 2026-07-21. It lists the claims as the VPPA (18 U.S.C. § 2710), the ECPA (18 U.S.C. § 2510 et seq.) and the Illinois Eavesdropping Act. The Long Form Notice lists the same three claims. I could not get the Brand state-court complaint itself, so the settlement agreement is the primary source for that pleading.\n\nThe related federal complaint backs this up: Dawson, N.D. Ill. 1:25-cv-03497, ECF 1, filed 2025-04-01. Count Two is ECPA, citing § 2511(1)(a) for procuring interception and § 2511(1)(d) for use. Count One is VPPA and Count Three is the Illinois Eavesdropping Act. None of the four documents I checked (the settlement agreement, the Long Form Notice, the Dawson complaint and the ECF 52 order) cites CIPA §§ 631, 632, 632.7 or 638.51, or Fla. Stat. § 934. The only mention of California in the settlement agreement is the standard Civil Code § 1542 waiver.\n\nOn amendments: the CourtListener docket shows no amended complaint. The motion to dismiss (ECF 19 and 20) was decided against the original complaint. ECF 52 (2026-01-13) limited the VPPA claim to disclosures to Facebook. Its conclusion says Counts II (ECPA) and III (Eavesdropping Act) may proceed as to all six third parties. The court expressly declined to dismiss the ECPA claim.\n\nOne small difference from the researcher: they said only \"part of\" the Eavesdropping Act claim survived. The order's body does reject one conclusory theory (that Defendant directed the third parties), but the conclusion lets Count III proceed in full against all six. This does not affect the verdict.\n\nThe federal case was stayed for mediation (ECF 61, 2026-03-02), and the settlement was then filed in Illinois state court. ECPA is the only one of the listed statutes that is pled. There is no CIPA or Florida claim, so this case does not help with 631, 632 or 638.51. | fees_requested: Up to 35% of Gross Maximum Funding ($3,062,500) for fees, costs and expenses, paid by Defendant. Defendant agreed not to oppose (clear-sailing clause).→Up to 35% of Gross Maximum Funding ($3,062,500) for fees, costs and expenses, paid by Defendant; Defendant agrees not to object (clear sailing). Service awards up to $5,000 per class rep (2 reps). | Timing/money check (confirmed): I could not refute the in-window event. The official settlement site run by Simpluris (/dates/ page) lists \"Preliminary Approval Granted 9/22/2026\", which falls inside the 2026-04-09 to 2026-10-09 window. The other site dates are: notice email 2026-10-06; claim, opt-out and objection deadlines 2026-11-05; final approval hearing 2026-11-20 at 9:30 a.m. by Zoom before Hon. Gail L. Noll in Sangamon County Circuit Court, No. 2026LA000170. The long-form notice gives the same deadlines and hearing date. Final approval has not happened yet.\n\nMoney terms, checked against the Settlement Agreement:\n- The $8,750,000 is a \"Gross Maximum Funding\" cap, not a common fund. It is claims-made: $25.00 per approved claim, reduced pro rata only if the cap is reached. Fees, service awards and administration costs all come out of the cap. The agreement says the cap is never reduced.\n- The 350,000 class size is the agreement's baseline figure, not a confirmed count. If the class exceeds 385,000 (350,000 plus 10%), the defendant adds $25 for each person above 350,000, and the cap and fee calculation rise in proportion.\n- Fees: §8.1 caps fees, costs and expenses at 35% of the cap, stated as $3,062,500, and the defendant agrees not to object (clear sailing). Service awards are up to $5,000 per class representative.\n- Class counsel: Joshua Arisohn (Arisohn LLC) and Scott Drury (Drury Legal). Defense counsel: Baker & Hostetler (Joel Griswold).\n\nClaims are VPPA (18 U.S.C. 2710), federal wiretap/ECPA (18 U.S.C. 2510 et seq.) and the Illinois Eavesdropping Act. There are no CIPA or Florida FSCA claims; the ECPA claim is the one relevant to this table.\n\nBackground from the agreement's recitals: mediation 2026-06-03, term sheet signed 2026-07-16, state complaint filed 2026-07-21, agreement executed 2026-08-17.\n\nThe related federal case (N.D. Ill. 1:25-cv-03497, Judge Rowland) has no approval entries on CourtListener. A motion-to-dismiss ruling at ECF 52 (2026-01-13) granted it in part and denied it in part. The case was stayed at ECF 60/61 (2026-02-26 and 2026-03-02), and the docket shown ends at ECF 62. I could not find the date the preliminary approval motion was filed in state court, so motion_prelim_filed is blank. It probably falls between 2026-08-17 and 2026-09-22, but that is not verified. The web search budget had run out, and the Sangamon County docket was not checked.",
-   "open_questions": "(1) I did not see the preliminary approval order itself. The 2026-09-22 date comes from SettlementInsight. It is consistent with the Agreement, which sets the Notice Date 14 days after preliminary approval, and notice went out 2026-10-06. (2) The filing date of the motion for preliminary approval is unknown. The Sangamon County docket was not accessible. (3) The Brand state-court complaint (filed 2026-07-21) is not posted on the settlement site. Its claims come from Agreement Recital A and the Long Form Notice. Section-level detail of the ECPA count comes from the earlier Dawson federal complaint, which the state complaint presumably mirrors. (4) Class size of about 350,000 is inferred from the fund-escalator clause and is not an official count. (5) How the federal Dawson case was resolved after the state refiling is not shown on CourtListener. Its last entry is the 2026-03-02 stay. (6) This is an Illinois case and pleads no CIPA, § 638.51 or FSCA claims. Its value for the comparison table is as an ECPA/wiretap-procurement pixel settlement.",
-   "id": "university-of-phoenix-pixel-vppa-ecpa"
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim, so I'm confirming it from the complaint itself. I reached it with a Playwright browser session. The documents page links to a viewer at /files/..., and the PDF is served from /api/file/Complaint%20E-Filed%201-28-26.pdf/content. The file is 40 pages and 1,001,709 bytes, which matches the 1001.71 KB the site lists. The court header reads Filing # 240509131, E-Filed 01/28/2026, Broward 17th Judicial Circuit. Plaintiff is Annette Sophin and the defendant is WISP, Inc. (hellowisp.com, use of the Meta Pixel on a sexual/reproductive health telehealth site).\n\nThe complaint has four counts: Count I, FSCA, Fla. Stat. § 934.03 et seq. (Florida Class), with damages sought under § 934.10; Count II, CIPA, Cal. Penal Code § 631 / § 631(a) (Nationwide Class); Count III, negligence; Count IV, ECPA, 18 U.S.C. § 2511(1)(a), (c) and (d). A text search found no § 632, § 632.7 or § 638.51 anywhere in the complaint. The only nearby hit is a background line citing \"Code Sections 630 to 638\".\n\nNo amended complaint turned up. The site lists only the 1-28-26 complaint. The Motion for Final Approval (filed by Jeff Ostrow, dated July 13, 2026) describes the January 28, 2026 complaint as pleading FSCA § 934.03, CIPA § 631(a), ECPA § 2511(1) and negligence. In that motion, \"632\" appears only inside DocuSign envelope IDs.\n\nProcedural posture: settlement agreement signed 3/24/2026; preliminary approval order entered 4/14/2026 (Judge Fabienne E. Fahnestock, Div. 18); final approval order entered 8/5/2026; Kroll Settlement Administration is the administrator. One small discrepancy: the long-form notice gives the final approval hearing time as 8:30 a.m., while the website gives 9:45 a.m.\n\nI agree with every statute value the researcher reported. Their not_pled values for 632, 632.7 and 638.51 rested only on the notice; the complaint now confirms them. Wayback (web.archive.org) returned 503 during this check, so I did not rely on it. Local copies are in scratchpad C:\\Users\\DSamson\\AppData\\Local\\Temp\\claude\\C--Users-DSamson-Downloads\\2318d051-3a3d-4405-93f0-fc6b0dcd69d4\\scratchpad\\ as wisp_complaint.pdf/.txt, wisp_pao.pdf and wisp_fao.pdf. | motion_prelim_filed: —→2026-04-04 | fees_requested: Class counsel could seek up to $1,500,000 in fees, costs and expenses, paid by the defendant separately from class payments. The amount actually awarded is unknown. Some secondary sites (claimdepot, allaboutlawyer) call this a \"$1.5M settlement,\" but the notice shows $1.5M is only the fee cap, not a fund.→$1,500,000 in attorneys' fees and costs was requested and awarded in full (FAO ¶17), paid by the defendant separately from class payments. A $5,000 service award was also requested and awarded. Counsel's lodestar was $365,853.66 and costs were $3,492.92. | class_size: —→1638282 | Timing/money check (confirmed): CONFIRMED by primary sources on the official Kroll settlement site. The documents page links the signed court orders; I downloaded and read them.\n(1) Final Approval Order (file /files/Sophin%20v.%20Wisp%20-%20Final%20Approval%20Order.pdf): Judge Fabienne Fahnestock signed it on 2026-08-05 after the hearing that day. It is e-filed 08/05/2026 (Filing #254193406). It grants final approval, enters judgment dismissing with prejudice, and awards Class Counsel $1,500,000.00 in fees and costs plus a $5,000 service award. There were no objections. Paragraph 16 names 15 opt-outs, but paragraph 12 says \"thirteen,\" so the order contradicts itself.\n(2) Preliminary Approval Order (file name says \"Signed 4-14-26\"): e-filed 04/14/2026 (Filing #245988180). It confirms prelim approval on 2026-04-14.\n(3) Motion for Final Approval, e-filed 07/13/2026 (Filing #252347831): says the plaintiff filed the Motion for Preliminary Approval on 2026-04-04 and that the settlement agreement was executed 2026-03-24. I filled in motion_prelim_filed from this. April 4, 2026 was a Saturday, so the true docket date could be off by a day or two; I did not check the Broward Clerk docket directly.\nAll three events (prelim motion, prelim approval, final approval) fall inside the 2026-04-09 to 2026-10-09 window. The prelim motion date of 04-04 is just before the window, but approval of both kinds is in-window.\nCORRECTIONS/ADDITIONS:\n- motion_prelim_filed was \"?\". It is now 2026-04-04, per the final approval motion.\n- class_size was \"?\". It is now 1,638,282 unique class members, from the Kroll declaration's class list (1,643,791 raw records less 5,509 duplicates). The brief itself rounds to \"approximately 1.4 million.\"\n- fund_amount is still null on purpose. There is NO common fund. This is a claims-made settlement: $18.00 per Valid Claim, uncapped, paid by the defendant. Notice, administration, fees and the service award are paid separately. Leftover funds go cy pres (Broward Legal Aid), with no reverter. Counsel describes the benefit made available as worth more than $20M (about 1.4M x $18). As of 2026-07-13 there were 120,119 claim forms, roughly $2.16M at $18 each if all are valid; the final valid claim count was not found.\n- fees: the $1.5M was the cap, and the court awarded all of it. Secondary sites calling this a \"$1.5M settlement\" are wrong.\n- Final hearing time moved from 8:30 to 9:45 a.m. ET (Zoom). The date did not change.\nCLAIMS (per notice/site): Florida Security of Communications Act Fla. Stat. 934.03; CIPA Cal. Penal Code 631(a); ECPA 18 U.S.C. 2511(1); negligence. The case is about the Meta Pixel and other trackers on hellowisp.com. No CIPA 632 or 638.51 claim is pleaded. Court: Broward Cnty. Cir. Ct. (17th Jud. Cir.), Case No. CACE26001543. Class counsel: Jeff Ostrow (Kopelowitz Ostrow). Defense counsel: Fenwick & West. Administrator: Kroll.",
+   "open_questions": "(1) I did not see the final approval order. The 2026-08-05 date comes from ClaimDepot, Perplexity and Sounder (\"posted after Aug. 5 hearing\"), and the 2026-09-05 payments confirm final approval was granted. Confirm the exact entry date from the Broward Clerk docket or the settlement site's documents page, which is blocked by Cloudflare. (2) Fees and service award actually awarded are unknown; only the caps ($1.5M; $5K) are known. (3) Class size and claims count are unknown. (4) Whether the $18-per-claim payments have an aggregate cap or claims-made ceiling needs a check of the settlement agreement signed 2026-03-24. (5) Filing date of the motion for preliminary approval is unknown (between 2026-03-24 and 2026-04-14). (6) \"not_pled\" for §§ 632, 632.7 and 638.51 is based on the notice's claims list, not the complaint itself; confirm against the complaint e-filed 2026-01-28 if possible. (7) Google, Microsoft and TikTok as named tracking tools comes from secondary reporting only.",
+   "id": "sophin-v-wisp-hellowisp"
   },
   {
    "short_name": "Barefoot Dreams (Grubor)",
@@ -2152,239 +2160,6 @@ window.PRIVACY_COMPS = {
    "xcheck_notes": "Claims check (confirmed): I could not refute this; the researcher's findings hold. I read three primary court documents myself. (1) The Settlement Agreement (classaction.org PDF). The 33-page body is a scanned image, so I rendered the pages and read them. Recital E (p. 2) says that on Feb 27, 2026 Grubor (a Florida resident) and Blatt (a California resident) filed the action alleging FSCA (Fla. Stat. § 934.03 et seq.), ECPA (18 U.S.C. § 2511 et seq.), CIPA § 631, CIPA § 632, CDAFA § 502 and the California Constitution. Section 1.1 defines the Action as CACE26003507, Broward County. Exhibit B (the email notice) repeats the same list. (2) The Unopposed Motion for Preliminary Approval, filed Apr 23, 2026 (Section II.A, p. 4), lists the same claims. (3) The Supplemental Brief ISO Final Approval, filed Aug 31, 2026, and the attached Bursor & Fisher declaration (para. 10) say the Feb 27, 2026 Complaint alleged the same counts. The supplemental brief also discusses the merits of the FSCA, ECPA one-party-consent / crime-tort and CIPA § 631 issues in answering objector Pilcher. No document mentions an amended complaint; I searched for 'amend' and found only Rule 23 references. None of the documents mentions § 632.7, § 638.51 or pen-register / trap-and-trace. The settlement site posts no complaint, and I did not pull the complaint from the Broward clerk docket. So the counts come from the parties' own sworn and filed descriptions of the Complaint, not from the pleading itself. One small point: the documents cite FSCA § 934.03 (the prohibition), not § 934.10 (the civil-remedy section); I still count FSCA as pled. Defendant: Barefoot Dreams. Class counsel: Bursor & Fisher. Settlement: $8 per claimant. A Final Approval Order is posted on the site. The settlement-site PDFs return 403 (Cloudflare) to direct requests and download only from an in-page click on the Documents page. | fees_requested: Requested one-third of the fund. That was $644,776 on the original $1,934,328 fund, and $900,440 on the $2,701,320 fund after the Addendum (per the 2026-08-31 Supp. Brief). The court AWARDED only $285,000 inclusive of costs. This is a lodestar award: 284.30 hours x $615.35 = $174,943.57 base, times a 1.63 Kuhnlein multiplier (Final Approval Order ¶ 11, 2026-09-26).→Requested one-third of the fund: $644,776 on the original $1,934,328 cap, then $900,440 on the $2,701,320 cap after the Addendum (Supp. Brief, e-filed 2026-08-31, claimed a 5.15x lodestar multiplier). The court AWARDED $285,000 including costs: 284.30 hrs x $615.35 = $174,943.57 lodestar x 1.63 Kuhnlein multiplier (Final Approval Order para. 11). Service awards were $5,000 each to the two plaintiffs (para. 13). | Timing/money check (confirmed): CONFIRMED from primary sources. I downloaded the court-stamped PDFs from the official Epiq settlement site through a headless browser, because direct curl gets a Cloudflare 403. All events fall inside the 2026-04-09 to 2026-10-09 window.\n- Settlement Agreement dated 2026-04-10.\n- Unopposed Motion for Prelim Approval e-filed 2026-04-23 (Filing #246722185).\n- Prelim Approval Order e-filed 2026-05-01 (Filing #247325081), signed by Judge Michele Towbin Singer, Div. 21.\n- Final Approval Order and Final Judgment signed 2026-09-26 and e-filed 2026-09-26 at 12:30 PM (Filing #257932321). The website also says final approval was granted September 26, 2026.\n\nFinal hearing: the Final Approval Hearing was held on TWO dates, 2026-08-17 (the date in the notice) and 2026-09-24. I report 9/24 because that is when the hearing concluded.\n\nFund caveat: $2,701,320 is a CAP on a claims-made, REVERSIONARY fund, not a common fund. It equals $8 x 337,665. The Final Order directs a \"Reversionary Payment to Defendant.\"\n- The original cap was $1,934,328 ($8 x 241,791).\n- A 2026-06-10 Addendum raised the cap to $2,701,320 after the defendant's records showed about 337,665 class members.\n- Notice, administration costs, fees and service awards are paid on top of the cap.\n- Only 4,944 claim forms had come in as of 2026-08-11 (Azari Supp. Decl.). At $8 each, that is roughly $39.5K actually paid to claimants. The brief claimed a claims rate of about 2%; 4,944 / 337,665 is about 1.5%.\n- When comparing demands, treat $2.7M as the headline maximum only.\n\nClass: no opt-outs; two objections (Pilcher, Cole), both overruled. Class period runs 2023-10-14 through the notice date; the website says 2026-06-01. Class counsel is Bursor & Fisher (Fraietta, Beck); defense counsel is Paul Hastings and Kudman.\n\nClaims pleaded (per the settlement site): FSCA s. 934.03, ECPA 18 USC 2511, CIPA 631, CIPA 632, CDAFA 502 and the Cal. Constitution, through the Meta Pixel and Attentive tracking.\n\nEvery researcher figure checked out exactly, including that $644,776 is one-third of $1,934,328. No corrections were needed beyond noting the first hearing date.",
    "open_questions": "(1) The complaint itself was not reviewed because it was not posted on the settlement site. The claims list comes from the settlement agreement recitals, the preliminary-approval motion, the supplemental brief and the website, all of which match. (2) Fund amount: the table should probably use the $2,701,320 post-Addendum cap (337,665 x $8), not the $1,934,328 figure in news coverage and ClaimDepot. Because the fund is reversionary and claims-made, actual payout to the class is about 4,944 claims x $8, roughly $39.6K (preliminary count as of 2026-08-11). The final validated claim count is unknown. (3) The court cut fees from the requested one-third ($900,440) to $285,000 on a lodestar-multiplier basis. This is a useful data point for fee comparisons in reversionary claims-made pixel settlements. (4) The final approval hearing was first held 2026-08-17, continued for supplemental briefing, and held again 2026-09-24.",
    "id": "barefoot-dreams-grubor"
-  },
-  {
-   "short_name": "Ideal Image (Minano)",
-   "caption": "Gayle Minano, individually and on behalf of all others similarly situated v. Ideal Image Development Corporation",
-   "defendant": "Ideal Image Development Corporation",
-   "court": "Circuit Court of the 13th Judicial Circuit in and for Hillsborough County, Florida (Circuit Civil, Division C)",
-   "docket": "25-CA-011075 (the settlement website and notice use 23-CA-014439, but the signed preliminary approval order strikes 23-CA-014439 and replaces it with 25-CA-011075). Earlier federal filing: G.M. v. Ideal Image Development Corp., No. 3:24-cv-02297-AJB-BJC (S.D. Cal., filed 2024-12-10, voluntarily dismissed 2025-02-25).",
-   "judge": "Hon. Melissa M. Polo",
-   "industry": "Aesthetics / med-spa (laser hair removal, body contouring, cosmetic treatments)",
-   "technology": "Meta (Facebook) Pixel and other tracking tools on idealimage.com consultation-booking pages. These sent users' PII and booking activity, linked to Facebook IDs, to Meta.",
-   "cipa_631": "pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "pled",
-   "other_claims": "None in the operative Florida complaint beyond FSCA, CIPA § 631(a) and ECPA, based on the claims lists. The earlier S.D. Cal. complaint also pled California CMIA (Civ. Code § 56 et seq.) and invasion of privacy under the California Constitution; these were dropped when the case was refiled in Florida.",
-   "statute_evidence": "Settlement Agreement, Recital I (classaction.org/media/minano-v-ideal-image-settlement-agreement.pdf): the Florida complaint filed 2025-11-03 pleads FSCA (Fla. Stat. § 934.03), CIPA (Cal. Penal Code § 631(a)) and ECPA (18 U.S.C. § 2510 et seq.). The long-form notice on idealimagesettlement.com/faq (Q3) gives the same three statutes, and the release names the same three. I did not see the Florida complaint itself, so the not_pled marks for §§ 632, 632.7 and 638.51 rest on these claims lists. For context, the earlier S.D. Cal. complaint (RECAP, casd 3:24-cv-02297, ECF 1) pled: Count I ECPA § 2511(1); Count II CIPA § 631; Count III CMIA; Count IV California constitutional privacy. It did not plead § 632 or § 638.51.",
-   "class_definition": "Nationwide: all persons residing in the U.S. who used www.idealimage.com to schedule a consultation for services from 2023-01-01 through the date of preliminary approval. The notice and website give the end date as 2026-01-26 and add \"and had PII shared with a third party without consent.\" Claimants must affirm they had a Meta account during the class period.",
-   "class_size": 223472,
-   "class_size_note": "Not disclosed. The preliminary approval order says only \"approximately thousands\" of class members. No claims-rate or class-list count found.",
-   "settlement_structure": "Claims-made with a $3.5M cap. It is not a true non-reversionary common fund. The agreement calls the $3.5M the \"Settlement Benefit Cap,\" Defendant's maximum obligation. Approved claims, the fee award and expenses, the incentive award, administration costs and taxes are all paid within the cap. Within 10 days of final approval, Defendant funds a \"Cash Payment Fund\" sized only to approved claims. Uncleared checks (void after 180 days) revert to Defendant. The website and press describe it as a \"$3.5M Settlement Fund.\"",
-   "fund_amount": 3500000,
-   "payment_terms": "Flat cash payment of $17 per approved claim, reduced pro rata if claims exceed the cap. One claim per person, and the claimant must affirm a Meta account during the class period. Claims deadline 2026-04-27. Payments were issued 2026-09-30 by check, Zelle, PayPal, Venmo or e-Mastercard; checks void after 2027-03-29.",
-   "fees_requested": "Requested up to one-third of the $3.5M fund plus $15,000 in costs. Awarded $1,167,000 in fees, $15,000 in costs and a $3,000 service award (Final Approval Order ¶¶11, 13).",
-   "service_award": "Up to $3,000 requested for the class representative (Gayle Minano). Amount awarded not confirmed.",
-   "injunctive_relief": "From the Effective Date, Defendant will suspend its collection of sensitive information from idealimage.com consumers (Agreement § 2.2). The notice describes this as suspending tracking technologies that disclose website users' PII to third parties without consent.",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "2026-02-13",
-   "final_hearing_date": "2026-06-17",
-   "final_approval_date": "2026-06-17",
-   "status": "Final approval",
-   "window_basis": "Final approval was granted on 2026-06-17, after the final approval hearing that day, which falls inside the 2026-04-09 to 2026-10-09 window. Preliminary approval (2026-02-13) was before the window.",
-   "plaintiff_counsel": "Bursor & Fisher, P.A. (Sarah N. Westcot, Alec Leslie), appointed Class Counsel. One secondary source (marctonnaclifflaw.com) also names the Law Offices of Jibrael S. Hindi, PLLC; this is unverified. Defense counsel: Angelo A. Stio III, Troutman Pepper Locke LLP. Administrator: Kroll Settlement Administration. Mediator: Hon. Joseph A. Dickson (Ret.).",
-   "settlement_website": "https://www.idealimagesettlement.com/",
-   "sources": [
-    {
-     "label": "Settlement Agreement (recitals with claims list and procedural history; $3.5M cap; $17 payment; fees/incentive caps; reversion; prospective relief)",
-     "url": "https://www.classaction.org/media/minano-v-ideal-image-settlement-agreement.pdf"
-    },
-    {
-     "label": "Preliminary Approval Order, signed by Judge Polo and electronically conformed 2026-02-13 (docket 25-CA-011075; class definition; Kroll; final hearing reset to 6/17/26 9:30 am)",
-     "url": "https://www.classaction.org/media/minano-v-ideal-image-preliminary-approval.pdf"
-    },
-    {
-     "label": "Official settlement website FAQ / long-form notice (statutes; class period end 2026-01-26; payments issued 2026-09-30; checks void 2027-03-29)",
-     "url": "https://www.idealimagesettlement.com/faq"
-    },
-    {
-     "label": "ClaimDepot (final approval granted 2026-06-17; fee cap $1,166,666.67; payment date)",
-     "url": "https://www.claimdepot.com/settlements/ideal-image-settlement"
-    },
-    {
-     "label": "ClassAction.org news article ($3.5M; up to $17; claims deadline; hearing date)",
-     "url": "https://www.classaction.org/news/3.5m-ideal-image-settlement-ends-class-action-lawsuit-over-alleged-data-tracking"
-    },
-    {
-     "label": "Earlier S.D. Cal. complaint, G.M. v. Ideal Image, 3:24-cv-02297, ECF 1 (counts: ECPA, CIPA 631, CMIA, Cal. Const.)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.casd.799920/gov.uscourts.casd.799920.1.0.pdf"
-    },
-    {
-     "label": "CourtListener docket, S.D. Cal. 3:24-cv-02297",
-     "url": "https://www.courtlistener.com/docket/69452938/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I downloaded and read the signed Settlement Agreement (34 pp., captioned Hillsborough Cir. Ct. Div. C, No. 25-CA-011075). Recital I says that on Nov. 3, 2025 Plaintiff filed the complaint in this Action alleging three violations: FSCA, Fla. Stat. § 934.03; CIPA, Cal. Penal Code \"§§ 631(a)\"; and ECPA, 18 U.S.C. § 2510 et seq. The release (p. 9) names FSCA § 934.03, CIPA (no section given) and ECPA § 2510. On FSCA, the agreement cites § 934.03, which is the prohibition section; § 934.10 is the civil-remedy section. I treat FSCA as pled.\n\nThe PA order (classaction.org PDF, 12 pp.) is captioned 23-CA-014439 on page 1 and 25-CA-011075 on every later page. It does not list the statutes.\n\nI did not get the Florida complaint itself, so 632, 632.7 and 638.51 are marked not_pled only because the agreement's list of claims leaves them out. One drafting oddity: the recital writes \"§§ 631(a)\" with a double section mark but only one section. It may be a typo, or another section may have dropped out of the list. Even so, nothing in the agreement mentions 632, 632.7 or 638.51.\n\nThe settlement FAQ (idealimagesettlement.com/faq) is behind a Cloudflare bot check, which I did not try to get past. I was not able to read it.\n\nFor context, I also read the earlier S.D. Cal. complaint (RECAP casd 3:24-cv-02297, ECF 1, 33 pp.). Its counts are: I ECPA § 2511(1); II CIPA § 631; III CMIA § 56.10; IV California constitutional privacy. The text has no mention of 632, 638.5x or 934. That case was voluntarily dismissed without prejudice on Feb. 25, 2025 (Recital D), so it is not the operative complaint. The Florida complaint adds FSCA and drops CMIA and the constitutional claim.\n\nI found no amended Florida complaint that drops a count. My values match the researcher's on all six statutes. | fees_requested: Up to one-third of $3.5M ($1,166,666.67) plus up to $15,000 in costs. The fee motion was due 2026-04-13. The amount actually awarded was not confirmed.→Requested up to one-third of the $3.5M fund plus $15,000 in costs. Awarded $1,167,000 in fees, $15,000 in costs and a $3,000 service award (Final Approval Order ¶¶11, 13). | class_size: None→223472 | Timing/money check (confirmed): CONFIRMED in window. Sources are the signed court orders posted on the official Kroll settlement site (idealimagesettlement.com/documents). The site blocks plain HTTP clients with a 403, so I retrieved them with headless Playwright through its /api/file/.../content endpoint.\n\n(1) FINAL APPROVAL: The Order on Motion for Final Approval and Final Judgment, Hillsborough Cir. Ct., Div. C, Judge Melissa M. Polo, No. 25-CA-011075, is stamped \"Electronically Conformed 6/17/2026\". It states the final approval hearing was held 2026-06-17 at 9:30 a.m. It finally approves the settlement, finally certifies the class, enters final judgment and dismisses the case with prejudice. 2026-06-17 is inside the 2026-04-09 to 2026-10-09 window.\n\n(2) PRELIM APPROVAL: The preliminary approval order is stamped \"Electronically Conformed 2/13/2026\". The FAO also recites that preliminary approval was granted on 2026-02-13. This date is outside the window, but final approval qualifies on its own. The PAO caption reads 23-CA-014439, and page 2 onward reads 25-CA-011075.\n\n(3) PRELIM MOTION FILED: No filing date found, so the field is left blank. The settlement agreement was fully signed by 2026-01-06 (counsel signature date; Ideal Image signed 2025-12-19, plaintiff 2025-12-10). So the motion was filed between about 2026-01-06 and 2026-02-13, which is outside the window anyway.\n\n(4) OTHER IN-WINDOW EVENT: The Motion for Final Approval and fee petition was e-filed 2026-04-10 (Filing #245740749), with the Kroll/Dudinski declaration. The researcher's \"fee motion due 2026-04-13\" was a deadline; the actual filing was 2026-04-10.\n\n(5) FEES, CORRECTED: The researcher's figure was requested only. Actual award (FAO ¶11) was $1,167,000 in attorneys' fees and $15,000 in costs. FAO ¶13 awarded a $3,000 service award. The postcard notice had said up to $5,000; the long-form notice said up to $3,000.\n\n(6) CLASS SIZE, ADDED: Kroll declaration: 223,547 records minus 75 duplicates = 223,472 unique class members. 215,490 had email addresses and 7,920 had mail addresses only. Estimated notice reach was 217,439 (about 97.3%). As of about April 6, 2026, there were 11,466 claims (87 paper, 11,379 online), 0 opt-outs and 0 objections. The FAO says no objections.\n\n(7) FUND: $3,500,000 non-reversionary-style fund confirmed (MFA, Settlement Agreement). Notice and administration costs, fees and the service award come out of the fund. Each claimant gets $17.00, reduced pro rata if claims exceed the fund.\n\n(8) CLASS DEFINITION, CORRECTED: The FAO defines the class as US residents who used idealimage.com to schedule a consultation from 2023-01-01 through 2026-02-13. ClaimDepot's end date of Jan 26, 2026 is wrong.\n\n(9) CLAIMS: The Settlement Agreement recital I says the 2025-11-03 state complaint pleaded:\n- FSCA, Fla. Stat. § 934.03\n- CIPA, Cal. Penal Code § 631(a)\n- ECPA, 18 U.S.C. § 2510 et seq.\nThe final approval motion lists only FSCA and CIPA § 631(a). There is no CIPA § 632 or § 638.51 claim. The theory is disclosure of PII entered on the website to Facebook/third parties via tracking tech.\n\n(10) CASE HISTORY: Per the SA recitals:\n- Demand letter served 2024-06-11.\n- S.D. Cal. complaint filed 2024-12-10.\n- Motion to compel arbitration/dismiss filed about 2025-02-02.\n- Voluntary dismissal about 2025-02-25.\n- Mediation 2025-08-21.\n- Settlement in principle 2025-10-01.\n- Florida state complaint filed 2025-11-03.\nClass counsel are Sarah Westcot and Alec Leslie of Bursor & Fisher.\n\n(11) PAYMENTS: ClaimDepot (secondary only, not independently verified) says payments were issued 2026-09-30.",
-   "open_questions": "1) The final approval order itself was not seen. The 2026-06-17 grant date comes from ClaimDepot and is corroborated by the official site reporting payments issued 2026-09-30. The Hillsborough docket was not checked. 2) The court's actual fee, cost and incentive awards are unknown; only the caps are known. 3) The class size, number of claims and total paid out are unknown, and so is how much of the $3.5M cap stayed with Defendant, which matters for comparing structures. 4) The date the preliminary approval motion was filed was not found. 5) The Florida complaint itself was not reviewed; the statute marks rely on the Agreement recital and notice claims lists. 6) The class-period end date differs: 2026-01-26 in the notice and website versus \"date of preliminary approval\" (2026-02-13) in the Agreement and order. 7) The docket number differs: 23-CA-014439 on the settlement site versus 25-CA-011075 in the Agreement and the corrected order. 8) No § 632 or § 638.51 claim was pled, so this settlement supports §§ 631, ECPA and FSCA, not § 638.51.",
-   "id": "ideal-image-minano"
-  },
-  {
-   "short_name": "Northwell Health (pixel)",
-   "caption": "Kaplan, et al. v. Northwell Health, Inc.",
-   "defendant": "Northwell Health, Inc.",
-   "court": "Supreme Court of the State of New York, County of Kings",
-   "docket": "Index No. 520763/2025 (refiled in state court; predecessor consolidated federal action Kaplan v. Northwell Health, No. 2:23-cv-07205-GRB-LGD (E.D.N.Y.), voluntarily dismissed)",
-   "judge": "Hon. Steven Mostofsky",
-   "industry": "Healthcare (hospital / health system)",
-   "technology": "Meta (Facebook) Pixel, Meta Conversions API (CAPI, server-side), and Google Analytics on northwell.edu (incl. online appointment booking) and associated with the FollowMyHealth patient portal",
-   "cipa_631": "not_pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Breach of fiduciary duty/confidentiality (Count I); invasion of privacy under N.Y. Civ. Rights Law §§ 50, 51 (Count III); breach of implied contract (Count IV); unjust enrichment (Count V); negligence (Count VI); N.Y. Gen. Bus. Law § 349 (Count VII).",
-   "statute_evidence": "Operative state-court Complaint (NYSCEF Doc. 1, filed 2025-06-23), posted on the settlement website at https://cw.simpluris.com/docs/public/downloads/NKC/COMPLAINT. It pleads seven counts. Count II is \"Violations of Electronic Communications Privacy Act (ECPA) 18 U.S.C. § 2511(1), et seq.\" (interception, use and disclosure). No California Penal Code (CIPA §§ 631/632/632.7/638.51) or Florida § 934 claims appear anywhere in the complaint. The long-form notice also describes the claims as ECPA, 18 U.S.C. § 2511 et seq., plus state law.",
-   "class_definition": "Two subclasses. Subclass 1: Northwell patients who logged into the FollowMyHealth patient portal, or booked an appointment on northwell.edu, between 2020-01-01 and 2023-12-31. Subclass 2: all other Northwell patients between 2020-01-01 and 2024-07-25 not in Subclass 1.",
-   "class_size": 5513548,
-   "class_size_note": "Exact count per administrator (Simpluris Decl. para. 8, cited in final approval memo): 761,023 Subclass 1 + 4,752,525 Subclass 2 = 5,513,548 unique members (6,536,106 records before de-duplication). Fee motion used different approximations (~904,145 Subclass 1; ~5.2M total). Claims as of ~2026-04-06: 55,795 Subclass 1 and 80,289 Subclass 2 (overall ~2.47% claims rate); 196 opt-outs; 4 objections (2 withdrawn).",
-   "settlement_structure": "Claims-made settlement with no common fund; attorneys' fees/costs, service awards and administration paid separately by Defendant. No aggregate cap on claims identified in the documents reviewed. Plaintiffs characterized it as a \"constructive common fund\" valued at ~$1.578B (almost entirely the retail value of privacy-monitoring subscriptions).",
-   "fund_amount": null,
-   "payment_terms": "Subclass 1: $15.00 cash plus 12-month CyEx Privacy Shield Pro privacy-monitoring subscription (claim form required). Subclass 2: 12-month privacy-monitoring subscription only, no cash. Claim deadline 2026-04-20. Checks void after 180 days.",
-   "fees_requested": "$5,250,000 combined fees and expenses requested (motion NYSCEF Doc 46, filed 2026-03-09), paid by Northwell separately from class benefits. Granted in full in the order and judgment entered 2026-04-23 (NYSCEF Doc 98), which also granted service awards of $3,000. Plaintiffs put the total benefit at $1,578,434,587, so the fee is about 0.33% of it. Lodestar is $1,264,473.84, a multiplier of about 4.15.",
-   "service_award": "$3,000 per class representative requested (3 reps: Eryn Kaplan, Michael Zurl, Kathyann McClendon; $9,000 total); granted.",
-   "injunctive_relief": "None in the settlement agreement. By declarations filed with final approval (Soto and Myers Decls.), Northwell represented that Meta Pixel and Google Analytics were removed from northwell.edu, any remaining trackers do not send data to Meta/Google, no trackers are in the FollowMyHealth portal, and MyNorthwell portal tracking is HIPAA-protected. Not contractually binding relief.",
-   "motion_prelim_filed": "2025-08-28",
-   "prelim_approval_date": "2025-12-10",
-   "final_hearing_date": "2026-04-21",
-   "final_approval_date": "2026-04-23",
-   "status": "Final approval",
-   "window_basis": "The Final Approval Order and Judgment (NYSCEF Doc. 98) was entered 2026-04-23, after the 2026-04-21 fairness hearing, which falls inside the 2026-04-09 to 2026-10-09 window. A notice of appeal from that order has been filed.",
-   "plaintiff_counsel": "Terence R. Coates (Markovits, Stock & DeMarco, LLC); Elena A. Belov and David S. Almeida (Almeida Law Group LLC); Gary M. Klinger (Milberg Coleman Bryson Phillips Grossman, PLLC); Bryan L. Bleichner, Christopher P. Renz, Philip J. Krzeski (Chestnut Cambronne PA); Joseph M. Lyon (The Lyon Firm, LLC); Nicholas A. Coulson (Coulson P.C.). Defense: Ropes & Gray LLP.",
-   "settlement_website": "https://www.nwpixelsettlement.com/",
-   "sources": [
-    {
-     "label": "Official settlement website (home, important dates, documents)",
-     "url": "https://www.nwpixelsettlement.com/"
-    },
-    {
-     "label": "Settlement website - Important Dates (prelim 12/10/2025; FAH 4/21/2026)",
-     "url": "https://www.nwpixelsettlement.com/dates/"
-    },
-    {
-     "label": "Complaint (NYSCEF Doc. 1, filed 2025-06-23) - counts I-VII incl. ECPA",
-     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/COMPLAINT"
-    },
-    {
-     "label": "Long Form Notice (class defs, benefits, counsel, fee cap $5.25M, $3K service awards)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/LONG_FORM_NOTICE"
-    },
-    {
-     "label": "Preliminary Approval Order (NYSCEF Doc. 38, 2025-12-10)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/PRELIMINARY_APPROVAL_ORDER"
-    },
-    {
-     "label": "Signed Final Approval Order & fee order (NYSCEF Doc. 98, received 2026-04-23; Hon. Steven Mostofsky)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/FINAL_APPROVAL_ORDER"
-    },
-    {
-     "label": "Memorandum ISO Final Approval (NYSCEF Doc. 70) - class size, claims, procedural history, tracker removal",
-     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/MEMORANDUM_ISO_OF_PLAINTIFFS_MOTION_FOR_FINAL_APPROVAL_OF_CLASS_ACTION_SETTLEMENT"
-    },
-    {
-     "label": "Motion for Attorneys' Fees, Costs, and Service Awards (NYSCEF Doc. 46, 2026-03-09)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/PLAINTIFFS_APOSTROPHE__MOTION_FOR_ATTORNEY_FEES_COSTS_AND_SERVICE_AWARDS"
-    },
-    {
-     "label": "Settlement Agreement (scanned)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/SETTLEMENT_AGREEMENT"
-    },
-    {
-     "label": "ClassAction.org news summary",
-     "url": "https://www.classaction.org/news/northwell-health-settlement-resolves-class-action-lawsuit-over-alleged-pixel-data-sharing"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim, and I agree with the researcher on every statute. I downloaded and read the full 76-page operative state-court complaint: Kaplan, Zurl & McClendon v. Northwell Health, Inc., Kings County Index No. 520763/2025, filed with NYSCEF on 2025-06-23. It pleads seven counts:\n- I: breach of fiduciary duty/confidentiality\n- II: ECPA, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure), with damages sought under § 2520\n- III: invasion of privacy (N.Y. Civ. Rights Law §§ 50-51)\n- IV: breach of implied contract\n- V: unjust enrichment\n- VI: negligence\n- VII: N.Y. GBL § 349\n\nThe complaint does mention N.Y. Penal Law §§ 156.05, 156.10 and 156.29, but only inside Count II as the basis for the crime-tort exception under § 2511(2)(d). They are not standalone claims. The complaint contains no California Penal Code (CIPA §§ 631, 632, 632.7 or 638.51) or Fla. Stat. § 934 claims.\n\nAmended complaint: none. The settlement site's documents page (rendered with Playwright) lists only the one complaint, and its three named plaintiffs match the long-form notice.\n\nCorroborating documents:\n- Long-form notice (Q3) describes the claims as ECPA, 18 U.S.C. § 2511 et seq., plus state law.\n- Final-approval memorandum (NYSCEF Doc. 70, 4/7/2026) gives the history. The E.D.N.Y. consolidated action (2:23-cv-07205-GRB-LGD) had some claims dismissed at a pre-motion conference, and the federal court was skeptical of the ECPA claim. The parties settled at mediation on 2/12/2025, then dismissed the federal case voluntarily and refiled in state court, still pleading ECPA.\n\nCase status: the site shows a final fairness hearing on 4/21/2026, a Final Approval Order on 4/23/2026, and a notice of appeal filed after final approval. The site also lists objector filings, including a cross-motion to disqualify class counsel.\n\nComparison-table caveat: the ECPA count was under judicial skepticism before settlement, so this case adds ECPA support but none for CIPA or FSCA. | fees_requested: Up to $5,250,000 combined fees and expenses requested (motion filed 2026-03-09), paid separately by Defendant; GRANTED in full by order entered 2026-04-23 (stated by plaintiffs as ~0.33% of claimed $1.578B benefit; lodestar ~$1.26M, multiplier ~4.15).→$5,250,000 combined fees and expenses requested (motion NYSCEF Doc 46, filed 2026-03-09), paid by Northwell separately from class benefits. Granted in full in the order and judgment entered 2026-04-23 (NYSCEF Doc 98), which also granted service awards of $3,000. Plaintiffs put the total benefit at $1,578,434,587, so the fee is about 0.33% of it. Lodestar is $1,264,473.84, a multiplier of about 4.15. | Timing/money check (confirmed): I tried to refute the dates and could not. A primary source puts the final approval inside the 2026-04-09 to 2026-10-09 window.\n\nDates:\n- **Final approval:** The Final Approval Order and Judgment, together with the fee order, is NYSCEF Doc 98 under Index No. 520763/2025, Sup. Ct. Kings County. The NYSCEF stamp reads \"RECEIVED NYSCEF: 04/23/2026\". The handwritten signing day is not legible in the scan. The order says the final approval hearing was held 2026-04-21.\n- **Preliminary approval:** The order is NYSCEF Doc 38, received 12/10/2025 and clerk-stamped 12/11/2025. The final approval order also calls it the order \"entered December 10, 2025\".\n- **Preliminary approval motion:** The final approval order says the Settlement Agreement and notice documents were filed on 2025-08-28. I am using that as the motion filing date. I did not check the NYSCEF docket entry for the motion itself (the motion papers cite Joint Decl. \"Dkt. No. 10\").\n- **Other filings:** The state complaint is NYSCEF Doc 1, filed 2025-06-23. The fee motion is NYSCEF Doc 46, filed 2026-03-09. The final approval memorandum is NYSCEF Doc 70, filed 2026-04-07.\n\nMoney and class:\n- **No settlement fund.** Northwell pays all approved claims, administration costs, fees and service awards. Benefits: Subclass 1 gets $15 cash plus 12 months of CyEx Privacy Shield Pro. Subclass 2 gets the 12-month subscription only. The $1,578,434,587 figure is plaintiffs' own valuation, built from a $299.98/yr retail price times about 5.2M members. It is not a fund.\n- **Class size confirmed at 5,513,548** (Simpluris declaration as cited in the final approval memorandum): 761,023 in Subclass 1 and 4,752,525 in Subclass 2. The fee motion used different figures: about 5.2M members and about 904,145 in Subclass 1.\n- **Claims as of 2026-04-06:** 136,084 claims (55,795 from Subclass 1 and 80,289 from Subclass 2), a 2.47% overall rate.\n- **Opt-outs and objections:** 196 opt-outs. Four objections were filed and two withdrawn. The court overruled the remaining two (Lake and Ross) and denied Ross's cross-motion for disqualification.\n\nClaims screen: the state complaint includes Count II under the ECPA, 18 U.S.C. § 2511(1). The other counts are breach of fiduciary duty, NY Civ. Rights Law §§ 50-51, implied contract and unjust enrichment, and the complaint's summary also lists GBL § 349. There are no CIPA or FSCA claims. The predecessor federal action was Kaplan v. Northwell Health, No. 2:23-cv-07205 (E.D.N.Y.). It was voluntarily dismissed and refiled in state court after the parties settled at mediation, while the federal judge had signaled doubts about the ECPA claim.\n\nCaveat: the settlement website (nwpixelsettlement.com) says a Notice of Appeal has been filed and administration is on hold until the appeal is resolved. So final approval is granted but not yet final.",
-   "open_questions": "(1) A notice of appeal from the final approval order has been filed (per the settlement website). The appellant (likely objector Ross, whose cross-motion to disqualify class counsel was denied, or objector Lake) and the appeal status in the App. Div., 2d Dept. were not confirmed. (2) The motion for preliminary approval filing date of 2025-08-28 is inferred: the final approval order says the Settlement Agreement and notice documents were filed with the Court on that date. The NYSCEF entry itself was not checked. (3) The signed Settlement Agreement PDF is image-only and was not OCR'd, so there is no direct confirmation that claims are uncapped. Briefs describe it only as claims-made, with fees paid separately. (4) fund_amount is left null because there is no cash fund. Cash exposure is $15 times valid Subclass 1 claims, about $0.84M on roughly 55.8K claims as of April 6 (not final). (5) Signed order pages are OCR-garbled on the exact signing day (April 21 or 23). The settlement website and NYSCEF receipt both give 2026-04-23. (6) Some secondary sites report $20/Dashlane terms. Primary documents show $15 plus CyEx Privacy Shield Pro. (7) For the 631/638.51 comparison table, this is a New York ECPA-only pixel settlement with no CIPA or FSCA counts.",
-   "id": "northwell-health-pixel"
-  },
-  {
-   "short_name": "Sophin v. WISP (HelloWISP)",
-   "caption": "Sophin v. WISP, Inc., Case No. CACE26001543 (Fla. Cir. Ct., 17th Jud. Cir., Broward Cnty.)",
-   "defendant": "WISP, Inc. (hellowisp.com)",
-   "court": "Circuit Court of the Seventeenth Judicial Circuit in and for Broward County, Florida",
-   "docket": "CACE26001543",
-   "judge": "Fabienne Fahnestock",
-   "industry": "Telehealth / online pharmacy (sexual and reproductive health products)",
-   "technology": "Meta Pixel plus other tracking, analytics and advertising technologies on hellowisp.com. Secondary reporting on the complaint (allaboutlawyer.com) also names Google, Microsoft and TikTok tools; the official notice names only the Meta Pixel.",
-   "cipa_631": "pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "pled",
-   "other_claims": "Negligence",
-   "statute_evidence": "The court-authorized Long-Form Notice (Q3, \"What is this Action about?\") and the official settlement website homepage (Wayback capture of 2026-06-08) list the claims as: FSCA, Fla. Stat. § 934.03 et seq.; CIPA, Cal. Penal Code § 631(a); negligence; and ECPA, 18 U.S.C. § 2511(1). §§ 632, 632.7 and 638.51 are not in that list. I could not open the complaint PDF itself (wispclasssettlement.com/uploads/Complaint_E_Filed_1_28_26_*.pdf, e-filed 2026-01-28) because the site sits behind a Cloudflare bot check, so \"not_pled\" for 632/632.7/638.51 rests on the notice's claims list. Sources: https://www.classaction.org/media/sophin-v-wisp-inc-notice.pdf and https://web.archive.org/web/20260608082136/https://wispclasssettlement.com/",
-   "class_definition": "All living U.S. citizens who purchased a product on hellowisp.com from Feb. 1, 2018 through Sept. 9, 2025. The usual exclusions apply (judges, the defendant and its affiliates, and opt-outs).",
-   "class_size": 1638282,
-   "class_size_note": "Not disclosed in the notice, the archived settlement site, or secondary coverage. Notice went by email with a unique Class Member ID, so the defendant has a customer list. The settlement agreement or the final approval papers would likely give the number, but I could not get them (Cloudflare-blocked).",
-   "settlement_structure": "Claims-made with no common fund. Each valid claim gets a fixed $18.00, not a pro rata share. The defendant separately pays notice and administration costs, the court-awarded fees and costs, and the service award. I found no aggregate cap in the notice; the agreement itself was not reviewed.",
-   "fund_amount": null,
-   "payment_terms": "$18.00 flat cash payment per valid claim, paid by PayPal, Venmo or Zelle, or by check that voids after 180 days. Claims had to include the Class Member ID from the emailed notice. Claim, opt-out and objection deadline was 2026-07-13. Payments reportedly went out around 2026-09-05.",
-   "fees_requested": "$1,500,000 in attorneys' fees and costs was requested and awarded in full (FAO ¶17), paid by the defendant separately from class payments. A $5,000 service award was also requested and awarded. Counsel's lodestar was $365,853.66 and costs were $3,492.92.",
-   "service_award": "Up to $5,000 for class representative Annette Sophin, paid by the defendant. Amount awarded unknown.",
-   "injunctive_relief": "None described in the notice or on the settlement website; the settlement agreement was not reviewed.",
-   "motion_prelim_filed": "2026-04-04",
-   "prelim_approval_date": "2026-04-14",
-   "final_hearing_date": "2026-08-05",
-   "final_approval_date": "2026-08-05",
-   "status": "Final approval",
-   "window_basis": "The court granted preliminary approval on 2026-04-14 (the official site lists a \"Preliminary Approval Order Signed 4-14-26\") and granted final approval at or after the 2026-08-05 hearing; both dates fall within 2026-04-09 to 2026-10-09.",
-   "plaintiff_counsel": "Jeff Ostrow, Kopelowitz Ostrow P.A. (Kopelowitz Ostrow Ferguson Weiselberg Gilbert), Fort Lauderdale. Defense counsel: Jay L. Pomerantz, Fenwick & West LLP.",
-   "settlement_website": "https://www.wispclasssettlement.com/ (administrator: Kroll Settlement Administration, case code 83399)",
-   "sources": [
-    {
-     "label": "Court-authorized Long-Form Notice (claims list, class definition, $18 payment, fee cap $1.5M, service award $5K, judge, counsel, dates)",
-     "url": "https://www.classaction.org/media/sophin-v-wisp-inc-notice.pdf"
-    },
-    {
-     "label": "Official settlement website, Wayback capture 2026-06-08 (claims list, deadlines, FAH 8/5/26; document list incl. Preliminary Approval Order signed 4-14-26, Settlement Agreement signed 3-24-2026, Complaint e-filed 1-28-26)",
-     "url": "https://web.archive.org/web/20260608082136/https://wispclasssettlement.com/"
-    },
-    {
-     "label": "Official settlement website, Wayback capture 2026-06-30 (FAQ text, document metadata)",
-     "url": "https://web.archive.org/web/20260630084352/https://wispclasssettlement.com/"
-    },
-    {
-     "label": "ClassAction.org news (statutes, prelim approval 4/14/26, FAH 8/5/26)",
-     "url": "https://www.classaction.org/news/wisp-settlement-resolves-class-action-lawsuit-over-alleged-data-disclosure-to-meta-other-third-parties"
-    },
-    {
-     "label": "ClaimDepot (final approval 8/5/26, payments from 9/5/26; mislabels $1.5M as total)",
-     "url": "https://www.claimdepot.com/settlements/wisp-class-settlement"
-    },
-    {
-     "label": "OpenClassActions (payment of $18 dated 9/5/26)",
-     "url": "https://openclassactions.com/news/wisp-settlement-payments-september-2026.php"
-    },
-    {
-     "label": "Sounder (complaint filed 1/28/26; SA executed 3/24/26; final approval order posted after 8/5/26 hearing; claims-made)",
-     "url": "https://sounderdata.com/lawsuits/sophin-v-wisp-inc/"
-    },
-    {
-     "label": "AllAboutLawyer (complaint reportedly alleges Meta, Google, Microsoft, TikTok pixels)",
-     "url": "https://allaboutlawyer.com/wisp-hellowisp-privacy-class-action-settlement/"
-    },
-    {
-     "label": "TopClassActions (counsel, administrator)",
-     "url": "https://topclassactions.com/lawsuit-settlements/closed-settlements/wisp-data-privacy-class-action-settlement/"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim, so I'm confirming it from the complaint itself. I reached it with a Playwright browser session. The documents page links to a viewer at /files/..., and the PDF is served from /api/file/Complaint%20E-Filed%201-28-26.pdf/content. The file is 40 pages and 1,001,709 bytes, which matches the 1001.71 KB the site lists. The court header reads Filing # 240509131, E-Filed 01/28/2026, Broward 17th Judicial Circuit. Plaintiff is Annette Sophin and the defendant is WISP, Inc. (hellowisp.com, use of the Meta Pixel on a sexual/reproductive health telehealth site).\n\nThe complaint has four counts: Count I, FSCA, Fla. Stat. § 934.03 et seq. (Florida Class), with damages sought under § 934.10; Count II, CIPA, Cal. Penal Code § 631 / § 631(a) (Nationwide Class); Count III, negligence; Count IV, ECPA, 18 U.S.C. § 2511(1)(a), (c) and (d). A text search found no § 632, § 632.7 or § 638.51 anywhere in the complaint. The only nearby hit is a background line citing \"Code Sections 630 to 638\".\n\nNo amended complaint turned up. The site lists only the 1-28-26 complaint. The Motion for Final Approval (filed by Jeff Ostrow, dated July 13, 2026) describes the January 28, 2026 complaint as pleading FSCA § 934.03, CIPA § 631(a), ECPA § 2511(1) and negligence. In that motion, \"632\" appears only inside DocuSign envelope IDs.\n\nProcedural posture: settlement agreement signed 3/24/2026; preliminary approval order entered 4/14/2026 (Judge Fabienne E. Fahnestock, Div. 18); final approval order entered 8/5/2026; Kroll Settlement Administration is the administrator. One small discrepancy: the long-form notice gives the final approval hearing time as 8:30 a.m., while the website gives 9:45 a.m.\n\nI agree with every statute value the researcher reported. Their not_pled values for 632, 632.7 and 638.51 rested only on the notice; the complaint now confirms them. Wayback (web.archive.org) returned 503 during this check, so I did not rely on it. Local copies are in scratchpad C:\\Users\\DSamson\\AppData\\Local\\Temp\\claude\\C--Users-DSamson-Downloads\\2318d051-3a3d-4405-93f0-fc6b0dcd69d4\\scratchpad\\ as wisp_complaint.pdf/.txt, wisp_pao.pdf and wisp_fao.pdf. | motion_prelim_filed: —→2026-04-04 | fees_requested: Class counsel could seek up to $1,500,000 in fees, costs and expenses, paid by the defendant separately from class payments. The amount actually awarded is unknown. Some secondary sites (claimdepot, allaboutlawyer) call this a \"$1.5M settlement,\" but the notice shows $1.5M is only the fee cap, not a fund.→$1,500,000 in attorneys' fees and costs was requested and awarded in full (FAO ¶17), paid by the defendant separately from class payments. A $5,000 service award was also requested and awarded. Counsel's lodestar was $365,853.66 and costs were $3,492.92. | class_size: None→1638282 | Timing/money check (confirmed): CONFIRMED by primary sources on the official Kroll settlement site. The documents page links the signed court orders; I downloaded and read them.\n(1) Final Approval Order (file /files/Sophin%20v.%20Wisp%20-%20Final%20Approval%20Order.pdf): Judge Fabienne Fahnestock signed it on 2026-08-05 after the hearing that day. It is e-filed 08/05/2026 (Filing #254193406). It grants final approval, enters judgment dismissing with prejudice, and awards Class Counsel $1,500,000.00 in fees and costs plus a $5,000 service award. There were no objections. Paragraph 16 names 15 opt-outs, but paragraph 12 says \"thirteen,\" so the order contradicts itself.\n(2) Preliminary Approval Order (file name says \"Signed 4-14-26\"): e-filed 04/14/2026 (Filing #245988180). It confirms prelim approval on 2026-04-14.\n(3) Motion for Final Approval, e-filed 07/13/2026 (Filing #252347831): says the plaintiff filed the Motion for Preliminary Approval on 2026-04-04 and that the settlement agreement was executed 2026-03-24. I filled in motion_prelim_filed from this. April 4, 2026 was a Saturday, so the true docket date could be off by a day or two; I did not check the Broward Clerk docket directly.\nAll three events (prelim motion, prelim approval, final approval) fall inside the 2026-04-09 to 2026-10-09 window. The prelim motion date of 04-04 is just before the window, but approval of both kinds is in-window.\nCORRECTIONS/ADDITIONS:\n- motion_prelim_filed was \"?\". It is now 2026-04-04, per the final approval motion.\n- class_size was \"?\". It is now 1,638,282 unique class members, from the Kroll declaration's class list (1,643,791 raw records less 5,509 duplicates). The brief itself rounds to \"approximately 1.4 million.\"\n- fund_amount is still null on purpose. There is NO common fund. This is a claims-made settlement: $18.00 per Valid Claim, uncapped, paid by the defendant. Notice, administration, fees and the service award are paid separately. Leftover funds go cy pres (Broward Legal Aid), with no reverter. Counsel describes the benefit made available as worth more than $20M (about 1.4M x $18). As of 2026-07-13 there were 120,119 claim forms, roughly $2.16M at $18 each if all are valid; the final valid claim count was not found.\n- fees: the $1.5M was the cap, and the court awarded all of it. Secondary sites calling this a \"$1.5M settlement\" are wrong.\n- Final hearing time moved from 8:30 to 9:45 a.m. ET (Zoom). The date did not change.\nCLAIMS (per notice/site): Florida Security of Communications Act Fla. Stat. 934.03; CIPA Cal. Penal Code 631(a); ECPA 18 U.S.C. 2511(1); negligence. The case is about the Meta Pixel and other trackers on hellowisp.com. No CIPA 632 or 638.51 claim is pleaded. Court: Broward Cnty. Cir. Ct. (17th Jud. Cir.), Case No. CACE26001543. Class counsel: Jeff Ostrow (Kopelowitz Ostrow). Defense counsel: Fenwick & West. Administrator: Kroll.",
-   "open_questions": "(1) I did not see the final approval order. The 2026-08-05 date comes from ClaimDepot, Perplexity and Sounder (\"posted after Aug. 5 hearing\"), and the 2026-09-05 payments confirm final approval was granted. Confirm the exact entry date from the Broward Clerk docket or the settlement site's documents page, which is blocked by Cloudflare. (2) Fees and service award actually awarded are unknown; only the caps ($1.5M; $5K) are known. (3) Class size and claims count are unknown. (4) Whether the $18-per-claim payments have an aggregate cap or claims-made ceiling needs a check of the settlement agreement signed 2026-03-24. (5) Filing date of the motion for preliminary approval is unknown (between 2026-03-24 and 2026-04-14). (6) \"not_pled\" for §§ 632, 632.7 and 638.51 is based on the notice's claims list, not the complaint itself; confirm against the complaint e-filed 2026-01-28 if possible. (7) Google, Microsoft and TikTok as named tracking tools comes from secondary reporting only.",
-   "id": "sophin-v-wisp-hellowisp"
   },
   {
    "short_name": "European Wax Center (Cumor/Dunn)",
@@ -2482,233 +2257,75 @@ window.PRIVACY_COMPS = {
    "id": "european-wax-center-cumor-dunn"
   },
   {
-   "short_name": "Call-On-Doc (telehealth pixel, CIPA 631)",
-   "caption": "Charlie Lucas, individually and on behalf of all others similarly situated v. Call-On-Doc, Inc. (Defendant is properly Call-On-Doc.Com, Inc., erroneously sued as Call-On-Doc, Inc.)",
-   "defendant": "Call-On-Doc.Com, Inc. (sued as Call-On-Doc, Inc.)",
-   "court": "Circuit Court of Will County, Illinois (12th Judicial Circuit)",
-   "docket": "2026LA000403",
-   "judge": "Hon. Brian E. Barrett",
-   "industry": "Telehealth / online medical appointment booking",
-   "technology": "TikTok Pixel, Google Analytics, and other tracking, analytics and advertising technologies on Call-On-Doc's website. The release also covers its app. Alleged disclosure of PII and PHI to third parties.",
+   "short_name": "Ideal Image (Minano)",
+   "caption": "Gayle Minano, individually and on behalf of all others similarly situated v. Ideal Image Development Corporation",
+   "defendant": "Ideal Image Development Corporation",
+   "court": "Circuit Court of the 13th Judicial Circuit in and for Hillsborough County, Florida (Circuit Civil, Division C)",
+   "docket": "25-CA-011075 (the settlement website and notice use 23-CA-014439, but the signed preliminary approval order strikes 23-CA-014439 and replaces it with 25-CA-011075). Earlier federal filing: G.M. v. Ideal Image Development Corp., No. 3:24-cv-02297-AJB-BJC (S.D. Cal., filed 2024-12-10, voluntarily dismissed 2025-02-25).",
+   "judge": "Hon. Melissa M. Polo",
+   "industry": "Aesthetics / med-spa (laser hair removal, body contouring, cosmetic treatments)",
+   "technology": "Meta (Facebook) Pixel and other tracking tools on idealimage.com consultation-booking pages. These sent users' PII and booking activity, linked to Facebook IDs, to Meta.",
    "cipa_631": "pled",
    "cipa_632": "not_pled",
    "cipa_632_7": "not_pled",
    "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "not_pled",
-   "fsca": "not_pled",
-   "other_claims": "California Confidentiality of Medical Information Act (CMIA), Cal. Civ. Code § 56.10; invasion of privacy under the California Constitution; unspecified \"common law\" claims (named in the preliminary approval order).",
-   "statute_evidence": "The complaint (filed 2026-04-23) is not posted on the settlement site, and no public copy turned up. Statutes come from: (1) Preliminary Approval Order ¶10, signed 2026-05-19. Its common questions are whether defendant let third parties intercept communications in violation of CIPA, Cal. Pen. Code § 631(a), the CMIA (Cal. Civ. Code § 56.10) and the common law. (2) Fee motion memorandum, 2026-07-27. It says plaintiff alleges violation of CIPA § 631(a), and its table of authorities lists only § 631(a) and §§ 630-638. (3) Email notice (Ex. D to the Marra Decl., filed with the final approval motion). It summarizes the claims as CIPA, CMIA and invasion of privacy under the California Constitution. No document mentions § 632, § 632.7, § 638.51, pen registers, the federal Wiretap Act/ECPA or the Florida FSCA. The class is California-only and the case is in state court. ECPA and FSCA are marked not_pled from these claim summaries, not from the complaint itself. § 632 and § 638.51 stay unknown because the summaries cite \"CIPA\" generally. Docs: https://cw.simpluris.com/docs/public/downloads/CLC2/PRELIMINARY_APPROVAL_ORDER ; https://cw.simpluris.com/docs/public/downloads/CLC2/MOTION_FOR_ATTORNEY_FEES_AND_COSTS ; https://cw.simpluris.com/docs/public/downloads/CLC2/PLAINTIFFS_UNOPPOSED_MOTION_FOR_FINAL_APPROVAL",
-   "class_definition": "Everyone who (a) created a Call-On-Doc account while in California from 2023-11-07 to Final Judgment, and/or (b) was a registered user and started booking a medical appointment in California, completed or not, from 2021-11-07 to Final Judgment.",
-   "class_size": 121478,
-   "class_size_note": "Exact count of unique class members from the administrator. The Simpluris (Marra) declaration of 2026-08-17 says defendant's class list had 124,987 names; after removing 3,509 duplicates, 121,478 unique members remained. The fee motion rounds this to \"approximately 126,000.\" As of 2026-08-17: 1,740 claim forms received, 1,398 valid (1.15% of the class), 0 opt-outs, 0 objections. The claims deadline was 2026-08-29, so the final claims count is not posted.",
-   "settlement_structure": "Claims-made, not a funded common fund. Agreement ¶2.1 sets a \"Total Gross Settlement\" of up to $1,800,000 \"to be distributed on a claims-made basis.\" It covers approved claims, notice and administration, the fee award and the service award. ¶2.1 also says $1.8M is the most defendant would pay if 100% of class members filed claims, so unclaimed amounts are never paid out and in effect stay with defendant. Payments come in installments: 50% within 60 days of Final Judgment, 25% within 90 days of the first payment, and the last 25% within 90 days of the second. Checks not cashed within 180 days are void.",
-   "fund_amount": 1800000,
-   "payment_terms": "Each valid claimant gets an equal share of the Net Settlement Fund, capped at $20.00. No proof is required, and there is one claim per member. Payment is by check (the default), Venmo, PayPal or Zelle. The Net Settlement Fund is the $1.8M less administration, the fee award and the service award. Administration costs are expected to be $44,904. Payment is due 120 days after Final Judgment or within 30 days of funding, whichever is later.",
-   "fees_requested": "Requested $600,000 (one-third of the $1.8M cap, costs and expenses included). Fee petition dated and filed 2026-07-27. The Final Judgment (para. 16) awarded $600,000, paid from the Settlement Fund. Service award: the notices said $5,000 would be sought, the motion asked for $2,500, and the court awarded $2,500 (para. 17).",
-   "service_award": "$2,500 requested and awarded to plaintiff Charlie Lucas (Final Judgment, 2026-08-31). The long-form notice had said up to $5,000.",
-   "injunctive_relief": "None. Section 2 (Settlement Relief) of the agreement provides only cash payments; there are no business-practice changes.",
-   "motion_prelim_filed": "2026-05-11",
-   "prelim_approval_date": "2026-05-19",
-   "final_hearing_date": "2026-08-31",
-   "final_approval_date": "2026-08-31",
+   "ecpa_wiretap": "pled",
+   "fsca": "pled",
+   "other_claims": "None in the operative Florida complaint beyond FSCA, CIPA § 631(a) and ECPA, based on the claims lists. The earlier S.D. Cal. complaint also pled California CMIA (Civ. Code § 56 et seq.) and invasion of privacy under the California Constitution; these were dropped when the case was refiled in Florida.",
+   "statute_evidence": "Settlement Agreement, Recital I (classaction.org/media/minano-v-ideal-image-settlement-agreement.pdf): the Florida complaint filed 2025-11-03 pleads FSCA (Fla. Stat. § 934.03), CIPA (Cal. Penal Code § 631(a)) and ECPA (18 U.S.C. § 2510 et seq.). The long-form notice on idealimagesettlement.com/faq (Q3) gives the same three statutes, and the release names the same three. I did not see the Florida complaint itself, so the not_pled marks for §§ 632, 632.7 and 638.51 rest on these claims lists. For context, the earlier S.D. Cal. complaint (RECAP, casd 3:24-cv-02297, ECF 1) pled: Count I ECPA § 2511(1); Count II CIPA § 631; Count III CMIA; Count IV California constitutional privacy. It did not plead § 632 or § 638.51.",
+   "class_definition": "Nationwide: all persons residing in the U.S. who used www.idealimage.com to schedule a consultation for services from 2023-01-01 through the date of preliminary approval. The notice and website give the end date as 2026-01-26 and add \"and had PII shared with a third party without consent.\" Claimants must affirm they had a Meta account during the class period.",
+   "class_size": 223472,
+   "class_size_note": "Not disclosed. The preliminary approval order says only \"approximately thousands\" of class members. No claims-rate or class-list count found.",
+   "settlement_structure": "Claims-made with a $3.5M cap. It is not a true non-reversionary common fund. The agreement calls the $3.5M the \"Settlement Benefit Cap,\" Defendant's maximum obligation. Approved claims, the fee award and expenses, the incentive award, administration costs and taxes are all paid within the cap. Within 10 days of final approval, Defendant funds a \"Cash Payment Fund\" sized only to approved claims. Uncleared checks (void after 180 days) revert to Defendant. The website and press describe it as a \"$3.5M Settlement Fund.\"",
+   "fund_amount": 3500000,
+   "payment_terms": "Flat cash payment of $17 per approved claim, reduced pro rata if claims exceed the cap. One claim per person, and the claimant must affirm a Meta account during the class period. Claims deadline 2026-04-27. Payments were issued 2026-09-30 by check, Zelle, PayPal, Venmo or e-Mastercard; checks void after 2027-03-29.",
+   "fees_requested": "Requested up to one-third of the $3.5M fund plus $15,000 in costs. Awarded $1,167,000 in fees, $15,000 in costs and a $3,000 service award (Final Approval Order ¶¶11, 13).",
+   "service_award": "Up to $3,000 requested for the class representative (Gayle Minano). Amount awarded not confirmed.",
+   "injunctive_relief": "From the Effective Date, Defendant will suspend its collection of sensitive information from idealimage.com consumers (Agreement § 2.2). The notice describes this as suspending tracking technologies that disclose website users' PII to third parties without consent.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2026-02-13",
+   "final_hearing_date": "2026-06-17",
+   "final_approval_date": "2026-06-17",
    "status": "Final approval",
-   "window_basis": "Preliminary approval was granted 2026-05-19 and the Final Judgment and Order of Dismissal with Prejudice was entered 2026-08-31. Both fall inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Philip L. Fraietta and Alec M. Leslie (Bursor & Fisher, P.A.); Scott R. Drury (Drury Legal, LLC). Defense counsel: Usama Kahf, Darcey M. Groden and Xuan Zhou (Fisher & Phillips LLP). Mediator: Hon. Wayne R. Andersen (Ret.), JAMS.",
-   "settlement_website": "https://www.callondoccipasettlement.com/",
+   "window_basis": "Final approval was granted on 2026-06-17, after the final approval hearing that day, which falls inside the 2026-04-09 to 2026-10-09 window. Preliminary approval (2026-02-13) was before the window.",
+   "plaintiff_counsel": "Bursor & Fisher, P.A. (Sarah N. Westcot, Alec Leslie), appointed Class Counsel. One secondary source (marctonnaclifflaw.com) also names the Law Offices of Jibrael S. Hindi, PLLC; this is unverified. Defense counsel: Angelo A. Stio III, Troutman Pepper Locke LLP. Administrator: Kroll Settlement Administration. Mediator: Hon. Joseph A. Dickson (Ret.).",
+   "settlement_website": "https://www.idealimagesettlement.com/",
    "sources": [
     {
-     "label": "Official settlement website (Simpluris) - home and Important Documents page",
-     "url": "https://callondoccipasettlement.com/documents"
+     "label": "Settlement Agreement (recitals with claims list and procedural history; $3.5M cap; $17 payment; fees/incentive caps; reversion; prospective relief)",
+     "url": "https://www.classaction.org/media/minano-v-ideal-image-settlement-agreement.pdf"
     },
     {
-     "label": "Preliminary Approval Order (signed and file-stamped 2026-05-19; class def; CIPA 631(a)/CMIA common questions; Judge Barrett; FAH 2026-08-31)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/PRELIMINARY_APPROVAL_ORDER"
+     "label": "Preliminary Approval Order, signed by Judge Polo and electronically conformed 2026-02-13 (docket 25-CA-011075; class definition; Kroll; final hearing reset to 6/17/26 9:30 am)",
+     "url": "https://www.classaction.org/media/minano-v-ideal-image-preliminary-approval.pdf"
     },
     {
-     "label": "Final Judgment and Order of Dismissal with Prejudice (entered 2026-08-31; $600,000 fees; $2,500 service award)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/FINAL_APPROVAL_ORDER"
+     "label": "Official settlement website FAQ / long-form notice (statutes; class period end 2026-01-26; payments issued 2026-09-30; checks void 2027-03-29)",
+     "url": "https://www.idealimagesettlement.com/faq"
     },
     {
-     "label": "Class Action Settlement Agreement (claims-made $1.8M Total Gross Settlement; $20 cap; TikTok Pixel/Google Analytics release; no injunctive relief)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/SETTLEMENT_AGREEMENT"
+     "label": "ClaimDepot (final approval granted 2026-06-17; fee cap $1,166,666.67; payment date)",
+     "url": "https://www.claimdepot.com/settlements/ideal-image-settlement"
     },
     {
-     "label": "Plaintiff's Unopposed Motion for Final Approval with Fraietta and Marra (Simpluris) Decls. (filing dates; class list 121,478; claims stats; email notice claims summary)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/PLAINTIFFS_UNOPPOSED_MOTION_FOR_FINAL_APPROVAL"
+     "label": "ClassAction.org news article ($3.5M; up to $17; claims deadline; hearing date)",
+     "url": "https://www.classaction.org/news/3.5m-ideal-image-settlement-ends-class-action-lawsuit-over-alleged-data-tracking"
     },
     {
-     "label": "Plaintiff's Unopposed Motion for Attorneys' Fees, Costs, Expenses and Service Award (filed 2026-07-27; CIPA 631(a); ~126,000 class)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/MOTION_FOR_ATTORNEY_FEES_AND_COSTS"
+     "label": "Earlier S.D. Cal. complaint, G.M. v. Ideal Image, 3:24-cv-02297, ECF 1 (counts: ECPA, CIPA 631, CMIA, Cal. Const.)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.casd.799920/gov.uscourts.casd.799920.1.0.pdf"
     },
     {
-     "label": "Long Form Notice (class counsel; fee and incentive caps; deadlines)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/CLC2/LONG_FORM_NOTICE"
-    },
-    {
-     "label": "ClassAction.org news article ($1.8M; up to $20)",
-     "url": "https://www.classaction.org/news/1.8m-call-on-doc-settlement-ends-class-action-over-alleged-use-of-third-party-tracking-pixels"
-    },
-    {
-     "label": "ClassAction.org copy of preliminary approval order",
-     "url": "https://www.classaction.org/media/call-on-doc-prelim-approval.pdf"
+     "label": "CourtListener docket, S.D. Cal. 3:24-cv-02297",
+     "url": "https://www.courtlistener.com/docket/69452938/"
     }
    ],
    "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "cipa_632: unknown→not_pled | cipa_632_7: unknown→not_pled | cipa_638_51: unknown→not_pled | Claims check (confirmed): I could not refute the § 631 finding. I did not reach the Will County complaint (2026LA000403); there is no public copy on the settlement site or CourtListener. But I found the federal case that came before it: Lucas (originally \"Jane Doe\") v. Call-On-Doc, Inc., S.D. Cal. No. 3:24-cv-02095-GPC-KSC. It has the same plaintiff, the same class counsel (Bursor & Fisher and Drury Legal) and the same defense counsel (Fisher & Phillips). The parties mediated before Judge Andersen at JAMS on 11/18/2025 (Joint Status Report, ECF 26). Plaintiff voluntarily dismissed without prejudice on 4/23/2026 (ECF 28), the same day the Will County action was filed, which is the usual move of refiling in state court to settle there.\n\nPleadings in that federal case: the original complaint (ECF 1, 11/7/2024) and the First Amended Complaint (ECF 20, 6/27/2025) each have exactly three counts. Count I is CIPA, Cal. Penal Code § 631. Count II is the CMIA, Cal. Civ. Code § 56.10. Count III is invasion of privacy under the California Constitution / intrusion upon seclusion. The theory is the TikTok Pixel and Google Analytics on callondoc.com. Neither pleading has a count under § 632, § 632.7, § 638.51 or pen registers, 18 U.S.C. § 2511 / ECPA, or Fla. Stat. § 934.10. The word \"wiretap\" appears only in factual headings and allegations, never as a federal claim.\n\nThe MTD order (ECF 19, 6/13/2025) granted the motion in part with leave to amend. It dismissed the § 631(a) first-clause theory (conceded) and the second-clause theory under the party exception, and found personal jurisdiction lacking because she did not allege she was in California. It upheld the contents and intrusion arguments in her favor. The FAC replead the same three counts. Nothing dropped any count beyond these.\n\nWill County documents I checked myself:\n- Preliminary Approval Order ¶10 lists CIPA § 631(a), CMIA § 56.10 and the common law, with uniform statutory damages under \"CIPA and CMIA.\"\n- The fee memo says the plaintiff alleges CIPA § 631(a). Its table of authorities lists only § 631(a) and §§ 630-638.\n- The email notice summarizes the claims as CIPA, CMIA and the California Constitution.\n- The Settlement Agreement is a scanned PDF, which I read as page images. The \"Action\" is defined as Lucas v. Call-on-Doc, No. 2026LA000403. Released Claims are tied to the TikTok Pixel and Google Analytics and name only the California Invasion of Privacy Act. No section numbers appear.\n\nThe words \"Wiretap,\" \"Florida,\" \"pen register\" and \"934\" show up in the fee and final-approval filings only inside counsel's firm resumes, for example \"Deivaprakash ... pen register\" and the case number \"15-cv-03934\". They are not claims in this case.\n\nWhere I differ from the researcher: I mark 632, 632.7 and 638.51 as not_pled instead of unknown. Two things support that. The predecessor FAC pleads only § 631, and every Will County filing names only § 631(a). This is still an inference, because I did not see the Will County complaint itself. ECPA and FSCA are not_pled, which agrees with the researcher. They are also absent from the FAC, and the class is California-only. | fees_requested: Requested $600,000, one-third of the $1.8M, including costs (fee motion filed 2026-07-27). The court awarded $600,000 in the Final Judgment of 2026-08-31, paid from the Settlement Fund. The long-form notice had said up to $600,000 in fees plus up to $25,000 in costs; the motion folded costs into the $600,000.→Requested $600,000 (one-third of the $1.8M cap, costs and expenses included). Fee petition dated and filed 2026-07-27. The Final Judgment (para. 16) awarded $600,000, paid from the Settlement Fund. Service award: the notices said $5,000 would be sought, the motion asked for $2,500, and the court awarded $2,500 (para. 17). | Timing/money check (confirmed): I could not refute the researcher's facts. Every in-window event is confirmed by file-stamped primary documents from the administrator site (Simpluris CLC2). The callondoccipasettlement.com/documents page loads its list with JavaScript, so I downloaded the PDFs directly.\n\n(1) Final approval. The signed Final Judgment and Order of Dismissal with Prejudice (Hon. Brian E. Barrett) carries the clerk stamp \"Filed Date: 8/31/2026 11:05 AM\", envelope 39765507. It recites that the final approval hearing was held on 2026-08-31. Both dates fall inside the window.\n\n(2) Preliminary approval. The prelim order's clerk stamp, once its font encoding is decoded, reads \"Filed Date: 5/19/2026 4:03 PM\", envelope 38210410. The Final Judgment and the final approval motion both say the court granted preliminary approval on May 19, 2026. One inconsistency: the fee memo and the Fraietta declaration attached to it say \"May 26, 2026\". That is counsel's error, because the stamped order and the court's own judgment say May 19.\n\n(3) Prelim motion filed 2026-05-11. This comes from the Fraietta declaration attached to the final approval motion (filed 8/17/2026 5:58 PM). That is counsel's statement, not a docket entry. Other dates: complaint filed 2026-04-23 in Will County; settlement agreement executed 2026-05-07; pre-suit JAMS mediation (Judge Andersen) on 2025-11-18.\n\n(4) Fund caveat, important for the comparison table. The $1.8M is not a common fund. Settlement Agreement section 2.1 calls it a claims-made \"Total Gross Settlement\". It includes the fees, administration costs and incentive award, and it is the most the defendant would pay if 100% of class members filed claims. Each valid claimant gets a flat $20. As of 2026-08-17 there were 1,740 claims, 1,398 of them valid (about 1.15% of the class), with the deadline on 2026-08-29. Administration costs were estimated at $44,904. The actual payout is therefore likely about $0.68M (about $28K or more in claims, $600K in fees, $2.5K service award and $45K administration), not $1.8M. The table should flag this.\n\n(5) Class size. The administrator's declaration (Marra) gives 121,478 unique class members after removing 3,509 duplicates, with 118,124 valid emails. The fee memo's \"approximately 126,000\" was an estimate made before the duplicates were removed. There were zero objections and zero opt-outs (deadline 2026-08-10).\n\n(6) Claims. The prelim order recites CIPA section 631(a), CMIA section 56.10 and common law, based on pixel/tracker interception on a telehealth booking site. The class is California users: account creators from 2023-11-07 and appointment bookers from 2021-11-07. This is relevant for CIPA 631 support. Class counsel were Bursor & Fisher (Fraietta) and Drury Legal.\n\n(7) Smaller points. The long-form notice's deadline dates misprint the year as 2025 (August 10 and August 29); other documents show 2026. The final judgment caption has a typo, \"20206LA000403\"; the correct number is 2026LA000403.",
-   "open_questions": "1. The operative complaint (filed 2026-04-23 in Will County) is not public online. Whether it also pleads § 632, § 632.7 or § 638.51 cannot be confirmed; every settlement filing cites only § 631(a). Pulling the complaint from the Will County Circuit Clerk would settle this. 2. Date conflict: the fee memorandum says preliminary approval came 2026-05-26, but the signed order is file-stamped 2026-05-19 and the Fraietta declaration and Final Judgment both say May 19. 2026-05-19 is used here. 3. The final number of valid claims and the actual payout per claimant after the 2026-08-29 claims deadline are not posted. As of 2026-08-17 there were 1,398 valid claims, so claimants should receive the full $20 cap and the defendant's actual outlay will be far below $1.8M. 4. Recital B says the parties signed a term sheet on 2026-01-14, before suit was filed, so the case was filed already settled; that may matter when using it as a comparator. 5. Judgment case-caption typo (\"20206LA000403\") is a clerical error.",
-   "id": "call-on-doc-telehealth-pixel-cipa-631"
-  },
-  {
-   "short_name": "Thriveworks (Mosher)",
-   "caption": "Jennifer Mosher and Lila Wakeley, on behalf of themselves and all others similarly situated v. Thriveworks Administrative Services, LLC and Thriveworks, Inc.",
-   "defendant": "Thriveworks Administrative Services, LLC; Thriveworks, Inc.",
-   "court": "Circuit Court of the Fifth Judicial Circuit in and for Marion County, Florida",
-   "docket": "26-CA-0482 (also styled 2026-CA-000482)",
-   "judge": "Hon. Stacy Youmans",
-   "industry": "Behavioral health: outpatient and online therapy and psychiatry provider (healthcare)",
-   "technology": "Google and LinkedIn tracking technologies (pixels/tags; the release also covers the Meta pixel and other pixels, cookies and analytics) on thriveworks.com and its patient portal. Alleged disclosure of patients' appointment and booking communications and identifiers.",
-   "cipa_631": "pled",
-   "cipa_632": "not_pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "not_pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "pled",
-   "other_claims": "The Florida complaint has no other claims identified. The predecessor federal suit, Wakeley v. Thriveworks Administrative Services, LLC (W.D. Va. No. 6:25-cv-00032, filed 2025-04-25, Judge Moon), pleaded ECPA § 2511(1) and the Pennsylvania Wiretapping Act (18 Pa. C.S. § 5701 et seq.). The release expressly covers FSCA, CIPA, ECPA, the PA Wiretap Act, and any other state, federal or common-law claims about Google, LinkedIn, Meta or other tracking on thriveworks.com.",
-   "statute_evidence": "Settlement Agreement Recital F (https://cw.simpluris.com/docs/public/downloads/TMC5/SETTLEMENT_AGREEMENT) says Mosher's 2026-03-02 Marion County complaint alleged FSCA (Fla. Stat. § 934.03), CIPA (Cal. Penal Code § 631(a)) and ECPA (18 U.S.C. § 2510 et seq.). The Long Form Notice and FAQ #3 (https://cw.simpluris.com/docs/public/downloads/TMC5/LONG_FORM_NOTICE) and the 2026-07-08 Motion for Final Approval (https://cw.simpluris.com/docs/public/downloads/TMC5/MOTION_FOR_FINAL_APPROVAL) describe only FSCA § 934.03 and ECPA § 2511(1)/§ 2510 et seq. FSCA and ECPA are therefore certain. CIPA § 631 rests only on the Settlement Agreement recital. No source mentions § 632, § 632.7 or § 638.51. I did not review the complaint itself.",
-   "class_definition": "All Thriveworks patients in the United States who accessed their patient portal from 2023-04-25 through 2025-09-05, with standard exclusions (judges, defendants and affiliates, opt-outs).",
-   "class_size": 258009,
-   "class_size_note": "Exact count from the class list. Per the Simpluris declaration ¶4, the defendant produced 259,184 records, which came to 258,009 unique Settlement Class Members after dedup; 253,182 had valid emails. Email notice went out 2026-05-22 and reached about 99.04% of members. As of 2026-06-30 there were 3,341 claims (about 1.3%), 4 opt-outs and 0 objections.",
-   "settlement_structure": "Claims-made settlement with a $1.9M aggregate cap, not a funded common fund. The defendants pay approved claims, notice and administration costs, the fee award and service awards, all capped at $1,900,000. Money not claimed stays with the defendants, and uncashed checks (void after 180 days) revert to the defendants.",
-   "fund_amount": 1900000,
-   "payment_terms": "$10.00 cash per approved claim, reduced pro rata only if total payouts exceed the $1.9M cap. One claim per member. The claimant must verify they had an active Google or LinkedIn account during the class period. Payment is by check, PayPal or Venmo. The claim deadline was 2026-07-21, and the notice projected payment on or before 2026-10-10 if approved.",
-   "fees_requested": "Up to one-third of the $1.9M Aggregate Settlement Cap: $633,333.33, including costs and expenses. Requested in the Motion for Final Approval e-filed 2026-07-08 (Filing # 252010467). Defendants agreed not to object (SA § 8.1). The fee is paid inside the cap. Separately, service awards of $2,500 each ($5,000 total) were requested. No fee award has been confirmed.",
-   "service_award": "$2,500 for each of the 2 class representatives ($5,000 total), requested (Settlement Agreement § 8.3).",
-   "injunctive_relief": "Settlement Agreement § 2.2: the defendants have reviewed their use of tracking technology and confirmed that thriveworks.com is configured to prevent the collection of patient medical information without consent. The notice describes this as a required review of website software and tracking technology.",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "2026-04-22",
-   "final_hearing_date": "2026-08-04",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "The court entered the order preliminarily approving the settlement and certifying the class on 2026-04-22 (Filing #246570343), which falls inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Bursor & Fisher, P.A.: Alec M. Leslie (NY) and Stephen A. Beck (Miami). Joshua Erlich was local counsel in the predecessor W.D. Va. case. Defense counsel: O'Hagan Meyer, PLLC (Candice A. Diah-Okyar, James W. Davidson). Mediator: Jill R. Sperber of Judicate West (mediation 2026-02-03; term sheet 2026-02-16).",
-   "settlement_website": "https://www.thriveworksprivacysettlement.com/",
-   "sources": [
-    {
-     "label": "Official settlement website (home, documents, dates)",
-     "url": "https://www.thriveworksprivacysettlement.com/documents/"
-    },
-    {
-     "label": "Preliminary Approval Order (2026-04-22)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/PRELIMINARY_APPROVAL_ORDER"
-    },
-    {
-     "label": "Settlement Agreement (Recital F claims list; terms, release, fees, injunctive relief)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/SETTLEMENT_AGREEMENT"
-    },
-    {
-     "label": "Plaintiffs' Unopposed Motion for Final Approval (filed 2026-07-08)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/MOTION_FOR_FINAL_APPROVAL"
-    },
-    {
-     "label": "Simpluris (Leung) Declaration ISO Final Approval: class size, claims, opt-outs",
-     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/ISO_FA_SIMPLURIS_DECLARATION"
-    },
-    {
-     "label": "Long Form Notice",
-     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/LONG_FORM_NOTICE"
-    },
-    {
-     "label": "ClassAction.org news article",
-     "url": "https://www.classaction.org/news/1.9m-thriveworks-settlement-wraps-up-class-action-lawsuit-over-alleged-data-disclosure-with-google-linkedin"
-    },
-    {
-     "label": "Predecessor federal docket: Wakeley v. Thriveworks (W.D. Va. 6:25-cv-00032), CourtListener",
-     "url": "https://www.courtlistener.com/docket/69952067/wakeley-v-thriveworks-administrative-services-llc/"
-    },
-    {
-     "label": "ClaimDepot listing",
-     "url": "https://www.claimdepot.com/settlements/thriveworks-privacy-settlement"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. FSCA and ECPA are confirmed by two court-filed primary documents. (1) Settlement Agreement Recital F, which the parties signed on Mar 25-26 and Apr 16, 2026, says Mosher's Mar 2, 2026 Marion County complaint alleged FSCA Fla. Stat. § 934.03, CIPA § 631(a) and ECPA 18 U.S.C. § 2510 et seq. (2) Plaintiffs' Unopposed Motion for Final Approval (https://cw.simpluris.com/docs/public/downloads/TMC5/MOTION_FOR_FINAL_APPROVAL, Filing # 252010467, e-filed Jul 8, 2026) says \"Plaintiffs' Complaint\" alleges FSCA § 934.03 and ECPA § 2510 et seq. The Long Form Notice (FAQ 3) also lists only FSCA and ECPA § 2511(1). The FSCA claim is under § 934.03 (interception), not the § 934.10 civil-remedy section by number; I treat that as FSCA pled.\n\nI disagree on § 631. I marked it unknown, not pled. Only Recital F mentions CIPA § 631(a). The later final-approval motion describes the complaint as FSCA plus ECPA only, and so do the notice and ClassAction.org. Recital F says Mosher alone filed the action, but by preliminary approval (Apr 22, 2026) the caption lists Mosher and Wakeley as plaintiffs. That suggests an amended complaint may have added Wakeley and possibly dropped the CIPA count. The recital could also simply be inaccurate. Neither named plaintiff lives in California (Mosher is in Florida, Wakeley in Pennsylvania). The release names CIPA generically, which is not proof it was pled.\n\nNo source mentions § 632, § 632.7 or § 638.51. I marked them not_pled on that basis, but I never saw the complaint itself.\n\nRelated federal case: Wakeley v. Thriveworks, W.D. Va. No. 6:25-cv-00032 (CourtListener docket 69952067, cause \"18:2511 Wiretapping\"). Recital A says it pled ECPA and the Pennsylvania Wiretapping Act. Wakeley voluntarily dismissed it without prejudice on Feb 26, 2026 (Dkt. 49), and the claims were refiled in Marion County.\n\nI could not get the operative Marion County complaint. It is not on the settlement site, ClassAction.org (which lists only ECPA and FSCA), Sounder, or CourtListener. The Marion County OCRS portal (civitekflorida.com/ocrs/county/42) requires clicking \"I Agree\" on a terms disclaimer. Accepting terms needs the user's permission, so I did not click it. The user can pull the complaint and any amended complaint there to settle the § 631 question. | motion_prelim_filed: —→unknown; between 2026-04-16 and 2026-04-22 | fees_requested: Up to one-third of the aggregate cap, $633,333.33, including costs and expenses. Requested in the 2026-07-08 Motion for Final Approval. The defendants agreed not to oppose (Settlement Agreement § 8.1). Fees are paid by the defendants within the cap. The award is not confirmed.→Up to one-third of the $1.9M Aggregate Settlement Cap: $633,333.33, including costs and expenses. Requested in the Motion for Final Approval e-filed 2026-07-08 (Filing # 252010467). Defendants agreed not to object (SA § 8.1). The fee is paid inside the cap. Separately, service awards of $2,500 each ($5,000 total) were requested. No fee award has been confirmed. | Timing/money check (confirmed): I tried to refute it and could not, so the verdict is CONFIRMED. The in-window event is real: the Order Granting Preliminary Approval was signed \"DONE and ORDERED... Wednesday, April 22, 2026\" and carries the stamp \"Filing # 246570343 E-Filed 04/22/2026\". That is inside the 2026-04-09 to 2026-10-09 window. The same order sets the final approval hearing for 2026-08-04 at 8:30 a.m.\n\nChecks on the other fields:\n(1) Fund: the $1,900,000 figure is correct (SA § 1.29). Note that it is an Aggregate Settlement CAP on a claims-made settlement, not a common fund that is fully paid out. It covers $10 cash per approved claim (cut pro rata only if claims exceed the cap), notice and administration costs, fees and service awards. Under SA § 2, uncashed checks revert to the defendants. By 2026-06-30, Simpluris had received only 3,341 claim forms, which is roughly $33K in claims at $10 each. The real payout will be far below $1.9M, so weight this one accordingly in a demand-comparison table.\n(2) Class size: 258,009 is confirmed by the Leung/Simpluris Declaration ¶4 (unique class-list records; 253,182 had notice data). Email notice went out 2026-05-22, with about 99.04% reach.\n(3) Prelim motion filed: the date is NOT confirmed. The order only says an Unopposed Motion for Preliminary Approval was filed. The last settlement signature is dated 2026-04-16, so the motion was filed between 2026-04-16 and 2026-04-22. I found no filing stamp on the posted documents.\n(4) Final approval: NOT confirmed. The settlement website (checked 2026-10-09) posts only the prelim order, the settlement agreement, the motion for final approval (e-filed 2026-07-08), the Simpluris declaration, the notice and the claim form. There is no final approval order. Simpluris URLs I guessed for final-order documents returned errors. ClaimDepot (updated 2026-08-27) calls the settlement \"Closed\" but does not report an order. Sounder and Perplexity also found no final order. The Marion County public docket (Civitek OCRS county 42) is behind an \"I Agree\" terms gate. I did not accept it because that needs the user's approval, so the docket could not be checked. Status stays Preliminary approval and final_approval_date is left blank.\n(5) Claims: these are relevant to the user's filters. The state complaint (filed 2026-03-02) alleges FSCA (Fla. Stat. § 934.03), CIPA § 631(a) and ECPA (18 U.S.C. § 2510 et seq.) (SA Recital F). The final approval motion lists FSCA and ECPA only. It is Google and LinkedIn tracking on a behavioral-health patient portal, with a class period of 2023-04-25 to 2025-09-05.\n(6) Procedural history: the case started as Wakeley v. Thriveworks, W.D. Va. No. 6:25-cv-00032 (CourtListener docket 69952067). That case was filed 2025-04-25 (ECPA and the Pennsylvania wiretap statute) and stayed for mediation on 2025-11-10. Mediation with Jill Sperber was held 2026-02-03, terms were agreed 2026-02-16, and the case was refiled in Marion County on 2026-03-02. Counsel: Bursor & Fisher (Alec Leslie) for plaintiffs; O'Hagan Meyer for defendants. As of the 2026-07-08 motion there were 0 objections and 4 opt-outs. The claim, opt-out and objection deadline was 2026-07-21.",
-   "open_questions": "(1) Final approval order not confirmed. The hearing was set for 2026-08-04. The plaintiffs said they would submit a proposed order after the 2026-07-21 opt-out deadline. As of 2026-10-09 the settlement website shows no final approval order, and ClaimDepot (updated 2026-08-27) shows none either. I did not check the Marion County docket: the Clerk's public OCRS portal (civitekflorida.com/ocrs/county/42) requires clicking 'I Agree' on a disclaimer, which needs your approval. (2) The CIPA § 631 sources conflict. The Settlement Agreement recital says the 2026-03-02 complaint pleaded § 631(a), but the court-approved notice and the final approval motion describe only FSCA and ECPA. An amended complaint may have been filed when Wakeley was added as a plaintiff. I did not see the complaint itself, so verify before relying on this as § 631 support. (3) The filing date of the preliminary approval motion is unknown. It was after the Settlement Agreement was fully signed (2026-04-16) and on or before the 2026-04-22 order. (4) The fee and service awards actually granted are unknown, as are the final number of approved claims and the total paid out.",
-   "id": "thriveworks-mosher"
-  },
-  {
-   "short_name": "CVS / Criteo (Brewer) - CVS Digital Privacy Settlement",
-   "caption": "Justin Brewer, Ariel Brooks, Alex Sisti, and Marc Weinberger v. CVS Pharmacy, Inc. and Criteo Corp. (the clerk's index lists it as Ariel Brooks, et al. v. Criteo Corp., et al.; the amended complaint caption also names Medallia, Inc.)",
-   "defendant": "CVS Pharmacy, Inc. (about $18.5M share) and Criteo Corp. (about $2M share). Medallia, Inc. is named in the amended complaint caption but is not a settling party. It, Adobe, Quantum Metric, Braze and Branch Metrics are released as \"technology providers.\"",
-   "court": "Circuit Court of the 17th Judicial Circuit in and for Broward County, Florida (Division 25)",
-   "docket": "CACE-26-008094",
-   "judge": "Hon. Shari Africk Olefson",
-   "industry": "Retail pharmacy / healthcare (online pharmacy, MinuteClinic, vaccine scheduling, OTC health products)",
-   "technology": "Third-party tracking code and SDKs on cvs.com, cvshealth.com and the CVS iOS/Android app. These are Adobe Experience Cloud trackers/SDK (which captured on-site search terms and results URLs), Criteo ad-tech tracking, Medallia, and Quantum Metric session replay and analytics. Plaintiffs allege they disclosed prescription, immunization and health-product search data to third parties without consent.",
-   "cipa_631": "pled",
-   "cipa_632": "pled",
-   "cipa_632_7": "not_pled",
-   "cipa_638_51": "pled",
-   "ecpa_wiretap": "pled",
-   "fsca": "pled",
-   "other_claims": "Maryland Wiretap Act, Md. Cts. & Jud. Proc. § 10-401 et seq. (Count VI, Maryland Subclass); breach of confidence (Count VII); invasion of privacy / intrusion upon seclusion (Count VIII); negligence and negligence per se (Count IX). No CMIA, UCL or VPPA count appears in the amended complaint.",
-   "statute_evidence": "The Amended Class Action Complaint, e-filed 2026-07-24 (Filing #253264249), has 9 counts. Count I: Federal Wiretap Act, 18 U.S.C. § 2510 et seq. Count II: FSCA, Fla. Stat. § 934.03 et seq. (Weinberger / Florida Subclass). Count III: CIPA § 631. Count IV: CIPA § 632. Count V: CIPA § 638.51 trap-and-trace. Counts III-V are on behalf of Brooks, Brewer and the California Subclass. Count VI: Maryland Wiretap Act. Counts VII-IX: common law. Source: https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/asset_files/external/cvs-criteo-amended-complaint.pdf. The settlement agreement ¶5 describes the claims only as ECPA plus \"state statutory claims,\" breach of confidence, invasion of privacy and negligence. HIPAA Journal's mention of CIPA/CMIA in the same article refers to a separate AmWell case, not this one.",
-   "class_definition": "All living individuals who accessed the CVS Digital Properties (cvs.com, cvshealth.com and the CVS app) in the United States before 2026-07-27, the preliminary approval date. Excluded: defendants' officers, directors and employees; judicial officers and their families and staff; governmental entities; and opt-outs. The complaint also pled Florida, California and Maryland subclasses.",
-   "class_size": null,
-   "class_size_note": "No class count appears in any primary document. The amended complaint ¶164 says members \"number in the millions.\" The settlement agreement ¶1 says CVS has over 36 million customers, but that is a customer count, not a class count. A news report says \"tens of millions.\" Treat the class size as an unquantified estimate.",
-   "settlement_structure": "Claims-made settlement capped at $20.5M (the \"Maximum Cash Payment\"). The cap covers cash payments, administration costs, court-awarded fees and costs, and service awards. It is reversionary: residual funds and uncashed checks go back to defendants, split under a separate CVS–Criteo agreement. Only one payment per household.",
-   "fund_amount": 20500000,
-   "payment_terms": "Cash Payment A: up to $10 with reasonable documentation of use (browser history, dated screenshots, email receipts). Cash Payment B: up to $5 with no documentation. Both shrink pro rata if total benefits exceed the $20.5M cap. One claim per household. Claims are due 2026-11-16; opt-outs and objections are due 2026-11-01. Payments go out within 90 days after the Effective Date.",
-   "fees_requested": "Up to 37.5% of the $20.5M Maximum Cash Payment (up to $7,687,500), paid from within the cap (Settlement Agreement para. 98; Long-Form Notice Q12). Service awards are capped at $2,500 per representative. Under the notice, the fee motion must be filed and posted by 2026-10-17. The prelim order sets the same deadline: 45 days before the final hearing. Nothing has been awarded yet.",
-   "service_award": "Up to $2,500 per class representative (4 representatives), per agreement ¶97.",
-   "injunctive_relief": "None. The settlement agreement contains no business-practice or tracking-change commitments; the relief is cash only.",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "2026-07-27",
-   "final_hearing_date": "2026-12-01",
-   "final_approval_date": "",
-   "status": "Preliminary approval",
-   "window_basis": "Judge Olefson signed the order granting preliminary approval on 2026-07-27, which falls inside the 2026-04-09 to 2026-10-09 window.",
-   "plaintiff_counsel": "Jeff Ostrow (Kopelowitz Ostrow P.A.); Jonathan M. Jagher (Justice Jagher London and Millen LLC); Katrina Carroll (Carroll Shamberg LLC); Mariya Weekes (Milberg PLLC); Yitzchak Kopel (Bursor & Fisher, P.A.). All five were preliminarily appointed Class Counsel.",
-   "settlement_website": "https://www.cvsdigitalprivacysettlement.com/ (administrator: Simpluris, Inc.)",
-   "sources": [
-    {
-     "label": "Amended Class Action Complaint (e-filed 2026-07-24) - counts and subclasses",
-     "url": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/asset_files/external/cvs-criteo-amended-complaint.pdf"
-    },
-    {
-     "label": "Order Granting Preliminary Approval (2026-07-27, Judge Olefson)",
-     "url": "https://www.classaction.org/media/cvs-digital-settlement-prelim-approval-order.pdf"
-    },
-    {
-     "label": "Settlement Agreement (class definition, $20.5M cap, payments, reversion, fees 37.5%, service awards $2,500, counsel)",
-     "url": "https://www.classaction.org/media/cvs-criteo-settlement-agreement.pdf"
-    },
-    {
-     "label": "Long Form Notice (fee motion due 2026-10-17; representatives)",
-     "url": "https://www.classaction.org/media/cvs-digital-settlement-notice.pdf"
-    },
-    {
-     "label": "Official settlement website (deadlines 11/1 opt-out/objection, 11/16 claims, 12/1 FAH via Zoom)",
-     "url": "https://www.cvsdigitalprivacysettlement.com/"
-    },
-    {
-     "label": "HIPAA Journal - CVS $18.5M / Criteo $2M allocation",
-     "url": "https://www.hipaajournal.com/cvs-health-criteo-american-wellness-corp-data-breach-settlements/"
-    },
-    {
-     "label": "ClassAction.org settlement summary",
-     "url": "https://www.classaction.org/news/up-to-20.5m-cvs-digital-privacy-settlement-ends-lawsuit-over-website-and-app-user-data-disclosures"
-    }
-   ],
-   "confidence": "high",
-   "xcheck_claims": "confirmed",
-   "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I couldn't refute the researcher. I downloaded the Amended Class Action Complaint myself and pulled the text out of it. It is 81 pages, case no. CACE-26-008094, Filing #253264249, e-filed 07/24/2026, with Kopelowitz Ostrow and Milberg among plaintiffs' counsel. The count headings match the researcher's list:\n- Count I: Federal Wiretap Act, 18 U.S.C. § 2510 et seq. It cites § 2511(1)(a), (c) and (d).\n- Count II: Florida Security of Communications Act, Fla. Stat. § 934.03 et seq., for Weinberger and the Florida Subclass. Damages are sought under § 934.10.\n- Count III: CIPA, Cal. Penal Code § 631, for Brooks, Brewer and the California Subclass.\n- Count IV: CIPA § 632(a), same plaintiffs, seeking $5,000 per violation under § 637.2.\n- Count V: CIPA trap-and-trace, § 638.51, same plaintiffs.\n- Count VI: Maryland Wiretap Act.\n- Counts VII-IX: common-law claims.\n\nThe text never mentions § 632.7.\n\nThe settlement agreement (sa.pdf, 43 pages) says in ¶5 that the complaint was filed 5/15/2026 and \"subsequently amended.\" It lists the claims only as ECPA, \"state statutory claims,\" breach of confidence, invasion of privacy and negligence/negligence per se. That fits the amended complaint and doesn't suggest any count was dropped. The settlement's definition of \"Complaint\" (¶23) points to the 5/15/2026 original, but its definition of \"Causes of Action\" (¶14) also covers \"any amended complaint.\"\n\nI found no second amended complaint. The prelim-approval papers are Filing #253377489, e-filed 07/27/2026, three days after the amended complaint, so the amended complaint looks like the operative pleading at settlement. I did not read the original 5/15/2026 complaint, so I can't say which counts were added in the amendment.\n\nCaveats:\n- The caption names Medallia, Inc. as a defendant, but the opening paragraph defines \"Defendants\" as only CVS and Criteo.\n- The amended complaint is a primary court filing, but my copy is a re-host on ismg-cdn (an ISMG news-site file server), not the clerk's docket. | fees_requested: Fees and costs of up to 37.5% of the $20.5M cap (up to $7,687,500), paid from within the cap. The fee motion is due 2026-10-17, per the long-form notice. Nothing has been awarded yet.→Up to 37.5% of the $20.5M Maximum Cash Payment (up to $7,687,500), paid from within the cap (Settlement Agreement para. 98; Long-Form Notice Q12). Service awards are capped at $2,500 per representative. Under the notice, the fee motion must be filed and posted by 2026-10-17. The prelim order sets the same deadline: 45 days before the final hearing. Nothing has been awarded yet. | Timing/money check (confirmed): The in-window event is confirmed by a primary source. The prelim approval order is captioned Ariel Brooks, et al v. Criteo Corp., et al, CACE26008094, Div. 25, before Judge Shari Africk Olefson. It says DONE AND ORDERED 27 July 2026, was e-signed 07-27-2026 at 5:26 PM, and was e-filed 07/27/2026 as Filing # 253377489. That date is inside the 2026-04-09 to 2026-10-09 window. The order sets no hearing date itself. It says the final approval hearing will be noticed separately, at least 120 days after the prelim order.\n\nThe long-form notice (CASEID 9635) sets the following dates:\n- Final approval hearing: 2026-12-01 at 9:30 a.m. EST, by Zoom.\n- Opt-out and objection deadline: 2026-11-01.\n- Claim deadline: 2026-11-16.\n- Fee request: to be filed and posted by 2026-10-17.\nThis matches the researcher's dates.\n\nMoney: the Settlement Agreement para. 38 defines the \"Maximum Cash Payment\" as $20,500,000. That figure is a claims-made cap, not a common fund. It covers cash payments, admin costs, fees and costs, and service awards. Payments are $10 with proof or $5 without, subject to pro rata reduction. Any residual reverts to the defendants (CVS and Criteo). The table should label it \"up to $20.5M cap (claims-made, reversionary)\", not a non-reversionary fund. Expect actual payout to be well below $20.5M.\n\nPrelim motion filing date: not found. The settlement agreement and order do not state it, and secondary sources do not report it. The Broward Clerk online docket sits behind a Cloudflare Turnstile bot check, so I did not use it. For context, the amended complaint was e-filed 2026-07-24 (Filing # 253264249), so the motion was probably filed between about 07-24 and 07-27. That is an estimate, not verified.\n\nClass size: not stated. The agreement's \"over 36 million customers\" describes CVS's customer base, not the class. The class is all living individuals who accessed the CVS Digital Properties in the US before 2026-07-27.\n\nOther facts:\n- The original complaint was filed 2026-05-15, after a JAMS mediation (Robert A. Meyer) on 2026-03-17.\n- The amended complaint adds Medallia, Inc. as a defendant, but only CVS and Criteo are settling parties.\n- The amended complaint's counts are: Count I, federal Wiretap Act/ECPA 18 U.S.C. 2511; Count II, Florida FSCA, Fla. Stat. 934.03; Count III, CIPA 631; Count IV, CIPA 632; plus others. All the claim types the user asked about are present.\n- ClassAction.org's \"Filed: September 17, 2026\" is its article date, not the complaint date.\n\nNo final approval has been entered. Status stays Preliminary approval.",
-   "open_questions": "(1) The filing date of the motion for preliminary approval was not confirmed. The amended complaint was e-filed 2026-07-24 and the order followed on 2026-07-27, so the motion was probably filed around 2026-07-24, but the Broward Clerk docket is behind reCAPTCHA and the settlement website's documents and FAQ pages are behind a human-verification check, so neither was accessed. (2) There is no class-size figure; the complaint says \"millions\" and CVS has 36M+ customers. (3) The CVS $18.5M / Criteo $2M split comes from HIPAA Journal (a secondary source); the agreement only refers to a separate CVS–Criteo agreement for the residual. (4) The fee and service-award amounts are only requested; the fee motion is due 2026-10-17 and the final approval hearing is 2026-12-01. (5) Context: the case follows Getz v. CVS Health Corp., No. 2:25-cv-04689 (C.D. Cal.), which secondary sources report was voluntarily dismissed 2026-01-30 after CIPA claims survived. Medallia appears in the amended complaint caption but is not a settling defendant; it is released as a \"technology provider.\" (6) Note for the comparison table: this one supports 638.51 with 631, 632, ECPA and FSCA all pled alongside it, and the settlement is reversionary and claims-made with no injunctive relief.",
-   "id": "cvs-criteo-brewer-cvs-digital-privacy-settlement"
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I downloaded and read the signed Settlement Agreement (34 pp., captioned Hillsborough Cir. Ct. Div. C, No. 25-CA-011075). Recital I says that on Nov. 3, 2025 Plaintiff filed the complaint in this Action alleging three violations: FSCA, Fla. Stat. § 934.03; CIPA, Cal. Penal Code \"§§ 631(a)\"; and ECPA, 18 U.S.C. § 2510 et seq. The release (p. 9) names FSCA § 934.03, CIPA (no section given) and ECPA § 2510. On FSCA, the agreement cites § 934.03, which is the prohibition section; § 934.10 is the civil-remedy section. I treat FSCA as pled.\n\nThe PA order (classaction.org PDF, 12 pp.) is captioned 23-CA-014439 on page 1 and 25-CA-011075 on every later page. It does not list the statutes.\n\nI did not get the Florida complaint itself, so 632, 632.7 and 638.51 are marked not_pled only because the agreement's list of claims leaves them out. One drafting oddity: the recital writes \"§§ 631(a)\" with a double section mark but only one section. It may be a typo, or another section may have dropped out of the list. Even so, nothing in the agreement mentions 632, 632.7 or 638.51.\n\nThe settlement FAQ (idealimagesettlement.com/faq) is behind a Cloudflare bot check, which I did not try to get past. I was not able to read it.\n\nFor context, I also read the earlier S.D. Cal. complaint (RECAP casd 3:24-cv-02297, ECF 1, 33 pp.). Its counts are: I ECPA § 2511(1); II CIPA § 631; III CMIA § 56.10; IV California constitutional privacy. The text has no mention of 632, 638.5x or 934. That case was voluntarily dismissed without prejudice on Feb. 25, 2025 (Recital D), so it is not the operative complaint. The Florida complaint adds FSCA and drops CMIA and the constitutional claim.\n\nI found no amended Florida complaint that drops a count. My values match the researcher's on all six statutes. | fees_requested: Up to one-third of $3.5M ($1,166,666.67) plus up to $15,000 in costs. The fee motion was due 2026-04-13. The amount actually awarded was not confirmed.→Requested up to one-third of the $3.5M fund plus $15,000 in costs. Awarded $1,167,000 in fees, $15,000 in costs and a $3,000 service award (Final Approval Order ¶¶11, 13). | class_size: —→223472 | Timing/money check (confirmed): CONFIRMED in window. Sources are the signed court orders posted on the official Kroll settlement site (idealimagesettlement.com/documents). The site blocks plain HTTP clients with a 403, so I retrieved them with headless Playwright through its /api/file/.../content endpoint.\n\n(1) FINAL APPROVAL: The Order on Motion for Final Approval and Final Judgment, Hillsborough Cir. Ct., Div. C, Judge Melissa M. Polo, No. 25-CA-011075, is stamped \"Electronically Conformed 6/17/2026\". It states the final approval hearing was held 2026-06-17 at 9:30 a.m. It finally approves the settlement, finally certifies the class, enters final judgment and dismisses the case with prejudice. 2026-06-17 is inside the 2026-04-09 to 2026-10-09 window.\n\n(2) PRELIM APPROVAL: The preliminary approval order is stamped \"Electronically Conformed 2/13/2026\". The FAO also recites that preliminary approval was granted on 2026-02-13. This date is outside the window, but final approval qualifies on its own. The PAO caption reads 23-CA-014439, and page 2 onward reads 25-CA-011075.\n\n(3) PRELIM MOTION FILED: No filing date found, so the field is left blank. The settlement agreement was fully signed by 2026-01-06 (counsel signature date; Ideal Image signed 2025-12-19, plaintiff 2025-12-10). So the motion was filed between about 2026-01-06 and 2026-02-13, which is outside the window anyway.\n\n(4) OTHER IN-WINDOW EVENT: The Motion for Final Approval and fee petition was e-filed 2026-04-10 (Filing #245740749), with the Kroll/Dudinski declaration. The researcher's \"fee motion due 2026-04-13\" was a deadline; the actual filing was 2026-04-10.\n\n(5) FEES, CORRECTED: The researcher's figure was requested only. Actual award (FAO ¶11) was $1,167,000 in attorneys' fees and $15,000 in costs. FAO ¶13 awarded a $3,000 service award. The postcard notice had said up to $5,000; the long-form notice said up to $3,000.\n\n(6) CLASS SIZE, ADDED: Kroll declaration: 223,547 records minus 75 duplicates = 223,472 unique class members. 215,490 had email addresses and 7,920 had mail addresses only. Estimated notice reach was 217,439 (about 97.3%). As of about April 6, 2026, there were 11,466 claims (87 paper, 11,379 online), 0 opt-outs and 0 objections. The FAO says no objections.\n\n(7) FUND: $3,500,000 non-reversionary-style fund confirmed (MFA, Settlement Agreement). Notice and administration costs, fees and the service award come out of the fund. Each claimant gets $17.00, reduced pro rata if claims exceed the fund.\n\n(8) CLASS DEFINITION, CORRECTED: The FAO defines the class as US residents who used idealimage.com to schedule a consultation from 2023-01-01 through 2026-02-13. ClaimDepot's end date of Jan 26, 2026 is wrong.\n\n(9) CLAIMS: The Settlement Agreement recital I says the 2025-11-03 state complaint pleaded:\n- FSCA, Fla. Stat. § 934.03\n- CIPA, Cal. Penal Code § 631(a)\n- ECPA, 18 U.S.C. § 2510 et seq.\nThe final approval motion lists only FSCA and CIPA § 631(a). There is no CIPA § 632 or § 638.51 claim. The theory is disclosure of PII entered on the website to Facebook/third parties via tracking tech.\n\n(10) CASE HISTORY: Per the SA recitals:\n- Demand letter served 2024-06-11.\n- S.D. Cal. complaint filed 2024-12-10.\n- Motion to compel arbitration/dismiss filed about 2025-02-02.\n- Voluntary dismissal about 2025-02-25.\n- Mediation 2025-08-21.\n- Settlement in principle 2025-10-01.\n- Florida state complaint filed 2025-11-03.\nClass counsel are Sarah Westcot and Alec Leslie of Bursor & Fisher.\n\n(11) PAYMENTS: ClaimDepot (secondary only, not independently verified) says payments were issued 2026-09-30.",
+   "open_questions": "1) The final approval order itself was not seen. The 2026-06-17 grant date comes from ClaimDepot and is corroborated by the official site reporting payments issued 2026-09-30. The Hillsborough docket was not checked. 2) The court's actual fee, cost and incentive awards are unknown; only the caps are known. 3) The class size, number of claims and total paid out are unknown, and so is how much of the $3.5M cap stayed with Defendant, which matters for comparing structures. 4) The date the preliminary approval motion was filed was not found. 5) The Florida complaint itself was not reviewed; the statute marks rely on the Agreement recital and notice claims lists. 6) The class-period end date differs: 2026-01-26 in the notice and website versus \"date of preliminary approval\" (2026-02-13) in the Agreement and order. 7) The docket number differs: 23-CA-014439 on the settlement site versus 25-CA-011075 in the Agreement and the corrected order. 8) No § 632 or § 638.51 claim was pled, so this settlement supports §§ 631, ECPA and FSCA, not § 638.51.",
+   "id": "ideal-image-minano"
   },
   {
    "short_name": "Kingsbury v. Evernorth (MDLIVE)",
@@ -2790,372 +2407,553 @@ window.PRIVACY_COMPS = {
    "id": "kingsbury-v-evernorth-mdlive"
   },
   {
-   "short_name": "McCulley v. Banner Health",
-   "caption": "Cheryl McCulley, Rebecca Blount, Cindy Freriks, Jill Schreidl, Demetria Ann Santiago-Laboy, Oscar Irazaba, Faith Robeson, and Tami Carroll, individually and on behalf of all others similarly situated v. Banner Health",
-   "defendant": "Banner Health",
-   "court": "District Court, Weld County, Colorado (Div. 3). Refiled there 2026-02-11 for settlement. The predecessor case was D. Ariz. No. 2:23-cv-00985-SPL, consolidated with 2:23-cv-01054 and 2:23-cv-01228, and dismissed without prejudice by stipulation on 2026-02-12.",
-   "docket": "2026CV30182 (Weld County). Predecessor: D. Ariz. 2:23-cv-00985-SPL.",
-   "judge": "Weld County Dist. Ct., Div. 3. The judge's name is not printed on the signed preliminary approval order and the signature is illegible. Predecessor D. Ariz. judge: Hon. Steven P. Logan.",
-   "industry": "Healthcare (large integrated nonprofit health system; patient portal)",
-   "technology": "Meta (Facebook) Pixel and Google tracking (Google Analytics) on Banner's website, webpages and the MyBanner / Banner Health Patient Account portal (including Cerner). Alleged to send PII/PHI to Meta and Google. In the settlement Banner represents there was no Meta Pixel inside the patient portal itself.",
+   "short_name": "Mount Sinai Medical Center of Florida (FSCA pixel)",
+   "caption": "Luis Boggiano and Barbara McGrath, individually and on behalf of all others similarly situated v. Mount Sinai Medical Center of Florida, Inc. a/k/a Mount Sinai Medical Center",
+   "defendant": "Mount Sinai Medical Center of Florida, Inc. a/k/a Mount Sinai Medical Center",
+   "court": "Circuit Court of the 17th Judicial Circuit in and for Broward County, Florida",
+   "docket": "CACE-26-006904-09 (Div. 09)",
+   "judge": "Hon. Jeffrey R. Levenson",
+   "industry": "Healthcare: hospital system (Miami Beach teaching hospital, website msmc.com and patient portal)",
+   "technology": "Third-party tracking, analytics and advertising technologies (pixels) on the public website and patient portal; the Joint Declaration of Class Counsel (para. 3) says PHI and communications were disclosed to Google. Meta is not named in any document I reviewed.",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "not_pled",
+   "fsca": "pled",
+   "other_claims": "Invasion of privacy (Florida common law); unjust enrichment. No Stored Communications Act, VPPA, or other state wiretap claims are listed.",
+   "statute_evidence": "The Settlement Agreement (para. 3 recital), the Motion for Final Approval (pp. 2-3), and the Joint Declaration of Class Counsel (para. 8) all list the April 27, 2026 Complaint's claims as FSCA ch. 934.03, invasion of privacy, and unjust enrichment, and nothing else. All three come from the official settlement site (https://www.mountsinaidatasettlement.com/settlement-documents/). I did not get the Complaint PDF itself because it is on the Broward Clerk's docket and not posted on the settlement site. CIPA and ECPA are marked not_pled on the strength of these party-filed claims lists. That fits a Florida state-court case brought by Florida patients.",
+   "class_definition": "All living individuals who accessed Defendant's Website or Patient Portal between June 10, 2021 and September 18, 2025. Excluded: Defendant's officers, directors and employees; judicial officers and their families and staff; governmental entities; and opt-outs.",
+   "class_size": 325108,
+   "class_size_note": "Exact count of KNOWN class members on the Class List that Defendant gave Atticus on 2026-06-23 (Admin. Decl. para. 4, cited in the Motion for Final Approval). 250,208 received email notice and 74,736 received postcard notice. The class definition covers everyone who accessed the site, so the true class may be larger. As of 2026-08-24: 4,311 claims submitted, 4,168 valid (the motion calls this 1.23% of the class). 9 opt-outs, 0 objections.",
+   "settlement_structure": "Claims-made settlement with a fixed $220,000 'Total Cash Payment' pool. Payments are pro rata, and anything left after proration goes to a court-approved cy pres recipient, so nothing reverts. Defendant pays separately for: 1-year medical data monitoring for every class member with no claim needed, settlement administration, court-awarded fees and costs, and service awards.",
+   "fund_amount": 220000,
+   "payment_terms": "Estimated $20 cash payment per valid claim, no documentation required. The amount adjusts pro rata both ways on an equal-percentage basis, with any increase capped at $250 per claimant. Every class member also automatically gets 1 year of CyEx Medical Shield medical data monitoring (activation code in the notice), with no claim form needed. Claims were due 2026-09-28; opt-out and objection deadline was 2026-09-14.",
+   "fees_requested": "Agreement para. 89 caps fees plus costs at $500,000, paid by Defendant separately from class benefits. The Motion for Final Approval (e-filed 2026-08-28, Filing # 255950751) asks for $492,750 total, which includes $33,542.23 in costs, so the net fee is $459,207.77. Lodestar through 2026-08-25 is $297,836.50 (Joint Dec. para. 34). The motion's \"~1.65 multiplier\" comes from dividing the gross $492,750 (costs included) by the lodestar. Net of costs the multiplier is about 1.54. Service awards are capped at $2,500 per named plaintiff (2 plaintiffs). Nothing has been awarded yet.",
+   "service_award": "Up to $2,500 each for 2 class representatives (Luis Boggiano, Barbara McGrath), paid by Defendant on top of the class benefits. Requested, not yet awarded.",
+   "injunctive_relief": "None. The Agreement and motions I reviewed contain no business-practice changes or tracking-removal commitments. The only non-cash relief is the 1-year medical data monitoring.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2026-06-12",
+   "final_hearing_date": "2026-10-13",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Judge Levenson granted preliminary approval on 2026-06-12 (order e-filed that day), which falls inside the 2026-04-09 to 2026-10-09 window. The final approval hearing is set for 2026-10-13.",
+   "plaintiff_counsel": "Jeff Ostrow (and Kristen Lake Cardoso, Steven Sukert) of Kopelowitz Ostrow P.A.; Katrina Carroll of Carroll Shamberg LLC; Mariya Weekes of Milberg, PLLC. Defense counsel: Alfred J. Saikali and Melissa Madsen of Shook, Hardy & Bacon L.L.P.",
+   "settlement_website": "https://www.mountsinaidatasettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (home: caption, court, case no., class, benefits, deadlines)",
+     "url": "https://www.mountsinaidatasettlement.com/"
+    },
+    {
+     "label": "Official settlement website - Important Documents page",
+     "url": "https://www.mountsinaidatasettlement.com/settlement-documents/"
+    },
+    {
+     "label": "Order Granting Preliminary Approval (Judge Levenson, e-filed 06/12/2026): class, class counsel, schedule",
+     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/06/002-Mount-Sinai-Preliminary-Approval-Order.pdf"
+    },
+    {
+     "label": "Settlement Agreement (claims recital para. 3, benefits para. 60, service awards para. 88, fees para. 89)",
+     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/06/001-Mount-Sinai-Settlement-Agreement.pdf"
+    },
+    {
+     "label": "Notice of Hearing (FAH Oct. 13, 2026, 9:30 AM, filed 06/15/2026)",
+     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/06/003-Mount-Sinai-Notice-of-Final-Hearing.pdf"
+    },
+    {
+     "label": "Plaintiffs' Unopposed Motion for Final Approval and Fee Application (e-filed 08/28/2026), incl. Joint Decl. and Admin. Decl.: claims list, class list size, claims rate, fees/lodestar",
+     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/08/Mount-Sinai-Motion-for-Final-Approval-filed-8.28.26.pdf"
+    },
+    {
+     "label": "Long Form Notice (deadlines, FAH date)",
+     "url": "https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/07/Mount-Sinai-Ex.-4-LFN_FINAL.pdf"
+    },
+    {
+     "label": "ClassAction.org news summary (FSCA, patient-portal tracking pixels)",
+     "url": "https://www.classaction.org/news/mount-sinai-medical-center-of-florida-settlement-resolves-class-action-over-patient-portal-tracking-pixels"
+    },
+    {
+     "label": "ClassAction.org copy of Settlement Agreement",
+     "url": "https://www.classaction.org/media/001-mount-sinai-settlement-agreement.pdf"
+    },
+    {
+     "label": "ClaimDepot summary (fees up to $500K, service awards up to $2,500)",
+     "url": "https://www.claimdepot.com/settlements/mount-sinai-data-settlement"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the FSCA claim. I downloaded and text-searched the filed Settlement Agreement (74 pp.) and the Motion for Final Approval filed 8/28/26 (196 pp. with exhibits). The Agreement's recitals say the April 27, 2026 Class Action Complaint (defined in Agreement para. 16) alleges three claims: violation of the Florida Security of Communications Act, ch. 934.03, plus invasion of privacy and unjust enrichment. The same three-claim list appears twice in the Final Approval motion, once in its background section citing \"Complaint generally\" and once in Joint Class Counsel Decl. para. 8. The motion also discusses risk under \"Florida's FSCA statute as applied to Internet privacy.\" None of these documents mention Cal. Penal Code 631, 632, 632.7 or 638.51, 18 U.S.C. 2511, the Wiretap Act, ECPA or CIPA. The only \"631\" hits are reporter page cites (631 F. Supp.), not statutes. So the other five statutes are not_pled based on the claims lists the parties filed. I did not see the Complaint PDF itself. It sits on the Broward Clerk docket (CACE-26-006904-09) and is not posted on the settlement site, so a stray ECPA reference inside the FSCA count can't be ruled out, but there is no standalone count. On amendments: no amended complaint is mentioned, and the Agreement defines the operative pleading as the 4/27/26 Complaint. Decl. para. 8 says plaintiffs \"dismissed their respective actions\" before refiling in Broward as a consolidated settlement vehicle. Those earlier actions were not identified, and a CourtListener RECAP search found no related federal dockets for Boggiano/McGrath v. Mount Sinai Medical Center of Florida. Any counts in those earlier suits are irrelevant to the operative complaint anyway. Alleged conduct: disclosure to Google through website/patient-portal tracking, 6/10/2021 to 9/18/2025. Preliminary approval was granted 6/12/2026. The researcher's findings match mine on every statute. Supporting doc: https://www.mountsinaidatasettlement.com/wp-content/uploads/2026/08/Mount-Sinai-Motion-for-Final-Approval-filed-8.28.26.pdf | fees_requested: The Agreement (para. 89) caps fees plus expenses at $500,000, paid by Defendant on top of the class benefits. In the Motion for Final Approval (filed 2026-08-28), Class Counsel asks for $492,750 in fees 'including $33,542.23 in litigation costs.' Lodestar through 2026-08-25 is $297,836.50, which the motion describes as a ~1.65 multiplier. The figures do not reconcile; see open_questions. Not yet awarded.→Agreement para. 89 caps fees plus costs at $500,000, paid by Defendant separately from class benefits. The Motion for Final Approval (e-filed 2026-08-28, Filing # 255950751) asks for $492,750 total, which includes $33,542.23 in costs, so the net fee is $459,207.77. Lodestar through 2026-08-25 is $297,836.50 (Joint Dec. para. 34). The motion's \"~1.65 multiplier\" comes from dividing the gross $492,750 (costs included) by the lodestar. Net of costs the multiplier is about 1.54. Service awards are capped at $2,500 per named plaintiff (2 plaintiffs). Nothing has been awarded yet. | Timing/money check (confirmed): CONFIRMED in window. The preliminary approval order is a primary source. It was signed by Judge Jeffrey R. Levenson, Broward 17th Cir., Case No. CACE26006904, Div. 09, and e-filed 06/12/2026 as Filing # 250257884. It grants the unopposed motion for preliminary approval, and 2026-06-12 falls inside the 2026-04-09 to 2026-10-09 window. I could not refute it. The 8/28/26 Motion for Final Approval and the Joint Declaration (para. 12) independently restate the June 12, 2026 grant.\n\nFinal hearing: the Notice of Hearing (e-filed 06/15/2026, Filing # 250365941) sets the in-person hearing on the final approval motion for 2026-10-13 at 9:30 AM before Judge Levenson. The Long Form Notice gives the same date. As of today (2026-10-09) the hearing has not happened and no final approval order exists, so final_approval_date stays blank.\n\nPrelim motion filing date: unverified, left blank. No source gives the date. The Broward Clerk docket is behind reCAPTCHA/Turnstile and was not accessed. The motion must fall between the complaint filing (2026-04-27, per the Agreement and the motion) and 2026-06-12, so it is in-window either way. ClaimDepot and Sounder list \"Apr 27, 2026\", but that is the complaint filing date, not the motion date. An automated summary of the classaction.org page initially called it a \"motion filed\" date. Re-checking the page shows it is the case filing date.\n\nFund: $220,000 is the \"Total Cash Payment\" pool only (Agreement definitions; para. 60.b). Each claimant gets an estimated $20, with pro rata adjustment capped at $250. Unclaimed money goes to cy pres. Defendant pays separately for 1 year of CyEx Medical Data Monitoring for every class member (automatic, no claim needed), for administration costs, for fees and costs (up to $500k), and for service awards. The all-in value is therefore well above $220k.\n\nClass size: 325,108 is the number of known class members in the data file Defendant gave Atticus on 2026-06-23 (Admin. Dec. para. 4). Email notice went to 250,208 and postcards to 74,736 on 2026-07-10.\n\nClaims response as of 2026-08-24: 4,311 claim forms, of which 4,168 were valid (1.23% of the class). Nine opt-outs and zero objections; the opt-out and objection deadline was 2026-09-14. The claim deadline was 2026-09-28.\n\nClaims pleaded: Florida Security of Communications Act (Fla. Stat. 934.03), invasion of privacy, and unjust enrichment. The case concerns tracking tech on the website and patient portal that sent data to Google. The class period is 2021-06-10 to 2025-09-18. FSCA meets the user's criteria. The named plaintiffs dismissed earlier separate actions and refiled together in state court after mediation (Joint Dec. paras. 4-8).\n\nClass counsel: Kopelowitz Ostrow, Carroll Shamberg, and Milberg. Defense counsel: Shook Hardy & Bacon. Administrator: Atticus.",
+   "open_questions": "(1) The filing date of the motion for preliminary approval is unknown. It falls between the complaint (2026-04-27) and the PA order (2026-06-12), but the motion is not posted on the settlement site; the Broward Clerk docket would show it. (2) The fee figures conflict. The Agreement caps fees plus costs at $500,000. The motion asks for '$492,750.00 in attorneys' fees including $33,542.23 in litigation costs.' But $492,750 divided by the $297,836.50 lodestar is the stated ~1.65 multiplier, which suggests $492,750 is fees alone; adding costs would put the total over the cap. Check the final approval order for the actual award. (3) Final approval hearing is 2026-10-13, after the window closes. Re-check for a final approval order and the final valid-claim count and per-claimant payout. (4) Only Google is named as a recipient (Joint Decl. para. 3); Meta involvement is unconfirmed. (5) The Joint Decl. (para. 8) says plaintiffs 'dismissed their respective actions' before filing this consolidated state-court action. The earlier cases may have pled different statutes, but they are not the operative complaint. (6) I relied on the parties' description of the Complaint's claims, not the Complaint PDF itself. (7) The fund figure is the $220,000 cash pool only. Monitoring, administration, fees (up to $500K) and service awards are paid by Defendant on top, so total settlement value is higher. Some secondary sources (Top Class Actions) list other deadlines (claims Oct. 5, FAH Oct. 29); the official site, notice and Notice of Hearing all say claims 2026-09-28 and FAH 2026-10-13.",
+   "id": "mount-sinai-medical-center-of-florida-fsca-pixel"
+  },
+  {
+   "short_name": "Thriveworks (Mosher)",
+   "caption": "Jennifer Mosher and Lila Wakeley, on behalf of themselves and all others similarly situated v. Thriveworks Administrative Services, LLC and Thriveworks, Inc.",
+   "defendant": "Thriveworks Administrative Services, LLC; Thriveworks, Inc.",
+   "court": "Circuit Court of the Fifth Judicial Circuit in and for Marion County, Florida",
+   "docket": "26-CA-0482 (also styled 2026-CA-000482)",
+   "judge": "Hon. Stacy Youmans",
+   "industry": "Behavioral health: outpatient and online therapy and psychiatry provider (healthcare)",
+   "technology": "Google and LinkedIn tracking technologies (pixels/tags; the release also covers the Meta pixel and other pixels, cookies and analytics) on thriveworks.com and its patient portal. Alleged disclosure of patients' appointment and booking communications and identifiers.",
    "cipa_631": "pled",
    "cipa_632": "not_pled",
    "cipa_632_7": "not_pled",
    "cipa_638_51": "not_pled",
    "ecpa_wiretap": "pled",
-   "fsca": "not_pled",
-   "other_claims": "Breach of confidence; invasion of privacy (intrusion upon seclusion); breach of implied contract; unjust enrichment; negligence; Arizona Consumer Fraud Act (A.R.S. § 44-1521); California CMIA (Civ. Code § 56 et seq.); California UCL, unlawful and unfair prongs (the unlawful-prong predicates also cite 18 U.S.C. § 2511(3)(a) and CFAA 18 U.S.C. § 1030); Colorado Consumer Protection Act (C.R.S. § 6-1-101). In D. Ariz., the May 10, 2024 order (Doc. 35) dismissed negligence, implied contract and the CCPA damages theory with leave to amend. The ECPA and CIPA counts survived the motion to dismiss, and reconsideration was denied as to the ECPA count (Doc. 43).",
-   "statute_evidence": "Primary source: D. Ariz. Consolidated Class Action Complaint, Doc. 23, filed 2023-11-22, 12 counts (RECAP: https://storage.courtlistener.com/recap/gov.uscourts.azd.1336139/gov.uscourts.azd.1336139.23.0.pdf). Count II is ECPA, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure). Count VIII is CIPA, Cal. Penal Code § 630 et seq. Its only section quoted and relied on is § 631(a), on an aiding/conspiring-with-Facebook theory; damages are under § 637.2. A full-text search of the complaint found no \"632\", no \"638.51\" (only the phrase \"§§ 630 to 638\") and no \"934.\" (no FSCA); the classes are AZ, CA and CO. I could NOT see the Weld County complaint (2026CV30182). It is not posted on the settlement site's documents list, and that page is behind a Cloudflare bot check. ClassAction.org (news article, 2026-07-14), HIPAA Journal (2026-07-29) and CaptainCompliance describe the Colorado complaint as pleading the same set: ECPA, CIPA, CMIA, UCL, ACFA, CO CPA, plus the common-law counts. The settlement agreement recitals say the Colorado action continues the D. Ariz. litigation.",
-   "class_definition": "All individuals who had a Banner Health Patient Account (formerly MyBanner patient portal) and logged into it using one of Banner's web properties or applications from 2020-06-01 through 2023-11-22. Standard exclusions apply (defendant and affiliates, judicial officers, opt-outs).",
-   "class_size": 1028000,
-   "class_size_note": "Approximate. The settlement agreement, long-form notice and settlement site FAQ say the class is \"estimated to consist of approximately 1,028,000 natural persons.\"",
-   "settlement_structure": "Claims-made, uncapped, with no common fund. Banner separately pays $20 for each approved claim, plus notice and administration costs, the fee award and service awards. Every class member also gets a 1-year CyEx Privacy Shield Pro code automatically. Nothing reverts to Banner after the Effective Date; uncashed checks go to the Colorado Lawyer Trust Account Foundation (COLTAF) as cy pres.",
-   "fund_amount": null,
-   "payment_terms": "$20 flat cash payment per approved claim, by check, Venmo, PayPal or Zelle, with no pro-rata reduction. Every class member who does not opt out also gets an automatic code for 1 year of CyEx Privacy Shield Pro (stated retail value $24.99/month): dark web monitoring, VPN, password tools, data-broker opt-out. Deadline for claims, opt-outs and objections was 2026-09-05. Checks expire after 120 days.",
-   "fees_requested": "$3,750,000 requested for fees and costs combined, and $3,750,000 awarded on 2026-09-10. The award includes $41,813.66 in litigation costs. The court called it about 18.2% of the cash benefit and about 1.1% of total settlement value. Service awards were $2,500 for each of 8 class reps, $20,000 in total. Banner pays fees, administration and service awards separately, so they do not reduce class benefits.",
-   "service_award": "$2,500 to each of 8 class representatives ($20,000 total), subject to court approval.",
-   "injunctive_relief": "Representations and business-practice changes (Settlement Agreement §2.8): (a) Banner represents there was no Meta Pixel tracking in the patient account portal, including Cerner; (b) Banner has removed Google Analytics tracking from the portal; (c) for at least 2 years Banner will not place the Meta Pixel or Google Analytics in the portal without appropriate informed consent and/or an opt-out.",
-   "motion_prelim_filed": "2026-05-01",
-   "prelim_approval_date": "2026-05-05",
-   "final_hearing_date": "2026-09-10",
-   "final_approval_date": "2026-09-10",
-   "status": "Final approval",
-   "window_basis": "The Weld County District Court signed and filed the preliminary approval order on 2026-05-05 (filed 10:04 AM, signed \"5th day of May 2026\"). ClaimDepot reports final approval was granted at the 2026-09-10 hearing. Both dates fall within 2026-04-09 to 2026-10-09.",
-   "plaintiff_counsel": "Class Counsel: Carolyn Cuneo and Gary M. Klinger (Milberg PLLC); Hart L. Robinovitch (Zimmerman Reed LLP); David S. Almeida (Almeida Law Group LLC); Joseph M. Lyon (The Lyon Firm). The D. Ariz. plaintiffs' signature block also listed Levi & Korsinsky (Mark S. Reich), Gallagher & Kennedy, Chestnut Cambronne, Markovits Stock & DeMarco, and Perez Law Group. Defense counsel: Baker & Hostetler (David Carney) and Lang Thal King & Hanson.",
-   "settlement_website": "https://bannerhealthdatasettlement.com/",
+   "fsca": "pled",
+   "other_claims": "The Florida complaint has no other claims identified. The predecessor federal suit, Wakeley v. Thriveworks Administrative Services, LLC (W.D. Va. No. 6:25-cv-00032, filed 2025-04-25, Judge Moon), pleaded ECPA § 2511(1) and the Pennsylvania Wiretapping Act (18 Pa. C.S. § 5701 et seq.). The release expressly covers FSCA, CIPA, ECPA, the PA Wiretap Act, and any other state, federal or common-law claims about Google, LinkedIn, Meta or other tracking on thriveworks.com.",
+   "statute_evidence": "Settlement Agreement Recital F (https://cw.simpluris.com/docs/public/downloads/TMC5/SETTLEMENT_AGREEMENT) says Mosher's 2026-03-02 Marion County complaint alleged FSCA (Fla. Stat. § 934.03), CIPA (Cal. Penal Code § 631(a)) and ECPA (18 U.S.C. § 2510 et seq.). The Long Form Notice and FAQ #3 (https://cw.simpluris.com/docs/public/downloads/TMC5/LONG_FORM_NOTICE) and the 2026-07-08 Motion for Final Approval (https://cw.simpluris.com/docs/public/downloads/TMC5/MOTION_FOR_FINAL_APPROVAL) describe only FSCA § 934.03 and ECPA § 2511(1)/§ 2510 et seq. FSCA and ECPA are therefore certain. CIPA § 631 rests only on the Settlement Agreement recital. No source mentions § 632, § 632.7 or § 638.51. I did not review the complaint itself.",
+   "class_definition": "All Thriveworks patients in the United States who accessed their patient portal from 2023-04-25 through 2025-09-05, with standard exclusions (judges, defendants and affiliates, opt-outs).",
+   "class_size": 258009,
+   "class_size_note": "Exact count from the class list. Per the Simpluris declaration ¶4, the defendant produced 259,184 records, which came to 258,009 unique Settlement Class Members after dedup; 253,182 had valid emails. Email notice went out 2026-05-22 and reached about 99.04% of members. As of 2026-06-30 there were 3,341 claims (about 1.3%), 4 opt-outs and 0 objections.",
+   "settlement_structure": "Claims-made settlement with a $1.9M aggregate cap, not a funded common fund. The defendants pay approved claims, notice and administration costs, the fee award and service awards, all capped at $1,900,000. Money not claimed stays with the defendants, and uncashed checks (void after 180 days) revert to the defendants.",
+   "fund_amount": 1900000,
+   "payment_terms": "$10.00 cash per approved claim, reduced pro rata only if total payouts exceed the $1.9M cap. One claim per member. The claimant must verify they had an active Google or LinkedIn account during the class period. Payment is by check, PayPal or Venmo. The claim deadline was 2026-07-21, and the notice projected payment on or before 2026-10-10 if approved.",
+   "fees_requested": "Up to one-third of the $1.9M Aggregate Settlement Cap: $633,333.33, including costs and expenses. Requested in the Motion for Final Approval e-filed 2026-07-08 (Filing # 252010467). Defendants agreed not to object (SA § 8.1). The fee is paid inside the cap. Separately, service awards of $2,500 each ($5,000 total) were requested. No fee award has been confirmed.",
+   "service_award": "$2,500 for each of the 2 class representatives ($5,000 total), requested (Settlement Agreement § 8.3).",
+   "injunctive_relief": "Settlement Agreement § 2.2: the defendants have reviewed their use of tracking technology and confirmed that thriveworks.com is configured to prevent the collection of patient medical information without consent. The notice describes this as a required review of website software and tracking technology.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2026-04-22",
+   "final_hearing_date": "2026-08-04",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "The court entered the order preliminarily approving the settlement and certifying the class on 2026-04-22 (Filing #246570343), which falls inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Bursor & Fisher, P.A.: Alec M. Leslie (NY) and Stephen A. Beck (Miami). Joshua Erlich was local counsel in the predecessor W.D. Va. case. Defense counsel: O'Hagan Meyer, PLLC (Candice A. Diah-Okyar, James W. Davidson). Mediator: Jill R. Sperber of Judicate West (mediation 2026-02-03; term sheet 2026-02-16).",
+   "settlement_website": "https://www.thriveworksprivacysettlement.com/",
    "sources": [
     {
-     "label": "Settlement website FAQ (official; Kroll) - case no., class size ~1,028,000, benefits, fees up to $3.75M, $2,500 service awards, FAH 2026-09-10, Class Counsel",
-     "url": "https://bannerhealthdatasettlement.com/faq"
+     "label": "Official settlement website (home, documents, dates)",
+     "url": "https://www.thriveworksprivacysettlement.com/documents/"
     },
     {
-     "label": "Class Action Settlement Agreement and Release, Weld County 2026CV30182 (signed Apr. 22-30, 2026) - recitals, benefits, §2.8 injunctive terms, §8 fees/service awards",
-     "url": "https://www.classaction.org/media/banner-health-settlement_1.pdf"
+     "label": "Preliminary Approval Order (2026-04-22)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/PRELIMINARY_APPROVAL_ORDER"
     },
     {
-     "label": "Preliminary Approval Order, Weld County Dist. Ct. Div. 3, signed/filed May 5, 2026",
-     "url": "https://www.classaction.org/media/banner-health-pao.pdf"
+     "label": "Settlement Agreement (Recital F claims list; terms, release, fees, injunctive relief)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/SETTLEMENT_AGREEMENT"
     },
     {
-     "label": "Long-form notice (Weld County)",
-     "url": "https://www.classaction.org/media/banner-health-long-notice.pdf"
+     "label": "Plaintiffs' Unopposed Motion for Final Approval (filed 2026-07-08)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/MOTION_FOR_FINAL_APPROVAL"
     },
     {
-     "label": "D. Ariz. 2:23-cv-00985 Consolidated Class Action Complaint, Doc. 23 (ECPA Count II; CIPA § 631(a) Count VIII)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1336139/gov.uscourts.azd.1336139.23.0.pdf"
+     "label": "Simpluris (Leung) Declaration ISO Final Approval: class size, claims, opt-outs",
+     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/ISO_FA_SIMPLURIS_DECLARATION"
     },
     {
-     "label": "D. Ariz. docket (CourtListener) - MTD order Doc. 35, reconsideration order Doc. 43, notice of settlement Doc. 64, dismissal order Doc. 67",
-     "url": "https://www.courtlistener.com/docket/67467517/mcculley-v-banner-health/"
+     "label": "Long Form Notice",
+     "url": "https://cw.simpluris.com/docs/public/downloads/TMC5/LONG_FORM_NOTICE"
     },
     {
-     "label": "D. Ariz. Notice of Settlement, Doc. 64 (Feb. 4, 2026; JAMS mediator Bruce Friedman)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1336139/gov.uscourts.azd.1336139.64.0.pdf"
+     "label": "ClassAction.org news article",
+     "url": "https://www.classaction.org/news/1.9m-thriveworks-settlement-wraps-up-class-action-lawsuit-over-alleged-data-disclosure-with-google-linkedin"
     },
     {
-     "label": "D. Ariz. Order dismissing consolidated case without prejudice, Doc. 67 (Feb. 12, 2026)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.azd.1336139/gov.uscourts.azd.1336139.67.0.pdf"
+     "label": "Predecessor federal docket: Wakeley v. Thriveworks (W.D. Va. 6:25-cv-00032), CourtListener",
+     "url": "https://www.courtlistener.com/docket/69952067/wakeley-v-thriveworks-administrative-services-llc/"
     },
     {
-     "label": "ClaimDepot - reports final approval granted Sept. 10, 2026",
-     "url": "https://www.claimdepot.com/settlements/banner-health-data-settlement"
-    },
-    {
-     "label": "ClassAction.org news - lists ECPA, CIPA, UCL, CMIA, AZ CFA, CO CPA; prelim approval May 5, 2026",
-     "url": "https://www.classaction.org/news/banner-health-settlement-resolves-class-action-lawsuit-over-alleged-disclosure-of-patient-info"
-    },
-    {
-     "label": "HIPAA Journal - claim list for consolidated action; fees/service awards",
-     "url": "https://www.hipaajournal.com/banner-health-lifestance-health-group-pixel-settlements/"
-    },
-    {
-     "label": "Sounder case page - filed Feb. 11, 2026; prelim approval May 5, 2026",
-     "url": "https://sounderdata.com/healthcare-tracking-lawsuits/mcculley-v-banner-health/"
+     "label": "ClaimDepot listing",
+     "url": "https://www.claimdepot.com/settlements/thriveworks-privacy-settlement"
     }
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher. Primary source: D. Ariz. 2:23-cv-00985-SPL, Doc. 23, the Consolidated Class Action Complaint filed 2023-11-22 (RECAP doc id 378941215). I checked it directly.\n\nECPA is pled:\n- Count II is captioned \"Violation of ECPA, 18 U.S.C. § 2511(1) et seq. – unauthorized interception, use, and disclosure.\"\n- It cites § 2511(1)(a), (c) and (d), and argues that the § 2511(2)(d) party exception is defeated by the crime-tort exception.\n\nCIPA § 631 is pled:\n- The CIPA count (Cal. Penal Code § 630 et seq.) quotes § 631(a) at ¶393.\n- At ¶¶395-396 it alleges Banner aided, agreed with and conspired with Facebook to intercept the communications.\n\nNo other target statute appears:\n- Full-text searches returned zero hits for \"632\" and zero for \"934\".\n- So there is no § 632, § 632.7 or FSCA count, and no § 638.51 count.\n- Plaintiff Cindy Freriks lives in Florida (¶22), but no Florida statute is pled.\n\nDoc. 23 stayed the operative complaint and both counts survived:\n- The docket shows no later amended complaint. Banner answered Doc. 23 (Doc. 44, 2024-06-24).\n- The motion to dismiss order (Doc. 35, 2024-05-10) dismissed only the negligence count (VI) and the breach-of-implied-contract count (IV), with leave to amend.\n- Banner's motion for reconsideration (Doc. 37) is titled as attacking the court's order denying dismissal of the ECPA and CIPA claims. Doc. 43 (2024-06-20) denied reconsideration as to Count II (ECPA).\n\nFederal case end and refiling:\n- Doc. 64 (Notice of Settlement, 2026-02-04) says the parties agreed to resolve all claims asserted in that action. Levi & Korsinsky (Mark Reich) is listed as plaintiffs' co-counsel.\n- Doc. 67 dismissed the consolidated case without prejudice on 2026-02-12.\n\nCaveat: I could not reach the Weld County complaint (2026CV30182). The settlement site's documents page lists a 1.30 MB \"Class Action Complaint\" PDF, but both WebFetch and headless Playwright were stopped by Cloudflare (HTTP 403 / \"Just a moment\"). ClassAction.org's \"Read Complaint\" link actually opens the settlement agreement, not the complaint.\n\nWhat the other settlement papers say:\n- I rendered the image-only pages of the signed settlement agreement. The recitals say only \"common law and statutory violations\" and that the first suit was in D. Ariz. No statutes are listed.\n- The proposed preliminary approval order and the notices also name no statutes.\n\nSecondary sources (not primary) list the Colorado complaint's laws as ECPA, CIPA, UCL, CMIA, Arizona CFA and Colorado CPA: ClassAction.org's law tags and the consentpixel.com CIPA tracker.\n\nSo the 632, 632.7, 638.51 and FSCA \"not pled\" values come from the D. Ariz. operative complaint. They are not verified against the Colorado refiling. I found no disagreement with the researcher on any statute. | motion_prelim_filed: —→2026-05-01 | fees_requested: Up to $3,750,000 in attorneys' fees, costs and expenses (Settlement Agreement §8.1). Banner pays this separately, on top of class benefits, and it was negotiated only after the other terms (§8.4). The amount actually awarded was not confirmed.→$3,750,000 requested for fees and costs combined, and $3,750,000 awarded on 2026-09-10. The award includes $41,813.66 in litigation costs. The court called it about 18.2% of the cash benefit and about 1.1% of total settlement value. Service awards were $2,500 for each of 8 class reps, $20,000 in total. Banner pays fees, administration and service awards separately, so they do not reduce class benefits. | Timing/money check (confirmed): I could not refute it. All three qualifying events fall inside the 2026-04-09 to 2026-10-09 window.\n\nSource: the official Kroll settlement site, bannerhealthdatasettlement.com/documents. Plain curl and WebFetch got HTTP 403, so I used a headless browser. These signed or stamped court filings were downloaded and read:\n(1) Preliminary Approval Order, court e-file stamp \"DATE FILED May 5, 2026 10:04 AM\", Case No. 2026CV30182, Div. 3, Weld County District Court. This confirms prelim approval on 2026-05-05.\n(2) Final Approval Order, e-file stamp \"September 10, 2026 2:42 PM\", signed and dated the 10th of September. Its recitals confirm the PAO date of May 5, 2026 and the final approval hearing on September 10, 2026. It finally approves the settlement, certifies the class and dismisses with prejudice. Final approval = 2026-09-10.\n(3) Order granting fees, expenses and service awards, e-file stamp \"September 10, 2026 2:44 PM\".\n(4) Plaintiffs' Unopposed Motion for Attorneys' Fees, e-filed 2026-08-21.\n\nCorrections and additions:\n- Prelim motion filed: was \"?\", now 2026-05-01. The fee motion (Sec. II) incorporates \"Plaintiffs' Motion for Preliminary Approval ... filed on May 1, 2026.\"\n- Fees: the researcher could not confirm the actual award. It is confirmed as $3,750,000.00 total, inclusive of $41,813.66 in costs, per FAO para. 14 and the separate fee order. Service awards: $2,500 x 8 = $20,000 (FAO para. 15).\n- Fund amount: left null on purpose. There is no common fund. This is an uncapped claims-made settlement: $20 cash to each valid claimant, plus 1 year of CyEx Privacy Shield Pro sent automatically to every class member, plus business-practice changes. Fees, administration and service awards are paid separately. The fee motion puts the maximum cash exposure at $20,560,000 (about 1,028,000 members x $20) and the total settlement value at over $300M, mostly the stated value of CyEx. The $20.56M is a ceiling only if every class member claims. Do not show it as a fund in the comparison table.\n- Class size: 1,028,000 is confirmed by the fee motion's \"approximately 1,028,000 Settlement Class Members\". Class definition: Banner Health Patient Account (formerly MyBanner) users who logged in between 2020-06-01 and 2023-11-22.\n- Other dates and facts: claims, opt-out and objection deadlines were all 2026-09-05. There were 13 valid exclusions. One late objection was considered and overruled. The FAO reports notice reached about 96.14% of the class. Uncashed checks go to COLTAF cy pres, with no reversion to Banner. Mediator: Bruce Friedman (JAMS), followed by a mediator's proposal. Class counsel: Milberg, Zimmerman Reed, Almeida Law Group and The Lyon Firm. Defense counsel: Baker & Hostetler (David Carney).\n\nCaveat for the user's CIPA, ECPA and FSCA screen: the documents I reviewed describe Meta and Google pixel tracking on the patient portal with \"common law and statutory\" claims. I did not confirm the specific statutory counts (for example ECPA section 2511) because the complaint download timed out. Check the complaint before tagging this case as an ECPA, CIPA or FSCA settlement.",
-   "open_questions": "1) Final approval rests only on ClaimDepot (\"granted final approval on Sept. 10, 2026\", page updated 2026-09-24). I did not see the order. Settlement Insight (as of 2026-09-11) and Sounder (as of 2026-10-08) still showed the outcome as not recorded. Verify on the Colorado docket. 2) I did not see the Weld County complaint. Statute marks come from the D. Ariz. consolidated complaint plus secondary reports that the Colorado complaint carries the same claims. Confirm that the Colorado complaint's CIPA count still rests only on § 631(a), with no § 632 or § 638.51 added. 3) The date the unopposed motion for preliminary approval was filed is unknown. It falls between the last agreement signatures (about 2026-04-30) and the order (2026-05-05). 4) The judge's name is not printed on the order and the signature is illegible. 5) The fee and service awards actually granted at final approval were not confirmed. 6) There is no common fund, so no fund amount is reported. Total payout depends on the claims rate (1,028,000 × $20 is the theoretical maximum, about $20.56M in cash, not a figure the parties stated). 7) Levi & Korsinsky (Mark S. Reich) is listed as plaintiffs' counsel in the D. Ariz. case but is not among the appointed Class Counsel in Colorado.",
-   "id": "mcculley-v-banner-health"
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. FSCA and ECPA are confirmed by two court-filed primary documents. (1) Settlement Agreement Recital F, which the parties signed on Mar 25-26 and Apr 16, 2026, says Mosher's Mar 2, 2026 Marion County complaint alleged FSCA Fla. Stat. § 934.03, CIPA § 631(a) and ECPA 18 U.S.C. § 2510 et seq. (2) Plaintiffs' Unopposed Motion for Final Approval (https://cw.simpluris.com/docs/public/downloads/TMC5/MOTION_FOR_FINAL_APPROVAL, Filing # 252010467, e-filed Jul 8, 2026) says \"Plaintiffs' Complaint\" alleges FSCA § 934.03 and ECPA § 2510 et seq. The Long Form Notice (FAQ 3) also lists only FSCA and ECPA § 2511(1). The FSCA claim is under § 934.03 (interception), not the § 934.10 civil-remedy section by number; I treat that as FSCA pled.\n\nI disagree on § 631. I marked it unknown, not pled. Only Recital F mentions CIPA § 631(a). The later final-approval motion describes the complaint as FSCA plus ECPA only, and so do the notice and ClassAction.org. Recital F says Mosher alone filed the action, but by preliminary approval (Apr 22, 2026) the caption lists Mosher and Wakeley as plaintiffs. That suggests an amended complaint may have added Wakeley and possibly dropped the CIPA count. The recital could also simply be inaccurate. Neither named plaintiff lives in California (Mosher is in Florida, Wakeley in Pennsylvania). The release names CIPA generically, which is not proof it was pled.\n\nNo source mentions § 632, § 632.7 or § 638.51. I marked them not_pled on that basis, but I never saw the complaint itself.\n\nRelated federal case: Wakeley v. Thriveworks, W.D. Va. No. 6:25-cv-00032 (CourtListener docket 69952067, cause \"18:2511 Wiretapping\"). Recital A says it pled ECPA and the Pennsylvania Wiretapping Act. Wakeley voluntarily dismissed it without prejudice on Feb 26, 2026 (Dkt. 49), and the claims were refiled in Marion County.\n\nI could not get the operative Marion County complaint. It is not on the settlement site, ClassAction.org (which lists only ECPA and FSCA), Sounder, or CourtListener. The Marion County OCRS portal (civitekflorida.com/ocrs/county/42) requires clicking \"I Agree\" on a terms disclaimer. Accepting terms needs the user's permission, so I did not click it. The user can pull the complaint and any amended complaint there to settle the § 631 question. | motion_prelim_filed: —→unknown; between 2026-04-16 and 2026-04-22 | fees_requested: Up to one-third of the aggregate cap, $633,333.33, including costs and expenses. Requested in the 2026-07-08 Motion for Final Approval. The defendants agreed not to oppose (Settlement Agreement § 8.1). Fees are paid by the defendants within the cap. The award is not confirmed.→Up to one-third of the $1.9M Aggregate Settlement Cap: $633,333.33, including costs and expenses. Requested in the Motion for Final Approval e-filed 2026-07-08 (Filing # 252010467). Defendants agreed not to object (SA § 8.1). The fee is paid inside the cap. Separately, service awards of $2,500 each ($5,000 total) were requested. No fee award has been confirmed. | Timing/money check (confirmed): I tried to refute it and could not, so the verdict is CONFIRMED. The in-window event is real: the Order Granting Preliminary Approval was signed \"DONE and ORDERED... Wednesday, April 22, 2026\" and carries the stamp \"Filing # 246570343 E-Filed 04/22/2026\". That is inside the 2026-04-09 to 2026-10-09 window. The same order sets the final approval hearing for 2026-08-04 at 8:30 a.m.\n\nChecks on the other fields:\n(1) Fund: the $1,900,000 figure is correct (SA § 1.29). Note that it is an Aggregate Settlement CAP on a claims-made settlement, not a common fund that is fully paid out. It covers $10 cash per approved claim (cut pro rata only if claims exceed the cap), notice and administration costs, fees and service awards. Under SA § 2, uncashed checks revert to the defendants. By 2026-06-30, Simpluris had received only 3,341 claim forms, which is roughly $33K in claims at $10 each. The real payout will be far below $1.9M, so weight this one accordingly in a demand-comparison table.\n(2) Class size: 258,009 is confirmed by the Leung/Simpluris Declaration ¶4 (unique class-list records; 253,182 had notice data). Email notice went out 2026-05-22, with about 99.04% reach.\n(3) Prelim motion filed: the date is NOT confirmed. The order only says an Unopposed Motion for Preliminary Approval was filed. The last settlement signature is dated 2026-04-16, so the motion was filed between 2026-04-16 and 2026-04-22. I found no filing stamp on the posted documents.\n(4) Final approval: NOT confirmed. The settlement website (checked 2026-10-09) posts only the prelim order, the settlement agreement, the motion for final approval (e-filed 2026-07-08), the Simpluris declaration, the notice and the claim form. There is no final approval order. Simpluris URLs I guessed for final-order documents returned errors. ClaimDepot (updated 2026-08-27) calls the settlement \"Closed\" but does not report an order. Sounder and Perplexity also found no final order. The Marion County public docket (Civitek OCRS county 42) is behind an \"I Agree\" terms gate. I did not accept it because that needs the user's approval, so the docket could not be checked. Status stays Preliminary approval and final_approval_date is left blank.\n(5) Claims: these are relevant to the user's filters. The state complaint (filed 2026-03-02) alleges FSCA (Fla. Stat. § 934.03), CIPA § 631(a) and ECPA (18 U.S.C. § 2510 et seq.) (SA Recital F). The final approval motion lists FSCA and ECPA only. It is Google and LinkedIn tracking on a behavioral-health patient portal, with a class period of 2023-04-25 to 2025-09-05.\n(6) Procedural history: the case started as Wakeley v. Thriveworks, W.D. Va. No. 6:25-cv-00032 (CourtListener docket 69952067). That case was filed 2025-04-25 (ECPA and the Pennsylvania wiretap statute) and stayed for mediation on 2025-11-10. Mediation with Jill Sperber was held 2026-02-03, terms were agreed 2026-02-16, and the case was refiled in Marion County on 2026-03-02. Counsel: Bursor & Fisher (Alec Leslie) for plaintiffs; O'Hagan Meyer for defendants. As of the 2026-07-08 motion there were 0 objections and 4 opt-outs. The claim, opt-out and objection deadline was 2026-07-21.",
+   "open_questions": "(1) Final approval order not confirmed. The hearing was set for 2026-08-04. The plaintiffs said they would submit a proposed order after the 2026-07-21 opt-out deadline. As of 2026-10-09 the settlement website shows no final approval order, and ClaimDepot (updated 2026-08-27) shows none either. I did not check the Marion County docket: the Clerk's public OCRS portal (civitekflorida.com/ocrs/county/42) requires clicking 'I Agree' on a disclaimer, which needs your approval. (2) The CIPA § 631 sources conflict. The Settlement Agreement recital says the 2026-03-02 complaint pleaded § 631(a), but the court-approved notice and the final approval motion describe only FSCA and ECPA. An amended complaint may have been filed when Wakeley was added as a plaintiff. I did not see the complaint itself, so verify before relying on this as § 631 support. (3) The filing date of the preliminary approval motion is unknown. It was after the Settlement Agreement was fully signed (2026-04-16) and on or before the 2026-04-22 order. (4) The fee and service awards actually granted are unknown, as are the final number of approved claims and the total paid out.",
+   "id": "thriveworks-mosher"
   },
   {
-   "short_name": "Adena Health System pixel (Jarrell)",
-   "caption": "Robin Jarrell, on behalf of herself and all others similarly situated v. Adena Health System (Ross County C.P. No. 25CI000419); predecessor federal action R.J. v. Adena Health System, No. 1:24-cv-00025 (S.D. Ohio), later Jarrell v. Adena Health System, No. 2:24-cv-00282 (S.D. Ohio)",
-   "defendant": "Adena Health System",
-   "court": "Court of Common Pleas, Ross County, Ohio (settlement forum). Refiled 2025-08-20 after the S.D. Ohio predecessor action was voluntarily dismissed without prejudice on 2025-06-05.",
-   "docket": "25CI000419 (Ross County C.P.); predecessor S.D. Ohio 2:24-cv-00282, originally 1:24-cv-00025",
-   "judge": "Hon. Michael M. Ater (Ross County C.P.); predecessor federal action before Judge James L. Graham (S.D. Ohio)",
-   "industry": "Healthcare: hospital system / patient portal",
-   "technology": "Meta (Facebook) Pixel and Google Analytics on Adena's public website and on pages linked to its MyChart patient portal. Sounderdata also lists Meta Conversions API. Alleged interception and redirection of patient PHI/PII to Meta and Google for advertising.",
+   "short_name": "Derick Dermatology (pixel)",
+   "caption": "Jennifer Jeffries v. Derick Dermatology, PLLC",
+   "defendant": "Derick Dermatology, PLLC",
+   "court": "Circuit Court of the 17th Judicial Circuit in and for Broward County, Florida (Division 08)",
+   "docket": "CACE-26-003864",
+   "judge": "Hon. Carlos Augusto Rodriguez",
+   "industry": "Healthcare: dermatology medical practice",
+   "technology": "Unnamed pixels, cookies, code and tracking/analytics tools on the website's appointment-booking flow, alleged to send browsing and appointment information to third parties. The claim form requires an attestation that the claimant did not use the Google Analytics Opt-out Browser Add-on, which suggests Google Analytics was involved.",
    "cipa_631": "not_pled",
    "cipa_632": "not_pled",
    "cipa_632_7": "not_pled",
    "cipa_638_51": "not_pled",
    "ecpa_wiretap": "pled",
    "fsca": "not_pled",
-   "other_claims": "From the predecessor federal First Amended Complaint: breach of confidence (Biddle v. Warren General Hospital); civil liability for criminal acts under Ohio R.C. 2307.60 (predicated on knowing disclosure of individually identifiable health information); invasion of privacy / intrusion upon seclusion; unjust enrichment; breach of fiduciary duty; negligence. In federal court, invasion of privacy, fiduciary duty and negligence were dismissed on 2025-01-13; breach of confidence, ECPA, R.C. 2307.60 and unjust enrichment survived. No CIPA, FSCA, VPPA or state wiretap act claim.",
-   "statute_evidence": "ECPA: Class Counsel's fee motion (Ross County, filed 2026-01-22, p.2) says the federal First Amended Complaint (filed 2024-04-29) pled ECPA, 18 U.S.C. § 2511(1). It also says the S.D. Ohio order of 2025-01-13 (ECF 38) let the ECPA claim proceed. The Settlement Agreement recitals (pp.1-2) and the Motion for Final Approval (pp.2-5) give the same seven-count list. The release covers all claims brought in the Action or the Predecessor Action. The Lyon Firm's attorney page (https://www.thelyonfirm.com/attorneys/joe-lyon) describes the Ross County case as brought \"under Ohio and federal law\" for invasion of privacy (Biddle), wiretapping and unjust enrichment. CIPA and FSCA were marked not_pled because the predecessor's seven-count list contains no California or Florida claims and this is an Ohio-only class. Documents: https://cw.simpluris.com/docs/public/downloads/AJC2/MOTION_FOR_ATTORNEYS_FEES_EXPENSES_AND_SERVICE_AWARD ; https://cw.simpluris.com/docs/public/downloads/AJC2/SETTLEMENT_AGREEMENT ; https://cw.simpluris.com/docs/public/downloads/AJC2/MOTION_FOR_FINAL_APPROVAL. Caveat: the Ross County complaint itself (filed 2025-08-20) was not obtained, because the county's eAccess portal requires a login.",
-   "class_definition": "All patients of Defendant who logged into its patient portal between November 1, 2022 and June 3, 2024. Excluded: Defendant's officers and directors, Defendant's counsel and in-house counsel, assigned judicial officers and their staff, and opt-outs.",
-   "class_size": 82222,
-   "class_size_note": "Exact figure from the administrator (Simpluris Decl., attached to the Motion for Final Approval). Adena's raw class list had 82,423 names; Simpluris removed 201 duplicates, leaving 82,222. Of those, 76,348 had valid email addresses, which is the figure The Lyon Firm uses. Valid claims as of 2026-05-14: 2,368 (about 2.9%). Zero opt-outs and zero objections.",
-   "settlement_structure": "Uncapped claims-made settlement with no fixed common fund. Defendant pays each approved claim directly and separately pays notice/administration costs, the fee award and the service award, so none of these reduce class relief. Cash from uncleared checks goes cy pres to Hope Clinic of Ross County. No reversion to Defendant.",
-   "fund_amount": null,
-   "payment_terms": "Each Approved Claim receives $21.00 cash (by check, ACH, Venmo, PayPal, e-Mastercard or Zelle) plus 12 months of CyEx Privacy Shield Global privacy monitoring. The fee motion values the monitoring at about $179.88 retail. One claim per class member, and the benefits are uncapped. The press figure of \"up to ~$1.73M\" is just 82,423 x $21, a theoretical maximum. Actual cash at 2,368 valid claims is about $49,728.",
-   "fees_requested": "Requested $550,000 in fees inclusive of expenses (fee motion filed 2026-01-22). The long-form notice had said Class Counsel would ask for up to $555,000. The court awarded $550,000 in Final Approval Order ¶12, paid by Defendant separately from class relief. It also awarded a $2,500 service award (¶13).",
-   "service_award": "$2,500 to Class Representative Robin Jarrell (requested and awarded, Final Approval Order ¶13), paid separately by Defendant.",
-   "injunctive_relief": "None found in the Settlement Agreement's relief section (§2) or in the Final Approval Order. The Lyon Firm's website claims \"enhanced healthcare digital privacy practices,\" but no such term appeared in the settlement documents reviewed.",
-   "motion_prelim_filed": "2025-09-04",
-   "prelim_approval_date": "2025-11-06",
-   "final_hearing_date": "2026-05-29",
-   "final_approval_date": "2026-05-29",
-   "status": "Final approval",
-   "window_basis": "Final approval was granted on 2026-05-29: Judge Ater's signed Final Approval Order and Judgment is file-stamped May 29, 2026, the date of the final approval hearing, which falls inside 2026-04-09..2026-10-09.",
-   "plaintiff_counsel": "Class Counsel: Philip J. Krzeski (Chestnut Cambronne PA); Terence R. Coates and Dylan J. Gould (Markovits, Stock & DeMarco, LLC); Gary M. Klinger (Milberg, PLLC); Joseph M. Lyon (The Lyon Firm).",
-   "settlement_website": "https://www.adenapixelsettlement.com/",
+   "other_claims": "Breach of fiduciary duty/confidentiality; invasion of privacy; breach of implied contract; unjust enrichment; negligence. No CIPA, FSCA or other state wiretap statute appears in the enumerated claims list.",
+   "statute_evidence": "Settlement Agreement, Recital A (pp. 1-2): the complaint asserts claims for violation of the Federal Wiretap Act, 18 U.S.C. § 2510 et seq., plus breach of fiduciary duty/confidentiality, invasion of privacy, breach of implied contract, unjust enrichment and negligence. The Released Claims definition (§1.25) and Long-Form Notice Q3 repeat the same list. Sources: https://cw.simpluris.com/docs/public/downloads/DJC/SETTLEMENT_AGREEMENT and https://www.classaction.org/media/long-form-notice_1.pdf. The complaint itself was not available: ClassAction.org's \"Read Complaint\" link points to the settlement agreement. FSCA and CIPA are marked not_pled because the agreement's full enumerated claims list leaves them out, not because I reviewed the complaint.",
+   "class_definition": "All persons who made an appointment on www.derickdermatology.com or a subdomain between 2023-11-21 and 2025-11-27. The usual exclusions apply (judges, defendant affiliates, opt-outs).",
+   "class_size": null,
+   "class_size_note": "Not stated in the settlement agreement, preliminary approval order, long-form notice or settlement website. Notice went directly by email or postcard from the defendant's class list, so the administrator (Simpluris) has a count, but it has not been published.",
+   "settlement_structure": "Claims-made with a $1,000,000 all-in Settlement Cap (§1.31). Claims, administration, fees, service award and the cost of Privacy Shield Pro all come out of the cap. There is no common fund. Uncashed checks and unredeemed digital payments go back to the defendant or its insurers (§3.5), so the settlement is effectively reversionary. Cash is reduced pro rata only if approved claims exceed the funds left under the cap.",
+   "fund_amount": 1000000,
+   "payment_terms": "Up to $12.50 per claimant with an approved claim. No documentation is required, but the claimant must attest that they did not use the GA opt-out add-on, cookie blocking or private browsing. Payment is by check, Venmo or PayPal, subject to pro rata reduction. Every class member also gets 1 year of CyEx Privacy Shield Pro automatically, with no claim needed (stated retail value $24.99/month). Claims deadline 2026-07-21; opt-out/objection deadline 2026-06-22; notice mailed 2026-06-01.",
+   "fees_requested": "Up to $350,000 in combined attorneys' fees, costs and expenses (Settlement Agreement 1.13). Paid by the defendant or its insurers inside the $1M all-inclusive Settlement Cap, and the defendant agreed not to object. Separate $1,500 service award request. No fee motion or fee award is posted on the settlement site.",
+   "service_award": "Up to $1,500 for the class representative, Jennifer Jeffries. Not yet awarded or confirmed.",
+   "injunctive_relief": "None in the agreement: no commitment to remove the pixels or change business practices. The only non-cash benefit is the 1-year Privacy Shield Pro identity/privacy protection subscription.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2026-04-22",
+   "final_hearing_date": "2026-08-17",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "The preliminary approval order was signed and e-filed on 2026-04-22 (Filing #246578914), which falls inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Class Counsel: Mariya Weekes (Milberg, PLLC, Miami) and Albert Plawinski (Plawinski, PLLC). Defense counsel: Joel Griswold and Bonnie Keane DelGobbo (Baker & Hostetler LLP).",
+   "settlement_website": "https://dermatologypixelsettlement.com/",
    "sources": [
     {
-     "label": "Official settlement website (case caption, dates, document list)",
-     "url": "https://www.adenapixelsettlement.com/"
+     "label": "Official settlement website (home, documents, dates pages; Simpluris)",
+     "url": "https://dermatologypixelsettlement.com/"
     },
     {
-     "label": "Settlement website: Important Dates (notice 12/8/2025; opt-out/objection 2/4/2026; claims 3/6/2026; FAH 5/29/2026)",
-     "url": "https://www.adenapixelsettlement.com/dates/"
+     "label": "Settlement Agreement (claims list in Recital A, $1M cap, $350K fee cap, $1,500 service award, reversion)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/DJC/SETTLEMENT_AGREEMENT"
     },
     {
-     "label": "Final Approval Order and Judgment (filed with judge May 29, 2026; fees $550k; service award $2,500; cy pres)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/FINAL_APPROVAL_ORDER"
+     "label": "Preliminary Approval Order, signed 2026-04-22 by Judge Carlos A. Rodriguez",
+     "url": "https://cw.simpluris.com/docs/public/downloads/DJC/PRELIMINARY_APPROVAL_ORDER"
     },
     {
-     "label": "Preliminary Approval Order (filed 11/6/2025; FAH set 5/29/2026)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/PRELIMINARY_APPROVAL_ORDER"
+     "label": "Plaintiff's Notice of Final Approval Hearing (filed 2026-04-29; hearing 2026-08-17 via Zoom)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/DJC/NOTICE_OF_FINAL_APPROVAL_HEARING"
     },
     {
-     "label": "Motion for Final Approval with Coates Aff. and Simpluris Decl. (procedural history, claims list, class size 82,222, 2,368 valid claims)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/MOTION_FOR_FINAL_APPROVAL"
+     "label": "Long-Form Notice (claims list, fees, service award, class counsel, judge)",
+     "url": "https://www.classaction.org/media/long-form-notice_1.pdf"
     },
     {
-     "label": "Motion for Attorneys' Fees, Expenses and Service Award (ECPA 18 U.S.C. 2511(1) count; R.J. v. Adena 1:24-cv-00025)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/MOTION_FOR_ATTORNEYS_FEES_EXPENSES_AND_SERVICE_AWARD"
+     "label": "ClassAction.org article (filed 2026-03-05, prelim approval 2026-04-22)",
+     "url": "https://www.classaction.org/news/up-to-1m-derick-dermatology-settlement-ends-class-action-lawsuit-over-alleged-disclosure-of-patient-info"
     },
     {
-     "label": "Settlement Agreement dated Aug. 21, 2025 (recitals, release, Section 2 relief)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/SETTLEMENT_AGREEMENT"
+     "label": "ClaimDepot settlement summary",
+     "url": "https://www.claimdepot.com/settlements/dermatology-pixel-settlement"
     },
     {
-     "label": "Long Form Notice (class definition, fee request up to $555k)",
-     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/LONG_FORM_NOTICE"
+     "label": "Sounder healthcare tracking tracker (as of 2026-09-08, final approval outcome not recorded)",
+     "url": "https://sounderdata.com/lawsuits/jeffries-v-derick-dermatology-pllc/"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's finding. I downloaded the Settlement Agreement PDF (49 pp.) myself and checked it. Recital A (pp. 1-2) says the putative class action was filed March 5, 2026 in Broward County, Case No. CACE-26-003864. It says plaintiff asserts claims for violation of the Federal Wiretap Act, 18 U.S.C. § 2510 et seq., plus breach of fiduciary duty/confidentiality, invasion of privacy, breach of implied contract, unjust enrichment and negligence. The Released Claims definition (§1.25, p. 7) and the attached notices (around text lines 1183, 1272, 1343 and 1685) repeat the same list.\n\nI found no mention anywhere in the agreement, the 7-page Preliminary Approval Order or the Notice of Final Approval Hearing of: § 934 / the Florida Security of Communications Act, CIPA, § 631, § 632, § 632.7 or § 638.51. I also found no mention of an amended complaint. The agreement refers only to \"the complaint\" filed March 5, 2026.\n\nTimeline: preliminary approval was granted about April 22, 2026, per SounderData. The Final Approval Hearing was noticed for August 17, 2026 before Judge Carlos Agusto Rodriguez, in a notice dated April 29, 2026 and filed by Mariya Weekes of Milberg, PLLC for plaintiff.\n\nI could not get the complaint itself. It sits on the Broward Clerk's portal, which needs a login. SounderData has no complaint link, and it is a state case, so it is not on CourtListener/RECAP.\n\nThe not_pled values for FSCA and CIPA are inferred from the agreement's enumerated claims list, not from reading the complaint. CIPA would be unusual anyway for a Florida state-court case against a Florida/Illinois practice. The ECPA/Wiretap value is pled on the strength of the filed Settlement Agreement, which is a primary case document.\n\nI agree with the researcher on every statute. | fees_requested: Up to $350,000 in combined fees, costs and expenses (35% of the $1M cap), paid by the defendant or its insurers within the cap. The defendant agreed not to oppose this amount. No fee award has been confirmed.→Up to $350,000 in combined attorneys' fees, costs and expenses (Settlement Agreement 1.13). Paid by the defendant or its insurers inside the $1M all-inclusive Settlement Cap, and the defendant agreed not to object. Separate $1,500 service award request. No fee motion or fee award is posted on the settlement site. | Timing/money check (confirmed): CONFIRMED in window. The primary source is the Preliminary Approval Order (Judge Carlos A. Rodriguez, Broward 17th Cir., Div. 08, CACE26003864). It was electronically signed 04-22-2026 at 10:37 AM and e-filed 04/22/2026 at 12:32 PM (Filing #246578914). That date falls inside the 2026-04-09 to 2026-10-09 window. The order grants Plaintiff's Unopposed Motion for Preliminary Approval after a hearing.\n\nFinal hearing: Plaintiffs' Notice of Final Approval Hearing (e-filed 04/29/2026, Filing #247114544) sets it for 2026-08-17 at 10:30 a.m. by Zoom. The settlement website's dates page matches: notice 6/1/2026, opt-out and objection 6/22/2026, claims 7/21/2026, hearing 8/17/2026.\n\nFinal approval: not verified. As of 2026-10-09 the Simpluris document API for case DJC lists only 6 documents: Preliminary Approval Order, Settlement Agreement, Notice of Final Approval Hearing, Long Form Notice, Email Notice and Claim Form. There is no final approval order, final judgment or fee motion. Sounder still showed \"outcome not yet recorded\" on pages dated 2026-09-08 and 2026-10-08. The Broward Clerk docket was not checked because it sits behind a CAPTCHA. Leave final_approval_date blank and status as Preliminary approval until the docket is checked.\n\nPrelim motion filing date: exact date not found. The Settlement Agreement was fully executed 4/16/2026 (plaintiff signed 3/31 and 4/3; Amy Derick, M.D. and defense counsel signed 4/16/2026). So the motion was filed between 2026-04-16 and 2026-04-22, inside the window either way.\n\nFund: $1,000,000 is a claims-made \"Settlement Cap\" (SA 1.31). It covers approved claims, admin costs, the fee award, the service award and the Privacy Shield Pro subscriptions. It is not a non-reversionary common fund. Benefits are up to $12.50 cash per claim (pro rata reduction possible) plus 1 year of Privacy Shield Pro, retail value $24.99/month, sent automatically. Class size is not stated in the SA, the order or the notices. The class is all persons who made an appointment on www.derickdermatology.com from 11/21/2023 through 11/27/2025.\n\nClaims: the SA recitals list the Federal Wiretap Act (18 U.S.C. 2510 et seq.), so the case fits the fed wiretap/ECPA criterion. They also list breach of fiduciary duty/confidentiality, invasion of privacy, breach of implied contract, unjust enrichment and negligence. No FSCA or CIPA claim is listed.\n\nMinor discrepancy: the SA says the action was filed 2026-03-05, while the prelim order says November 2025. Class counsel is Milberg PLLC (Mariya Weekes) and Plawinski PLLC; defense counsel is Baker & Hostetler.",
+   "open_questions": "(1) I could not confirm final approval. The hearing was set for 2026-08-17, and as of 2026-09-08 Sounder still had no recorded outcome. The settlement website's documents page lists no final order. Checking the Broward Clerk docket would settle it; I did not try, because that site is behind a CAPTCHA. (2) Filing date conflict: the settlement agreement and ClassAction.org say the complaint was filed 2026-03-05, but the preliminary approval order says the action was brought in November 2025. The class period ends 2025-11-27, so there may have been an earlier filing or a pre-suit demand. (3) The complaint itself was not obtainable, so FSCA and CIPA are marked not_pled based on the settlement agreement's enumerated claims list. A Florida case with federal Wiretap Act claims and no FSCA claim is a bit unusual, so it is worth confirming against the complaint. (4) The filing date of the preliminary approval motion is unknown. It falls between the plaintiff signing on 2026-04-03 and the order on 2026-04-22. (5) Class size has not been disclosed. (6) The tracking vendors are not named; Google Analytics is inferred from the claim-form attestation.",
+   "id": "derick-dermatology-pixel"
+  },
+  {
+   "short_name": "CVS / Criteo (Brewer) - CVS Digital Privacy Settlement",
+   "caption": "Justin Brewer, Ariel Brooks, Alex Sisti, and Marc Weinberger v. CVS Pharmacy, Inc. and Criteo Corp. (the clerk's index lists it as Ariel Brooks, et al. v. Criteo Corp., et al.; the amended complaint caption also names Medallia, Inc.)",
+   "defendant": "CVS Pharmacy, Inc. (about $18.5M share) and Criteo Corp. (about $2M share). Medallia, Inc. is named in the amended complaint caption but is not a settling party. It, Adobe, Quantum Metric, Braze and Branch Metrics are released as \"technology providers.\"",
+   "court": "Circuit Court of the 17th Judicial Circuit in and for Broward County, Florida (Division 25)",
+   "docket": "CACE-26-008094",
+   "judge": "Hon. Shari Africk Olefson",
+   "industry": "Retail pharmacy / healthcare (online pharmacy, MinuteClinic, vaccine scheduling, OTC health products)",
+   "technology": "Third-party tracking code and SDKs on cvs.com, cvshealth.com and the CVS iOS/Android app. These are Adobe Experience Cloud trackers/SDK (which captured on-site search terms and results URLs), Criteo ad-tech tracking, Medallia, and Quantum Metric session replay and analytics. Plaintiffs allege they disclosed prescription, immunization and health-product search data to third parties without consent.",
+   "cipa_631": "pled",
+   "cipa_632": "pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "pled",
+   "other_claims": "Maryland Wiretap Act, Md. Cts. & Jud. Proc. § 10-401 et seq. (Count VI, Maryland Subclass); breach of confidence (Count VII); invasion of privacy / intrusion upon seclusion (Count VIII); negligence and negligence per se (Count IX). No CMIA, UCL or VPPA count appears in the amended complaint.",
+   "statute_evidence": "The Amended Class Action Complaint, e-filed 2026-07-24 (Filing #253264249), has 9 counts. Count I: Federal Wiretap Act, 18 U.S.C. § 2510 et seq. Count II: FSCA, Fla. Stat. § 934.03 et seq. (Weinberger / Florida Subclass). Count III: CIPA § 631. Count IV: CIPA § 632. Count V: CIPA § 638.51 trap-and-trace. Counts III-V are on behalf of Brooks, Brewer and the California Subclass. Count VI: Maryland Wiretap Act. Counts VII-IX: common law. Source: https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/asset_files/external/cvs-criteo-amended-complaint.pdf. The settlement agreement ¶5 describes the claims only as ECPA plus \"state statutory claims,\" breach of confidence, invasion of privacy and negligence. HIPAA Journal's mention of CIPA/CMIA in the same article refers to a separate AmWell case, not this one.",
+   "class_definition": "All living individuals who accessed the CVS Digital Properties (cvs.com, cvshealth.com and the CVS app) in the United States before 2026-07-27, the preliminary approval date. Excluded: defendants' officers, directors and employees; judicial officers and their families and staff; governmental entities; and opt-outs. The complaint also pled Florida, California and Maryland subclasses.",
+   "class_size": null,
+   "class_size_note": "No class count appears in any primary document. The amended complaint ¶164 says members \"number in the millions.\" The settlement agreement ¶1 says CVS has over 36 million customers, but that is a customer count, not a class count. A news report says \"tens of millions.\" Treat the class size as an unquantified estimate.",
+   "settlement_structure": "Claims-made settlement capped at $20.5M (the \"Maximum Cash Payment\"). The cap covers cash payments, administration costs, court-awarded fees and costs, and service awards. It is reversionary: residual funds and uncashed checks go back to defendants, split under a separate CVS–Criteo agreement. Only one payment per household.",
+   "fund_amount": 20500000,
+   "payment_terms": "Cash Payment A: up to $10 with reasonable documentation of use (browser history, dated screenshots, email receipts). Cash Payment B: up to $5 with no documentation. Both shrink pro rata if total benefits exceed the $20.5M cap. One claim per household. Claims are due 2026-11-16; opt-outs and objections are due 2026-11-01. Payments go out within 90 days after the Effective Date.",
+   "fees_requested": "Up to 37.5% of the $20.5M Maximum Cash Payment (up to $7,687,500), paid from within the cap (Settlement Agreement para. 98; Long-Form Notice Q12). Service awards are capped at $2,500 per representative. Under the notice, the fee motion must be filed and posted by 2026-10-17. The prelim order sets the same deadline: 45 days before the final hearing. Nothing has been awarded yet.",
+   "service_award": "Up to $2,500 per class representative (4 representatives), per agreement ¶97.",
+   "injunctive_relief": "None. The settlement agreement contains no business-practice or tracking-change commitments; the relief is cash only.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2026-07-27",
+   "final_hearing_date": "2026-12-01",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Judge Olefson signed the order granting preliminary approval on 2026-07-27, which falls inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Jeff Ostrow (Kopelowitz Ostrow P.A.); Jonathan M. Jagher (Justice Jagher London and Millen LLC); Katrina Carroll (Carroll Shamberg LLC); Mariya Weekes (Milberg PLLC); Yitzchak Kopel (Bursor & Fisher, P.A.). All five were preliminarily appointed Class Counsel.",
+   "settlement_website": "https://www.cvsdigitalprivacysettlement.com/ (administrator: Simpluris, Inc.)",
+   "sources": [
+    {
+     "label": "Amended Class Action Complaint (e-filed 2026-07-24) - counts and subclasses",
+     "url": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/asset_files/external/cvs-criteo-amended-complaint.pdf"
     },
     {
-     "label": "CourtListener docket: Jarrell v. Adena Health System, 2:24-cv-00282 (S.D. Ohio, Judge Graham)",
-     "url": "https://www.courtlistener.com/docket/68185986/jarrell-v-adena-health-system/"
+     "label": "Order Granting Preliminary Approval (2026-07-27, Judge Olefson)",
+     "url": "https://www.classaction.org/media/cvs-digital-settlement-prelim-approval-order.pdf"
     },
     {
-     "label": "CourtListener docket: R.J. v. Adena Health System, 1:24-cv-00025 (S.D. Ohio)",
-     "url": "https://www.courtlistener.com/docket/68178521/rj-v-adena-health-system/"
+     "label": "Settlement Agreement (class definition, $20.5M cap, payments, reversion, fees 37.5%, service awards $2,500, counsel)",
+     "url": "https://www.classaction.org/media/cvs-criteo-settlement-agreement.pdf"
     },
     {
-     "label": "The Lyon Firm attorney page (describes Ross County claims as Ohio and federal law incl. wiretapping; final approval granted)",
-     "url": "https://www.thelyonfirm.com/attorneys/joe-lyon"
+     "label": "Long Form Notice (fee motion due 2026-10-17; representatives)",
+     "url": "https://www.classaction.org/media/cvs-digital-settlement-notice.pdf"
     },
     {
-     "label": "Sounderdata case summary (Meta Conversions API; counsel)",
-     "url": "https://sounderdata.com/healthcare-tracking-lawsuits/r-j-v-adena-health-system-s-d-ohio-jarrell-v-adena-health-system-settlement/"
+     "label": "Official settlement website (deadlines 11/1 opt-out/objection, 11/16 claims, 12/1 FAH via Zoom)",
+     "url": "https://www.cvsdigitalprivacysettlement.com/"
+    },
+    {
+     "label": "HIPAA Journal - CVS $18.5M / Criteo $2M allocation",
+     "url": "https://www.hipaajournal.com/cvs-health-criteo-american-wellness-corp-data-breach-settlements/"
+    },
+    {
+     "label": "ClassAction.org settlement summary",
+     "url": "https://www.classaction.org/news/up-to-20.5m-cvs-digital-privacy-settlement-ends-lawsuit-over-website-and-app-user-data-disclosures"
+    }
+   ],
+   "confidence": "high",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I couldn't refute the researcher. I downloaded the Amended Class Action Complaint myself and pulled the text out of it. It is 81 pages, case no. CACE-26-008094, Filing #253264249, e-filed 07/24/2026, with Kopelowitz Ostrow and Milberg among plaintiffs' counsel. The count headings match the researcher's list:\n- Count I: Federal Wiretap Act, 18 U.S.C. § 2510 et seq. It cites § 2511(1)(a), (c) and (d).\n- Count II: Florida Security of Communications Act, Fla. Stat. § 934.03 et seq., for Weinberger and the Florida Subclass. Damages are sought under § 934.10.\n- Count III: CIPA, Cal. Penal Code § 631, for Brooks, Brewer and the California Subclass.\n- Count IV: CIPA § 632(a), same plaintiffs, seeking $5,000 per violation under § 637.2.\n- Count V: CIPA trap-and-trace, § 638.51, same plaintiffs.\n- Count VI: Maryland Wiretap Act.\n- Counts VII-IX: common-law claims.\n\nThe text never mentions § 632.7.\n\nThe settlement agreement (sa.pdf, 43 pages) says in ¶5 that the complaint was filed 5/15/2026 and \"subsequently amended.\" It lists the claims only as ECPA, \"state statutory claims,\" breach of confidence, invasion of privacy and negligence/negligence per se. That fits the amended complaint and doesn't suggest any count was dropped. The settlement's definition of \"Complaint\" (¶23) points to the 5/15/2026 original, but its definition of \"Causes of Action\" (¶14) also covers \"any amended complaint.\"\n\nI found no second amended complaint. The prelim-approval papers are Filing #253377489, e-filed 07/27/2026, three days after the amended complaint, so the amended complaint looks like the operative pleading at settlement. I did not read the original 5/15/2026 complaint, so I can't say which counts were added in the amendment.\n\nCaveats:\n- The caption names Medallia, Inc. as a defendant, but the opening paragraph defines \"Defendants\" as only CVS and Criteo.\n- The amended complaint is a primary court filing, but my copy is a re-host on ismg-cdn (an ISMG news-site file server), not the clerk's docket. | fees_requested: Fees and costs of up to 37.5% of the $20.5M cap (up to $7,687,500), paid from within the cap. The fee motion is due 2026-10-17, per the long-form notice. Nothing has been awarded yet.→Up to 37.5% of the $20.5M Maximum Cash Payment (up to $7,687,500), paid from within the cap (Settlement Agreement para. 98; Long-Form Notice Q12). Service awards are capped at $2,500 per representative. Under the notice, the fee motion must be filed and posted by 2026-10-17. The prelim order sets the same deadline: 45 days before the final hearing. Nothing has been awarded yet. | Timing/money check (confirmed): The in-window event is confirmed by a primary source. The prelim approval order is captioned Ariel Brooks, et al v. Criteo Corp., et al, CACE26008094, Div. 25, before Judge Shari Africk Olefson. It says DONE AND ORDERED 27 July 2026, was e-signed 07-27-2026 at 5:26 PM, and was e-filed 07/27/2026 as Filing # 253377489. That date is inside the 2026-04-09 to 2026-10-09 window. The order sets no hearing date itself. It says the final approval hearing will be noticed separately, at least 120 days after the prelim order.\n\nThe long-form notice (CASEID 9635) sets the following dates:\n- Final approval hearing: 2026-12-01 at 9:30 a.m. EST, by Zoom.\n- Opt-out and objection deadline: 2026-11-01.\n- Claim deadline: 2026-11-16.\n- Fee request: to be filed and posted by 2026-10-17.\nThis matches the researcher's dates.\n\nMoney: the Settlement Agreement para. 38 defines the \"Maximum Cash Payment\" as $20,500,000. That figure is a claims-made cap, not a common fund. It covers cash payments, admin costs, fees and costs, and service awards. Payments are $10 with proof or $5 without, subject to pro rata reduction. Any residual reverts to the defendants (CVS and Criteo). The table should label it \"up to $20.5M cap (claims-made, reversionary)\", not a non-reversionary fund. Expect actual payout to be well below $20.5M.\n\nPrelim motion filing date: not found. The settlement agreement and order do not state it, and secondary sources do not report it. The Broward Clerk online docket sits behind a Cloudflare Turnstile bot check, so I did not use it. For context, the amended complaint was e-filed 2026-07-24 (Filing # 253264249), so the motion was probably filed between about 07-24 and 07-27. That is an estimate, not verified.\n\nClass size: not stated. The agreement's \"over 36 million customers\" describes CVS's customer base, not the class. The class is all living individuals who accessed the CVS Digital Properties in the US before 2026-07-27.\n\nOther facts:\n- The original complaint was filed 2026-05-15, after a JAMS mediation (Robert A. Meyer) on 2026-03-17.\n- The amended complaint adds Medallia, Inc. as a defendant, but only CVS and Criteo are settling parties.\n- The amended complaint's counts are: Count I, federal Wiretap Act/ECPA 18 U.S.C. 2511; Count II, Florida FSCA, Fla. Stat. 934.03; Count III, CIPA 631; Count IV, CIPA 632; plus others. All the claim types the user asked about are present.\n- ClassAction.org's \"Filed: September 17, 2026\" is its article date, not the complaint date.\n\nNo final approval has been entered. Status stays Preliminary approval.",
+   "open_questions": "(1) The filing date of the motion for preliminary approval was not confirmed. The amended complaint was e-filed 2026-07-24 and the order followed on 2026-07-27, so the motion was probably filed around 2026-07-24, but the Broward Clerk docket is behind reCAPTCHA and the settlement website's documents and FAQ pages are behind a human-verification check, so neither was accessed. (2) There is no class-size figure; the complaint says \"millions\" and CVS has 36M+ customers. (3) The CVS $18.5M / Criteo $2M split comes from HIPAA Journal (a secondary source); the agreement only refers to a separate CVS–Criteo agreement for the residual. (4) The fee and service-award amounts are only requested; the fee motion is due 2026-10-17 and the final approval hearing is 2026-12-01. (5) Context: the case follows Getz v. CVS Health Corp., No. 2:25-cv-04689 (C.D. Cal.), which secondary sources report was voluntarily dismissed 2026-01-30 after CIPA claims survived. Medallia appears in the amended complaint caption but is not a settling defendant; it is released as a \"technology provider.\" (6) Note for the comparison table: this one supports 638.51 with 631, 632, ECPA and FSCA all pled alongside it, and the settlement is reversionary and claims-made with no injunctive relief.",
+   "id": "cvs-criteo-brewer-cvs-digital-privacy-settlement"
+  },
+  {
+   "short_name": "Feeler v. Wyssta Services (Delta Dental member portal)",
+   "caption": "Michael Feeler, individually and on behalf of all others similarly situated v. Wyssta Services, Inc.",
+   "defendant": "Wyssta Services, Inc.",
+   "court": "Circuit Court of the Seventh Judicial Circuit, Sangamon County, Illinois. The case was refiled there on 2026-03-12 after the federal action, Feeler v. Wyssta Services, Inc., No. 1:25-cv-00794 (N.D. Ill., filed 2025-01-23, Judge Sharon Johnson Coleman), was voluntarily dismissed without prejudice.",
+   "docket": "2026LA000050 (Sangamon Cnty. Cir. Ct.); earlier federal case 1:25-cv-00794 (N.D. Ill.)",
+   "judge": "Hon. Gail Noll, Circuit Judge",
+   "industry": "Dental insurance / health benefits. Wyssta operates an online member portal for Delta Dental plan members.",
+   "technology": "Google tracking pixels and cookies on the my.deltadentalcoversme.com member portal, including the logged-in area. The complaint names Google Analytics, Google DoubleClick and AdWords.",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Illinois Eavesdropping Statute, 720 ILCS 5/14-1 et seq. No CIPA, Florida FSCA, VPPA, negligence or unjust-enrichment counts.",
+   "statute_evidence": "(1) The federal complaint (N.D. Ill. 1:25-cv-00794, ECF 1, 60 pp.) on RECAP has exactly two counts: Count I under ECPA, 18 U.S.C. § 2510 et seq., and Count II under the Illinois Eavesdropping Statute, 720 ILCS 5/14-1 et seq. https://storage.courtlistener.com/recap/gov.uscourts.ilnd.472432/gov.uscourts.ilnd.472432.1.0.pdf  (2) The settlement agreement recitals say the action asserted claims under ECPA (18 U.S.C. § 2511) and the Illinois Eavesdropping Statute (720 ILCS 5/14-1), and the long-form notice describes the case the same way. https://www.wysstaservicesclassaction.com/documents  I did not see the refiled state-court complaint itself, but the settlement documents describe the same two claims.",
+   "class_definition": "All persons in the United States who, between 2021-01-23 and 2025-01-23, held an account on the online healthcare portal at https://my.deltadentalcoversme.com. Excluded: the defendant and its officers and directors, the judge and court staff, and class counsel.",
+   "class_size": 767896,
+   "class_size_note": "Approximate. The settlement agreement (§1.30) says the parties \"estimate to be approximately 767,896 people.\" The $12,670,284 cap equals exactly 767,896 x $16.50.",
+   "settlement_structure": "Claims-made, capped and reversionary. The \"Settlement Benefit Cap\" of $12,670,284 is the defendant's maximum exposure. The defendant funds only what is needed for valid claims, administration costs, fees and the service award. Any excess reverts to the defendant (SA §10.10), and so do uncashed checks after 180 days (SA §2.5).",
+   "fund_amount": 12670284,
+   "payment_terms": "$16.50 flat cash payment per valid claim, one claim per class member. Payments are reduced pro rata only if valid claims exceed the net cap (after fees, admin costs and service award). Claims deadline was 2026-08-20.",
+   "fees_requested": "Requested up to $2,500,000 for fees, costs and expenses (about 19.74% of the $12,670,284 Settlement Benefit Cap, per the Long Form Notice). The Final Order (para. 12) awarded the full $2,500,000 and a $3,000 service award (para. 13).",
+   "service_award": "$3,000 to the named plaintiff Michael Feeler, requested and awarded.",
+   "injunctive_relief": "None found. The settlement agreement contains no commitments to change business practices or remove tracking technology. Relief is cash only.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2026-05-07",
+   "final_hearing_date": "2026-09-09",
+   "final_approval_date": "2026-09-09",
+   "status": "Final approval",
+   "window_basis": "Preliminary approval was granted on 2026-05-07 and final approval on 2026-09-09. Both dates fall within 2026-04-09 to 2026-10-09.",
+   "plaintiff_counsel": "Eric S. Dwoskin and Nicholas F. Wasdin, Dwoskin Wasdin LLP (Boca Raton, FL and Chicago, IL). Defense counsel: Jad Sheikali, Shook, Hardy & Bacon LLP. Mediator: Bruce Friedman, JAMS (mediation held 2026-02-18).",
+   "settlement_website": "https://www.wysstaservicesclassaction.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (Kroll): home page and important documents",
+     "url": "https://www.wysstaservicesclassaction.com/documents"
+    },
+    {
+     "label": "Final Order and Judgment, filed and signed 2026-09-09 (Judge Gail Noll): $2.5M fee award, $3,000 service award, 0 objections, 19 opt-outs",
+     "url": "https://www.wysstaservicesclassaction.com/files/Wyssta%20-%20Final%20Approval%20order.pdf"
+    },
+    {
+     "label": "Preliminary Approval Order, signed 2026-05-07: class definition, class counsel, deadlines, hearing on 2026-09-09",
+     "url": "https://www.wysstaservicesclassaction.com/files/Feeler_Preliminary%20Approval%20Order.pdf"
+    },
+    {
+     "label": "Class Action Settlement Agreement (Dwoskin Decl. Ex. 1, signed 2026-04-17): recitals, cap, reversion, $16.50 payment, fee cap, class size estimate",
+     "url": "https://www.wysstaservicesclassaction.com/files/2026LA000050%20-%20Dwoskin%20Declaration%20Exhibit%201%20-%20Class%20Action%20Settlement%20Agreement.pdf"
+    },
+    {
+     "label": "Long Form Notice",
+     "url": "https://www.wysstaservicesclassaction.com/files/Wyssta%20Long%20Form%20Notice_FINAL.pdf"
+    },
+    {
+     "label": "Federal complaint, N.D. Ill. 1:25-cv-00794, ECF 1 (RECAP): counts under ECPA and the Illinois Eavesdropping Statute",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.472432/gov.uscourts.ilnd.472432.1.0.pdf"
+    },
+    {
+     "label": "ClassAction.org news summary",
+     "url": "https://www.classaction.org/news/12.67m-wyssta-services-settlement-wraps-up-class-action-lawsuit-over-alleged-pixel-data-tracking"
     },
     {
      "label": "ClaimDepot summary",
-     "url": "https://www.claimdepot.com/settlements/adena-pixel-settlement"
-    },
-    {
-     "label": "HIPAA Journal article (claims summary incl. ECPA)",
-     "url": "https://www.hipaajournal.com/adena-health-to-pay-17-8-million-to-settle-pixel-lawsuit/"
+     "url": "https://www.claimdepot.com/settlements/wyssta-services-class-action"
     }
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's finding. I read the federal Amended Complaint myself (S.D. Ohio 2:24-cv-00282, ECF 20, filed 2024-04-29, 64 pp., from the CourtListener RECAP docket 68185986). Count II is \"Violation of Electronic Communications Privacy Act (ECPA), 18 U.S.C. § 2511(1) et seq., unauthorized interception, use, and disclosure,\" and it seeks damages under § 2520. The other counts are: I breach of confidence, III civil liability for criminal acts (R.C. 2307.60), IV intrusion upon seclusion, V unjust enrichment, VI breach of fiduciary duty, VII negligence. The original complaint (ECF 1, 2024-01-19) has the same seven counts, so the amendment dropped nothing. Neither complaint has a California Penal Code / CIPA count (631, 632, 632.7 or 638.51) or a Florida § 934.10 FSCA count. California is mentioned only as the location of Google's servers. Two more primary documents agree. The Settlement Agreement recitals (Ross County 25CI000419, dated 2025-08-21, p.2) list the same seven claims, including ECPA. The Motion for Final Approval (pp.3-5) says the S.D. Ohio order of 2025-01-13 (ECF 38) dismissed invasion of privacy, fiduciary duty and negligence but let the ECPA claim go forward. Caveat, as the researcher also noted: I did not obtain the Ross County complaint filed 2025-08-20, which is the operative complaint in the settlement forum. Its counts come only from secondary sources. The Lyon Firm attorney page describes the Ross County case as Ohio invasion of privacy (Biddle), wiretapping and unjust enrichment, which fits the federal wiretap claim being re-pled, but I did not see it in a primary document. The class is Ohio patients only (patients who logged into the portal from 2022-11-01 to 2024-06-03), so no CIPA or FSCA claim is plausible. ECPA is confirmed as pled in the predecessor operative complaint, and the release covers claims from the predecessor action. | fees_requested: Requested: $550,000 in fees inclusive of expenses (motion filed 2026-01-22). The class notice had said up to $555,000. Awarded: $550,000 in the Final Approval Order ¶12, paid by Defendant separately from class relief.→Requested $550,000 in fees inclusive of expenses (fee motion filed 2026-01-22). The long-form notice had said Class Counsel would ask for up to $555,000. The court awarded $550,000 in Final Approval Order ¶12, paid by Defendant separately from class relief. It also awarded a $2,500 service award (¶13). | Timing/money check (confirmed): I tried to refute this and could not. The Final Approval Order and Judgment (Ross County C.P. No. 25CI000419, Judge Michael M. Ater) is a scanned PDF on the Simpluris administrator site. Its first page carries a \"Filed with the Judge MAY 29 2026\" stamp, and its recitals say the Final Approval Hearing was held on May 29, 2026. The signature line is signed but the date is left blank, so the stamp is the best evidence of the entry date. 2026-05-29 falls inside the 2026-04-09 to 2026-10-09 window.\n\nOther dates check out against primary sources:\n- Preliminary approval: the order assigning the final hearing has a clerk stamp of 11/6/2025 8:55 AM. Both the final approval order and the final approval motion recite the 2025-11-06 preliminary approval date.\n- Prelim motion: the final approval motion says it was filed 2025-09-04.\n- Settlement agreement: dated 2025-08-21.\n\nClass size: about 82,222, per the final approval motion. Zero opt-outs, zero objections and 2,368 valid claims. Email notice went to 76,348 people on 2025-12-08.\n\nFund: this is a claims-made settlement with no common fund, so I left fund_amount null. Each approved claimant gets $21 cash plus 12 months of CyEx Privacy Shield privacy monitoring. Fees, the service award and administration costs are paid by Adena separately, and leftover money goes to Hope Clinic of Ross County as cy pres. At 2,368 claims the cash comes to about $49,700, my own arithmetic. The HIPAA Journal headline mentions roughly $1.78M; I did not verify it and it is not a fund figure. Do not record it as a fund.\n\nClaims fit the user's filter: the final approval motion lists the federal wiretap claim (ECPA), along with breach of confidence under Biddle, Ohio civil liability for criminal acts, and unjust enrichment. The case started in S.D. Ohio (1:24-cv-00025, then 2:24-cv-00282) and was refiled in Ross County on 2025-08-20.\n\nThe official website (adenapixelsettlement.com) still says the court has not decided on approval. That page is stale; the signed order controls. No corrections to the researcher's fields were needed.",
-   "open_questions": "1. The Ross County Class Action Complaint (filed 2025-08-20) was not obtained because the county's eAccess portal requires a login. That it re-pleads the ECPA count rests on: (a) the settlement papers calling it a refiling of the federal action whose surviving claims included ECPA; and (b) class counsel's website describing the Ross County claims as brought under \"federal law\" for wiretapping. Get the complaint from the clerk or from counsel to confirm. 2. There is no fixed fund, so fund_amount was left null. The \"up to $1.73M\" press figure is a theoretical maximum (82,423 x $21). The Lyon Firm cites a \"$1,743,000 claims-made cash fund,\" 3.1% claims rate and $462,830 redeemed value; those numbers do not reconcile with the court papers (82,222 class members, 2,368 valid claims as of 2026-05-14). 3. The date line on the signed Final Approval Order is blank; the order is file-stamped \"Filed with the Judge May 29 2026.\" The clerk's journal-entry date was not checked. 4. Fees: the notice said up to $555,000, but the motion requested and the court awarded $550,000. 5. Meta Conversions API comes from Sounderdata only; the court papers name the Meta Pixel and Google Analytics.",
-   "id": "adena-health-system-pixel-jarrell"
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher, and my findings match theirs on every statute.\n\n(1) Federal complaint, N.D. Ill. 1:25-cv-00794, ECF 1, filed 2025-01-23, 60 pages, from RECAP. I extracted the full text. It has exactly two counts. Count I is ECPA, 18 U.S.C. § 2510 et seq., starting at para. 206 on page 47. Count II is the Illinois Eavesdropping Statute, 720 ILCS 5/14-1 et seq. The text has no hits for 631, 632, 934, \"California\" or \"Florida\".\n\n(2) The full CourtListener docket (id 69571185, entries 1-64) shows no amended complaint. The motion to dismiss (ECF 12) was argued on 2025-10-20 but never decided. It was stayed for mediation and then struck as moot when the plaintiff voluntarily dismissed under Rule 41(a)(1)(A)(i) on 2026-03-12 (ECF 62/63). No count was dismissed or dropped while the case was in federal court.\n\n(3) Settlement Agreement, Dwoskin Decl. Ex. 1 in Sangamon County 2026LA000050, 54 pages, DocuSigned 4/17/2026. The settlement site is behind Cloudflare, so I downloaded it through the site's /api/file/<name>/content endpoint using a headed browser. The recitals say the federal action asserted claims under ECPA (18 U.S.C. § 2511) and the Illinois Eavesdropping Statute (720 ILCS 5/14-1). They also say the federal case was dismissed and the \"Civil Action\" was refiled in Sangamon County on 2026-03-12. Exhibit B, the court-authorized notice, describes the settled case as being about whether Wyssta violated ECPA and the Illinois Eavesdropping Statute. The only mention of California is the standard Civil Code § 1542 waiver, which is not a CIPA claim. The Released Claims cover all tracking/pixel claims on deltadentalcoversme.com and do not name specific statutes.\n\n(4) The Preliminary Approval Order (granted 2026-05-07) and the Final Order and Judgment (filed 2026-09-01) were both issued by the Sangamon County court. Neither lists the statutes.\n\nCaveat: I did not see the refiled state-court complaint itself, which appears to be available only through Illinois e-filing or the clerk. ECPA is still confirmed from primary documents: Count I of the federal complaint, plus the settlement recitals and the notice approved by the state court. So the case qualifies for the list on the federal Wiretap Act/ECPA, not on CIPA or FSCA.\n\nNot part of the 631/632/ECPA/FSCA criteria: Count II, the Illinois Eavesdropping Statute claim. Class period: Jan. 23, 2021 to Jan. 23, 2025. | fees_requested: Requested up to $2,500,000 for fees and costs (about 19.74% of the cap). The court awarded the full $2,500,000 in the Final Order and Judgment of 2026-09-09.→Requested up to $2,500,000 for fees, costs and expenses (about 19.74% of the $12,670,284 Settlement Benefit Cap, per the Long Form Notice). The Final Order (para. 12) awarded the full $2,500,000 and a $3,000 service award (para. 13). | Timing/money check (confirmed): I tried to refute the in-window dates and could not. Both qualifying events fall inside the window (2026-04-09 to 2026-10-09).\n\nThe settlement site sits behind Cloudflare, so I downloaded the PDFs with a headless browser. The only change from the researcher's record is the caveats on the fund amount below.\n\nFINAL APPROVAL, 2026-09-09:\n- Source: the Final Order and Judgment in Sangamon County No. 2026LA000050, posted on the official Kroll settlement site.\n- The clerk's stamp reads \"FILED SEP 09 2026.\" Circuit Judge Gail Noll signed and dated it 9-9-2026.\n- The order finally approves the settlement and dismisses the case with prejudice. It records zero objections and 19 exclusion requests, and awards $2.5M in fees and costs plus a $3,000 service award.\n- It also recites that preliminary approval was granted on May 7, 2026.\n\nPRELIMINARY APPROVAL, 2026-05-07:\n- The Preliminary Approval Order is signed by Judge Noll and dated 5-7-2026.\n- Its deadline table sets the Notice Date at 2026-06-21, the claims, opt-out and objection deadline at 2026-08-20, and the Final Approval Hearing at 2026-09-09 at 1:00 p.m.\n\nPRELIM MOTION FILING DATE: not verified, so I left the field blank.\n- The Settlement Agreement was executed on 2026-04-17 (DocuSign dates). It was filed as Exhibit 1 to the Dwoskin Declaration, and the exhibit PDF was last modified 2026-04-21.\n- So the motion was filed between 2026-04-17 and 2026-05-07, probably around 2026-04-21, which would also be in-window. I found no public Sangamon docket entry to confirm it.\n\nFUND, $12,670,284, with two caveats:\n- It is a \"Settlement Benefit Cap\" (SA para. 1.29), not a common fund. It works out to exactly 767,896 x $16.50.\n- Defendant funds only valid claims plus administration costs, fees and the service award, and any remainder reverts to Defendant (SA para. 10). The real payout is therefore likely much lower. Flag this before using the number as a comparable in demand letters.\n\nCLASS SIZE: 767,896 is the parties' estimate (SA para. 1.30). The class is account holders on the portal at my.deltadentalcoversme.com between 2021-01-23 and 2025-01-23.\n\nCLAIMS:\n- ECPA / federal Wiretap Act (18 U.S.C. 2511) and the Illinois Eavesdropping Statute (720 ILCS 5/14-1). This meets the user's \"federal wiretap/ECPA\" criterion.\n- No CIPA or Florida FSCA claim.\n\nPROCEDURAL HISTORY: CourtListener shows N.D. Ill. 1:25-cv-00794 (Judge Sharon Johnson Coleman) filed 2025-01-23 and terminated 2026-03-12. That matches the voluntary dismissal and same-day state refiling recited in the agreement. Mediation was before Bruce Friedman of JAMS on 2026-02-18.\n\nSupporting sources (official settlement site):\n- Preliminary Approval Order: https://www.wysstaservicesclassaction.com/files/Feeler_Preliminary%20Approval%20Order.pdf\n- Settlement Agreement: https://www.wysstaservicesclassaction.com/files/2026LA000050%20-%20Dwoskin%20Declaration%20Exhibit%201%20-%20Class%20Action%20Settlement%20Agreement.pdf\n- Long Form Notice: https://www.wysstaservicesclassaction.com/files/Wyssta%20Long%20Form%20Notice_FINAL.pdf\n\nLocal copies and extracted text are in C:\\Users\\DSamson\\AppData\\Local\\Temp\\claude\\C--Users-DSamson-Downloads\\2318d051-3a3d-4405-93f0-fc6b0dcd69d4\\scratchpad\\wyssta\\ as final.pdf, prelim.pdf, sa2.pdf and lfn.pdf.",
+   "open_questions": "(1) The filing date of the motion for preliminary approval in Sangamon County is not online. It falls between 2026-04-17, when the agreement was signed, and 2026-05-07; the agreement is Exhibit 1 to the Dwoskin declaration that supported the motion. (2) The number of valid claims, the claims rate and the amount actually paid out are unknown. Because the settlement is reversionary, the real payout is likely far below the $12.67M cap. The Kroll (Andrew Perry) final-approval declaration and the final-approval motion are not posted. (3) Final approval drew 0 objections and 19 opt-outs. (4) I did not see the state-court complaint; the claims are taken from the federal complaint plus the settlement agreement recitals and the notice.",
+   "id": "feeler-v-wyssta-services-delta-dental-member-portal"
   },
   {
-   "short_name": "Catholic Health System (Buffalo) MyChart pixel",
-   "caption": "J.C., on behalf of herself and all others similarly situated v. Catholic Health System, Inc. (refiled from J.C. v. Catholic Health System, Inc., No. 1:23-cv-00796-JLS-JJM (W.D.N.Y.))",
-   "defendant": "Catholic Health System, Inc.",
-   "court": "Supreme Court of the State of New York, County of Erie (settled \"Action\" also includes the prior W.D.N.Y. federal case)",
-   "docket": "Index No. 811968/2025 (NYSCEF headers; the prelim order body and classaction.org show 811986/2025, which looks like a typo). Prior federal case: 1:23-cv-00796 (W.D.N.Y.), voluntarily dismissed without prejudice 2025-10-06",
-   "judge": "Hon. Diane Y. Devlin, J.S.C. (preliminary approval); Hon. Lynn W. Keane, J.S.C. (final approval). Federal case: Hon. John L. Sinatra Jr. / M.J. Jeremiah J. McCarthy",
-   "industry": "Healthcare (hospital system in Buffalo, NY, with a patient portal)",
-   "technology": "Meta Pixel (the SA also names Meta CAPI) and Google Analytics on chsbuffalo.org and chcareondemand.org, including the Epic MyChart patient portal and its login page",
+   "short_name": "University of Phoenix (Pixel / VPPA-ECPA)",
+   "caption": "Lauren Brand and Janielle Dawson, individually and on behalf of all others similarly situated v. The University of Phoenix, Inc.",
+   "defendant": "The University of Phoenix, Inc.",
+   "court": "Circuit Court of Sangamon County, Illinois, Seventh Judicial Circuit (related federal action: Dawson v. The University of Phoenix, Inc., N.D. Ill. No. 1:25-cv-03497, Judge Mary M. Rowland)",
+   "docket": "2026LA000170",
+   "judge": "Hon. Gail L. Noll",
+   "industry": "Higher education (for-profit online university)",
+   "technology": "Meta (Facebook) Pixel, plus Google Analytics, LinkedIn Insight Tag, TikTok, Microsoft, and Amazon tracking on phoenix.edu course and degree-program pages, including students' prerecorded course-video viewing",
    "cipa_631": "not_pled",
    "cipa_632": "not_pled",
    "cipa_632_7": "not_pled",
    "cipa_638_51": "not_pled",
    "ecpa_wiretap": "pled",
    "fsca": "not_pled",
-   "other_claims": "Federal amended complaint (Dkt. 62): breach of fiduciary duty/confidentiality; invasion of privacy under N.Y. Civ. Rights Law §§ 50-51; breach of implied contract; unjust enrichment; negligence. The original federal complaint (Dkt. 1) also pled N.Y. GBL § 349, which was dropped from the amended complaint. The Civ. Rights Law count was withdrawn from the original complaint on 2024-02-13 and then repleaded in the amended complaint.",
-   "statute_evidence": "ECPA: the federal amended complaint (J.C. v. Catholic Health Sys., 1:23-cv-00796, W.D.N.Y. Dkt. 62, filed 2025-02-14; RECAP: https://storage.courtlistener.com/recap/gov.uscourts.nywd.146764/gov.uscourts.nywd.146764.62.0.pdf) pleads Count II, ECPA 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure). The PACER cause is \"18:2511 Wiretapping\". The Settlement Agreement (catholichealthsettlement.com/documents) recounts that history: the ECPA claim was dismissed with leave to amend (order 2025-01-31) and then amended. SA ¶ 1.1 defines the settled \"Action\" as both the federal case and the Erie County case \"asserting the same or similar claims\", and the release covers interception claims. CAVEAT: the Erie County complaint itself (NYSCEF Doc. 1) was not viewed because NYSCEF guest search is behind a CAPTCHA. It is possible the refiled state complaint left out the federal ECPA count. CIPA §§ 631/632/632.7/638.51 and FSCA are marked not_pled based on the federal claims list I saw (a New York case with a New York class).",
-   "class_definition": "Subclass 1: current or former patients who logged into CHS's MyChart patient portal from 2020-01-01 through 2025-12-11. Subclass 2: all other current or former CHS patients, or individuals who sought or received treatment from CHS, in the same period. The usual exclusions apply.",
-   "class_size": 300000,
-   "class_size_note": "Approximate, per SA ¶ 1.33, the prelim order and the final Decision and Order: about 300,000 members (about 85,000 in Subclass 1 and about 215,000 in Subclass 2). There were 35 opt-outs and no more than 3 objectors.",
-   "settlement_structure": "Claims-made, with no common fund. The defendant pays approved claims directly, subject to a 15% claims-rate cap on Subclass 1 cash, which puts the aggregate cash cap at $255,000. The defendant separately pays notice and administration (about $209,359), fees and the service award. Subclass 2 gets an in-kind benefit (Dashlane privacy monitoring) plus injunctive relief. Counsel and the court put the total value at $21,104,359, made up of the $255,000 cash cap, $20.64M retail value of Dashlane at $96 x 215,000, and administration.",
-   "fund_amount": null,
-   "payment_terms": "Subclass 1 (MyChart users): claim up to $20 cash, paid by PayPal, Venmo, Zelle or check. If more than 15% of members submit valid claims, payments are reduced pro rata within the 15% cap. Subclass 2: 12 months of Dashlane Premium privacy monitoring (valued at $96 a year). Claims deadline was 2026-04-10; the opt-out and objection deadline was 2026-03-11.",
-   "fees_requested": "$595,000 for attorneys' fees and expenses combined (cap set in SA 1.x / fee section; fee motion is NYSCEF Doc 24, memo Doc 25, filed 2026-02-25). Awarded in full by the 2026-05-29 Decision and Order. The court valued the settlement benefits at $21,104,359, so the fee is about 3%; the lodestar is $476,996.52, a 1.2 multiplier, on about 630 hours. A $5,000 service award was also granted.",
-   "service_award": "$5,000 to the class representative J.C. (requested and awarded)",
-   "injunctive_relief": "CHS must remove first-party tracking technologies (which may include Meta Pixel/CAPI and Google Analytics) from chsbuffalo.org and/or chcareondemand.org if those tools are implemented and send website data to a third party that has no HIPAA-compliant agreement with CHS (SA ¶ 2.4).",
+   "other_claims": "Video Privacy Protection Act (18 U.S.C. § 2710); Illinois Eavesdropping Act (720 ILCS 5/14-1 et seq.). No California or Florida claims.",
+   "statute_evidence": "Settlement Agreement Recital A (Brand state complaint, filed 2026-07-21) and the Long Form Notice both list the claims as VPPA, ECPA 18 U.S.C. § 2510 et seq., and the Illinois Eavesdropping Act. The related federal Dawson complaint (N.D. Ill. 1:25-cv-03497, ECF 1, RECAP) has three counts. Count I is VPPA. Count II is ECPA, alleging that Defendant procured third-party trackers to intercept communications under § 2511(1)(a), used the intercepted contents under § 2511(1)(d), and seeking § 2520 civil remedies. Count III is the Illinois Eavesdropping Act. The Dawson motion-to-dismiss order (ECF 52, 2026-01-13) let the ECPA procurement claim and part of the Eavesdropping Act claim proceed. It limited the VPPA claim to disclosures to Facebook. URLs: https://cw.simpluris.com/docs/public/downloads/TBC2/SETTLEMENT_AGREEMENT ; https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.1.0.pdf ; https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.52.0.pdf",
+   "class_definition": "All individuals in the U.S. enrolled at the University of Phoenix from 2023-04-01 through the notice date (2026-10-06). For Illinois residents the period starts 2020-04-01. Defendant's controlled entities, officers and directors, and the judge are excluded.",
+   "class_size": 350000,
+   "class_size_note": "Approximate. The Settlement Agreement's Gross Maximum Funding clause (¶ 1.17) uses 350,000 persons as the baseline class size. The cap rises by $25 for each member above 350,000 if the class reaches 385,000 or more. No exact count is published.",
+   "settlement_structure": "Claims-made settlement with a cap, not a common fund. Defendant pays $25 per approved claim plus notice and administration costs, the fee award, and service awards. All of these together are capped at a Gross Maximum Funding of $8,750,000, and claims are reduced pro rata only if the cap is reached. Funds from uncashed checks revert to Defendant (¶ 2.6).",
+   "fund_amount": 8750000,
+   "payment_terms": "Flat $25 per approved claim, reduced pro rata only if the $8.75M cap is reached. One claim per member. Claimants log in with the Login ID and PIN from the email notice. Paid by check, Zelle, Venmo or PayPal. Claims, opt-outs and objections are all due 2026-11-05.",
+   "fees_requested": "Up to 35% of Gross Maximum Funding ($3,062,500) for fees, costs and expenses, paid by Defendant; Defendant agrees not to object (clear sailing). Service awards up to $5,000 per class rep (2 reps).",
+   "service_award": "Up to $5,000 each for 2 class representatives (Lauren Brand, Janielle Dawson), $10,000 total, paid by Defendant.",
+   "injunctive_relief": "Defendant will tell U.S. individuals who enroll through phoenix.edu that the website uses cookies and similar tracking tools. It will do this through a website banner and its privacy policy (¶ 2.7).",
    "motion_prelim_filed": "",
-   "prelim_approval_date": "2025-12-11",
-   "final_hearing_date": "2026-04-23",
-   "final_approval_date": "2026-05-29",
-   "status": "Final approval",
-   "window_basis": "Final approval was granted by a Decision and Order of Hon. Lynn W. Keane. The motion was argued 2026-04-23 and the order was filed and entered on NYSCEF (Doc. 55) on 2026-05-29, so both dates fall within 2026-04-09 to 2026-10-09.",
-   "plaintiff_counsel": "Class Counsel: Philip J. Krzeski (Chestnut Cambronne PA); Gary M. Klinger (Milberg Coleman Bryson Phillips Grossman, PLLC); Joseph M. Lyon (The Lyon Firm). Also on the case: Terence R. Coates and Dylan J. Gould (Markovits, Stock & DeMarco, LLC); Randi Kassan (Milberg, federal case)",
-   "settlement_website": "https://catholichealthsettlement.com/",
+   "prelim_approval_date": "2026-09-22",
+   "final_hearing_date": "2026-11-20",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "The Sangamon County court granted preliminary approval on 2026-09-22, which is inside the 2026-04-09 to 2026-10-09 window. Notice went out 2026-10-06 and the final approval hearing is set for 2026-11-20.",
+   "plaintiff_counsel": "Joshua D. Arisohn (Arisohn LLC); Scott R. Drury (Drury Legal, LLC). Defense counsel: Joel C. Griswold and Bonnie Keane DelGobbo (Baker & Hostetler LLP).",
+   "settlement_website": "https://www.uoppixelsettlement.com/",
    "sources": [
     {
-     "label": "Official settlement website (Kroll): case info, dates, class definition",
-     "url": "https://catholichealthsettlement.com/"
+     "label": "Official settlement website (Simpluris)",
+     "url": "https://uoppixelsettlement.com/"
     },
     {
-     "label": "Settlement website documents page: SA, Prelim Approval Order, Long Form Notice, fee motion, memo and declaration, Decision and Order",
-     "url": "https://catholichealthsettlement.com/documents"
+     "label": "Settlement Agreement (claims, fund cap, 350k class baseline, fees, service awards, reversion, injunctive relief)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/TBC2/SETTLEMENT_AGREEMENT"
     },
     {
-     "label": "Settlement Agreement (signed): class size, 15% claims cap, injunctive relief, release, procedural history including ECPA",
-     "url": "https://catholichealthsettlement.com/files/Catholic%20Health%20-%20SA%20-%20Final%20(signed)%20-%20signed.pdf"
+     "label": "Long Form Notice (judge, statutes, deadlines, final approval hearing 2026-11-20, class counsel)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/TBC2/LONG_FORM_NOTICE"
     },
     {
-     "label": "Preliminary Approval Order, 2025-12-11 (NYSCEF Doc. 23), Hon. Diane Y. Devlin",
-     "url": "https://catholichealthsettlement.com/files/Catholic%20Health%20-%20Preliminary%20Approval%20Order%2012.11.2025.pdf"
+     "label": "Dawson v. Univ. of Phoenix, N.D. Ill. 1:25-cv-03497 docket (CourtListener)",
+     "url": "https://www.courtlistener.com/docket/69832522/dawson-v-the-university-of-phoenix-inc/"
     },
     {
-     "label": "Memorandum ISO Motion for Fees and Service Award (NYSCEF Doc. 25, filed 2026-02-25): claims-made structure, $255,000 cap, valuation",
-     "url": "https://catholichealthsettlement.com/files/Memorandum%20ISO%20Motion%20for%20Fees%20and%20Award.pdf"
+     "label": "Dawson complaint, ECF 1 (Counts I VPPA, II ECPA § 2511(1)(a),(d), III Illinois Eavesdropping Act)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.1.0.pdf"
     },
     {
-     "label": "Decision and Order granting final approval, fees and service award (NYSCEF Doc. 55, entered 2026-05-29), Hon. Lynn W. Keane",
-     "url": "https://catholichealthsettlement.com/files/Decision%20and%20Order.pdf"
+     "label": "Dawson MTD Memorandum Opinion and Order, ECF 52 (2026-01-13), upholding the ECPA procurement theory",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.52.0.pdf"
     },
     {
-     "label": "Federal amended complaint, W.D.N.Y. 1:23-cv-00796 Dkt. 62 (ECPA Count II)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.nywd.146764/gov.uscourts.nywd.146764.62.0.pdf"
+     "label": "Dawson stay pending 2026-06-03 mediation, ECF 61",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.ilnd.475832/gov.uscourts.ilnd.475832.61.0_1.pdf"
     },
     {
-     "label": "Federal original complaint, Dkt. 1 (ECPA plus GBL 349)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.nywd.146764/gov.uscourts.nywd.146764.1.0.pdf"
+     "label": "SettlementInsight (secondary source: preliminary approval 2026-09-22)",
+     "url": "https://settlementinsight.com/university-of-phoenix-lawsuit"
     },
     {
-     "label": "CourtListener docket, J.C. v. Catholic Health System (W.D.N.Y.), cause 18:2511",
-     "url": "https://www.courtlistener.com/docket/68133419/"
+     "label": "ClaimDepot summary (secondary source)",
+     "url": "https://www.claimdepot.com/settlements/uop-pixel-settlement"
     },
     {
-     "label": "ClassAction.org news article (secondary)",
-     "url": "https://www.classaction.org/news/catholic-health-system-mychart-settlement-ends-class-action-lawsuit-over-alleged-patient-portal-data-sharing"
-    },
-    {
-     "label": "ClaimDepot summary (secondary)",
-     "url": "https://www.claimdepot.com/settlements/catholic-health-settlement"
-    },
-    {
-     "label": "SounderData case page (secondary)",
-     "url": "https://sounderdata.com/healthcare-tracking-lawsuits/j-c-v-catholic-health-system-inc/"
+     "label": "OpenClassActions summary (secondary source)",
+     "url": "https://openclassactions.com/settlements/vppa/university-of-phoenix-pixel-privacy-class-action-settlement.php"
     }
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I checked the primary documents myself.\n\n(1) Federal amended complaint, W.D.N.Y. 1:23-cv-00796, Dkt. 62, filed 2/14/2025 (RECAP doc id 431538328; classaction.org also hosts it as jc-v-catholic-health-system-inc-complaint_1.pdf). It pleads six counts:\n- Count I: breach of fiduciary duty/confidentiality\n- Count II: ECPA, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure). It relies on 2511(1)(a), (c) and (d) and argues the (2)(d) crime-tort exception via N.Y. Penal Law §§ 156.05, 156.10 and 156.29.\n- Count III: N.Y. Civ. Rights Law §§ 50-51\n- Count IV: implied contract\n- Counts V-VI: unjust enrichment and negligence\n- The intro also lists GBL § 349.\nI found no reference to California, CIPA, Penal Code 631/632/632.7/638.51, Florida or Fla. Stat. 934. The \"Penal\" hits are New York Penal Law only. No amended pleading dropped the ECPA count. The court dismissed the ECPA claim with leave to amend (order of 1/31/2025, Dkt. 60), and it was repleaded in Dkt. 62.\n\n(2) Settlement Agreement, pulled from a Wayback Machine snapshot dated 2026-01-30. The live site sits behind Cloudflare and blocked direct downloads. The recitals give the history of the ECPA dismissal and amendment. SA ¶ 1.1 defines \"Action\" as BOTH the federal case and Erie County Index No. 811968/2025, the latter \"asserting the same or similar claims.\" The release covers interception claims, and ¶ 2.6 requires voluntary dismissal of the federal case. The federal case was dismissed without prejudice on 10/6/2025 (Dkt. 72/74).\n\n(3) State-court filings I downloaded from the settlement site with a headless browser:\n- Fee memo, NYSCEF 25\n- Krzeski declaration, NYSCEF 26\n- Final approval Decision and Order, NYSCEF 55, Hon. Lynn W. Keane, final approval 4/23/2026\nThese say the parties agreed the case \"should be re-filed in state court.\" Neither these nor the preliminary approval order lists the state counts. The settlement notice says the Action alleges violations of \"state and federal statutes.\" The only federal claim in the federal pleadings is ECPA, which suggests the refiled state complaint kept it.\n\nCaveat: I did not view the Erie County complaint itself (NYSCEF Doc. 1), because NYSCEF is behind a CAPTCHA. It is therefore unverified whether the state pleading repeats ECPA verbatim. ECPA is still confirmed as pled in the operative federal complaint, and the federal case is part of the settled \"Action.\" I agree with all of the researcher's statute values. Note for David's 638.51 goal: this is a NY-class healthcare pixel case with ECPA only and no CIPA claims.\n\nIndex number: the NYSCEF headers and the SA read 811968/2025. The prelim order body reads 811986/2025, which is a typo. | fees_requested: $595,000 in fees and expenses combined was requested (motion filed on NYSCEF 2026-02-25) and awarded in full. The court described it as about 3% of the $21.1M court-valued benefit, or a 1.2 multiplier on a $476,996.52 lodestar (about 630 hours).→$595,000 for attorneys' fees and expenses combined (cap set in SA 1.x / fee section; fee motion is NYSCEF Doc 24, memo Doc 25, filed 2026-02-25). Awarded in full by the 2026-05-29 Decision and Order. The court valued the settlement benefits at $21,104,359, so the fee is about 3%; the lodestar is $476,996.52, a 1.2 multiplier, on about 630 hours. A $5,000 service award was also granted. | Timing/money check (confirmed): I could not refute this one. The qualifying event falls inside the 2026-04-09 to 2026-10-09 window. All primary documents were pulled from the official Kroll settlement site, catholichealthsettlement.com. Plain fetches got a 403, so I downloaded them with headless Playwright.\n\n(1) FINAL APPROVAL. The Decision and Order of Hon. Lynn W. Keane, J.S.C. (Sup. Ct. Erie Cnty.) grants the motion for final approval \"in all respects\" and overrules the objections. It is NYSCEF Doc 55, filed and received 05/29/2026 at 2:27 PM, and the signature page is hand-dated \"ENTERED: 5/29/2026\". The order tells the parties to e-file a proposed order and judgment within two weeks. I could not check NYSCEF itself (the public search is captcha-gated), so a separate formal judgment may have been entered around mid-June 2026. The approval decision itself is dated 2026-05-29.\n\n(2) FINAL HEARING. Confirmed as 2026-04-23. The decision cites oral argument on April 23, 2026 and says the court reserved decision. The site lists 10:00 a.m., in person, Part 13. The Preliminary Approval Order (PAO) had said videoconference.\n\n(3) PRELIMINARY APPROVAL. Confirmed as 2025-12-11. This is the PAO of Hon. Diane Y. Devlin, NYSCEF Doc 23, filed 12/11/2025 at 3:41 PM. The signature line reads \"11th day of December, 2026\", which is a scrivener's error; the NYSCEF stamp shows 2025. Preliminary approval is outside the window, but the final approval inside it qualifies the case.\n\n(4) INDEX NO. 811968/2025 is correct. It appears in the NYSCEF headers, the decision caption, the SA definition of \"Action\", and the website. The 811986/2025 in the body of the PAO is a typo.\n\n(5) PRELIM MOTION FILED DATE. Not verifiable; I left it blank. The SA was signed 2025-09-23. The federal case (W.D.N.Y. 1:23-cv-00796, cause 18:2511 Wiretapping) was voluntarily dismissed without prejudice: notice at ECF 72, text order at ECF 74, both 2025-10-06, per CourtListener. So the state prelim motion was filed sometime between about Sept. and Dec. 11, 2025, outside the window either way.\n\n(6) FUND. There is no common fund; this is a claims-made, non-reversionary-style benefit structure, so fund_amount is null. Subclass 1 (MyChart users, about 85,000) can claim up to $20 each, subject to a 15% claims-rate cap with pro-rata reduction. Subclass 2 (other patients, about 215,000) gets 12 months of Dashlane Premium, valued at $96 per year. Defendant also agreed to injunctive relief removing Meta Pixel/CAPI and Google Analytics from chsbuffalo.org. The court-assigned value of $21,104,359 is not a fund. The claim deadline was 2026-04-10 and the opt-out/objection deadline 2026-03-11. The decision reports 35 opt-outs and no more than 3 objectors.\n\n(7) CLASS SIZE. 300,000 is confirmed by both the PAO and the decision (\"approximately 300,000\"). The SA splits it about 85,000 / 215,000.\n\n(8) CLAIMS. The federal case asserted ECPA/federal Wiretap Act claims (18 U.S.C. 2511) plus NY state-law claims. ECPA was dismissed with leave to amend on 2025-01-31, and an amended complaint followed. The state refiling asserts the \"same or similar claims\", so this fits the user's fed wiretap/ECPA criterion. It contains no CIPA or FSCA claims.\n\nSmall correction: the SA's own narrative gives the amended-complaint date as February 14, 2024, which looks like an internal error, likely 2025. The fee cap is in the SA at $595,000, \"not to exceed\".",
-   "open_questions": "(1) I did not see the operative Erie County complaint (NYSCEF Doc. 1, Index 811968/2025) because NYSCEF guest search needs a CAPTCHA. ECPA is marked pled based on the federal amended complaint, which is part of the settled \"Action\" under SA ¶ 1.1 and covered by the release. Someone should confirm on NYSCEF whether the state complaint repeats the § 2511 count. (2) Final approval date: the Decision and Order is captioned for the 2026-04-23 Special Term, its signature date is partly illegible (May 2026), and it was filed on NYSCEF 2026-05-29. The court told the parties to submit a proposed final order and judgment within two weeks; I did not see that judgment or its entry date. (3) I could not find the filing date of the state-court preliminary approval motion. (4) There is no common fund, so fund_amount is null. The cash exposure is capped at $255,000 plus about $209,359 in administration, $595,000 in fees and the $5,000 service award, and the court-cited total value is $21,104,359, mostly the retail value of Dashlane. (5) The final claims count and the actual per-claimant payout (whether the 15% cap triggered proration) are not posted.",
-   "id": "catholic-health-system-buffalo-mychart-pixel"
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher, and I agree on every statute. Settlement Agreement Recital A covers the Brand complaint, Sangamon County No. 2026LA000170, filed 2026-07-21. It lists the claims as the VPPA (18 U.S.C. § 2710), the ECPA (18 U.S.C. § 2510 et seq.) and the Illinois Eavesdropping Act. The Long Form Notice lists the same three claims. I could not get the Brand state-court complaint itself, so the settlement agreement is the primary source for that pleading.\n\nThe related federal complaint backs this up: Dawson, N.D. Ill. 1:25-cv-03497, ECF 1, filed 2025-04-01. Count Two is ECPA, citing § 2511(1)(a) for procuring interception and § 2511(1)(d) for use. Count One is VPPA and Count Three is the Illinois Eavesdropping Act. None of the four documents I checked (the settlement agreement, the Long Form Notice, the Dawson complaint and the ECF 52 order) cites CIPA §§ 631, 632, 632.7 or 638.51, or Fla. Stat. § 934. The only mention of California in the settlement agreement is the standard Civil Code § 1542 waiver.\n\nOn amendments: the CourtListener docket shows no amended complaint. The motion to dismiss (ECF 19 and 20) was decided against the original complaint. ECF 52 (2026-01-13) limited the VPPA claim to disclosures to Facebook. Its conclusion says Counts II (ECPA) and III (Eavesdropping Act) may proceed as to all six third parties. The court expressly declined to dismiss the ECPA claim.\n\nOne small difference from the researcher: they said only \"part of\" the Eavesdropping Act claim survived. The order's body does reject one conclusory theory (that Defendant directed the third parties), but the conclusion lets Count III proceed in full against all six. This does not affect the verdict.\n\nThe federal case was stayed for mediation (ECF 61, 2026-03-02), and the settlement was then filed in Illinois state court. ECPA is the only one of the listed statutes that is pled. There is no CIPA or Florida claim, so this case does not help with 631, 632 or 638.51. | fees_requested: Up to 35% of Gross Maximum Funding ($3,062,500) for fees, costs and expenses, paid by Defendant. Defendant agreed not to oppose (clear-sailing clause).→Up to 35% of Gross Maximum Funding ($3,062,500) for fees, costs and expenses, paid by Defendant; Defendant agrees not to object (clear sailing). Service awards up to $5,000 per class rep (2 reps). | Timing/money check (confirmed): I could not refute the in-window event. The official settlement site run by Simpluris (/dates/ page) lists \"Preliminary Approval Granted 9/22/2026\", which falls inside the 2026-04-09 to 2026-10-09 window. The other site dates are: notice email 2026-10-06; claim, opt-out and objection deadlines 2026-11-05; final approval hearing 2026-11-20 at 9:30 a.m. by Zoom before Hon. Gail L. Noll in Sangamon County Circuit Court, No. 2026LA000170. The long-form notice gives the same deadlines and hearing date. Final approval has not happened yet.\n\nMoney terms, checked against the Settlement Agreement:\n- The $8,750,000 is a \"Gross Maximum Funding\" cap, not a common fund. It is claims-made: $25.00 per approved claim, reduced pro rata only if the cap is reached. Fees, service awards and administration costs all come out of the cap. The agreement says the cap is never reduced.\n- The 350,000 class size is the agreement's baseline figure, not a confirmed count. If the class exceeds 385,000 (350,000 plus 10%), the defendant adds $25 for each person above 350,000, and the cap and fee calculation rise in proportion.\n- Fees: §8.1 caps fees, costs and expenses at 35% of the cap, stated as $3,062,500, and the defendant agrees not to object (clear sailing). Service awards are up to $5,000 per class representative.\n- Class counsel: Joshua Arisohn (Arisohn LLC) and Scott Drury (Drury Legal). Defense counsel: Baker & Hostetler (Joel Griswold).\n\nClaims are VPPA (18 U.S.C. 2710), federal wiretap/ECPA (18 U.S.C. 2510 et seq.) and the Illinois Eavesdropping Act. There are no CIPA or Florida FSCA claims; the ECPA claim is the one relevant to this table.\n\nBackground from the agreement's recitals: mediation 2026-06-03, term sheet signed 2026-07-16, state complaint filed 2026-07-21, agreement executed 2026-08-17.\n\nThe related federal case (N.D. Ill. 1:25-cv-03497, Judge Rowland) has no approval entries on CourtListener. A motion-to-dismiss ruling at ECF 52 (2026-01-13) granted it in part and denied it in part. The case was stayed at ECF 60/61 (2026-02-26 and 2026-03-02), and the docket shown ends at ECF 62. I could not find the date the preliminary approval motion was filed in state court, so motion_prelim_filed is blank. It probably falls between 2026-08-17 and 2026-09-22, but that is not verified. The web search budget had run out, and the Sangamon County docket was not checked.",
+   "open_questions": "(1) I did not see the preliminary approval order itself. The 2026-09-22 date comes from SettlementInsight. It is consistent with the Agreement, which sets the Notice Date 14 days after preliminary approval, and notice went out 2026-10-06. (2) The filing date of the motion for preliminary approval is unknown. The Sangamon County docket was not accessible. (3) The Brand state-court complaint (filed 2026-07-21) is not posted on the settlement site. Its claims come from Agreement Recital A and the Long Form Notice. Section-level detail of the ECPA count comes from the earlier Dawson federal complaint, which the state complaint presumably mirrors. (4) Class size of about 350,000 is inferred from the fund-escalator clause and is not an official count. (5) How the federal Dawson case was resolved after the state refiling is not shown on CourtListener. Its last entry is the 2026-03-02 stay. (6) This is an Illinois case and pleads no CIPA, § 638.51 or FSCA claims. Its value for the comparison table is as an ECPA/wiretap-procurement pixel settlement.",
+   "id": "university-of-phoenix-pixel-vppa-ecpa"
   },
   {
-   "short_name": "Crouch v. Saint Agnes Medical Center",
-   "caption": "Kathryn Crouch v. Saint Agnes Medical Center (Fresno Super. Ct., Complex/Class Action, Lead Case of consolidated actions; removed as E.D. Cal. No. 1:22-cv-01527-ADA-EPG and remanded 2023-10-20; 9th Cir. No. 23-3635 dismissed 2024-08-26)",
-   "defendant": "Saint Agnes Medical Center (Fresno, CA; Trinity Health member)",
-   "court": "Superior Court of California, County of Fresno",
-   "docket": "22CECG03349",
-   "judge": "Hon. Jonathan Skiles (Dept. 503); the 9/23/2026 tentative ruling was issued by \"JS\"",
-   "industry": "Healthcare (hospital)",
-   "technology": "Meta (Facebook) Pixel on the public website samc.com. Alleged to send searches, pages visited, physician/specialty searches, appointment scheduling, class and support-group registrations, and bill payments to Facebook, linked to Facebook IDs.",
-   "cipa_631": "pled",
-   "cipa_632": "unknown",
-   "cipa_632_7": "unknown",
-   "cipa_638_51": "unknown",
-   "ecpa_wiretap": "not_pled",
+   "short_name": "Northwell Health (pixel)",
+   "caption": "Kaplan, et al. v. Northwell Health, Inc.",
+   "defendant": "Northwell Health, Inc.",
+   "court": "Supreme Court of the State of New York, County of Kings",
+   "docket": "Index No. 520763/2025 (refiled in state court; predecessor consolidated federal action Kaplan v. Northwell Health, No. 2:23-cv-07205-GRB-LGD (E.D.N.Y.), voluntarily dismissed)",
+   "judge": "Hon. Steven Mostofsky",
+   "industry": "Healthcare (hospital / health system)",
+   "technology": "Meta (Facebook) Pixel, Meta Conversions API (CAPI, server-side), and Google Analytics on northwell.edu (incl. online appointment booking) and associated with the FollowMyHealth patient portal",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
    "fsca": "not_pled",
-   "other_claims": "CMIA (Cal. Civ. Code §§ 56.10, 56.36(b)). These are the only two counts in the 2023 FAC: CIPA § 631(a) aiding/permitting, plus CMIA. Any claims added in the 2025 First Consolidated Class Action Complaint are unknown.",
-   "statute_evidence": "Read the First Amended Class Action Complaint (E.D. Cal. ECF No. 11, filed 2023-01-18; RECAP PDF https://storage.courtlistener.com/recap/gov.uscourts.caed.420434/gov.uscourts.caed.420434.11.0.pdf). It has two counts. Cause of Action I is a CIPA claim under § 631(a): Defendant aided and permitted Facebook to read and learn the contents of communications, with $5,000 per violation under § 637.2. Cause of Action II is CMIA. It cites no § 632, § 632.7, § 638.51, ECPA or FSCA claim.\n\nThe operative pleading is now the First Consolidated Class Action Complaint, lodged 2025-06-30 with ¶37 partly sealed per the 2025-08-28 Dept. 503 tentative. It was not available to review, so 632, 632.7 and 638.51 are marked unknown. ECPA and FSCA are marked not_pled for two reasons:\n- Plaintiff fought for and won remand to state court, so adding a federal claim would have reopened removal.\n- The putative class is California-only, so a Florida FSCA claim does not fit.\nThe plaintiff firm's case page also describes the claims as CIPA plus CMIA only.",
-   "class_definition": "Settlement class definition not yet public. 2023 FAC putative class: all persons in California who have a Facebook account and used Defendant's website to search for medical information, services or physicians, schedule appointments, register for classes or support groups, or pay for medical services.",
-   "class_size": null,
-   "class_size_note": "Unknown. No class-size figure appears in any public document reviewed. The 2023 FAC alleges only \"thousands of members.\"",
-   "settlement_structure": "Unknown. The settlement papers (motion for preliminary approval) are not publicly available yet.",
+   "other_claims": "Breach of fiduciary duty/confidentiality (Count I); invasion of privacy under N.Y. Civ. Rights Law §§ 50, 51 (Count III); breach of implied contract (Count IV); unjust enrichment (Count V); negligence (Count VI); N.Y. Gen. Bus. Law § 349 (Count VII).",
+   "statute_evidence": "Operative state-court Complaint (NYSCEF Doc. 1, filed 2025-06-23), posted on the settlement website at https://cw.simpluris.com/docs/public/downloads/NKC/COMPLAINT. It pleads seven counts. Count II is \"Violations of Electronic Communications Privacy Act (ECPA) 18 U.S.C. § 2511(1), et seq.\" (interception, use and disclosure). No California Penal Code (CIPA §§ 631/632/632.7/638.51) or Florida § 934 claims appear anywhere in the complaint. The long-form notice also describes the claims as ECPA, 18 U.S.C. § 2511 et seq., plus state law.",
+   "class_definition": "Two subclasses. Subclass 1: Northwell patients who logged into the FollowMyHealth patient portal, or booked an appointment on northwell.edu, between 2020-01-01 and 2023-12-31. Subclass 2: all other Northwell patients between 2020-01-01 and 2024-07-25 not in Subclass 1.",
+   "class_size": 5513548,
+   "class_size_note": "Exact count per administrator (Simpluris Decl. para. 8, cited in final approval memo): 761,023 Subclass 1 + 4,752,525 Subclass 2 = 5,513,548 unique members (6,536,106 records before de-duplication). Fee motion used different approximations (~904,145 Subclass 1; ~5.2M total). Claims as of ~2026-04-06: 55,795 Subclass 1 and 80,289 Subclass 2 (overall ~2.47% claims rate); 196 opt-outs; 4 objections (2 withdrawn).",
+   "settlement_structure": "Claims-made settlement with no common fund; attorneys' fees/costs, service awards and administration paid separately by Defendant. No aggregate cap on claims identified in the documents reviewed. Plaintiffs characterized it as a \"constructive common fund\" valued at ~$1.578B (almost entirely the retail value of privacy-monitoring subscriptions).",
    "fund_amount": null,
-   "payment_terms": "Unknown",
-   "fees_requested": "Unknown",
-   "service_award": "Unknown",
-   "injunctive_relief": "Unknown for the settlement. The 2023 FAC sought an injunction barring disclosure of website users' communications without consent.",
-   "motion_prelim_filed": "",
-   "prelim_approval_date": "",
-   "final_hearing_date": "",
-   "final_approval_date": "",
-   "status": "Prelim motion pending",
-   "window_basis": "The Dept. 503 tentative ruling issued 2026-09-17, for the 2026-09-23 hearing, took the demurrer to the First Amended Complaint off calendar because the case had settled and a motion for preliminary approval had been filed. That demurrer was still on calendar on 2026-04-02 and 2026-07-21, so the motion was almost certainly filed between late July and 2026-09-17, inside the window. It is not yet ruled on.",
-   "plaintiff_counsel": "Arias Sanguinetti Wang & Team LLP, formerly Arias Sanguinetti Wang & Torrijos (Arnold C. Wang, Mike M. Arias, M. Anthony Jenkins). Arnold Wang is the attorney of record on the 2026 Fresno calendars. In the 2023 federal phase, co-counsel was Liddle Sheets Coulson P.C. (Nicholas A. Coulson); whether that firm is still involved is unconfirmed.",
-   "settlement_website": "",
+   "payment_terms": "Subclass 1: $15.00 cash plus 12-month CyEx Privacy Shield Pro privacy-monitoring subscription (claim form required). Subclass 2: 12-month privacy-monitoring subscription only, no cash. Claim deadline 2026-04-20. Checks void after 180 days.",
+   "fees_requested": "$5,250,000 combined fees and expenses requested (motion NYSCEF Doc 46, filed 2026-03-09), paid by Northwell separately from class benefits. Granted in full in the order and judgment entered 2026-04-23 (NYSCEF Doc 98), which also granted service awards of $3,000. Plaintiffs put the total benefit at $1,578,434,587, so the fee is about 0.33% of it. Lodestar is $1,264,473.84, a multiplier of about 4.15.",
+   "service_award": "$3,000 per class representative requested (3 reps: Eryn Kaplan, Michael Zurl, Kathyann McClendon; $9,000 total); granted.",
+   "injunctive_relief": "None in the settlement agreement. By declarations filed with final approval (Soto and Myers Decls.), Northwell represented that Meta Pixel and Google Analytics were removed from northwell.edu, any remaining trackers do not send data to Meta/Google, no trackers are in the FollowMyHealth portal, and MyNorthwell portal tracking is HIPAA-protected. Not contractually binding relief.",
+   "motion_prelim_filed": "2025-08-28",
+   "prelim_approval_date": "2025-12-10",
+   "final_hearing_date": "2026-04-21",
+   "final_approval_date": "2026-04-23",
+   "status": "Final approval",
+   "window_basis": "The Final Approval Order and Judgment (NYSCEF Doc. 98) was entered 2026-04-23, after the 2026-04-21 fairness hearing, which falls inside the 2026-04-09 to 2026-10-09 window. A notice of appeal from that order has been filed.",
+   "plaintiff_counsel": "Terence R. Coates (Markovits, Stock & DeMarco, LLC); Elena A. Belov and David S. Almeida (Almeida Law Group LLC); Gary M. Klinger (Milberg Coleman Bryson Phillips Grossman, PLLC); Bryan L. Bleichner, Christopher P. Renz, Philip J. Krzeski (Chestnut Cambronne PA); Joseph M. Lyon (The Lyon Firm, LLC); Nicholas A. Coulson (Coulson P.C.). Defense: Ropes & Gray LLP.",
+   "settlement_website": "https://www.nwpixelsettlement.com/",
    "sources": [
     {
-     "label": "Fresno Super. Ct. Dept. 503 tentative rulings for 2026-09-23 (Crouch demurrer taken off calendar: case settled, prelim approval motion filed; issued by JS on 9/17/2026)",
-     "url": "https://www.fresno.courts.ca.gov/system/files/tentative-rulings/09-23-26-dept-503-mml.pdf"
+     "label": "Official settlement website (home, important dates, documents)",
+     "url": "https://www.nwpixelsettlement.com/"
     },
     {
-     "label": "DecisionDepot case page for 22CECG03349 (judge Jonathan Skiles, Dept. 503; same ruling)",
-     "url": "https://www.decisiondepot.legal/cases/329893"
+     "label": "Settlement website - Important Dates (prelim 12/10/2025; FAH 4/21/2026)",
+     "url": "https://www.nwpixelsettlement.com/dates/"
     },
     {
-     "label": "Fresno merged calendar 2026-04-02 (Crouch demurrer on calendar; complex/class action lead case)",
-     "url": "https://www.fresno.courts.ca.gov/system/files/general/merged-calendar-04022026.pdf"
+     "label": "Complaint (NYSCEF Doc. 1, filed 2025-06-23) - counts I-VII incl. ECPA",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/COMPLAINT"
     },
     {
-     "label": "Fresno merged calendar 2026-07-21 (Crouch demurrer; ATTY Wang, Arnold C.)",
-     "url": "https://www.fresno.courts.ca.gov/system/files/general/merged-calendar-07212026.pdf"
+     "label": "Long Form Notice (class defs, benefits, counsel, fee cap $5.25M, $3K service awards)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/LONG_FORM_NOTICE"
     },
     {
-     "label": "Fresno merged calendar 2026-09-23 (Crouch demurrer)",
-     "url": "https://www.fresno.courts.ca.gov/system/files/general/merged-calendar-09232026.pdf"
+     "label": "Preliminary Approval Order (NYSCEF Doc. 38, 2025-12-10)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/PRELIMINARY_APPROVAL_ORDER"
     },
     {
-     "label": "Fresno Dept. 52 calendar 2026-06-09 (Crouch status conference)",
-     "url": "https://www.fresno.courts.ca.gov/system/files/general/binded06092026.pdf"
+     "label": "Signed Final Approval Order & fee order (NYSCEF Doc. 98, received 2026-04-23; Hon. Steven Mostofsky)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/FINAL_APPROVAL_ORDER"
     },
     {
-     "label": "Fresno Dept. 503 tentative 2025-08-28 (sealing portions of First Consolidated Class Action Complaint; now 404, seen via search snippet)",
-     "url": "https://www.fresno.courts.ca.gov/system/files/tentative-rulings/08-28-25-dept-503.pdf"
+     "label": "Memorandum ISO Final Approval (NYSCEF Doc. 70) - class size, claims, procedural history, tracker removal",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/MEMORANDUM_ISO_OF_PLAINTIFFS_MOTION_FOR_FINAL_APPROVAL_OF_CLASS_ACTION_SETTLEMENT"
     },
     {
-     "label": "First Amended Class Action Complaint, E.D. Cal. ECF 11 (claims, class definition, counsel)",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.caed.420434/gov.uscourts.caed.420434.11.0.pdf"
+     "label": "Motion for Attorneys' Fees, Costs, and Service Awards (NYSCEF Doc. 46, 2026-03-09)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/PLAINTIFFS_APOSTROPHE__MOTION_FOR_ATTORNEY_FEES_COSTS_AND_SERVICE_AWARDS"
     },
     {
-     "label": "CourtListener docket, E.D. Cal. 1:22-cv-01527 (removal, remand order 2023-10-20, 9th Cir. appeal dismissed 2024-08-26)",
-     "url": "https://www.courtlistener.com/docket/66512625/crouch-v-saint-agnes-medical-center/"
+     "label": "Settlement Agreement (scanned)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NKC/SETTLEMENT_AGREEMENT"
     },
     {
-     "label": "Order adopting F&R and remanding to state court, E.D. Cal. ECF 44",
-     "url": "https://storage.courtlistener.com/recap/gov.uscourts.caed.420434/gov.uscourts.caed.420434.44.0.pdf"
-    },
-    {
-     "label": "Arias Sanguinetti Wang & Team case page (Meta Pixel on samc.com; CIPA + CMIA)",
-     "url": "https://aswtlawyers.com/class-action-lawyer/saint-agnes-medical-center/"
+     "label": "ClassAction.org news summary",
+     "url": "https://www.classaction.org/news/northwell-health-settlement-resolves-class-action-lawsuit-over-alleged-pixel-data-sharing"
     }
    ],
-   "confidence": "medium",
+   "confidence": "high",
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
-   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I agree with the researcher on 631 and add one new source for 632.\n\n(1) Crouch FAC, E.D. Cal. ECF 11, filed 2023-01-18 (primary document, re-checked by me). It has two counts.\n- Count I is CIPA. ¶6 cites § 631(a) and ¶60 claims $5,000 per violation under § 637.2(a)(1).\n- Count II is CMIA.\n- Text searches found no 632, 2511 or Wiretap language. The only Penal Code citation is the range \"§§ 630-638.55\".\n\n(2) A second Saint Agnes pixel class action exists: John Doe v. Saint Agnes Medical Center, Fresno Super. No. 23CECG00816, filed by Caddell & Chapman and AZA. Saint Agnes removed it as E.D. Cal. 1:23-at-00388 / 1:23-cv-00705 under the federal-officer statute. The parties then stipulated to remand on 2024-10-03 (ECF 23). The complaint is attached to the notice of removal: https://storage.courtlistener.com/recap/gov.uscourts.caed.427798/gov.uscourts.caed.427798.1.0.pdf\n- Count I is CIPA §§ 630 et seq. ¶290 pleads § 631(a), and ¶¶291-293 plead § 632(a) (recording confidential communications). It seeks § 637.2 damages.\n- The other counts are CMIA §§ 56.06, 56.101 and 56.10; Cal. Const. privacy; CDAFA § 502; implied contract; unjust enrichment; UCL; and Civ. Code § 1798.83.\n- It contains no 632.7, 638.51, 18 U.S.C. 2511/Wiretap Act or Fla. Stat. 934 language.\n- Doe was still active in Dept. 502 in April 2025 (pro hac vice tentatives on 04-08-25 and 04-30-25). The Crouch \"First Consolidated Class Action Complaint\" was lodged 2025-06-30. That timing strongly suggests Doe is one of the consolidated actions, but I did not find the consolidation order.\n\n(3) The operative pleading was not available to me. The 09-23-26 Dept. 503 tentative took a \"Demurrer to First Amended Complaint\" off calendar because the case settled and a preliminary-approval motion has been filed. I found no settlement agreement, approval motion or settlement website. So I cannot rule out that the consolidated complaint dropped or added counts.\n\nMy statute calls:\n- 631 = pled. It is in both constituent complaints and is the core statutory-damages theory.\n- 632 = unknown for the operative pleading, but it is pled in the Doe complaint. If Doe is a consolidated member case, the realistic answer is likely pled. This is my one difference from the researcher.\n- 632.7 and 638.51 = unknown. Neither constituent complaint pleads them.\n- ECPA = not_pled. Neither constituent complaint pleads it, and both plaintiffs fought for remand to state court.\n- FSCA = not_pled. The class is California-only and neither complaint pleads it.\n\nSide note: the decisiondepot case URL now returns 404, and the 08-28-25 Fresno tentative URL also now returns 404. Search-engine snippets of both still match the researcher's description. | motion_prelim_filed: —→on or before 2026-09-17 (exact filing date not public) | Timing/money check (confirmed): CONFIRMED: a preliminary-approval motion was filed inside the window. Primary source is the Fresno Superior Court Dept. 503 tentative ruling (Judge Jonathan Skiles) for the 2026-09-23 hearing on the demurrer to the First Amended Complaint in 22CECG03349. It was issued 2026-09-17 and takes the demurrer off calendar because the case has settled and a motion for preliminary approval has been filed. The minute order adopting it serves as the order.\n\nThe exact filing date is not public. The Fresno eCourt public portal needs a login, and no filed papers were found online. Lower bound for the window: the case was still being actively litigated well after 2026-04-09.\n- The demurrer and a status conference were on the 2026-04-02 Dept. 503 calendar.\n- A status conference was on the 2026-06-09 calendar.\n- The demurrer was on calendar again 2026-07-21. DecisionDepot shows it as CONTINUED that day, and it reappeared on the 2026-09-23 calendar.\nSo the motion was most likely filed between late July and 2026-09-17, and certainly by 2026-09-17.\n\nPreliminary approval has NOT been granted as of 2026-10-09. I downloaded every Fresno merged master calendar from 2026-08-03 through 2026-10-09 and searched them. The only Crouch entry is the 2026-09-23 demurrer; no preliminary-approval hearing is listed. Calendars after 10/09 are not posted yet. Dept. 503 tentatives for 9/30, 10/1, 10/6, 10/7 and 10/8 contain no Crouch ruling. The 10/7 Saint Agnes ruling is an unrelated med-mal case, Robinson v. Parish, 24CECG05024.\n\nFund, class size and fees are not public. No settlement website or administrator page was found (searched Perplexity, the Sounder and Curve pixel trackers, and the ASWT firm page). These stay null/Unknown.\n\nClaims, useful for the comparison table: the First Amended Complaint in the E.D. Cal. removal record (ECF 11) pleads CIPA § 631 and CMIA (Civ. Code § 56.10) over Meta Pixel on samc.com. No § 632 or federal ECPA count was found in that version. The later state-court FAC/consolidated complaint was not reviewed and may differ.\n\nLimits on checking:\n- The decisiondepot.legal/cases/329893 URL now returns 404, and other DecisionDepot pages sit behind an anti-bot interstitial, which I did not bypass.\n- The Wayback Machine was offline.\n- The 08-28-25 tentative URL now returns an HTML page, not the PDF. Per a search snippet it was the 2025 motion to seal portions of the consolidated complaint, which was granted.\n\nCounsel: Arias Sanguinetti Wang & Torrijos (Arnold Wang) and Liddle Sheets Coulson.",
-   "open_questions": "1. Settlement terms are unknown: fund amount, structure (common fund or claims-made), per-claimant payments, fees, service award, injunctive terms and administrator. No settlement website or news coverage has been found yet.\n2. The motion for preliminary approval was filed on or before 2026-09-17, but the exact filing date and the hearing date are unknown. The Fresno public portal (Journal Technologies eCourt) requires a login, so the docket could not be checked. The hearing will likely appear on a later Dept. 503 tentative ruling or calendar.\n3. The claims in the operative First Consolidated Class Action Complaint (2025) were not reviewed. Confirm whether it added § 632, § 638.51, a constitutional privacy claim or UCL counts beyond § 631 plus CMIA.\n4. Which cases were consolidated under the lead case is unknown.\n5. The settlement class definition and class size are unknown.\n6. Millan v. Saint Agnes Medical Center (22CECG03778, continued to 2026-10-20, Dept. 403) appears in search results as a similar case. Whether it is a related pixel action is unconfirmed.",
-   "id": "crouch-v-saint-agnes-medical-center"
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim, and I agree with the researcher on every statute. I downloaded and read the full 76-page operative state-court complaint: Kaplan, Zurl & McClendon v. Northwell Health, Inc., Kings County Index No. 520763/2025, filed with NYSCEF on 2025-06-23. It pleads seven counts:\n- I: breach of fiduciary duty/confidentiality\n- II: ECPA, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure), with damages sought under § 2520\n- III: invasion of privacy (N.Y. Civ. Rights Law §§ 50-51)\n- IV: breach of implied contract\n- V: unjust enrichment\n- VI: negligence\n- VII: N.Y. GBL § 349\n\nThe complaint does mention N.Y. Penal Law §§ 156.05, 156.10 and 156.29, but only inside Count II as the basis for the crime-tort exception under § 2511(2)(d). They are not standalone claims. The complaint contains no California Penal Code (CIPA §§ 631, 632, 632.7 or 638.51) or Fla. Stat. § 934 claims.\n\nAmended complaint: none. The settlement site's documents page (rendered with Playwright) lists only the one complaint, and its three named plaintiffs match the long-form notice.\n\nCorroborating documents:\n- Long-form notice (Q3) describes the claims as ECPA, 18 U.S.C. § 2511 et seq., plus state law.\n- Final-approval memorandum (NYSCEF Doc. 70, 4/7/2026) gives the history. The E.D.N.Y. consolidated action (2:23-cv-07205-GRB-LGD) had some claims dismissed at a pre-motion conference, and the federal court was skeptical of the ECPA claim. The parties settled at mediation on 2/12/2025, then dismissed the federal case voluntarily and refiled in state court, still pleading ECPA.\n\nCase status: the site shows a final fairness hearing on 4/21/2026, a Final Approval Order on 4/23/2026, and a notice of appeal filed after final approval. The site also lists objector filings, including a cross-motion to disqualify class counsel.\n\nComparison-table caveat: the ECPA count was under judicial skepticism before settlement, so this case adds ECPA support but none for CIPA or FSCA. | fees_requested: Up to $5,250,000 combined fees and expenses requested (motion filed 2026-03-09), paid separately by Defendant; GRANTED in full by order entered 2026-04-23 (stated by plaintiffs as ~0.33% of claimed $1.578B benefit; lodestar ~$1.26M, multiplier ~4.15).→$5,250,000 combined fees and expenses requested (motion NYSCEF Doc 46, filed 2026-03-09), paid by Northwell separately from class benefits. Granted in full in the order and judgment entered 2026-04-23 (NYSCEF Doc 98), which also granted service awards of $3,000. Plaintiffs put the total benefit at $1,578,434,587, so the fee is about 0.33% of it. Lodestar is $1,264,473.84, a multiplier of about 4.15. | Timing/money check (confirmed): I tried to refute the dates and could not. A primary source puts the final approval inside the 2026-04-09 to 2026-10-09 window.\n\nDates:\n- **Final approval:** The Final Approval Order and Judgment, together with the fee order, is NYSCEF Doc 98 under Index No. 520763/2025, Sup. Ct. Kings County. The NYSCEF stamp reads \"RECEIVED NYSCEF: 04/23/2026\". The handwritten signing day is not legible in the scan. The order says the final approval hearing was held 2026-04-21.\n- **Preliminary approval:** The order is NYSCEF Doc 38, received 12/10/2025 and clerk-stamped 12/11/2025. The final approval order also calls it the order \"entered December 10, 2025\".\n- **Preliminary approval motion:** The final approval order says the Settlement Agreement and notice documents were filed on 2025-08-28. I am using that as the motion filing date. I did not check the NYSCEF docket entry for the motion itself (the motion papers cite Joint Decl. \"Dkt. No. 10\").\n- **Other filings:** The state complaint is NYSCEF Doc 1, filed 2025-06-23. The fee motion is NYSCEF Doc 46, filed 2026-03-09. The final approval memorandum is NYSCEF Doc 70, filed 2026-04-07.\n\nMoney and class:\n- **No settlement fund.** Northwell pays all approved claims, administration costs, fees and service awards. Benefits: Subclass 1 gets $15 cash plus 12 months of CyEx Privacy Shield Pro. Subclass 2 gets the 12-month subscription only. The $1,578,434,587 figure is plaintiffs' own valuation, built from a $299.98/yr retail price times about 5.2M members. It is not a fund.\n- **Class size confirmed at 5,513,548** (Simpluris declaration as cited in the final approval memorandum): 761,023 in Subclass 1 and 4,752,525 in Subclass 2. The fee motion used different figures: about 5.2M members and about 904,145 in Subclass 1.\n- **Claims as of 2026-04-06:** 136,084 claims (55,795 from Subclass 1 and 80,289 from Subclass 2), a 2.47% overall rate.\n- **Opt-outs and objections:** 196 opt-outs. Four objections were filed and two withdrawn. The court overruled the remaining two (Lake and Ross) and denied Ross's cross-motion for disqualification.\n\nClaims screen: the state complaint includes Count II under the ECPA, 18 U.S.C. § 2511(1). The other counts are breach of fiduciary duty, NY Civ. Rights Law §§ 50-51, implied contract and unjust enrichment, and the complaint's summary also lists GBL § 349. There are no CIPA or FSCA claims. The predecessor federal action was Kaplan v. Northwell Health, No. 2:23-cv-07205 (E.D.N.Y.). It was voluntarily dismissed and refiled in state court after the parties settled at mediation, while the federal judge had signaled doubts about the ECPA claim.\n\nCaveat: the settlement website (nwpixelsettlement.com) says a Notice of Appeal has been filed and administration is on hold until the appeal is resolved. So final approval is granted but not yet final.",
+   "open_questions": "(1) A notice of appeal from the final approval order has been filed (per the settlement website). The appellant (likely objector Ross, whose cross-motion to disqualify class counsel was denied, or objector Lake) and the appeal status in the App. Div., 2d Dept. were not confirmed. (2) The motion for preliminary approval filing date of 2025-08-28 is inferred: the final approval order says the Settlement Agreement and notice documents were filed with the Court on that date. The NYSCEF entry itself was not checked. (3) The signed Settlement Agreement PDF is image-only and was not OCR'd, so there is no direct confirmation that claims are uncapped. Briefs describe it only as claims-made, with fees paid separately. (4) fund_amount is left null because there is no cash fund. Cash exposure is $15 times valid Subclass 1 claims, about $0.84M on roughly 55.8K claims as of April 6 (not final). (5) Signed order pages are OCR-garbled on the exact signing day (April 21 or 23). The settlement website and NYSCEF receipt both give 2026-04-23. (6) Some secondary sites report $20/Dashlane terms. Primary documents show $15 plus CyEx Privacy Shield Pro. (7) For the 631/638.51 comparison table, this is a New York ECPA-only pixel settlement with no CIPA or FSCA counts.",
+   "id": "northwell-health-pixel"
   },
   {
    "short_name": "Gay v. Garnet Health",
@@ -3257,6 +3055,465 @@ window.PRIVACY_COMPS = {
    "id": "gay-v-garnet-health"
   },
   {
+   "short_name": "Catholic Health System (Buffalo) MyChart pixel",
+   "caption": "J.C., on behalf of herself and all others similarly situated v. Catholic Health System, Inc. (refiled from J.C. v. Catholic Health System, Inc., No. 1:23-cv-00796-JLS-JJM (W.D.N.Y.))",
+   "defendant": "Catholic Health System, Inc.",
+   "court": "Supreme Court of the State of New York, County of Erie (settled \"Action\" also includes the prior W.D.N.Y. federal case)",
+   "docket": "Index No. 811968/2025 (NYSCEF headers; the prelim order body and classaction.org show 811986/2025, which looks like a typo). Prior federal case: 1:23-cv-00796 (W.D.N.Y.), voluntarily dismissed without prejudice 2025-10-06",
+   "judge": "Hon. Diane Y. Devlin, J.S.C. (preliminary approval); Hon. Lynn W. Keane, J.S.C. (final approval). Federal case: Hon. John L. Sinatra Jr. / M.J. Jeremiah J. McCarthy",
+   "industry": "Healthcare (hospital system in Buffalo, NY, with a patient portal)",
+   "technology": "Meta Pixel (the SA also names Meta CAPI) and Google Analytics on chsbuffalo.org and chcareondemand.org, including the Epic MyChart patient portal and its login page",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "Federal amended complaint (Dkt. 62): breach of fiduciary duty/confidentiality; invasion of privacy under N.Y. Civ. Rights Law §§ 50-51; breach of implied contract; unjust enrichment; negligence. The original federal complaint (Dkt. 1) also pled N.Y. GBL § 349, which was dropped from the amended complaint. The Civ. Rights Law count was withdrawn from the original complaint on 2024-02-13 and then repleaded in the amended complaint.",
+   "statute_evidence": "ECPA: the federal amended complaint (J.C. v. Catholic Health Sys., 1:23-cv-00796, W.D.N.Y. Dkt. 62, filed 2025-02-14; RECAP: https://storage.courtlistener.com/recap/gov.uscourts.nywd.146764/gov.uscourts.nywd.146764.62.0.pdf) pleads Count II, ECPA 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure). The PACER cause is \"18:2511 Wiretapping\". The Settlement Agreement (catholichealthsettlement.com/documents) recounts that history: the ECPA claim was dismissed with leave to amend (order 2025-01-31) and then amended. SA ¶ 1.1 defines the settled \"Action\" as both the federal case and the Erie County case \"asserting the same or similar claims\", and the release covers interception claims. CAVEAT: the Erie County complaint itself (NYSCEF Doc. 1) was not viewed because NYSCEF guest search is behind a CAPTCHA. It is possible the refiled state complaint left out the federal ECPA count. CIPA §§ 631/632/632.7/638.51 and FSCA are marked not_pled based on the federal claims list I saw (a New York case with a New York class).",
+   "class_definition": "Subclass 1: current or former patients who logged into CHS's MyChart patient portal from 2020-01-01 through 2025-12-11. Subclass 2: all other current or former CHS patients, or individuals who sought or received treatment from CHS, in the same period. The usual exclusions apply.",
+   "class_size": 300000,
+   "class_size_note": "Approximate, per SA ¶ 1.33, the prelim order and the final Decision and Order: about 300,000 members (about 85,000 in Subclass 1 and about 215,000 in Subclass 2). There were 35 opt-outs and no more than 3 objectors.",
+   "settlement_structure": "Claims-made, with no common fund. The defendant pays approved claims directly, subject to a 15% claims-rate cap on Subclass 1 cash, which puts the aggregate cash cap at $255,000. The defendant separately pays notice and administration (about $209,359), fees and the service award. Subclass 2 gets an in-kind benefit (Dashlane privacy monitoring) plus injunctive relief. Counsel and the court put the total value at $21,104,359, made up of the $255,000 cash cap, $20.64M retail value of Dashlane at $96 x 215,000, and administration.",
+   "fund_amount": null,
+   "payment_terms": "Subclass 1 (MyChart users): claim up to $20 cash, paid by PayPal, Venmo, Zelle or check. If more than 15% of members submit valid claims, payments are reduced pro rata within the 15% cap. Subclass 2: 12 months of Dashlane Premium privacy monitoring (valued at $96 a year). Claims deadline was 2026-04-10; the opt-out and objection deadline was 2026-03-11.",
+   "fees_requested": "$595,000 for attorneys' fees and expenses combined (cap set in SA 1.x / fee section; fee motion is NYSCEF Doc 24, memo Doc 25, filed 2026-02-25). Awarded in full by the 2026-05-29 Decision and Order. The court valued the settlement benefits at $21,104,359, so the fee is about 3%; the lodestar is $476,996.52, a 1.2 multiplier, on about 630 hours. A $5,000 service award was also granted.",
+   "service_award": "$5,000 to the class representative J.C. (requested and awarded)",
+   "injunctive_relief": "CHS must remove first-party tracking technologies (which may include Meta Pixel/CAPI and Google Analytics) from chsbuffalo.org and/or chcareondemand.org if those tools are implemented and send website data to a third party that has no HIPAA-compliant agreement with CHS (SA ¶ 2.4).",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "2025-12-11",
+   "final_hearing_date": "2026-04-23",
+   "final_approval_date": "2026-05-29",
+   "status": "Final approval",
+   "window_basis": "Final approval was granted by a Decision and Order of Hon. Lynn W. Keane. The motion was argued 2026-04-23 and the order was filed and entered on NYSCEF (Doc. 55) on 2026-05-29, so both dates fall within 2026-04-09 to 2026-10-09.",
+   "plaintiff_counsel": "Class Counsel: Philip J. Krzeski (Chestnut Cambronne PA); Gary M. Klinger (Milberg Coleman Bryson Phillips Grossman, PLLC); Joseph M. Lyon (The Lyon Firm). Also on the case: Terence R. Coates and Dylan J. Gould (Markovits, Stock & DeMarco, LLC); Randi Kassan (Milberg, federal case)",
+   "settlement_website": "https://catholichealthsettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (Kroll): case info, dates, class definition",
+     "url": "https://catholichealthsettlement.com/"
+    },
+    {
+     "label": "Settlement website documents page: SA, Prelim Approval Order, Long Form Notice, fee motion, memo and declaration, Decision and Order",
+     "url": "https://catholichealthsettlement.com/documents"
+    },
+    {
+     "label": "Settlement Agreement (signed): class size, 15% claims cap, injunctive relief, release, procedural history including ECPA",
+     "url": "https://catholichealthsettlement.com/files/Catholic%20Health%20-%20SA%20-%20Final%20(signed)%20-%20signed.pdf"
+    },
+    {
+     "label": "Preliminary Approval Order, 2025-12-11 (NYSCEF Doc. 23), Hon. Diane Y. Devlin",
+     "url": "https://catholichealthsettlement.com/files/Catholic%20Health%20-%20Preliminary%20Approval%20Order%2012.11.2025.pdf"
+    },
+    {
+     "label": "Memorandum ISO Motion for Fees and Service Award (NYSCEF Doc. 25, filed 2026-02-25): claims-made structure, $255,000 cap, valuation",
+     "url": "https://catholichealthsettlement.com/files/Memorandum%20ISO%20Motion%20for%20Fees%20and%20Award.pdf"
+    },
+    {
+     "label": "Decision and Order granting final approval, fees and service award (NYSCEF Doc. 55, entered 2026-05-29), Hon. Lynn W. Keane",
+     "url": "https://catholichealthsettlement.com/files/Decision%20and%20Order.pdf"
+    },
+    {
+     "label": "Federal amended complaint, W.D.N.Y. 1:23-cv-00796 Dkt. 62 (ECPA Count II)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.nywd.146764/gov.uscourts.nywd.146764.62.0.pdf"
+    },
+    {
+     "label": "Federal original complaint, Dkt. 1 (ECPA plus GBL 349)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.nywd.146764/gov.uscourts.nywd.146764.1.0.pdf"
+    },
+    {
+     "label": "CourtListener docket, J.C. v. Catholic Health System (W.D.N.Y.), cause 18:2511",
+     "url": "https://www.courtlistener.com/docket/68133419/"
+    },
+    {
+     "label": "ClassAction.org news article (secondary)",
+     "url": "https://www.classaction.org/news/catholic-health-system-mychart-settlement-ends-class-action-lawsuit-over-alleged-patient-portal-data-sharing"
+    },
+    {
+     "label": "ClaimDepot summary (secondary)",
+     "url": "https://www.claimdepot.com/settlements/catholic-health-settlement"
+    },
+    {
+     "label": "SounderData case page (secondary)",
+     "url": "https://sounderdata.com/healthcare-tracking-lawsuits/j-c-v-catholic-health-system-inc/"
+    }
+   ],
+   "confidence": "medium",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I checked the primary documents myself.\n\n(1) Federal amended complaint, W.D.N.Y. 1:23-cv-00796, Dkt. 62, filed 2/14/2025 (RECAP doc id 431538328; classaction.org also hosts it as jc-v-catholic-health-system-inc-complaint_1.pdf). It pleads six counts:\n- Count I: breach of fiduciary duty/confidentiality\n- Count II: ECPA, 18 U.S.C. § 2511(1) et seq. (unauthorized interception, use and disclosure). It relies on 2511(1)(a), (c) and (d) and argues the (2)(d) crime-tort exception via N.Y. Penal Law §§ 156.05, 156.10 and 156.29.\n- Count III: N.Y. Civ. Rights Law §§ 50-51\n- Count IV: implied contract\n- Counts V-VI: unjust enrichment and negligence\n- The intro also lists GBL § 349.\nI found no reference to California, CIPA, Penal Code 631/632/632.7/638.51, Florida or Fla. Stat. 934. The \"Penal\" hits are New York Penal Law only. No amended pleading dropped the ECPA count. The court dismissed the ECPA claim with leave to amend (order of 1/31/2025, Dkt. 60), and it was repleaded in Dkt. 62.\n\n(2) Settlement Agreement, pulled from a Wayback Machine snapshot dated 2026-01-30. The live site sits behind Cloudflare and blocked direct downloads. The recitals give the history of the ECPA dismissal and amendment. SA ¶ 1.1 defines \"Action\" as BOTH the federal case and Erie County Index No. 811968/2025, the latter \"asserting the same or similar claims.\" The release covers interception claims, and ¶ 2.6 requires voluntary dismissal of the federal case. The federal case was dismissed without prejudice on 10/6/2025 (Dkt. 72/74).\n\n(3) State-court filings I downloaded from the settlement site with a headless browser:\n- Fee memo, NYSCEF 25\n- Krzeski declaration, NYSCEF 26\n- Final approval Decision and Order, NYSCEF 55, Hon. Lynn W. Keane, final approval 4/23/2026\nThese say the parties agreed the case \"should be re-filed in state court.\" Neither these nor the preliminary approval order lists the state counts. The settlement notice says the Action alleges violations of \"state and federal statutes.\" The only federal claim in the federal pleadings is ECPA, which suggests the refiled state complaint kept it.\n\nCaveat: I did not view the Erie County complaint itself (NYSCEF Doc. 1), because NYSCEF is behind a CAPTCHA. It is therefore unverified whether the state pleading repeats ECPA verbatim. ECPA is still confirmed as pled in the operative federal complaint, and the federal case is part of the settled \"Action.\" I agree with all of the researcher's statute values. Note for David's 638.51 goal: this is a NY-class healthcare pixel case with ECPA only and no CIPA claims.\n\nIndex number: the NYSCEF headers and the SA read 811968/2025. The prelim order body reads 811986/2025, which is a typo. | fees_requested: $595,000 in fees and expenses combined was requested (motion filed on NYSCEF 2026-02-25) and awarded in full. The court described it as about 3% of the $21.1M court-valued benefit, or a 1.2 multiplier on a $476,996.52 lodestar (about 630 hours).→$595,000 for attorneys' fees and expenses combined (cap set in SA 1.x / fee section; fee motion is NYSCEF Doc 24, memo Doc 25, filed 2026-02-25). Awarded in full by the 2026-05-29 Decision and Order. The court valued the settlement benefits at $21,104,359, so the fee is about 3%; the lodestar is $476,996.52, a 1.2 multiplier, on about 630 hours. A $5,000 service award was also granted. | Timing/money check (confirmed): I could not refute this one. The qualifying event falls inside the 2026-04-09 to 2026-10-09 window. All primary documents were pulled from the official Kroll settlement site, catholichealthsettlement.com. Plain fetches got a 403, so I downloaded them with headless Playwright.\n\n(1) FINAL APPROVAL. The Decision and Order of Hon. Lynn W. Keane, J.S.C. (Sup. Ct. Erie Cnty.) grants the motion for final approval \"in all respects\" and overrules the objections. It is NYSCEF Doc 55, filed and received 05/29/2026 at 2:27 PM, and the signature page is hand-dated \"ENTERED: 5/29/2026\". The order tells the parties to e-file a proposed order and judgment within two weeks. I could not check NYSCEF itself (the public search is captcha-gated), so a separate formal judgment may have been entered around mid-June 2026. The approval decision itself is dated 2026-05-29.\n\n(2) FINAL HEARING. Confirmed as 2026-04-23. The decision cites oral argument on April 23, 2026 and says the court reserved decision. The site lists 10:00 a.m., in person, Part 13. The Preliminary Approval Order (PAO) had said videoconference.\n\n(3) PRELIMINARY APPROVAL. Confirmed as 2025-12-11. This is the PAO of Hon. Diane Y. Devlin, NYSCEF Doc 23, filed 12/11/2025 at 3:41 PM. The signature line reads \"11th day of December, 2026\", which is a scrivener's error; the NYSCEF stamp shows 2025. Preliminary approval is outside the window, but the final approval inside it qualifies the case.\n\n(4) INDEX NO. 811968/2025 is correct. It appears in the NYSCEF headers, the decision caption, the SA definition of \"Action\", and the website. The 811986/2025 in the body of the PAO is a typo.\n\n(5) PRELIM MOTION FILED DATE. Not verifiable; I left it blank. The SA was signed 2025-09-23. The federal case (W.D.N.Y. 1:23-cv-00796, cause 18:2511 Wiretapping) was voluntarily dismissed without prejudice: notice at ECF 72, text order at ECF 74, both 2025-10-06, per CourtListener. So the state prelim motion was filed sometime between about Sept. and Dec. 11, 2025, outside the window either way.\n\n(6) FUND. There is no common fund; this is a claims-made, non-reversionary-style benefit structure, so fund_amount is null. Subclass 1 (MyChart users, about 85,000) can claim up to $20 each, subject to a 15% claims-rate cap with pro-rata reduction. Subclass 2 (other patients, about 215,000) gets 12 months of Dashlane Premium, valued at $96 per year. Defendant also agreed to injunctive relief removing Meta Pixel/CAPI and Google Analytics from chsbuffalo.org. The court-assigned value of $21,104,359 is not a fund. The claim deadline was 2026-04-10 and the opt-out/objection deadline 2026-03-11. The decision reports 35 opt-outs and no more than 3 objectors.\n\n(7) CLASS SIZE. 300,000 is confirmed by both the PAO and the decision (\"approximately 300,000\"). The SA splits it about 85,000 / 215,000.\n\n(8) CLAIMS. The federal case asserted ECPA/federal Wiretap Act claims (18 U.S.C. 2511) plus NY state-law claims. ECPA was dismissed with leave to amend on 2025-01-31, and an amended complaint followed. The state refiling asserts the \"same or similar claims\", so this fits the user's fed wiretap/ECPA criterion. It contains no CIPA or FSCA claims.\n\nSmall correction: the SA's own narrative gives the amended-complaint date as February 14, 2024, which looks like an internal error, likely 2025. The fee cap is in the SA at $595,000, \"not to exceed\".",
+   "open_questions": "(1) I did not see the operative Erie County complaint (NYSCEF Doc. 1, Index 811968/2025) because NYSCEF guest search needs a CAPTCHA. ECPA is marked pled based on the federal amended complaint, which is part of the settled \"Action\" under SA ¶ 1.1 and covered by the release. Someone should confirm on NYSCEF whether the state complaint repeats the § 2511 count. (2) Final approval date: the Decision and Order is captioned for the 2026-04-23 Special Term, its signature date is partly illegible (May 2026), and it was filed on NYSCEF 2026-05-29. The court told the parties to submit a proposed final order and judgment within two weeks; I did not see that judgment or its entry date. (3) I could not find the filing date of the state-court preliminary approval motion. (4) There is no common fund, so fund_amount is null. The cash exposure is capped at $255,000 plus about $209,359 in administration, $595,000 in fees and the $5,000 service award, and the court-cited total value is $21,104,359, mostly the retail value of Dashlane. (5) The final claims count and the actual per-claimant payout (whether the 15% cap triggered proration) are not posted.",
+   "id": "catholic-health-system-buffalo-mychart-pixel"
+  },
+  {
+   "short_name": "Adena Health System pixel (Jarrell)",
+   "caption": "Robin Jarrell, on behalf of herself and all others similarly situated v. Adena Health System (Ross County C.P. No. 25CI000419); predecessor federal action R.J. v. Adena Health System, No. 1:24-cv-00025 (S.D. Ohio), later Jarrell v. Adena Health System, No. 2:24-cv-00282 (S.D. Ohio)",
+   "defendant": "Adena Health System",
+   "court": "Court of Common Pleas, Ross County, Ohio (settlement forum). Refiled 2025-08-20 after the S.D. Ohio predecessor action was voluntarily dismissed without prejudice on 2025-06-05.",
+   "docket": "25CI000419 (Ross County C.P.); predecessor S.D. Ohio 2:24-cv-00282, originally 1:24-cv-00025",
+   "judge": "Hon. Michael M. Ater (Ross County C.P.); predecessor federal action before Judge James L. Graham (S.D. Ohio)",
+   "industry": "Healthcare: hospital system / patient portal",
+   "technology": "Meta (Facebook) Pixel and Google Analytics on Adena's public website and on pages linked to its MyChart patient portal. Sounderdata also lists Meta Conversions API. Alleged interception and redirection of patient PHI/PII to Meta and Google for advertising.",
+   "cipa_631": "not_pled",
+   "cipa_632": "not_pled",
+   "cipa_632_7": "not_pled",
+   "cipa_638_51": "not_pled",
+   "ecpa_wiretap": "pled",
+   "fsca": "not_pled",
+   "other_claims": "From the predecessor federal First Amended Complaint: breach of confidence (Biddle v. Warren General Hospital); civil liability for criminal acts under Ohio R.C. 2307.60 (predicated on knowing disclosure of individually identifiable health information); invasion of privacy / intrusion upon seclusion; unjust enrichment; breach of fiduciary duty; negligence. In federal court, invasion of privacy, fiduciary duty and negligence were dismissed on 2025-01-13; breach of confidence, ECPA, R.C. 2307.60 and unjust enrichment survived. No CIPA, FSCA, VPPA or state wiretap act claim.",
+   "statute_evidence": "ECPA: Class Counsel's fee motion (Ross County, filed 2026-01-22, p.2) says the federal First Amended Complaint (filed 2024-04-29) pled ECPA, 18 U.S.C. § 2511(1). It also says the S.D. Ohio order of 2025-01-13 (ECF 38) let the ECPA claim proceed. The Settlement Agreement recitals (pp.1-2) and the Motion for Final Approval (pp.2-5) give the same seven-count list. The release covers all claims brought in the Action or the Predecessor Action. The Lyon Firm's attorney page (https://www.thelyonfirm.com/attorneys/joe-lyon) describes the Ross County case as brought \"under Ohio and federal law\" for invasion of privacy (Biddle), wiretapping and unjust enrichment. CIPA and FSCA were marked not_pled because the predecessor's seven-count list contains no California or Florida claims and this is an Ohio-only class. Documents: https://cw.simpluris.com/docs/public/downloads/AJC2/MOTION_FOR_ATTORNEYS_FEES_EXPENSES_AND_SERVICE_AWARD ; https://cw.simpluris.com/docs/public/downloads/AJC2/SETTLEMENT_AGREEMENT ; https://cw.simpluris.com/docs/public/downloads/AJC2/MOTION_FOR_FINAL_APPROVAL. Caveat: the Ross County complaint itself (filed 2025-08-20) was not obtained, because the county's eAccess portal requires a login.",
+   "class_definition": "All patients of Defendant who logged into its patient portal between November 1, 2022 and June 3, 2024. Excluded: Defendant's officers and directors, Defendant's counsel and in-house counsel, assigned judicial officers and their staff, and opt-outs.",
+   "class_size": 82222,
+   "class_size_note": "Exact figure from the administrator (Simpluris Decl., attached to the Motion for Final Approval). Adena's raw class list had 82,423 names; Simpluris removed 201 duplicates, leaving 82,222. Of those, 76,348 had valid email addresses, which is the figure The Lyon Firm uses. Valid claims as of 2026-05-14: 2,368 (about 2.9%). Zero opt-outs and zero objections.",
+   "settlement_structure": "Uncapped claims-made settlement with no fixed common fund. Defendant pays each approved claim directly and separately pays notice/administration costs, the fee award and the service award, so none of these reduce class relief. Cash from uncleared checks goes cy pres to Hope Clinic of Ross County. No reversion to Defendant.",
+   "fund_amount": null,
+   "payment_terms": "Each Approved Claim receives $21.00 cash (by check, ACH, Venmo, PayPal, e-Mastercard or Zelle) plus 12 months of CyEx Privacy Shield Global privacy monitoring. The fee motion values the monitoring at about $179.88 retail. One claim per class member, and the benefits are uncapped. The press figure of \"up to ~$1.73M\" is just 82,423 x $21, a theoretical maximum. Actual cash at 2,368 valid claims is about $49,728.",
+   "fees_requested": "Requested $550,000 in fees inclusive of expenses (fee motion filed 2026-01-22). The long-form notice had said Class Counsel would ask for up to $555,000. The court awarded $550,000 in Final Approval Order ¶12, paid by Defendant separately from class relief. It also awarded a $2,500 service award (¶13).",
+   "service_award": "$2,500 to Class Representative Robin Jarrell (requested and awarded, Final Approval Order ¶13), paid separately by Defendant.",
+   "injunctive_relief": "None found in the Settlement Agreement's relief section (§2) or in the Final Approval Order. The Lyon Firm's website claims \"enhanced healthcare digital privacy practices,\" but no such term appeared in the settlement documents reviewed.",
+   "motion_prelim_filed": "2025-09-04",
+   "prelim_approval_date": "2025-11-06",
+   "final_hearing_date": "2026-05-29",
+   "final_approval_date": "2026-05-29",
+   "status": "Final approval",
+   "window_basis": "Final approval was granted on 2026-05-29: Judge Ater's signed Final Approval Order and Judgment is file-stamped May 29, 2026, the date of the final approval hearing, which falls inside 2026-04-09..2026-10-09.",
+   "plaintiff_counsel": "Class Counsel: Philip J. Krzeski (Chestnut Cambronne PA); Terence R. Coates and Dylan J. Gould (Markovits, Stock & DeMarco, LLC); Gary M. Klinger (Milberg, PLLC); Joseph M. Lyon (The Lyon Firm).",
+   "settlement_website": "https://www.adenapixelsettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (case caption, dates, document list)",
+     "url": "https://www.adenapixelsettlement.com/"
+    },
+    {
+     "label": "Settlement website: Important Dates (notice 12/8/2025; opt-out/objection 2/4/2026; claims 3/6/2026; FAH 5/29/2026)",
+     "url": "https://www.adenapixelsettlement.com/dates/"
+    },
+    {
+     "label": "Final Approval Order and Judgment (filed with judge May 29, 2026; fees $550k; service award $2,500; cy pres)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/FINAL_APPROVAL_ORDER"
+    },
+    {
+     "label": "Preliminary Approval Order (filed 11/6/2025; FAH set 5/29/2026)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/PRELIMINARY_APPROVAL_ORDER"
+    },
+    {
+     "label": "Motion for Final Approval with Coates Aff. and Simpluris Decl. (procedural history, claims list, class size 82,222, 2,368 valid claims)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/MOTION_FOR_FINAL_APPROVAL"
+    },
+    {
+     "label": "Motion for Attorneys' Fees, Expenses and Service Award (ECPA 18 U.S.C. 2511(1) count; R.J. v. Adena 1:24-cv-00025)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/MOTION_FOR_ATTORNEYS_FEES_EXPENSES_AND_SERVICE_AWARD"
+    },
+    {
+     "label": "Settlement Agreement dated Aug. 21, 2025 (recitals, release, Section 2 relief)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/SETTLEMENT_AGREEMENT"
+    },
+    {
+     "label": "Long Form Notice (class definition, fee request up to $555k)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/AJC2/LONG_FORM_NOTICE"
+    },
+    {
+     "label": "CourtListener docket: Jarrell v. Adena Health System, 2:24-cv-00282 (S.D. Ohio, Judge Graham)",
+     "url": "https://www.courtlistener.com/docket/68185986/jarrell-v-adena-health-system/"
+    },
+    {
+     "label": "CourtListener docket: R.J. v. Adena Health System, 1:24-cv-00025 (S.D. Ohio)",
+     "url": "https://www.courtlistener.com/docket/68178521/rj-v-adena-health-system/"
+    },
+    {
+     "label": "The Lyon Firm attorney page (describes Ross County claims as Ohio and federal law incl. wiretapping; final approval granted)",
+     "url": "https://www.thelyonfirm.com/attorneys/joe-lyon"
+    },
+    {
+     "label": "Sounderdata case summary (Meta Conversions API; counsel)",
+     "url": "https://sounderdata.com/healthcare-tracking-lawsuits/r-j-v-adena-health-system-s-d-ohio-jarrell-v-adena-health-system-settlement/"
+    },
+    {
+     "label": "ClaimDepot summary",
+     "url": "https://www.claimdepot.com/settlements/adena-pixel-settlement"
+    },
+    {
+     "label": "HIPAA Journal article (claims summary incl. ECPA)",
+     "url": "https://www.hipaajournal.com/adena-health-to-pay-17-8-million-to-settle-pixel-lawsuit/"
+    }
+   ],
+   "confidence": "medium",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the researcher's finding. I read the federal Amended Complaint myself (S.D. Ohio 2:24-cv-00282, ECF 20, filed 2024-04-29, 64 pp., from the CourtListener RECAP docket 68185986). Count II is \"Violation of Electronic Communications Privacy Act (ECPA), 18 U.S.C. § 2511(1) et seq., unauthorized interception, use, and disclosure,\" and it seeks damages under § 2520. The other counts are: I breach of confidence, III civil liability for criminal acts (R.C. 2307.60), IV intrusion upon seclusion, V unjust enrichment, VI breach of fiduciary duty, VII negligence. The original complaint (ECF 1, 2024-01-19) has the same seven counts, so the amendment dropped nothing. Neither complaint has a California Penal Code / CIPA count (631, 632, 632.7 or 638.51) or a Florida § 934.10 FSCA count. California is mentioned only as the location of Google's servers. Two more primary documents agree. The Settlement Agreement recitals (Ross County 25CI000419, dated 2025-08-21, p.2) list the same seven claims, including ECPA. The Motion for Final Approval (pp.3-5) says the S.D. Ohio order of 2025-01-13 (ECF 38) dismissed invasion of privacy, fiduciary duty and negligence but let the ECPA claim go forward. Caveat, as the researcher also noted: I did not obtain the Ross County complaint filed 2025-08-20, which is the operative complaint in the settlement forum. Its counts come only from secondary sources. The Lyon Firm attorney page describes the Ross County case as Ohio invasion of privacy (Biddle), wiretapping and unjust enrichment, which fits the federal wiretap claim being re-pled, but I did not see it in a primary document. The class is Ohio patients only (patients who logged into the portal from 2022-11-01 to 2024-06-03), so no CIPA or FSCA claim is plausible. ECPA is confirmed as pled in the predecessor operative complaint, and the release covers claims from the predecessor action. | fees_requested: Requested: $550,000 in fees inclusive of expenses (motion filed 2026-01-22). The class notice had said up to $555,000. Awarded: $550,000 in the Final Approval Order ¶12, paid by Defendant separately from class relief.→Requested $550,000 in fees inclusive of expenses (fee motion filed 2026-01-22). The long-form notice had said Class Counsel would ask for up to $555,000. The court awarded $550,000 in Final Approval Order ¶12, paid by Defendant separately from class relief. It also awarded a $2,500 service award (¶13). | Timing/money check (confirmed): I tried to refute this and could not. The Final Approval Order and Judgment (Ross County C.P. No. 25CI000419, Judge Michael M. Ater) is a scanned PDF on the Simpluris administrator site. Its first page carries a \"Filed with the Judge MAY 29 2026\" stamp, and its recitals say the Final Approval Hearing was held on May 29, 2026. The signature line is signed but the date is left blank, so the stamp is the best evidence of the entry date. 2026-05-29 falls inside the 2026-04-09 to 2026-10-09 window.\n\nOther dates check out against primary sources:\n- Preliminary approval: the order assigning the final hearing has a clerk stamp of 11/6/2025 8:55 AM. Both the final approval order and the final approval motion recite the 2025-11-06 preliminary approval date.\n- Prelim motion: the final approval motion says it was filed 2025-09-04.\n- Settlement agreement: dated 2025-08-21.\n\nClass size: about 82,222, per the final approval motion. Zero opt-outs, zero objections and 2,368 valid claims. Email notice went to 76,348 people on 2025-12-08.\n\nFund: this is a claims-made settlement with no common fund, so I left fund_amount null. Each approved claimant gets $21 cash plus 12 months of CyEx Privacy Shield privacy monitoring. Fees, the service award and administration costs are paid by Adena separately, and leftover money goes to Hope Clinic of Ross County as cy pres. At 2,368 claims the cash comes to about $49,700, my own arithmetic. The HIPAA Journal headline mentions roughly $1.78M; I did not verify it and it is not a fund figure. Do not record it as a fund.\n\nClaims fit the user's filter: the final approval motion lists the federal wiretap claim (ECPA), along with breach of confidence under Biddle, Ohio civil liability for criminal acts, and unjust enrichment. The case started in S.D. Ohio (1:24-cv-00025, then 2:24-cv-00282) and was refiled in Ross County on 2025-08-20.\n\nThe official website (adenapixelsettlement.com) still says the court has not decided on approval. That page is stale; the signed order controls. No corrections to the researcher's fields were needed.",
+   "open_questions": "1. The Ross County Class Action Complaint (filed 2025-08-20) was not obtained because the county's eAccess portal requires a login. That it re-pleads the ECPA count rests on: (a) the settlement papers calling it a refiling of the federal action whose surviving claims included ECPA; and (b) class counsel's website describing the Ross County claims as brought under \"federal law\" for wiretapping. Get the complaint from the clerk or from counsel to confirm. 2. There is no fixed fund, so fund_amount was left null. The \"up to $1.73M\" press figure is a theoretical maximum (82,423 x $21). The Lyon Firm cites a \"$1,743,000 claims-made cash fund,\" 3.1% claims rate and $462,830 redeemed value; those numbers do not reconcile with the court papers (82,222 class members, 2,368 valid claims as of 2026-05-14). 3. The date line on the signed Final Approval Order is blank; the order is file-stamped \"Filed with the Judge May 29 2026.\" The clerk's journal-entry date was not checked. 4. Fees: the notice said up to $555,000, but the motion requested and the court awarded $550,000. 5. Meta Conversions API comes from Sounderdata only; the court papers name the Meta Pixel and Google Analytics.",
+   "id": "adena-health-system-pixel-jarrell"
+  },
+  {
+   "short_name": "Tenet Healthcare Pixel (Doe v. AMISUB / Saint Francis-Memphis)",
+   "caption": "Jane Doe v. AMISUB (SFH), Inc. d/b/a Saint Francis Hospital-Memphis (Tenet Healthcare Corp. is the settling defendant; the settlement also resolves 7 consolidated Related Actions)",
+   "defendant": "Tenet Healthcare Corporation and its Affiliated Covered Entities (named defendant AMISUB (SFH), Inc. d/b/a Saint Francis Hospital-Memphis)",
+   "court": "Circuit Court for Shelby County, Tennessee (30th Judicial District at Memphis)",
+   "docket": "CT-3086-23",
+   "judge": "Hon. Gina C. Higgins, Circuit Court Division IV (signed the preliminary approval order)",
+   "industry": "Healthcare - hospital system / patient portals",
+   "technology": "Third-party tracking on Tenet hospital websites, patient portals and the Healthelife app. The release names Meta Pixel, Google Analytics, Google Ads, Adobe, Marketo, Tealium, Heap Analytics, SiteImprove, Invoca (call tracking) and Healthgrades. The recitals say patient information went to Meta, Google, Marketo, Invoca and Healthgrades.",
+   "cipa_631": "pled",
+   "cipa_632": "pled",
+   "cipa_632_7": "unknown",
+   "cipa_638_51": "unknown",
+   "ecpa_wiretap": "pled",
+   "fsca": "unknown",
+   "other_claims": "From the related-action complaints: CMIA (Cal. Civ. Code 56.06, 56.10, 56.101, including aiding and abetting); UCL (B&P 17200); invasion of privacy under Cal. Const. art. I, sec. 1; intrusion upon seclusion; negligence; breach of implied contract; breach of confidence; breach of fiduciary duty; unjust enrichment / quasi-contract; CLRA; Cal. Penal Code 496 (receipt of stolen property); CDAFA (Cal. Penal Code 502); Cal. Civ. Code 1798.82; trespass to chattels. FDUTPA and FSCA appear only in the superseded original C.D. Cal. complaint. Claims in the Tennessee original and amended complaints and in the Mass., Texas and Orange County actions were not reviewed.",
+   "statute_evidence": "These flags come from the related-action complaints, not the operative pleading. The operative pleading is a \"Stipulated Amended Complaint\" (SA para. 1.39; Recital K says it \"consolidates allegations in the Related Cases\"). It is not posted on the settlement site and is not attached to the SA (the exhibit number is left blank), so I could not read it. Related-action complaints I read on RECAP: (1) Doe v. Tenet Healthcare Corp., No. 1:23-cv-01106 (E.D. Cal.), FAC ECF 19. Count I is CIPA, alleging Cal. Penal Code 631(a) aiding Facebook/Google interception and 632(a) recording of confidential communications. Count X is ECPA, 18 U.S.C. 2510 et seq./2511. (2) B.K. v. Desert Care Network, No. 2:23-cv-05021 (C.D. Cal.), FAC ECF 31. Counts Two and Three are ECPA 2511(1) and 2511(3)(a); Count Four is CIPA 631. (3) Beltran v. Doctors Medical Center of Modesto, No. 2:23-cv-01670 (E.D. Cal.), complaint ECF 1. Count VIII is the Federal Wiretap Act; Count IX is CIPA. FSCA (Fla. Stat. 934.01 et seq., Count Seven) was only in the original C.D. Cal. complaint, for Florida plaintiff R.P. against the Palm Beach Tenet hospitals. The C.D. Cal. FAC dropped it, and R.P. is not a settlement class rep. No complaint I read pleads 632.7 or 638.51. I did not review the Orange County (Danforth), Dallas County and D. Mass. (Beauregard) complaints. The release (SA para. 1.31) covers claims about the \"interception or transfer of information\" and all claims brought or that could have been brought in the Action or the Related Actions.",
+   "class_definition": "All Identifiable Individuals who used or accessed the Online Platforms (websites, patient portals, Healthelife app and other web tools of Tenet and its Affiliated Covered Entities) from 2017-01-01 through 2023-09-18. An Identifiable Individual is someone who, in that period, used a Tenet or affiliate website or patient portal to (i) create a portal account, (ii) submit a webform, or (iii) check in to an urgent care or ER.",
+   "class_size": 1200000,
+   "class_size_note": "Approximate. The preliminary approval order (para. 3) finds the class \"consists of approximately 1,200,000 Settlement Class Members.\"",
+   "settlement_structure": "Claims-made, uncapped, no common fund. Tenet pays $16 for each approved claim. All class members also get 2 years of CyEx Privacy Shield Pro automatically. Tenet pays notice/administration, the fee award and service awards separately. Money from uncashed checks does not revert to Tenet; any remainder goes cy pres to the Tennessee Voluntary Fund for Indigent Civil Representation.",
+   "fund_amount": null,
+   "payment_terms": "One-time $16.00 cash payment per class member, no proof needed, one claim per person (check, Venmo, PayPal or Zelle). Plus an automatic 2-year CyEx Privacy Shield Pro enrollment (dark web scan, VPN, password tools, data broker opt-out). Claims deadline 2027-03-15.",
+   "fees_requested": "Up to $8,500,000 for attorneys' fees and costs combined, paid by Tenet separately from class benefits. Also $3,500 service award for each of the 28 class representatives. Nothing awarded yet; the court decides at the 2027-01-14 hearing.",
+   "service_award": "$3,500 each for 28 class representatives ($98,000 total), paid by Tenet. Requested, not yet awarded.",
+   "injunctive_relief": "None. Settlement Agreement Section 2 (Settlement Relief) contains only CyEx enrollment, cash claims, administration costs and the fee award; there are no business-practice commitments.",
+   "motion_prelim_filed": "2026-09-04",
+   "prelim_approval_date": "2026-09-22",
+   "final_hearing_date": "2027-01-14",
+   "final_approval_date": "",
+   "status": "Preliminary approval",
+   "window_basis": "Judge Higgins signed the Preliminary Approval Order on 2026-09-22 (\"22nd day of September, 2026\", handwritten on page 7 of the order), which is inside the 2026-04-09 to 2026-10-09 window.",
+   "plaintiff_counsel": "Class Counsel: J. Gerard Stranch, IV (Stranch, Jennings & Garvey, PLLC). Also on the papers: Lynn A. Toops (Cohen & Malad), Samuel J. Strauss and Raina Borrelli (Strauss Borrelli PLLC), Gary M. Klinger (Milberg). Related-action counsel: Caddell & Chapman (E.D. Cal. Doe), Yana A. Hart (C.D. Cal. B.K.), Adrian R. Bacon (E.D. Cal. Beltran/Harrill). Defense: Bass, Berry & Sims and Alston & Bird.",
+   "settlement_website": "https://www.tenetpixelsettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (Simpluris)",
+     "url": "https://www.tenetpixelsettlement.com/"
+    },
+    {
+     "label": "Settlement website - Important Dates",
+     "url": "https://www.tenetpixelsettlement.com/dates/"
+    },
+    {
+     "label": "Settlement Agreement (signed 2026-07-30; Related Actions, release, benefits)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/ADC4/SETTLEMENT_AGREEMENT"
+    },
+    {
+     "label": "Preliminary Approval Order (signed 2026-09-22, Judge Gina C. Higgins; ~1.2M class; fees up to $8.5M)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/ADC4/PRELIMINARY_APPROVAL_ORDER"
+    },
+    {
+     "label": "Long Form Notice ($16 cash, CyEx, $3,500 service awards, deadlines)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/ADC4/LONG_FORM_NOTICE"
+    },
+    {
+     "label": "Related Action: Doe v. Tenet Healthcare Corp., 1:23-cv-01106 (E.D. Cal.) FAC ECF 19 - CIPA 631/632 and ECPA counts",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.caed.431422/gov.uscourts.caed.431422.19.0.pdf"
+    },
+    {
+     "label": "Related Action: B.K. v. Desert Care Network, 2:23-cv-05021 (C.D. Cal.) FAC ECF 31 - ECPA 2511 and CIPA 631 counts",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.889199/gov.uscourts.cacd.889199.31.0.pdf"
+    },
+    {
+     "label": "Related Action: B.K. v. Desert Care Network original complaint ECF 1 - FSCA count (later dropped)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cacd.889199/gov.uscourts.cacd.889199.1.0.pdf"
+    },
+    {
+     "label": "Related Action: Beltran v. Doctors Medical Center of Modesto, 2:23-cv-01670 (E.D. Cal.) complaint - Wiretap Act and CIPA counts",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.caed.432323/gov.uscourts.caed.432323.1.0.pdf"
+    },
+    {
+     "label": "Related Action docket: Beauregard v. Tenet, 1:23-cv-12978 (D. Mass.) - Notice of Settlement 2026-08-25",
+     "url": "https://www.courtlistener.com/docket/68066216/beauregard-v-tenet-healthcare-corporation/"
+    },
+    {
+     "label": "Dapeer settlement summary (secondary)",
+     "url": "https://www.dapeer.com/open-settlements/tenet-amisub-pixel-settlement"
+    }
+   ],
+   "confidence": "medium",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): CONFIRMED, with a caveat. I could not get the operative pleading in the settling action, the Shelby County \"Stipulated Amended Complaint\" (CT-3086-23). The settlement site's Documents page posts only the claim form, notice, SA and PAO. The SA recitals (pp. 2-4) describe the claims only as disclosure of PII/PHI to Meta, Google, Marketo, Invoca and Healthgrades. The Shelby County Circuit Court docket (circuitdata.shelbycountytn.gov) returned a Cloudflare block, and I did not try to get around it. The confirmation instead rests on Related Actions that SA para. 1.30 expressly lists, and the release (para. 1.31) covers.\n\n(1) Doe v. Tenet Healthcare Corp., 1:23-cv-01106 (E.D. Cal.), SA para. 1.30(a). FAC ECF 19 Count I is CIPA (Cal. Penal Code 630 et seq.): para. 416 cites 631(a) aiding; paras. 417/419 cite 632(a) recording of confidential communications. Count X is ECPA, 18 U.S.C. 2510 et seq./2511. The MTD order (ECF 45, 6/9/2025, gov.uscourts.caed.431422.45.0.pdf) DENIED dismissal of the CIPA 631(a) claim and of the ECPA claim for Jane Doe and John Doe; the crime-tort exception was adequately pled via HIPAA. ECPA was dismissed without prejudice only for Jan Doe and James Doe, on first-to-file grounds. Plaintiffs then filed a notice of intent not to file a SAC (ECF 46, 6/30/2025), and defendants answered the FAC. So the FAC is still operative there, with 631 and ECPA live.\n\nOn 632: it is only thinly pled. It is cited inside the CIPA count, but the court treated the count as a 631(a) fourth-clause aiding claim.\n\n(2) Harrill v. Emanuel Medical Center, 2:23-cv-01672 (E.D. Cal.), SA para. 1.30(g). Original complaint ECF 1 pleads CIPA 631(a) (Count IX) and the Federal Wiretap Act. The FAC (ECF 52, 8/22/2025) is not on RECAP.\n\nDisagreements and corrections to the researcher:\n(a) B.K. v. Desert Care Network (C.D. Cal. 2:23-cv-05021): the cited FAC (ECF 31) is superseded. The SAC was filed as ECF 50 (2/22/2024). ECF 60 (8/22/2024) DISMISSED the SAC's CIPA 631 count (Count 3, for failure to plead a Meta predicate violation) with one last leave to amend. No TAC was filed, and defendants answered the SAC on 9/30/2024 (ECF 61). CIPA is therefore not live in B.K.; its ECPA counts were not challenged in the second MTD.\n(b) Beltran (2:23-cv-01670): the original complaint ECF 1 that the researcher cited was dismissed with leave to amend on 6/9/2025 (ECF 48). That makes it a superseded or dismissed pleading, not the current one.\n(c) FSCA: it appeared only in the original C.D. Cal. complaint (R.P., Palm Beach hospitals) and was dropped from the FAC/SAC. It is in no operative related pleading I checked. I mark it unknown only because the Stipulated Amended Complaint is unseen; it is very likely not pled.\n(d) 632.7 and 638.51: none of the E.D. Cal. FAC, C.D. Cal. FAC, original C.D. Cal. complaint or Harrill complaint cite them. They are unknown for the unseen consolidated pleading and the Danforth (OC), Dallas and Beauregard complaints. This case should not be counted as 638.51 support.\n\nBottom line: 631 and ECPA are confirmed through surviving claims in released Related Actions, but not through the operative Shelby County pleading itself. | motion_prelim_filed: —→2026-09-04 | fees_requested: Up to $8,500,000 for attorneys' fees plus costs combined, paid by Tenet separately from class benefits. Not yet awarded.→Up to $8,500,000 for attorneys' fees and costs combined, paid by Tenet separately from class benefits. Also $3,500 service award for each of the 28 class representatives. Nothing awarded yet; the court decides at the 2027-01-14 hearing. | Timing/money check (confirmed): I could not refute this. The primary source confirms preliminary approval inside the window. (1) Prelim approval: the signed Preliminary Approval Order (Judge Gina Higgins, Circuit Div. IV, Shelby County, Case No. CT-3086-23) is dated by hand on p.7 as the 22nd day of September 2026, so 2026-09-22 is CONFIRMED. The text layer garbles that date, so I checked the page image. The order grants plaintiffs' unopposed motion and conditionally certifies the settlement class. (2) Motion filed: no docket was available to me. The Shelby County Circuit Clerk site returned 403, and the state court is not in RECAP. The certificate of service on the proposed PAO is dated 2026-09-04. The SA PDF is marked 'Exhibit A' to the motion. So the motion was most likely filed on or about 2026-09-04. This date is INFERRED, not taken from a docket. The settlement agreement was signed 2026-07-30 by Tenet and by Class Counsel J. Gerard Stranch IV. In the related D. Mass. case Beauregard v. Tenet, a Notice of Settlement was filed as ECF 70 on 2026-08-25. (3) Final hearing: 2027-01-14 at 10:00 a.m. CT, confirmed by PAO ¶7 and the settlement website. There is no final approval yet. (4) Class size: about 1,200,000, confirmed by PAO ¶3. (5) Fund: no common fund. This is a claims-made, uncapped settlement. Under SA §§2.2(c) and 2.3, Tenet pays $16.00 for each Approved Claim. All class members also automatically get 2 years of CyEx Privacy Shield Pro. Notice, administration costs and fees are paid separately. So fund_amount stays null. Do not list $8.5M as a fund. (6) Fees: PAO ¶7(f) gives up to $8,500,000 combined. The notice says that figure covers fees plus cost reimbursement, paid by Tenet. Service awards are $3,500 each for 28 representatives. (7) Claims relevant to the screen: the 7 Related Actions are being folded in through a Stipulated Amended Complaint. They include the E.D. Cal. case (1:23-cv-1106) and the C.D. Cal. case (Clarkson Law Firm). The E.D. Cal. FAC pleads ECPA (18 U.S.C. §2511) and Cal. Penal Code §§631 and 632. The C.D. Cal. FAC pleads ECPA and CIPA §631. So CIPA 631/632 and ECPA claims are released. (8) Minor discrepancy: the settlement website and FAQ give 2026-11-27 as the opt-out/objection deadline. The posted Long Form Notice PDF gives 2026-12-22. The PAO itself sets these deadlines at 60 days after entry of the order, which is about 2026-11-21. Mailed notice went out 2026-09-28. The claim deadline is 2027-03-15.",
+   "open_questions": "1) The operative Stipulated Amended Complaint in CT-3086-23 was not found, and it is unconfirmed that it was filed. Statute flags rest on the related-action complaints it consolidates. The Shelby County docket portal (circuitdata.shelbycountytn.gov) returned a Cloudflare block and was not retried. 2) The date the preliminary approval motion was filed is unconfirmed. The SA was signed 2026-07-30 and the proposed preliminary approval order attached to it carries a certificate of service dated 2026-08-04, so the motion was probably filed around then. The order as entered has a certificate of service dated 2026-09-04. 3) The opt-out/objection deadline conflicts across sources: the settlement website says 2026-11-27, the long-form notice says 2026-12-22, and PAO paras. 10-11 say 60 days after entry of the order (about 2026-11-21). 4) FSCA status is unclear. Palm Beach Gardens and other Florida Tenet hospitals may be Affiliated Covered Entities (Exhibit F), but no current pleading I read asserts FSCA. 5) There is no fixed fund, so total payout depends on the claims rate (1.2M x $16 = $19.2M if every member claimed). Fees are up to $8.5M on top. 6) I did not check whether the ECPA or CIPA counts survived the related-action motions to dismiss; third-party reporting says most E.D. Cal. claims survived in June 2025. 7) D. Mass. (Beauregard, 1:23-cv-12978) filed a Notice of Settlement on 2026-08-25.",
+   "id": "tenet-healthcare-pixel-doe-v-amisub-saint-francis-memphis"
+  },
+  {
+   "short_name": "Crouch v. Saint Agnes Medical Center",
+   "caption": "Kathryn Crouch v. Saint Agnes Medical Center (Fresno Super. Ct., Complex/Class Action, Lead Case of consolidated actions; removed as E.D. Cal. No. 1:22-cv-01527-ADA-EPG and remanded 2023-10-20; 9th Cir. No. 23-3635 dismissed 2024-08-26)",
+   "defendant": "Saint Agnes Medical Center (Fresno, CA; Trinity Health member)",
+   "court": "Superior Court of California, County of Fresno",
+   "docket": "22CECG03349",
+   "judge": "Hon. Jonathan Skiles (Dept. 503); the 9/23/2026 tentative ruling was issued by \"JS\"",
+   "industry": "Healthcare (hospital)",
+   "technology": "Meta (Facebook) Pixel on the public website samc.com. Alleged to send searches, pages visited, physician/specialty searches, appointment scheduling, class and support-group registrations, and bill payments to Facebook, linked to Facebook IDs.",
+   "cipa_631": "pled",
+   "cipa_632": "unknown",
+   "cipa_632_7": "unknown",
+   "cipa_638_51": "unknown",
+   "ecpa_wiretap": "not_pled",
+   "fsca": "not_pled",
+   "other_claims": "CMIA (Cal. Civ. Code §§ 56.10, 56.36(b)). These are the only two counts in the 2023 FAC: CIPA § 631(a) aiding/permitting, plus CMIA. Any claims added in the 2025 First Consolidated Class Action Complaint are unknown.",
+   "statute_evidence": "Read the First Amended Class Action Complaint (E.D. Cal. ECF No. 11, filed 2023-01-18; RECAP PDF https://storage.courtlistener.com/recap/gov.uscourts.caed.420434/gov.uscourts.caed.420434.11.0.pdf). It has two counts. Cause of Action I is a CIPA claim under § 631(a): Defendant aided and permitted Facebook to read and learn the contents of communications, with $5,000 per violation under § 637.2. Cause of Action II is CMIA. It cites no § 632, § 632.7, § 638.51, ECPA or FSCA claim.\n\nThe operative pleading is now the First Consolidated Class Action Complaint, lodged 2025-06-30 with ¶37 partly sealed per the 2025-08-28 Dept. 503 tentative. It was not available to review, so 632, 632.7 and 638.51 are marked unknown. ECPA and FSCA are marked not_pled for two reasons:\n- Plaintiff fought for and won remand to state court, so adding a federal claim would have reopened removal.\n- The putative class is California-only, so a Florida FSCA claim does not fit.\nThe plaintiff firm's case page also describes the claims as CIPA plus CMIA only.",
+   "class_definition": "Settlement class definition not yet public. 2023 FAC putative class: all persons in California who have a Facebook account and used Defendant's website to search for medical information, services or physicians, schedule appointments, register for classes or support groups, or pay for medical services.",
+   "class_size": null,
+   "class_size_note": "Unknown. No class-size figure appears in any public document reviewed. The 2023 FAC alleges only \"thousands of members.\"",
+   "settlement_structure": "Unknown. The settlement papers (motion for preliminary approval) are not publicly available yet.",
+   "fund_amount": null,
+   "payment_terms": "Unknown",
+   "fees_requested": "Unknown",
+   "service_award": "Unknown",
+   "injunctive_relief": "Unknown for the settlement. The 2023 FAC sought an injunction barring disclosure of website users' communications without consent.",
+   "motion_prelim_filed": "",
+   "prelim_approval_date": "",
+   "final_hearing_date": "",
+   "final_approval_date": "",
+   "status": "Prelim motion pending",
+   "window_basis": "The Dept. 503 tentative ruling issued 2026-09-17, for the 2026-09-23 hearing, took the demurrer to the First Amended Complaint off calendar because the case had settled and a motion for preliminary approval had been filed. That demurrer was still on calendar on 2026-04-02 and 2026-07-21, so the motion was almost certainly filed between late July and 2026-09-17, inside the window. It is not yet ruled on.",
+   "plaintiff_counsel": "Arias Sanguinetti Wang & Team LLP, formerly Arias Sanguinetti Wang & Torrijos (Arnold C. Wang, Mike M. Arias, M. Anthony Jenkins). Arnold Wang is the attorney of record on the 2026 Fresno calendars. In the 2023 federal phase, co-counsel was Liddle Sheets Coulson P.C. (Nicholas A. Coulson); whether that firm is still involved is unconfirmed.",
+   "settlement_website": "",
+   "sources": [
+    {
+     "label": "Fresno Super. Ct. Dept. 503 tentative rulings for 2026-09-23 (Crouch demurrer taken off calendar: case settled, prelim approval motion filed; issued by JS on 9/17/2026)",
+     "url": "https://www.fresno.courts.ca.gov/system/files/tentative-rulings/09-23-26-dept-503-mml.pdf"
+    },
+    {
+     "label": "DecisionDepot case page for 22CECG03349 (judge Jonathan Skiles, Dept. 503; same ruling)",
+     "url": "https://www.decisiondepot.legal/cases/329893"
+    },
+    {
+     "label": "Fresno merged calendar 2026-04-02 (Crouch demurrer on calendar; complex/class action lead case)",
+     "url": "https://www.fresno.courts.ca.gov/system/files/general/merged-calendar-04022026.pdf"
+    },
+    {
+     "label": "Fresno merged calendar 2026-07-21 (Crouch demurrer; ATTY Wang, Arnold C.)",
+     "url": "https://www.fresno.courts.ca.gov/system/files/general/merged-calendar-07212026.pdf"
+    },
+    {
+     "label": "Fresno merged calendar 2026-09-23 (Crouch demurrer)",
+     "url": "https://www.fresno.courts.ca.gov/system/files/general/merged-calendar-09232026.pdf"
+    },
+    {
+     "label": "Fresno Dept. 52 calendar 2026-06-09 (Crouch status conference)",
+     "url": "https://www.fresno.courts.ca.gov/system/files/general/binded06092026.pdf"
+    },
+    {
+     "label": "Fresno Dept. 503 tentative 2025-08-28 (sealing portions of First Consolidated Class Action Complaint; now 404, seen via search snippet)",
+     "url": "https://www.fresno.courts.ca.gov/system/files/tentative-rulings/08-28-25-dept-503.pdf"
+    },
+    {
+     "label": "First Amended Class Action Complaint, E.D. Cal. ECF 11 (claims, class definition, counsel)",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.caed.420434/gov.uscourts.caed.420434.11.0.pdf"
+    },
+    {
+     "label": "CourtListener docket, E.D. Cal. 1:22-cv-01527 (removal, remand order 2023-10-20, 9th Cir. appeal dismissed 2024-08-26)",
+     "url": "https://www.courtlistener.com/docket/66512625/crouch-v-saint-agnes-medical-center/"
+    },
+    {
+     "label": "Order adopting F&R and remanding to state court, E.D. Cal. ECF 44",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.caed.420434/gov.uscourts.caed.420434.44.0.pdf"
+    },
+    {
+     "label": "Arias Sanguinetti Wang & Team case page (Meta Pixel on samc.com; CIPA + CMIA)",
+     "url": "https://aswtlawyers.com/class-action-lawyer/saint-agnes-medical-center/"
+    }
+   ],
+   "confidence": "medium",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute the claim. I agree with the researcher on 631 and add one new source for 632.\n\n(1) Crouch FAC, E.D. Cal. ECF 11, filed 2023-01-18 (primary document, re-checked by me). It has two counts.\n- Count I is CIPA. ¶6 cites § 631(a) and ¶60 claims $5,000 per violation under § 637.2(a)(1).\n- Count II is CMIA.\n- Text searches found no 632, 2511 or Wiretap language. The only Penal Code citation is the range \"§§ 630-638.55\".\n\n(2) A second Saint Agnes pixel class action exists: John Doe v. Saint Agnes Medical Center, Fresno Super. No. 23CECG00816, filed by Caddell & Chapman and AZA. Saint Agnes removed it as E.D. Cal. 1:23-at-00388 / 1:23-cv-00705 under the federal-officer statute. The parties then stipulated to remand on 2024-10-03 (ECF 23). The complaint is attached to the notice of removal: https://storage.courtlistener.com/recap/gov.uscourts.caed.427798/gov.uscourts.caed.427798.1.0.pdf\n- Count I is CIPA §§ 630 et seq. ¶290 pleads § 631(a), and ¶¶291-293 plead § 632(a) (recording confidential communications). It seeks § 637.2 damages.\n- The other counts are CMIA §§ 56.06, 56.101 and 56.10; Cal. Const. privacy; CDAFA § 502; implied contract; unjust enrichment; UCL; and Civ. Code § 1798.83.\n- It contains no 632.7, 638.51, 18 U.S.C. 2511/Wiretap Act or Fla. Stat. 934 language.\n- Doe was still active in Dept. 502 in April 2025 (pro hac vice tentatives on 04-08-25 and 04-30-25). The Crouch \"First Consolidated Class Action Complaint\" was lodged 2025-06-30. That timing strongly suggests Doe is one of the consolidated actions, but I did not find the consolidation order.\n\n(3) The operative pleading was not available to me. The 09-23-26 Dept. 503 tentative took a \"Demurrer to First Amended Complaint\" off calendar because the case settled and a preliminary-approval motion has been filed. I found no settlement agreement, approval motion or settlement website. So I cannot rule out that the consolidated complaint dropped or added counts.\n\nMy statute calls:\n- 631 = pled. It is in both constituent complaints and is the core statutory-damages theory.\n- 632 = unknown for the operative pleading, but it is pled in the Doe complaint. If Doe is a consolidated member case, the realistic answer is likely pled. This is my one difference from the researcher.\n- 632.7 and 638.51 = unknown. Neither constituent complaint pleads them.\n- ECPA = not_pled. Neither constituent complaint pleads it, and both plaintiffs fought for remand to state court.\n- FSCA = not_pled. The class is California-only and neither complaint pleads it.\n\nSide note: the decisiondepot case URL now returns 404, and the 08-28-25 Fresno tentative URL also now returns 404. Search-engine snippets of both still match the researcher's description. | motion_prelim_filed: —→on or before 2026-09-17 (exact filing date not public) | Timing/money check (confirmed): CONFIRMED: a preliminary-approval motion was filed inside the window. Primary source is the Fresno Superior Court Dept. 503 tentative ruling (Judge Jonathan Skiles) for the 2026-09-23 hearing on the demurrer to the First Amended Complaint in 22CECG03349. It was issued 2026-09-17 and takes the demurrer off calendar because the case has settled and a motion for preliminary approval has been filed. The minute order adopting it serves as the order.\n\nThe exact filing date is not public. The Fresno eCourt public portal needs a login, and no filed papers were found online. Lower bound for the window: the case was still being actively litigated well after 2026-04-09.\n- The demurrer and a status conference were on the 2026-04-02 Dept. 503 calendar.\n- A status conference was on the 2026-06-09 calendar.\n- The demurrer was on calendar again 2026-07-21. DecisionDepot shows it as CONTINUED that day, and it reappeared on the 2026-09-23 calendar.\nSo the motion was most likely filed between late July and 2026-09-17, and certainly by 2026-09-17.\n\nPreliminary approval has NOT been granted as of 2026-10-09. I downloaded every Fresno merged master calendar from 2026-08-03 through 2026-10-09 and searched them. The only Crouch entry is the 2026-09-23 demurrer; no preliminary-approval hearing is listed. Calendars after 10/09 are not posted yet. Dept. 503 tentatives for 9/30, 10/1, 10/6, 10/7 and 10/8 contain no Crouch ruling. The 10/7 Saint Agnes ruling is an unrelated med-mal case, Robinson v. Parish, 24CECG05024.\n\nFund, class size and fees are not public. No settlement website or administrator page was found (searched Perplexity, the Sounder and Curve pixel trackers, and the ASWT firm page). These stay null/Unknown.\n\nClaims, useful for the comparison table: the First Amended Complaint in the E.D. Cal. removal record (ECF 11) pleads CIPA § 631 and CMIA (Civ. Code § 56.10) over Meta Pixel on samc.com. No § 632 or federal ECPA count was found in that version. The later state-court FAC/consolidated complaint was not reviewed and may differ.\n\nLimits on checking:\n- The decisiondepot.legal/cases/329893 URL now returns 404, and other DecisionDepot pages sit behind an anti-bot interstitial, which I did not bypass.\n- The Wayback Machine was offline.\n- The 08-28-25 tentative URL now returns an HTML page, not the PDF. Per a search snippet it was the 2025 motion to seal portions of the consolidated complaint, which was granted.\n\nCounsel: Arias Sanguinetti Wang & Torrijos (Arnold Wang) and Liddle Sheets Coulson.",
+   "open_questions": "1. Settlement terms are unknown: fund amount, structure (common fund or claims-made), per-claimant payments, fees, service award, injunctive terms and administrator. No settlement website or news coverage has been found yet.\n2. The motion for preliminary approval was filed on or before 2026-09-17, but the exact filing date and the hearing date are unknown. The Fresno public portal (Journal Technologies eCourt) requires a login, so the docket could not be checked. The hearing will likely appear on a later Dept. 503 tentative ruling or calendar.\n3. The claims in the operative First Consolidated Class Action Complaint (2025) were not reviewed. Confirm whether it added § 632, § 638.51, a constitutional privacy claim or UCL counts beyond § 631 plus CMIA.\n4. Which cases were consolidated under the lead case is unknown.\n5. The settlement class definition and class size are unknown.\n6. Millan v. Saint Agnes Medical Center (22CECG03778, continued to 2026-10-20, Dept. 403) appears in search results as a similar case. Whether it is a related pixel action is unconfirmed.",
+   "id": "crouch-v-saint-agnes-medical-center"
+  },
+  {
+   "short_name": "NorthBay Healthcare (Meta/Google pixel, hospital)",
+   "caption": "J.A., T.A., and N.C., individually and on behalf of all others similarly situated v. NorthBay Healthcare Corporation, a Nonprofit Corporation; and Does 1 through 25 (originally captioned Deon Isaac v. NorthBay Healthcare Corporation)",
+   "defendant": "NorthBay Healthcare Corporation",
+   "court": "Superior Court of California, County of Solano (Dept. 8)",
+   "docket": "FCS059353",
+   "judge": "Hon. Wendy G. Getty",
+   "industry": "Healthcare: nonprofit hospital system (two hospitals in Fairfield and Vacaville, CA, plus care centers)",
+   "technology": "Meta Pixel and Google tracking tools on NorthBay's public websites and patient portal. Alleged disclosures covered patient-portal activity, search queries, treatments sought, appointment scheduling and find-a-doctor activity.",
+   "cipa_631": "pled",
+   "cipa_632": "unknown",
+   "cipa_632_7": "unknown",
+   "cipa_638_51": "unknown",
+   "ecpa_wiretap": "unknown",
+   "fsca": "unknown",
+   "other_claims": "CMIA (Cal. Civ. Code § 56 et seq.); invasion of privacy under Cal. Const. art. I, § 1; common-law intrusion upon seclusion. All three are in the original complaint. The FAC's first two causes of action are CIPA and CMIA; its remaining causes of action were not seen.",
+   "statute_evidence": "The operative pleading is the First Amended Complaint, filed 2024-01-19 (Settlement Agreement ¶¶ 3, 6). I could not find the FAC itself. The CIPA § 631 finding rests on three sources. (1) The original Isaac complaint (draft v4, hosted by Almeida Law Group). Count I is \"Violation of CIPA, Cal. Penal Code §§ 630 et seq.\" and quotes § 631(a), including its aiding/abetting clause: NorthBay allegedly aided Facebook's interception. Count II is CMIA, Count III is Cal. Const. art. I § 1, and Count IV is intrusion upon seclusion. That complaint contains no § 632, § 638.51, ECPA or FSCA count: https://x7lern0p.cdn.imgeng.in/wp-content/uploads/2025/11/2022-11-21-NorthBay-Draft-Complaint-v4.pdf. (2) A search snippet of the 2024-06-05 tentative ruling on NorthBay's demurrer to the FAC (Trellis; the page itself returns 403). It lists the FAC's causes of action as (1) Penal Code § 630 / CIPA, which the court informally calls \"eavesdropping or wiretapping,\" (2) CMIA, (3) [cut off]. (3) St. Aubin v. Carbon Health, N.D. Cal. No. 4:24-cv-00667, ECF 36 (2024-10-01). It cites an \"Order Sustaining Defendant's Demurrer on the First Amended Complaint, Isaac v. Northbay Healthcare Corp. (June 7, 2024)\" that rejected the § 631(a) interception theory for failure to allege simultaneous transmission: https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_24-cv-00667/pdf/USCOURTS-cand-4_24-cv-00667-0.pdf. Carbon Health's reply (ECF 26) also says the 2023-12-07 order dismissed the original complaint's CIPA claim on the same ground. § 632, § 632.7, § 638.51, ECPA and FSCA are marked unknown because the full FAC claims list was not seen. ECPA and FSCA are very unlikely: this is a California-only class in state court, and the original complaint pleads neither. The settlement agreement, both orders and the long-form notice describe the claims only as invasion of privacy and other common-law and statutory violations.",
+   "class_definition": "All individuals residing in California whose personal or health information was or may have been disclosed to a third party without authorization or consent through any Tracking Tools on NorthBay's websites or patient portal between 2020-11-29 and 2024-05-14. The usual exclusions apply (officers and directors, judicial officers, opt-outs).",
+   "class_size": 33540,
+   "class_size_note": "Approximate. The Settlement Agreement ¶ 13(qq) says the class \"consists of approximately 33,540 individuals.\" The final approval order reports zero opt-outs and zero objections. The number of claims filed was not found.",
+   "settlement_structure": "Claims-made with no common fund, paid directly by the defendant. Each approved claimant gets $15 cash, uncapped. Every class member automatically gets a one-year CyEx Privacy Shield Pro subscription. Fees, expenses, administration costs and service awards are paid by NorthBay separately from class relief, with clear sailing up to $345,000 in fees. Residual and uncashed funds under $10,000 go cy pres to CommuniCare+OLE; anything over $10,000 buys additional privacy-protection services for the class.",
+   "fund_amount": null,
+   "payment_terms": "$15 one-time cash payment per valid, timely claim. No proof is required, and claimants can choose electronic payment or a check (checks void after 180 days). The claim deadline was 2026-03-12. Every class member receives an enrollment code for one year of CyEx Privacy Shield Pro with no claim needed. Under the final approval order, the effective date is 2026-09-11 and NorthBay funds approved claims around 2026-10-25.",
+   "fees_requested": "Fees capped at $345,000 under the agreement (clear sailing; paid by NorthBay on top of class relief). The court awarded $345,000 in fees, $21,733.83 in litigation expenses, $1,250 service awards to each of J.A., T.A. and N.C., and $43,168.00 to Simpluris for administration, all paid by the defendant.",
+   "service_award": "$1,250 each to J.A., T.A. and N.C., $3,750 in total, as requested and awarded. Original plaintiff Deon Isaac was dismissed as a class representative at the preliminary approval hearing for lack of contact with counsel.",
+   "injunctive_relief": "There is no forward-looking injunction. In Settlement Agreement ¶ 17, NorthBay states that it implemented Freshpaint, a data-privacy and compliance platform that filters tracking tools before data reaches Google or Facebook, on its websites as of 2024-04-22. The CyEx privacy-service subscription is non-monetary class relief.",
+   "motion_prelim_filed": "2025-08-18",
+   "prelim_approval_date": "2025-11-10",
+   "final_hearing_date": "2026-08-06",
+   "final_approval_date": "2026-08-14",
+   "status": "Final approval",
+   "window_basis": "Judge Getty signed the Order Granting Final Approval and Judgment, and it was filed, on 2026-08-14, inside the 2026-04-09 to 2026-10-09 window. The final approval hearing was continued from 2026-03-05/03-19 to 2026-05-27 and then to 2026-08-06.",
+   "plaintiff_counsel": "LippSmith LLP (Graham B. LippSmith, MaryBeth LippSmith, Jaclyn L. Anderson); Peiffer Wolf Carr Kane Conway & Wise LLP (Brandon Wise); Almeida Law Group LLC (David S. Almeida, Elena A. Belov, John R. Parker Jr.). Defense counsel: Shook, Hardy & Bacon LLP (Tammy B. Webb, Patrick Gregory, Maveric Searle).",
+   "settlement_website": "https://northbaypixelsettlement.com/",
+   "sources": [
+    {
+     "label": "Official settlement website (Simpluris): home, important dates and documents pages",
+     "url": "https://northbaypixelsettlement.com/documents/"
+    },
+    {
+     "label": "Final Approval Order and Judgment, signed and filed 2026-08-14 (fees, costs, service awards, admin, timeline)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NJC2/FINAL_APPROVAL_ORDER"
+    },
+    {
+     "label": "Preliminary Approval Order, signed 2025-11-10",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NJC2/PRELIMINARY_APPROVAL_ORDER"
+    },
+    {
+     "label": "Settlement Agreement (procedural history, class size ~33,540, benefits, Freshpaint, fee cap, service awards)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NJC2/SETTLEMENT_AGREEMENT"
+    },
+    {
+     "label": "Stipulation/Order continuing final approval hearing (prelim motion filed 2025-08-18; hearing 2025-10-01)",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NJC2/ORDER_CONTINUING_FINAL_APPROVAL_HEARING"
+    },
+    {
+     "label": "Long-form Notice of Class Action Settlement",
+     "url": "https://cw.simpluris.com/docs/public/downloads/NJC2/NOTICE_OF_CLASS_ACTION_SETTLEMENT"
+    },
+    {
+     "label": "Original Isaac complaint, draft v4 hosted by Almeida Law Group (CIPA 631 aiding/abetting, CMIA, Cal. Const., intrusion)",
+     "url": "https://x7lern0p.cdn.imgeng.in/wp-content/uploads/2025/11/2022-11-21-NorthBay-Draft-Complaint-v4.pdf"
+    },
+    {
+     "label": "St. Aubin v. Carbon Health, N.D. Cal. ECF 36 (2024-10-01), describing the 2024-06-07 Isaac order sustaining the demurrer to the FAC on CIPA 631(a)",
+     "url": "https://www.govinfo.gov/content/pkg/USCOURTS-cand-4_24-cv-00667/pdf/USCOURTS-cand-4_24-cv-00667-0.pdf"
+    },
+    {
+     "label": "Carbon Health reply ECF 26, citing the 2023-12-07 Isaac order dismissing the CIPA claim",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.424457/gov.uscourts.cand.424457.26.0.pdf"
+    },
+    {
+     "label": "Trellis tentative ruling 2024-06-05 on demurrer to the FAC (search snippet only; page returns 403)",
+     "url": "https://trellis.law/ca/issue-type/wiretapping-law-california-275"
+    },
+    {
+     "label": "Almeida Law Group: preliminary approval granted (2025-11-10)",
+     "url": "https://www.almeidalawgroup.com/updates/preliminary-approval-granted-in-northbay-healthcare-settlement/"
+    },
+    {
+     "label": "ClassAction.org settlement article (class ~33,540)",
+     "url": "https://www.classaction.org/news/northbay-healthcare-settlement-ends-class-action-lawsuit-over-alleged-meta-pixel-data-sharing"
+    },
+    {
+     "label": "Sounder healthcare tracking tracker entry",
+     "url": "https://sounderdata.com/healthcare-tracking-lawsuits/j-a-t-a-and-n-c-v-northbay-healthcare-corporation/"
+    }
+   ],
+   "confidence": "medium",
+   "xcheck_claims": "confirmed",
+   "xcheck_timing": "confirmed",
+   "xcheck_notes": "Claims check (confirmed): I could not refute § 631, but I also could not get the FAC itself. Here is what I checked.\n(1) Settlement Agreement, Recitals ¶¶ 2-4 and 6. The original complaint was filed 11/29/2022. NorthBay won judgment on the pleadings on 12/7/2023, which dismissed the whole complaint with leave to amend. The FAC was filed 1/19/2024 and added J.A., T.A. and N.C. The agreement treats the FAC as the operative pleading, mentions no SAC, and names no statute; it says only \"invasion of privacy ... other common law and statutory violations.\" The PAO, FAO and notice name no statutes either.\n(2) St. Aubin v. Carbon Health, N.D. Cal. 4:24-cv-00667, ECF 36 (10/1/2024), CourtListener RECAP doc 414259168, a federal court order. It cites an \"Order Sustaining Defendant's Demurrer on the First Amended Complaint, Isaac v. Northbay, FCS059353 (Solano June 7, 2024)\" and relies on it in its § 631(a) \"in transit\" analysis: it says the Isaac order found no simultaneous transmission. The FAC therefore pled a § 631(a) interception/aiding theory.\n(3) Trellis snippets of the 6/5/2024 tentative (seen through Perplexity; Trellis blocks automated access with a Cloudflare check, so I did not get past it). The FAC's first cause of action is \"Penal Code section 630 (CIPA ... eavesdropping or wiretapping)\" and the second is CMIA (Civ. Code § 56). The third is cut off. The same snippet says Issac \"continues to lack standing.\" Caution: the Trellis aggregate page also shows \"demurrer to ... § 631 is overruled,\" but that sentence is from a different case (single-count § 631(a) FAC). Do not attribute it to NorthBay.\n(4) The original complaint (draft v4, on Almeida's site, with LippSmith/Peiffer Wolf captions). Count I is CIPA §§ 630 et seq. It quotes only § 631(a), including the aiding clause, and seeks § 637.2 damages. It cites no § 632, 632.7, 638.51, ECPA or FSCA.\nBig caveat for the comparison table: the CIPA/§ 631 claim was apparently dismissed twice, on 12/7/2023 and again on demurrer to the FAC on 6/7/2024. I could not confirm whether leave to amend was granted the second time. No SAC appears, and the case then settled on the FAC (mediation 12/17/2024). So § 631 was pled, but probably was not a live claim when the case settled, which weakens it as support.\n§ 632 is unknown. The original does not cite it. The court's \"eavesdropping\" label is too loose to infer it, since § 630 itself uses that word.\n§ 632.7 and § 638.51 are unknown but unlikely: this is a website pixel case and nothing points to a phone or pen-register theory.\nECPA and FSCA are unknown. They are very unlikely: the case is in California state court, the class is California residents only, and the original pleads neither. I could not see the FAC's full claims list to rule them out.\nSearch limits: the Wayback CDX was offline, Solano posts only current tentatives, and Almeida's media library has no FAC. Its \"Northbay-MPA.pdf\" is actually the PAO. | fees_requested: The agreement capped fees at $345,000 (Settlement Agreement ¶ 57, clear sailing). The court awarded $345,000 in fees plus $21,733.83 in litigation expenses, and approved $43,168.00 in Simpluris administration costs, all paid by NorthBay.→Fees capped at $345,000 under the agreement (clear sailing; paid by NorthBay on top of class relief). The court awarded $345,000 in fees, $21,733.83 in litigation expenses, $1,250 service awards to each of J.A., T.A. and N.C., and $43,168.00 to Simpluris for administration, all paid by the defendant. | Timing/money check (confirmed): CONFIRMED. The final approval falls inside the 2026-04-09 to 2026-10-09 window. The Simpluris FINAL_APPROVAL_ORDER PDF is the signed order. Judge Wendy G. Getty signed and dated it 08/14/2026. The clerk's stamp reads \"FILED Superior Court of California, County of Solano 08/14/2026 at 02:05 PM\" (K. Schoenberg). It was e-received on 08/12/2026, and the order's timeline puts the Effective Date at 2026-09-11. I could not refute the in-window event. Field-by-field check: (1) Prelim motion filed 2025-08-18. This is confirmed by the parties' Dec. 1, 2025 stipulation, which also gives the prelim hearing as 2025-10-01 and says a revised proposed order was filed 2025-10-31. (2) Prelim approval: the judge signed and dated the order 11/10/2025, but the clerk file-stamped it 11/12/2025 at 3:22 PM. The stipulation says the court \"signed\" it on Nov. 12, while the final order refers to it as approved on November 10, 2025. I kept 2025-11-10 as the signature date. Either date is well before the window. (3) Final hearing: the prelim order set it for 2026-03-05. A stipulated order continued it to 2026-03-19 at 9:00 a.m. (handwritten on the Simpluris continuance order). The settlement website notice then says it was \"reset to August 6, 2026, at 9:00 a.m.\" The signed final order still recites that the court considered the motion \"On March 19, 2026\", which looks like leftover text from the earlier proposed order. 2026-08-06 is the last noticed hearing date. (4) Class size of about 33,540 individuals is confirmed in the Settlement Agreement. (5) fund_amount is null because there is no common fund. The settlement is claims-made: a $15 cash payment per valid claim, plus a one-year CyEx Privacy Shield Pro subscription for every class member. Residual under $10,000 goes cy pres to CommuniCare+OLE; anything above that buys more privacy services. (6) No class member opted out or objected. Claims, opt-out and objection deadline was 2026-03-12. A status hearing on unclaimed funds is set for 2027-05-20. The case is dismissed without prejudice under CCP 664.6. Class: California residents whose information was disclosed through tracking tools on NorthBay's website or patient portal, 11/29/2020 to 5/14/2024. Class counsel: LippSmith, Peiffer Wolf, Almeida Law Group. Defense counsel: Shook Hardy. Originally captioned Deon Isaac v. NorthBay; Isaac was dismissed as a class representative.",
+   "open_questions": "1. I could not find the operative FAC (filed 2024-01-19). Its exact CIPA subsections (whether § 632 or § 638.51 appear alongside § 631) and its full claims list are unconfirmed; ECPA and FSCA are almost certainly absent.\n2. Possible problem for using this case as CIPA support: the court threw out the CIPA claim twice. The original complaint was dismissed on judgment on the pleadings (2023-12-07), and the demurrer to the FAC was sustained (2024-06-07). Both rulings found no simultaneous interception. Whether leave to amend was granted, and which other causes of action (such as CMIA) survived, is unknown. The settlement still treats the FAC as the operative pleading. Mediation (Bruce Friedman, JAMS) was on 2024-12-17.\n3. There is no fund amount because this is a claims-made settlement with no fund. Known defendant payments outside class relief total about $413,652: $345,000 fees, $21,733.83 expenses, $43,168 administration and $3,750 service awards. Add $15 times the number of approved claims (unknown) and the value of the CyEx subscriptions.\n4. A search-engine summary of the HIPAA Journal article mentioned a \"$3.4 million settlement,\" but that figure is not on the article page and conflicts with the primary documents. It is unverified and probably wrong.\n5. The claims rate and total cash paid were not found.",
+   "id": "northbay-healthcare-meta-google-pixel-hospital"
+  },
+  {
    "short_name": "Google Assistant Privacy ($68M)",
    "caption": "In re Google Assistant Privacy Litigation (Kumandan et al. v. Google LLC and Alphabet Inc.)",
    "defendant": "Google LLC; Alphabet Inc.",
@@ -3283,7 +3540,7 @@ window.PRIVACY_COMPS = {
    "service_award": "$10,000 requested for each of the four plaintiffs ($40,000 total); not yet awarded.",
    "injunctive_relief": "None. Settlement Agreement para. 3.2 says Google does not agree to provide any injunctive or prospective relief.",
    "motion_prelim_filed": "2026-01-23",
-   "prelim_approval_date": "2026-03-19",
+   "prelim_approval_date": "2026-04-16",
    "final_hearing_date": "2026-10-01",
    "final_approval_date": "",
    "status": "Preliminary approval",
@@ -3340,7 +3597,7 @@ window.PRIVACY_COMPS = {
    "xcheck_claims": "confirmed",
    "xcheck_timing": "confirmed",
    "xcheck_notes": "Claims check (confirmed): I tried to refute the claim and could not. I downloaded the Fourth Amended Consolidated Class Action Complaint (ECF 141, 73 pages) and text-searched it myself. The First Claim for Relief is the Wiretap Act/ECPA (18 U.S.C. 2510 et seq.), pled under 2511(1)(a), (c) and (d). The Third Claim for Relief is CIPA, Cal. Penal Code 632, seeking $5,000 per violation under 637.2. The Second Claim is the SCA (18 U.S.C. 2702), and Claims 4-10 are common-law, state and declaratory claims. The complaint contains no 631, 632.7, 638.51, Fla. Stat. 934 or FSCA. The only \"Florida\" hit is a South Florida Sun-Sentinel article cited in a footnote. I also downloaded Plaintiffs' unopposed motion for preliminary approval (ECF 549, filed 01/23/26). It calls ECF 141 the 'operative Fourth Amended Consolidated Class Action Complaint'. It also says the release covers the claims in every version of the complaint (ECF 1, 48, 86, 138, 141), so no count was dropped after the 4AC. I agree with the researcher on every statute. Background for the comparison table: the court earlier refused to certify the privacy and SCA classes, and the only litigated class certified was a Purchaser Class (breach of contract and UCL). The settlement adds a Privacy Settlement Class for settlement purposes only, so the Wiretap and 632 claims were pled and released but were never certified in litigation. I did not check whether the motion-to-dismiss rulings narrowed the Wiretap or 632 counts. Per the docs list, preliminary approval is ECF 560 and the final approval motion is ECF 567, so the case should fall inside the 6-month window. | fees_requested: Fees requested: one-third of the fund, $22,666,666.67, plus $1,021,738.40 in expenses (ECF 566, filed 2026-07-23). Lodestar is $22,477,337.50, a 1.01 multiplier. Several class members objected to the fee request. Not yet awarded: under submission after the 2026-10-01 hearing, and on 2026-10-07 the court ordered combined timesheets (ECF 582).→Fees requested: one-third of the $68M fund, or $22,666,666.67. Also $1,021,738.40 in expenses and four $10,000 service awards ($40,000 total) (ECF 566, filed 2026-07-23). Lodestar is $22,477,337.50, a 1.01 multiplier. Class members objected to the fees: Thomas (ECF 561), Kirkley (562-1), Cook (563), Smith (569), Abbatecola (570), Goldstone (571), plus one sealed objection (572/573). Nothing awarded yet. The motion was taken under submission at the 2026-10-01 hearing (ECF 577). The court ordered combined timesheets on 2026-10-07 (ECF 582), and plaintiffs filed a combined hours chart the same day (ECF 583). | Timing/money check (confirmed): Checked against the CourtListener RECAP docket entries (through ECF 583, 2026-10-07) and the filings posted on the settlement website (ECF 549, 560, 566, 567, 574-1, 141).\n\nTIMING. Two dates fall before the window:\n- Prelim approval motion: filed 2026-01-23 (ECF 549).\n- Original prelim approval order: 2026-03-19 (ECF 553), about three weeks before the window opens on 2026-04-09.\n\nThree events fall inside the window, which is why the verdict is confirmed rather than refuted:\n- 2026-04-16: AMENDED ORDER GRANTING Plaintiffs' Motion for Preliminary Approval (ECF 560). This is the operative prelim approval order. It appointed A.B. Data and set the deadlines.\n- 2026-08-13: final approval motion filed (ECF 567).\n- 2026-10-01: final approval and fee hearing held (ECF 577). Both motions were taken under submission.\n\nAs of 2026-10-09 there is no final approval order. I left the prelim approval date as the original 2026-03-19; if the table needs an in-window date, use 2026-04-16 (ECF 560). The final hearing date of 2026-10-01 is confirmed (ECF 553/560; clerk's notice ECF 568).\n\nMONEY. All figures below are confirmed against ECF 566, 549 and 567.\n- Fund: $68,000,000, non-reversionary common fund.\n- Damages range: $120M (at $1 per device) to $448.8M (a $3.74 price premium per device). The fund is 15.15% to 56.67% of that range.\n- Estimated recovery per member: $18–56 for Purchaser class members, $2–10 for Privacy class members.\n- The fee figures in the fees field are confirmed.\n\nCLASS SIZE. The 266M figure is supported, with a caveat. ECF 549 gives it as the Privacy Settlement Class notice population (\"approximately 266 million individuals\"). The Purchaser Settlement Class is estimated at no more than 60M, and the two classes likely overlap. Notice went by email to about 173.8M valid addresses.\n\nCLAIMS AND OPT-OUTS (Supplemental Teichmiller Declaration, ECF 574-1, as of 2026-09-17):\n- 1,536,964 claims received, of which 1,494,467 were timely (deadline 2026-08-27).\n- 216 valid exclusions.\n- Estimated payout of $8–20 per point, assuming a $40M net fund. At the low end that is about $32 per device for purchasers and about $8 for the Privacy class.\n\nCLAIM TYPES (relevant to the 631/632/ECPA screen). The Fourth Amended Complaint (ECF 141) pleads:\n- the federal Wiretap Act (ECPA Title I, 18 U.S.C. 2510 et seq.)\n- the Stored Communications Act (SCA)\n- CIPA Cal. Penal Code 632\n- intrusion upon seclusion, invasion of privacy under the California Constitution, breach of contract, UCL, CLRA and fraud.\n\nIt does not plead a 631 claim. The privacy claims were never certified; only the Purchaser class was certified. The settlement still releases both the Privacy and the Purchaser classes.",
-   "open_questions": "1. Duplicate: this ClaimDepot slug is the Google Assistant case (same docket and website), not RTB or another Google matter. Merge it with the existing Google Assistant tracker row.\n2. Window: it qualifies only through the 2026-04-16 amended preliminary approval order. The original order (2026-03-19) is before 2026-04-09.\n3. Final approval and the fee/service award rulings are pending; the court took them under submission 2026-10-01. Recheck the docket for the final order.\n4. I did not trace which claims survived the earlier motions to dismiss. The court certified only the Purchaser class (contract and UCL) and denied certification of the privacy (Wiretap/CIPA) and SCA classes, which lowers the weight of this case as a wiretap-claim comparator.\n5. Class size is a disputed estimate. Final valid claim count and per-point value are not yet determined.",
+   "open_questions": "Original preliminary approval order entered 2026-03-19 (ECF 553); amended order 2026-04-16 (ECF 560) is the date shown. 1. Duplicate: this ClaimDepot slug is the Google Assistant case (same docket and website), not RTB or another Google matter. Merge it with the existing Google Assistant tracker row.\n2. Window: it qualifies only through the 2026-04-16 amended preliminary approval order. The original order (2026-03-19) is before 2026-04-09.\n3. Final approval and the fee/service award rulings are pending; the court took them under submission 2026-10-01. Recheck the docket for the final order.\n4. I did not trace which claims survived the earlier motions to dismiss. The court certified only the Purchaser class (contract and UCL) and denied certification of the privacy (Wiretap/CIPA) and SCA classes, which lowers the weight of this case as a wiretap-claim comparator.\n5. Class size is a disputed estimate. Final valid claim count and per-point value are not yet determined.",
    "id": "google-assistant-privacy-68m"
   }
  ],
@@ -3448,6 +3705,10 @@ window.PRIVACY_COMPS = {
   {
    "name": "Dapper Labs (NBA Top Shot) VPPA",
    "reason": "Fails the statute test: the case is VPPA-only. The settlement website FAQ, the Settlement Agreement recitals and the final-approval memorandum all describe the 2025-07-28 complaint as pleading only the VPPA (18 U.S.C. § 2710). None of…"
+  },
+  {
+   "name": "Delgado v. Siskiyou Hospital (Fairchild Medical Center)",
+   "reason": "CIPA count cites only \"Cal. Penal Code § 630 et seq.\" in the settlement agreement; the complaint is not online, so § 631/632 could not be confirmed. No ECPA or FSCA count. Prelim approval 2026-07-20 (Siskiyou Cnty. Super. Ct. 24CV08548)."
   },
   {
    "name": "Delta Defense / USCCA VPPA (E.D. Wis.)",
