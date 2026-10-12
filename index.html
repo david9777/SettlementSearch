@@ -262,8 +262,8 @@
     <section class="comps-intro">
       <h2>Privacy wiretap settlements</h2>
       <p>
-        Class settlements whose complaint pleads CIPA § 631 or § 632, the federal Wiretap Act
-        (18 U.S.C. § 2511), or Florida's Security of Communications Act (Fla. Stat. § 934.10), with
+        Class settlements whose complaint pleads a CIPA claim (§ 631, § 632, § 632.7 or § 638.51), the
+        federal Wiretap Act (18 U.S.C. § 2511), or Florida's Security of Communications Act (Fla. Stat. § 934.10), with
         preliminary or final approval in the window below (pending preliminary-approval motions
         included). Each case was researched from the docket, settlement website and complaint, then
         cross-checked twice: once on the claims pled, once on dates and dollars. Not attorney-reviewed;
@@ -289,6 +289,7 @@
           <option value="Preliminary approval">Preliminary approval</option>
           <option value="Prelim motion pending">Prelim motion pending</option>
         </select>
+        <button id="compsCalls" class="chip" type="button" aria-pressed="false">Hide call recording</button>
         <select id="compsMonths" class="select" aria-label="Approval window">
           <option value="0">Whole window</option>
           <option value="12">Last 12 months</option>
@@ -353,6 +354,6 @@
   <script src="data.js"></script>
   <script src="privacy_comps.js?v=4"></script>
   <script src="app.js?v=17"></script>
-  <script src="comps.js?v=3"></script>
+  <script src="comps.js?v=4"></script>
 </body>
 </html>

@@ -16,7 +16,7 @@ SRC = os.path.join(ROOT, "privacy_comps.json")
 OUT = os.path.join(ROOT, "privacy_comps.js")
 
 STATUTE_KEYS = ["cipa_631", "cipa_632", "cipa_632_7", "cipa_638_51", "ecpa_wiretap", "fsca"]
-TARGET_KEYS = ["cipa_631", "cipa_632", "ecpa_wiretap", "fsca"]
+TARGET_KEYS = ["cipa_631", "cipa_632", "cipa_632_7", "cipa_638_51", "ecpa_wiretap", "fsca"]
 STATUSES = {"Final approval", "Preliminary approval", "Prelim motion pending"}
 
 
@@ -28,7 +28,7 @@ def validate(data):
             if r.get(k) not in ("pled", "not_pled", "unknown"):
                 problems.append("%s: %s must be pled / not_pled / unknown" % (name, k))
         if not any(r.get(k) == "pled" for k in TARGET_KEYS):
-            problems.append("%s: pleads none of 631 / 632 / ECPA / FSCA" % name)
+            problems.append("%s: pleads no CIPA, ECPA or FSCA claim" % name)
         if r.get("status") not in STATUSES:
             problems.append("%s: unexpected status %r" % (name, r.get("status")))
         if not r.get("sources"):
