@@ -283,6 +283,7 @@
         row("Cross-check", "Claims: " + (r.xcheck_claims || "—") + " · Timing/money: " + (r.xcheck_timing || "—") +
           " · Confidence: " + (r.confidence || "—")) +
         row("Cross-check notes", r.xcheck_notes) +
+        row("Final audit", r.audit) +
         row("Open questions", r.open_questions) +
       "</div>";
     detail.hidden = false;
@@ -313,7 +314,7 @@
       ["class_definition", "Class Definition"], ["technology", "Technology"], ["industry", "Industry"],
       ["plaintiff_counsel", "Plaintiff Counsel"], ["settlement_website", "Settlement Website"],
       ["statute_evidence", "Claims Evidence"], ["confidence", "Confidence"],
-      ["xcheck_claims", "Claims Cross-check"], ["xcheck_timing", "Timing Cross-check"],
+      ["xcheck_claims", "Claims Cross-check"], ["xcheck_timing", "Timing Cross-check"], ["audit", "Final Audit"],
     ];
     var lines = [
       csvCell("Privacy wiretap settlements (CIPA 631/632, federal Wiretap Act/ECPA, Florida FSCA). " +
