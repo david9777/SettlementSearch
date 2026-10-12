@@ -24,6 +24,7 @@
     statutes: new Set(),  // OR: show rows pleading any selected statute
     pen: "any",           // "any" | "pled" | "not"
     status: "",
+    months: 0,            // 0 = whole window; else latest approval event within N months of window_end
     sortKey: "key_date",
     sortDir: "desc",
   };
@@ -56,7 +57,17 @@
     else if (r.prelim_approval_date) { r.key_date = r.prelim_approval_date; r.key_label = "Prelim"; }
     else if (r.motion_prelim_filed) { r.key_date = r.motion_prelim_filed; r.key_label = "Motion"; }
     else { r.key_date = null; r.key_label = ""; }
+    r.latest_event = [r.motion_prelim_filed, r.prelim_approval_date, r.final_approval_date]
+      .filter(Boolean).sort().pop() || null;
     return r;
+  }
+  // ISO date N months before the end of the research window.
+  function monthsBeforeEnd(n) {
+    var end = SRC.window_end || SRC.as_of;
+    if (!end) return null;
+    var d = new Date(end + "T00:00:00");
+    d.setMonth(d.getMonth() - n);
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   }
   function statusClass(s) {
     var k = (s || "").toLowerCase();
@@ -85,6 +96,11 @@
     if (state.pen === "pled" && !pled(r, PEN.key)) return false;
     if (state.pen === "not" && pled(r, PEN.key)) return false;
     if (state.status && r.status !== state.status) return false;
+    if (state.months) {
+      // Rows with no dated event (e.g. a prelim motion known only from a later ruling) stay visible.
+      var cutoff = monthsBeforeEnd(state.months);
+      if (r.latest_event && cutoff && r.latest_event < cutoff) return false;
+    }
     if (state.q) {
       var hay = [r.short_name, r.caption, r.defendant, r.court, r.docket, r.judge, r.industry,
         r.technology, r.other_claims, r.plaintiff_counsel, r.class_definition]
@@ -183,6 +199,7 @@
     renderChips();
     el.pen.value = state.pen;
     el.status.value = state.status;
+    el.months.value = String(state.months);
   }
 
   function renderScreened() {
@@ -326,7 +343,7 @@
     el = {
       tiles: $("compsTiles"), chips: $("compsChips"), body: $("compsBody"), empty: $("compsEmpty"),
       count: $("compsCount"), table: document.querySelector(".comps-table"), search: $("compsSearch"),
-      pen: $("compsPen"), status: $("compsStatus"), screened: $("compsScreened"),
+      pen: $("compsPen"), status: $("compsStatus"), months: $("compsMonths"), screened: $("compsScreened"),
       screenedCount: $("compsScreenedCount"), screenedList: $("compsScreenedList"),
     };
     if (!el.body) return;
@@ -348,7 +365,7 @@
       var b = e.target.closest(".metric");
       if (!b) return;
       var t = b.dataset.tile;
-      if (t === "all") { state.statutes.clear(); state.pen = "any"; state.status = ""; state.q = ""; el.search.value = ""; }
+      if (t === "all") { state.statutes.clear(); state.pen = "any"; state.status = ""; state.months = 0; state.q = ""; el.search.value = ""; }
       else if (t === "no-pen") { state.pen = state.pen === "not" ? "any" : "not"; }
       else {
         var only = state.statutes.size === 1 && state.statutes.has(t);
@@ -364,6 +381,7 @@
     });
     el.pen.addEventListener("change", function () { state.pen = el.pen.value; render(); });
     el.status.addEventListener("change", function () { state.status = el.status.value; render(); });
+    el.months.addEventListener("change", function () { state.months = parseInt(el.months.value, 10) || 0; render(); });
     $("compsExport").addEventListener("click", exportCSV);
     el.table.querySelectorAll("th[data-sort]").forEach(function (th) {
       th.addEventListener("click", function () {
