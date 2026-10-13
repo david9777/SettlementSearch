@@ -18,6 +18,9 @@ OUT = os.path.join(ROOT, "privacy_comps.js")
 STATUTE_KEYS = ["cipa_631", "cipa_632", "cipa_632_7", "cipa_638_51", "ecpa_wiretap", "fsca"]
 TARGET_KEYS = ["cipa_631", "cipa_632", "cipa_632_7", "cipa_638_51", "ecpa_wiretap", "fsca"]
 STATUSES = {"Final approval", "Preliminary approval", "Prelim motion pending"}
+# How a row's `outlay` was reached: paid_fund (non-reversionary common fund, outlay = fund),
+# claims_x_rate (claims paid x per-claim amount + fees, awards, admin), reported_total, estimate.
+OUTLAY_BASES = ("paid_fund", "claims_x_rate", "reported_total", "estimate")
 
 
 def validate(data):
@@ -33,6 +36,19 @@ def validate(data):
             problems.append("%s: unexpected status %r" % (name, r.get("status")))
         if not r.get("sources"):
             problems.append("%s: no sources" % name)
+        # Real outlay (what the defendant actually paid): optional, but when present it must be
+        # a positive number with a known basis, or null with a note saying why.
+        if "outlay" in r:
+            outlay, basis = r.get("outlay"), r.get("outlay_basis")
+            if outlay is None:
+                if basis is not None:
+                    problems.append("%s: outlay_basis without an outlay" % name)
+            elif isinstance(outlay, bool) or not isinstance(outlay, (int, float)) or outlay <= 0:
+                problems.append("%s: outlay must be a positive number or null" % name)
+            elif basis not in OUTLAY_BASES:
+                problems.append("%s: outlay_basis must be one of %s" % (name, ", ".join(OUTLAY_BASES)))
+            if not r.get("outlay_note"):
+                problems.append("%s: outlay without an outlay_note" % name)
     return problems
 
 
