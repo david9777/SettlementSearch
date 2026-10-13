@@ -2314,7 +2314,7 @@
    "outlay_basis": "claims_x_rate",
    "outlay_low": 385202,
    "outlay_high": 524104,
-   "outlay_note": "Real outlay = 4,944 claims x $8 (interim count: x1 low, x2 high); admin estimated $101,300 ($50,650-$150,000; $0.30/member, $40k-$400k, admin cap $150,000); fees and costs $285,000 (awarded incl. costs, FAO para. 11); service awards $10,000; never above the $2,701,320 cap. 4,944 claims as of 2026-08-11. Unclaimed money reverts to Defendant. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = 4,944 claims x $8 (interim count: x1 low, x2 high); admin estimated $101,299.50 ($50,649.75-$150,000; $0.30/member, $40k-$400k, admin cap $150,000); fees and costs $285,000 (awarded incl. costs, FAO para. 11); service awards $10,000; never above the $2,701,320 cap. 4,944 claims as of 2026-08-11. Unclaimed money reverts to Defendant. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Cumor v. European Wax Center, Inc.",
@@ -2496,7 +2496,7 @@
    "outlay_basis": "claims_x_rate",
    "outlay_low": 1413443,
    "outlay_high": 1675406,
-   "outlay_note": "Real outlay = 11,466 claims x $17 (interim count: x1 low, x2 high); admin estimated $67,042 ($33,521-$100,562; $0.30/member, $40k-$400k); fees and costs $1,182,000 (awarded $1,167,000 fees + $15,000 costs, FAO paras. 11, 13); service awards $3,000; never above the $3,500,000 cap. 11,466 claims as of about 2026-04-06; deadline 2026-04-27. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = 11,466 claims x $17 (interim count: x1 low, x2 high); admin estimated $67,041.60 ($33,520.80-$100,562.40; $0.30/member, $40k-$400k); fees and costs $1,182,000 (awarded $1,167,000 fees + $15,000 costs, FAO paras. 11, 13); service awards $3,000; never above the $3,500,000 cap. 11,466 claims as of about 2026-04-06; deadline 2026-04-27. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Kingsbury v. Evernorth (MDLIVE)",
@@ -2583,9 +2583,9 @@
    "audit": "Opus audit (ok): Meets the criteria. The signed SA Recital F lists FSCA § 934.03, ECPA § 2511(1) and PA WESCA, and the E.D. Pa. predecessor complaint pleads ECPA. The original PAO (e-conformed 2026-08-18), the amended PAO (2026-08-28) and the motion (e-filed 2026-08-14) are all in the window. Status 'Preliminary approval' with FAH 2027-01-06 is consistent. The $3.5M reversionary cap, the $15 per claim and the fee cap all check out. No corrections. | Docket check: confirmed against docket, no conflicts. | Lexis check: FLAG: CourtLink shows the final hearing on 2026-10-13 (Zoom), not 2027-01-06; prelim 2026-08-18 matches. | Order pull (2026-10-12): Amended Order Granting Preliminary Approval entered 2026-08-28 sets the final hearing for 2027-01-06 at 9:30 a.m. (para. 18); this supersedes the 2026-10-13 CourtLink calendar entry. The original prelim order was 2026-08-18.",
    "outlay": null,
    "outlay_basis": null,
-   "outlay_low": 1191667,
+   "outlay_low": 394264,
    "outlay_high": 3500000,
-   "outlay_note": "No outlay: claims open until 2026-12-01 and no class count is published, so neither a claim count nor a claims-rate estimate is possible. Floor = requested fees + costs + awards ($1,166,667 + $15,000 + $10,000); ceiling = the $3.5M cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
+   "outlay_note": "No outlay: claims open until 2026-12-01 and no class count is published, so neither a claim count nor a claims-rate estimate is possible. Floor = the requested $1,166,667 fee at the board's deepest observed cut (31.7%, Barefoot) + $15,000 costs + $10,000 awards; ceiling = the $3.5M cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
   },
   {
    "short_name": "Boggiano v. Mount Sinai Medical Center of Florida, Inc.",
@@ -2672,9 +2672,9 @@
    "audit": "Opus audit (corrected): Meets the criteria. The SA recital, the final approval motion and the joint declaration all list FSCA § 934.03 (plus common-law claims). The PAO was e-filed 2026-06-12, in the window. The FAH is 2026-10-13, tomorrow, so status 'Preliminary approval' with a blank final date is correct for now; re-check after the hearing. The $220K cash pool, class size 325,108 and fees requested ($492,750 incl. costs) are consistent. short_name was a description rather than a case name and is fixed. | Lexis check: confirmed: prelim 2026-06-12; final hearing 2026-10-13; final approval motion filed 2026-08-28.",
    "outlay": 815282,
    "outlay_basis": "claims_x_rate",
-   "outlay_low": 766516,
+   "outlay_low": 429727,
    "outlay_high": 864049,
-   "outlay_note": "Real outlay = admin estimated $97,532 ($48,766-$146,299; $0.30/member, $40k-$400k); fees and costs $492,750 (requested incl. $33,542 costs, under the $500k cap; not yet awarded); service awards $5,000; cash pool paid in full (pro rata, no reversion) $220,000. Fees, admin and awards are paid on top of the $220k pool, so outlay exceeds the board's fund_amount. Medical-data monitoring for all members is in-kind, not counted. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = admin estimated $97,532.40 ($48,766.20-$146,298.60; $0.30/member, $40k-$400k); fees and costs $492,750 (requested incl. $33,542 costs, under the $500k cap; not yet awarded); service awards $5,000; cash pool paid in full (pro rata, no reversion) $220,000; low end at a cut fee $155,961 (31.7% of the request). Fees, admin and awards are paid on top of the $220k pool, so outlay exceeds the board's fund_amount. Medical-data monitoring for all members is in-kind, not counted. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 board rows with both is 1.00; the low end assumes the deepest cut on the board, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Mosher v. Thriveworks Administrative Services, LLC",
@@ -2757,9 +2757,9 @@
    "audit": "Opus audit (corrected): Meets the criteria on FSCA § 934.03 and ECPA alone, both confirmed in the signed SA Recital F and the 2026-07-08 final approval motion. The PAO (e-filed 2026-04-22) is in the window. FAH was 2026-08-04, but no final approval order can be found (the settlement site's document list did not load, and the web search shows only 'pending'), so status 'Preliminary approval' stays with a flag to re-check. cipa_631 stays 'pled' because the signed SA recital, a primary source, says § 631(a) was pled. However, the notice and the FA motion list only FSCA and ECPA, and the xcheck reviewer would have marked it unknown, so treat it as soft support for § 631. short_name tidied. | Lexis check: CourtLink (Marion Cty FL 42-2026-CA-000482): prelim motion 2026-04-20; prelim approval 2026-04-22; \"Order on Motion for Final Approval ... and Final Judgment\" entered 2026-08-13 (title only; order text not opened). | Order pull (2026-10-12): The 2026-08-13 final order is only available through Lexis CourtLink \"Runner\" (paid retrieval) — fee only, not ordered. Not yet posted on the settlement site. Requested fees: $633,333.33 plus $2,500 service awards x2; no objections.",
    "outlay": 765851,
    "outlay_basis": "claims_x_rate",
-   "outlay_low": 710444,
+   "outlay_low": 277569,
    "outlay_high": 821257,
-   "outlay_note": "Real outlay = 3,341 claims x $10 (interim count: x1 low, x2 high); admin estimated $77,403 ($38,701-$116,104; $0.30/member, $40k-$400k); fees and costs $633,333 (requested, one-third of the cap); service awards $5,000; never above the $1,900,000 cap. 3,341 claims as of 2026-06-30; deadline 2026-07-21. Unclaimed money stays with the defendants. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = 3,341 claims x $10 (interim count: x1 low, x2 high); admin estimated $77,402.70 ($38,701.35-$116,104.05; $0.30/member, $40k-$400k); fees and costs $633,333 (requested, one-third of the cap); service awards $5,000; low end at a cut fee $200,457 (31.7% of the request); never above the $1,900,000 cap. 3,341 claims as of 2026-06-30; deadline 2026-07-21. Unclaimed money stays with the defendants. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 board rows with both is 1.00; the low end assumes the deepest cut on the board, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Jeffries v. Derick Dermatology",
@@ -2838,9 +2838,9 @@
    "audit": "Opus audit (corrected): The Settlement Agreement recital says the complaint pleads the Federal Wiretap Act (18 U.S.C. § 2510 et seq.). Preliminary approval on 2026-04-22 is in window. I re-checked the settlement site on 2026-10-12: the final hearing is still listed as 2026-08-17 and no final order is posted, so status 'Preliminary approval' fits. The $1M cap and $350K fee cap match. Only fix: short_name changed to a case name. window_basis cites a stale 2026-04-09 to 2026-10-09 window, but the date is also inside the actual 2024-10-12 to 2026-10-12 window. | Lexis check: CourtLink (Broward CACE26003864, cached 2026-06-17): prelim motion 2026-04-17; prelim approval 2026-04-22; final hearing 2026-08-17; fee motion filed 2026-06-08. Final order not in the cached docket.",
    "outlay": null,
    "outlay_basis": null,
-   "outlay_low": 351500,
+   "outlay_low": 112279,
    "outlay_high": 1000000,
-   "outlay_note": "No outlay: no class count or claim count is published. Floor = fees cap + award ($350,000 + $1,500); ceiling = the $1M all-in cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
+   "outlay_note": "No outlay: no class count or claim count is published, and no fee has been awarded. Floor = the $350,000 fee cap at the board's deepest observed cut (31.7%, Barefoot) + the $1,500 award; ceiling = the $1M all-in cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
   },
   {
    "short_name": "Brewer v. CVS Pharmacy (Criteo)",
@@ -2998,7 +2998,7 @@
    "outlay_basis": "estimate",
    "outlay_low": 2775093,
    "outlay_high": 3390568,
-   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 767,896 x $16; admin estimated $230,369 ($115,184-$345,553; $0.30/member, $40k-$400k); fees and costs $2,500,000 (awarded, Final Order para. 12); service awards $3,000; never above the $12,670,284 cap. Claims deadline 2026-08-20; no count found (Kroll site HTTP 403 to a headless fetch on 2026-10-13). Excess reverts to the defendant (SA 10.10). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 767,896 x $16.50; admin estimated $230,368.80 ($115,184.40-$345,553.20; $0.30/member, $40k-$400k); fees and costs $2,500,000 (awarded, Final Order para. 12); service awards $3,000; never above the $12,670,284 cap. Claims deadline 2026-08-20; no count found (Kroll site HTTP 403 to a headless fetch on 2026-10-13). Excess reverts to the defendant (SA 10.10). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Brand v. University of Phoenix",
@@ -3085,9 +3085,9 @@
    "audit": "Opus audit (corrected): Settlement Agreement Recital A and the federal Dawson complaint plead ECPA § 2510 et seq. The settlement site (checked 2026-10-12) confirms case no. 2026LA000170, the $8.75M Gross Maximum Funding, the 2026-10-06 notice, the 2026-11-05 deadlines and the 2026-11-20 hearing. The 2026-09-22 preliminary approval date comes from a secondary source but fits the 14-day notice timing. The 35% fee figure ($3,062,500) checks out. Only fix: short_name.",
    "outlay": 3348718,
    "outlay_basis": "estimate",
-   "outlay_low": 3233360,
+   "outlay_low": 1140177,
    "outlay_high": 3604311,
-   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 350,000 x $25; admin estimated $105,000 ($52,500-$157,500; $0.30/member, $40k-$400k); fees and costs $3,062,500 (requested maximum, 35% of the cap; not yet awarded); service awards $10,000; never above the $8,750,000 cap. Claims are open until 2026-11-05, so no count exists yet. Uncashed checks revert. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 350,000 x $25; admin estimated $105,000 ($52,500-$157,500; $0.30/member, $40k-$400k); fees and costs $3,062,500 (requested maximum, 35% of the cap; not yet awarded); service awards $10,000; low end at a cut fee $969,318 (31.7% of the request); never above the $8,750,000 cap. Claims are open until 2026-11-05, so no count exists yet. Uncashed checks revert. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 board rows with both is 1.00; the low end assumes the deepest cut on the board, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Kaplan v. Northwell Health",
@@ -3285,7 +3285,7 @@
    "outlay_basis": "claims_x_rate",
    "outlay_low": 885130,
    "outlay_high": 1033210,
-   "outlay_note": "Real outlay = 5,240 claims x $20 (interim count: x1 low, x2 high); admin estimated $45,900 ($22,950-$68,850; $0.30/member, $40k-$400k); fees and costs $750,000 (awarded 2026-04-13); service awards $10,000. 5,240 claims as of 2026-03-30, deadline 2026-04-16. Some claimants chose Dashlane instead of cash; all are priced as cash (upper side). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = 5,240 claims x $19.50 (interim count: x1 low, x2 high); admin estimated $45,900 ($22,950-$68,850; $0.30/member, $40k-$400k); fees and costs $750,000 (awarded 2026-04-13); service awards $10,000. 5,240 claims as of 2026-03-30, deadline 2026-04-16. Some claimants chose Dashlane instead of cash; all are priced as cash (upper side). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "J.C. v. Catholic Health System",
@@ -3582,9 +3582,9 @@
    "audit": "Opus audit (corrected): Meets criteria. The settlement site's dates page matches the row: final approval hearing 2027-01-14, opt-out and objection deadlines 2026-11-27, claim deadline 2027-03-15. The prelim order (2026-09-22) is in the window, so status 'Preliminary approval' fits. Statute flags rest on the related-action complaints that the Stipulated Amended Complaint consolidates. Those complaints were read on RECAP: CIPA 631/632 and ECPA. The operative pleading itself was not seen, so confidence stays medium. Only the short_name changed, to case-name form. | Lexis check: not found in Lexis; conflicts: Could not verify any date in the table row (prelim 2026-09-22, hearing 2027-01-14) against Lexis. | Order pull (2026-10-12): Order not found on the web; Shelby County docket not in Lexis.",
    "outlay": 9333700,
    "outlay_basis": "estimate",
-   "outlay_low": 9015772,
+   "outlay_low": 3206123,
    "outlay_high": 9959345,
-   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 1,200,000 x $16; admin estimated $360,000 ($180,000-$540,000; $0.30/member, $40k-$400k); fees and costs $8,500,000 (requested maximum; hearing 2027-01-14); service awards $98,000. Claims open until 2027-03-15. Uncapped; fees dominate. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 1,200,000 x $16; admin estimated $360,000 ($180,000-$540,000; $0.30/member, $40k-$400k); fees and costs $8,500,000 (requested maximum; hearing 2027-01-14); service awards $98,000; low end at a cut fee $2,690,351 (31.7% of the request). Claims open until 2027-03-15. Uncapped; fees dominate. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 board rows with both is 1.00; the low end assumes the deepest cut on the board, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Crouch v. Saint Agnes Medical Center",
@@ -4396,7 +4396,7 @@
    "outlay_basis": "claims_x_rate",
    "outlay_low": 857305,
    "outlay_high": 1079699,
-   "outlay_note": "Real outlay = 5,481 claims x $15 (interim count: x1 low, x2 high); admin estimated $140,179 ($70,090-$210,269; $0.30/member, $40k-$400k); fees and costs $700,000 (awarded 2025-10-06); service awards $5,000. 5,481 claims as of 2025-09-01, deadline 2025-09-12. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = 5,481 claims x $15 (interim count: x1 low, x2 high); admin estimated $140,179.20 ($70,089.60-$210,268.80; $0.30/member, $40k-$400k); fees and costs $700,000 (awarded 2025-10-06); service awards $5,000. 5,481 claims as of 2025-09-01, deadline 2025-09-12. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Mediate v. Life Line Screening (pixel)",
@@ -4495,9 +4495,9 @@
    "audit": "Opus audit (ok): Kept, but the statute element is still not confirmed from the operative petition. I re-read the Settlement Agreement and Long-Form Notice (ClassAction.org copies). Neither names a statute. Both describe Meta/Google tracking-tech interception of website communications, and the SA ¶21 gives California residents $50 'in recognition of their release of California statutory claims'. Together with the fee motion's statement that Mediate is 'substantively similar' to Toy v. Life Line (N.D. Cal., where CIPA § 631(a) survived the MTD), CIPA 631 is a reasonable inference but should be confirmed against the Travis County petition. The settlement-site fee motion is now blocked (403/HTML). PA order 2025-11-17 and FAH 2026-03-12 are in window. No final approval order was found, so status 'Preliminary approval' stands. $1.4M cap confirmed in the SA. Confidence medium is appropriate. | Docket check: FLAG: final approval hearing (2026-03-12) has passed but no final approval order was found; confirm status. | Lexis check: found; conflicts: Row status 'Preliminary approval' with blank final approval date; Lexis shows final approval order entered 03/12/2026 and case Closed. Row's hearing 2026-03-12 matches the order date (no separate hearing entry in docket).",
    "outlay": null,
    "outlay_basis": null,
-   "outlay_low": 867600,
+   "outlay_low": 320810,
    "outlay_high": 2203500,
-   "outlay_note": "No outlay: no class count or claim count is published. Floor = requested fees and costs + award + estimated admin ($800,000 + $3,500 + $64,100); ceiling = that plus the $1.4M claims cap less admin. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
+   "outlay_note": "No outlay: no class count or claim count is published, and the fee award was not found. Floor = the requested $800,000 fees and costs at the board's deepest observed cut (31.7%, Barefoot) + the $3,500 award + estimated admin ($64,100); ceiling = the full request + award + the $1.4M claims-and-admin cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
   },
   {
    "short_name": "Doe v. Joyous PBC (ketamine telehealth pixel)",
@@ -5374,7 +5374,7 @@
    "outlay_basis": "estimate",
    "outlay_low": 983700,
    "outlay_high": 1488089,
-   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 835,159 x $10; admin estimated $250,548 ($125,274-$375,822; $0.30/member, $40k-$400k); fees and costs $750,000 (awarded 2025-09-30, costs included); service awards $5,000. Claimants chose $10 cash or a $25 voucher; all priced at $10 cash (vouchers cost the defendant less than face). Claim count not found. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 835,159 x $10; admin estimated $250,547.70 ($125,273.85-$375,821.55; $0.30/member, $40k-$400k); fees and costs $750,000 (awarded 2025-09-30, costs included); service awards $5,000. Claimants chose $10 cash or a $25 voucher; all priced at $10 cash (vouchers cost the defendant less than face). Claim count not found. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Doe v. MarinHealth (Meta Pixel)",
@@ -5920,7 +5920,7 @@
    "outlay_basis": "claims_x_rate",
    "outlay_low": 2171317,
    "outlay_high": 2564071,
-   "outlay_note": "Real outlay = 9,792 claims x $15 (interim count: x1 low, x2 high); admin estimated $245,874 ($122,937-$368,811; $0.30/member, $40k-$400k); fees and costs $1,900,000 (awarded, FAO para. 16); service awards $1,500. 9,792 claim forms as of 2025-07-28, deadline 2025-08-25 (final-approval motion p.4, free on Simpluris). No fund exists: the board's $12.29M = 819,581 x $15 is the theoretical maximum. Henry Ford pays admin separately (FAO para. 18). Privacy Shield Pro codes are in-kind and not counted. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = 9,792 claims x $15 (interim count: x1 low, x2 high); admin estimated $245,874.30 ($122,937.15-$368,811.45; $0.30/member, $40k-$400k); fees and costs $1,900,000 (awarded, FAO para. 16); service awards $1,500. 9,792 claim forms as of 2025-07-28, deadline 2025-08-25 (final-approval motion p.4, free on Simpluris). No fund exists: the board's $12.29M = 819,581 x $15 is the theoretical maximum. Henry Ford pays admin separately (FAO para. 18). Privacy Shield Pro codes are in-kind and not counted. Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Bolanos v. VShred (pixel / FSCA-CIPA-VPPA)",
