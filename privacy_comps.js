@@ -6027,8 +6027,8 @@ window.PRIVACY_COMPS = {
    "settlement_structure": "Non-reversionary common fund, claims-made. Kroll is administrator. Notice by email, mail, media and internet, plus website and toll-free line.",
    "fund_amount": 3850000,
    "payment_terms": "Pro rata cash payments to approved claimants by PayPal, Venmo or check (per Claim Depot). Court's prelim order refers to direct payment via check. Claim deadline 2026-05-20, opt-out deadline 2026-04-22 (Claim Depot). Payments are on hold pending appeal.",
-   "fees_requested": "Up to $1,283,333.33 (one third of the fund, per Claim Depot). Docket shows fees granted at final approval; the amount awarded was not verified.",
-   "service_award": "Up to $5,000 (Claim Depot)",
+   "fees_requested": "Awarded $982,700.40 in fees, costs and expenses (court struck the requested $989,433.86; about 25.5% of the fund); $5,000 service award (Final Approval Order, ECF 71, paras. 14-15). Requested up to one-third.",
+   "service_award": "$5,000 (awarded)",
    "injunctive_relief": "None reported",
    "motion_prelim_filed": "",
    "prelim_approval_date": "2025-12-19",
@@ -6070,7 +6070,7 @@ window.PRIVACY_COMPS = {
    "xcheck_notes": "Cross-check (claims confirmed, timing confirmed): Settlement involves unauthorized tracking technology (TripleLift, GumGum, Audiencerate) claims under CIPA 638.51(a) only. No other privacy statutes alleged. All claimed data points verified through claimdepot and court records. Preliminary approval December 19, 2025, final approval June 26, 2026—both within specified window. Fund amount confirmed at $3.85 million.",
    "open_questions": "1) Exact date the prelim approval motion was filed (ECF 45). 2) Whether the complaint pleads any count beyond 638.51(a); I did not read its claims list. 3) Class size and the fee amount actually awarded. 4) Appeal status: Claim Depot says an appeal is filed. The docket shows an 2026-08-05 order extending time to file a notice of appeal, and the final order notes five objections, all overruled. 5) The final-approval order text says prelim approval was 2025-12-16, but the docket shows 2025-12-19. 6) The settlement site returned 403, so I used the court orders and Claim Depot.",
    "id": "mirmalek-v-la-times-pen-register-trackers",
-   "audit": "Opus audit (ok): A Bloomberg Gov report confirms Judge Breyer (N.D. Cal.) approved the $3.85M CIPA tracker settlement, with a class period running from late Jan 2023 to late Dec 2025. 638.51(a) is pled per the court's order. Prelim approval 2025-12-19 and final approval 2026-06-26 are both in the window, and status matches. Two small things are still open: the prelim date is 12-16 in one place and 12-19 in another, and an appeal is pending. | Docket check: confirmed against docket, no conflicts."
+   "audit": "Opus audit (ok): A Bloomberg Gov report confirms Judge Breyer (N.D. Cal.) approved the $3.85M CIPA tracker settlement, with a class period running from late Jan 2023 to late Dec 2025. 638.51(a) is pled per the court's order. Prelim approval 2025-12-19 and final approval 2026-06-26 are both in the window, and status matches. Two small things are still open: the prelim date is 12-16 in one place and 12-19 in another, and an appeal is pending. | Docket check: confirmed against docket, no conflicts. | Order read (2026-10-12): final approval order ECF 71 awards $982,700.40 fees/costs (handwritten correction from $989,433.86) and a $5,000 service award; five objections overruled. Class size is not stated in the final order."
   },
   {
    "short_name": "La Febre v. Lemonade (life-insurance app trackers)",
