@@ -2585,7 +2585,7 @@
    "outlay_basis": null,
    "outlay_low": 394264,
    "outlay_high": 3500000,
-   "outlay_note": "No outlay: claims open until 2026-12-01 and no class count is published, so neither a claim count nor a claims-rate estimate is possible. Floor = the requested $1,166,667 fee at the board's deepest observed cut (31.7%, Barefoot) + $15,000 costs + $10,000 awards; ceiling = the $3.5M cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
+   "outlay_note": "No outlay: claims open until 2026-12-01 and no class count is published, so neither a claim count nor a claims-rate estimate is possible. Floor = the requested $1,166,667 fee at the deepest cut among the board's cash claims-made deals (31.7%, Barefoot) + $15,000 costs + $10,000 awards; ceiling = the $3.5M cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
   },
   {
    "short_name": "Boggiano v. Mount Sinai Medical Center of Florida, Inc.",
@@ -2674,7 +2674,7 @@
    "outlay_basis": "claims_x_rate",
    "outlay_low": 429727,
    "outlay_high": 864049,
-   "outlay_note": "Real outlay = admin estimated $97,532.40 ($48,766.20-$146,298.60; $0.30/member, $40k-$400k); fees and costs $492,750 (requested incl. $33,542 costs, under the $500k cap; not yet awarded); service awards $5,000; cash pool paid in full (pro rata, no reversion) $220,000; low end at a cut fee $155,961 (31.7% of the request). Fees, admin and awards are paid on top of the $220k pool, so outlay exceeds the board's fund_amount. Medical-data monitoring for all members is in-kind, not counted. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 board rows with both is 1.00; the low end assumes the deepest cut on the board, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = admin estimated $97,532.40 ($48,766.20-$146,298.60; $0.30/member, $40k-$400k); fees and costs $492,750 (requested incl. $33,542 costs, under the $500k cap; not yet awarded); service awards $5,000; cash pool paid in full (pro rata, no reversion) $220,000; low end at a cut fee $155,961 (31.7% of the request). Fees, admin and awards are paid on top of the $220k pool, so outlay exceeds the board's fund_amount. Medical-data monitoring for all members is in-kind, not counted. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 cash claims-made deals on the board with both figures is 1.00; the low end assumes the deepest cut among those deals, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). (Elsewhere on the board Google RTB's fee was cut to 17%, but that request valued injunctive relief, not a cash settlement.) Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Mosher v. Thriveworks Administrative Services, LLC",
@@ -2759,7 +2759,7 @@
    "outlay_basis": "claims_x_rate",
    "outlay_low": 277569,
    "outlay_high": 821257,
-   "outlay_note": "Real outlay = 3,341 claims x $10 (interim count: x1 low, x2 high); admin estimated $77,402.70 ($38,701.35-$116,104.05; $0.30/member, $40k-$400k); fees and costs $633,333 (requested, one-third of the cap); service awards $5,000; low end at a cut fee $200,457 (31.7% of the request); never above the $1,900,000 cap. 3,341 claims as of 2026-06-30; deadline 2026-07-21. Unclaimed money stays with the defendants. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 board rows with both is 1.00; the low end assumes the deepest cut on the board, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = 3,341 claims x $10 (interim count: x1 low, x2 high); admin estimated $77,402.70 ($38,701.35-$116,104.05; $0.30/member, $40k-$400k); fees and costs $633,333 (requested, one-third of the cap); service awards $5,000; low end at a cut fee $200,457 (31.7% of the request); never above the $1,900,000 cap. 3,341 claims as of 2026-06-30; deadline 2026-07-21. Unclaimed money stays with the defendants. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 cash claims-made deals on the board with both figures is 1.00; the low end assumes the deepest cut among those deals, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). (Elsewhere on the board Google RTB's fee was cut to 17%, but that request valued injunctive relief, not a cash settlement.) Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Jeffries v. Derick Dermatology",
@@ -2840,7 +2840,7 @@
    "outlay_basis": null,
    "outlay_low": 112279,
    "outlay_high": 1000000,
-   "outlay_note": "No outlay: no class count or claim count is published, and no fee has been awarded. Floor = the $350,000 fee cap at the board's deepest observed cut (31.7%, Barefoot) + the $1,500 award; ceiling = the $1M all-in cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
+   "outlay_note": "No outlay: no class count or claim count is published, and no fee has been awarded. Floor = the $350,000 fee cap at the deepest cut among the board's cash claims-made deals (31.7%, Barefoot) + the $1,500 award; ceiling = the $1M all-in cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
   },
   {
    "short_name": "Brewer v. CVS Pharmacy (Criteo)",
@@ -3087,7 +3087,7 @@
    "outlay_basis": "estimate",
    "outlay_low": 1140177,
    "outlay_high": 3604311,
-   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 350,000 x $25; admin estimated $105,000 ($52,500-$157,500; $0.30/member, $40k-$400k); fees and costs $3,062,500 (requested maximum, 35% of the cap; not yet awarded); service awards $10,000; low end at a cut fee $969,318 (31.7% of the request); never above the $8,750,000 cap. Claims are open until 2026-11-05, so no count exists yet. Uncashed checks revert. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 board rows with both is 1.00; the low end assumes the deepest cut on the board, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 350,000 x $25; admin estimated $105,000 ($52,500-$157,500; $0.30/member, $40k-$400k); fees and costs $3,062,500 (requested maximum, 35% of the cap; not yet awarded); service awards $10,000; low end at a cut fee $969,318 (31.7% of the request); never above the $8,750,000 cap. Claims are open until 2026-11-05, so no count exists yet. Uncashed checks revert. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 cash claims-made deals on the board with both figures is 1.00; the low end assumes the deepest cut among those deals, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). (Elsewhere on the board Google RTB's fee was cut to 17%, but that request valued injunctive relief, not a cash settlement.) Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Kaplan v. Northwell Health",
@@ -3584,7 +3584,7 @@
    "outlay_basis": "estimate",
    "outlay_low": 3206123,
    "outlay_high": 9959345,
-   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 1,200,000 x $16; admin estimated $360,000 ($180,000-$540,000; $0.30/member, $40k-$400k); fees and costs $8,500,000 (requested maximum; hearing 2027-01-14); service awards $98,000; low end at a cut fee $2,690,351 (31.7% of the request). Claims open until 2027-03-15. Uncapped; fees dominate. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 board rows with both is 1.00; the low end assumes the deepest cut on the board, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
+   "outlay_note": "Real outlay = no claim count found free; claims estimated at the board's median fixed-payment claims rate 1.96% (25th-75th pct 1.24%-4.28%, 13 deals) x 1,200,000 x $16; admin estimated $360,000 ($180,000-$540,000; $0.30/member, $40k-$400k); fees and costs $8,500,000 (requested maximum; hearing 2027-01-14); service awards $98,000; low end at a cut fee $2,690,351 (31.7% of the request). Claims open until 2027-03-15. Uncapped; fees dominate. The fee is REQUESTED, not awarded. The point estimate keeps the request, because the median award/request ratio over the 15 cash claims-made deals on the board with both figures is 1.00; the low end assumes the deepest cut among those deals, Barefoot's 31.7% ($285,000 awarded of $900,440 requested). (Elsewhere on the board Google RTB's fee was cut to 17%, but that request valued injunctive relief, not a cash settlement.) Sources: this row's payment_terms, class_size_note, fees_requested, service_award and settlement_structure fields and the documents in `sources`. Task 23, 2026-10-13."
   },
   {
    "short_name": "Crouch v. Saint Agnes Medical Center",
@@ -4497,7 +4497,7 @@
    "outlay_basis": null,
    "outlay_low": 320810,
    "outlay_high": 2203500,
-   "outlay_note": "No outlay: no class count or claim count is published, and the fee award was not found. Floor = the requested $800,000 fees and costs at the board's deepest observed cut (31.7%, Barefoot) + the $3,500 award + estimated admin ($64,100); ceiling = the full request + award + the $1.4M claims-and-admin cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
+   "outlay_note": "No outlay: no class count or claim count is published, and the fee award was not found. Floor = the requested $800,000 fees and costs at the deepest cut among the board's cash claims-made deals (31.7%, Barefoot) + the $3,500 award + estimated admin ($64,100); ceiling = the full request + award + the $1.4M claims-and-admin cap. Walker drops this comp rather than price it at the cap. Task 23, 2026-10-13."
   },
   {
    "short_name": "Doe v. Joyous PBC (ketamine telehealth pixel)",
