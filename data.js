@@ -52944,38 +52944,6 @@ window.SETTLEMENTS = [
     "dead_reason": null
   },
   {
-    "id": "claimdepot-coldcut-recall-settlement",
-    "case_name": "Boar's Head $3.1M Meat Recall Class Action Settlement",
-    "short_name": "Boar's Head $3.1M Meat Recall Class Action Settlement",
-    "defendant": "Boar's Head  Meat Recall",
-    "amount": 3100000,
-    "category": "Product Liability",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "If you bought Boar's Head meat products between May and August 2024, you may qualify to claim a cash payment from a $3.1M class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/coldcut-recall-settlement",
-    "date_added": "2026-06-15",
-    "enriched_at": "2026-06-30",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-08-13",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.coldcutrecallsettlement.com/submit-claim",
-    "dead_reason": null
-  },
-  {
     "id": "claimdepot-colony-ridge-tcpa-settlement",
     "case_name": "Colony Ridge $1.99M Unwanted Text Message Settlement",
     "short_name": "Colony Ridge $1.99M Unwanted Text Message Settlement",
@@ -59614,7 +59582,7 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2026-05-05",
-    "official_url": null,
+    "official_url": "https://esosettlement.com/",
     "documents": [],
     "links_checked": "2026-10-18",
     "official_url_dead": "https://esosettlement.com/",
@@ -74741,7 +74709,7 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2024-12-05",
-    "official_url": null,
+    "official_url": "https://lbtransportclassaction.com/claim-form",
     "documents": [],
     "links_checked": "2026-10-18",
     "official_url_dead": "https://martendatasettlement.com/",
@@ -74846,7 +74814,7 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2024-11-25",
-    "official_url": null,
+    "official_url": "https://www.esparzafcrasettlement.com/",
     "documents": [],
     "links_checked": "2026-10-18",
     "official_url_dead": "https://www.esparzafcrasettlement.com/",
@@ -77167,7 +77135,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-19",
     "official_url": "https://www.mindpathsettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77199,7 +77167,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-10-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77231,7 +77199,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-11",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://minimeddigitalsettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -77263,7 +77231,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-10",
     "official_url": "https://www.missfreshsecuritiessettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77295,7 +77263,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-10",
     "official_url": "https://www.missouriamericanfamilysettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77327,7 +77295,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-07",
     "official_url": "https://mitsubishi.acusettlement.com/vinlookup",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77359,7 +77327,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-15",
     "official_url": "https://www.mizunosettlement.com/mizuno-claim-form-login/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77391,7 +77359,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-22",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77423,7 +77391,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77455,7 +77423,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-15",
     "official_url": "https://www.mlspinsettlement.com/files/Nosalek%20MLS%20Claim%20Form%20v7.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77487,7 +77455,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-14",
     "official_url": "https://mmcsettlement.com/files/Krenk%20v%20Murfreesboro%20Medical%20Clinic%20-%20Claim%20Form.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77519,7 +77487,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-18",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77551,7 +77519,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-27",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/D215/CLAIM_FORMpIcw",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77583,7 +77551,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-05",
     "official_url": "https://www.mnpixelsettlement.com/files/Doe",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77615,7 +77583,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77647,7 +77615,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-21",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77679,7 +77647,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-04",
     "official_url": "https://www.mngisettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77711,7 +77679,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-23",
     "official_url": "https://mofiestabipasettlement.com/wp-content/uploads/2025/08/HermanMOFiesta_ClaimForm.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77743,7 +77711,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-18",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://mobilitywareclassaction.com/",
     "dead_reason": null
   },
@@ -77775,7 +77743,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-28",
     "official_url": "https://www.mobisalsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77807,7 +77775,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-09-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77839,7 +77807,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77871,7 +77839,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-10",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77908,7 +77876,7 @@ window.SETTLEMENTS = [
         "url": "https://abdatacaadstorage1.blob.core.windows.net/privacy/PrivacyPolicy.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77940,7 +77908,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-18",
     "official_url": "https://montereyjailsettlement.com/files/Hernandez%20v.%20County%20of%20Monterey%20Claim%20Form%20CFMG%20Contempt%20Settlement.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -77977,7 +77945,7 @@ window.SETTLEMENTS = [
         "url": "https://montlickdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78009,7 +77977,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-28",
     "official_url": "https://www.morrishospitalsettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78041,7 +78009,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.morrisonhospitalsettlement.com/files/Morrison%20Claim%20Form.pdf",
     "dead_reason": null
   },
@@ -78073,7 +78041,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-02",
     "official_url": "https://motaxsettlementvictoriassecret.com/Payment-Selection-Form/PageControl/Authentication",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78105,7 +78073,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-14",
     "official_url": "https://motilitydatabreachlitigation.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78137,7 +78105,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-17",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.mountainviewsettlement.com/Login",
     "dead_reason": null
   },
@@ -78174,7 +78142,7 @@ window.SETTLEMENTS = [
         "url": "https://moveitcadencesettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78206,7 +78174,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78238,7 +78206,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78270,7 +78238,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-08",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/MRC2/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78302,7 +78270,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78334,7 +78302,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-25",
     "official_url": "https://msbfeesettlement.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78366,7 +78334,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-28",
     "official_url": "https://mschfsettlement.com/wp-content/uploads/2025/04/CastilloMSCHF_ClaimForm.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78411,7 +78379,7 @@ window.SETTLEMENTS = [
         "url": "https://www.mounthollyemissionssettlement.com/Home/Documents"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78443,7 +78411,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-09-09",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78475,7 +78443,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-03",
     "official_url": "https://www.muhealthcaresettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78507,7 +78475,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-16",
     "official_url": "https://mubisettlement.com/files/Exhibit%20D%20(Claim%20Form",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78539,7 +78507,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-25",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78571,7 +78539,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-11",
     "official_url": "https://mulkaydatabreachsettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78608,7 +78576,7 @@ window.SETTLEMENTS = [
         "url": "https://abdatacaadstorage1.blob.core.windows.net/privacy/PrivacyPolicy.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78640,7 +78608,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-02",
     "official_url": "https://mullinsbipasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78672,7 +78640,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78704,7 +78672,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": "https://multnomahtaxforeclosuresettlement.com/files/Lynch%20v%20Multnomah%20-%20Claim%20Form%20v8%20For%20web.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78736,7 +78704,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-18",
     "official_url": "https://muranomaximacvtsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78768,7 +78736,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-02",
     "official_url": "https://www.museumofillusionsnewyorkticketfeesettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78800,7 +78768,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.museumofsexticketfeesettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -78832,7 +78800,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-17",
     "official_url": "https://www.mvesdatasettlement.com/matiasek-v-mystic-valley-claim-form-login/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78864,7 +78832,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2021-09-10",
     "official_url": "https://www.steamerrecallsettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78896,7 +78864,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-26",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/MCC2/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78928,7 +78896,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -78960,7 +78928,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-18",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79017,7 +78985,7 @@ window.SETTLEMENTS = [
         "url": "https://www.rodriguezofacsettlement.com/pdf/LFNotice.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79049,7 +79017,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-05",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79081,7 +79049,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-11-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79138,7 +79106,7 @@ window.SETTLEMENTS = [
         "url": "https://www.nationwiderealestatecommissionsettlement.com/Content/Docs/Preliminary%20Approval%20Order.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79170,7 +79138,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-12-13",
     "official_url": "https://secure.navientstudentloansettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79202,7 +79170,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-16",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79234,7 +79202,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-28",
     "official_url": "https://ncbdatasettlement.com/files/NCB",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79266,7 +79234,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-17",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79303,7 +79271,7 @@ window.SETTLEMENTS = [
         "url": "https://www.ndmsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79335,7 +79303,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79384,7 +79352,7 @@ window.SETTLEMENTS = [
         "url": "https://irp.cdn-website.com/70605584/files/uploaded/Sarmiento-_et_al._v._Neil_Jones_Food_Company_-_Class_Notice_Spanish.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79441,7 +79409,7 @@ window.SETTLEMENTS = [
         "url": "https://www.netgainclassactionsettlement.com/Content/Docs/prop-order.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79473,7 +79441,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-07",
     "official_url": "https://www.nevadarestaurantservicesdatasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79505,7 +79473,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79542,7 +79510,7 @@ window.SETTLEMENTS = [
         "url": "https://abdatacaadstorage1.blob.core.windows.net/privacy/PrivacyPolicy.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79574,7 +79542,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-10",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79606,7 +79574,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-24",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://newhorizonssettlement.com/files/New",
     "dead_reason": null
   },
@@ -79638,7 +79606,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-18",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://nylifeerisasettlement.com/",
     "dead_reason": null
   },
@@ -79691,7 +79659,7 @@ window.SETTLEMENTS = [
         "url": "https://www.nytrenewalsettlement.com/admin/api/connectedapps.cms.extensions/asset?id=10f72e33-873c-42b6-ae0e-d4ab160c0b14&languageId=1033&amp;inline=true"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79723,7 +79691,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-05",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.newindyclassaction.com/register-online.html",
     "dead_reason": null
   },
@@ -79755,7 +79723,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://newprosettlement.com/claim/",
     "dead_reason": null
   },
@@ -79787,7 +79755,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-06",
     "official_url": "https://newyorkagsettlement.com/wp-content/uploads/2025/12/NYAGNYTimes_Digital_ClaimForm.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79819,7 +79787,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-03",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79851,7 +79819,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79892,7 +79860,7 @@ window.SETTLEMENTS = [
         "url": "https://abdatacaadstorage1.blob.core.windows.net/privacy/PrivacyPolicy.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79929,7 +79897,7 @@ window.SETTLEMENTS = [
         "url": "https://nianticclassaction.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79966,7 +79934,7 @@ window.SETTLEMENTS = [
         "url": "https://nicepaksettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -79996,15 +79964,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2026-06-28",
-    "official_url": "https://www.nihfcudatasettlement.com/",
-    "documents": [
-      {
-        "label": "Notice",
-        "url": "https://www.nihfcudatasettlement.com/pdf/NIHFCU_Long_Form_Notice.pdf"
-      }
-    ],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.nihfcudatasettlement.com/",
     "dead_reason": null
   },
   {
@@ -80035,7 +79998,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-13",
     "official_url": "https://docs.simpluris.com/websites/0ac295c8-410a-4274-96b0-407cf3f7c369/documents/bc5f8df0-27fb-4be0-b259-770256c7688a/Claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80067,7 +80030,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2022-03-22",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "http://www.roguepathfinderqx60cvtsettlement.com/",
     "dead_reason": null
   },
@@ -80099,7 +80062,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80131,7 +80094,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-16",
     "official_url": "https://njpipsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80163,7 +80126,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80195,7 +80158,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2022-12-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80227,7 +80190,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80257,10 +80220,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2024-12-18",
-    "official_url": "https://perazadacasettlement.com/",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://perazadacasettlement.com/",
     "dead_reason": null
   },
   {
@@ -80323,7 +80286,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-25",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.nondrowsyrobitussinsettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -80355,7 +80318,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-25",
     "official_url": "https://eastpalestinetrainsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80387,7 +80350,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-26",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.northhighlanddatabreachsettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -80419,7 +80382,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-15",
     "official_url": "https://northcaredatasettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80451,7 +80414,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-08",
     "official_url": "https://www.strategicclaims.net/case/northwell403b/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80483,7 +80446,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-09",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.northwesternbipasettlement.com/",
     "dead_reason": null
   },
@@ -80515,7 +80478,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-19",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80547,7 +80510,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80584,7 +80547,7 @@ window.SETTLEMENTS = [
         "url": "https://novadatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80616,7 +80579,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.novasoutheasternerisasettlement.com/",
     "dead_reason": null
   },
@@ -80648,7 +80611,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-06-06",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://nhprivacysettlement.pnclassaction.com/",
     "dead_reason": null
   },
@@ -80680,7 +80643,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-25",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.nowhealthdatasettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -80717,7 +80680,7 @@ window.SETTLEMENTS = [
         "url": "https://nrecdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80749,7 +80712,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": "https://nrstcpasettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80781,7 +80744,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80813,7 +80776,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-04",
     "official_url": "https://www.nstsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80845,7 +80808,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-28",
     "official_url": "https://ntngipasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80877,7 +80840,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.nucordatasettlement.com/claims_filing.html",
     "dead_reason": null
   },
@@ -80909,7 +80872,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-10",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80941,7 +80904,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-02",
     "official_url": "https://www.numotionsettlement.com/files/Claim%20Form_12.18.25%20v2.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -80973,7 +80936,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-18",
     "official_url": "https://www.nunezsaksoff5thsettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81010,7 +80973,7 @@ window.SETTLEMENTS = [
         "url": "https://nvidiaerisasettlement.com/wp-content/uploads/2025/10/Tobias_LongNotice.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81042,7 +81005,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-21",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/NKC/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81079,7 +81042,7 @@ window.SETTLEMENTS = [
         "url": "https://www.nydoordashsettlement.com/wp-content/uploads/2025/04/NYAG-v-Door-Dash_Mail-Notice-Final.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81111,7 +81074,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-15",
     "official_url": "https://nydrizlysettlement.com/form/open/fill/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81143,7 +81106,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81175,7 +81138,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-06",
     "official_url": "https://www.nycicesettlement.com/wp-content/uploads/2025/01/Onadia-v-NYC-Claim-Form_WEB.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81207,7 +81170,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81244,7 +81207,7 @@ window.SETTLEMENTS = [
         "url": "https://www.oakstreethealthsecuritiessettlement.com/documents"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81276,7 +81239,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-19",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://oakvalleyclassaction.com/submit-claim",
     "dead_reason": null
   },
@@ -81313,7 +81276,7 @@ window.SETTLEMENTS = [
         "url": "https://oakviewgroupdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81345,7 +81308,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-03",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://oaklanddatabreachsettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -81377,7 +81340,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": "https://oakwooddatasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81409,7 +81372,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81441,7 +81404,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-10",
     "official_url": "https://obhsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81473,7 +81436,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-03",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.oceanbeautywageclassaction.com/",
     "dead_reason": null
   },
@@ -81505,7 +81468,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-22",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81537,7 +81500,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81594,7 +81557,7 @@ window.SETTLEMENTS = [
         "url": "https://secure.ocwenfeesettlement.com/admin/api/connectedapps.cms.extensions/asset?id=6e54b990-ed8c-45f6-9fc7-ee4c2149d9c2&languageId=1033&amp;inline=true"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81626,7 +81589,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-19",
     "official_url": "https://ocwenfloridasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81658,7 +81621,7 @@ window.SETTLEMENTS = [
     "claim_deadline": null,
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81690,7 +81653,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-08",
     "official_url": "https://www.ohsclassactionsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81722,7 +81685,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-23",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81754,7 +81717,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-06",
     "official_url": "https://oklahomagmenginesettlement.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81786,7 +81749,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-02",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81818,7 +81781,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-08",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81850,7 +81813,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-01",
     "official_url": "https://www.olaplexsecuritiessettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81895,7 +81858,7 @@ window.SETTLEMENTS = [
         "url": "https://www.americanlegal.com/request-document/cd18b3949b2c8498619af1f945a9d6a6"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81927,7 +81890,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-02",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81959,7 +81922,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-25",
     "official_url": "https://www.omahalifeinsurancedatasettlement.com/files/Omaha",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -81991,7 +81954,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-28",
     "official_url": "https://www.omniasandiegosettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82023,7 +81986,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-12-01",
     "official_url": "https://www.strategicclaims.net/OGI401k/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82055,7 +82018,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-10",
     "official_url": "https://www.oncufeesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82087,7 +82050,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-21",
     "official_url": "https://www.oneworldticketfeesettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82119,7 +82082,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-09",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://oneblooddatasettlement.com/files/OneBlood%20-%20Exhibit%203%20-%20Claim%20Form%20(Final",
     "dead_reason": null
   },
@@ -82151,7 +82114,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82183,7 +82146,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-17",
     "official_url": "https://onemainfccpasettlement.com/files/Claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82215,7 +82178,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-20",
     "official_url": "https://onixsettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82247,7 +82210,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-06",
     "official_url": "https://www.opendoorsecuritiessettlement.com/media/6344032/opendoor_securities_settlement_-_claim_form.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82279,7 +82242,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82311,7 +82274,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-28",
     "official_url": "https://optaviasettlement.com/submit-claim-form",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82343,7 +82306,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-22",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://jewettvoraclepaysettlement.com/",
     "dead_reason": null
   },
@@ -82375,7 +82338,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82407,7 +82370,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-25",
     "official_url": "https://www.orderexpressdatasettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82439,7 +82402,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-09",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82471,7 +82434,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-03",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://oregonworkdaysettlement.com/File-a-Claim/PageControl/Authentication",
     "dead_reason": null
   },
@@ -82503,7 +82466,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": "https://orisettlement.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82535,7 +82498,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-08",
     "official_url": "https://www.strategicclaims.net/case/originmaterials/form",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82567,7 +82530,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-16",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82599,7 +82562,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-02",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82636,7 +82599,7 @@ window.SETTLEMENTS = [
         "url": "https://oshdataincidentsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82668,7 +82631,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82700,7 +82663,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-19",
     "official_url": "https://www.claimform.ospreystockholdersettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82732,7 +82695,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-15",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://ollusettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -82764,7 +82727,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2021-01-01",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82796,7 +82759,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-20",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82828,7 +82791,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-03",
     "official_url": "https://hoodsettlement.com/frequently-asked-questions.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82860,7 +82823,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-09",
     "official_url": "https://overbysettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82924,7 +82887,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-11-24",
     "official_url": "https://www.overlandspecialdeterrentfeesettlement.com/list-of-people-who-paid-the-special-deterrent-fee/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -82956,7 +82919,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-06",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.jonesautoinsurancesettlement.com/claim-form-login/",
     "dead_reason": null
   },
@@ -82988,7 +82951,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": "https://secureforms.krollsettlementadministration.com/DynamicForms2/8687/Form/4c61b10e-9cdc-471e-83d0-cf3e9b5eed4e",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83020,7 +82983,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83052,7 +83015,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-07",
     "official_url": "https://www.pacbellwagesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83084,7 +83047,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.pclidatasettlement.com/",
     "dead_reason": null
   },
@@ -83137,7 +83100,7 @@ window.SETTLEMENTS = [
         "url": "https://www.lasflorespipelinesystemsettlement.com/admin/api/connectedapps.cms.extensions/asset?id=bf23a738-d4b6-4bd5-b9cb-88b41f6c6551&languageId=1033&amp;inline=true"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83169,7 +83132,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-28",
     "official_url": "https://www.palletdatasettlement.com/claim-form-login/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83201,7 +83164,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-27",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83233,7 +83196,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-10",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83265,7 +83228,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-06-10",
     "official_url": "https://forms.krollsettlementadministration.com/DynamicForms2/8707/Form/06aab855-53c3-4e12-b472-42ccaa0f7f77",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83297,7 +83260,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": "https://www.panerasettlement.com/files/Claim%20Form%20FINAL.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83329,7 +83292,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-01",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://panoramaeyecaresettlement.com/",
     "dead_reason": null
   },
@@ -83361,7 +83324,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-05",
     "official_url": "https://www.claimform.papajohnsemployeesettlement.com/login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83393,7 +83356,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-11-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://papedawsondataincidentsettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -83425,7 +83388,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-19",
     "official_url": "https://www.paradisefloridasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83466,7 +83429,7 @@ window.SETTLEMENTS = [
         "url": "https://www.americanlegal.com/request-document/dcbd53651fb63b5f756f38a0d2a399a0"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83496,10 +83459,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2025-03-13",
-    "official_url": "https://www.parkmobilesettlement.com/",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": "https://www.parkmobilesettlement.com/submit-claim",
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.parkmobilesettlement.com/",
     "dead_reason": null
   },
   {
@@ -83535,7 +83498,7 @@ window.SETTLEMENTS = [
         "url": "https://parksitesettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83567,7 +83530,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-28",
     "official_url": "https://parrotislandsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83599,7 +83562,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-01",
     "official_url": "https://www.patelcosettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83631,7 +83594,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-25",
     "official_url": "https://www.pathfindervillageapartmentsclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83663,7 +83626,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83695,7 +83658,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-19",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://patreonsettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -83732,7 +83695,7 @@ window.SETTLEMENTS = [
         "url": "https://pattonvsbiolauniversitysettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83764,7 +83727,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-13",
     "official_url": "https://www.paycomdatasettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83813,7 +83776,7 @@ window.SETTLEMENTS = [
         "url": "https://payscalesettlement.com/download/a0fc83a2-f064-4877-a34c-aac2af2a2a34"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83845,7 +83808,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-14",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://pbocpricingsettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -83877,7 +83840,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83909,7 +83872,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-21",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.carenewalsettlementpeacocktv.com/Home/SubmitClaim",
     "dead_reason": null
   },
@@ -83946,7 +83909,7 @@ window.SETTLEMENTS = [
         "url": "https://peerstardatabreachsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -83978,7 +83941,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-07",
     "official_url": "https://www.pegasystemssecuritiessettlement.com/file-claim.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84010,7 +83973,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-12",
     "official_url": "https://www.claimform.penncollegecovidsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84042,7 +84005,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-18",
     "official_url": "https://www.pennstatetuitionrefundsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84074,7 +84037,7 @@ window.SETTLEMENTS = [
     "claim_deadline": null,
     "official_url": "https://pensacolanaturalgasclassactionsettlement.com/files/Frank%20v.%20COP%20Claim%20Form%20v5%20Fillable.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84106,7 +84069,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-26",
     "official_url": "https://pentegra401ksettlement.com/wp-content/uploads/2025/09/Pentegra_ClaimForm_Former_Downloadable.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84147,7 +84110,7 @@ window.SETTLEMENTS = [
         "url": "https://peoplefactsfcraclassaction.com/download/9f2f7a45-0f49-4f8f-9464-83275a0578f1"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84179,7 +84142,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-23",
     "official_url": "https://www.peoplesbanksettlement.com/frequently-asked-questions.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84211,7 +84174,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-21",
     "official_url": "https://www.pbvsettlement.com/files/Baldwin",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84243,7 +84206,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84312,7 +84275,7 @@ window.SETTLEMENTS = [
         "url": "https://assets.website-files.com/6202b0ef5ef47925ca787026/6246473f6466e55b41518a15_CPT-Group-Website-Privacy-Policy-2019.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84344,7 +84307,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-25",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84376,7 +84339,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-22",
     "official_url": "https://pfgnicotinesurchargesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84417,7 +84380,7 @@ window.SETTLEMENTS = [
         "url": "https://abdatacaadstorage1.blob.core.windows.net/privacy/PrivacyPolicy.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84454,7 +84417,7 @@ window.SETTLEMENTS = [
         "url": "https://abdatacaadstorage1.blob.core.windows.net/privacy/PrivacyPolicy.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84486,7 +84449,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-25",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84518,7 +84481,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-13",
     "official_url": "https://pglidatabreach.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84550,7 +84513,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-17",
     "official_url": "https://www.pharmalogisticssettlement.com/claim-form-login/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84582,7 +84545,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-28",
     "official_url": "https://phcdataincidentsettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84614,7 +84577,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-21",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84646,7 +84609,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-11",
     "official_url": "https://secure.phhmisettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84678,7 +84641,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-26",
     "official_url": "https://inquirerclassactionsettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84710,7 +84673,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-09",
     "official_url": "https://respironicscpap-elsettlement.com/payer-form",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84742,7 +84705,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-18",
     "official_url": "https://www.phillyinquirersettlement.com/media/5206213/phin_claim_form.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84779,7 +84742,7 @@ window.SETTLEMENTS = [
         "url": "https://phsdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84811,7 +84774,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-10-20",
     "official_url": "https://www.phvadasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84843,7 +84806,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-03",
     "official_url": "https://www.piercesettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84875,7 +84838,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-17",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84907,7 +84870,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-18",
     "official_url": "https://www.pillpacktcpaclassaction.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -84937,15 +84900,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2026-04-09",
-    "official_url": "https://pinehurstradiologysettlement.com/form/claim",
-    "documents": [
-      {
-        "label": "Important Documents",
-        "url": "https://pinehurstradiologysettlement.com/documents/"
-      }
-    ],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://pinehurstradiologysettlement.com/form/claim",
     "dead_reason": null
   },
   {
@@ -84974,10 +84932,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2024-12-19",
-    "official_url": "https://www.pinnaclepropanedatasettlement.com/",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": "https://pinnaclepropanedatasettlement.com/",
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.pinnaclepropanedatasettlement.com/",
     "dead_reason": null
   },
   {
@@ -85013,7 +84971,7 @@ window.SETTLEMENTS = [
         "url": "https://pixellegacyhealthsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85045,7 +85003,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-10",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85077,7 +85035,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-03-27",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.optoutpizzasettlement.com/claim-form-login/",
     "dead_reason": null
   },
@@ -85107,10 +85065,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2025-12-17",
-    "official_url": "https://plainridgeparkcasinosettlement.com/",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://plainridgeparkcasinosettlement.com/",
     "dead_reason": null
   },
   {
@@ -85141,7 +85099,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-14",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://phldatabreachsettlement.com/Login",
     "dead_reason": null
   },
@@ -85173,7 +85131,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-08",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85205,7 +85163,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85242,7 +85200,7 @@ window.SETTLEMENTS = [
         "url": "https://safefleetdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85274,7 +85232,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85306,7 +85264,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-21",
     "official_url": "https://www.playtikasecuritiessettlement.com/faqs",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85338,7 +85296,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-19",
     "official_url": "https://www.plumhealthcaresettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85370,7 +85328,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85402,7 +85360,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-24",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.plymouthtubecosettlement.com/Login",
     "dead_reason": null
   },
@@ -85434,7 +85392,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85466,7 +85424,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85498,7 +85456,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://californiamlosettlement.com/",
     "dead_reason": null
   },
@@ -85530,7 +85488,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2022-04-24",
     "official_url": "http://www.pncsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85562,7 +85520,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-12-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85594,7 +85552,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85626,7 +85584,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-20",
     "official_url": "https://poppisettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85658,7 +85616,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85690,7 +85648,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-20",
     "official_url": "https://porschepcmsettlement.com/Home/FileClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85722,7 +85680,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-27",
     "official_url": "https://www.sunroofdrainsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85754,7 +85712,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85786,7 +85744,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-09",
     "official_url": "https://poshtcpasettlement.com/wp-content/uploads/2025/07/GomezPosh_ClaimForm2.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85818,7 +85776,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-10",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.ilymgroup.com/potbellysandwich",
     "dead_reason": null
   },
@@ -85850,7 +85808,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-28",
     "official_url": "https://psibipasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85887,7 +85845,7 @@ window.SETTLEMENTS = [
         "url": "https://www.ppmtsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85919,7 +85877,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85951,7 +85909,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-03-14",
     "official_url": "https://practicemaxdatasettlement.com/Claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -85988,7 +85946,7 @@ window.SETTLEMENTS = [
         "url": "https://www.prcsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86020,7 +85978,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86052,7 +86010,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-02",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86084,7 +86042,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-26",
     "official_url": "https://suntrustoverdraftclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86116,7 +86074,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-21",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86148,7 +86106,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-21",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://prestigecaredatasettlement.pnclassaction.com/",
     "dead_reason": null
   },
@@ -86180,7 +86138,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-23",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86212,7 +86170,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86244,7 +86202,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86276,7 +86234,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-17",
     "official_url": "https://www.professionalfinancesettlement.com/files/PFC",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86308,7 +86266,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-21",
     "official_url": "https://www.nysalestaxsettlement.com/form/payment/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86340,7 +86298,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-26",
     "official_url": "https://proliancedatasettlement.com/files/Proliance%20-%20Claim%20Form.Final.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86372,7 +86330,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-14",
     "official_url": "https://www.prosmilesettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86404,7 +86362,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://prosserfordclassaction.com/form/claim/",
     "dead_reason": null
   },
@@ -86436,7 +86394,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://proterrasecuritiessettlement.com/file-online-claim-form/",
     "dead_reason": null
   },
@@ -86468,7 +86426,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-03",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.providenceepoasettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -86500,7 +86458,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-25",
     "official_url": "https://collinsfeesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86532,7 +86490,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-09",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86564,7 +86522,7 @@ window.SETTLEMENTS = [
     "claim_deadline": null,
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86596,7 +86554,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://pulszplatformssettlement.com/claim-form",
     "dead_reason": null
   },
@@ -86628,7 +86586,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-08",
     "official_url": "https://www.strategicclaims.net/claim-form-purecycle-technologies-inc-securities-litigation/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86660,7 +86618,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-20",
     "official_url": "https://purfoodsdatasettlement.com/files/Ex%20A%20-%20PurFoods%20-%20Claim%20Formv6.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86692,7 +86650,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-17",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86724,7 +86682,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-05",
     "official_url": "https://pvhmcsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86756,7 +86714,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-13",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/QCC/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86788,7 +86746,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-05",
     "official_url": "https://www.qtcdatasettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86820,7 +86778,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-07",
     "official_url": "https://www.foodrecallsettlement.com/faqs",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86852,7 +86810,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-08",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86884,7 +86842,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://quantumscapesettlement-aja5dwgaefdvfjhs.centralus-01.azurewebsites.net/",
     "dead_reason": null
   },
@@ -86916,7 +86874,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://quiettimeclassaction.com/form/claim/",
     "dead_reason": null
   },
@@ -86948,7 +86906,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -86980,7 +86938,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-10",
     "official_url": "https://qwpdatasettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87012,7 +86970,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-21",
     "official_url": "https://www.claimform.raacstockholdersettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87044,7 +87002,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-16",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87076,7 +87034,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-15",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.radiologysettlement.com/",
     "dead_reason": null
   },
@@ -87108,7 +87066,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-10",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.radiusfinancialsettlement.com/claim-form-login/",
     "dead_reason": null
   },
@@ -87165,7 +87123,7 @@ window.SETTLEMENTS = [
         "url": "https://rainoncologysettlement.com/wp-content/uploads/sites/2/2025/12/Final-Long-Notice-and-Claim-Form-Rain-Oncology-Chinese.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87197,7 +87155,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-19",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87229,7 +87187,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87261,7 +87219,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87298,7 +87256,7 @@ window.SETTLEMENTS = [
         "url": "https://rayussettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87330,7 +87288,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-28",
     "official_url": "https://www.rbadatasettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87362,7 +87320,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-24",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87394,7 +87352,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-16",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/RDC3/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87426,7 +87384,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.rcifingerprintsettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -87467,7 +87425,7 @@ window.SETTLEMENTS = [
         "url": "https://reamagnetsettlement.com/download/9f3294b2-47f1-4792-a03b-6b9f164a2117"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87499,7 +87457,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87531,7 +87489,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-09",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87563,7 +87521,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-09",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87595,7 +87553,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-28",
     "official_url": "https://cassidytcpaclaimssettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87627,7 +87585,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87659,7 +87617,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-02",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87691,7 +87649,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-15",
     "official_url": "https://realtytcpasettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87728,7 +87686,7 @@ window.SETTLEMENTS = [
         "url": "https://rebounddatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87760,7 +87718,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-01",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87792,7 +87750,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://recologydatasettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -87824,7 +87782,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-25",
     "official_url": "https://reconafricaussecuritiessettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87856,7 +87814,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-09",
     "official_url": "https://redcrosserisasettlement.com/wp-content/uploads/2025/08/RedCross_ClaimForm_Former.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87886,10 +87844,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2025-08-05",
-    "official_url": "https://www.redroofdatasettlement.com/pdf/RED_ROOF_Claim_Form_FINAL.pdf",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.redroofdatasettlement.com/pdf/RED_ROOF_Claim_Form_FINAL.pdf",
     "dead_reason": null
   },
   {
@@ -87925,7 +87883,7 @@ window.SETTLEMENTS = [
         "url": "https://redeemerhpixelsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87957,7 +87915,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-28",
     "official_url": "https://www.strategicclaims.net/claim-form-redwire-corporation-securities-litigation/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -87989,7 +87947,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-16",
     "official_url": "https://www.refrescodatabreach.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88021,7 +87979,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-11-02",
     "official_url": "https://www.refrigeratorsettlement.com/faqs",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88053,7 +88011,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/RHC2/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88085,7 +88043,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-21",
     "official_url": "https://regalticketfeesettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88117,7 +88075,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-24",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://reidhospitalpixelsettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -88149,7 +88107,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-21",
     "official_url": "https://connector-settlement.com/en/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88181,7 +88139,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-05-23",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88213,7 +88171,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-17",
     "official_url": "https://reprosourcesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88245,7 +88203,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88277,7 +88235,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-15",
     "official_url": "https://www.restaurantlistingsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88309,7 +88267,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-12",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://restekdatasettlement.com/wp-content/uploads/2025/10/Retorick_ClaimForm.pdf",
     "dead_reason": null
   },
@@ -88341,7 +88299,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88373,7 +88331,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-21",
     "official_url": "https://retinagroupdatasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88410,7 +88368,7 @@ window.SETTLEMENTS = [
         "url": "https://abdatacaadstorage1.blob.core.windows.net/privacy/PrivacyPolicy.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88442,7 +88400,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-24",
     "official_url": "https://secure.revancesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88499,7 +88457,7 @@ window.SETTLEMENTS = [
         "url": "https://www.reventicsdatasettlement.com/Content/Docs/5059_Reventics_Long%20Notice%20Form_Updated.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88536,7 +88494,7 @@ window.SETTLEMENTS = [
         "url": "https://rfkracingdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88568,7 +88526,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-16",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88605,7 +88563,7 @@ window.SETTLEMENTS = [
         "url": "https://www.rfmgdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88637,7 +88595,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": "https://ribridgesdatasettlement.com/files/Deloitte%20-%20Exhibit%203%20-%20Claim%20Form%20-%20Final_V1.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88669,7 +88627,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-01",
     "official_url": "http://richmondhillfirefeessettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88706,7 +88664,7 @@ window.SETTLEMENTS = [
         "url": "https://rinadatabreachsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88738,7 +88696,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-11",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.ringcaliforniaprotectplansettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -88770,7 +88728,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-08",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://riseclasssettlement.com/claim/",
     "dead_reason": null
   },
@@ -88802,7 +88760,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-11",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://risespisettlement.com/wp-content/uploads/2024/11/Roper_ClaimForm.pdf",
     "dead_reason": null
   },
@@ -88839,7 +88797,7 @@ window.SETTLEMENTS = [
         "url": "https://ritchieesopsettlement.com/wp-content/uploads/2025/10/Imber_Notice.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88871,7 +88829,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://riteaiddatasettlement.com/files/Rite%20Aid_Claim%20Form_FINAL.pdf",
     "dead_reason": null
   },
@@ -88903,7 +88861,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-24",
     "official_url": "https://secure.riversidegftsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88935,7 +88893,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-26",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.riversidepixelsettlement.com/",
     "dead_reason": null
   },
@@ -88967,7 +88925,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -88999,7 +88957,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89031,7 +88989,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-16",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89063,7 +89021,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-23",
     "official_url": "https://www.rmucovidsettlement.com/claims_filing.html",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89095,7 +89053,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89127,7 +89085,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-18",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.roadmastercdlsettlement.com/",
     "dead_reason": null
   },
@@ -89159,7 +89117,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89191,7 +89149,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-06",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.rhccdataincidentsettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -89223,7 +89181,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-06-15",
     "official_url": "https://robinhoodoutagesclassaction.com/PaymentElection",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89255,7 +89213,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89287,7 +89245,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-02",
     "official_url": "https://rocdatasettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89319,7 +89277,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://rockcenterticketfeesettlement.com/Home/SubmitClaim",
     "dead_reason": null
   },
@@ -89351,7 +89309,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-02",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.rockymountainsettlement.com/form/claim",
     "dead_reason": null
   },
@@ -89383,7 +89341,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-02",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.rbhpixelsettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -89415,7 +89373,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-28",
     "official_url": "https://romeospacstockholdersettlement.com/file-claim.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89447,7 +89405,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89479,7 +89437,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://rooseveltsettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -89516,7 +89474,7 @@ window.SETTLEMENTS = [
         "url": "https://rpldatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89548,7 +89506,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-03-15",
     "official_url": "https://secureforms.krollsettlementadministration.com/DynamicForms2/6663/Form/a79c3992-55ca-468e-a65e-448651431da2",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89580,7 +89538,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89612,7 +89570,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89644,7 +89602,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89676,7 +89634,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.advertisementdiscountsettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -89708,7 +89666,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-18",
     "official_url": "https://rusnakcorpsettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89745,7 +89703,7 @@ window.SETTLEMENTS = [
         "url": "https://rxolastmilesettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89777,7 +89735,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-13",
     "official_url": "https://saatvamattresssettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89809,7 +89767,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89841,7 +89799,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-18",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89873,7 +89831,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-07-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89905,7 +89863,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-09-24",
     "official_url": "https://saghpsettlement.com/files/2025.10.27%20-%20In%20Re%20SAG%20Health%20Data%20Breach%20Exhibit%20A%20-%20Claim%20Form%20(Final",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -89937,7 +89895,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://sahsettlement.com/files/2024CH00940",
     "dead_reason": null
   },
@@ -89969,7 +89927,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-19",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.saintanthonybipasettlement.com/",
     "dead_reason": null
   },
@@ -90001,7 +89959,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90033,7 +89991,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90065,7 +90023,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-04",
     "official_url": "https://salesforceerisasettlement.com/wp-content/uploads/2024/11/Salesforce_ClaimForm_Former.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90097,7 +90055,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-12-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://saludclassaction.com/en/Home/SubmitClaim",
     "dead_reason": null
   },
@@ -90129,7 +90087,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-09",
     "official_url": "https://sanfrancisco49erssettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90161,7 +90119,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-03",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://sangorgoniosettlement.com/files/San",
     "dead_reason": null
   },
@@ -90193,7 +90151,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-09",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.sanchezdriverslicensesuspensionsettlement.com/",
     "dead_reason": null
   },
@@ -90225,7 +90183,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://sandridgedatasettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -90257,7 +90215,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-17",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90289,7 +90247,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-28",
     "official_url": "https://saoftasettlement.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90321,7 +90279,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-08",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.satellitehealthcaresettlement.com/",
     "dead_reason": null
   },
@@ -90353,7 +90311,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-24",
     "official_url": "https://www.sb-bankfeesettlement.com/faqs",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90385,7 +90343,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-24",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90417,7 +90375,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-23",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90449,7 +90407,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-02",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90481,7 +90439,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-26",
     "official_url": "https://sciplaysettlement.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90513,7 +90471,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-02",
     "official_url": "https://scottoverdraftfeesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90545,7 +90503,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90577,7 +90535,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-20",
     "official_url": "https://scssettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90609,7 +90567,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-20",
     "official_url": "https://sdcalignersettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90641,7 +90599,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-27",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://sdfcivypixelsettlement.pnclassaction.com/",
     "dead_reason": null
   },
@@ -90678,7 +90636,7 @@ window.SETTLEMENTS = [
         "url": "https://www.sdusddatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90710,7 +90668,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-07",
     "official_url": "https://www.seaofferingssettlement.com/media/5682399/saof_pocgi_poc_final_web.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90742,7 +90700,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90774,7 +90732,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-14",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://seattlearenafeesettlement.pnclassaction.com/",
     "dead_reason": null
   },
@@ -90806,7 +90764,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-05",
     "official_url": "https://seattlehadataincident.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90838,7 +90796,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-27",
     "official_url": "https://securityengineerssettlement.com/Content/Documents/Questionnaire.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90870,7 +90828,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.securityfirstdeductiblesettlement.com/Request-an-Electronic-Payment/PageControl/Authentication",
     "dead_reason": null
   },
@@ -90902,7 +90860,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-16",
     "official_url": "https://www.seeticketsusdataincidentsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90934,7 +90892,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-09",
     "official_url": "https://selfbankfeessettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90966,7 +90924,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-09",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -90998,7 +90956,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.selffinancialsettlement.com/",
     "dead_reason": null
   },
@@ -91030,7 +90988,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-21",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91062,7 +91020,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-11",
     "official_url": "https://www.sequentialsecuritiessettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91094,7 +91052,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-07",
     "official_url": "https://sequoiadatasettlement.com/files/SEQUOIA%20BENEFITS%20Claim%20Form_draft_v5-%20no%20blue%20highlights.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91126,7 +91084,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-24",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91158,7 +91116,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-12-17",
     "official_url": "https://servicespotsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91190,7 +91148,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-04",
     "official_url": "https://setenviromentalsettlement.com/faq/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91222,7 +91180,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91254,7 +91212,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-01",
     "official_url": "https://www.sgrlawdatasettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91286,7 +91244,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-09-23",
     "official_url": "https://www.shannondellclassaction.com/pdf/claimform.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91335,7 +91293,7 @@ window.SETTLEMENTS = [
         "url": "https://shapermintpricingsettlement.com/download/9ff49858-26ad-483e-9665-b016bfe68932"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91372,7 +91330,7 @@ window.SETTLEMENTS = [
         "url": "https://abdatacaadstorage1.blob.core.windows.net/privacy/PrivacyPolicy.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91404,7 +91362,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-17",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91436,7 +91394,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-08",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://shawduffyssettlement.com/onlineclaim.cfm",
     "dead_reason": null
   },
@@ -91468,7 +91426,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-06",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://intunivantitrustsettlement.com/media/3tjfrxnj/intuniv-proof-of-claim-release-form-blank-12-3-2024.pdf",
     "dead_reason": null
   },
@@ -91498,10 +91456,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2025-06-18",
-    "official_url": "https://www.lenoxshlcsettlement.com/files/Claim",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.lenoxshlcsettlement.com/files/Claim",
     "dead_reason": null
   },
   {
@@ -91532,7 +91490,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-09-28",
     "official_url": "https://www.shoalssecuritiessettlement.com/media/6965996/v5_shls_poc_051326_final-web.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91589,7 +91547,7 @@ window.SETTLEMENTS = [
         "url": "https://www.shorelinesettlement.com/Content/Docs/4900_Shoreline_LongFormNotice_20250123.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91626,7 +91584,7 @@ window.SETTLEMENTS = [
         "url": "https://shrdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91658,7 +91616,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-09",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://sfdiscountsettlement.com/",
     "dead_reason": null
   },
@@ -91690,7 +91648,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-25",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91731,7 +91689,7 @@ window.SETTLEMENTS = [
         "url": "https://sierraclassaction.com/download/9ec119b4-0bc5-4c27-b04a-0a83fdeb1538"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91763,7 +91721,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-07",
     "official_url": "https://www.signaturedatabreachsettlement.com/media/6649069/sgpr_long_form_notice__english_.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91795,7 +91753,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-21",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91827,7 +91785,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-20",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91864,7 +91822,7 @@ window.SETTLEMENTS = [
         "url": "https://assets.website-files.com/6202b0ef5ef47925ca787026/6246473f6466e55b41518a15_CPT-Group-Website-Privacy-Policy-2019.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91896,7 +91854,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://sincerasettlement.com/",
     "dead_reason": null
   },
@@ -91928,7 +91886,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-09",
     "official_url": "https://www.singularitysecuritiessettlement.com/form/securities-claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91960,7 +91918,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-26",
     "official_url": "https://www.sxmtcpasettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -91992,7 +91950,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92049,7 +92007,7 @@ window.SETTLEMENTS = [
         "url": "https://sjclassactionredemption.com/wp-content/uploads/2025/01/2024.12.31-Fee-Mtn_MPA.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92081,7 +92039,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-11",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://skidmoresettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -92113,7 +92071,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-21",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.skybipasettlement.com/claim-form-login/",
     "dead_reason": null
   },
@@ -92150,7 +92108,7 @@ window.SETTLEMENTS = [
         "url": "https://assets.website-files.com/6202b0ef5ef47925ca787026/6246473f6466e55b41518a15_CPT-Group-Website-Privacy-Policy-2019.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92182,7 +92140,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-27",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://sltdatasettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -92214,7 +92172,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-10",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.hoaconveniencefeesettlement.com/",
     "dead_reason": null
   },
@@ -92246,7 +92204,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-09",
     "official_url": "https://www.smartdatasettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92278,7 +92236,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-18",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92310,7 +92268,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-22",
     "official_url": "https://smartstartdatasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92342,7 +92300,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://smilebrandsbreachsettlement.com/form/claim/authorized/",
     "dead_reason": null
   },
@@ -92391,7 +92349,7 @@ window.SETTLEMENTS = [
         "url": "https://www.americanlegal.com/request-document/e981278db1c811afe7fe793fa5577ef0"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92423,7 +92381,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-27",
     "official_url": "https://www.smokersurchargeclassaction.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92455,7 +92413,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-23",
     "official_url": "https://snapfinancedatasettlement.com/form/claim/authorized/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92487,7 +92445,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-06",
     "official_url": "https://www.claimform.snapsecuritiessettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92519,7 +92477,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-21",
     "official_url": "https://www.snbdatasettlement.com/purnell-v-summit-national-bank-claim-form-login/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92551,7 +92509,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-27",
     "official_url": "https://sodexowagesettlement.com/consent-to-join-wage-form",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92583,7 +92541,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-18",
     "official_url": "https://www.solartcpasettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92615,7 +92573,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92647,7 +92605,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-24",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92679,7 +92637,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-22",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92711,7 +92669,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://somniasettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -92743,7 +92701,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-12-19",
     "official_url": "https://forms.krollsettlementadministration.com/DynamicForms2/7681/Form/ad7f2a7b-15c3-4654-bb84-10b8a7d54dba",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92780,7 +92738,7 @@ window.SETTLEMENTS = [
         "url": "https://southernillinoishealthpixelsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92812,7 +92770,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92844,7 +92802,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://soaclassactionsettlement.com/",
     "dead_reason": null
   },
@@ -92876,7 +92834,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92913,7 +92871,7 @@ window.SETTLEMENTS = [
         "url": "https://southerntiernysettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92958,7 +92916,7 @@ window.SETTLEMENTS = [
         "url": "https://southwaycarrierssettlement.com/download/a09e5626-3ef9-4291-8d85-350d2eed54bb"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -92990,7 +92948,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-24",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://southwesterndatabreach.com/form/claim/",
     "dead_reason": null
   },
@@ -93022,7 +92980,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-23",
     "official_url": "https://www.sovosdataincidentsettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93054,7 +93012,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93086,7 +93044,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-01",
     "official_url": "https://www.spartandespacstockholdersettlement.com/Home/FAQ",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93118,7 +93076,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-04",
     "official_url": "https://specialtynetworksdatasettlement.com/files/Specialty%20Networks_Claim%20Form_Final.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93150,7 +93108,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-20",
     "official_url": "https://www.spectrumpharmaceuticalssecuritiessettlement.com/file-claim.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93207,7 +93165,7 @@ window.SETTLEMENTS = [
         "url": "https://www.spinxgamessettlement.com/admin/api/connectedapps.cms.extensions/asset?id=886b3e7e-5c7f-4ce8-92e8-d27d9d89fbe8&languageId=1033&amp;inline=true"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93239,7 +93197,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": "https://www.spiritaerosecuritiessettlement.com/Claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93271,7 +93229,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-10",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://spiritcarryonbagfeesettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -93303,7 +93261,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-10",
     "official_url": "https://splishsplashticketfeesettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93335,7 +93293,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93367,7 +93325,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-27",
     "official_url": "https://sportsquadpaddlesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93399,7 +93357,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-07",
     "official_url": "https://garciniaclassaction.com/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93431,7 +93389,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93463,7 +93421,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93495,7 +93453,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-03-06",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.stannclassaction.com/claims-login/",
     "dead_reason": null
   },
@@ -93527,7 +93485,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.medicalbillingsettlement.com/stadler-v-st-croix-claim-form-login/",
     "dead_reason": null
   },
@@ -93559,7 +93517,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://stjosephhealthdataincidentsettlement.com/files/SJC",
     "dead_reason": null
   },
@@ -93591,7 +93549,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-09-14",
     "official_url": "https://www.stjosephpixelsettlement.com/files/Fiorillo%20v.%20St.%20Joseph%20Hospital%20of%20Nashua%20NH%20Claim%20Form%20v7.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93623,7 +93581,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-20",
     "official_url": "https://www.stjosephsdatasettlement.com/gilmore-v-st-josephs-claim-form-login/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93680,7 +93638,7 @@ window.SETTLEMENTS = [
         "url": "https://stableroadsecuritiessettlement.com/wp-content/uploads/2024/04/4-2024-04-23-Order-Approving-Plan-dckt-212_0.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93712,7 +93670,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-08",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/SBC3/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93744,7 +93702,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-27",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93776,7 +93734,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-27",
     "official_url": "https://stanleysteemersettlement.com/Claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93808,7 +93766,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-19",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://deckerbankfeesettlement.com/",
     "dead_reason": null
   },
@@ -93865,7 +93823,7 @@ window.SETTLEMENTS = [
         "url": "http://www.packagedseafoodantitrustcfpclass.com/home/1521/DocumentHandler?docPath=/Documents/Order_Granting_Motion_for_Preliminary_Approval.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93897,7 +93855,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93929,7 +93887,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-03-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93961,7 +93919,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-03",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -93993,7 +93951,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94025,7 +93983,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-22",
     "official_url": "https://www.stlmediumsecurityinstitutionclassaction.com/cody-v-city-of-st-louis-claim-form-login/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94057,7 +94015,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-26",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://stlouisuniversitydataincident.pnclassaction.com/",
     "dead_reason": null
   },
@@ -94089,7 +94047,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-08",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94121,7 +94079,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-27",
     "official_url": "https://www.stonecosecuritiessettlement.com/media/6436695/stoneco_securities_settlement_-_claim_form.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94162,7 +94120,7 @@ window.SETTLEMENTS = [
         "url": "https://storespacesettlement.com/docs/SettlementAgreement.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94194,7 +94152,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-01",
     "official_url": "https://storrdatasettlement.com/wp-content/uploads/2026/01/AllenStorr_ClaimForm.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94226,7 +94184,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-28",
     "official_url": "https://www.streamlabsclassactionsettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94258,7 +94216,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-11",
     "official_url": "https://www.strategicclaims.net/claim-form-stronghold-securities-settlement/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94295,7 +94253,7 @@ window.SETTLEMENTS = [
         "url": "https://stsaviationsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94352,7 +94310,7 @@ window.SETTLEMENTS = [
         "url": "https://studioonesettlement.com/documents"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94384,7 +94342,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-16",
     "official_url": "https://www.subarufuelpumpssettlement.com/admin/api/connectedapps.cms.extensions/asset",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94416,7 +94374,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-21",
     "official_url": "https://www.subaruwindshieldsettlement.com/claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94448,7 +94406,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-03",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94478,10 +94436,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2026-06-28",
-    "official_url": "https://www.suffolkdatasettlement.com/claims_filing.html",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.suffolkdatasettlement.com/claims_filing.html",
     "dead_reason": null
   },
   {
@@ -94512,7 +94470,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": "https://summervilleclasssettlement.com/wp-content/uploads/2025/06/Summerville-Election-Form.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94544,7 +94502,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-28",
     "official_url": "https://www.strategicclaims.net/case/suncommunities/form",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94576,7 +94534,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-01",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://suncoastsettlement.pnclassaction.com/",
     "dead_reason": null
   },
@@ -94613,7 +94571,7 @@ window.SETTLEMENTS = [
         "url": "https://www.sunflowersettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94645,7 +94603,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-10",
     "official_url": "https://www.strategicclaims.net/claim-form-sunlight-financial-holdings-inc-securities-litigation/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94694,7 +94652,7 @@ window.SETTLEMENTS = [
         "url": "https://www.sunpowersecuritiessettlement.com/important-documents"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94751,7 +94709,7 @@ window.SETTLEMENTS = [
         "url": "https://www.cptgroupcaseinfo.com/SunriseSeniorLivingClassAction/Sunrise_ExclusionForm_20240826.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94783,7 +94741,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-02",
     "official_url": "https://www.superiorambulancesettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94815,7 +94773,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-11",
     "official_url": "https://www.supplements-settlement.com/claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94847,7 +94805,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-20",
     "official_url": "https://surefiresettlement.com/claims_filing.html",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94888,7 +94846,7 @@ window.SETTLEMENTS = [
         "url": "https://www.surplusproceedssettlement.com/notice.html"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94920,7 +94878,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-21",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94952,7 +94910,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-10",
     "official_url": "https://www.strategicclaims.net/case/sutter-health-erisa-litigation/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -94984,7 +94942,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-28",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/SPC1/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95016,7 +94974,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95048,7 +95006,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-26",
     "official_url": "https://swimmersettlement.com/verification-form.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95080,7 +95038,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-03",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/SRC1/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95112,7 +95070,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-06",
     "official_url": "https://sxusettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95144,7 +95102,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-04",
     "official_url": "https://www.strategicclaims.net/ESPPSettlement/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95176,7 +95134,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-12",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.synergydatasecuritysettlement.com/Login",
     "dead_reason": null
   },
@@ -95208,7 +95166,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-08",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://sysinformationdatasettlement.com/Login",
     "dead_reason": null
   },
@@ -95240,7 +95198,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-03",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://systemseastsettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -95304,7 +95262,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95336,7 +95294,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-09",
     "official_url": "https://www.tailoredlivingsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95368,7 +95326,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95400,7 +95358,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-01",
     "official_url": "https://tmhclassaction.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95437,7 +95395,7 @@ window.SETTLEMENTS = [
         "url": "https://www.tallahasseepixelsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95469,7 +95427,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-03",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95501,7 +95459,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-06",
     "official_url": "https://tampasettlement.com/files/Jewell",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95538,7 +95496,7 @@ window.SETTLEMENTS = [
         "url": "https://tangoeusdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95570,7 +95528,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-23",
     "official_url": "https://tapairportugalsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95602,7 +95560,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-05",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95643,7 +95601,7 @@ window.SETTLEMENTS = [
         "url": "https://www.tarodataincidentsettlement.com/pdf/Long_Form_Notice_Final.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95675,7 +95633,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-16",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95707,7 +95665,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-18",
     "official_url": "https://tfilbipasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95744,7 +95702,7 @@ window.SETTLEMENTS = [
         "url": "https://www.tbjdrywallsettlement.com/wp-content/uploads/2024/10/TBJ-Notice-Claim-Form_forWebsite.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95776,7 +95734,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95808,7 +95766,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95840,7 +95798,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-10",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://tcpasettlementng.com/files/Nexgen%201%20-%20CLAIM%20FORM%20-%20v3%20-%20counsel%20approved%20FINAL.pdf",
     "dead_reason": null
   },
@@ -95881,7 +95839,7 @@ window.SETTLEMENTS = [
         "url": "https://tdbankbusinessaccountclassaction.com/Home/Documents"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95913,7 +95871,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95954,7 +95912,7 @@ window.SETTLEMENTS = [
         "url": "https://www.fcramortgagesettlement.com/documents.aspx"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -95986,7 +95944,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-09-03",
     "official_url": "https://teamgroupdramsettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96018,7 +95976,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-23",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://tatdatasettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -96050,7 +96008,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-20",
     "official_url": "https://www.telescopesettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96082,7 +96040,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-26",
     "official_url": "https://docs.simpluris.com/websites/81db95de-9421-4526-a619-61ccf1b38b6f/documents/58378c58-db2a-49e5-8f37-28f23fdef50d/HomeExpressDeliveryService_Lopez%20-%20Claim%20Form%20-%20Generic_clean_07.19.2024.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96119,7 +96077,7 @@ window.SETTLEMENTS = [
         "url": "https://tempeldatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96151,7 +96109,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-26",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://templecovidsettlement.com/election-form/",
     "dead_reason": null
   },
@@ -96183,7 +96141,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-27",
     "official_url": "https://www.mckeysettlement.com/claimform.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96215,7 +96173,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96247,7 +96205,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-22",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96279,7 +96237,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-06-13",
     "official_url": "https://terraviasettlement.com/file-a-claim-online/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96311,7 +96269,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-03-07",
     "official_url": "https://solarroofsettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96343,7 +96301,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96375,7 +96333,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-09",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://thefortivesettlement.com/files/Fortive%20Claim%20Form%20FINAL.pdf",
     "dead_reason": null
   },
@@ -96407,7 +96365,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-07",
     "official_url": "https://thelocktondatasettlement.com/files/Lockton%20-%20Claim%20Form%20FINAL.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96439,7 +96397,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-22",
     "official_url": "https://themethodisthospitalssettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96471,7 +96429,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-09",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96503,7 +96461,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-06",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.parkerfcrasettlement.com/page/preclaim",
     "dead_reason": null
   },
@@ -96535,7 +96493,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-04",
     "official_url": "https://sheffieldsettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96567,7 +96525,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-10-18",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://standardmarketbipasettlement.com/",
     "dead_reason": null
   },
@@ -96599,7 +96557,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96631,7 +96589,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-16",
     "official_url": "https://themisvppasettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96663,7 +96621,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96704,7 +96662,7 @@ window.SETTLEMENTS = [
         "url": "https://www.rg2claims.com/pdf/jernigan/Claim_Form.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96736,7 +96694,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96768,7 +96726,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-13",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://clearprivacysettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -96809,7 +96767,7 @@ window.SETTLEMENTS = [
         "url": "https://www.americanlegal.com/request-document/618bb82254e3236c92b2cc5fe3f3bb7d"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96846,7 +96804,7 @@ window.SETTLEMENTS = [
         "url": "https://thriveworksprivacysettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96878,7 +96836,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-23",
     "official_url": "https://thsdatasettlement.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96910,7 +96868,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96942,7 +96900,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -96974,7 +96932,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97006,7 +96964,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97038,7 +96996,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-05",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://tmltsettlement.com/files/Client%20Approved%20-%20Bruno%20v%20TMLT%20-%20Claim%20Form%20v1.pdf",
     "dead_reason": null
   },
@@ -97070,7 +97028,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97102,7 +97060,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-28",
     "official_url": "https://www.smbaccountsettlement.com/t-mobile-login-form/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97134,7 +97092,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-04-08",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://tocsettlement.com/Home/SubmitClaim",
     "dead_reason": null
   },
@@ -97166,7 +97124,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-09-10",
     "official_url": "https://www.toothpastesettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97198,7 +97156,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-19",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://torridclassaction.com/files/Torrid%20Claim%20Form%20Final.pdf",
     "dead_reason": null
   },
@@ -97230,7 +97188,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-07",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.totalsecuritysettlement.com/LogIn",
     "dead_reason": null
   },
@@ -97262,7 +97220,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-07",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://pickettbankfeesettlement.com/",
     "dead_reason": null
   },
@@ -97294,7 +97252,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://toyota.airbagrecyclersettlement.com/home/4633/DocumentHandler",
     "dead_reason": null
   },
@@ -97326,7 +97284,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-28",
     "official_url": "https://toyotacaliforniahvacsettlement.com/Content/Documents/Claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97358,7 +97316,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-02",
     "official_url": "https://www.toyotaechosettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97390,7 +97348,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-07-01",
     "official_url": "https://rav4batteryassemblysettlement.com/CheckVIN",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97422,7 +97380,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-05",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97454,7 +97412,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-15",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.transakusasettlement.com/form/claim/",
     "dead_reason": null
   },
@@ -97495,7 +97453,7 @@ window.SETTLEMENTS = [
         "url": "https://www.transamsettlement.com/third-amended-complaint/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97527,7 +97485,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-01",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97557,19 +97515,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2025-07-22",
-    "official_url": "https://www.transuniondisputeclassaction.com/page/faq",
-    "documents": [
-      {
-        "label": "Settlement Agreement",
-        "url": "https://www.transuniondisputeclassaction.com/request-document/f8fcadf86225cb4f9fe118ed30c8081e"
-      },
-      {
-        "label": "Long Form Notice",
-        "url": "https://www.americanlegal.com/request-document/7460f63030a4c316f525cfa9eb213553"
-      }
-    ],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.transuniondisputeclassaction.com/page/faq",
     "dead_reason": null
   },
   {
@@ -97600,7 +97549,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-09-21",
     "official_url": "https://www.rentalscreeningsettlement.com/23b2",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97632,7 +97581,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97664,7 +97613,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-01",
     "official_url": "https://www.travelfeesettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97696,7 +97645,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97728,7 +97677,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-26",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.georgiatavtsettlement.com/Home/Closed",
     "dead_reason": null
   },
@@ -97760,7 +97709,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-02",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97792,7 +97741,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-14",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/BTH3/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97849,7 +97798,7 @@ window.SETTLEMENTS = [
         "url": "https://trhtcpasettlement.com/download/a065adee-bb8e-4b93-85a9-fcde967c8996"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97902,7 +97851,7 @@ window.SETTLEMENTS = [
         "url": "https://www.tricountiessettlement.com/Content/Docs/Conformed%20Final%20Approval%20Order.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97934,7 +97883,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-10",
     "official_url": "https://www.trideltadatasettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97966,7 +97915,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-16",
     "official_url": "https://tricidasecuritiessettlement.com/files/Tricida-Claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -97998,7 +97947,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-12",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.tridentdatabreach.com/form/claim/",
     "dead_reason": null
   },
@@ -98030,7 +97979,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98067,7 +98016,7 @@ window.SETTLEMENTS = [
         "url": "https://trinitypetroleumsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98099,7 +98048,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-21",
     "official_url": "https://www.trionfosettlement.com/files/Trionfo",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98131,7 +98080,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-24",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98163,7 +98112,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98195,7 +98144,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-12",
     "official_url": "https://truepillsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98227,7 +98176,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98259,7 +98208,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-24",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://tsc900settlement.com/files/Perez",
     "dead_reason": null
   },
@@ -98291,7 +98240,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-07-24",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98323,7 +98272,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-22",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98355,7 +98304,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-18",
     "official_url": "https://www.tupperwaresecuritiessettlement.com/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98387,7 +98336,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-28",
     "official_url": "https://www.turbochargersettlement.com/vin-lookup",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98419,7 +98368,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-08-24",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98451,7 +98400,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98483,7 +98432,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-28",
     "official_url": "https://www.tusimplesecuritiessettlement.com/file-claim.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98515,7 +98464,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-21",
     "official_url": "https://www.tylerdatasettlement.com/claim-form-login/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98547,7 +98496,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-08-08",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98579,7 +98528,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-08-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98611,7 +98560,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": "https://ubernyagsettlement.com/File-a-Claim/PageControl/InformationPage",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98643,7 +98592,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-02-08",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://nyubereatssettlement.com/",
     "dead_reason": null
   },
@@ -98675,7 +98624,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-28",
     "official_url": "https://www.uberlyftmassagosettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98707,7 +98656,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-05",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98739,7 +98688,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98771,7 +98720,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-03",
     "official_url": "https://www.ucsdhealthbreachsettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98803,7 +98752,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-02",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98835,7 +98784,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-16",
     "official_url": "https://ufcfighterclassaction.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98867,7 +98816,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-23",
     "official_url": "https://www.uhauldatasettlement.com",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98899,7 +98848,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-21",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/UBC1/CLAIM_FORM",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98948,7 +98897,7 @@ window.SETTLEMENTS = [
         "url": "https://ultimatecareincsettlement.com/download/a142db1c-df2c-4b03-b49d-fd9f726340ee"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -98980,7 +98929,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-10",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99012,7 +98961,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99044,7 +98993,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-01-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://wooplaplatformsettlement.com/claim-form",
     "dead_reason": null
   },
@@ -99076,7 +99025,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99108,7 +99057,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-12",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99145,7 +99094,7 @@ window.SETTLEMENTS = [
         "url": "https://unitedsurgicalerisasettlement.com/wp-content/uploads/2025/08/PerkinsUnitedSurgical_LongFormNotice2.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99202,7 +99151,7 @@ window.SETTLEMENTS = [
         "url": "https://www.unitedtcpaclassaction.com/pdf/claim.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99234,7 +99183,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-12",
     "official_url": "https://www.unitedhealthgrouperisasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99266,7 +99215,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-15",
     "official_url": "https://www.uniteheresettlement.com/files/In",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99298,7 +99247,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-20",
     "official_url": "https://universityhospitalssettlement.com/files/Doe",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99330,7 +99279,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-01-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99362,7 +99311,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-11-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99394,7 +99343,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-17",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99426,7 +99375,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-08",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99458,7 +99407,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-04",
     "official_url": "https://upholdclassactionsettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99490,7 +99439,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-04-21",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.uponordatasettlement.com/",
     "dead_reason": null
   },
@@ -99522,7 +99471,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-24",
     "official_url": "https://www.claimform.upstreamdatasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99554,7 +99503,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99586,7 +99535,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-21",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99623,7 +99572,7 @@ window.SETTLEMENTS = [
         "url": "https://usmssettlement.com/wp-content/uploads/2023/09/Notice-Redline.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99655,7 +99604,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-11",
     "official_url": "https://usmortgagetcpasettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99687,7 +99636,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99719,7 +99668,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-14",
     "official_url": "https://usaabankclassaction.info",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99751,7 +99700,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-21",
     "official_url": "https://usaadatasettlement.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99788,7 +99737,7 @@ window.SETTLEMENTS = [
         "url": "https://uscfeesettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99820,7 +99769,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-24",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99852,7 +99801,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-03",
     "official_url": "https://www.strategicclaims.net/tds-securities-litigation-online-claim-form/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99884,7 +99833,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-27",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99916,7 +99865,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-09",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99948,7 +99897,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-03",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -99980,7 +99929,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100012,7 +99961,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": "https://sartanmedicationsettlement.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100044,7 +99993,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-10",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.valuefinancereposettlement.com/",
     "dead_reason": null
   },
@@ -100076,7 +100025,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-04-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100108,7 +100057,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-03",
     "official_url": "https://www.strategicclaims.net/case/vanguard/form/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100140,7 +100089,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-10",
     "official_url": "https://varneyvamericanfamilysettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100172,7 +100121,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-27",
     "official_url": "https://www.cheerantitrustsettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100204,7 +100153,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-13",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100236,7 +100185,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-20",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100268,7 +100217,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100300,7 +100249,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://venturacountycudatasettlement.com/files/VCCU%20Data%20Breach%20-%20Claim%20Form.pdf",
     "dead_reason": null
   },
@@ -100330,10 +100279,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2025-10-01",
-    "official_url": "https://venturelogisticsclassaction.com/files/Venture",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://venturelogisticsclassaction.com/files/Venture",
     "dead_reason": null
   },
   {
@@ -100364,7 +100313,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-19",
     "official_url": "https://www.strategicclaims.net/case/veon/form",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100396,7 +100345,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-26",
     "official_url": "https://veradigmdatasettlement.com/files/Goodrum%20et%20al%20v.%20Veradigm,%20Inc%20-%20Claim%20Form.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100428,7 +100377,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://verizonwagesettlement.com/Claim-Form/PageControl/InformationPage",
     "dead_reason": null
   },
@@ -100460,7 +100409,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-04-15",
     "official_url": "https://www.verizonadministrativechargesettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100492,7 +100441,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-22",
     "official_url": "https://www.veteransaffairsclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100524,7 +100473,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-07",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100556,7 +100505,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-02-19",
     "official_url": "https://docs.simpluris.com/websites/062fd601-2179-45ae-a336-8e402003236b/documents/ce73d178-cdc1-4ab5-be14-f368c478ece8/Claim%20Form.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100588,7 +100537,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-08-22",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100620,7 +100569,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-05",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100652,7 +100601,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-04",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100689,7 +100638,7 @@ window.SETTLEMENTS = [
         "url": "https://virgingalacticsecuritiessettlement.com/important-documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100721,7 +100670,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-09-20",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://vshandsanitizersettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -100753,7 +100702,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-09-20",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100785,7 +100734,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-26",
     "official_url": "https://virginiamasonprivacyclassaction.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100817,7 +100766,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-23",
     "official_url": "https://atmclassaction.com/Claims/Create",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100854,7 +100803,7 @@ window.SETTLEMENTS = [
         "url": "https://visionpointdatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100886,7 +100835,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-14",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100918,7 +100867,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-12-18",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.aerobuscallrecordingsettlement.com/",
     "dead_reason": null
   },
@@ -100950,7 +100899,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-06-28",
     "official_url": "https://sartanmedicationsettlement.pnclassaction.com/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -100982,7 +100931,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-19",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101035,7 +100984,7 @@ window.SETTLEMENTS = [
         "url": "https://www.vmrcdatasettlement.com/Content/Docs/Claim%20Form.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101067,7 +101016,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101099,7 +101048,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-08-27",
     "official_url": "https://www.strategicclaims.net/case/vnet/form",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101131,7 +101080,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2023-06-14",
     "official_url": "https://www.autoairbagsettlement.com/Volkswagen/en/Home/SubmitClaim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101163,7 +101112,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-15",
     "official_url": "https://secure.doorwiringharnesssettlement.com/lookup",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101195,7 +101144,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-07-17",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://aebsettlement.com/Portals/0/Document%20Files/Emily%20Dack%20v%20Volkswagen_VW_CFW.pdf",
     "dead_reason": null
   },
@@ -101227,7 +101176,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-24",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.primarywaterpumpsettlement.com/VIN-Lookup-Portal",
     "dead_reason": null
   },
@@ -101259,7 +101208,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-15",
     "official_url": "https://volunteerbaseballcoachsettlement.com/faq",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101291,7 +101240,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-08-22",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.vsibipasettlement.com/",
     "dead_reason": null
   },
@@ -101323,7 +101272,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-09-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101355,7 +101304,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-08",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101387,7 +101336,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-11-21",
     "official_url": "https://cw.simpluris.com/docs/public/downloads/JHC/NOTICE",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101419,7 +101368,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-03-20",
     "official_url": "https://wahearingaidsettlement.com/Login",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101451,7 +101400,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-01-21",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101481,10 +101430,10 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": "2024-09-25",
-    "official_url": "https://picklesettlement.com/submit-claim",
+    "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
-    "official_url_dead": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://picklesettlement.com/submit-claim",
     "dead_reason": null
   },
   {
@@ -101515,7 +101464,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://wakemedprivacysettlement.com/files/Weddle%20v.%20WakeMed%20-%20Claim%20Form%20v4.pdf",
     "dead_reason": null
   },
@@ -101572,7 +101521,7 @@ window.SETTLEMENTS = [
         "url": "https://walden-dba-settlement.com/wp-content/uploads/2024/10/Walden-Final-Approval-Order.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101604,7 +101553,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-28",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.waldentcpasettlement.com/page/preclaim",
     "dead_reason": null
   },
@@ -101641,7 +101590,7 @@ window.SETTLEMENTS = [
         "url": "https://www.walgreencosettlement.com/wp-content/uploads/2017/11/Naro-Walgreens-Notice-Amended.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101698,7 +101647,7 @@ window.SETTLEMENTS = [
         "url": "https://irp.cdn-website.com/22e69d11/files/uploaded/confrm_Ct+Signed+Order-f89700a8.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101739,7 +101688,7 @@ window.SETTLEMENTS = [
         "url": "https://www.americanlegal.com/request-document/ad4f90eb853fdb494204cbe49fdbd28f"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101771,7 +101720,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-16",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.wallcoveringsdatasettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -101803,7 +101752,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-06-28",
     "official_url": "https://walmartweightedgroceriessettlement.com/submit-claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101835,7 +101784,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-09-05",
     "official_url": null,
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": "https://www.walserbreachsettlement.com/submit-claim",
     "dead_reason": null
   },
@@ -101867,7 +101816,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-10-10",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101899,7 +101848,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-05",
     "official_url": "https://warrendatabreachsettlement.com/Claim",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101931,7 +101880,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-05-21",
     "official_url": "https://washingtondatasettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101963,7 +101912,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-28",
     "official_url": "https://www.wasserstromclassactionsettlement.com/form/claim/",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -101995,7 +101944,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2024-03-15",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102027,7 +101976,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-16",
     "official_url": "https://www.wastemanagementsettlement.com/file-claim.aspx",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102076,7 +102025,7 @@ window.SETTLEMENTS = [
         "url": "https://waterfordcountryschoolclassaction.com/download/9f2f98a8-e5ca-4c9b-82fa-8d6cca5ad571"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102113,7 +102062,7 @@ window.SETTLEMENTS = [
         "url": "https://watermarkservicessettlementinfo.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102145,7 +102094,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-03-26",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102202,7 +102151,7 @@ window.SETTLEMENTS = [
         "url": "https://wawafinancialinstitutionsettlement.com/wp-content/uploads/2024/09/Wawa-OrderAmendingDeadlines.pdf"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102234,7 +102183,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-10-01",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102271,7 +102220,7 @@ window.SETTLEMENTS = [
         "url": "https://wbccsettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102303,7 +102252,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-02-19",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102335,7 +102284,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-05",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102367,7 +102316,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-05-11",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102399,7 +102348,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2026-11-06",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102431,7 +102380,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-06-28",
     "official_url": null,
     "documents": null,
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102463,7 +102412,7 @@ window.SETTLEMENTS = [
     "claim_deadline": "2025-12-02",
     "official_url": "https://webtpasettlement.com/files/Harrell%20v.%20WebTPA%20Employer%20Services%20-%20Claim%20Form%20.pdf",
     "documents": [],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -102500,7 +102449,7 @@ window.SETTLEMENTS = [
         "url": "https://wecadatasettlement.com/documents/"
       }
     ],
-    "links_checked": "2026-09-17",
+    "links_checked": "2026-10-18",
     "official_url_dead": null,
     "dead_reason": null
   },
@@ -457107,422 +457056,6 @@ window.SETTLEMENTS = [
     "dead_reason": null
   },
   {
-    "id": "claimdepot-apple-iphone7-audio-issues",
-    "case_name": "Apple $35 Million Settlement for iPhone 7 Audio Issues",
-    "short_name": "Apple $35 Million Settlement for iPhone 7 Audio Issues",
-    "defendant": "Apple",
-    "amount": 35000000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2024,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Owners of the iPhone 7 and iPhone 7 Plus in the United States who experienced audio issues between September 16, 2016, and January 3, 2023, may be eligible for compensation from a $35 million settlement fund established by Apple Inc. Eligible claimants can receive payments ranging from $50 to $349, depending on whether they paid for repairs or replacements, or simply reported the issues to Apple.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/apple-iphone7-audio-issues",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2024-07-18",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://smartphoneaudiosettlement.com/select-payment",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-bassinet-flex-settlement",
-    "case_name": "HALO BassiNest $1.5M No Proof Class Action Settlement",
-    "short_name": "HALO BassiNest $1.5M No Proof Class Action Settlement",
-    "defendant": "HALO BassiNest  No Proof",
-    "amount": 1500000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "If you purchased a HALO BassiNest before February 10, 2025, you may be eligible to claim up to $30 from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/bassinet-flex-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-10-09",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-boa-eipa-restraint-settlement",
-    "case_name": "Bank of America $2.85M Settlement for EIPA Violations",
-    "short_name": "Bank of America $2.85M Settlement for EIPA Violations",
-    "defendant": "Bank of America",
-    "amount": 2850000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "If you were a Bank of America account holder between 2009 and 2023, you may qualify for a cash payment from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/boa-eipa-restraint-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-06-18",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.eiparestraintsettlement.com/faq",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-cigna-covid-classaction-settlement",
-    "case_name": "Cigna COVID-19 Test $2.9M Class Action Settlement",
-    "short_name": "Cigna COVID-19 Test $2.9M Class Action Settlement",
-    "defendant": "Cigna COVID-19 Test",
-    "amount": 2900000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "If you submitted a COVID-19 test reimbursement claim to Cigna between 2020 and 2023, you may qualify to submit a claim for a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/cigna-covid-classaction-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-05-28",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.covid-class-action-settlement.com/submit-claim",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-dr-dennis-gross-skincare-false-advertising-settlement",
-    "case_name": "Dr. Dennis Gross Skincare $9.2M False Advertising Settlement",
-    "short_name": "Dr. Dennis Gross Skincare $9.2M False Advertising Settlement",
-    "defendant": "Dr. Dennis Gross Skincare  False Advertising",
-    "amount": 9200000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2024,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Eligible consumers can claim up to $50 per product in the Dr. Dennis Gross Skincare $9.2M settlement for false advertising. File your claim by 09/27/2024.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/dr-dennis-gross-skincare-false-advertising-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2024-10-28",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://cpluscollagenlawsuit.pnclassaction.com/",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-kaye-smith-data-breach-settlement",
-    "case_name": "Kaye-Smith Enterprises $2M Data Breach Settlement",
-    "short_name": "Kaye-Smith Enterprises $2M Data Breach Settlement",
-    "defendant": "Kaye-Smith Enterprises  Data Breach",
-    "amount": 2000000,
-    "category": "Data Breach",
-    "record_type": "Settlement",
-    "year": 2024,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "If you were affected by the Kaye-Smith data breach, you may be eligible to claim compensation from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/kaye-smith-data-breach-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-01-07",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.kayesmithsettlement.com/Login",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-payless-rental-settlement",
-    "case_name": "Payless Car Rental Fees $19M Class Action Settlement",
-    "short_name": "Payless Car Rental Fees $19M Class Action Settlement",
-    "defendant": "Payless Car Rental Fees",
-    "amount": 19000000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Consumers who rented a car from Payless in the U.S. from 2016-2023 and paid GSO or RSP fees may be eligible to receive up to $20 per rental from a settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/payless-rental-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-12-09",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://paylessrentalsettlement.com/faq",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-pet-safe-settlement",
-    "case_name": "PetSafe E-Collar California $1.9M Class Action Settlement",
-    "short_name": "PetSafe E-Collar California $1.9M Class Action Settlement",
-    "defendant": "PetSafe E-Collar California",
-    "amount": 1900000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Consumers who bought a PetSafe e-collar in California from Oct. 1, 2018, and Oct. 31, 2022, may qualify to claim $30 to $140 per product from a settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/pet-safe-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-01-26",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://petsafesettlement.com/submit-claim",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-sysco-cybersecurity-settlement",
-    "case_name": "Sysco Corp. $2.3M Data Breach Class Action Settlement",
-    "short_name": "Sysco Corp. $2.3M Data Breach Class Action Settlement",
-    "defendant": "Sysco Corp.  Data Breach",
-    "amount": 2300000,
-    "category": "Data Breach",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Consumers who received a postcard notice from Sysco about a 2023 data breach may qualify to claim a cash payment from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/sysco-cybersecurity-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-10-09",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://syscocybersecuritysettlement.com/files/Trottier",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-talen-energy-20000000-dollar-settlement",
-    "case_name": "Talen Energy Agrees to $20M Settlement in ERISA Class Action",
-    "short_name": "Talen Energy Agrees to $20M Settlement in ERISA Class Action",
-    "defendant": "Talen Energy Agrees to",
-    "amount": 20000000,
-    "category": "ERISA",
-    "record_type": "Settlement",
-    "year": 2024,
-    "status": "Settlement",
-    "court": "E.D. Pa.",
-    "court_full": null,
-    "judge": null,
-    "case_number": "5:20-cv-05975",
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Talen Energy agrees to a $20M settlement for ERISA violations. Find out if you qualify for a payment and how to claim your award.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/talen-energy-20000000-dollar-settlement-erisa-violations",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2024-08-09",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://talenpensionsettlement.com/files/24_03_18_Talen_FINAL_Rollover_Election_Form_website_v1_Yellow_Paper_4e28e74b4c_50ee883172.pdf",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-trustco-bank-nsf-overdraft-fees-settlement",
-    "case_name": "Trustco Bank $2.75 Million NSF & Overdraft Fees Settlement",
-    "short_name": "Trustco Bank $2.75 Million NSF & Overdraft Fees Settlement",
-    "defendant": "Trustco Bank  NSF & Overdraft Fees",
-    "amount": 2750000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2024,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "If you had a checking account with Trustco Bank and were charged NSF or overdraft fees, you may be eligible to claim from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/trustco-bank-nsf-overdraft-fees-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2024-11-26",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://trustcoclassactionsettlement.com/",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-viki-vppa-settlement",
-    "case_name": "Viki $8M Streaming Privacy Class Action Settlement",
-    "short_name": "Viki $8M Streaming Privacy Class Action Settlement",
-    "defendant": "Viki  Streaming Privacy",
-    "amount": 8000000,
-    "category": "Privacy",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Consumers who accessed videos on Viki.com and had a Facebook account between 2016 and 2024 may qualify to claim $30-$150 from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/viki-vppa-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-10-21",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.vikivppasettlement.com/form/claim/",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-vshred-privacy-esettlement",
-    "case_name": "V Shred LLC $4 Million Data Privacy Settlement",
-    "short_name": "V Shred LLC $4 Million Data Privacy Settlement",
-    "defendant": "V Shred LLC  Data Privacy",
-    "amount": 4000000,
-    "category": "Privacy",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Consumers who bought products or services from V Shred or took its online quiz may qualify to claim up to $10 from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/vshred-privacy-esettlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-09-10",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://vshredprivacyesettlement.com/files/Draft",
-    "dead_reason": null
-  },
-  {
     "id": "openclassactions-compucom-washington-job-postings-class-action-settlemen",
     "case_name": "CompuCom WA Job Postings Settlement: Est. $266.67 Each",
     "short_name": "CompuCom WA Job Postings Settlement: Est. $266.67 Each",
@@ -457580,95 +457113,6 @@ window.SETTLEMENTS = [
     "enrich_ver": "4",
     "dead": null,
     "claim_deadline": null,
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "catch-generac-pwrcell-solar-power-systems-class-action-settlement",
-    "case_name": "Generac PWRcell solar power systems class action settlement",
-    "short_name": "Generac PWRcell solar power systems class action settlement",
-    "defendant": "Generac PWRcell solar power systems",
-    "amount": null,
-    "category": "Product Liability",
-    "record_type": "Settlement",
-    "year": null,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Certain SnapRS components in Generac PWRcell solar systems were defective, causing overheating, failures, and reduced system performance. Generac agreed to a settlement to resolve claims without admitting wrongdoing. Eligible owners may receive cash payments and possible additional compensation for documented energy losses or repair costs.",
-    "source": "Catch",
-    "source_url": "https://www.choosecatch.com/settlements/generac-pwrcell-solar-power-systems-class-action-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": null,
-    "official_url": "https://www.generacsnapsettlement.com/",
-    "documents": [
-      {
-        "label": "Class Notice (Long Form)",
-        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/01/Long-Form-Notice-Final-5.11.2026.pdf"
-      },
-      {
-        "label": "Class Notice (Short Form)",
-        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/01/Short-Form-Notice-Final-5.11.2026.pdf"
-      },
-      {
-        "label": "Explanation of SnapRS Related PWRcell Error Codes and Recommended Acti",
-        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/02/Explanation-of-SnapRS-Related-PWRcell-Error-Codes-And-Recommended-Actions.pdf"
-      },
-      {
-        "label": "Mail-In Claim Form",
-        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/01/Claim-Form-Final-5.11.2026.pdf"
-      },
-      {
-        "label": "Settlement Agreement",
-        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/01/Exhibit-3-Settlement-Agreement-and-Class-Notice-Documents.pdf"
-      },
-      {
-        "label": "Consolidated Class Action Complaint",
-        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/02/US_DIS_WIED_2_23md3078_d40483783e15939_COMPLAINT_Consolidated_Class_Action_Complaint_with.pdf"
-      }
-    ],
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "classactionrebates-cytosport-class-action-settlement",
-    "case_name": "CytoSport &/or Muscle Milk Class Action Settlement - Class Action Rebates",
-    "short_name": "CytoSport &/or Muscle Milk Class Action Settlement - Class Action Rebates",
-    "defendant": "CytoSport &/or Muscle Milk",
-    "amount": null,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": null,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Class Eligibility There are two classes in this settlement: Shake & Powder. You may be a member of the Shake class settlement if you are a U.S. consumer who purchased Defendant’s: – Cytosport Whey Isolate Protein Drink; – Monster Milk: Protein Power Shake; – Genuine Muscle Milk: Protein Nutrition Shake; and – Muscle Milk Pro […]",
-    "source": "ClassActionRebates",
-    "source_url": "https://classactionrebates.com/settlements-1/cytosport-class-action-settlement/",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2020-09-16",
     "official_url": null,
     "documents": null,
     "links_checked": "2026-10-18",
@@ -457740,747 +457184,6 @@ window.SETTLEMENTS = [
     "dead_reason": null
   },
   {
-    "id": "claimdepot-8020-erisa-settlement",
-    "case_name": "80/20 Inc. $7 Million ESOP Class Action Settlement",
-    "short_name": "80/20 Inc. $7 Million ESOP Class Action Settlement",
-    "defendant": "80/20 Inc.  ESOP",
-    "amount": 7000000,
-    "category": "ERISA",
-    "record_type": "Settlement",
-    "year": 2026,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Participants in the 80/20 Inc. ESOP at the time of plan termination may be eligible to receive a pro rata share of a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/8020-erisa-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-07-14",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-aspen-dental-pixel-settlement",
-    "case_name": "Aspen Dental $18.7M Pixel Tracking Class Action Settlement",
-    "short_name": "Aspen Dental $18.7M Pixel Tracking Class Action Settlement",
-    "defendant": "Aspen Dental  Pixel Tracking",
-    "amount": 18700000,
-    "category": "Privacy",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Patients who booked an appointment online at Aspen Dental from Feb. 20, 2022, to Jan. 1, 2025, may qualify to claim a cash payment from a settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/aspen-dental-pixel-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-10-20",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.aspendentalpixelsettlement.com/form/claim/",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-displate-discount-settlement",
-    "case_name": "Displate.com $2.77M False Discount Class Action Settlement",
-    "short_name": "Displate.com $2.77M False Discount Class Action Settlement",
-    "defendant": "Displate.com  False Discount",
-    "amount": 2770000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Consumers who bought discounted Displate.com products in certain states since 2019 may qualify to claim $18 from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/displate-discount-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-08-01",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://displatesettlement.com/files/Displate",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-mm-rentals-uninhabitable-apartments",
-    "case_name": "M & M Rentals $1,000,000 Settlement Over Uninhabitable Apartments",
-    "short_name": "M & M Rentals $1,000,000 Settlement Over Uninhabitable Apartments",
-    "defendant": "M & M Rentals",
-    "amount": 1000000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2023,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Details about the settlement in the Cantonwine, et. al. v. John G. Mehos et. al. case, where tenants alleged their rights were violated by the defendants.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/mm-rentals-uninhabitable-apartments",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2024-01-09",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-nm-uim-settlement",
-    "case_name": "Progressive $1.77M UM/UIM Coverage Class Action Settlement",
-    "short_name": "Progressive $1.77M UM/UIM Coverage Class Action Settlement",
-    "defendant": "Progressive  UM/UIM Coverage",
-    "amount": 1770000,
-    "category": "Product Liability",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Consumers who purchased stacked UM/UIM coverage on a single vehicle in New Mexico may be eligible to claim a cash payment from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/nm-uim-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-02-26",
-    "official_url": "https://nmuimsettlement.com/Login",
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-red-oak-settlement",
-    "case_name": "Red Oak Sanitation $1.4M Labor Class Action Settlement",
-    "short_name": "Red Oak Sanitation $1.4M Labor Class Action Settlement",
-    "defendant": "Red Oak Sanitation  Labor",
-    "amount": 1400000,
-    "category": "Employment",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Red Oak Sanitation employees who worked as nonexempt drivers or helpers may qualify to claim a payment from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/red-oak-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-09-27",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://redoaksettlement.com/form/claim/",
-    "dead_reason": null
-  },
-  {
-    "id": "claimdepot-western-global-airlines-esop-settlement",
-    "case_name": "Western Global Airlines $14.5M ESOP Settlement",
-    "short_name": "Western Global Airlines $14.5M ESOP Settlement",
-    "defendant": "Western Global Airlines  ESOP",
-    "amount": 14500000,
-    "category": "ERISA",
-    "record_type": "Settlement",
-    "year": 2024,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "If you participated in the Western Global Airlines ESOP, you may be eligible to claim a share of $14,500,000 from a class action settlement.",
-    "source": "ClaimDepot",
-    "source_url": "https://www.claimdepot.com/settlements/western-global-airlines-esop-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-01-14",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://wgaesopsettlement.com/",
-    "dead_reason": null
-  },
-  {
-    "id": "classaction.org-roblox-settles-content-moderation-class-action",
-    "case_name": "Roblox Settles Content Moderation Class Action for $10 Million",
-    "short_name": "Roblox Settles Content Moderation Class Action for $10 Million",
-    "defendant": "Roblox Settles Content Moderation",
-    "amount": 10000000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2023,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Roblox has agreed to pay $10 million to settle a proposed class action that alleged the popular “metaverse” platform had deleted in-game content that users had already paid for.",
-    "source": "ClassAction.org",
-    "source_url": "https://www.classaction.org/blog/roblox-settles-content-moderation-class-action-for-10-million",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2023-08-10",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-lvgp-2023-las-vegas-grand-prix-ticket-settlement",
-    "case_name": "$3M Las Vegas Grand Prix F1 Ticket Settlement",
-    "short_name": "$3M Las Vegas Grand Prix F1 Ticket Settlement",
-    "defendant": "Las Vegas Grand Prix F1 Ticket",
-    "amount": 3000000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2026,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Attended day one of the 2023 F1 Las Vegas Grand Prix? A $3M settlement pays ticket holders automatically; transferred tickets must file by Aug 27, 2026.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/lvgp-2023-las-vegas-grand-prix-ticket-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-08-27",
-    "official_url": "https://www.lvgp2023ticketsettlement.com/",
-    "documents": [
-      {
-        "label": "Long Form Notice",
-        "url": "https://www.lvgp2023ticketsettlement.com/pdf/LONG-FORM-NOTICE.pdf"
-      }
-    ],
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-wyssta-delta-dental-website-tracking-class-action-settl",
-    "case_name": "Delta Dental Website Tracking Settlement 2026 — $16.50",
-    "short_name": "Delta Dental Website Tracking Settlement 2026 — $16.50",
-    "defendant": "Delta Dental Website Tracking",
-    "amount": null,
-    "category": "Privacy",
-    "record_type": "Settlement",
-    "year": 2026,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Held an account at my.deltadentalcoversme.com between Jan 23, 2021 and Jan 23, 2025? Claim up to $16.50 in the Wyssta tracking settlement by August 20, 2026.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/wyssta-delta-dental-website-tracking-class-action-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-08-20",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-welch-foods-class-action-settlement",
-    "case_name": "Welch Foods Class Action Settlement",
-    "short_name": "Welch Foods Class Action Settlement",
-    "defendant": "Welch Foods",
-    "amount": null,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2022,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Deadline: 03/07/22. Up To $12 No Proof Required. File a claim to participate!",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/welch-foods-class-action-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-08-28",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://welchfoodsclaims.pnclassaction.com/",
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-apple-watch-battery-swell-settlement",
-    "case_name": "Apple Watch $20M Battery Swell Settlement — Payments Distributed",
-    "short_name": "Apple Watch $20M Battery Swell Settlement — Payments Distributed",
-    "defendant": "Apple Watch  Battery Swell",
-    "amount": 20000000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2024,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "The court granted final approval, and the official site now posts post-distribution accounting reports. The payment-selection period is closed.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/apple-watch-battery-swell-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-07-26",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.watchsettlement.com/",
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-coinbase-dogecoin-sweepstakes-settlement",
-    "case_name": "$2.25M Coinbase Dogecoin Sweepstakes Settlement",
-    "short_name": "$2.25M Coinbase Dogecoin Sweepstakes Settlement",
-    "defendant": "Coinbase Dogecoin Sweepstakes",
-    "amount": 2250000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "The court granted final approval in November 2025. No claim form was required; qualifying class members were designated to receive payments automatically through an active Coinbase account or by mailed check.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/coinbase-dogecoin-sweepstakes-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-07-26",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.june2021dogecoinsweepstakessettlement.com/",
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-mubi-subscription-auto-renewal-class-action-settlement",
-    "case_name": "MUBI Auto-Renewal Settlement — $1.6M, Claims Closed",
-    "short_name": "MUBI Auto-Renewal Settlement — $1.6M, Claims Closed",
-    "defendant": "MUBI Auto-Renewal",
-    "amount": 1600000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2026,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "$1.6M MUBI settlement for California subscribers auto-renewed without adequate notice. The claim deadline passed on June 9, 2026.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/mubi-subscription-auto-renewal-class-action-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-06-09",
-    "official_url": "https://www.mubisettlement.com/",
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-film-at-lincoln-center-ticket-fee-settlement",
-    "case_name": "$400K Film at Lincoln Center Ticket Fee Settlement",
-    "short_name": "$400K Film at Lincoln Center Ticket Fee Settlement",
-    "defendant": "$400K Film at Lincoln Center Ticket Fee",
-    "amount": 400000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Claims closed April 25, 2025. The $400,000 settlement covered undisclosed convenience fees on electronic theater tickets.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/film-at-lincoln-center-ticket-fee-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-07-29",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.filmlcticketfeesettlement.com/",
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-navy-federal-unauthorized-eft-class-action-settlement",
-    "case_name": "Navy Federal Unauthorized EFT Settlement Final Approval",
-    "short_name": "Navy Federal Unauthorized EFT Settlement Final Approval",
-    "defendant": "Navy Federal Unauthorized EFT",
-    "amount": 1700000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "The $1.7 million Navy Federal unauthorized-transfer settlement received final approval; the administrator has not announced a payment date.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/navy-federal-unauthorized-eft-class-action-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": null,
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-temecula-motorsports-ohv-settlement",
-    "case_name": "Temecula Motorsports $1.45M OHV Settlement Update",
-    "short_name": "Temecula Motorsports $1.45M OHV Settlement Update",
-    "defendant": "Temecula Motorsports  OHV",
-    "amount": 1450000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Temecula Motorsports OHV settlement claims closed in June 2025; the public site does not provide a verifiable payment-distribution update.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/temecula-motorsports-ohv-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2025-07-17",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.tmiohvsettlement.com/",
-    "dead_reason": null
-  },
-  {
-    "id": "openclassactions-traeger-wood-pellet-class-action-settlement",
-    "case_name": "Traeger Wood Pellet Settlement — Coupon Window Closed",
-    "short_name": "Traeger Wood Pellet Settlement — Coupon Window Closed",
-    "defendant": "Traeger Wood Pellet",
-    "amount": 1500000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2025,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "The $3 in-store coupon program in the $1.5M Traeger Pellet Grills wood pellet class action settlement ended July 30, 2026. Coupons are no longer distributed in California or Utah.",
-    "source": "OpenClassActions",
-    "source_url": "https://openclassactions.com/settlements/traeger-wood-pellet-class-action-settlement.php",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-07-28",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "classactionbuddy-acv-auctions-job-applicant-class-action-settlement",
-    "case_name": "ACV Auctions 2.7M Job Applicant Settlement (Closed)",
-    "short_name": "ACV Auctions 2.7M Job Applicant Settlement (Closed)",
-    "defendant": "ACV Auctions 2.7M Job Applicant",
-    "amount": 2700000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2026,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "The ACV Auctions $2.7M Job Applicant Class Action Settlement is closed — the claim deadline has passed and claims are no longer accepted. Kept as a record.",
-    "source": "ClassActionBuddy",
-    "source_url": "https://classactionbuddy.com/settlements/acv-auctions-27m-job-applicant-class-action-settlement/",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-12-28",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.epoasettlementacvact.com",
-    "dead_reason": null
-  },
-  {
-    "id": "classactionbuddy-belle-tire-data-breach-settlement",
-    "case_name": "Belle Tire Data Breach Settlement 2026 (Closed)",
-    "short_name": "Belle Tire Data Breach Settlement 2026 (Closed)",
-    "defendant": "Belle Tire Data Breach",
-    "amount": null,
-    "category": "Data Breach",
-    "record_type": "Settlement",
-    "year": 2026,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "The Belle Tire Data Breach Settlement 2026 is closed — the claim deadline has passed and claims are no longer accepted. See which settlements are still open.",
-    "source": "ClassActionBuddy",
-    "source_url": "https://classactionbuddy.com/settlements/belle-tire-data-breach-settlement-2026/",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2026-12-01",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "dapeer-visa-mastercard-nonbank-atm-surcharge-settlement",
-    "case_name": "Visa Mastercard ATM Surcharge Settlement: $167.5M",
-    "short_name": "Visa Mastercard ATM Surcharge Settlement: $167.5M",
-    "defendant": "Visa Mastercard ATM Surcharge",
-    "amount": 167500000,
-    "category": "Antitrust",
-    "record_type": "Settlement",
-    "year": 2007,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Paid a surcharge at a non-bank ATM since Oct 2007 and your bank did not refund it. Claim a pro rata share of the $167.5M Visa and Mastercard antitrust settlement, no documents needed. File by Feb 10, 2027.",
-    "source": "Dapeer Law",
-    "source_url": "https://www.dapeer.com/open-settlements/visa-mastercard-nonbank-atm-surcharge-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": null,
-    "official_url": "https://www.nonbankatmsurchargesettlement.com/file",
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "dapeer-robitussin-non-drowsy-class-action-settlement",
-    "case_name": "Robitussin “Non-Drowsy” Class Action Settlement – Claim Up to $4.75 Per Product",
-    "short_name": "Robitussin “Non-Drowsy” Class Action Settlement – Claim Up to $4.75 Per Product",
-    "defendant": "Robitussin “Non-Drowsy”",
-    "amount": 4500000,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2016,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Bought Robitussin labeled “Non-Drowsy” between Feb 16, 2016, and Jan 21, 2025? You could get up to $4.75 per item from a $4.5M settlement. No proof needed for one claim per household. Claim by May 12, 2025.",
-    "source": "Dapeer Law",
-    "source_url": "https://www.dapeer.com/closed-settlements/robitussin-non-drowsy-45-million-class-action-settlement",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": "page",
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": null,
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.nondrowsyrobitussinsettlement.com/submit-claim",
-    "dead_reason": null
-  },
-  {
-    "id": "classactionrebates-horizon-silk-cane-juice",
-    "case_name": "Horizon Organic Milk and Silk Soymilk Settlement - Class Action Rebates",
-    "short_name": "Horizon Organic Milk and Silk Soymilk Settlement - Class Action Rebates",
-    "defendant": "Horizon Organic Milk and Silk Soymilk",
-    "amount": null,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2005,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Class Eligibility: The settlement covers purchases of Silk Soymilk and Horizon Organic Milk that contain evaporated cane juice purchased between 1/1/2005 and 4/19/2013. This includes the following products: Silk Organic Original Soymilk Silk Organic Vanilla Soymilk Silk Pure Coconut Original Coconutmilk Horizon Organic Lowfat Chocolate Milk plus DHA Omega-3 Horizon Lowfat Strawberry Milk Box Horiz",
-    "source": "ClassActionRebates",
-    "source_url": "https://classactionrebates.com/settlements-1/horizon-silk-cane-juice/",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2013-10-26",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
     "id": "classactionrebates-muscle-milk",
     "case_name": "CytoSport Muscle Milk Class Action Lawsuit Settlement - Class Action Rebates",
     "short_name": "CytoSport Muscle Milk Class Action Lawsuit Settlement - Class Action Rebates",
@@ -458513,10 +457216,1411 @@ window.SETTLEMENTS = [
     "dead_reason": null
   },
   {
-    "id": "classactionrebates-jpmorgan",
-    "case_name": "JPMorgan Chase Bank TCPA Class Action Settlement - Class Action Rebates",
-    "short_name": "JPMorgan Chase Bank TCPA Class Action Settlement - Class Action Rebates",
-    "defendant": "JPMorgan Chase Bank TCPA",
+    "id": "claimdepot-apple-watch-class-action-settlement",
+    "case_name": "$20M Apple Watch Battery Swell Settlement",
+    "short_name": "$20M Apple Watch Battery Swell Settlement",
+    "defendant": "Apple Watch Battery Swell",
+    "amount": 20000000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2024,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "If you own or owned a First Generation or Series 1, 2, or 3 Watch, you may be eligible to claim approximately $20 from a class action settlement.",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/apple-watch-class-action-settlement-battery-swell",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-05-01",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://watchsettlement.com/submit-claim",
+    "dead_reason": null
+  },
+  {
+    "id": "claimdepot-belle-tire-data-incident",
+    "case_name": "Belle Tire Distributors Data Breach Class Action Settlement",
+    "short_name": "Belle Tire Distributors Data Breach Class Action Settlement",
+    "defendant": "Belle Tire Distributors Data Breach",
+    "amount": null,
+    "category": "Data Breach",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Individuals whose private information the June 2024 Belle Tire data breach may have exposed could qualify to claim up to $1,000 from a class action settlement.",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/belle-tire-data-incident",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": null,
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-09-02",
+    "official_url": "https://cw.simpluris.com/docs/public/downloads/BDC4/CLAIM_FORM_DRAFT",
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "claimdepot-film-lc-ticket-fee-settlement",
+    "case_name": "Film at Lincoln Center $400K Ticket Fee Settlement",
+    "short_name": "Film at Lincoln Center $400K Ticket Fee Settlement",
+    "defendant": "Film at Lincoln Center $400K Ticket Fee",
+    "amount": 400000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "If you purchased an electronic ticket to Film at Lincoln Center's theaters, you may qualify to claim cash payment from a class action settlement.",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/film-lc-ticket-fee-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-05-12",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.filmlcticketfeesettlement.com/Login",
+    "dead_reason": null
+  },
+  {
+    "id": "claimdepot-june-2021-dogecoin-sweepstakes-settlement",
+    "case_name": "Coinbase Dogecoin Sweepstakes $2.25M Class Action Settlement",
+    "short_name": "Coinbase Dogecoin Sweepstakes $2.25M Class Action Settlement",
+    "defendant": "Coinbase Dogecoin Sweepstakes",
+    "amount": 2250000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Consumers who entered Coinbase's June 2021 Dogecoin sweepstakes and traded $100 or more may qualify to receive $1-$17 from a class action settlement.",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/june-2021-dogecoin-sweepstakes-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-11-10",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.june2021dogecoinsweepstakessettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "claimdepot-non-bank-atm-surcharge-settlement",
+    "case_name": "$167.5 Million Nonbank ATM Surcharge Class Action Settlement",
+    "short_name": "$167.5 Million Nonbank ATM Surcharge Class Action Settlement",
+    "defendant": "Nonbank ATM Surcharge",
+    "amount": 167500000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Consumers who paid a surcharge at a nonbank ATM in the United States from 2007-2026 may be eligible to claim a cash payment from a class action settlement.",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/non-bank-atm-surcharge-settlement-2",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2027-02-17",
+    "official_url": "https://www.nonbankatmsurchargesettlement.com/file",
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "claimdepot-oklahoma-earthquakes-lawsuits-2024",
+    "case_name": "Oil and Gas Companies $555K Oklahoma Earthquakes Settlement",
+    "short_name": "Oil and Gas Companies $555K Oklahoma Earthquakes Settlement",
+    "defendant": "Oil and Gas Companies $555K Oklahoma Earthquakes",
+    "amount": 555000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Oklahoma residents who owned earthquake-damaged property since 2019 may be eligible to claim compensation from a class action settlement.",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/oklahoma-earthquakes-lawsuits-2024",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-01-25",
+    "official_url": null,
+    "documents": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "claimdepot-roblox-refund",
+    "case_name": "Roblox $10,000,000 Settlement: Refund Details",
+    "short_name": "Roblox $10,000,000 Settlement: Refund Details",
+    "defendant": "Roblox",
+    "amount": 10000000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2024,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Eligible claimants are those who used Roblox and had virtual items removed from their accounts, with awards from Robux credits to cash settlements.",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/roblox-10-million-refund",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2023-09-27",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://robloxsettlement.com/form/claim/",
+    "dead_reason": null
+  },
+  {
+    "id": "claimdepot-tmi-ohv-settlement",
+    "case_name": "Temecula Motorsports OHV $1.45M Class Action Settlement",
+    "short_name": "Temecula Motorsports OHV $1.45M Class Action Settlement",
+    "defendant": "Temecula Motorsports OHV",
+    "amount": 1450000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "If you bought a new OHV from Temecula Motorsports between 2011 and 2015, you may qualify to claim $3 to $1,140 from a class action settlement.",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/tmi-ohv-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-07-17",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://tmiohvsettlement.com/faq/",
+    "dead_reason": null
+  },
+  {
+    "id": "claimdepot-traeger-wood-pellet-false-advertising-settlement",
+    "case_name": "Traeger Wood Pellet $1.5M False Advertising Settlement",
+    "short_name": "Traeger Wood Pellet $1.5M False Advertising Settlement",
+    "defendant": "Traeger Wood Pellet  False Advertising",
+    "amount": 1500000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "If you purchased Traeger wood pellets in stores or online while in CA or UT, you may be eligible to claim a $3 coupon from this class action settlement",
+    "source": "ClaimDepot",
+    "source_url": "https://www.claimdepot.com/settlements/traeger-wood-pellet-15m-false-advertising-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-07-28",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.traegerwoodpelletsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "classaction.org-non-drowsy-robitussin-contains-active-ingredient-known-t",
+    "case_name": "[SETTLED] ‘Non-Drowsy’ Robitussin Contains Active Ingredient Known to Cause Drowsiness, Lawsuit Says",
+    "short_name": "[SETTLED] ‘Non-Drowsy’ Robitussin Contains Active Ingredient Known to Cause Drowsiness, Lawsuit Says",
+    "defendant": "[SETTLED] ‘Non-Drowsy’ Robitussin Contains Active Ingredient Known to ",
+    "amount": null,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2021,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "A proposed class action alleges purportedly “non-drowsy” Robitussin is falsely labeled in that the cough medicine contains an active ingredient known to cause drowsiness.",
+    "source": "ClassAction.org",
+    "source_url": "https://www.classaction.org/blog/non-drowsy-robitussin-contains-active-ingredient-known-to-cause-drowsiness-class-action-says",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": null,
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": null,
+    "official_url": null,
+    "documents": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "openclassactions-sovos-compliance-overtime-settlement",
+    "case_name": "Sovos $1.2M Overtime Settlement: Claim Deadline Oct. 19",
+    "short_name": "Sovos $1.2M Overtime Settlement: Claim Deadline Oct. 19",
+    "defendant": "Sovos  Overtime",
+    "amount": 1200000,
+    "category": "Employment",
+    "record_type": "News & Guides",
+    "year": 2026,
+    "status": "News",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Compliance services employees who worked at Sovos from April 2022 to February 2026 have until October 19, 2026 to return their claim form.",
+    "source": "OpenClassActions",
+    "source_url": "https://openclassactions.com/news/sovos-compliance-overtime-settlement-deadline-october-19-2026.php",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-10-19",
+    "official_url": "https://www.sovossettlement.com/",
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "openclassactions-boars-head-meat-recall-class-action-settlement",
+    "case_name": "Boar’s Head $3.1M Meat Recall Settlement",
+    "short_name": "Boar’s Head $3.1M Meat Recall Settlement",
+    "defendant": "Boar’s Head  Meat Recall",
+    "amount": 3100000,
+    "category": "Product Liability",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "The court granted final approval, and the May 16, 2025 claim deadline has passed.",
+    "source": "OpenClassActions",
+    "source_url": "https://openclassactions.com/settlements/boars-head-meat-recall-class-action-settlement.php",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-07-26",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.coldcutrecallsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "openclassactions-progressive-stacked-uim-coverage-settlement",
+    "case_name": "Progressive New Mexico Stacked UIM Settlement Update",
+    "short_name": "Progressive New Mexico Stacked UIM Settlement Update",
+    "defendant": "Progressive New Mexico Stacked UIM",
+    "amount": 1760000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "The $1.76 million Progressive stacked UIM settlement hearing has passed, but no final-order update is posted.",
+    "source": "OpenClassActions",
+    "source_url": "https://openclassactions.com/settlements/progressive-stacked-uim-coverage-settlement.php",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": null,
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://progressivestackedsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "classactionbuddy-first-federal-bank-of-kansas-city-settlement",
+    "case_name": "First Federal Bank of Kansas City Overdraft Fee Settlement",
+    "short_name": "First Federal Bank of Kansas City Overdraft Fee Settlement",
+    "defendant": "First Federal Bank of Kansas City Overdraft Fee",
+    "amount": null,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "First Federal Bank of Kansas City settled a 300K overdraft fee lawsuit. Accountholders may qualify for cash. See if you",
+    "source": "ClassActionBuddy",
+    "source_url": "https://classactionbuddy.com/settlements/300k-first-federal-bank-of-kansas-city-settlement-ends-overdraft-fee-class-actio/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": null,
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2027-02-10",
+    "official_url": null,
+    "documents": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "classactionbuddy-delta-dental-website-privacy-class-action-settlement",
+    "case_name": "Delta Dental 12.67M Website Privacy Settlement (Closed)",
+    "short_name": "Delta Dental 12.67M Website Privacy Settlement (Closed)",
+    "defendant": "Delta Dental 12.67M Website Privacy",
+    "amount": 12670000,
+    "category": "Privacy",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "The Delta Dental $12.67M Website Privacy Class Action Settlement is closed — the claim deadline has passed and claims are no longer accepted.",
+    "source": "ClassActionBuddy",
+    "source_url": "https://classactionbuddy.com/settlements/delta-dental-1267m-website-privacy-class-action-settlement/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-12-01",
+    "official_url": null,
+    "documents": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "classactionbuddy-equity-bank-fees-class-action-settlement",
+    "case_name": "Equity Bank 1M Fees Class Action Settlement (Closed)",
+    "short_name": "Equity Bank 1M Fees Class Action Settlement (Closed)",
+    "defendant": "Equity Bank 1M Fees",
+    "amount": 1000000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "The Equity Bank $1M Fees Class Action Settlement is closed — the claim deadline has passed and claims are no longer accepted. Here is what the case covered.",
+    "source": "ClassActionBuddy",
+    "source_url": "https://classactionbuddy.com/settlements/equity-bank-1m-fees-class-action-settlement/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-11-18",
+    "official_url": "https://www.merrellfeessettlement.com",
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "classactionbuddy-las-vegas-grand-prix-ticket-class-action-settlement",
+    "case_name": "Las Vegas Grand Prix Ticket 3M Class Action Settlement (Closed)",
+    "short_name": "Las Vegas Grand Prix Ticket 3M Class Action Settlement (Closed)",
+    "defendant": "Las Vegas Grand Prix Ticket 3M",
+    "amount": 3000000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "The Las Vegas Grand Prix Ticket $3M Class Action Settlement is closed — the claim deadline has passed and claims are no longer accepted. Kept as a record.",
+    "source": "ClassActionBuddy",
+    "source_url": "https://classactionbuddy.com/settlements/las-vegas-grand-prix-ticket-3m-class-action-settlement/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-12-28",
+    "official_url": null,
+    "documents": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "dapeer-acv-auctions-epoa-wage-disclosure-settlement",
+    "case_name": "ACV Auctions Wage Disclosure Settlement (2026)",
+    "short_name": "ACV Auctions Wage Disclosure Settlement (2026)",
+    "defendant": "ACV Auctions Wage Disclosure",
+    "amount": 2700000,
+    "category": "Employment",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "ACV Auctions agreed to pay $1.77M–$2.7M over missing Washington wage disclosures. File a claim by June 29, 2026 for an estimated $1,722+ — no proof needed.",
+    "source": "Dapeer Law",
+    "source_url": "https://www.dapeer.com/open-settlements/acv-auctions-epoa-wage-disclosure-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-06-28",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://epoasettlementacvact.com/form/claim",
+    "dead_reason": null
+  },
+  {
+    "id": "dapeer-red-oak-sanitation-day-rate-pay-settlement",
+    "case_name": "Red Oak Sanitation Settlement – Claim Day-Rate Pay Based on Workweeks",
+    "short_name": "Red Oak Sanitation Settlement – Claim Day-Rate Pay Based on Workweeks",
+    "defendant": "Red Oak Sanitation",
+    "amount": 1410000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2021,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "If you worked for Red Oak Sanitation as a day-rate driver or helper between Oct 2021–Jan 2025, you may qualify for a cash payment from a $1.41M class action settlement. File by Sept 27, 2025.",
+    "source": "Dapeer Law",
+    "source_url": "https://www.dapeer.com/open-settlements/red-oak-sanitation-14m-day-rate-pay-settlement-claim-payment-based-on-workweeks",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-09-27",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://redoaksettlement.com/form/claim/",
+    "dead_reason": null
+  },
+  {
+    "id": "dapeer-aspen-dental-class-action-settlement",
+    "case_name": "Aspen Dental $18.7M Class Action Settlement – Claim Now",
+    "short_name": "Aspen Dental $18.7M Class Action Settlement – Claim Now",
+    "defendant": "Aspen Dental",
+    "amount": 18700000,
+    "category": "Privacy",
+    "record_type": "Settlement",
+    "year": 2022,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Booked an appointment on AspenDental.com between Feb. 2022 and Jan. 2025? You may be eligible for up to $15 from an $18.7 million pixel tracking class action settlement. File your claim by Sept. 15, 2025.",
+    "source": "Dapeer Law",
+    "source_url": "https://www.dapeer.com/open-settlements/aspen-dental-187m-class-action-settlement-were-your-online-appointments-tracked",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-10-20",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.aspendentalpixelsettlement.com/faq/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-equifax-agrees-to-settlement",
+    "case_name": "Equifax $100M Settlement: File Your Claim by 2026",
+    "short_name": "Equifax $100M Settlement: File Your Claim by 2026",
+    "defendant": "Equifax",
+    "amount": 100000000,
+    "category": "Consumer Protection",
+    "record_type": "News & Guides",
+    "year": 2026,
+    "status": "News",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Equifax agreed to a $100M class action settlement over inaccurate credit reports. If you were affected, check your eligibility and file a claim by Dec. 28, 2026.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/news/class-action-defective-products/equifax-agrees-to-100m-settlement-over-alleged-credit-reporting-errors",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": null,
+    "official_url": null,
+    "documents": null,
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-talen-energy-pension-settlement",
+    "case_name": "Talen Energy Pension Settlement: $20M",
+    "short_name": "Talen Energy Pension Settlement: $20M",
+    "defendant": "Talen Energy Pension",
+    "amount": 20000000,
+    "category": "ERISA",
+    "record_type": "Settlement",
+    "year": 2015,
+    "status": "Settlement",
+    "court": "E.D. Pa.",
+    "court_full": null,
+    "judge": null,
+    "case_number": "5:20-cv-05975",
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Were you (or a former spouse, or a deceased participant for whom you are the beneficiary) part of the Talen Energy Retirement Plan between June 1, 2015, and December 5, 2019, with employment ending during that period? If so, your rights could be impacted by a proposed class action settlement.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-workplace-and-employment/talen-energy-pension-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2024-08-09",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.talenpensionsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-centeredge-bipa-class-action-settlement",
+    "case_name": "Finger Scan Lawsuit in Illinois: $1.17M Settlement for CenterEdge Users",
+    "short_name": "Finger Scan Lawsuit in Illinois: $1.17M Settlement for CenterEdge Users",
+    "defendant": "Finger Scan Lawsuit in Illinois",
+    "amount": 1170000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": null,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Illinois residents who scanned fingerprints using CenterEdge systems may be eligible for $230-$330.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-privacy-data-and-tcpa/centeredge-bipa-class-action-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": null,
+    "official_url": "https://www.centeredgesettlement.com/",
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-apple-iphone-audio-settlement",
+    "case_name": "Apple iPhone 7/7 Plus Audio $35M Settlement",
+    "short_name": "Apple iPhone 7/7 Plus Audio $35M Settlement",
+    "defendant": "Apple iPhone 7/7 Plus Audio",
+    "amount": 35000000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2024,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Apple iPhone 7/7 Plus Audio $35M Settlement",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-defective-products/apple-iphone-audio-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2024-07-18",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://smartphoneaudiosettlement.com/select-payment",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-bank-of-ameircan-eipa-class-action-settlement",
+    "case_name": "$2.85M Bank of America EIPA Settlement – NY Account Restraint Fee Claims",
+    "short_name": "$2.85M Bank of America EIPA Settlement – NY Account Restraint Fee Claims",
+    "defendant": "Bank of America EIPA",
+    "amount": 2850000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Bank of America agrees to pay $2.85M to resolve claims it charged fees on exempt income under New York’s EIPA law. Account holders may receive compensation.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/other/bank-of-ameircan-eipa-class-action-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-06-18",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.eiparestraintsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-dr-dennis-gross-skincare-collagen-settlement",
+    "case_name": "Dr Dennis Gross Skincare Settlement: $9.2M",
+    "short_name": "Dr Dennis Gross Skincare Settlement: $9.2M",
+    "defendant": "Dr Dennis Gross Skincare",
+    "amount": 9200000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2024,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Dr Dennis Gross Skincare Collagen Class Action Settlement",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-false-advertising/dr-dennis-gross-skincare-collagen-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2024-10-28",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://cpluscollagenlawsuit.pnclassaction.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-cigna-covid-19-test-class-action-settlement",
+    "case_name": "$2.91M Cigna COVID-19 Test Reimbursement Settlement – ERISA Plans",
+    "short_name": "$2.91M Cigna COVID-19 Test Reimbursement Settlement – ERISA Plans",
+    "defendant": "Cigna COVID-19 Test Reimbursement",
+    "amount": 2910000,
+    "category": "ERISA",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Cigna will pay $2.91M to resolve claims it underpaid for COVID-19 tests. ERISA plan members may qualify for cash reimbursement.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/other/cigna-covid-19-test-class-action-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-05-28",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://covid-class-action-settlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-trustco-bank-overdraft-fees-settlement",
+    "case_name": "Trustco Bank Overdraft Fee Class Action Settlement: Check Your Eligibility",
+    "short_name": "Trustco Bank Overdraft Fee Class Action Settlement: Check Your Eligibility",
+    "defendant": "Trustco Bank Overdraft Fee",
+    "amount": 2750000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2024,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Trustco Bank settled a $2.75 million lawsuit over improper overdraft fees. Find out if you're eligible for compensation as a current or former account holder.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-fees-and-charges/trustco-bank-overdraft-fees-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2024-11-26",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://trustcoclassactionsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-kaye-smith-data-breach-lawsuit-settlement",
+    "case_name": "Kaye-Smith Data Breach Class Action Settlement: $2 Million",
+    "short_name": "Kaye-Smith Data Breach Class Action Settlement: $2 Million",
+    "defendant": "Kaye-Smith Data Breach",
+    "amount": 2000000,
+    "category": "Data Breach",
+    "record_type": "Settlement",
+    "year": 2022,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Kaye-Smith agrees to a $2M settlement over a 2022 data breach. Find out if you or your business is eligible for reimbursement or credit monitoring.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-privacy-data-and-tcpa/kaye-smith-data-breach-lawsuit-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-01-07",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://kayesmithsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-halo-bassinet-class-action-settlement",
+    "case_name": "$1.5M HALO BassiNest Flex Tilt Defect Settlement – Claim Up to $30",
+    "short_name": "$1.5M HALO BassiNest Flex Tilt Defect Settlement – Claim Up to $30",
+    "defendant": "HALO BassiNest Flex Tilt Defect",
+    "amount": 1500000,
+    "category": "Product Liability",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "HALO agrees to $1.5M settlement over bassinets with tilt defects. Consumers may claim $10–$30 per product purchased.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/dangerous-and-defective-products/halo-bassinet-class-action-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-10-09",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://bassinetflexsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-st-stephens-cemetary-class-action-settlement",
+    "case_name": "St. Stephen’s Cemetery Settlement: $1.25M for Families Affected by Burial Errors",
+    "short_name": "St. Stephen’s Cemetery Settlement: $1.25M for Families Affected by Burial Errors",
+    "defendant": "St. Stephen’s Cemetery",
+    "amount": 1250000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": null,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "St. Stephen’s Cemetery has agreed to a $1.25M settlement over claims it lost burial records and buried individuals in the wrong plots. Find out if you qualify.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/other/st-stephens-cemetary-class-action-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": null,
+    "official_url": "https://kycemeterysettlement.com/",
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-displate-false-discounts-lawsuit-settlement",
+    "case_name": "$2.7M Displate Class Action Settlement – False Discount Claims",
+    "short_name": "$2.7M Displate Class Action Settlement – False Discount Claims",
+    "defendant": "Displate",
+    "amount": 2700000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Displate agrees to pay $2.7M to resolve claims of misleading discounts. Shoppers in CA, OR, and WA may qualify for $18.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-false-advertising/displate-false-discounts-lawsuit-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-08-01",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://displatesettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-v-shred-data-privacy-lawsuit-settlement",
+    "case_name": "$4M V Shred Class Action Settlement – Data Privacy Violations",
+    "short_name": "$4M V Shred Class Action Settlement – Data Privacy Violations",
+    "defendant": "V Shred",
+    "amount": 4000000,
+    "category": "Privacy",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "V Shred agrees to $4M privacy settlement. Eligible users may receive up to $10 for alleged data sharing without consent.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-privacy-data-and-tcpa/v-shred-data-privacy-lawsuit-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-09-10",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://vshredprivacyesettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-sysco-data-breach-class-action-lawsuit-settlement",
+    "case_name": "$2.3M Sysco Class Action Settlement – Data Breach Compensation",
+    "short_name": "$2.3M Sysco Class Action Settlement – Data Breach Compensation",
+    "defendant": "Sysco",
+    "amount": 2300000,
+    "category": "Data Breach",
+    "record_type": "Settlement",
+    "year": 2023,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Sysco agrees to $2.3M settlement over 2023 data breach. U.S. residents may claim up to $5,000 for losses and $599 in residual payments.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-privacy-data-and-tcpa/sysco-data-breach-class-action-lawsuit-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-10-09",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://syscocybersecuritysettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-viki-privacy-lawsuit-settlement",
+    "case_name": "$8M Viki Privacy Class Action Settlement",
+    "short_name": "$8M Viki Privacy Class Action Settlement",
+    "defendant": "Viki Privacy",
+    "amount": 8000000,
+    "category": "Privacy",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Viki agrees to an $8 million settlement over claims it shared video-viewing data with Facebook. Eligible users may receive $30–$150.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-privacy-data-and-tcpa/viki-privacy-lawsuit-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-10-21",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://vikivppasettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-payless-unfair-rental-car-fees-lawsuit-settlement",
+    "case_name": "$19M Payless Car Rental Fees Class Action Settlement",
+    "short_name": "$19M Payless Car Rental Fees Class Action Settlement",
+    "defendant": "Payless Car Rental Fees",
+    "amount": 19000000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Payless renters charged for unwanted fees may be eligible for cash payments under a $19M class action settlement. No claim form needed.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-fees-and-charges/payless-unfair-rental-car-fees-lawsuit-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2025-12-09",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://paylessrentalsettlement.com/",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-petsafe-electronic-collar-class-action-settlement",
+    "case_name": "PetSafe Shock Collar Settlement: California Consumers May Qualify",
+    "short_name": "PetSafe Shock Collar Settlement: California Consumers May Qualify",
+    "defendant": "PetSafe Shock Collar",
+    "amount": 1900000,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2025,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "A $1.9M settlement resolves claims that PetSafe failed to disclose safety risks linked to its electronic collars. See eligibility, product list, and claim details.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/dangerous-and-defective-products/petsafe-electronic-collar-class-action-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2026-01-26",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://petsafesettlement.com/home",
+    "dead_reason": null
+  },
+  {
+    "id": "injuryclaims-generac-pwrcell-solar-systems-settlement",
+    "case_name": "$15M Generac PWRcell Settlement – File a Claim",
+    "short_name": "$15M Generac PWRcell Settlement – File a Claim",
+    "defendant": "Generac PWRcell",
+    "amount": 15000000,
+    "category": "Product Liability",
+    "record_type": "Settlement",
+    "year": 2026,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Generac agreed to a $15M settlement over defective SnapRS devices in PWRcell solar systems. File a claim by Aug. 24, 2026 if you own or use a PWRcell system.",
+    "source": "InjuryClaims",
+    "source_url": "https://injuryclaims.com/class-action-lawsuits/class-action-defective-products/generac-pwrcell-solar-systems-settlement",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": "page",
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": null,
+    "official_url": "http://GeneracSnapSettlement.com",
+    "documents": [
+      {
+        "label": "Class Notice (Long Form)",
+        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/01/Long-Form-Notice-Final-5.11.2026.pdf"
+      },
+      {
+        "label": "Class Notice (Short Form)",
+        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/01/Short-Form-Notice-Final-5.11.2026.pdf"
+      },
+      {
+        "label": "Explanation of SnapRS Related PWRcell Error Codes and Recommended Acti",
+        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/02/Explanation-of-SnapRS-Related-PWRcell-Error-Codes-And-Recommended-Actions.pdf"
+      },
+      {
+        "label": "Mail-In Claim Form",
+        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/01/Claim-Form-Final-5.11.2026.pdf"
+      },
+      {
+        "label": "Settlement Agreement",
+        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/01/Exhibit-3-Settlement-Agreement-and-Class-Notice-Documents.pdf"
+      },
+      {
+        "label": "Consolidated Class Action Complaint",
+        "url": "http://www.generacsnapsettlement.com/wp-content/uploads/2026/02/US_DIS_WIED_2_23md3078_d40483783e15939_COMPLAINT_Consolidated_Class_Action_Complaint_with.pdf"
+      }
+    ],
+    "links_checked": "2026-10-18",
+    "official_url_dead": null,
+    "dead_reason": null
+  },
+  {
+    "id": "classactionrebates-organic-milk",
+    "case_name": "Organic Milk Settlement - Class Action Rebates",
+    "short_name": "Organic Milk Settlement - Class Action Rebates",
+    "defendant": "Organic Milk",
+    "amount": null,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2012,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Class Eligibility: The settelement primarily covers store brand organic milks from Wal-Mart, Target, Costco, Safeway (Safeway, Tom Thumb, Randalls), and Wild Oats bought before September 14, 2012. See the guide below for exact product coverage: Great Value organic half gallons in fat free, 1%, 2% and whole milk Great Value organic gallons in fat free, […]",
+    "source": "ClassActionRebates",
+    "source_url": "https://classactionrebates.com/settlements-1/organic-milk/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": null,
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2013-10-26",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "http://www.organicmilkmarketingsettlement.com/FileClaim/UnknownClaim",
+    "dead_reason": null
+  },
+  {
+    "id": "classactionrebates-cytosport",
+    "case_name": "CytoSport Cadmium (Muscle Milk, Monster Milk, etc) - Class Action Rebates",
+    "short_name": "CytoSport Cadmium (Muscle Milk, Monster Milk, etc) - Class Action Rebates",
+    "defendant": "CytoSport Cadmium (Muscle Milk, Monster Milk, etc)",
+    "amount": null,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2006,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Class Eligibility: The settlement covers purchasers of the following CytoSport products between 6/4/2006 and 1/5/2012. 100% Whey Chocolate, Vanilla Complete Casein Banana, Chocolate, Cookies N Cream, Strawberry, Vanilla Complete Whey Banana, ButNut, Chocolate, Chocolate Mint Chip, Cocoa, Cookies N Cream, Peanut Butter Chocolate, Strawberry, Strawberry Banana, Vanilla Cytogainer Banana, Chocolate, ",
+    "source": "ClassActionRebates",
+    "source_url": "https://classactionrebates.com/settlements-1/cytosport/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": null,
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2013-05-04",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "http://www.cytosportclassactionsettlement.com/claim",
+    "dead_reason": null
+  },
+  {
+    "id": "classactionrebates-pocket-hose",
+    "case_name": "Pocket Hose Settlement - Class Action Rebates",
+    "short_name": "Pocket Hose Settlement - Class Action Rebates",
+    "defendant": "Pocket Hose",
+    "amount": null,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2009,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Class Eligibility: Purchasers of Pocket Hose between November 6, 2009 and January 30, 2014, for personal use. Estimated Amount: The amount of compensation depends on whether you have proof of purchase and whether you want to return the product as follows: Proof of Purchase & Return Product – $20 per product Proof of Purchase (Don’t […]",
+    "source": "ClassActionRebates",
+    "source_url": "https://classactionrebates.com/settlements-1/pocket-hose/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": null,
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2014-06-20",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.hosesettlement.com/Home/Filing",
+    "dead_reason": null
+  },
+  {
+    "id": "classactionrebates-chase-tcpa-2018",
+    "case_name": "JP Morgan Chase TCPA Robocalls Class Action Settlement - Class Action Rebates",
+    "short_name": "JP Morgan Chase TCPA Robocalls Class Action Settlement - Class Action Rebates",
+    "defendant": "JP Morgan Chase TCPA Robocalls",
+    "amount": null,
+    "category": "TCPA",
+    "record_type": "Settlement",
+    "year": 2012,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Class Eligibility You are in the Settlement Class if JPMC, or any affiliate or agent acting on its behalf, made one or more telephone calls to your cellular telephone through the use of an automatic telephone dialing system or a prerecorded or artificial voice on between April 20, 2012, through March 16, 2018, regarding a […]",
+    "source": "ClassActionRebates",
+    "source_url": "https://classactionrebates.com/settlements-1/chase-tcpa-2018/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": null,
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": null,
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "http://barrowtcpasettlement.com",
+    "dead_reason": null
+  },
+  {
+    "id": "classactionrebates-dental-crown-settlement",
+    "case_name": "3M Dental Crown Debonding Class Action Settlement - Class Action Rebates",
+    "short_name": "3M Dental Crown Debonding Class Action Settlement - Class Action Rebates",
+    "defendant": "3M Dental Crown Debonding",
+    "amount": null,
+    "category": "Consumer Protection",
+    "record_type": "Settlement",
+    "year": 2015,
+    "status": "Settlement",
+    "court": null,
+    "court_full": null,
+    "judge": null,
+    "case_number": null,
+    "class_size": null,
+    "fee_award": null,
+    "counsel": null,
+    "description": "Class Eligibility You are a member of the settlement if you are a dentist or dental practice in the United States, Commonwealth of Puerto Rico, U.S. Virgin Islands, or Guam, who purchased 3M’s Lava Ultimate Restorative and applied the product as a dental crown before June 15, 2015, and at least one of your patients […]",
+    "source": "ClassActionRebates",
+    "source_url": "https://classactionrebates.com/settlements-1/3m-dental-crown-settlement/",
+    "date_added": "2026-10-18",
+    "enriched_at": "2026-10-18",
+    "amount_src": null,
+    "enrich_ver": "4",
+    "dead": null,
+    "claim_deadline": "2020-09-15",
+    "official_url": null,
+    "documents": [],
+    "links_checked": "2026-10-18",
+    "official_url_dead": "https://www.dentalcrownsettlement.com/Notice",
+    "dead_reason": null
+  },
+  {
+    "id": "classactionrebates-chase-tcpa-settlement",
+    "case_name": "Chase Bank TCPA Class Action Settlement - Class Action Rebates",
+    "short_name": "Chase Bank TCPA Class Action Settlement - Class Action Rebates",
+    "defendant": "Chase Bank TCPA",
     "amount": null,
     "category": "TCPA",
     "record_type": "Settlement",
@@ -458529,119 +458633,23 @@ window.SETTLEMENTS = [
     "class_size": null,
     "fee_award": null,
     "counsel": null,
-    "description": "Class Eligibility You are a member of this class if you are a person within the United States who received a nonemergency telephone call from Chase’s auto subline of business to their cellular telephone, made through the use of any automatic telephone dialing system or an artificial or prerecorded voice, between Nov. 18, 2009 and […]",
+    "description": "Class Eligibility You are a Class Member of the Chase Bank TCPA settlement if you received collection calls or wrong-party automatic alerts. A wrong-party automatic alert refers to an automated call or text to a cell phone where the person who received the communication was not the intended recipient. Note that Cash payments are only […]",
     "source": "ClassActionRebates",
-    "source_url": "https://classactionrebates.com/settlements-1/jpmorgan/",
+    "source_url": "https://classactionrebates.com/settlements-1/chase_tcpa_settlement/",
     "date_added": "2026-10-18",
     "enriched_at": "2026-10-18",
     "amount_src": null,
     "enrich_ver": "4",
     "dead": null,
-    "claim_deadline": "2015-09-04",
+    "claim_deadline": "2015-09-10",
     "official_url": null,
     "documents": [],
     "links_checked": "2026-10-18",
-    "official_url_dead": "https://eclaim.kccllc.net/caclaimforms/jpa/Landing.aspx",
+    "official_url_dead": "http://www.gehrichtcpasettlement.com/claim",
     "dead_reason": null
   },
   {
-    "id": "classactionrebates-pocket-hose-2016",
-    "case_name": "Pocket Hose False Advertisement Settlement - Class Action Rebates",
-    "short_name": "Pocket Hose False Advertisement Settlement - Class Action Rebates",
-    "defendant": "Pocket Hose False Advertisement",
-    "amount": null,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2014,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Class Eligibility Class Members include anyone who, between Jan. 31, 2014 and Nov. 4, 2016, purchased any one of the following Class Products: Pocket Top Brass II Pocket Hose Top Brass Pocket Hose Dura Rib II Pocket Hose Dura Rib Pocket Hose Ultra The Pocket Hose products Estimated Amount $7 – $50 Proof of Purchase […]",
-    "source": "ClassActionRebates",
-    "source_url": "https://classactionrebates.com/settlements-1/pocket-hose-2016/",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2017-02-10",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.pockethosesettlement.com/ClaimForm.dtm",
-    "dead_reason": null
-  },
-  {
-    "id": "classactionrebates-chase-tcpa",
-    "case_name": "Chase TCPA Class Action Settlement - Class Action Rebates",
-    "short_name": "Chase TCPA Class Action Settlement - Class Action Rebates",
-    "defendant": "Chase TCPA",
-    "amount": null,
-    "category": "TCPA",
-    "record_type": "Settlement",
-    "year": 2014,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Class Eligibility All persons in the United States who received calls from Chase between January 1, 2014 and March 22, 2016 that (a) were directed to a phone number assigned to a cellular telephone service, (b) were wrong number calls – in that the subscriber or customary user of the phone number called was different […]",
-    "source": "ClassActionRebates",
-    "source_url": "https://classactionrebates.com/settlements-1/chase-tcpa/",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2017-03-21",
-    "official_url": null,
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": "https://eclaim.kccllc.net/caclaimforms/jmj/Landing.aspx",
-    "dead_reason": null
-  },
-  {
-    "id": "classactionrebates-oklahoma-earthquakes",
-    "case_name": "Oklahoma Earthquakes Class Action Settlement - Class Action Rebates",
-    "short_name": "Oklahoma Earthquakes Class Action Settlement - Class Action Rebates",
-    "defendant": "Oklahoma Earthquakes",
-    "amount": null,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2011,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Class Eligibility All persons who own or owned commercial or residential real property in any or some combination of Lincoln, Payne, Logan, Oklahoma, Cleveland, Pottawatomie, Seminole, Okfuskee, and/or Creek counties in Oklahoma or have or had a property interest therein between November 5, 2011 and November 16, 2018, and which suffered earthquake damages from earthquakes […]",
-    "source": "ClassActionRebates",
-    "source_url": "https://classactionrebates.com/settlements-1/oklahoma-earthquakes/",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2019-04-29",
-    "official_url": null,
-    "documents": null,
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "classactionrebates-charmin",
+    "id": "classactionrebates-charmin-class-action-settlement",
     "case_name": "Charmin Freshmates Flushable Wipes Class Action Settlement - Class Action Rebates",
     "short_name": "Charmin Freshmates Flushable Wipes Class Action Settlement - Class Action Rebates",
     "defendant": "Charmin Freshmates Flushable Wipes",
@@ -458657,73 +458665,41 @@ window.SETTLEMENTS = [
     "class_size": null,
     "fee_award": null,
     "counsel": null,
-    "description": "Class Eligibility You are a member of the Settlement Class if, between April 6, 2011 and November 26, 2018, you purchased the Product anywhere in the United states, other than in the State of New York. Your purchase cannot have been for purpose of resale. Estimated Amount $30 Proof of Purchase No Claim Form",
+    "description": "Class Eligibility You may be a member of the settlement if you purchased Charmin Freshmates Flushable Wipes between May 23, 2011 and March 6, 2020. Estimated Amount Up to $6.30 (without proof), or up to $50.20 (with proof) Proof of Purchase No Claim Form Click to File Your Charmin Freshmates Flushable Wipes Class Action Settlement […]",
     "source": "ClassActionRebates",
-    "source_url": "https://classactionrebates.com/settlements-1/charmin/",
+    "source_url": "https://classactionrebates.com/settlements-1/charmin-class-action-settlement/",
     "date_added": "2026-10-18",
     "enriched_at": "2026-10-18",
     "amount_src": null,
     "enrich_ver": "4",
     "dead": null,
-    "claim_deadline": "2019-02-28",
-    "official_url": "http://www.pettitwipesettlement.com",
-    "documents": [],
-    "links_checked": "2026-10-18",
-    "official_url_dead": null,
-    "dead_reason": null
-  },
-  {
-    "id": "classactionrebates-crown-settlement",
-    "case_name": "3M Dental Crown Class Action Settlement - Class Action Rebates",
-    "short_name": "3M Dental Crown Class Action Settlement - Class Action Rebates",
-    "defendant": "3M Dental Crown",
-    "amount": null,
-    "category": "Consumer Protection",
-    "record_type": "Settlement",
-    "year": 2015,
-    "status": "Settlement",
-    "court": null,
-    "court_full": null,
-    "judge": null,
-    "case_number": null,
-    "class_size": null,
-    "fee_award": null,
-    "counsel": null,
-    "description": "Class Eligibility You are a member of the settlement if you are a dentist or dental practice in the U.S. who purchased 3M’s Lava Ultimate Restorative and used the product as a dental crown before June 15, 2015, and at least one of your patients experienced one or more full or partial debonds on or […]",
-    "source": "ClassActionRebates",
-    "source_url": "https://classactionrebates.com/settlements-1/3m-crown-settlement/",
-    "date_added": "2026-10-18",
-    "enriched_at": "2026-10-18",
-    "amount_src": null,
-    "enrich_ver": "4",
-    "dead": null,
-    "claim_deadline": "2020-09-15",
+    "claim_deadline": "2020-08-22",
     "official_url": null,
     "documents": [],
     "links_checked": "2026-10-18",
-    "official_url_dead": "https://www.dentalcrownsettlement.com/Notice",
+    "official_url_dead": "http://www.belfiorewipesettlement.com/",
     "dead_reason": null
   },
   {
-    "id": "verita-tina-seaton-et-al-v-st-stephens-cemetery-association-class-a",
-    "case_name": "Tina Seaton, et al. v. St. Stephen’s Cemetery Association Class Action Settlement",
-    "short_name": "Tina Seaton, et al. v. St. Stephen’s Cemetery Association Class Action Settlement",
-    "defendant": "Tina Seaton, et al. v. St. Stephen’s Cemetery Association",
+    "id": "rg/2-eboni-l-washington-v-navy-federal-credit-union",
+    "case_name": "Eboni L. Washington v. Navy Federal Credit Union",
+    "short_name": "Eboni L. Washington v. Navy Federal Credit Union",
+    "defendant": "Navy Federal Credit Union",
     "amount": null,
     "category": "Consumer Protection",
     "record_type": "Settlement",
     "year": null,
     "status": "Settlement",
-    "court": null,
-    "court_full": null,
+    "court": "Superior Court of the District of Columbia",
+    "court_full": "Superior Court of the District of Columbia",
     "judge": null,
-    "case_number": null,
+    "case_number": "2019 CA 005735 B",
     "class_size": null,
     "fee_award": null,
     "counsel": null,
-    "description": "Settlement indexed from Verita Global. Open the source link for amount, parties, and claim details.",
-    "source": "Verita Global",
-    "source_url": "https://veritaglobal.com/settlement-case/tina-seaton-et-al-v-st-stephens-cemetery-association-class-action-settlement/",
+    "description": "Class-action settlement administered by RG/2 Claims (status: Closed). Open the source link for claim details.",
+    "source": "RG/2 Claims",
+    "source_url": "https://www.rg2claims.com/cases.html",
     "date_added": "2026-10-18",
     "enriched_at": "2026-10-18",
     "amount_src": null,
@@ -458737,14 +458713,14 @@ window.SETTLEMENTS = [
     "dead_reason": null
   },
   {
-    "id": "verita-monk-v-first-federal-bank-of-kansas-city",
-    "case_name": "Monk v. First Federal Bank of Kansas City",
-    "short_name": "Monk v. First Federal Bank of Kansas City",
-    "defendant": "Monk v. First Federal Bank of Kansas City",
+    "id": "strategic-welch",
+    "case_name": "Welch Litigation",
+    "short_name": "Welch Litigation",
+    "defendant": "Welch Litigation",
     "amount": null,
     "category": "Consumer Protection",
     "record_type": "Settlement",
-    "year": null,
+    "year": 2022,
     "status": "Settlement",
     "court": null,
     "court_full": null,
@@ -458753,15 +458729,15 @@ window.SETTLEMENTS = [
     "class_size": null,
     "fee_award": null,
     "counsel": null,
-    "description": "Monk v. First Federal Bank of Kansas City",
-    "source": "Verita Global",
-    "source_url": "https://veritaglobal.com/settlement-case/monk-v-first-federal-bank-of-kansas-city/",
+    "description": "SUPERIOR COURT OF THE STATE OF CALIFORNIA FOR THE COUNTY OF ORANGE DARREN CLEVENGER and DAVID BLOOM, ) on behalf of themselves and the Certified Class, ) No. 30-2022-01298406-CU-BT-CXC Plaintiffs, ) v. ) WELCH FOODS, Inc, and PIM BRANDS, Inc., et al., ) Defendants. ) NOTICE OF PENDING CLASS ACTION This is a Court ordered […]",
+    "source": "Strategic Claims",
+    "source_url": "https://www.strategicclaims.net/case/welch/",
     "date_added": "2026-10-18",
     "enriched_at": "2026-10-18",
     "amount_src": null,
     "enrich_ver": "4",
     "dead": null,
-    "claim_deadline": null,
+    "claim_deadline": "2025-08-28",
     "official_url": null,
     "documents": null,
     "links_checked": "2026-10-18",
